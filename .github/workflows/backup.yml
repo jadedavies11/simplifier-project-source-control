@@ -33,7 +33,7 @@ jobs:
           cd backup
           git rm -r *
           wget ${{ vars.SIMPLIFIER_ADDRESS }} -O export.zip
-          unzip -o export.zip
+          unzip export.zip -x settings.style
           mv export.zip ..
           cd ..
 
