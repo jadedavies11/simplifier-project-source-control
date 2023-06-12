@@ -1,21 +1,27 @@
 ## How to use this implementation guide
 
-This section provides a generated <a href="#P1">site map</a> of this implementation guide. 
+* <a href="#intended-audience">Intended Audience</a> 
+* <a href="#ig-format">Implementation Guide Format and Structure</a> 
+* <a href="#site-map">Site Map</a> 
 
-
+<a id="intended-audience"></a> 
 ## Intended Audience
 
-This section describes the type of audience that the section or page is targeted at (if any) where none is stated then the page should be seen as a general page for every reader.
+This section describes the intended audience for a section or page. Where no intended audience is stated then the page should be seen as a general page for every reader.
 
 |Audience|Description|
 |--
-|Clinical|Someone who is reviewing the implementation guide from a clinical perspective, including clinical safety, clinical pathway and informatics; as a clinical professional involved in initial implementations or further roll-out approaches|
-|Business|Someone who is reviewing the implementation guide from a business process perspective; as a business analyst looking into workflow and the impact on existing business processes|
-|Architect|Someone who is reviewing the implementation guide from an architectural perspective; as a solution architect looking into how this implementation will fit in with existing systems and interfaces |
-|FHIR |Someone who is reviewing the implementation guide from a standards perspective; as a person with FHIR knowledge involved in reviewing the implementation guide for compliancy with the FHIR standard or alignment with other FHIR implementations|
-|Developer|Someone who is reviewing the implementation guide from a development perspective, the developer who will be coding or involved in the building of the API or system|
-|Other|Someone looking into the contents of the implementation guide for any other reason, for example as part of their education or a research project. This type of audience is implied and not shown in the table below.|
+|Clinical|Someone who is reviewing the Implementation Guide from a clinical perspective, including clinical safety, clinical pathway and informatics; as a clinical professional involved in initial implementations or further roll-out approaches.|
+|Business|Someone who is reviewing the Implementation Guide from a business process perspective; as a business analyst looking into workflow and the impact on existing business processes.|
+|Architect|Someone who is reviewing the Implementation Guide from an architectural perspective; as a solution architect looking into how this implementation will fit in with existing systems and interfaces. |
+|FHIR |Someone who is reviewing the Implementation Guide from a standards perspective; as a person with FHIR knowledge involved in reviewing the Implementation Guide for compliancy with the FHIR standard or alignment with other FHIR implementations.|
+|Developer|Someone who is reviewing the Implementation Guide from a development perspective, the developer who will be coding or involved in the building of the API or system.|
+|Other|Someone looking into the contents of the Implementation Guide for any other reason, for example as part of their education or a research project. This type of audience is implied and not shown in the table below.|
 
+<a href="#top">Back to top of page</a>
+
+
+<a id="ig-format"></a> 
 ## Implementation Guide Format and Structure
 
 The table below gives the reader of this implementation guide guidance about the structure of the guide and an indication of the purpose and intended audience of the sections and pages the guide contains. The intended audience is included to illustrate which type of reader the page is primarily aimed at and of course does not exclude other types of readers from reviewing and feeding back to the team producing the implementation guide.   
@@ -36,6 +42,8 @@ Note: not all pages described in the table will be present in every implementati
 ||Guide versioning|Details versioning of implementation guides and what the different stages are, links to a separate guide|Will be present||
 ||Glossary|A glossary of terms and acronyms used, links to a separate guide|Will be present||
 |FHIR Assets||A section that has subpages for each of the FHIR assets, not all FHIR assets are used for all implementations|Will be present|Clinical,Business,Architect,FHIR,Developer|
+||Message Definition|The page will contain the Message Definitions for this implementation guide|May be present|Clinical,Business,Architect,FHIR,Developer|
+||Naming Systems|The page will contain the Naming Systems for this implementation guide|May be present|Clinical,Business,Architect,FHIR,Developer|
 ||Profiles|The page will contain the Profiles for this implementation guide|Will be present|Clinical,Business,Architect,FHIR,Developer|
 ||Extensions|The page will contain the Extensions used by this implementation guide|Will be present|Clinical,Business,Architect,FHIR,Developer|
 ||CodeSystems|The page will contain the CodeSystems for this implementation guide|Will be present|Clinical,Business,Architect,FHIR,Developer|
@@ -81,7 +89,14 @@ Note: not all pages described in the table will be present in every implementati
 |Downloads|This page provides link(s) to download artefacts that may be useful to help with developments such as NPM packages for validation|Will be present|Clinical,Business,Architect,FHIR,Developer|
 |Help and support|This page gives contact details for help and support|Will be present|Clinical,Business,Architect,FHIR,Developer|
 
+<a href="#top">Back to top of page</a>
 
-<h2 id="P1">Site Map</h2>
+<a id="#site-map"></a>
+## Site Map
 
 {{index:root}}
+
+<a href="#top">Back to top of page</a>
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="CPIS-PlanType"/>
+	<url value="https://fhir.nhs.uk/R4/ValueSet/CPIS-PlanType"/>
+	<version value="1.0.0"/>
+	<name value="CPISPlanType"/>
+	<title value="CPIS Plan Type"/>
+	<status value="draft"/>
+	<date value="2021-03-17T00:00:00+00:00"/>
+	<publisher value="NHS Digital"/>
+	<contact>
+		<name value="NHS Digital"/>
+		<telecom>
+			<system value="email"/>
+			<value value="interoperabilityteam@nhs.net"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="A ValueSet to identify the Child Protection Information Sharing (CP-IS) plan type for a child."/>
+		<copyright value="Copyright © 2021 NHS Digital"/>
+	<compose>
+		<include>
+ <system value="https://fhir.nhs.uk/R4/CodeSystem/CPIS-ObservationType"/> 
+  <concept>
+		<code value="CPPI"/>
+		<display value="Child Protection Plan Information"/>
+	</concept>
+	<concept>
+		<code value="LACI"/>
+		<display value="Looked After Child Information"/>
+	</concept>
+	<concept>
+		<code value="UCPI"/>
+		<display value="Unborn Child Plan Information"/>
+	</concept>
+		</include>
+	</compose>
+</ValueSet>

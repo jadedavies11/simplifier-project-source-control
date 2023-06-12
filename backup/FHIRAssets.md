@@ -1,7 +1,17 @@
 ## FHIR Assets
 
-This section lists all the FHIR assets which are available in this Implementation Guide.
+A FHIR asset is a resource type which is defined in the FHIR standard. Constrained versions of these resource types used by this implementation, are listed here.
+ 
+|Conformance|
+|--
+|API|M|
+|DOCUMENT|M|
+|MESSAGE|M|
 
-These Assets are:
-
-{{index:current}}
+|Audience| |
+|--
+|C|Clinical|N|
+|B|Business|N|
+|T|Technical Architect|N|
+|F|FHIR |N|
+|D|Developer|N|

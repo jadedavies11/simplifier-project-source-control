@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="CPIS-ObservationType"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+		<valueUri value="urn:oid:2.16.840.1.113883.2.1.3.2.4.17.469"/>
+	</extension>
+	<url value="https://fhir.nhs.uk/R4/CodeSystem/CPIS-ObservationType"/>
+	<version value="1.0.0"/>
+	<name value="CpisObservationType"/>
+	<title value="CPIS Observation Type"/>
+	<status value="draft"/>
+	<date value="2021-03-17T00:00:00+00:00"/>
+	<publisher value="NHS Digital"/>
+	<contact>
+		<name value="NHS Digital"/>
+		<telecom>
+			<system value="email"/>
+			<value value="interoperabilityteam@nhs.net"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="A set of codes to indicate the type of Child Protection Information Sharing (CP-IS) service observation being made."/>
+	<copyright value="Copyright © 2021 NHS Digital"/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="CPPI"/>
+		<display value="Child Protection Plan Information"/>
+	</concept>
+	<concept>
+		<code value="CPPIU"/>
+		<display value="Child Protection Plan Information Upload"/>
+	</concept>
+	<concept>
+		<code value="CPPSD"/>
+		<display value="Child Protection Plan Start Date"/>
+	</concept>
+	<concept>
+		<code value="CPPED"/>
+		<display value="Child Protection Plan End Date"/>
+	</concept>
+	<concept>
+		<code value="CPPDD"/>
+		<display value="Child Protection Plan Delete Date"/>
+	</concept>
+	<concept>
+		<code value="LACI"/>
+		<display value="Looked After Child Information"/>
+	</concept>
+	<concept>
+		<code value="LACIU"/>
+		<display value="Looked After Child Information Upload"/>
+	</concept>
+	<concept>
+		<code value="LACSD"/>
+		<display value="Looked After Child Start Date"/>
+	</concept>
+	<concept>
+		<code value="LACED"/>
+		<display value="Looked After Child End Date"/>
+	</concept>
+	<concept>
+		<code value="LACDD"/>
+		<display value="Looked After Child Delete Date"/>
+	</concept>
+	<concept>
+		<code value="UCPI"/>
+		<display value="Unborn Child Plan Information"/>
+	</concept>
+	<concept>
+		<code value="UCPIU"/>
+		<display value="Unborn Child Plan Information Upload"/>
+	</concept>
+	<concept>
+		<code value="UCPSD"/>
+		<display value="Unborn Child Plan Start Date"/>
+	</concept>
+	<concept>
+		<code value="UCPED"/>
+		<display value="Unborn Child Plan End Date"/>
+	</concept>
+	<concept>
+		<code value="UCPDD"/>
+		<display value="Unborn Child Plan Delete Date"/>
+	</concept>
+	<concept>
+		<code value="TRAR"/>
+		<display value="Total Returned Access Records"/>
+	</concept>
+	<concept>
+		<code value="TRR"/>
+		<display value="Total Returned Records"/>
+	</concept>
+	<concept>
+		<code value="LAUFI"/>
+		<display value="LA Upload File Id"/>
+	</concept>
+	<concept>
+		<code value="TRCR"/>
+		<display value="Total Returned Child Records"/>
+	</concept>
+	<concept>
+		<code value="CRA"/>
+		<display value="CP-IS Record Access"/>
+	</concept>
+</CodeSystem>

@@ -1,8 +1,3 @@
 ## Build
 
-- {{pagelink:Prescribing}}
-  - {{pagelink: DevelopingPrescriptionOrderMessage}}
-  - {{pagelink:PrescriptionCancellations}}
-- {{pagelink:Dispensing-duplicate-2.md}}
-  - {{pagelink: Dispense-OwingsandPartialDispensing}}
-
+<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> This page is under development by NHS Digital</div>
