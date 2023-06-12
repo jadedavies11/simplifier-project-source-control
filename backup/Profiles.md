@@ -1,15 +1,12 @@
-## Profiles
+#### Profiles
 
-The page lists the profiles used by Child Protection Information Sharing:-
-
-- {{pagelink:AuditEvent}}
-- {{pagelink:Bundle}}
-- {{pagelink:CarePlan}}
-- {{pagelink:Device}}
-- {{pagelink:List}}
-- {{pagelink:Organization}}
-- {{pagelink:Patient}}
-- {{pagelink:Practitioner}}
-- {{pagelink:PractitionerRole}}
-
-
+- {{pagelink:NHSDigital-Claim.md}}
+- [NHSDigital-CommunicationRequest](https://simplifier.net/guide/NHSDigital/Home/FHIRAssets/AllAssets/Profiles/NHSDigital-CommunicationRequest.guide.md)
+- {{pagelink:NHSDigital-MedicationDispense}}
+- {{pagelink: NHSDigital-MedicationRequest.md}}
+- {{pagelink: DM-MedicationRequest-Outcome.md}}
+- {{pagelink: UKCore-List}}
+- [NHSDigital-Patient](https://simplifier.net/guide/NHSDigital/Home/FHIRAssets/AllAssets/Profiles/NHSDigital/NHSDigital-Patient.guide.md)
+- {{pagelink: DM-MedicationRequest-Medication.md}}
+- {{pagelink: DM-MedicationDispense-Medication.md}}
+- {{pagelink: NHSDigital-Task.md}}

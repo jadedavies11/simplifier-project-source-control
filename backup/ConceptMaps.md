@@ -1,5 +1,9 @@
 ## ConceptMaps
 
-This page lists the ConceptMaps used by Child Protection Information Sharing:-
+The following ConceptMaps are defined in this implementation Guide.
 
- - [name-use-v3-npfit](https://simplifier.net/guide/NHSDigital/name-use-v3-npfit)
+|Profile|Description|
+|--
+| {{pagelink:ukcore-prescriptiontypetor4prescriptiontherapytypemap}} | CareConnect/UK Core to Digital Medicine conversion | 
+| {{pagelink:MedicationRequest-course-therapy-type-map}} ||
+| {{pagelink:Prescription-release-rejection-reason-EPS-IssueCode}} || 

@@ -1,3 +1,0 @@
-## Operations
-
-- {{pagelink:OperationDefinitionCPIS-GetBundle}}

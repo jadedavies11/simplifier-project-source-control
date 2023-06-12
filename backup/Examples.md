@@ -1,6 +1,4 @@
 ## Examples
 
-{{index:current}}
-
-
+- {{pagelink:allexamples}}
 
