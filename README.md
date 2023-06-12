@@ -6,6 +6,10 @@ A simple repo that can be forked and configured to download, unpack, commit, cre
 
 A valid Simplifier account.
 
+## Enable actions on fork
+
+When forking a repo it may be necessary to enable actions to run as they are by default set to disabled on fork.  See the github docs on [forking settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories) in regards to actions, and [enabling/disabling](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow) workflows for more details.
+
 ## Schedule to run
 
 The action is set to run hourly by default in the [action file](.github/workflows/backup.yml#L6).  
