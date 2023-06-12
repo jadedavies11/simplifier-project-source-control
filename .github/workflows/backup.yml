@@ -24,7 +24,7 @@ jobs:
 
       - name: Update README
         run: |
-          head -3 README.md > README1.md
+          head -44 README.md > README1.md
           echo "" >> README1.md
           echo "Updated at: $(date)" >> README1.md
           mv README1.md README.md
