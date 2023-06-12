@@ -17,7 +17,7 @@
           "code": "prescription-order-update",
           "display": "Prescription Order Update"
         },
-        "sender": {
+		"sender": {
           "identifier": {
             "system": "https://fhir.nhs.uk/Id/ods-organization-code",
             "value": "A83008"
@@ -28,22 +28,22 @@
           "endpoint": "https://directory.spineservices.nhs.uk/STU3/Organization/A83008"
         },
         "reason": {
-          "coding": [
-            {
-              "system": "https://fhir.nhs.uk/CodeSystem/message-reason-prescription",
-              "code": "cancel",
-              "display": "Cancel"
-            }
-          ]
-        },
+		  "coding":  [
+			{
+			  "system": "https://fhir.nhs.uk/CodeSystem/message-reason-prescription",
+			  "code": "cancel",
+			  "display": "Cancel"
+			}
+		  ]
+		},
         "focus": [
           {
             "reference": "urn:uuid:5cb17f5a-11ac-4e18-825f-6470467238b3"
           },
-          {
+		  {
             "reference": "urn:uuid:56166769-c1c4-4d07-afa8-132b5dfca666"
           },
-          {
+		  {
             "reference": "urn:uuid:78d3c2eb-009e-4ec8-a358-b042954aa9b2"
           }
         ]
@@ -62,7 +62,7 @@
               "display": "Primary Care Prescriber - Medical Prescriber"
             }
           },
-          {
+		  {
             "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation",
             "extension": [
               {
@@ -83,8 +83,8 @@
           }
         ],
         "status": "cancelled",
-        "statusReason": {
-          "coding": [
+		"statusReason": {
+		  "coding": [
             {
               "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-status-reason",
               "code": "0002",
@@ -93,7 +93,7 @@
           ]
         },
         "intent": "instance-order",
-        "category": [
+		"category": [
           {
             "coding": [
               {
@@ -120,7 +120,7 @@
         "requester": {
           "reference": "urn:uuid:56166769-c1c4-4d07-afa8-132b5dfca666"
         },
-        "basedOn": [
+		"basedOn": [
           {
             "extension": [
               {
@@ -192,10 +192,10 @@
               }
             }
           ],
-          "validityPeriod": {
+		  "validityPeriod": {
             "start": "2022-10-21"
           },
-          "numberOfRepeatsAllowed": 0,
+		  "numberOfRepeatsAllowed": 0,
           "quantity": {
             "value": 30,
             "unit": "tablet",
@@ -290,11 +290,11 @@
                 "code": "R8000",
                 "display": "Clinical Practitioner Access Role"
               },
-              {
-                "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
-                "code": "R8000",
-                "display": "Clinical Practitioner Access Role"
-              }
+			  {
+				"system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
+				"code": "R8000",
+				"display": "Clinical Practitioner Access Role"
+			  }
             ]
           }
         ],
@@ -367,7 +367,7 @@
             "value": "0115 9737320"
           }
         ],
-        "address": [
+		"address": [
           {
             "use": "work",
             "type": "both",

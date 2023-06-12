@@ -5,38 +5,38 @@
     "system": "https://tools.ietf.org/html/rfc4122",
     "value": "46183abc-9fad-4673-85db-ce2cb6614732"
   },
-  "timestamp": "2022-10-21T13:48:00+00:00",
+  "timestamp" : "2022-10-21T13:48:00+00:00",
   "type": "message",
   "entry": [
     {
       "fullUrl": "urn:uuid:17773b27-427e-4940-8c16-64cdac715001",
       "resource": {
         "resourceType": "MessageHeader",
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-messageId",
-            "valueIdentifier": {
-              "system": "https://tools.ietf.org/html/rfc4122",
-              "value": "0cb82cfa-76c8-4fb2-a08e-bf0e326e5487"
+		"extension" : [ 
+		  {
+            "url" : "https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-messageId",
+            "valueIdentifier" : {
+              "system" : "https://tools.ietf.org/html/rfc4122",
+              "value" : "0cb82cfa-76c8-4fb2-a08e-bf0e326e5487"
             }
-          }
-        ],
+          } 
+		],
         "eventCoding": {
           "system": "https://fhir.nhs.uk/CodeSystem/message-event",
           "code": "prescription-order-response",
           "display": "Prescription Order Response"
         },
-        "destination": [
-          {
-            "endpoint": "https://directory.spineservices.nhs.uk/STU3/Organization/A83008",
-            "receiver": {
-              "identifier": {
-                "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                "value": "A83008"
+		"destination" : [ 
+		  {
+            "endpoint" : "https://directory.spineservices.nhs.uk/STU3/Organization/A83008",
+            "receiver" : {
+              "identifier" : {
+                "system" : "https://fhir.nhs.uk/Id/ods-organization-code",
+                "value" : "A83008"
               }
             }
-          }
-        ],
+          } 
+		],
         "sender": {
           "identifier": {
             "system": "https://fhir.nhs.uk/Id/ods-organization-code",
@@ -45,12 +45,12 @@
           "display": "NHS Digital Spine"
         },
         "source": {
-          "name": "NHS Spine",
+		  "name" : "NHS Spine",
           "endpoint": "https://internal-dev.api.service.nhs.uk/electronic-prescriptions/$process-message"
         },
-        "response": {
-          "identifier": "d03e713b-e62c-4a2f-964d-d83b68d825a9",
-          "code": "ok"
+		"response" : {
+          "identifier" : "d03e713b-e62c-4a2f-964d-d83b68d825a9",
+          "code" : "ok"
         },
         "focus": [
           {
@@ -72,14 +72,14 @@
               "display": "Primary Care Prescriber - Medical Prescriber"
             }
           },
-          {
-            "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionStatusHistory",
+		  {
+		    "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionStatusHistory",
             "extension": [
               {
                 "url": "status",
                 "valueCoding": {
                   "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-status-history",
-                  "code": "R-0001",
+				  "code": "R-0001",
                   "display": "Prescription/item was cancelled"
                 }
               },
@@ -97,8 +97,8 @@
           }
         ],
         "status": "cancelled",
-        "statusReason": {
-          "coding": [
+		"statusReason": {
+		  "coding": [
             {
               "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-status-reason",
               "code": "0002",
@@ -107,7 +107,7 @@
           ]
         },
         "intent": "order",
-        "category": [
+		"category": [
           {
             "coding": [
               {
@@ -187,7 +187,7 @@
               }
             }
           ],
-          "validityPeriod": {
+		  "validityPeriod": {
             "start": "2022-10-21"
           },
           "quantity": {
@@ -284,11 +284,11 @@
                 "code": "R8000",
                 "display": "Clinical Practitioner Access Role"
               },
-              {
-                "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
-                "code": "R8000",
-                "display": "Clinical Practitioner Access Role"
-              }
+			  {
+				"system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
+				"code": "R8000",
+				"display": "Clinical Practitioner Access Role"
+			  }
             ]
           }
         ],
@@ -361,7 +361,7 @@
             "value": "0115 9737320"
           }
         ],
-        "address": [
+		"address": [
           {
             "use": "work",
             "type": "both",

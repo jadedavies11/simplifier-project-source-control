@@ -12,32 +12,32 @@
       "fullUrl": "urn:uuid:17773b27-427e-4940-8c16-64cdac715001",
       "resource": {
         "resourceType": "MessageHeader",
-        "id": "17773b27-427e-4940-8c16-64cdac715001",
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-messageId",
-            "valueIdentifier": {
-              "system": "https://tools.ietf.org/html/rfc4122",
-              "value": "0cb82cfa-76c8-4fb2-a08e-bf0e326e5487"
+		"id": "17773b27-427e-4940-8c16-64cdac715001",
+		"extension" : [ 
+		  {
+            "url" : "https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-messageId",
+            "valueIdentifier" : {
+              "system" : "https://tools.ietf.org/html/rfc4122",
+              "value" : "0cb82cfa-76c8-4fb2-a08e-bf0e326e5487"
             }
-          }
-        ],
+          } 
+		],
         "eventCoding": {
           "system": "https://fhir.nhs.uk/CodeSystem/message-event",
           "code": "prescription-order-response",
           "display": "Prescription Order Response"
         },
-        "destination": [
-          {
-            "endpoint": "https://directory.spineservices.nhs.uk/STU3/Organization/RBA",
-            "receiver": {
-              "identifier": {
-                "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                "value": "RBA"
+		"destination" : [ 
+		  {
+            "endpoint" : "https://directory.spineservices.nhs.uk/STU3/Organization/RBA",
+            "receiver" : {
+              "identifier" : {
+                "system" : "https://fhir.nhs.uk/Id/ods-organization-code",
+                "value" : "RBA"
               }
             }
-          }
-        ],
+          } 
+		],
         "sender": {
           "identifier": {
             "system": "https://fhir.nhs.uk/Id/ods-organization-code",
@@ -46,12 +46,12 @@
           "display": "NHS Digital Spine"
         },
         "source": {
-          "name": "NHS Spine",
+		  "name" : "NHS Spine",
           "endpoint": "https://internal-dev.api.service.nhs.uk/electronic-prescriptions/$process-message"
         },
-        "response": {
-          "identifier": "d03e713b-e62c-4a2f-964d-d83b68d825a9",
-          "code": "ok"
+        "response" : {
+          "identifier" : "d03e713b-e62c-4a2f-964d-d83b68d825a9",
+          "code" : "ok"
         },
         "focus": [
           {
@@ -64,7 +64,7 @@
       "fullUrl": "urn:uuid:5cb17f5a-11ac-4e18-825f-6470467238b3",
       "resource": {
         "resourceType": "MedicationRequest",
-        "id": "5cb17f5a-11ac-4e18-825f-6470467238b3",
+		"id": "5cb17f5a-11ac-4e18-825f-6470467238b3",
         "extension": [
           {
             "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionType",
@@ -74,14 +74,14 @@
               "display": "Outpatient Community Prescriber - Medical Prescriber"
             }
           },
-          {
-            "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionStatusHistory",
+		  {
+		    "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionStatusHistory",
             "extension": [
               {
                 "url": "status",
                 "valueCoding": {
                   "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-status-history",
-                  "code": "R-0001",
+				  "code": "R-0001",
                   "display": "Prescription/item was cancelled"
                 }
               },
@@ -98,9 +98,9 @@
             "value": "5cb17f5a-11ac-4e18-825f-6470467238b3"
           }
         ],
-        "status": "cancelled",
-        "statusReason": {
-          "coding": [
+		"status": "cancelled",
+		"statusReason": {
+		  "coding": [
             {
               "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-status-reason",
               "code": "0002",
@@ -109,7 +109,7 @@
           ]
         },
         "intent": "order",
-        "category": [
+		"category": [
           {
             "coding": [
               {
@@ -189,7 +189,7 @@
               }
             }
           ],
-          "validityPeriod": {
+		  "validityPeriod": {
             "start": "2022-10-21"
           },
           "quantity": {
@@ -220,7 +220,7 @@
       "fullUrl": "urn:uuid:78d3c2eb-009e-4ec8-a358-b042954aa9b2",
       "resource": {
         "resourceType": "Patient",
-        "id": "78d3c2eb-009e-4ec8-a358-b042954aa9b2",
+		"id": "78d3c2eb-009e-4ec8-a358-b042954aa9b2",
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/nhs-number",
@@ -267,7 +267,7 @@
       "fullUrl": "urn:uuid:56166769-c1c4-4d07-afa8-132b5dfca666",
       "resource": {
         "resourceType": "PractitionerRole",
-        "id": "56166769-c1c4-4d07-afa8-132b5dfca666",
+		"id": "56166769-c1c4-4d07-afa8-132b5dfca666",
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/sds-role-profile-id",
@@ -280,7 +280,7 @@
         "organization": {
           "reference": "urn:uuid:3b4b03a5-52ba-4ba6-9b82-70350aa109d8"
         },
-        "healthcareService": [
+		"healthcareService": [
           {
             "reference": "urn:uuid:54b0506d-49af-4245-9d40-d7d64902055e"
           }
@@ -293,11 +293,11 @@
                 "code": "R8000",
                 "display": "Clinical Practitioner Access Role"
               },
-              {
-                "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
-                "code": "R8000",
-                "display": "Clinical Practitioner Access Role"
-              }
+			  {
+				"system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
+				"code": "R8000",
+				"display": "Clinical Practitioner Access Role"
+			  }
             ]
           }
         ],
@@ -314,7 +314,7 @@
       "fullUrl": "urn:uuid:a8c85454-f8cb-498d-9629-78e2cb5fa47a",
       "resource": {
         "resourceType": "Practitioner",
-        "id": "a8c85454-f8cb-498d-9629-78e2cb5fa47a",
+		"id": "a8c85454-f8cb-498d-9629-78e2cb5fa47a",
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/sds-user-id",
@@ -346,7 +346,7 @@
       "fullUrl": "urn:uuid:3b4b03a5-52ba-4ba6-9b82-70350aa109d8",
       "resource": {
         "resourceType": "Organization",
-        "id": "3b4b03a5-52ba-4ba6-9b82-70350aa109d8",
+		"id": "3b4b03a5-52ba-4ba6-9b82-70350aa109d8",
         "identifier": [
           {
             "system": "https://fhir.nhs.uk/Id/ods-organization-code",
@@ -372,7 +372,7 @@
             "value": "0115 9737320"
           }
         ],
-        "address": [
+		"address": [
           {
             "use": "work",
             "type": "both",
@@ -387,58 +387,58 @@
         ]
       }
     },
-    {
-      "fullUrl": "urn:uuid:54b0506d-49af-4245-9d40-d7d64902055e",
-      "resource": {
-        "resourceType": "HealthcareService",
-        "id": "54b0506d-49af-4245-9d40-d7d64902055e",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-            "value": "A99968"
-          }
-        ],
-        "active": true,
-        "location": [
-          {
-            "reference": "urn:uuid:044e7916-c697-4072-880e-ef44d3032962"
-          }
-        ],
-        "name": "SOMERSET BOWEL CANCER SCREENING CENTRE",
-        "telecom": [
-          {
-            "system": "phone",
-            "value": "01823 333444",
-            "use": "work"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "urn:uuid:044e7916-c697-4072-880e-ef44d3032962",
-      "resource": {
-        "resourceType": "Location",
-        "id": "044e7916-c697-4072-880e-ef44d3032962",
-        "identifier": [
-          {
-            "use": "official",
-            "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-            "value": "RBA11"
-          }
-        ],
-        "status": "active",
-        "mode": "instance",
-        "address": {
-          "use": "work",
-          "line": [
-            "MUSGROVE PARK HOSPITAL"
-          ],
-          "city": "TAUNTON",
-          "postalCode": "TA1 5DA",
-          "country": "NLD"
-        }
-      }
-    }
+	{
+	  "fullUrl": "urn:uuid:54b0506d-49af-4245-9d40-d7d64902055e",
+	  "resource": {
+		"resourceType": "HealthcareService",
+		"id": "54b0506d-49af-4245-9d40-d7d64902055e",
+		"identifier": [
+		  {
+			"use": "official",
+			"system": "https://fhir.nhs.uk/Id/ods-organization-code",
+			"value": "A99968"
+		  }
+		],
+		"active": true,
+		"location": [
+		  {
+			"reference": "urn:uuid:044e7916-c697-4072-880e-ef44d3032962"
+		  }
+		],
+		"name": "SOMERSET BOWEL CANCER SCREENING CENTRE",
+		"telecom": [
+		  {
+			"system": "phone",
+			"value": "01823 333444",
+			"use": "work"
+		  }
+		]
+	  }
+	},
+	{
+	  "fullUrl": "urn:uuid:044e7916-c697-4072-880e-ef44d3032962",
+	  "resource": {
+		"resourceType": "Location",
+		"id": "044e7916-c697-4072-880e-ef44d3032962",
+		"identifier": [
+		  {
+			"use": "official",
+			"system": "https://fhir.nhs.uk/Id/ods-organization-code",
+			"value": "RBA11"
+		  }
+		],
+		"status": "active",
+		"mode": "instance",
+		"address": {
+		  "use": "work",
+		  "line":  [
+			"MUSGROVE PARK HOSPITAL"
+		  ],
+		  "city": "TAUNTON",
+		  "postalCode": "TA1 5DA",
+		  "country": "NLD"
+		}
+	  }
+	}
   ]
 }

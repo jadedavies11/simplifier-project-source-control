@@ -17,15 +17,15 @@
           "code": "prescription-order",
           "display": "Prescription Order"
         },
-        "destination": [
+		"destination": [
           {
             "endpoint": "https://sandbox.api.service.nhs.uk/electronic-prescriptions/$post-message",
             "receiver": {
-              "identifier": {
-                "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                "value": "VNE51"
-              },
-              "display": "The Simple Pharmacy"
+                "identifier": {
+                    "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+                    "value": "VNE51"
+                },
+                "display": "The Simple Pharmacy"
             }
           }
         ],
@@ -39,26 +39,27 @@
         "source": {
           "endpoint": "https://directory.spineservices.nhs.uk/STU3/Organization/A83008"
         },
+        
         "focus": [
           {
             "reference": "urn:uuid:a54219b8-f741-4c47-b662-e4f8dfa49ab6"
           },
-          {
+		  {
             "reference": "urn:uuid:6989b7bd-8db6-428c-a593-4022e3044c00"
           },
-          {
+		  {
             "reference": "urn:uuid:2868554c-5565-4d31-b92a-c5b8dab8b90a"
           },
           {
             "reference": "urn:uuid:5cb17f5a-11ac-4e18-825f-6470467238b3"
           },
-          {
+		  {
             "reference": "urn:uuid:56166769-c1c4-4d07-afa8-132b5dfca666"
           },
-          {
+		  {
             "reference": "urn:uuid:78d3c2eb-009e-4ec8-a358-b042954aa9b2"
           },
-          {
+		  {
             "reference": "urn:uuid:28828c55-8fa7-42d7-916f-fcf076e0c10e"
           }
         ]
@@ -86,7 +87,7 @@
         ],
         "status": "active",
         "intent": "order",
-        "category": [
+		"category": [
           {
             "coding": [
               {
@@ -166,7 +167,7 @@
               }
             }
           ],
-          "validityPeriod": {
+		  "validityPeriod": {
             "start": "2022-10-21"
           },
           "quantity": {
@@ -193,7 +194,7 @@
         }
       }
     },
-    {
+	{
       "fullUrl": "urn:uuid:6989b7bd-8db6-428c-a593-4022e3044c00",
       "resource": {
         "resourceType": "MedicationRequest",
@@ -215,7 +216,7 @@
         ],
         "status": "active",
         "intent": "order",
-        "category": [
+		"category": [
           {
             "coding": [
               {
@@ -295,7 +296,7 @@
               }
             }
           ],
-          "validityPeriod": {
+		  "validityPeriod": {
             "start": "2022-10-21"
           },
           "quantity": {
@@ -322,7 +323,7 @@
         }
       }
     },
-    {
+	{
       "fullUrl": "urn:uuid:2868554c-5565-4d31-b92a-c5b8dab8b90a",
       "resource": {
         "resourceType": "MedicationRequest",
@@ -344,7 +345,7 @@
         ],
         "status": "active",
         "intent": "order",
-        "category": [
+		"category": [
           {
             "coding": [
               {
@@ -424,7 +425,7 @@
               }
             }
           ],
-          "validityPeriod": {
+		  "validityPeriod": {
             "start": "2022-10-21"
           },
           "quantity": {
@@ -473,7 +474,7 @@
         ],
         "status": "active",
         "intent": "order",
-        "category": [
+		"category": [
           {
             "coding": [
               {
@@ -553,7 +554,7 @@
               }
             }
           ],
-          "validityPeriod": {
+		  "validityPeriod": {
             "start": "2022-10-21"
           },
           "quantity": {
@@ -650,11 +651,11 @@
                 "code": "R8000",
                 "display": "Clinical Practitioner Access Role"
               },
-              {
-                "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
-                "code": "R8000",
-                "display": "Clinical Practitioner Access Role"
-              }
+			  {
+				"system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-SDSJobRoleName",
+				"code": "R8000",
+				"display": "Clinical Practitioner Access Role"
+			  }
             ]
           }
         ],
@@ -727,7 +728,7 @@
             "value": "0115 9737320"
           }
         ],
-        "address": [
+		"address": [
           {
             "use": "work",
             "type": "both",
@@ -758,8 +759,8 @@
           {
             "type": "MedicationRequest",
             "identifier": {
-              "system": "https://fhir.nhs.uk/Id/prescription-order-item-number",
-              "value": "a54219b8-f741-4c47-b662-e4f8dfa49ab6"
+                "system": "https://fhir.nhs.uk/Id/prescription-order-item-number",
+                "value": "a54219b8-f741-4c47-b662-e4f8dfa49ab6"
             }
           }
         ],
