@@ -36,7 +36,7 @@ Docs on [creating variables for a respository](https://docs.github.com/en/action
 * COMITTER_NAME
   * Name of user to commit as.
 * SIMPLIFIER_ADDRESS
-  * Address of project - https://api.simplifier.net/<project>/zip
+  * Address of project - e.g. `https://api.simplifier.net/<project>/zip`
   * Docs on project zip [Simplifier API](https://docs.fire.ly/projects/Simplifier/features/api.html#project-zip-api)
 
 ## Configure branches to delete automatically
