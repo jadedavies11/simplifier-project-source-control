@@ -6,9 +6,9 @@ A simple repo that can be forked and configured to download, unpack, commit, cre
 
 A valid Simplifier account.
 
-## Enable actions on fork
+## Enable actions
 
-When forking a repo it may be necessary to enable actions to run as they are by default set to disabled on fork.  See the github docs on [forking settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories) in regards to actions, and [enabling/disabling](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow) workflows for more details.
+The action is disabled in this repo, so must be enabled.  Additionally, when forking a repo, even if an action is enabled in the original repo, it may be necessary to enable actions to run as they are by default set to disabled on fork.  See the github docs on [forking settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories) in regards to actions, and [enabling/disabling](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow) workflows for more details.
 
 ## Schedule to run
 
