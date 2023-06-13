@@ -23,8 +23,8 @@ Docs on [creating secrets for a respository](https://docs.github.com/en/actions/
 ### Secrets to add:
 
 * REPO_TOKEN  
-  * A github token that has privileges to create branches, commit to branches, use workflows and create PR's.  
-  * See github docs on [using PAT tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+  * A GitHub token that has privileges to create branches, commit to branches, use workflows and create PR's.  
+  * See GitHub docs on [using PAT tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 * COMITTER  
   * User to commit as.  
 * SIMPLIFIER_USER  
@@ -42,10 +42,10 @@ Docs on [creating variables for a respository](https://docs.github.com/en/action
   * Name of user to commit as.
 * SIMPLIFIER_ADDRESS
   * Address of project - e.g. `https://api.simplifier.net/<project>/zip`
-  * Docs on project zip [Simplifier API](https://docs.fire.ly/projects/Simplifier/features/api.html#project-zip-api)
+  * See Firely docs on project zip using the [Simplifier API](https://docs.fire.ly/projects/Simplifier/features/api.html#project-zip-api)
 
 ## Configure branches to delete automatically
 
-The action will create and merge a PR into main.  To automatically delete the head branch when the PR is merged, see [github docs](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches) 
+The action will create and merge a PR into main.  To automatically delete the head branch when the PR is merged, see [GitHub docs](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches) 
 
 Updated at: Tue Jun 13 08:12:44 UTC 2023
