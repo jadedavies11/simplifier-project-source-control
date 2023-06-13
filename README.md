@@ -23,7 +23,8 @@ Docs on [creating secrets for a respository](https://docs.github.com/en/actions/
 ### Secrets to add:
 
 * REPO_TOKEN  
-  * A github token that has privileges to create branches, commit to branches and create PR's.  
+  * A github token that has privileges to create branches, commit to branches, use workflows and create PR's.  
+  * See github docs on [using PAT tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 * COMITTER  
   * User to commit as.  
 * SIMPLIFIER_USER  
