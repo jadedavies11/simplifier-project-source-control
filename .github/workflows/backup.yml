@@ -33,6 +33,7 @@ jobs:
 
       - name: Download and commit simplifier source code
         run: |
+          mkdir -p backup
           cd backup
           git rm -r *
           wget --user ${{secrets.SIMPLIFIER_USER}} --password ${{secrets.SIMPLIFIER_PWD}} ${{ vars.SIMPLIFIER_ADDRESS }} -O export.zip
