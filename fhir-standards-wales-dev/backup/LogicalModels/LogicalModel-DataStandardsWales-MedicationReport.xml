@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.nhs.wales/StructureDefinition/LogicalModel-DataStandardsWales-MedicationReport" />
+  <name value="LogicalModelDataStandardsWalesMedicationReport" />
+  <status value="draft" />
+  <fhirVersion value="4.0.1" />
+  <kind value="logical" />
+  <abstract value="false" />
+  <type value="https://fhir/wales.nhs/StructureDefinition/MedicationReport" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element" />
+  <derivation value="specialization" />
+  <differential>
+    <element id="MedicationReport">
+      <path value="MedicationReport" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Element" />
+      </type>
+    </element>
+    <element id="MedicationReport.Patient">
+      <path value="MedicationReport.Patient" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="MedicationReport.Patient.Name">
+      <path value="MedicationReport.Patient.Name" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="HumanName" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/HumanName" />
+      </type>
+    </element>
+    <element id="MedicationReport.Patient.Address">
+      <path value="MedicationReport.Patient.Address" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Address" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Address" />
+      </type>
+    </element>
+    <element id="MedicationReport.Patient.Identifier">
+      <path value="MedicationReport.Patient.Identifier" />
+      <min value="1" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus" />
+      </type>
+    </element>
+    <element id="MedicationReport.Patient.BirthDate">
+      <path value="MedicationReport.Patient.BirthDate" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="date" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/date" />
+      </type>
+    </element>
+    <element id="MedicationReport.Patient.Gender">
+      <path value="MedicationReport.Patient.Gender" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender" />
+      </binding>
+    </element>
+    <element id="MedicationReport.ResponsibleClinician">
+      <path value="MedicationReport.ResponsibleClinician" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="MedicationReport.ResponsibleClinician.Name">
+      <path value="MedicationReport.ResponsibleClinician.Name" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="HumanName" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/HumanName" />
+      </type>
+    </element>
+    <element id="MedicationReport.ResponsibleClinician.Identifier">
+      <path value="MedicationReport.ResponsibleClinician.Identifier" />
+      <short value="Clinician's professional identifier" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="MedicationReport.ResponsibleOrganisation">
+      <path value="MedicationReport.ResponsibleOrganisation" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="MedicationReport.ResponsibleOrganisation.Name">
+      <path value="MedicationReport.ResponsibleOrganisation.Name" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="MedicationReport.ResponsibleOrganisation.Identifier">
+      <path value="MedicationReport.ResponsibleOrganisation.Identifier" />
+      <short value="ODS Code" />
+      <min value="1" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="MedicationReport.ReportedMedications">
+      <path value="MedicationReport.ReportedMedications" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="MedicationReport.ReportedMedications.Medication">
+      <path value="MedicationReport.ReportedMedications.Medication" />
+      <min value="1" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="MedicationReport.ReportedMedications.Medication.AMP_VMP">
+      <path value="MedicationReport.ReportedMedications.Medication.AMP_VMP" />
+      <label value="MHE1.3" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="MedicationReport.ReportedMedications.Medication.Formulation">
+      <path value="MedicationReport.ReportedMedications.Medication.Formulation" />
+      <label value="MHE1.3" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationForm" />
+      </binding>
+    </element>
+    <element id="MedicationReport.ReportedMedications.Medication.RouteOfAdministration">
+      <path value="MedicationReport.ReportedMedications.Medication.RouteOfAdministration" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-SubstanceOrProductAdministrationRoute" />
+      </binding>
+    </element>
+    <element id="MedicationReport.ReportedMedications.Medication.Frequency">
+      <path value="MedicationReport.ReportedMedications.Medication.Frequency" />
+      <label value="MHE1.3" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Timing" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Timing" />
+      </type>
+    </element>
+    <element id="MedicationReport.ReportedMedications.Medication.RemainingCourseLength">
+      <path value="MedicationReport.ReportedMedications.Medication.RemainingCourseLength" />
+      <label value="MHE1.3" />
+      <comment value="Can be represented in dosage.timing.&#xA;Could accommodate this in the dosage instructions &amp; text" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Timing" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Timing" />
+      </type>
+    </element>
+    <element id="MedicationReport.Recorded">
+      <path value="MedicationReport.Recorded" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="dateTime" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
