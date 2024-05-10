@@ -1,1 +1,0 @@
-{{pagelink:Home/Guidance/Medications/Scenario-1/Index.page.md, text: Medication List and Medication Statement Usage Scenarios}}
