@@ -36,6 +36,19 @@ A list of sites that are used by NHS Wales to assist in the development and publ
 </div>
 
 
+### NHS Wales - Other FHIR Projects
+
+A list of other national FHIR Projects in NHS Wales not defined in this Implementation Guide.
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 card">
+            <h4><b><a href="https://simplifier.net/guide/fhir-psom-wales?version=1.0.0-rc2" alt="FHIR PSOM Wales" target="_blank">FHIR PSOM Wales</a></b></h4>
+            <p>This repository contains HL7 FHIR R4 compliant profiles and related conformance materials for the PROMs Standard Operating Model (PSOM) by the NHS Wales.</p>
+        </div>
+    </div>
+</div>
+
 
 ### UK Core
 
