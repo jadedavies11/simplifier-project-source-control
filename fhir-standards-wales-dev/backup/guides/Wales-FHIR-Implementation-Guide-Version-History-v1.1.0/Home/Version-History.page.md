@@ -1,6 +1,8 @@
 ## Wales FHIR Implementation Guide Version History
 
-Implementation Guide version history is provided in the table below:
+Implementation Guide version history is provided in the table below. 
+
+For a more detailed description of the changes please refer to the relevant version in [Release Notes](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-v1.1.0/Home/Help-and-Support/Release-Notes.page.md?version=current).
 
 <table class="table table-striped">
 	<thead>
