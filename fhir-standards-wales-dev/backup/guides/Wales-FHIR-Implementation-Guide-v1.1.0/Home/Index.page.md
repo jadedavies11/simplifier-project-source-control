@@ -111,7 +111,24 @@ These pages contain guidance on the following areas:
 	</tr>
 	<tr>
 	  <td scope="row">{{pagelink:DataStandardsWales-Endpoint}}  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
-	  <td>{{pagelink:DataStandardsWales-Immunization}}  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></div></td>
+	  <td>{{pagelink:DataStandardsWales-Immunization}}  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
 	</tr>
+	<tr>
+		<td scope="row">{{pagelink:DataStandardsWales-Device}}  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
+    </tr>
   </tbody>
 </table>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col" span="33">Security and Privacy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">{{pagelink:DataStandardsWales-Provenance}} <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
+    </tr>
+  </tbody>
+</table>
+ 

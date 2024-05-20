@@ -3,6 +3,7 @@
 The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-AllergyIntolerance}}
 * {{pagelink:DataStandardsWales-AllergyList}}
+* {{pagelink:DataStandardsWales-Device}}
 * {{pagelink:DataStandardsWales-DiagnosticReport}}
 * {{pagelink:DataStandardsWales-DiagnosticReport-Lab}}
 * {{pagelink:DataStandardsWales-Dosage}}
@@ -23,5 +24,6 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-Patient}}
 * {{pagelink:DataStandardsWales-Practitioner}}
 * {{pagelink:DataStandardsWales-PractitionerRole}}
+* {{pagelink:DataStandardsWales-Provenance}}
 * {{pagelink:DataStandardsWales-ServiceRequest}}
 * {{pagelink:DataStandardsWales-Specimen}}
