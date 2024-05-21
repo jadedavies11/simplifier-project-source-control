@@ -2,7 +2,6 @@
 
 Implementation Guide version history is provided in the table below. 
 
-For a more detailed description of the changes please refer to the relevant version in [Release Notes](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-v1.1.0/Home/Help-and-Support/Release-Notes.page.md?version=current).
 
 <table class="table table-striped">
 	<thead>
@@ -13,10 +12,25 @@ For a more detailed description of the changes please refer to the relevant vers
 			<th scope="col">UK Core Version</th>
 			<th scope="col">Description</th>
 			<th scope="col">Guide</th>
+			<th scope="col">Release Note</th>
 			<th scope="col">Package</th>
 		</tr>
 	</thead>
 	<tbody>
+		<tr>
+			<td scope="row">24/05/2024</td>
+			<td>1.1.0 - STU1</td>
+			<td>4.0.1</td>
+			<td>1.0.0</td>
+			<td>XXX</td>
+			<td>
+				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.1.0">Home Page</a>
+			</td>
+			<td><a href="https://simplifier.net/guide/fhir-Implementation-Guide/Home/Help-and-Support/Release-Notes?version=1.1.0">Release Notes</a></td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/1.1.0">fhir.r4.wales 1.1.0</a>
+			</td>
+		</tr>
 		<tr>
 			<td scope="row">05/12/2023</td>
 			<td>1.0.1 - STU1</td>
@@ -26,6 +40,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.0.1">Home Page</a>
 			</td>
+			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=1.0.1">Release Notes</a></td></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/1.0.1">fhir.r4.wales 1.0.1</a>
 			</td>
@@ -39,6 +54,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.0.0">Home Page</a>
 			</td>
+			<td></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/1.0.0">fhir.r4.wales 1.0.0</a>
 			</td>
@@ -52,6 +68,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.0.0-prerelease">Home Page</a>
 			</td>
+			<td></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/1.0.0-prerelease">fhir.r4.wales 1.0.0-prerelease</a>
 			</td>
@@ -65,6 +82,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=0.1.1-ballot">Home Page</a>
 			</td>
+			<td></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/0.1.1-ballot">fhir.r4.wales 0.1.1-ballot</a>
 			</td>
@@ -76,6 +94,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>1.0.0</td>
 			<td>First release of NHS Wales for Ballot containing updates following extensive development since February 2023.</td>
 			<td>Withdrawn</td>
+			<td></td>
 			<td>Unlisted</td>
 		</tr>
 		<tr>
@@ -87,6 +106,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=0.0.5-discovery">Home Page</a>
 			</td>
+			<td></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.discovery/0.0.5">fhir.r4.wales 0.0.5-discovery</a>
 			</td>
@@ -100,6 +120,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=0.0.4-discovery">Home Page</a>
 			</td>
+			<td></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.discovery/0.0.4">fhir.r4.wales 0.0.4-discovery</a>
 			</td>
@@ -113,6 +134,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=0.0.3-discovery">Home Page</a>
 			</td>
+			<td></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.discovery/0.0.3">fhir.r4.wales 0.0.3-discovery</a>
 			</td>
@@ -126,6 +148,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=0.0.2-discovery">Home Page</a>
 			</td>
+			<td></td>
 			<td>Not Released</td>
 		</tr>
 		<tr>
@@ -137,6 +160,7 @@ For a more detailed description of the changes please refer to the relevant vers
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=0.0.1-discovery">Home Page</a>
 			</td>
+			<td></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.discovery/0.0.1">fhir.r4.wales 0.0.1-discovery</a>
 			</td>
