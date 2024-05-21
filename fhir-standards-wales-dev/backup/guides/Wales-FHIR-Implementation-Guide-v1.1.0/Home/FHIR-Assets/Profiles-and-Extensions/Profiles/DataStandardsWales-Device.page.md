@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [Device](https://www.hl7.org/fhir/r4/device.html) profile captures the type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.
 
-The {{page-title}} profile is derived from the [HL7 FHIR UK Core R4](https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales. (add note that UK Core profile is a draft and under development)
+The {{page-title}} profile is derived from the draft  [HL7 FHIR UK Core R4](https://simplifier.net/hl7fhirukcorer4/ukcore-device) and is listed as experimental. It defines additional rules for use within health and care organisations in Wales. 
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device}}
 
@@ -36,26 +36,6 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   <div id="tabeg" class="tabcontent">
   </div>
 </div>
-
-
-
-### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
- 
-**Each Device must have:**
-1. The name of the device
-1. The type of deviceName
-1. The standard that is used to operate and communicate
-1. The version text
-1. Code that specifies the property DeviceDefinitionPropetyCode
-1. Who signed
-
-**Each Device must support:**
-
-1. 
-
-### Implementation Guidance (do we require this?)
-* 
 
 
 

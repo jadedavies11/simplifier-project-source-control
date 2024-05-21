@@ -2,7 +2,7 @@
 The NHS Wales FHIR Implementation Guide uses three levels of stability and implementation readiness to guide users. They are as follows:
 <br>
 ### Active
-This content has been reviewed and is considered by the authors to be ready for use in production systems. It has been subjected to assurance and approved as an official standard. However, it may not yet have seen widespread use in production across the full spectrum of environments it is intended to be used in. In some cases, there may be documented known issues that require implementation experience to determine appropriate resolutions for.
+This content has been reviewed and is considered by the authors to be ready for use in production systems. It has been subjected to assurance and approved as an official standard. However, it may not yet have seen widespread use in production across the full spectrum of environments ias is intended. In some cases, there may be documented known issues that require implementation experience to determine appropriate resolutions.
 Future versions of FHIR may make significant changes to Active Trial Use content that are not compatible with previously published content. For more details on Standards for Trial Use, see the [HL7 standard development pattern](https://www.hl7.org/fhir/R4/versions.html).
 <br>
 ### Draft

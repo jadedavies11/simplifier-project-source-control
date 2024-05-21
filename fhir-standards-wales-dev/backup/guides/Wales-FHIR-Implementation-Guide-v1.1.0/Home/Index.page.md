@@ -1,6 +1,12 @@
-# Wales FHIR Implementation Guide v1.0.1 STU1 <a class="btn btn-primary justify-content-md-center" href="#resourceindex" role="button" background-color="21305f">Scroll to resource index</a>
+---
+igversion: 1.1.0
+---
 
-<div class="warning"><b>Important:</b> This is the v1.0.1 Standard for Trial use (STU1) release of the Data Standards Wales FHIR Implementation Guide. Please be aware that these pages refer to a mixture of active/draft/experimental assets as well as clinical scenarios that are undergoing review.</div>
+# Wales FHIR Implementation Guide v{{variable: igversion}} STU1 <a class="btn btn-primary justify-content-md-center" href="#resourceindex" role="button" background-color="21305f">Scroll to resource index</a>
+
+<div class="warning"><b>Important:</b> This is the v{{variable: igversion}} Standard for Trial use (STU1) release of the Data Standards Wales FHIR Implementation Guide. Please be aware that these pages refer to a mixture of active/draft/experimental assets as well as clinical scenarios that are undergoing review.</div>
+
+
 
 ## Project Description and Scope
 
@@ -119,10 +125,10 @@ These pages contain guidance on the following areas:
   </tbody>
 </table>
 
-<table class="table table-striped">
+<table class="table table-striped" style="width:33%">
   <thead>
     <tr>
-      <th scope="col" span="33">Security and Privacy</th>
+      <th scope="col">Security and Privacy</th>
     </tr>
   </thead>
   <tbody>
@@ -131,4 +137,3 @@ These pages contain guidance on the following areas:
     </tr>
   </tbody>
 </table>
- 
