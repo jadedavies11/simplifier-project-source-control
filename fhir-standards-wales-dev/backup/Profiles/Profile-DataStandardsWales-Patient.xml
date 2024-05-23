@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Patient" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
-  <version value="1.0.0" />
+  <version value="1.1.0" />
   <name value="DataStandardsWalesPatient" />
   <title value="Data Standards Wales Patient" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2023-08-02" />
+  <date value="2024-05-24" />
   <publisher value="NHS Wales" />
   <copyright value="2023 NHS Wales." />
   <fhirVersion value="4.0.1" />
@@ -17,17 +17,21 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient" />
   <derivation value="constraint" />
   <differential>
-    <element id="Patient.extension:deathNotificationStatus">
+    <element id="Patient.extension">
       <path value="Patient.extension" />
-      <sliceName value="deathNotificationStatus" />
-    </element>
-    <element id="Patient.extension:deathNotificationStatus.extension">
-      <path value="Patient.extension.extension" />
-      <min value="1" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
     </element>
     <element id="Patient.extension:ethnicCategory">
       <path value="Patient.extension" />
       <sliceName value="ethnicCategory" />
+      <min value="0" />
       <mustSupport value="true" />
     </element>
     <element id="Patient.extension:religion">
@@ -35,6 +39,7 @@
       <sliceName value="religion" />
       <short value="Patient religion" />
       <definition value="A code to indicate the patient's religion" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -50,6 +55,7 @@
     <element id="Patient.extension:occupation">
       <path value="Patient.extension" />
       <sliceName value="occupation" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -61,21 +67,22 @@
       <path value="Patient.extension.value[x]" />
       <min value="1" />
     </element>
-    <element id="Patient.extension:CdrPatientRecordType">
+    <element id="Patient.extension:cdrPatientRecordType">
       <path value="Patient.extension" />
-      <sliceName value="CdrPatientRecordType" />
+      <sliceName value="cdrPatientRecordType" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/ExtensionDataStandardsWalesCdrPatientRecordType" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-CDRPatientRecordType" />
       </type>
       <isModifier value="false" />
     </element>
-	<element id="Patient.extension:CdrSourceTimestamp">
+    <element id="Patient.extension:cdrSourceTimestamp">
       <path value="Patient.extension" />
-      <sliceName value="CdrSourceTimestamp" />
+      <sliceName value="cdrSourceTimestamp" />
+	  <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-CDR-SourceTimestamp" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-CDRSourceTimestamp" />
       </type>
       <isModifier value="false" />
     </element>
@@ -300,14 +307,6 @@
     <element id="Patient.address">
       <path value="Patient.address" />
       <mustSupport value="true" />
-    </element>
-    <element id="Patient.address.extension:addressKey">
-      <path value="Patient.address.extension" />
-      <sliceName value="addressKey" />
-    </element>
-    <element id="Patient.address.extension:addressKey.extension">
-      <path value="Patient.address.extension.extension" />
-      <min value="2" />
     </element>
     <element id="Patient.address.postalCode">
       <path value="Patient.address.postalCode" />

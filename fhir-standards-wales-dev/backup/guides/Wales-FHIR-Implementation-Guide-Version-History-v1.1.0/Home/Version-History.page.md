@@ -22,7 +22,7 @@ Implementation Guide version history is provided in the table below.
 			<td>1.1.0 - STU1</td>
 			<td>4.0.1</td>
 			<td>1.0.0</td>
-			<td>XXX</td>
+			<td>This is a minor release to support the demographics work being undertaken in the CDR and general quality improvements.</td>
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.1.0">Home Page</a>
 			</td>

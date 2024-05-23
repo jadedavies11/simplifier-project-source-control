@@ -8,6 +8,8 @@
   filename: ValueSet-DataStandardsWales-MaritalStatus.page.md
 - name: ValueSet-DataStandardsWales-Occupation
   filename: ValueSet-DataStandardsWales-Occupation.page.md
+- name: ValueSet-DataStandardsWales-PatientRecordType
+  filename: ValueSet-DataStandardsWales-PatientRecordType.page.md
 - name: ValueSet-DataStandardsWales-Religion
   filename: ValueSet-DataStandardsWales-Religion.page.md
 - name: ValueSet-DataStandardsWales-Sex

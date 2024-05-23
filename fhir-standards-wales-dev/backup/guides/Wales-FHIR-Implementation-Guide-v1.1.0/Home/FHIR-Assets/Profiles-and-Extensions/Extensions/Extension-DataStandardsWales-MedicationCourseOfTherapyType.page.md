@@ -7,7 +7,7 @@ An extension to carry an indicator of the overall pattern of medication administ
 This extension extends the MedicationStatement resource to carry an indicator of the overall pattern of medication administration at the MedicationStatement level (e.g. repeat or acute). This provides addition context to a clinician reviewing a list of patient medications to determine the reason why a patient is taking  a medication. 
 
 ### Context of Use
-This extension may be used on the following element(s):
+This extension may be used on the following profile(s):
 * MedicationStatement
 
 ### Formal Views of Extension Content
