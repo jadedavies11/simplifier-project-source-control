@@ -4,6 +4,8 @@
   filename: CodeSystem-DataStandardsWales-GenderIdentity.page.md
 - name: CodeSystem-DataStandardsWales-MaritalStatus
   filename: CodeSystem-DataStandardsWales-MaritalStatus.page.md
+- name: CodeSystem-DataStandardsWales-PatientRecordType
+  filename: CodeSystem-DataStandardsWales-PatientRecordType.page.md
 - name: CodeSystem-DataStandardsWales-Sex
   filename: CodeSystem-DataStandardsWales-Sex.page.md
 - name: CodeSystem-DataStandardsWales-Title

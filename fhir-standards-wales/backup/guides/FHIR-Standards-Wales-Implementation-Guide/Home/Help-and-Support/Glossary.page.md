@@ -39,6 +39,14 @@
 			</td>
 		</tr>
 		<tr>
+			<td scope="row">Care Data Repository</td>
+			<td>CDR</td>
+			<td>A central hub for clinical data in Wales</td>
+			<td>
+				<a href="https://dhcw.nhs.wales/national-data-resource/care-data-repository-cdr/">CDR Homepage</a>
+		</tr>
+		<tr>	
+				<a href="https://cavuhb.nhs.wales/">CAVUHB Homepage</a>
 			<td scope="row">Cwm Taf Morgannwg University Health Board</td>
 			<td>CTMUHB</td>
 			<td>An NHS Wales University Health Board</td>

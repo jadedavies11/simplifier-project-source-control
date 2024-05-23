@@ -2,6 +2,8 @@
   filename: Index.page.md
 - name: Overview
   filename: Overview.page.md
+- name: Draft and Experimental Profiles
+  filename: Draft-and-Experimental-Profiles.page.md
 - name: Formal Views of Profile Content
   filename: Formal-Views-of-Profile-Content.page.md
 - name: Mandatory and Must Support Data Elements
