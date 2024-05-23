@@ -7,7 +7,7 @@ An extension to capture the patients religion.
 This extension extends the Patient resource to capture the patients' religion.
 
 ### Context of Use
-This extension may be used on the following element(s):
+This extension may be used on the following profile(s):
 * Patient
 
 ### Formal Views of Extension Content

@@ -4,10 +4,10 @@
 An extension to capture Demographics details recorded as at the time of the care record change.
 
 ### Purpose
-This extension extends the Provenance resource to capture Demographics details recorded as at the time of the care record change.
+This extends the Provenance resource to capture Demographics details recorded as at the time of the care record change. This will be used to ensure that patient record items are assigned to the correct patient record within the Care Data Repository.
 
 ### Context of Use
-This extension may be used on the following element(s):
+This extension may be used on the following profile(s):
 * Provenance
 
 ### Formal Views of Extension Content
