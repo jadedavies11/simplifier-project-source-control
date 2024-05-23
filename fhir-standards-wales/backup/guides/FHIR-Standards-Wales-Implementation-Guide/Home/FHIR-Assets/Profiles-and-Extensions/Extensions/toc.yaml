@@ -6,3 +6,9 @@
   filename: Extension-DataStandardsWales-Occupation.page.md
 - name: Extension-DataStandardsWales-Religion
   filename: Extension-DataStandardsWales-Religion.page.md
+- name: Extension-DataStandardsWales-DemographicsAsRecorded
+  filename: Extension-DataStandardsWales-DemographicsAsRecorded.page.md
+- name: Extension-DataStandardsWales-CDRSourceTimestamp
+  filename: Extension-DataStandardsWales-CDRSourceTimeStamp.page.md
+- name: Extension-DataStandardsWales-CDRPatientRecordType
+  filename: Extension-DataStandardsWales-CDRPatientRecordType.page.md

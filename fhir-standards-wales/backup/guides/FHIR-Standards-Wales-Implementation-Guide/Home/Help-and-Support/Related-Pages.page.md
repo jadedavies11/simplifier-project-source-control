@@ -32,9 +32,13 @@ A list of sites that are used by NHS Wales to assist in the development and publ
             <h4><b><a href=https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/ alt="NHS Wales Simplifier Version History Implementation Guide" target="_blank">NHS Wales Simplifier Version History Implementation Guide</a></b></h4>
             <p>This implementation guide lists all current and previously published versions of the main NHS Wales FHIR Implementation Guide. Use this link to easily navigate to the latest version.</p>
         </div>
+        <div class="col-md-7 card">
+            <h4><b><a href="https://simplifier.net/FHIR-PSOM-Wales/~introduction" alt="FHIR PSOM Wales Project Page" target="_blank">FHIR PSOM Wales Project Page</a></b></h4>
+            <p>All of the relevant profiles and related conformance materials for the PROMs Standard Operating Model (PSOM) by the NHS Wales can be found here.</p>
+            </div>
+        </div>
     </div>
 </div>
-
 
 
 ### UK Core

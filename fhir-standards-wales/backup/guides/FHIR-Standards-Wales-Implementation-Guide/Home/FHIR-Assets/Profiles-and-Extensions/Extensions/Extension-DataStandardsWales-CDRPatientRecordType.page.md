@@ -1,10 +1,10 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to capture the patients occupation
+An extension to capture an indicator for the type of patient record.
 
 ### Purpose
-This extension extends the Patient resource to capture the patients occupation.
+This extends the Patient resource to capture an indicator for the type of patient record.  This will be used to ensure that patient record items are assigned to the correct patient record within the Care Data Repository.
 
 ### Context of Use
 This extension may be used on the following profile(s):
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Occupation, snapshot}}
+      {{tree:ExtensionDataStandardsWalesCdrPatientRecordType, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

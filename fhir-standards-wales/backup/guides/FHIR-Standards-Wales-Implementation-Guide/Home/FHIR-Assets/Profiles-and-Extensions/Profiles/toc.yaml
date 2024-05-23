@@ -48,5 +48,9 @@
   filename: DataStandardsWales-ServiceRequest.page.md
 - name: DataStandardsWales-Specimen
   filename: DataStandardsWales-Specimen.page.md
+- name: DataStandardsWales-Provenance
+  filename: DataStandardsWales-Provenance.page.md
+- name: DataStandardsWales-Device
+  filename: DataStandardsWales-Device.page.md
 - name: Examples
   filename: Examples
