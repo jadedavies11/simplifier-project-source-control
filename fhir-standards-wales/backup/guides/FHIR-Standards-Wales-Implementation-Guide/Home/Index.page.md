@@ -10,40 +10,40 @@ igversion: 1.1.0
 
 ## Project Description and Scope
 
-<div class="container-fluid">
-<div class="row">
-	<div class="col">
+<div class="container">
+<div class="col" style="width:100%">
+	<div class="row justify-content-around">
+  <div class="col-md-10">
 This Implementation Guide contains the HL7 FHIR R4 standards for use by Health and Care organisations in Wales. The Data Standard Wales profiles have been developed with NHS Wales systems in mind and are derived from the UK Core STU1 v1.0.0 release. All relevant NHS Wales Data Standards have been implemented as appropriate.
-<br></br>
+</div>
+<div class="col-md-14">
 These pages contain guidance on the following areas:
-<br></br>
-
 <ul class="list-group">
 <li>FHIR resource profiles and extensions</li>
 <li>FHIR terminology components including ValueSets, CodeSystems and ConceptMaps</li>
 <li>Example FHIR resources</li>
 <li>Other general guidance useful to FHIR implementers in Wales</li>
 </ul>
-
 </div>
-	<div class="col">
-			<div class="col-md-7 card text-center ">
-  <div class="card-body">
+</div>
+	<div class="row justify-content-around">
+			<div class="col-md-7 col-sm-4">
+<div class="card text-center card-body">
     <h4 class="card-title"><b>{{pagelink:Home/Help-and-Support/Related-Pages.page.md,text: Related Pages}}</b></h4>
     <p class="card-text">Links related to NHS Wales FHIR development and UK Core</p>
+  </div>
 	</div>
-	</div>
-			<div class="col-md-7 card text-center">
-  <div class="card-body">
+			<div class="col-md-7 col-sm-4" >
+  <div class="card text-center card-body">
     <h4 class="card-title"><b>{{pagelink:Home/Help-and-Support/Version-Control-and-Ballot-Process.page.md}}</b></h4>
     <p class="card-text">Outline of how active, draft, and experimental resources should be handled by implementers</p>
 				</div>
-				</div>
-				<div class="col-md-7 card text-center">
-				  <div class="card-body">
-    <h4 class="card-title"><b>{{pagelink:Home/Help-and-Support/Help-and-Support.page.md,text: Help and Support}}</b></h4>
+        </div>
+				<div class="col-md-7 col-sm-4">
+        <div class="card text-center card-body">
+    <h4 class="card-title"><b>{{pagelink:Help-and-Support,text: Help and Support}}</b></h4>
     <p class="card-text">For suggestions or queries, please email Data Standards Wales using the link on this page</p>
-		</div>
+    </div>
 			</div>
 			</div>
 		</div>
@@ -51,7 +51,7 @@ These pages contain guidance on the following areas:
 
 ### Resource Index <a id="resourceindex"></a>
 
-<table class="table table-striped">
+<table class="table table-striped" style="width:100%">
   <thead>
     <tr>
       <th scope="col">People</th>
