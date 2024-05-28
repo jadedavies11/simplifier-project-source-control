@@ -33,7 +33,7 @@ Guide:
   
 * Added definitions for Active, Draft and Experimental to {{pagelink:Home/Introduction/Profile-Descriptions,text:Introduction-Profile Descriptions}}
 * Added a link for FHIR PSOM Wales Project Page to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
-* Updated [Wales FHIR Implementation Guide Version History](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History-v1.1.0/Home/Version-History.page.md?version=1.1.0) to include links to respective Release Notes.
+* Updated [Wales FHIR Implementation Guide Version History](https://simplifier.net/guide/wales-fhir-implementation-guide-version-history) to include links to respective Release Notes.
 
 
 ### v1.0.1 STU1
