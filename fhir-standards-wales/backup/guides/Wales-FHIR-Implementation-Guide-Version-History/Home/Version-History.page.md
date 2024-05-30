@@ -26,7 +26,7 @@ Implementation Guide version history is provided in the table below.
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.1.0">Home Page</a>
 			</td>
-			<td><a href="https://simplifier.net/guide/fhir-Implementation-Guide/Home/Help-and-Support/Release-Notes?version=1.1.0">Release Notes</a></td>
+			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=1.1.0">Release Notes</a></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/1.1.0">fhir.r4.wales 1.1.0</a>
 			</td>
