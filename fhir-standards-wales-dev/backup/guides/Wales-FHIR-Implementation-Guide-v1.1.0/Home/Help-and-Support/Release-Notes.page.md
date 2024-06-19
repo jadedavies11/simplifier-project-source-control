@@ -23,6 +23,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Value Sets}}:
     * New Value Sets
         * DataStandardsWales-ProvenanceActivity
+        * DataStandardsWales-PatientRecordType
 
  * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}:
     * Corrected oid references. Changed from 2.16.840.1.113883.2.1.8.1.5.nnn to 2.16.840.1.113883.2.1.8.1.3.nnn    
