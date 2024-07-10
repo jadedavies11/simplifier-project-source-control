@@ -18,6 +18,20 @@ Implementation Guide version history is provided in the table below.
 	</thead>
 	<tbody>
 		<tr>
+			<td scope="row">10/07/2024</td>
+			<td>1.1.1 - STU1</td>
+			<td>4.0.1</td>
+			<td>1.0.0</td>
+			<td>This is a minor release to support the demographics work being undertaken in the CDR.</td>
+			<td>
+				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.1.1">Home Page</a>
+			</td>
+			<td><a href="https://simplifier.net/guide/fhir-Implementation-Guide/Home/Help-and-Support/Release-Notes?version=1.1.1">Release Notes</a></td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/1.1.1">fhir.r4.wales 1.1.0</a>
+			</td>
+		</tr>
+		<tr>
 			<td scope="row">24/05/2024</td>
 			<td>1.1.0 - STU1</td>
 			<td>4.0.1</td>
