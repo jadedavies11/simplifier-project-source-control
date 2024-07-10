@@ -4,7 +4,7 @@
 An extension to capture an indicator for the type of patient record.
 
 ### Purpose
-This extends the Patient resource to capture an indicator for the type of patient record.  This will be used to ensure that patient record items are assigned to the correct patient record within the Care Data Repository.
+This extension is intended for use within the Care Data Repository, and extends the Patient resource to capture an indicator for the type of patient record. This indicator is used in the management of patient demographics and identity within the Care Data Repository.
 
 ### Context of Use
 This extension may be used on the following profile(s):

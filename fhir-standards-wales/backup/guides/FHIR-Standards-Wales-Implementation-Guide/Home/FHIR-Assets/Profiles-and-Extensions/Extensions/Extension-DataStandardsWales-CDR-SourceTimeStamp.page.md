@@ -4,7 +4,7 @@
 An extension to carry a timestamp for when a record has been updated.
 
 ### Purpose
-This extends the Patient resource to carry a timestamp for when a record has been updated in the underlying source system.  This will be used to ensure that patient record items are assigned to the correct patient record within the Care Data Repository.
+This extension is intended for use within the Care Data Repository, and extends the Patient resource to record a timestamp that shows when the demographic record was last updated at source. This timestamp is used in the management of patient demographics and identity within the Care Data Repository.
 
 ### Context of Use
 This extension may be used on the following profile(s):

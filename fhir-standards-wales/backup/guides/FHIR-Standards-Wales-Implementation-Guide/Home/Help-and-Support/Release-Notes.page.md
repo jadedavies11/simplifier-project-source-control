@@ -2,6 +2,24 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v1.1.1 STU1
+Package:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
+    * Changes to Profiles
+        * DataStandardsWales-Provenance   
+            * Updated references to use Data Standards Wales profiles     
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+    * Changes to Extensions
+        * DataStandardsWales-DemographicsAsRecorded
+            * Renamed the DOB extension to birtDate 
+            * Updated the extension URL
+            * Updated the items within the extension URLs
+        * DataStandardsWales-CDRPatientRecordType
+            * Updated the name of the extension
+        * DataStandardsWales-CDRSourceTimestamp
+            * Updated the name of the extension
+
+
 ### v1.1.0 STU1
 
 Package: 
@@ -23,6 +41,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Value Sets}}:
     * New Value Sets
         * DataStandardsWales-ProvenanceActivity
+        * DataStandardsWales-PatientRecordType
 
  * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}:
     * Corrected oid references. Changed from 2.16.840.1.113883.2.1.8.1.5.nnn to 2.16.840.1.113883.2.1.8.1.3.nnn    
