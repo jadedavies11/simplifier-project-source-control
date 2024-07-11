@@ -1,5 +1,5 @@
 ---
-igversion: 1.1.0
+igversion: 1.1.1
 ---
 
 # Wales FHIR Implementation Guide v{{variable: igversion}} STU1 <a class="btn btn-primary justify-content-md-center" href="#resourceindex" role="button" background-color="21305f">Scroll to resource index</a>
