@@ -11,13 +11,16 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
     * Changes to Extensions
         * DataStandardsWales-DemographicsAsRecorded
-            * Renamed the DOB extension to birtDate 
+            * Renamed the DOB extension to birthDate 
             * Updated the extension URL
             * Updated the items within the extension URLs
         * DataStandardsWales-CDRPatientRecordType
             * Updated the name of the extension
         * DataStandardsWales-CDRSourceTimestamp
             * Updated the name of the extension
+
+Guide:
+* Updated the contact email address on the {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
 
 
 ### v1.1.0 STU1
