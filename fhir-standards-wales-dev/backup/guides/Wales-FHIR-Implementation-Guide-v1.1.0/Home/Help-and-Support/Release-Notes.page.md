@@ -19,6 +19,10 @@ Package:
         * DataStandardsWales-CDRSourceTimestamp
             * Updated the name of the extension
 
+Guide:
+* Updated the contact email address on the {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
+
+
             
 ### v1.1.0 STU1
 
