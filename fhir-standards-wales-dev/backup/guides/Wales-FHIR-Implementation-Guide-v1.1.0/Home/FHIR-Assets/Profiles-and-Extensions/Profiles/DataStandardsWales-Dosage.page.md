@@ -43,7 +43,15 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
-Each MedicationAdministration must support:
+#### Example Usage Scenarios
+The DataStandardsWales Dosage will unlikely be used in isolation and will tipically used as a referenced resource within
+<list>
+  <li>Currently under development</li>
+  
+</list>
+
+
+Each Dosage must support:
 
 1. sequence
 2. text

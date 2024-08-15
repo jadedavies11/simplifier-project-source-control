@@ -2,7 +2,7 @@
 
 ## {{page-title}}
 
-The **Data Standards Wales DiagnosticReport-Lab** profile (based on [DiagonsticReport](https://www.hl7.org/fhir/r4/DiagnosticReport.html)) is used to represent Laboratory Result Reports (e.g. Clinical Chemistry, Haematology, Microbiology, etc.). The results of such tests are typically contained within nested panels of results (such as a Full Blood Count or Liver Function Test panel) which are represented by Observation resources that contain references to other nested Observations. 
+The **Data Standards Wales DiagnosticReport-Lab** profile (based on [DiagnosticReport](https://www.hl7.org/fhir/r4/DiagnosticReport.html)) is used to represent Laboratory Result Reports (e.g. Clinical Chemistry, Haematology, Microbiology, etc.). The results of such tests are typically contained within nested panels of results (such as a Full Blood Count or Liver Function Test panel) which are represented by Observation resources that contain references to other nested Observations. 
 
 The purpose of this profile is to provide a set of guidelines and minimum standards to allow DiagnosticReport resources to be used to record, search, and fetch laboratory results associated with a patient in a consistent and interoperable manner.
 
