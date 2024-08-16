@@ -40,26 +40,47 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>    
 </div>
 
+#### Example Usage Scenarios
+The {{page-title}} will unlikely be used in isolation and will tipically used as a referenced resource within
+<div class="tab-wrap">
+  <ul class="tab-head">
+  <div id="tabeg" class="tabcontent">
+    <list>
+      <li>{{pagelink: Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-Medication.page.md}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-MedicationAdministration.page.md}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-MedicationDispense.page.md}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-MedicationList.page.md}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-MedicationRequest.page.md}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-MedicationStatement.page.md}}</li>
+    </list>
+  </div>
+  </ul>
+</div>
+
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
-#### Example Usage Scenarios
-The DataStandardsWales Dosage will unlikely be used in isolation and will tipically used as a referenced resource within
-<list>
-  <li>Currently under development</li>
-  
-</list>
-
-
 Each Dosage must support:
 
-1. sequence
-2. text
-3. additionalInstruction
-4. patientInstruction
-5. timing
-6. asNeeded
-7. site
-8. route
-9. method
-10. maxDosePerPeriod
+|Element|Reason|
+|-|-|
+|`sequence`|Multi-sequence dosage instructions.|
+|`text`|The complete dosage instruction as a human readable string.|
+|`additionalInstruction`|Additional dosage instructions that can be either SNOMED-CT coded terms or free-text instructions.|
+|`patientInstruction`|Patient or consumer oriented instructions.|
+|`timing`|When medication should be administered.|
+|`asNeeded`|Take "as needed" (for x).|
+|`site`|Body site to administer to.|
+|`route`|How drug should enter body.|
+|`method`|Technique for administering medication.|
+|`maxDosePerPeriod`|Upper limit on medication per unit of time.|
+
+### Bindings (differential)
+More information about the bindings can be found below
+
+|Context|Strength|Link|
+|-|-|-|
+|Dosage.additionalInstruction|example|[SNOMEDCT-AdditionalDosageInstructions](https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage)|
+|Dosage.timing.repeat.durationUnit|required|[Units of Time](https://simplifier.net/resolve?scope=hl7.fhir.r4.core@4.0.1&filepath=package/ValueSet-units-of-time.json)|
+
+
