@@ -58,3 +58,5 @@
   filename: Allergies
 - name: Diagnostics
   filename: Diagnostics
+- name: Immunization
+  filename: Immunization

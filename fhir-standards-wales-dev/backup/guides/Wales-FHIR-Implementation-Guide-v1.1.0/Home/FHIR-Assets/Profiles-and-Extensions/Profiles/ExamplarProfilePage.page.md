@@ -16,7 +16,7 @@ name: DataStandardsWalesPatient
         Profile: name,
         Type: type,
         Status: status,
-        Cannonical: url
+        Canonical: url
 ```
 
 {{page:Home/FHIR-Assets/Profiles-and-Extensions/ResourceOverview.page.md}}
