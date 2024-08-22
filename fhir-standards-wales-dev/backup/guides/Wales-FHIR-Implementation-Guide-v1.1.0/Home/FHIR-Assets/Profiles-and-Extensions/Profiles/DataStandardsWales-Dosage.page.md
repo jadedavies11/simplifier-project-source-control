@@ -65,6 +65,8 @@ The following are example usage scenarios for the Dosage profile:
 - <add link to example> Query for the dosage of an Inhaler medication using query parameters such as `Dosage.additionalInstruction`.
 - <add link to example> Query for the dosage of an Oral Solution PRN medication using query parameters such as `Dosage.asNeededCodeableConcept` and `Dosage.doseAndRate.doseRange`.
 
+_*Examples provided have been clinically assured on the 07-Aug-2024_
+
 ---
 
 ## Profile Specific Implementation Guidance: ##
