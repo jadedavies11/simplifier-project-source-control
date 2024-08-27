@@ -1,6 +1,21 @@
 <div class="warning"><span class="ExperiWarn"></span></div>
 
 ## {{page-title}}
+
+### FQL
+
+@```
+    from
+        StructureDefinition
+    where
+        name='DataStandardsWalesImmunization'
+    select 
+        Profile: name,
+        Type: type,
+        Status: status,
+        Canonical: url
+```
+
 The [Immunization](https://www.hl7.org/fhir/r4/immunization.html) resource is a record of the immunization received by a patient.
 
 The {{page-title}} profile is derived from the [UK Core Immunization Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-Immunization?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
@@ -39,6 +54,19 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
     </list>
   </div>    
 </div>
+
+---
+
+### Example Usage Scenarios ###
+The following are example usage scenarios for the Immunisation profile:
+
+- <add link to example> Query for a Flu Vaccination using the query parameter `Immunization.vaccineCode` to specify which vaccine product has been administered.
+- <add link to example> Query for a vaccine that wasn't given using query parameters such as `Immunization.status` and `Immunization.statusReason` and .
+- <add link to example> Query for the dosage of an Oral Solution PRN medication using query parameters such as `Dosage.asNeededCodeableConcept` and `Dosage.doseAndRate.doseRange`.
+
+_*Examples provided have been clinically assured on the 07-Aug-2024_
+
+---
 
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
