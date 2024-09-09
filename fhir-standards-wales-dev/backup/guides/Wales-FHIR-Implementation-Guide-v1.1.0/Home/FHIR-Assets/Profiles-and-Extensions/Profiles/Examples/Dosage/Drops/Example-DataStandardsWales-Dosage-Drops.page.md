@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Examples-Example-DataStandardsWales-Dosage-Drops}}
+      {{tree:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Examples-Example-DataStandardsWales-Dosage-Drops}}
+      {{table:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Examples-Example-DataStandardsWales-Dosage-Drops}}
+      {{xml:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Examples-Example-DataStandardsWales-Dosage-Drops}}
+      {{json:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Examples-Example-DataStandardsWales-Dosage-Drops}}
+      {{narrative:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>  
   </div>
 </div>
