@@ -55,11 +55,18 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>under development</li> 
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage, text: Dosage Examples}}</li> 
     </list>
   </div>    
 </div>
 
+
+---
+
+## UK Core Dose Syntax Guidance: ##
+
+* [UK Core Dose Syntax IG (NHS Digital)](https://simplifier.net/guide/ukcoreimplementationguideformedicines?version=current)
+* [UK Core Dose Syntax Simplifier Project (NHS Digital)](https://simplifier.net/EPMAImplementationGuidanceforR4)
 
 ---
 
