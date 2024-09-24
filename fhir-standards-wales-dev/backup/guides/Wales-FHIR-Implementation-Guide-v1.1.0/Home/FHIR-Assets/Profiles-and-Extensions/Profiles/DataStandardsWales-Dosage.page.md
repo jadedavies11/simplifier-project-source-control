@@ -111,7 +111,7 @@ By preference, use [UCUM](http://unitsofmeasure.org) for dose units. Examples of
 Where a UCUM unit of measure is not defined, use a [SNOMED-CT](http://snomed.info/sct).
 Examples of when a SNOMED-CT unit of measure would typically be used are “tablet”, “capsule” or “ampule”.
 
-**Recommendation**: Dose is used to specify the quantity of the medication administered and not the strength of the active ingredient. This information will be specified on `Medication.ingredient.strength`,
+**Recommendation**: Dose is used to specify the quantity of the medication administered and not the strength of the active ingredient. This information will be specified on `Medication.ingredient.strength`.
 
 ---
 
