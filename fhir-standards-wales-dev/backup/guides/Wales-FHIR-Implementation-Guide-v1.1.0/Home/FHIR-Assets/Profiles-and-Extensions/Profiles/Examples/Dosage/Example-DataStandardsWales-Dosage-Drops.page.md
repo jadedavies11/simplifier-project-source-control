@@ -1,6 +1,9 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+---
+topic: DosageDrops
+---
 
-## Example Dosage - Drops
+
+### Example Dosage - Drops
 
 <div class="tab-wrap">
   <ul class="tab-head">
