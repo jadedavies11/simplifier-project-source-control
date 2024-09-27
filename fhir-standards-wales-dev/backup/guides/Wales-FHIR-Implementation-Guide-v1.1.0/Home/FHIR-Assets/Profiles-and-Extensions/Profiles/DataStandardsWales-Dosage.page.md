@@ -1,7 +1,3 @@
----
-name: DataStandardsWalesPatient
----
-
 <div class="warning"><span class="ExperiWarn"></span></div>
 
 ## {{page-title}}
@@ -27,7 +23,6 @@ The {{page-title}} profile is derived from the [HL7 Dosage Profile](https://www.
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage}}
 
 ### Formal Views of Profile Content
-
 <div class="tab-wrap">
   <ul class="tab-head">
     <li class="tablink tab-active" onclick="openCity(this,'tabsnap')" data-target="tabsnap">
@@ -55,7 +50,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage, text: Dosage Examples}}</li> 
+      <li>Currently under development</li> 
     </list>
   </div>    
 </div>
