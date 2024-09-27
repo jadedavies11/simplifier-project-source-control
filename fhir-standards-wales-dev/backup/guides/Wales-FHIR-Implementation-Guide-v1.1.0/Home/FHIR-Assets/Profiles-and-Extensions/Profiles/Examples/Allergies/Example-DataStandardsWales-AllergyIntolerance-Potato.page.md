@@ -23,19 +23,19 @@ This shows an example food allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-AllergyIntolerance-Potato}}
+      {{tree:Examples-Allergies-Example-DataStandardsWales-AllergyIntolerance-Potato}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-AllergyIntolerance-Potato}}
+      {{table:Examples-Allergies-Example-DataStandardsWales-AllergyIntolerance-Potato}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-AllergyIntolerance-Potato}}
+      {{xml:Examples-Allergies-Example-DataStandardsWales-AllergyIntolerance-Potato}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-AllergyIntolerance-Potato}}
+      {{json:Examples-Allergies-Example-DataStandardsWales-AllergyIntolerance-Potato}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-AllergyIntolerance-Potato}}
+      {{narrative:Examples-Allergies-Example-DataStandardsWales-AllergyIntolerance-Potato}}
     </div>  
   </div>
 </div>
