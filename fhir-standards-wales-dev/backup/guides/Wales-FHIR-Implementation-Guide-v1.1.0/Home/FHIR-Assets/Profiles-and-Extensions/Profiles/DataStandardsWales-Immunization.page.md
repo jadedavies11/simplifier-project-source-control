@@ -1,5 +1,5 @@
 ---
-name: DataStandardsWalesImmunization
+topic: DataStandardsWalesImmunization
 ---
 
 ## {{page-title}}
@@ -18,6 +18,7 @@ name: DataStandardsWalesImmunization
         Canonical: url
 ```
 
+### Overview
 The [Immunization](https://www.hl7.org/fhir/r4/immunization.html) resource is a record of the immunization received by a patient, often in the form of a vaccine.
 
 The {{page-title}} profile is derived from the [UK Core Immunization Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-Immunization?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
