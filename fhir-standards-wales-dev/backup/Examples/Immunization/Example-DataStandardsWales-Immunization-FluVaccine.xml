@@ -1,11 +1,19 @@
-<Immunization>
+<Immunization xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Immunization-FluVaccine" />
+	<meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
+    </meta>
+    <text>
+        <status value="generated" />
+        --- We have skipped the narrative for better readability of the resource ---
+    </text>
     <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-VaccinationProcedure">
 		<valueCodeableConcept>
-			<Coding>
+			<coding>
 				<system value="http://snomed.info/sct" />
 				<code value="86198006" />
 				<display value= "Administration of influenza vaccine" />
-			</Coding>
+			</coding>
 		</valueCodeableConcept>
 	</extension>
 	<status value="completed" />
@@ -54,7 +62,8 @@
 			</coding>
 		</function>
 		<actor>
-			<reference value="Practitioner/Example-DataStandardsWales-Practitioner-PrescribingNurse" /> 
+			<reference value="Practitioner/Example-DataStandardsWales-Practitioner-PrescribingNurse" />
+			<type value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />  
 		</actor>
 	</performer>
 	<reasonCode>

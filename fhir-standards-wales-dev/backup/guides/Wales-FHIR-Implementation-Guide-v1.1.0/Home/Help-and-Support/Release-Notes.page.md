@@ -30,6 +30,8 @@ Guide:
 * Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page.
+* Created examples for the Immunization resource:  {{pagelink:ImmunizationFluVaccine, text: Flu Vaccine}}, {{pagelink:ImmunizationNotGiven, text: Not Given}}, {{pagelink:ImmunizationParentPresent, text: Parent Present}}.
+* Created examples for the Dosage resource: {{pagelink:DosageDrops, text: Drops}}, {{pagelink:DosageInhaler, text:Inhaler}}, {{pagelink:DosageOralSolution, text: Oral Solution PRN}}.
 
 ### v1.1.1 STU1
 Package:
