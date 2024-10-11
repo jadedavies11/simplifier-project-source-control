@@ -1,5 +1,5 @@
 ---
-topic: DataStandardsWalesImmunization
+topic: DataStandardsWales-Immunization
 ---
 
 ## {{page-title}}
