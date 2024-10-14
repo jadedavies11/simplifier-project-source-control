@@ -33,14 +33,9 @@ A list of sites that are used by NHS Wales to assist in the development and publ
             <p>This implementation guide lists all current and previously published versions of the main NHS Wales FHIR Implementation Guide. Use this link to easily navigate to the latest version.</p>
         </div>
         <div class="col-md-7 card">
-            <h4><b><a href="https://simplifier.net/FHIR-PSOM-Wales" alt="Data Standards Wales PSOM Simplifier Project Page" target="_blank">Data Standards Wales PSOM Simplifier Project Page</a></b></h4>
+            <h4><b><a href="https://simplifier.net/FHIR-PSOM-Wales/~introduction" alt="FHIR PSOM Wales Project Page" target="_blank">FHIR PSOM Wales Project Page</a></b></h4>
             <p>All of the relevant profiles and related conformance materials for the PROMs Standard Operating Model (PSOM) by the NHS Wales can be found here.</p>
             </div>
-        <div class="col-md-7 card">
-            <h4><b><a href="https://simplifier.net/guide/fhir-psom-wales" alt="Data Standards Wales PSOM Implementation Guide" target="_blank">Data Standards Wales PSOM Implementation Guide</a></b></h4>
-            <p>The FHIR Implementation Guide for PROMs Standard Operating Model (PSOM) by the NHS Wales can be found here.</p>
-            </div>
-        </div>
         </div>
     </div>
 </div>
@@ -57,12 +52,8 @@ A list of the sites developed by UK Core to assist with the standardisation of F
             <p>The current NHS Wales FHIR Implementation guide are derived from this version of UK Core</p>
         </div>
         <div class="col-md-7 card">
-            <h4><b><a href="https://simplifier.net/guide/uk-core-implementation-guide-stu2" alt="UK Core Implementation Guide STU2" target="_blank">UK Core STU2 Implementation Guide</a></b></h4>
-            <p>The latest full release of UK Core. The NHS Wales FHIR assets will be derived from this in a future version.</p>
-        </div>
-        <div class="col-md-7 card">
-            <h4><b><a href="https://simplifier.net/guide/uk-core-implementation-guide-stu3-sequence" alt="UK Core Implementation Guide STU3" target="_blank">UK Core STU3 Implementation Guide</a></b></h4>
-            <p>The latest version of UK Core. The NHS Wales FHIR assets will be derived from this in a future version.</p>
+            <h4><b><a href="https://simplifier.net/guide/uk-core-implementation-guide-stu2" alt="UK Core Implementation Guide STU2 Release for Ballot" target="_blank">UK Core STU2 Implementation Guide</a></b></h4>
+            <p>The latest version of UK Core. The NHS Wales FHIR assets will be derived from this in a future release.</p>
         </div>
         <div class="col-md-7 card">
             <h4><b><a href="https://build.fhir.org/ig/HL7-UK/UK-Core-Access/index.html" alt="UK Core Access" target="_blank">UK Core Access Implementation Guide</a></b></h4>
@@ -83,6 +74,28 @@ A list of the sites developed by UK Core to assist with the standardisation of F
 	<div class="col-md-7 card">
             <h4><b><a href="https://simplifier.net/guide/hl7fhirukcoredesignanddevelopmentapproach" alt="UK Core Development Approach" target="_blank">UK Core Development Approach</a></b></h4>
             <p>Guide on the approach being used by the UK Core team to develop FHIR assets</p>
+        </div>
+    </div>
+</div>
+
+
+### FHIR Development Initiatives and Communities
+
+A list of additional sites to assist with standardising development and implementation of FHIR. 
+
+<div class="container"></div>
+    <div class="row">
+        <div class="col-md-7 card">
+            <h4><b><a href="https://confluence.hl7.org/display/HL7UK/UK+FHIR+IG+Initiative+Directory" target="_blank">UK FHIR Initiatives</a></b></h4>
+            <p>An HL7 UK Confluence page listing FHIR initiatives within the UK including links to Implementation Guides and APIs.</p>
+        </div>
+        <div class="col-md-7 card">
+            <h4><b><a href="https://confluence.hl7.org/display/IC/Initiative+Directory" target="_blank">International FHIR Initiatives</a></b></h4>
+            <p>An HL7 Confluence page listing global FHIR initiatives including Implementation Guides, Confluence Spaces and other useful content.</p>
+        </div>
+        <div class="col-md-7 card">
+            <h4><b><a href="https://chat.fhir.org/" target="_blank">FHIR Chat</a></b></h4>
+            <p>Access FHIR Chat on Zulip or subscribe to the <a href="https://chat.fhir.org/#channels/179189/uk/general" target="_blank">UK Stream</a> and get involved in discussions on adoption of FHIR in the UK. Once subscribed, you can view <a href="https://chat.fhir.org/#recent" target="_blank">recent conversations</a> within your channel subscriptions.</p>
         </div>
     </div>
 </div>

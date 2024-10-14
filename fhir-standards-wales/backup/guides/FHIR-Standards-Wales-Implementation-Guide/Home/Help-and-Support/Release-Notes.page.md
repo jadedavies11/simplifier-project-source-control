@@ -2,6 +2,45 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v1.2.1 STU1
+Package:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+    * Changes to Profiles    
+        * DataStandardsWales-AllergiesList
+            * Added Extensions for:
+                * DataStandardsWales-SingleRecord-AllergiesListUpdated
+                * DataStandardsWales-SingleRecord-AllergiesListConfirmedDateTimestamp
+                * DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
+    * New Extensions
+        * DataStandardsWales-SingleRecord-AllergiesListUpdated
+        * DataStandardsWales-SingleRecord-AllergiesListConfirmedDateurceTimestamp
+        * DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
+    * Changes to Extensions
+        * DataStandardsWales-CDRPatientRecordType
+            * Removed this extension as the data item will be captured in tags
+        * DataStandardsWales-CDRSourceTimestamp
+            * Removed this extension as the data item will be captured in tags
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * Changes to Identifiers
+        * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and BCUHBWestPASIdentifier to BCUHBPASIdentifier
+* Examples:
+    * New Examples
+        * Immunization
+            * {{pagelink:Example-DataStandardsWales-Immunization-FluVaccine, text: Flu Vaccine}}
+            * {{pagelink:Example-DataStandardsWales-Immunization-NotGiven, text: Not Given}}
+            * {{pagelink:Example-DataStandardsWales-Immunization-ParentPresent, text: Parent Present}}  
+        * Dosage
+            * {{pagelink:DosageDrops, text: Drops}}
+            * {{pagelink:DosageInhaler, text: Inhaler}}
+            * {{pagelink:DosageOralSolution, text: Oral Solution PRN}}     
+        
+Guide:
+* Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
+* Added a section for Change Requests to {{pagelink:Home/Help-and-Support/Help-and-Support.page.md,text:Help and Support}}.
+* Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
+* Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} page.
+* Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page.
+
 ### v1.1.1 STU1
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
@@ -11,7 +50,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
     * Changes to Extensions
         * DataStandardsWales-DemographicsAsRecorded
-            * Renamed the DOB extension to birthDate 
+            * Renamed the DOB extension to birtDate 
             * Updated the extension URL
             * Updated the items within the extension URLs
         * DataStandardsWales-CDRPatientRecordType
@@ -23,6 +62,7 @@ Guide:
 * Updated the contact email address on the {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
 
 
+            
 ### v1.1.0 STU1
 
 Package: 
@@ -55,7 +95,7 @@ Guide:
   
 * Added definitions for Active, Draft and Experimental to {{pagelink:Home/Introduction/Profile-Descriptions,text:Introduction-Profile Descriptions}}
 * Added a link for FHIR PSOM Wales Project Page to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
-* Updated [Wales FHIR Implementation Guide Version History](https://simplifier.net/guide/wales-fhir-implementation-guide-version-history) to include links to respective Release Notes.
+* Updated [Wales FHIR Implementation Guide Version History](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History-v1.1.0/Home/Version-History.page.md?version=1.1.0) to include links to respective Release Notes.
 
 
 ### v1.0.1 STU1
