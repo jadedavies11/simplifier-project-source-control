@@ -2,8 +2,11 @@
 
 <div class="tab-wrap">
   <ul class="tab-head">
-   <li class="tablink" onclick="openCity(this,'tabtable')" data-target="tabtable">
+    <li class="tablink" onclick="openCity(this,'tabtable')" data-target="tabtable">
       Table
+    </li> 
+     <li class="tablink tab-active" onclick="openCity(this,'tabxml')" data-target="tabxml">
+      XML
     </li> 
     <li class="tablink tab-active" onclick="openCity(this,'tabjson')" data-target="tabjson">
       JSON
