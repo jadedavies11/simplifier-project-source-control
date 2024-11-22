@@ -25,19 +25,19 @@ topic: ImmunizationParentPresent
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:example-datastandardswales-immunization-parentpresent}}
+      {{tree:example-datastandardswales-immunization-ParentPresent}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:example-datastandardswales-immunization-parentpresent}}
+      {{table:example-datastandardswales-immunization-ParentPresent}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:example-datastandardswales-immunization-parentpresent}}
+      {{xml:example-datastandardswales-immunization-ParentPresent}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:example-datastandardswales-immunization-parentpresent}}
+      {{json:example-datastandardswales-immunization-ParentPresent}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:example-datastandardswales-immunization-parentpresent}}
+      {{narrative:example-datastandardswales-immunization-ParentPresent}}
     </div>  
   </div>
 </div>

@@ -1,12 +1,8 @@
 <Immunization xmlns="http://hl7.org/fhir">
     <id value="Example-DataStandardsWales-Immunization-ParentPresent" />
-	<meta>
+    <meta>
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
     </meta>
-    <text>
-        <status value="generated" />
-        --- We have skipped the narrative for better readability of the resource ---
-    </text>
 	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ParentPresent"> 
 		<valueBoolean value="true" />
 	</extension>
