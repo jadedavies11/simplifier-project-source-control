@@ -25,19 +25,19 @@ topic: ImmunizationNotGiven
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:example-datastandardswales-immunization-notgiven}}
+      {{tree:example-datastandardswales-immunization-NotGiven}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:example-datastandardswales-immunization-notgiven}}
+      {{table:example-datastandardswales-immunization-NotGiven}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:example-datastandardswales-immunization-notgiven}}
+      {{xml:example-datastandardswales-immunization-NotGiven}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:example-datastandardswales-immunization-notgiven}}
+      {{json:example-datastandardswales-immunization-NotGiven}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:example-datastandardswales-immunization-notgiven}}
+      {{narrative:example-datastandardswales-immunization-NotGiven}}
     </div>  
   </div>
 </div>

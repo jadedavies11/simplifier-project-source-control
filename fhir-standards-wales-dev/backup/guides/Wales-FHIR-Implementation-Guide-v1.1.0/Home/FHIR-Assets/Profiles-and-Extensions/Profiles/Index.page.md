@@ -10,7 +10,7 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-Encounter}}
 * {{pagelink:DataStandardsWales-Endpoint}}
 * {{pagelink:DataStandardsWales-ImagingStudy}}
-* {{pagelink: DataStandardsWales-Immunization}}
+* {{pagelink:DataStandardsWales-Immunization}}
 * {{pagelink:DataStandardsWales-Location}}
 * {{pagelink:DataStandardsWales-Medication}}
 * {{pagelink:DataStandardsWales-MedicationAdministration}}

@@ -1,12 +1,8 @@
 <Immunization xmlns="http://hl7.org/fhir">
     <id value="Example-DataStandardsWales-Immunization-NotGiven" />
-	<meta>
+    <meta>
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
     </meta>
-    <text>
-        <status value="generated" />
-        --- We have skipped the narrative for better readability of the resource ---
-    </text>
 	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-VaccinationProcedure">
 		<valueCodeableConcept>
 			<coding>
@@ -25,18 +21,11 @@
 			<userSelected value="true" />
 		</coding>
 	</statusReason>
-	<vaccineCode>
-		<coding>
-			<system value="https://dmd.nhs.uk" />
-			<code value="10133911000001103" />
-			<display value="Influenza (split virion, inactivated) vaccine suspension for injection 0.5ml pre-filled syringes (A A H Pharmaceuticals Ltd) (product)" />
-		</coding>
-	</vaccineCode>
 	<patient>
 		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS:9912003444)" />
 	</patient>
-	<occurrenceDateTime value="2024-07-10T10:30:00.000Z" />
+	<occurrenceDateTime value="2024-07-10T10:30" />
 	<location>
 		<reference value="Location/Example-DataStandardsWales-Location-CadogWard" />
 	</location>

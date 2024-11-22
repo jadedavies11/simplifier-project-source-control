@@ -25,19 +25,19 @@ topic: ImmunizationFluVaccine
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree: example-datastandardswales-immunization-fluvaccine}}
+      {{tree:example-datastandardswales-immunization-FluVaccine}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:example-datastandardswales-immunization-fluvaccine}}
+      {{table:example-datastandardswales-immunization-FluVaccine}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:example-datastandardswales-immunization-fluvaccine}}
+      {{xml:example-datastandardswales-immunization-FluVaccine}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:example-datastandardswales-immunization-fluvaccine}}
+      {{json:example-datastandardswales-immunization-FluVaccine}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:example-datastandardswales-immunization-fluvaccine}}
+      {{narrative:example-datastandardswales-immunization-FluVaccine}}
     </div>  
   </div>
 </div>
