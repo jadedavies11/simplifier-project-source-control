@@ -1,50 +1,51 @@
 <MedicationStatement xmlns="http://hl7.org/fhir">
-    <id value="Example-DSW-MedicationStatement-DurogesicDTrans-GP" />
-    <meta>
-        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationStatement" />
-    </meta>
-    <text>
-        <status value="generated" />
-        <div xmlns="http://www.w3.org/1999/xhtml">Durogesic DTrans 25 micrograms/hour transdermal patches - Apply one patch every 72 hours</div>
-    </text>
-    <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-MedicationCourseOfTherapyType">
-        <valueCodeableConcept>
-			<coding>
-				<system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy" />
-				<code value="continuous" />
-				<display value="Continuous long term therapy" />
-			</coding>
-        </valueCodeableConcept>
-    </extension> 
-    <status value="active" />
-    <category>
-        <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/medication-statement-category" />
-            <code value="community" />
-            <display value="Community" />
-        </coding>
-    </category>
-    <medicationCodeableConcept>
-        <coding>
-            <system value="https://dmd.nhs.uk"/>
-            <code value="37354111000001103"> </code>
-            <display value="Durogesic DTrans 25micrograms/hour transdermal patches" />
-        </coding>      
-        <text value="Durogesic DTrans 25 micrograms/hour transdermal patches" />
-    </medicationCodeableConcept>
-    <subject>
-        <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper" />
-        <display value="PIPER, Peter (NHS: 1192335566)" />
-    </subject>
-    <context>
-        <reference value="Encounter/Encounter-GP" />
-        <display value="..." />
-    </context>
-    <dateAsserted value="2022-01-10T10:00:00Z" />
-    <informationSource>
-        <reference value="Practitioner/Practitioner-GP" />
-        <display value="..." />
-    </informationSource>    <dosage>
-        <text value="Durogesic DTrans 25 micrograms/hour transdermal patches - Apply one patch every 72 hours" />
-    </dosage>
+  <id value="Example-DSW-MedicationStatement-DurogesicDTrans-GP" />
+  <meta>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationStatement" />
+  </meta>
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml">Durogesic DTrans 25 micrograms/hour transdermal patches - Apply one patch every 72 hours</div>
+  </text>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-MedicationCourseOfTherapyType">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy" />
+        <code value="continuous" />
+        <display value="Continuous long term therapy" />
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <status value="active" />
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/medication-statement-category" />
+      <code value="community" />
+      <display value="Community" />
+    </coding>
+  </category>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="https://dmd.nhs.uk" />
+      <code value="37354111000001103"></code>
+      <display value="Durogesic DTrans 25micrograms/hour transdermal patches" />
+    </coding>
+    <text value="Durogesic DTrans 25 micrograms/hour transdermal patches" />
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper" />
+    <display value="PIPER, Peter (NHS: 1192335566)" />
+  </subject>
+  <context>
+    <reference value="Encounter/Encounter-GP" />
+    <display value="..." />
+  </context>
+  <dateAsserted value="2022-01-10T10:00:00Z" />
+  <informationSource>
+    <reference value="Practitioner/Practitioner-GP" />
+    <display value="..." />
+  </informationSource>
+  <dosage>
+    <text value="Durogesic DTrans 25 micrograms/hour transdermal patches - Apply one patch every 72 hours" />
+  </dosage>
 </MedicationStatement>

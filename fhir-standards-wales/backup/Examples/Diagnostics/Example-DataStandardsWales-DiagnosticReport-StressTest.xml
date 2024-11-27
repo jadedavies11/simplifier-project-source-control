@@ -1,5 +1,4 @@
-<DiagnosticReport
-  xmlns="http://hl7.org/fhir">
+<DiagnosticReport xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-DiagnosticReport-StressTest" />
   <meta>
     <versionId value="1" />
@@ -12,8 +11,7 @@
   </meta>
   <text>
     <status value="additional" />
-    <div
-      xmlns="http://www.w3.org/1999/xhtml">Stress Test[A]</div>
+    <div xmlns="http://www.w3.org/1999/xhtml">Stress Test[A]</div>
   </text>
   <identifier>
     <system value="https://fhir.nhs.wales/Id/wrrs-report-identifier" />
@@ -41,8 +39,8 @@
     <text value="Stress Test" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-		<display value="JONES, Alice (NHS: 9912003444)" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+    <display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <issued value="2021-08-31T10:52:14.13+00:00" />
   <performer>
@@ -57,7 +55,7 @@
     <contentType value="application/pdf" />
     <language value="en" />
     <data value="eW91J3ZlIGZvdW5kIGFuIGVhc3RlciBlZ2csIHdlbGwgZG9uZSE=" />
-	<!--We have skipped the base64 string data value for better readability of the resource-->
+    <!--We have skipped the base64 string data value for better readability of the resource-->
     <title value="Stress Test[A]; JONES, Alice; Performed: 31 08 2021 10:52" />
   </presentedForm>
 </DiagnosticReport>

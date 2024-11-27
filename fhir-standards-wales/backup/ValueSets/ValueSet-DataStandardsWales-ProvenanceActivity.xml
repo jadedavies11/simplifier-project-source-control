@@ -19,52 +19,52 @@
   <description value="A set of activity codes for NHS Wales Provenance profile which have been copied from the FHIR R5 release" />
   <copyright value="2023 NHS Wales." />
   <compose>
-    <include> 
-		<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"/>
-	</include> 
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+    </include>
   </compose>
   <expansion>
-        <timestamp value="2024-05-08T14:49:00+01:00" />
-        <total value="7" />
-        <offset value="0" />
-        <parameter>
-            <name value="version" />
-            <valueUri value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle|0.2.0" />
-        </parameter>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="amend"/>
-			<display value="Amend (Update) Record Lifecycle Event"/>
-		</contains>	
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="originate"/>
-			<display value="Originate/Retain Record Lifecycle Event"/>
-		</contains>	
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="merge"/>
-			<display value="Merge Record Lifecycle Event"/>
-		</contains>	
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="deidentify"/>
-			<display value="De-Identify (Anononymize) Record Lifecycle Event"/>
-		</contains>	
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="receive"/>
-			<display value="Receive/Retain Record Lifecycle Event"/>
-		</contains>	
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="transform"/>
-			<display value="Transform/Translate Record Lifecycle Event"/>
-		</contains>	
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="verify"/>
-			<display value="Verify Record Lifecycle Event"/>
-		</contains>	
-	</expansion>
+    <timestamp value="2024-05-08T14:49:00+01:00" />
+    <total value="7" />
+    <offset value="0" />
+    <parameter>
+      <name value="version" />
+      <valueUri value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle|0.2.0" />
+    </parameter>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+      <code value="amend" />
+      <display value="Amend (Update) Record Lifecycle Event" />
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+      <code value="originate" />
+      <display value="Originate/Retain Record Lifecycle Event" />
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+      <code value="merge" />
+      <display value="Merge Record Lifecycle Event" />
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+      <code value="deidentify" />
+      <display value="De-Identify (Anononymize) Record Lifecycle Event" />
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+      <code value="receive" />
+      <display value="Receive/Retain Record Lifecycle Event" />
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+      <code value="transform" />
+      <display value="Transform/Translate Record Lifecycle Event" />
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+      <code value="verify" />
+      <display value="Verify Record Lifecycle Event" />
+    </contains>
+  </expansion>
 </ValueSet>

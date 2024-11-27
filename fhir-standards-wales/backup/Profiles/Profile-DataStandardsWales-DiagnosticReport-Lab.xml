@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-DiagnosticReport-Lab"/>
+  <id value="DataStandardsWales-DiagnosticReport-Lab" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport-Lab" />
   <version value="0.0.5" />
   <name value="DataStandardsWalesDiagnosticReportLab" />

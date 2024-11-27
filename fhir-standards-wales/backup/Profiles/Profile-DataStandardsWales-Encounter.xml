@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-Encounter"/>
+  <id value="DataStandardsWales-Encounter" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
   <version value="0.0.5" />
   <name value="DataStandardsWalesEncounter" />

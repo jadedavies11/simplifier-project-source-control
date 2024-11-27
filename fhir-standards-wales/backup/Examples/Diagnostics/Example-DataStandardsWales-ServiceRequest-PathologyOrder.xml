@@ -1,5 +1,4 @@
-<ServiceRequest 
-  xmlns="http://hl7.org/fhir">
+<ServiceRequest xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-ServiceRequest-PathologyOrder" />
   <meta>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
@@ -11,8 +10,7 @@
   </meta>
   <text>
     <status value="generated" />
-    <div 
-      xmlns="http://www.w3.org/1999/xhtml">Carnitine Profile, Phenobarbitone , Glucose , Sp IgE to Other</div>
+    <div xmlns="http://www.w3.org/1999/xhtml">Carnitine Profile, Phenobarbitone , Glucose , Sp IgE to Other</div>
   </text>
   <identifier>
     <system value="https://fhir.nhs.wales/Id/lims-procedure-code" />
@@ -42,8 +40,8 @@
     <text value="Pathology order" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-		<display value="JONES, Alice (NHS: 9912003444)" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+    <display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <authoredOn value="2021-11-10T09:47:09.283+00:00" />
   <requester>
