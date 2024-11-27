@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-Occupation"/>
+  <id value="Extension-DataStandardsWales-Occupation" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Occupation" />
   <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesOccupation" />
@@ -32,11 +31,11 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
   <differential>
-	<element id="Extension">
-		<path value="Extension" />
-		<short value="Occupation" />
-		<definition value="The occupation of the subject" />
-	</element>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Occupation" />
+      <definition value="The occupation of the subject" />
+    </element>
     <element id="Extension.url">
       <path value="Extension.url" />
       <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Occupation" />

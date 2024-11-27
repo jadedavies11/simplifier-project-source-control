@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation-Lab" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-Lab" />
@@ -34,7 +33,8 @@
       <min value="1" />
       <max value="1" />
       <fixedCodeableConcept>
-        <coding> <!--fix required here, valueset is invalid in this context and would need to be codesystem-->
+        <coding>
+          <!--fix required here, valueset is invalid in this context and would need to be codesystem-->
           <system value="http://hl7.org/fhir/ValueSet/observation-category" />
           <version value="4.3.0" />
           <code value="laboratory" />
