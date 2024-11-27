@@ -1,9 +1,5 @@
----
-topic: DosageDrops
----
-
-
-### Example Dosage - Drops
+## {{page-title}}
+This Provenance example demonstrates how logical references can be used where Device resources are not available in within the data store.
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -25,19 +21,19 @@ topic: DosageDrops
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:example-datastandardswales-dosage-drops}}
+      {{tree:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:example-datastandardswales-dosage-drops}}
+      {{table:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:example-datastandardswales-dosage-drops}}
+      {{xml:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:example-datastandardswales-dosage-drops}}
+      {{json:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:example-datastandardswales-dosage-drops}}
+      {{narrative:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>  
   </div>
 </div>
