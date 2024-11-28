@@ -31,15 +31,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Example Diagnostic Report - Stress Test}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Example Diagnostic Report - ECG}}
 
-&nbsp;&nbsp;<i>Laboratory Examples</i>
+### Laboratory Examples
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Multiple Panel}}
-
-### Dosage Examples
-
-* {{pagelink:DosageDrops, text: Example Dosage - Drops}}
-* {{pagelink:DosageInhaler, text: Example Dosage - Inhaler}}
-* {{pagelink:DosageOralSolution, text: Example Dosage - Oral Solution PRN}} 
 
 ### Encounter Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio.page.md, text:Example Encounter - In-Progress Emergency Admission}}
@@ -51,9 +45,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-ImagingStudy-CTAbdomen, text: Example Imaging Study - CT Abdomen}}
 
 ### Immunization Examples
-* {{pagelink:Example-DataStandardsWales-Immunization-FluVaccine, text: Example Immunization - Flu Vaccine}}
-* {{pagelink:Example-DataStandardsWales-Immunization-NotGiven, text: Example Immunization - Not Given}}
-* {{pagelink:Example-DataStandardsWales-Immunization-ParentPresent, text: Example Immunization - Parent Present}}
+* {{pagelink:ImmunizationFluVaccine, text: Example Immunization - Flu Vaccine}}
+* {{pagelink:ImmunizationNotGiven, text: Example Immunization - Not Given}}
+* {{pagelink:ImmunizationParentPresent, text: Example Immunization - Parent Present}}
 
 ### Location Examples
 * {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Cadog Ward (GGH)}}
@@ -82,11 +76,11 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text: Example Observation - Body weight}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
 
-&nbsp;&nbsp;<i>Laboratory Group Examples</i> 
+### Laboratory Group Examples
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-LFT, text: Example Observation Group - Liver Function Test}}
 
-&nbsp;&nbsp;<i>Laboratory Result Examples</i>
+### Laboratory Result Examples
 * {{pagelink:Example-DataStandardsWales-ObservationResult-FBCWBC, text: Example Observation Result - White blood cell (WBC) count}}
 
 ### Organization Examples

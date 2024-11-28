@@ -1,35 +1,35 @@
 <Organization xmlns="http://hl7.org/fhir">
-  <id value="Example-DataStandardsWales-Organization-NPT" />
-  <meta>
-    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-  </meta>
-  <text>
-    <status value="generated" />
-    <div xmlns="http://www.w3.org/1999/xhtml">Neath Port Talbot Hospital</div>
-  </text>
-  <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
-    <valuePeriod>
-      <start value="2009-10-01" />
-    </valuePeriod>
-  </extension>
-  <identifier>
-    <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-    <value value="7A3CJ" />
-  </identifier>
-  <active value="true" />
-  <name value="Neath Port Talbot Hospital" />
-  <address>
-    <line value="Baglan Way" />
-    <city value="Port Talbot" />
-    <district value="West Glamorgan" />
-    <postalCode value="SA12 7BX" />
-  </address>
-  <partOf>
+    <id value="Example-DataStandardsWales-Organization-NPT" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+    </meta>
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">Neath Port Talbot Hospital</div>
+    </text>
+    <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+        <valuePeriod>
+            <start value="2009-10-01" />
+        </valuePeriod>
+    </extension>
     <identifier>
-      <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-      <value value="7A3" />
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+        <value value="7A3CJ" />
     </identifier>
-    <reference value="Organization/Example-DataStandardsWales-Organization-SwanseaBay" />
-    <display value="Swansea Bay University Local Health Board" />
-  </partOf>
+    <active value="true" />
+    <name value="Neath Port Talbot Hospital" />
+    <address>
+        <line value="Baglan Way" />
+        <city value="Port Talbot" />
+        <district value="West Glamorgan" />
+        <postalCode value="SA12 7BX" />
+    </address>
+    <partOf>
+		<identifier>
+			<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+			<value value="7A3" />
+		</identifier>
+        <reference value="Organization/Example-DataStandardsWales-Organization-SwanseaBay" />
+        <display value="Swansea Bay University Local Health Board" />
+    </partOf>
 </Organization>
