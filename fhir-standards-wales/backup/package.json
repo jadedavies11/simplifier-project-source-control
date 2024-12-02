@@ -1,7 +1,7 @@
 {
-  "name": "fhir.r4.wales.stu1",
-  "version": "1.2.1",
-  "description": "1.2.1 of the NHS Wales FHIR assets",
+  "name": "fhir.r4.wales",
+  "version": "2.0.0",
+  "description": "Wales profiles and assets",
   "author": "NHS Wales",
   "fhirVersions": [
     "4.0.1"
