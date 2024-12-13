@@ -5,7 +5,7 @@ The [Observation](https://www.hl7.org/fhir/r4/Observation.html) resource is used
 
 Note that the Observations included within an laboratory result report should implement the {{pagelink:DataStandardsWales-Observation-Lab}} profile.
 
-The {{page-title}} profile is derived from the [UK Core STU2 Observation Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Observation?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Observation Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Observation?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation}}
 
@@ -67,12 +67,12 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 
 ### Example Observations
 The following example resources are provided within this guide:
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-ACVPU.page.md, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}, 
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BloodPressure.page.md, text:Blood pressure}}, 
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyHeight.page.md, text:Body height}}, 
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyTemperature.page.md, text:Body temperature}}, 
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text:Body weight}}, 
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text:Respiratory rate}}.
+- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-ACVPU.page.md, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
+- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BloodPressure.page.md, text:Blood pressure}}
+- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyHeight.page.md, text:Body height}}
+- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyTemperature.page.md, text:Body temperature}}
+- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text:Body weight}}
+- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text:Respiratory rate}}
 
 ### Mandatory Search Parameters
 The following search parameters and search parameter combinations **SHALL** be supported:
