@@ -34,6 +34,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Example Diagnostic Report - ECG}}
 
 ### Laboratory Examples
+
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Multiple Panel}}
 
@@ -78,11 +79,25 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text: Example Observation - Body weight}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
 
+### Observation Vital Signs BMI Examples
+* {{pagelink:ObservationBMI, text: Example Observation - BMI}}
+
+### Observation Vital Signs Body Height Examples
+* {{pagelink:ObservationMaternalHeight, text: Example Observation - Maternal Height}}
+
+### Observation Vital Signs Body Weight Examples
+* {{pagelink:ObservationWeight, text: Example Observation - Weight}}
+
+### Observation Vital Signs Examples
+
+
 ### Laboratory Group Examples
+
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-LFT, text: Example Observation Group - Liver Function Test}}
 
-### Laboratory Result Examples
+### Laboratory Result Examples 
+
 * {{pagelink:Example-DataStandardsWales-ObservationResult-FBCWBC, text: Example Observation Result - White blood cell (WBC) count}}
 
 ### Organization Examples
@@ -113,7 +128,6 @@ The following examples are published with this guide and all available as a down
 ### Provenance Examples
 * {{pagelink:Example-DataStandardsWales-Provenance-Amend, text: Example Provenance - Amend Device and Document Reference}}
 * {{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text: Example Provenance - Amend where Device isn't available}}
-* {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Example Provenance - Growth Charts}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
 
 ### ServiceRequest Examples

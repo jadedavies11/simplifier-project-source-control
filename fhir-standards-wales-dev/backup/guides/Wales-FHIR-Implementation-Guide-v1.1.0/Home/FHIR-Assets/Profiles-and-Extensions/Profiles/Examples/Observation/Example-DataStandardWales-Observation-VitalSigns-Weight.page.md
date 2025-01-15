@@ -1,4 +1,9 @@
-### Example Provenance - Growth Charts
+---
+topic: ObservationWeight
+---
+
+
+### Example Observation - Weight
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +25,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{tree:examples-observation-example-datastandardswales-observation-weight}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{table:examples-observation-example-datastandardswales-observation-weight}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{xml:examples-observation-example-datastandardswales-observation-weight}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{json:examples-observation-example-datastandardswales-observation-weight}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{narrative:examples-observation-example-datastandardswales-observation-weight}}
     </div>  
   </div>
 </div>
