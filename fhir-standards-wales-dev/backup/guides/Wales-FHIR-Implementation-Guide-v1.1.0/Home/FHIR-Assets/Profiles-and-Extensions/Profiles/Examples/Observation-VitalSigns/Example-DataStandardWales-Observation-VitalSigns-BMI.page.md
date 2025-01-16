@@ -1,7 +1,4 @@
----
-topic: ObservationBMI
----
-
+<div class="warning"><span class="ClinicalWarn"></span></div>
 
 ### Example Observation - BMI
 
@@ -25,19 +22,19 @@ topic: ObservationBMI
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:examples-observation-example-datastandardswales-observation-vitalsigns-BMI}}
+      {{tree:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:examples-observation-example-datastandardswales-observation-vitalsigns-BMI}}
+      {{table:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:examples-observation-example-datastandardswales-observation-vitalsigns-BMI}}
+      {{xml:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:examples-observation-example-datastandardswales-observation-vitalsigns-BMI}}
+      {{json:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:examples-observation-example-datastandardswales-observation-vitalsigns-BMI}}
+      {{narrative:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
     </div>  
   </div>
 </div>
