@@ -1,9 +1,6 @@
----
-topic: ObservationWeight
----
+<div class="warning"><span class="ClinicalWarn"></span></div>
 
-
-### Example Observation - Weight
+### Example Observation - Head Circumference
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -25,19 +22,19 @@ topic: ObservationWeight
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:examples-observation-example-datastandardswales-observation-weight}}
+      {{tree:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:examples-observation-example-datastandardswales-observation-weight}}
+      {{table:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:examples-observation-example-datastandardswales-observation-weight}}
+      {{xml:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:examples-observation-example-datastandardswales-observation-weight}}
+      {{json:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:examples-observation-example-datastandardswales-observation-weight}}
+      {{narrative:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>  
   </div>
 </div>
