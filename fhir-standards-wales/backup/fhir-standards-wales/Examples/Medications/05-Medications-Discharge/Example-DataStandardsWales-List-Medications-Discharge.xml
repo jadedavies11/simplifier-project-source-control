@@ -1,0 +1,93 @@
+<List xmlns="http://hl7.org/fhir">
+  <!-- Scenario: Peter Piper's medicines list on discharge, including stopped Ibuprofen -->
+  <id value="Example-DataStandardsWales-MedicationList-Discharge" />
+  <status value="current" />
+  <mode value="snapshot" />
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="933361000000108" />
+      <display value="Medications and medical devices" />
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper" />
+    <display value="PIPER, Peter (NHS: 1192335566)" />
+  </subject>
+  <encounter>
+    <reference value="Encounter/Example-Inpatient" />
+    <display value="..." />
+  </encounter>
+  <date value="2022-07-12T11:00:00Z" />
+  <source>
+    <!-- Practitioner asserting the list as 'discharge meds' -->
+    <reference value="Practitioner/Example-Discharge" />
+    <display value="..." />
+  </source>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Bendroflumethiazide-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Bisoprolol-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Nifedipress-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Ramipril-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Atorvastatin-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-DurogesicDTrans-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Hydrocortisone-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Latanoprost-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Enbrel-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Ibuprofen-Discharge" />
+      <display value="Ibuprofen 400mg oral, three times a day - STOPPED due to GI bleed" />
+    </item>
+  </entry>
+  <entry>
+    <item>
+      <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Paracetamol-Discharge" />
+      <display value="..." />
+    </item>
+  </entry>
+</List>
