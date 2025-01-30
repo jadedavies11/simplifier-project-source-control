@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [Device](https://www.hl7.org/fhir/r4/device.html) profile captures the type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.
 
-The {{page-title}} profile is derived from the [HL7 R4 Device](http://hl7.org/fhir/R4/device.html). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [HL7 R4 Device](https://www.hl7.org/fhir/r4/device.html). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device}}
 
@@ -34,6 +34,10 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
+      <list>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-CDRcomponent.page.md, text:CDR Component}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-WPAS.page.md, text:Device - WPAS}}</li>
+    </list>
   </div>
 </div>
 

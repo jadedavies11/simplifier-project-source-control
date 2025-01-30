@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Immunization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
-  <version value="0.1.0" />
+  <version value="0.1.1" />
   <name value="DataStandardsWalesImmunization" />
   <title value="Data Standards Wales Immunization" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2024-12-02" />
+  <date value="2023-05-24" />
   <publisher value="NHS Wales" />
   <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
@@ -192,8 +191,8 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
       <type>
         <code value="string" />

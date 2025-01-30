@@ -1,3 +1,5 @@
+- name: Example-DataStandardsWales-AuditEvent-CreateObservations
+  filename: Example-DataStandardsWales-AuditEvent-CreateObservations.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
@@ -24,6 +26,12 @@
   filename: Example-DataStandardsWales-Observation-BodyWeight.page.md
 - name: Example-DataStandardsWales-Observation-RespiratoryRate
   filename: Example-DataStandardsWales-Observation-RespiratoryRate.page.md
+- name: Example-DataStandardsWales-Observation-VitalSigns-BMI
+  filename: Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md
+- name: Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight
+  filename: Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight.page.md
+- name: Example-DataStandardsWales-Observation-VitalSigns-Weight
+  filename: Example-DataStandardsWales-Observation-VitalSigns-Weight.page.md
 - name: Example-DataStandardsWales-Organization-GGH
   filename: Example-DataStandardsWales-Organization-GGH.page.md
 - name: Example-DataStandardsWales-Organization-NPT
@@ -46,8 +54,12 @@
   filename: Example-DataStandardsWales-Practitioner-Consultant.page.md
 - name: Example-DataStandardsWales-Practitioner-Doctor
   filename: Example-DataStandardsWales-Practitioner-Doctor.page.md
+- name: Example-DataStandardsWales-Practitioner-NonClinical
+  filename: Example-DataStandardsWales-Practitioner-NonClinical.page.md
 - name: Example-DataStandardsWales-Practitioner-Physiotherapist
   filename: Example-DataStandardsWales-Practitioner-Physiotherapist.page.md
+- name: Example-DataStandardsWales-PractitionerRole-HCA
+  filename: Example-DataStandardsWales-PractitionerRole-HCA.page.md
 - name: Example-DataStandardsWales-Practitioner-PrescribingNurse
   filename: Example-DataStandardsWales-Practitioner-PrescribingNurse.page.md
 - name: Example-DataStandardsWales-PractitionerRole-Consultant
@@ -60,6 +72,10 @@
   filename: Example-DataStandardsWales-Provenance-Amend.page.md
 - name: Example-DataStandardsWales-Provenance-Amend-Alt
   filename: Example-DataStandardsWales-Provenance-Amend-Alt.page.md
+- name: Example-DataStandardsWales-Provenance-Growth-Charts
+  filename: Example-DataStandardsWales-Provenance-Growth-Charts.page.md
+- name: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole
+  filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
@@ -68,5 +84,5 @@
   filename: Diagnostics
 - name: Immunization
   filename: Immunization
-- name: Dosage
-  filename: Dosage
+- name: Observation-VitalSigns
+  filename: Observation-VitalSigns
