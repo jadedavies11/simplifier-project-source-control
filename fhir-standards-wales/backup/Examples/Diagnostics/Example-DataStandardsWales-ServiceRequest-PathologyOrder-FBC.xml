@@ -1,5 +1,4 @@
-<ServiceRequest
-  xmlns="http://hl7.org/fhir">
+<ServiceRequest xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC" />
   <meta>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
@@ -11,16 +10,15 @@
   </meta>
   <text>
     <status value="generated" />
-    <div
-      xmlns="http://www.w3.org/1999/xhtml">Full blood count</div>
+    <div xmlns="http://www.w3.org/1999/xhtml">Full blood count</div>
   </text>
   <identifier>
     <system value="https://fhir.nhs.wales/Id/wrrs-episode-number" />
     <value value="5000116116" />
   </identifier>
-    <basedOn>
-      <reference value="Example-DataStandardsWales-ServiceRequest-PathologyOrder-ParentOrder" />
-      <display value="FBC" />
+  <basedOn>
+    <reference value="Example-DataStandardsWales-ServiceRequest-PathologyOrder-ParentOrder" />
+    <display value="FBC" />
   </basedOn>
   <requisition>
     <system value="https://fhir.nhs.wales/Id/wrrs-request-identifier" />
@@ -38,8 +36,8 @@
     <text value="Pathology order" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-		<display value="JONES, Alice (NHS: 9912003444)" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+    <display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <authoredOn value="2018-01-25T13:29:23.303+00:00" />
   <requester>

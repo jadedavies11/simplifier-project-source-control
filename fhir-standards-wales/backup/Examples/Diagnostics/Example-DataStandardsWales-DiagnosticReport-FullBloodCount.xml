@@ -1,5 +1,4 @@
-<DiagnosticReport 
-  xmlns="http://hl7.org/fhir">
+<DiagnosticReport xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-DiagnosticReport-FullBloodCount" />
   <meta>
     <versionId value="1" />
@@ -40,8 +39,8 @@
     <text value="Full blood count" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-		<display value="JONES, Alice (NHS: 9912003444)" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+    <display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <issued value="2018-01-25T13:31:57+00:00" />
   <performer>

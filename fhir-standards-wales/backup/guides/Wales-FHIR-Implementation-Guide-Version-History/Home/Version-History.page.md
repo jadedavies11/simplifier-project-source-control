@@ -18,6 +18,20 @@ Implementation Guide version history is provided in the table below.
 	</thead>
 	<tbody>
 		<tr>
+<td scope="row">29/01/2025</td>
+			<td>2.1.0 STU2</td>
+			<td>4.0.1</td>
+			<td>2.0.1</td>
+			<td>This is a minor release to support the Growth Chart project.</td>
+			<td>
+				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=2.1.0">Home Page</a>
+			</td>
+			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=2.1.0">Release Notes</a></td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.wales/2.1.0">fhir.r4.wales 2.1.0</a>
+			</td>
+		</tr>
+		<tr>
 			<td scope="row">02/12/2024</td>
 			<td>2.0.0 STU2</td>
 			<td>4.0.1</td>
@@ -54,7 +68,7 @@ Implementation Guide version history is provided in the table below.
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.1.1">Home Page</a>
 			</td>
-			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=1.1.1">Release Notes</a></td>
+			<td><a href="https://simplifier.net/guide/fhir-Implementation-Guide/Home/Help-and-Support/Release-Notes?version=1.1.1">Release Notes</a></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/1.1.1">fhir.r4.wales 1.1.0</a>
 			</td>
@@ -68,7 +82,7 @@ Implementation Guide version history is provided in the table below.
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.1.0">Home Page</a>
 			</td>
-			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=1.1.0">Release Notes</a></td>
+			<td><a href="https://simplifier.net/guide/fhir-Implementation-Guide/Home/Help-and-Support/Release-Notes?version=1.1.0">Release Notes</a></td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.wales.STU1/1.1.0">fhir.r4.wales 1.1.0</a>
 			</td>
