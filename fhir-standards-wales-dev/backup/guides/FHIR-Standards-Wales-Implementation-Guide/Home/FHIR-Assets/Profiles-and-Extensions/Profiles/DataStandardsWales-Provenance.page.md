@@ -49,26 +49,31 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
-**Each Provenance must have:**
-1. Provenance.target
-1. Provenance.recorded
-1. Provenance.agent
-1. Provenance.agent.who
+Each Provenance must have:
+1. One or more targets
+1. A recorded timestamp
 
-**Each Provenance must support:**
-1. Provenance.target
-1. Provenance.recorded
-1. Provenance.agent
-1. Provenance.signature
+Each Provenance must support:
+1. One or more agents
+1. One or more entities if relevant
 
 ### Implementation Guidance 
-* The `Provenance.agent.who` field **SHALL** be populated.
-* The `Provenance.agent` field **SHALL** be populated.
-* The `Provenance.recorded` field **SHALL** be populated.
-* The `Provenance.target` field **SHALL** be populated.
+The `Provenance.target` field **SHALL** be populated to reference the FHIR resource(s) that were generated or updated by the activity described in this resource. A provenance can point to more than one target if multiple resources were created/updated by the same activity.
+
+The `Provenance.recorded` field **SHALL** be include a timestamp to indicate when the activity was recorded/updated.
+
+The `Provenance.agent` field **SHOULD** include all agents involved in the activity. Typical agents include
+* Devices such as software systems or components
+* Clinical devices 
+* Human users
+
+The `Provenance.entity` field **MAY** be used to indicate one or more entities in this activity, and may be used to refer, for example, to an HL7v2 message used to update demographic information within a Patient resource. 
+
+Please see the Provenance page within the Guidance section above for further information.
 <br><br>
 
 ### Extension 
+TODO - update this...
 The extension listed below has been created to support PAS entries: 
 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DemographicsAsRecorded.page.md,text:DataStandardsWales-DemographicsAsRecorded}} extends the Provenance resource to capture demographics details recorded as at the time of the care record change.
