@@ -38,10 +38,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 	</div>
   <div id="tabeg" class="tabcontent">
     <list>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend, text:Example Provenance - Amend Device and Document Reference }}</li>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text:Example Provenance - Amend where Device is unavailable }}</li>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text:Example Provenance - Growth Charts }}</li>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text:Example Provenance - Health Care Assistant Practitioner and PractitionerRole }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend, text:Example Provenance - Patient demographic update as result of an HL7v2 update }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text:Example Provenance - Provenance record with multiple targets }}</li>
+        <li>Example Provenance - Recording demographic as recorded (TODO) Link also to be provided from the Extension's definition page</li>
       </list>
   </div>
 </div>
@@ -69,11 +68,7 @@ The `Provenance.agent` field **SHOULD** include all agents involved in the activ
 
 The `Provenance.entity` field **MAY** be used to indicate one or more entities in this activity, and may be used to refer, for example, to an HL7v2 message used to update demographic information within a Patient resource. 
 
-Please see the Provenance page within the Guidance section above for further information.
-<br><br>
+Please see the Provenance page within the Guidance section above for further information. 
 
-### Extension 
-TODO - update this...
-The extension listed below has been created to support PAS entries: 
-
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DemographicsAsRecorded.page.md,text:DataStandardsWales-DemographicsAsRecorded}} extends the Provenance resource to capture demographics details recorded as at the time of the care record change.
+### Extensions 
+Some use cases require the original demographic data at time of recording to stored directly against the clinical data e.g. for diagnostic reports in Wales. This additional provenace can be captured using the {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DemographicsAsRecorded.page.md,text:DataStandardsWales-DemographicsAsRecorded}} extension.
