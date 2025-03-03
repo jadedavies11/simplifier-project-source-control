@@ -47,24 +47,30 @@ This profile aligns with the [UK Core Service Request Profile](https://simplifie
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
-**Each Service Request must have:**
+**Each Service Request must have:**  (change these to be bullets similar to Patient page)
 1. A status
+  * status codes are defined by HL7
+  * use 'active' for all current service requests
+  * where a SR has been cancelled use 'revoked' where the reason for cancellation is unknown
 1. An intent code indicating whether the request is a proposal, plan, or order
 1. A code defining what is being requested
-1. A patient
+  * For WPAS referrals, use the sub-specialty code for the service being requested.
+  * include the HB namespace (each one has their own list of codes)
+1. A subject (i.e the patient)
 
 **Each Service Request must support:**
-1. An identifier *
+1. An identifier 
+  * The `ServiceRequest.identifier` field **SHOULD** contain all available identifiers. Typical identifiers include:
+    * Relevant business identifiers for the request, e.g. pas-eventcode  
+    * NB refer to namespaces for HB specific values
 1. A category
 1. A priority
 1. A reference to one or more specimens
-1. When request was made
+1. When request was authored
+  * this is the effective date of the service request
 1. The requester
+1. The performer
+  * at a min **SHOULD** be the performing organisation (i.e HB)
 
-*see Implementation Guidance for the identifier element below
-
-
-The `ServiceRequest.identifier` field **SHOULD** contain all available identifiers. Typical identifiers include:
-  * Identifiers assigned to the ServiceRequest by the Welsh Results and Reporting Service
 <br><br>
 
