@@ -1,13 +1,11 @@
 {
-  "name": "fhir.r4.wales.dev",
-  "version": "2.2.1-beta-1",
-  "description": "NOT for production use - FHIR Standards Wales development environment. ",
-  "fhirVersions": [
-    "4.0.1"
-  ],
-  "author": "jadedavies3",
+  "name": "NHSWalesfhirprofilesR",
+  "version": "2.1.0",
+  "description": "Put a description here",
   "dependencies": {
     "fhir.r4.ukcore.stu2": "2.0.1"
   },
-  "jurisdiction": "urn:iso:std:iso:3166#GB"
+  "fhirVersions": [
+    "4.0.0"
+  ]
 }
