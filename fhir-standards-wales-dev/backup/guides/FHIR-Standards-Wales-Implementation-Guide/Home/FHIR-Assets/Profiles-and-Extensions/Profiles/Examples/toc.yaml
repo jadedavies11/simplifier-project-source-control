@@ -1,5 +1,7 @@
 - name: Example-DataStandardsWales-AuditEvent-CreateObservations
   filename: Example-DataStandardsWales-AuditEvent-CreateObservations.page.md
+- name: Example-DataStandardsWales-Appointment-FollowUp
+  filename: Example-DataStandardsWales-Appointment-FollowUp.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS

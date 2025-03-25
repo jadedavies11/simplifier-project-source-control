@@ -2,9 +2,7 @@
 
 Below is a list of examples related to some of the resources mentioned above; 
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md, text: Example Observation - BMI}}
-
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md, text
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-BMI.page.md, text: Example Observation - BMI}}
 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-MaternalHeight.page.md, text: Example Observation - Maternal Height}}
 
