@@ -1,6 +1,6 @@
 <div class="warning"><span class="ClinicalWarn"></span></div>
 
-## Example AuditEvent - Create Observations
+## Example Appointment - Follow Up
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:AuditEvent/Example-HDU-Follow-Up-Appointment}}
+      {{tree:Appointment/Example-AuditEvent-CreateObservations}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:AuditEvent/Example-HDU-Follow-Up-Appointment}}
+      {{table:AuditEvent/Example-AuditEvent-CreateObservations}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:AuditEvent/Example-HDU-Follow-Up-Appointment}}
+      {{xml:AuditEvent/Example-AuditEvent-CreateObservations}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:AuditEvent/Example-HDU-Follow-Up-Appointment}}
+      {{json:AuditEvent/Example-AuditEvent-CreateObservations}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:AuditEvent/Example-HDU-Follow-Up-Appointment}}
+      {{narrative:AuditEvent/Example-AuditEvent-CreateObservations}}
     </div>  
   </div>
 </div>
