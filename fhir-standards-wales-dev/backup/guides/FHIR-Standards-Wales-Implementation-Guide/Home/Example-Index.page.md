@@ -21,9 +21,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedmorphine.page.md, text:Example List - Degraded Morphine Allergy}}
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedibuprofen.page.md, text:Example List - Degraded Ibuprofen Allergy}}
 
-### Appointment Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Appointment-FollowUp.page.md, text: Appointment - Follow Up}}
-
 ### Audit Event Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-AuditEvent-CreateObservations.page.md, text: Audit Event - Create Observation}}
 
