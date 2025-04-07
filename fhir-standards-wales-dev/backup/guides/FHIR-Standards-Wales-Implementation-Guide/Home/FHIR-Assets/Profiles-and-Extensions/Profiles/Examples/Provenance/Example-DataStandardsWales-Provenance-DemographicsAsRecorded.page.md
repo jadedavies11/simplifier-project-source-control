@@ -22,10 +22,10 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{tree:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{table:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
       {{xml:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
