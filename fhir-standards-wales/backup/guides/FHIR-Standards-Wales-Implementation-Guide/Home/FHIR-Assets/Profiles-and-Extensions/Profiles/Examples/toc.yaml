@@ -68,14 +68,12 @@
   filename: Example-DataStandardsWales-PractitionerRole-Physiotherapist.page.md
 - name: Example-DataStandardsWales-PractitionerRole-PrescribingNurse
   filename: Example-DataStandardsWales-PractitionerRole-PrescribingNurse.page.md
-- name: Example-DataStandardsWales-Provenance-Amend
-  filename: Example-DataStandardsWales-Provenance-Amend.page.md
-- name: Example-DataStandardsWales-Provenance-Amend-Alt
-  filename: Example-DataStandardsWales-Provenance-Amend-Alt.page.md
-- name: Example-DataStandardsWales-Provenance-Growth-Charts
-  filename: Example-DataStandardsWales-Provenance-Growth-Charts.page.md
-- name: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole
-  filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md
+- name: Example-DataStandardsWales-Questionnaire-GrowthChartCondition
+  filename: Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md
+- name: Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition
+  filename: Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md
+- name: Example-DataStandardsWales-RelatedPerson-NaturalMother
+  filename: Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
@@ -86,3 +84,5 @@
   filename: Immunization
 - name: Observation-VitalSigns
   filename: Observation-VitalSigns
+- name: Provenance
+  filename: Provenance
