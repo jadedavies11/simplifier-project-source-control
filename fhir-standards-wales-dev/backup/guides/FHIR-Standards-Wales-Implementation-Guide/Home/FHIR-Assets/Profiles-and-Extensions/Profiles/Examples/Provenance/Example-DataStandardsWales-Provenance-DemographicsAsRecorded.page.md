@@ -28,13 +28,13 @@
       {{table:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{xml:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{json:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{narrative:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>  
   </div>
 </div>
