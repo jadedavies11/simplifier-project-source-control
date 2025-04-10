@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Provenance-MultipleTargets}}
+      {{tree:Provenance/Example-DataStandardsWales-Provenance-MultipleTargets}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Provenance-MultipleTargets}}
+      {{table:Provenance/Example-DataStandardsWales-Provenance-MultipleTargets}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Provenance-MultipleTargets}}
+      {{xml:Provenance/Example-DataStandardsWales-Provenance-MultipleTargets}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Provenance-MultipleTargets}}
+      {{json:Provenance/Example-DataStandardsWales-Provenance-MultipleTargets}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Provenance-MultipleTargets}}
+      {{narrative:Provenance/Example-DataStandardsWales-Provenance-MultipleTargets}}
     </div>  
   </div>
 </div>
