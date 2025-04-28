@@ -31,6 +31,33 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedure" />
       </binding>
     </element>
+    <element id="Immunization.extension:extensionDataStandardsWalesImmunizationBasedOn">
+      <path value="Immunization.extension" />
+      <sliceName value="DataStandardsWalesImmunizationBasedOn" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Immunization.extension:extensionDataStandardsWalesImmunizationMedication">
+      <path value="Immunization.extension" />
+      <sliceName value="DataStandardsWalesImmunizationMedication" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ImmunizationMedication" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Immunization.extension:extensionDataStandardsWalesForecaseCreationSource">
+      <path value="Immunization.extension" />
+      <sliceName value="DataStandardsWalesForecaseCreationSource" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecaseCreationSource" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="Immunization.identifier">
       <path value="Immunization.identifier" />
       <mustSupport value="true" />
