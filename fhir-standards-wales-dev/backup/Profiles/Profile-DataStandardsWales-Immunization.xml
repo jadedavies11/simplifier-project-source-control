@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Immunization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
-  <version value="1.0.0" />
+  <version value="0.1.2" />
   <name value="DataStandardsWalesImmunization" />
   <title value="Data Standards Wales Immunization" />
-  <status value="active" />
-  <experimental value="false" />
-  <date value="2025-04-30" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2023-05-24" />
   <publisher value="NHS Wales" />
   <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
@@ -30,42 +30,6 @@
         <strength value="required" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedure" />
       </binding>
-    </element>
-    <element id="Immunization.extension:DataStandardsWalesImmunizationBasedOn">
-      <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesImmunizationBasedOn" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Immunization.extension:DataStandardsWalesImmunizationMedication">
-      <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesImmunizationMedication" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ImmunizationMedication" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Immunization.extension:DataStandardsWalesForecastCreationSource">
-      <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesForecastCreationSource" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecastCreationSource" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Immunization.extension:DataStandardsWalesDateProcedureLastUpdated">
-      <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesDateProcedureLastUpdated" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DateProcedureLastUpdated" />
-      </type>
-      <isModifier value="false" />
     </element>
     <element id="Immunization.identifier">
       <path value="Immunization.identifier" />
@@ -263,6 +227,7 @@
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImmunizationRecommendation" />
       </type>
     </element>
     <element id="Immunization.reaction.detail">
@@ -287,8 +252,9 @@
       <path value="Immunization.protocolApplied.targetDisease" />
       <mustSupport value="true" />
       <binding>
-        <strength value="example" />
+        <strength value="required" />
         <description value="(work in progress) The vaccine preventable disease the dose is being administered for." />
+        <valueSet value="http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases" />
       </binding>
     </element>
   </differential>
