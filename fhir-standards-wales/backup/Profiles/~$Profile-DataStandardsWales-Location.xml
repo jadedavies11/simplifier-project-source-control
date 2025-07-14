@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-Location" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+  <version value="1.1.1" />
+  <name value="DataStandardsWalesLocation" />
+  <title value="Data Standards Wales Location" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2023-11-10" />
+  <publisher value="NHS Wales" />
+  <copyright value="2024 NHS Wales." />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Location" />
+  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Location" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Location.identifier">
+      <path value="Location.identifier" />
+      <comment value="Identifiers for the location SHOULD be populated if the data exists" />
+      <requirements value="Different location identities will apply which are managed by different registries" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.identifier:odsSiteCode">
+      <path value="Location.identifier" />
+      <sliceName value="odsSiteCode" />
+      <max value="0" />
+    </element>
+    <element id="Location.identifier:wrtsLocationIdentifier">
+      <path value="Location.identifier" />
+      <sliceName value="wrtsLocationIdentifier" />
+      <short value="The WRTS identifier for the location" />
+      <definition value="The Welsh Reference Data Servcie identifier for the location" />
+      <max value="1" />
+    </element>
+    <element id="Location.identifier:wrtsLocationIdentifier.system">
+      <path value="Location.identifier.system" />
+      <short value="WRTS location identifier" />
+      <min value="1" />
+      <fixedUri value="https://fhir.nhs.wales/Id/wrts-location-identifier" />
+    </element>
+    <element id="Location.identifier:wrtsLocationIdentifier.value">
+      <path value="Location.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Location.status">
+      <path value="Location.status" />
+      <comment value="The status of the location (i.e., whether it is active, suspended or inactive) SHOULD be populated if the data exists." />
+    </element>
+    <element id="Location.name">
+      <path value="Location.name" />
+      <comment value="Location name SHALL be populated. If the name of a location changes, consider putting the old name in the alias column so that it can still be located through searches." />
+      <min value="1" />
+    </element>
+    <element id="Location.managingOrganization">
+      <path value="Location.managingOrganization" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.managingOrganization.identifier.system">
+      <path value="Location.managingOrganization.identifier.system" />
+      <min value="1" />
+    </element>
+    <element id="Location.managingOrganization.identifier.value">
+      <path value="Location.managingOrganization.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Location.partOf">
+      <path value="Location.partOf" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.partOf.identifier.system">
+      <path value="Location.partOf.identifier.system" />
+      <min value="1" />
+    </element>
+    <element id="Location.partOf.identifier.value">
+      <path value="Location.partOf.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Location.endpoint">
+      <path value="Location.endpoint" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Endpoint" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

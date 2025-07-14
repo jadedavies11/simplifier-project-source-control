@@ -1,0 +1,32 @@
+<Immunization xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Immunization-NotGiven" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
+    </meta>
+	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-VaccinationProcedure">
+		<valueCodeableConcept>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<code value="86198006" />
+				<display value= "Administration of influenza vaccine" />
+			</coding>
+		</valueCodeableConcept>
+	</extension>
+	<status value="not-done" />
+	<statusReason>
+		<coding> 
+			<system value="http://snomed.info/sct" />
+			<code value="213257006" />
+			<display value="Generally unwell" />
+			<userSelected value="true" />
+		</coding>
+	</statusReason>
+	<patient>
+		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<display value="JONES, Alice (NHS:9912003444)" />
+	</patient>
+	<occurrenceDateTime value="2024-07-10T10:30" />
+	<location>
+		<reference value="Location/Example-DataStandardsWales-Location-CadogWard" />
+	</location>
+</Immunization>
