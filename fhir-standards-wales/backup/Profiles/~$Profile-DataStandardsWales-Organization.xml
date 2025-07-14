@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-Organization" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+  <version value="1.1.1" />
+  <name value="DataStandardsWalesOrganization" />
+  <title value="Data Standards Wales Organization" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2023-08-02" />
+  <publisher value="NHS Wales" />
+  <copyright value="2024 NHS Wales." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="servd" />
+    <uri value="http://www.omg.org/spec/ServD/1.0/" />
+    <name value="ServD" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Organization" />
+  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Organization" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Organization.identifier">
+      <path value="Organization.identifier" />
+      <comment value="Identifiers for the organization SHOULD be populated if the data exists" />
+    </element>
+    <element id="Organization.identifier:odsSiteCode">
+      <path value="Organization.identifier" />
+      <sliceName value="odsSiteCode" />
+      <max value="0" />
+    </element>
+    <element id="Organization.identifier:gpClusterCode">
+      <path value="Organization.identifier" />
+      <sliceName value="gpClusterCode" />
+      <short value="Identifies a Wales GP Cluster organization across multiple systems" />
+      <definition value="Identifier for a Wales GP Cluster organization that is used to identify the organization across multiple disparate systems." />
+    </element>
+    <element id="Organization.identifier:gpClusterCode.system">
+      <path value="Organization.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.nhs.wales/Id/gpcluster-code" />
+    </element>
+    <element id="Organization.identifier:gpClusterCode.value">
+      <path value="Organization.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Organization.active">
+      <path value="Organization.active" />
+      <comment value="A status of the organization (i.e., whether is still active ) SHOULD be populated if the data exists.&#xD;&#xA;&#xD;&#xA;This active flag is not intended to be used to mark an organization as temporarily closed or under construction. Instead the Location(s) within the Organization should have the suspended status. If further details of the reason for the suspension are required, then an extension on this element should be used.&#xA;&#xA;This element is labeled as a modifier because it may be used to mark that the resource was created in error." />
+    </element>
+    <element id="Organization.name">
+      <path value="Organization.name" />
+      <definition value="A name associated with the organization (e.g. ODS name)." />
+      <comment value="Organization name SHALL be populated. If the name of an organization changes, consider putting the old name in the alias column so that it can still be located through searches." />
+      <min value="1" />
+    </element>
+    <element id="Organization.telecom.value">
+      <path value="Organization.telecom.value" />
+      <min value="1" />
+    </element>
+    <element id="Organization.partOf">
+      <path value="Organization.partOf" />
+      <definition value="The organization of which this organization forms a part.&#xD;&#xA;&#xD;&#xA;Recommended mandatory for primary care organisations.&#xD;&#xA;&#xD;&#xA;    &quot;partOf&quot;: {&#xD;&#xA;        &quot;reference&quot;: &quot;https://directory.spineservices.nhs.uk/R4/Organization/RR805&quot;,&#xD;&#xA;        &quot;identifier&quot;: {&#xD;&#xA;            &quot;system&quot;: &quot;https://fhir.nhs.uk/Id/ods-organization-code&quot;,&#xD;&#xA;            &quot;value&quot;: &quot;RR805&#xD;&#xA;        }" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.partOf.identifier.system">
+      <path value="Organization.partOf.identifier.system" />
+      <min value="1" />
+    </element>
+    <element id="Organization.partOf.identifier.value">
+      <path value="Organization.partOf.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Organization.endpoint">
+      <path value="Organization.endpoint" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Endpoint" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

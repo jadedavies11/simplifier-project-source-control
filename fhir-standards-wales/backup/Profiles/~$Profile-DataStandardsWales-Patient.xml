@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-Patient" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+  <version value="1.2.1" />
+  <name value="DataStandardsWalesPatient" />
+  <title value="Data Standards Wales Patient" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2024-05-24" />
+  <publisher value="NHS Wales" />
+  <copyright value="2024 NHS Wales." />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Patient" />
+  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Patient.extension:ethnicCategory">
+      <path value="Patient.extension" />
+      <sliceName value="ethnicCategory" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Patient.extension:religion">
+      <path value="Patient.extension" />
+      <sliceName value="religion" />
+      <short value="Patient religion" />
+      <definition value="A code to indicate the patient's religion" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Religion" />
+      </type>
+      <mustSupport value="true" />
+      <isModifier value="false" />
+    </element>
+    <element id="Patient.extension:religion.value[x]">
+      <path value="Patient.extension.value[x]" />
+      <min value="1" />
+    </element>
+    <element id="Patient.extension:occupation">
+      <path value="Patient.extension" />
+      <sliceName value="occupation" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Occupation" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Patient.extension:occupation.value[x]">
+      <path value="Patient.extension.value[x]" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier">
+      <path value="Patient.identifier" />
+      <requirements value="To be compliant, at least one identifier shall be provided to uniquely identify the patient." />
+    </element>
+    <element id="Patient.identifier:nhsNumber">
+      <path value="Patient.identifier" />
+      <sliceName value="nhsNumber" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Patient.identifier:abuhbPasIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="abuhbPasIdentifier" />
+      <short value="Aneurin Bevan University Health Board PAS patient identifier" />
+      <definition value="Aneurin Bevan University Health Board PAS patient identifier" />
+    </element>
+    <element id="Patient.identifier:abuhbPasIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.abuhb.nhs.wales/Id/pas-identifier" />
+    </element>
+    <element id="Patient.identifier:abuhbPasIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier:bcuhbPasIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="bcuhbPasIdentifier" />
+      <short value="Betsi Cadwaladr University Health Board PAS patient identifier" />
+      <definition value="Betsi Cadwaladr University Health Board PAS patient identifier" />
+    </element>
+    <element id="Patient.identifier:bcuhbPasIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.bcuhb.nhs.wales/Id/pas-identifier" />
+    </element>
+    <element id="Patient.identifier:bcuhbPasIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier:cavuhbPasIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="cavuhbPasIdentifier" />
+    </element>
+    <element id="Patient.identifier:cavuhbPasIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.cavuhb.nhs.wales/Id/pas-identifier" />
+    </element>
+    <element id="Patient.identifier:cavuhbPasIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier:ctmuhbPasIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="ctmuhbPasIdentifier" />
+      <short value="Cwm Taf Morgannwg University Health Board PAS patient identifier" />
+      <definition value="Cwm Taf Morgannwg University Health Board PAS patient identifier" />
+    </element>
+    <element id="Patient.identifier:ctmuhbPasIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.ctmuhb.nhs.wales/Id/pas-identifier" />
+    </element>
+    <element id="Patient.identifier:ctmuhbPasIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier:hduhbPasIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="hduhbPasIdentifier" />
+      <short value="Hywel Dda University Health Board PAS patient identifier" />
+      <definition value="Hywel Dda University Health Board PAS patient identifier" />
+    </element>
+    <element id="Patient.identifier:hduhbPasIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.hduhb.nhs.wales/Id/pas-identifier" />
+    </element>
+    <element id="Patient.identifier:hduhbPasIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier:pthbPasIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="pthbPasIdentifier" />
+      <short value="Powys Teaching Health Board PAS patient identifier" />
+      <definition value="Powys Teaching Health Board PAS patient identifier" />
+    </element>
+    <element id="Patient.identifier:pthbPasIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.pthb.nhs.wales/Id/pas-identifier" />
+    </element>
+    <element id="Patient.identifier:pthbPasIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier:sbuhbPasIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="sbuhbPasIdentifier" />
+      <short value="Swansea Bay University Health Board PAS patient identifier" />
+      <definition value="Swansea Bay University Health Board PAS patient identifier" />
+    </element>
+    <element id="Patient.identifier:sbuhbPasIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.sbuhb.nhs.wales/Id/pas-identifier" />
+    </element>
+    <element id="Patient.identifier:sbuhbPasIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier:vunhstCaniscIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="vunhstCaniscIdentifier" />
+      <short value="Velindre Universtity NHS Trust Canisc (PAS) patient identifier" />
+      <definition value="Velindre Universtity NHS Trust Canisc (PAS) patient identifier" />
+    </element>
+    <element id="Patient.identifier:vunhstCaniscIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.vunhst.nhs.wales/Id/canisc-identifier" />
+    </element>
+    <element id="Patient.identifier:vunhstCaniscIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.identifier:vunhstPasIdentifier">
+      <path value="Patient.identifier" />
+      <sliceName value="vunhstPasIdentifier" />
+      <short value="Velindre Universtity NHS Trust PAS patient identifier" />
+      <definition value="Velindre Universtity NHS Trust PAS patient identifier" />
+    </element>
+    <element id="Patient.identifier:vunhstPasIdentifier.system">
+      <path value="Patient.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.vunhst.nhs.wales/Id/pas-identifier" />
+    </element>
+    <element id="Patient.identifier:vunhstPasIdentifier.value">
+      <path value="Patient.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Patient.name.prefix">
+      <path value="Patient.name.prefix" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="extensible" />
+        <description value="Data Standards Wales Title" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-Title" />
+      </binding>
+    </element>
+    <element id="Patient.name.suffix">
+      <path value="Patient.name.suffix" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Patient.deceased[x]">
+      <path value="Patient.deceased[x]" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Patient.address.postalCode">
+      <path value="Patient.address.postalCode" />
+      <definition value="A postal code designating a region defined by the postal service.&#xD;&#xA;&#xD;&#xA;Format: 8 character alphanumeric&#xD;&#xA;The specific code format as specified by the Office of National statistics (ONS)&#xD;&#xA;&#xD;&#xA;Data description&#xD;&#xA;Unit postcode – 8 character version&#xD;&#xA;&#xD;&#xA;Range of codes/ Entity code&#xD;&#xA;AB1 Δ Δ 1AA - ZE99 Δ 9ZZ (maximum range)&#xD;&#xA;&#xD;&#xA;Comments&#xD;&#xA;2, 3 or 4-character outward code - left aligned;&#xD;&#xA;3-character inward code - right aligned;&#xD;&#xA;5th character always blank and&#xD;&#xA;3rd and 4th characters may be blank (Δ)&#xD;&#xA;&#xD;&#xA;This allows a space to be inserted to differentiate between the inward and outward segments of the code, enabling full use to be made of the Royal Mail postcode functionality." />
+      <requirements value="This guidance is based upon the published Data Standards Wales (DSW) recommendation for representing the postal code in systems.  While this is the preferred representation it is understood that some systems may not currently comply to the standard.  As such, this should be taken as guidance only. No software constraints have been placed on the data element to reject certain patterns therefore any string value sent is acceptable. However, it is best practice to follow the standard set out below for any new implementation or if a current system is being updated to conform to DSW standards.&#xD;&#xA;&#xD;&#xA;Please reference https://www.datadictionary.wales.nhs.uk/#!WordDocuments/informationspecification65.htm for full details on this data standard." />
+    </element>
+    <element id="Patient.maritalStatus">
+      <path value="Patient.maritalStatus" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Patient.communication.language">
+      <path value="Patient.communication.language" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Patient.generalPractitioner">
+      <path value="Patient.generalPractitioner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="Patient.managingOrganization">
+      <path value="Patient.managingOrganization" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="Patient.link.other">
+      <path value="Patient.link.other" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
