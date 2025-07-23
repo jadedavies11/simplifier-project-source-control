@@ -2,19 +2,19 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-DiagnosticReport-Lab" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport-Lab" />
-  <version value="0.1.1" />
+  <version value="0.2.0" />
   <name value="DataStandardsWalesDiagnosticReportLab" />
   <title value="Data Standards Wales Diagnostic Report - Lab" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2025-05-29" />
+  <date value="2025-06-26" />
   <publisher value="NHS Wales" />
   <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
   <type value="DiagnosticReport" />
-  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-DiagnosticReport" />
+  <baseDefinition value="http://hl7.eu/fhir/laboratory/StructureDefinition/DiagnosticReport-eu-lab" />
   <derivation value="constraint" />
   <differential>
     <element id="DiagnosticReport.identifier">
@@ -36,6 +36,16 @@
       <path value="DiagnosticReport.category" />
       <min value="1" />
     </element>
+    <element id="DiagnosticReport.category.coding">
+      <path value="DiagnosticReport.category.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
     <element id="DiagnosticReport.category.coding:laboratory">
       <path value="DiagnosticReport.category.coding" />
       <sliceName value="laboratory" />
@@ -46,13 +56,27 @@
         <code value="LAB" />
         <display value="Laboratory" />
       </fixedCoding>
-      <mustSupport value="true" />
+    </element>
+    <element id="DiagnosticReport.category.coding:laboratory.display.extension:translation">
+      <path value="DiagnosticReport.category.coding.display.extension" />
+      <sliceName value="translation" />
+    </element>
+    <element id="DiagnosticReport.category.coding:laboratory.display.extension:translation.extension">
+      <path value="DiagnosticReport.category.coding.display.extension.extension" />
+      <min value="2" />
+    </element>
+    <element id="DiagnosticReport.code.coding.display.extension:translation">
+      <path value="DiagnosticReport.code.coding.display.extension" />
+      <sliceName value="translation" />
+    </element>
+    <element id="DiagnosticReport.code.coding.display.extension:translation.extension">
+      <path value="DiagnosticReport.code.coding.display.extension.extension" />
+      <min value="2" />
     </element>
     <element id="DiagnosticReport.subject">
       <path value="DiagnosticReport.subject" />
       <short value="The subject of the report - which is always a patient for Laboratory Reports" />
       <definition value="The subject of the report - which is always a patient for Laboratory Reports." />
-      <min value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
