@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-Specimen-Lab" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Specimen-Lab" />
+  <version value="0.1.0" />
+  <name value="DataStandardsWalesSpecimenLab" />
+  <title value="Data Standards Wales Specimen Lab" />
+  <status value="draft" />
+  <date value="2025-05-13" />
+  <publisher value="NHS Wales" />
+  <description value="This profile defines the NHS Wales constraints and extensions on the International FHIR resource [Specimen](https://hl7.org/fhir/R4/Specimen.html)." />
+  <purpose value="This profile allows the exchange of information about a sample to be used for analysis." />
+  <copyright value="2024 NHS Wales." />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Specimen" />
+  <baseDefinition value="http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Specimen.extension:sampleCategory">
+      <path value="Specimen.extension" />
+      <sliceName value="sampleCategory" />
+      <short value="An extension to record the category of a sample." />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-SampleCategory" />
+      </type>
+    </element>
+    <element id="Specimen.status">
+      <path value="Specimen.status" />
+      <short value="The availability of the specimen sample." />
+      <mustSupport value="true" />
+    </element>
+    <element id="Specimen.type">
+      <path value="Specimen.type" />
+      <short value="The kind of material that forms the specimen." />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="preferred" />
+        <description value="A code from the SNOMED CT UK Clinical Terminology coding system" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-SpecimenType" />
+      </binding>
+    </element>
+    <element id="Specimen.subject">
+      <path value="Specimen.subject" />
+      <short value="Where the specimen came from." />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+        <targetProfile value="http://hl7.eu/fhir/laboratory/StructureDefinition/Patient-animal-eu-lab" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Specimen.receivedTime">
+      <path value="Specimen.receivedTime" />
+      <short value="The time when specimen was received for processing." />
+      <mustSupport value="true" />
+    </element>
+    <element id="Specimen.parent">
+      <path value="Specimen.parent" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Specimen-Lab" />
+      </type>
+    </element>
+    <element id="Specimen.request">
+      <path value="Specimen.request" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest-Lab" />
+      </type>
+    </element>
+    <element id="Specimen.collection">
+      <path value="Specimen.collection" />
+      <constraint>
+        <key value="ukcore-spec-001" />
+        <severity value="error" />
+        <human value="Only one of Specimen.collection.collector or Specimen.collection.extension:collectorR5 can be populated at a time." />
+        <expression value="collector.reference.empty() or collector.extension('http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.collector').empty()" />
+      </constraint>
+    </element>
+    <element id="Specimen.collection.extension:specialHandling">
+      <path value="Specimen.collection.extension" />
+      <sliceName value="specialHandling" />
+      <short value="This SHOULD be included if there is a high contamination risk reason for a sample / biopsy." />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/specimen-specialHandling" />
+      </type>
+    </element>
+    <element id="Specimen.collection.extension:collectorR5">
+      <path value="Specimen.collection.extension" />
+      <sliceName value="collectorR5" />
+      <comment value="If this extension is used then Specimen.collection.collector SHALL NOT have a value to keep the cardinality restraint 0..1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.collector" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Specimen.collection.bodySite">
+      <path value="Specimen.collection.bodySite" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-SpecimenBodySite" />
+      </binding>
+    </element>
+    <element id="Specimen.collection.bodySite.extension:bodySiteReference">
+      <path value="Specimen.collection.bodySite.extension" />
+      <sliceName value="bodySiteReference" />
+      <short value="An extension to allow referencing to a BodyStructure." />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-BodySiteReference" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Specimen.collection.bodySite.extension:bodySiteReference.value[x]">
+      <path value="Specimen.collection.bodySite.extension.value[x]" />
+      <short value="A reference to a BodyStructure" />
+    </element>
+    <element id="Specimen.container.extension:deviceR5">
+      <path value="Specimen.container.extension" />
+      <sliceName value="deviceR5" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device" />
+      </type>
+    </element>
+    <element id="Specimen.container.extension:deviceR5.url">
+      <path value="Specimen.container.extension.url" />
+      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device" />
+    </element>
+    <element id="Specimen.container.extension:locationR5">
+      <path value="Specimen.container.extension" />
+      <sliceName value="locationR5" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location" />
+      </type>
+    </element>
+    <element id="Specimen.container.extension:locationR5.url">
+      <path value="Specimen.container.extension.url" />
+      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location" />
+    </element>
+    <element id="Specimen.condition">
+      <path value="Specimen.condition" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-SampleState" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
