@@ -2,23 +2,6 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
-### v2.4.0 STU2 -> Diagnostics stuff only!
-Package:
-* Add dependency to R5 core STU2 v2.0.1
-* Add dependency to EU Laboratory v0.1.0
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
-    * New Profiles
-        * DataStandardsWales-Composition-Lab
-        * DataStandardsWales-ServiceRequest-Lab
-        * DataStandardsWales-Specimen-Lab
-    * Changes to Profiles
-        * DataStandardsWales-DiagnosticReport-Lab
-            * Updated version from 0.1.1 to 0.2.0
-            * Updated base definition from UKCore to EU-Lab
-        * DataStandardsWales-Observation-Lab
-            * Updated version from 0.1.1 to 0.2.0
-            * Updated base definition from UKCore to EU-Lab
-
 ### v2.3.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
