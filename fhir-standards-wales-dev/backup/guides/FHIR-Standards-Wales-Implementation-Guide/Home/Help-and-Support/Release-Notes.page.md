@@ -55,17 +55,6 @@ Package:
             * Updated version from 0.1.1 to 0.1.2
             * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
          * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
-        * DataStandardsWales-MedicationRequest
-            * Updated version from 1.1.1 to 1.1.2
-            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
-        * DataStandardsWales-Observation
-            * Updated version from 0.1.1 to 0.1.2
-            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation 
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
-    * New Value Sets  
-        * PAS Event Type
-    * New Code Systems
-        * WPAS Event Type
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * Namespaces for PAS Appointment ids
@@ -83,6 +72,7 @@ Guide:
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
+* Updated Provenance Guidance page.
 
 ### v2.2.0 STU2
 Package: 
