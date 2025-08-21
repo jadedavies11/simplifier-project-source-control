@@ -1,0 +1,16 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-Organization-Classification"/> 
+  <name value="OrganizationClassification"/> 
+   <status value="draft" />
+  <kind value="identifier"/>  
+  <date value="2025-08-07" />
+  <publisher value="NHS Wales" />
+  <responsible value="Digital Health and Care Wales"/> 
+  <description value="Test V3 org classification placeholder for Org and Location Work"/> 
+  <usage value="Organization identity"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.nhs.wales/Id/organization-classification"/> 
+    <preferred value="true"/> 
+  </uniqueId>
+</NamingSystem>   

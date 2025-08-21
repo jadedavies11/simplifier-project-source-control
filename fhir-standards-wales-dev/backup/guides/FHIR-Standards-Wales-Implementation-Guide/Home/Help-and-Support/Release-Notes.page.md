@@ -2,29 +2,6 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
-### v2.4.0 STU2
-Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
-    * New Profiles
-        * DataStandardsWales-DocumentReference
-    * New Extensions
-        * DataStandardsWales-DocumentAttribute
-        * DataStandardsWales-DocumentDigitalStatus
-        * DataStandardsWales-DocumentRepository
-    * R5 backport Extensions
-    * Changes to Profiles
-* {{pagelink:Home/FHIR-Assets/Terminology.page.md,text:Terminology}}
-    * Changes to Terminology
-        * New Code Systems
-            * DataStandardsWales-DocumentCategory
-            * DataStandardsWales-DocumentDigitalStatus
-        * New Value Sets
-            * DataStandardsWales-DocumentCategory
-            * DataStandardsWales-DocumentDigitalStatus
-
-Guide:
-* Updated relevant pages within the Guide to reflect changes outlined in Package
-
 ### v2.3.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
