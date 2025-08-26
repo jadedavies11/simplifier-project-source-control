@@ -10,6 +10,9 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-BodyPosition, text:ValueSet-DataStandardsWales-BodyPosition}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text:ValueSet-DataStandardsWales-BodyTemperature}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text:ValueSet-DataStandardsWales-BodyWeightMeasurements}}
+* {{pagelink:ValueSet-DataStandardsWales-DocumentCategory, text:ValueSet-DataStandardsWales-DocumentCategory}}
+* {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus, text:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
+* {{pagelink:ValueSet-DataStandardsWales-DocumentType, text:ValueSet-DataStandardsWales-DocumentType}}
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
 * {{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements, text:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}
 * {{pagelink:ValueSet-DataStandardsWales-HeartRate, text:ValueSet-DataStandardsWales-HeartRate}}
