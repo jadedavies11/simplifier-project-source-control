@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-OrganizationDomain"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationDomain"/>
+	  <version value="0.0.1" />
+	<name value="DataStandardsWalesOrganizationDomain"/>											   
+	<title value="Data Standards Wales Organization Domain"/>
+  <status value="draft" />
+ <experimental value="false" />
+  <date value="2025-09-03" />
+  <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="Test Org Classification placeholder for Org and Location Work"/>
+	<copyright value="2025 NHS Wales." />								   
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
+		</include>
+	</compose>
+</ValueSet>
