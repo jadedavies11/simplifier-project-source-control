@@ -10,10 +10,6 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-BodyPosition, text:ValueSet-DataStandardsWales-BodyPosition}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text:ValueSet-DataStandardsWales-BodyTemperature}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text:ValueSet-DataStandardsWales-BodyWeightMeasurements}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute, text:ValueSet-DataStandardsWales-DocumentAttribute}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentCategory, text:ValueSet-DataStandardsWales-DocumentCategory}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus, text:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentType, text:ValueSet-DataStandardsWales-DocumentType}}
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
 * {{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements, text:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}
 * {{pagelink:ValueSet-DataStandardsWales-HeartRate, text:ValueSet-DataStandardsWales-HeartRate}}
@@ -21,6 +17,7 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text:ValueSet-DataStandardsWales-ObservationVitalSignsType}}
 * {{pagelink:ValueSet-DataStandardsWales-Occupation, text:ValueSet-DataStandardsWales-Occupation}}
 * {{pagelink:ValueSet-DataStandardsWales-OxygenSaturation, text:ValueSet-DataStandardsWales-OxygenSaturation}}
+* {{pagelink:ValueSet-PASEventType, text:ValueSet-PASEventType}}
 * {{pagelink:ValueSet-DataStandardsWales-PatientRecordType, text:ValueSet-DataStandardsWales-PatientRecordType}}
 * {{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity, text:ValueSet-DataStandardsWales-ProvenanceActivity}}
 * {{pagelink:ValueSet-DataStandardsWales-QuestionnaireQuestionCodes, text:ValueSet-DataStandardsWales-QuestionnaireQuestionCodes}}
