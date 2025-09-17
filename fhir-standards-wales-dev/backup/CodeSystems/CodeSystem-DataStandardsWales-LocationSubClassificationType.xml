@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-LocationSubClassificationType"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationSubClassificationType"/>	
+    <version value="0.0.1" />
+    <name value="DataStandardsWalesLocationSubClassificationType"/>
+	<title value="Data Standards Wales Location Sub Classification Type"/>
+    <status value="draft" />
+    <experimental value="false" />
+    <date value="2025-09-11" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+    <description value="Test Org Sub Classification placeholder for Org and Location Work"/>
+    <copyright value="2025 NHS Wales." />
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="adults and children without nursing"/>
+        <display value="Adults and Children Without Nursing"/>
+    </concept>
+</CodeSystem>

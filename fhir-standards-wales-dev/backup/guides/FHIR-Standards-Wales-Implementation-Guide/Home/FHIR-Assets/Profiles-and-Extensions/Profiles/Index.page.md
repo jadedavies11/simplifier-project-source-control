@@ -5,8 +5,6 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-AllergyIntolerance}}
 * {{pagelink:DataStandardsWales-AllergyList}}
 * {{pagelink:DataStandardsWales-AuditEvent}}
-* {{pagelink:DataStandardsWales-Composition}}
-* {{pagelink:DataStandardsWales-Condition}}
 * {{pagelink:DataStandardsWales-Consent}}
 * {{pagelink:DataStandardsWales-Device}}
 * {{pagelink:DataStandardsWales-DiagnosticReport}}
