@@ -6,8 +6,6 @@ This page describes the published versions of this implementation guide and diff
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
-        * DataStandardsWales-Composition
-        * DataStandardsWales-Condition        
         * DataStandardsWales-Consent
         * DataStandardsWales-ImmunizationRecommendation
     * New Extensions
@@ -31,7 +29,6 @@ Package:
             * Updated version from 1.0.0 to 1.0.1
             * .appointment. Added reference to DataStandardsWales-Appointment
             * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
-            * .serviceProvider. Added Must Support flag.
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.0.6 to 0.0.7
             * .basedOn. Added reference to DataStandardsWales-Appointment
@@ -58,21 +55,6 @@ Package:
             * Updated version from 0.1.1 to 0.1.2
             * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
          * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
-        * DataStandardsWales-MedicationRequest
-            * Updated version from 1.1.1 to 1.1.2
-            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
-        * DataStandardsWales-Observation
-            * Updated version from 0.1.1 to 0.1.2
-            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation 
-        * DataStandardsWales-Practitioner
-            * Updated version from 1.1.2 to 1.1.3
-            * Cardinality changes:
-                * identifier:nadexIdentifier. From 0..1 to 0..* 
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
-    * New Value Sets  
-        * PAS Event Type
-    * New Code Systems
-        * WPAS Event Type
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * Namespaces for PAS Appointment ids
@@ -80,7 +62,6 @@ Package:
             * Changed name from AppointmentIdentifier to XXXXPASAppointmentIdentifier where XXXX is the healthboard/trust abbreviation
         * New Naming Systems
             * Namespaces for PAS Practitioner id. This is to aid in the mapping of the HL7 v2 messages into FHIR. It is to the capture 'local' identifiers for practitioners where they may not exist in the CDR.
-            * Namespaces for LIMS TCLE and TCL system identifiers. This is to aid in the mapping of the HL7 v2 messages into FHIR. It is to the capture 'local' identifiers for LIMS where they may not exist in the CDR. These include LIMS identifiers for procedure, report and specimen type codes.
         * Namespaces for SubSpeciality ids
             * Removed all SubSpeciality Namespaces
   
@@ -88,16 +69,10 @@ Package:
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added a new page to outline the DataStandardsWales-Consent profile
-* Added a new page to outline the DataStandardsWales-Condition profile
-* Added a new page to outline the DataStandardsWales-Composition profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
-* Removed DataStandardsWales-Dosage profile from main index
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
-* Updated Provenance Guidance page
-* Moved DataStandardsWales-Device from Diagnostics to Entities in Resource Index page
-* Added HL7 International R4 tile to Related Pages
-* Added HL7 International R5 tile to Related Pages
+* Updated Provenance Guidance page.
 
 ### v2.2.0 STU2
 Package: 
