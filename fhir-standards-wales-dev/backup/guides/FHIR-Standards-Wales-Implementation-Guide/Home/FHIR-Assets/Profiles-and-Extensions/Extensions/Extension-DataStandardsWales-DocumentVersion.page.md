@@ -1,14 +1,14 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to carry the specialty of a practitioner that would be required to perform the service at this encounter
+An extension to capture An explicitly assigned identifer of a variation of the content in the ocumentReference. (Backport from FHIR R5.)
 
 ### Purpose
-This extension extends the Encounter resource to capture the specialty of a practitioner that would be required to perform the  service at this encounter.
+This extension extends the DocumentReference resource to capture a business version identifier (not a resource version id).  It can be used to store the SetSequenceNumber of a document from the Welsh Care Records Service. 
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* Encounter
+* {{pagelink:DataStandardsWales-DocumentReference}}
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesspeciality, snapshot}}
+      {{tree:extensiondatastandardswalesdocumentversion, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

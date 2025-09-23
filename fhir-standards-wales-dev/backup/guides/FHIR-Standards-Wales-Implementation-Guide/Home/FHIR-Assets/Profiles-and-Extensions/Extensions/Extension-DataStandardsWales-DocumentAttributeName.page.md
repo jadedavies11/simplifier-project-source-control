@@ -1,14 +1,18 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to carry the specialty of a practitioner that would be required to perform the service at this encounter
+An extension for the name of the specific document attribute
 
 ### Purpose
-This extension extends the Encounter resource to capture the specialty of a practitioner that would be required to perform the  service at this encounter.
+This extension forms part of the complex DocumentAttribute extension of the DocumentReference resource. It carries the name code of the specific document attribute, chosen from {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute}}.
 
 ### Context of Use
-This extension may be used on the following profile(s):
-* Encounter
+This extension may be used as part of the following complex extension:
+* {{pagelink:Extension-DataStandardsWales-DocumentAttribute}}
+
+It is used in the context of:
+* {{pagelink:DataStandardsWales-DocumentReference}}
+
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +26,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesspeciality, snapshot}}
+      {{tree:extensiondatastandardswalesdocumentattributename, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

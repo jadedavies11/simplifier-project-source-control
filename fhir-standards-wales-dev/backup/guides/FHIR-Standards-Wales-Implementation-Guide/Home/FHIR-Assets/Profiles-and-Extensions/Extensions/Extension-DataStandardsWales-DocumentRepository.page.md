@@ -1,14 +1,16 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to carry the specialty of a practitioner that would be required to perform the service at this encounter
+An extension to capture the repository in which a document is stored
 
 ### Purpose
-This extension extends the Encounter resource to capture the specialty of a practitioner that would be required to perform the  service at this encounter.
+This extension extends the DocumentReference resource to capture the specific repository in which a document is stored.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* Encounter
+* {{pagelink:DataStandardsWales-DocumentReference}}
+This extension references the following profile(s):
+* {{pagelink:DataStandardsWales-Device}}
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +24,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesspeciality, snapshot}}
+      {{tree:extensiondatastandardswalesdocumentrepository, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
