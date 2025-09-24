@@ -5,9 +5,6 @@ The following Extensions have been defined for this implementation guide.
 * {{pagelink:Extension-DataStandardsWales-AdministeredProduct}}
 * {{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated}}
 * {{pagelink:Extension-DataStandardsWales-DemographicsAsRecorded}}
-* {{pagelink:Extension-DataStandardsWales-DocumentAttribute}}
-* {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}}
-* {{pagelink:Extension-DataStandardsWales-DocumentRepository}}
 * {{pagelink:Extension-DataStandardsWales-ForecastCreationSource}}
 * {{pagelink:Extension-DataStandardsWales-Immunization.basedOn}}
 * {{pagelink:Extension-DataStandardsWales-MedicationCourseOfTherapyType}}
@@ -18,3 +15,5 @@ The following Extensions have been defined for this implementation guide.
 * {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}}
 * {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated}}
 * {{pagelink:Extension-DataStandardsWales-Speciality}}
+* {{pagelink:Extension-DataStandardsWales-UECAttendanceCategory}}
+* {{pagelink:Extension-DataStandardsWales-UECExpectedTimeOfTreatment}}
