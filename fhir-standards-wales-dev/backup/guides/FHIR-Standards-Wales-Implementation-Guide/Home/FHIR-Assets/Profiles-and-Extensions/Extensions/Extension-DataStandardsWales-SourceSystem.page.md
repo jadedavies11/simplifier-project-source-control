@@ -1,14 +1,16 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to carry the specialty of a practitioner that would be required to perform the service at this encounter
+An extension to capture the system from which the document details were sourced to create the document reference.
 
 ### Purpose
-This extension extends the Encounter resource to capture the specialty of a practitioner that would be required to perform the  service at this encounter.
+This extension extends the DocumentReference resource to capture the specific system that provided the document metadata.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* Encounter
+* {{pagelink:DataStandardsWales-DocumentReference}}
+This extension references the following profile(s):
+* {{pagelink:DataStandardsWales-Device}}
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +24,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesspeciality, snapshot}}
+      {{tree:extensiondatastandardswalessourcesystem, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
