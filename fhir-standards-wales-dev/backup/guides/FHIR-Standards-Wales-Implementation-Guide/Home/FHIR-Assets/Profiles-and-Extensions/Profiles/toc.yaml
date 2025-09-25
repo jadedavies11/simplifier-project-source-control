@@ -10,10 +10,6 @@
   filename: DataStandardsWales-AllergyList.page.md
 - name: DataStandardsWales-AuditEvent
   filename: DataStandardsWales-AuditEvent.page.md
-- name: DataStandardsWales-Composition
-  filename: DataStandardsWales-Composition.page.md  
-- name: DataStandardsWales-Condition
-  filename: DataStandardsWales-Condition.page.md  
 - name: DataStandardsWales-Consent
   filename: DataStandardsWales-Consent.page.md  
 - name: DataStandardsWales-Device
@@ -22,12 +18,12 @@
   filename: DataStandardsWales-DiagnosticReport.page.md
 - name: DataStandardsWales-DiagnosticReport-Lab
   filename: DataStandardsWales-DiagnosticReport-Lab.page.md
-- name: DateStandardsWales-Dosage
+- name: DataStandardsWales-Dosage
   filename: DataStandardsWales-Dosage.page.md
+- name: DataStandardsWales-DocumentReference
+  filename: DataStandardsWales-DocumentReference.page.md
 - name: DataStandardsWales-Encounter
   filename: DataStandardsWales-Encounter.page.md
-- name: DataStandardsWales-Encounter-UEC
-  filename: DataStandardsWales-Encounter-UEC.page.md
 - name: DataStandardsWales-Endpoint
   filename: DataStandardsWales-Endpoint.page.md
 - name: DataStandardsWales-ImagingStudy
