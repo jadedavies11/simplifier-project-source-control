@@ -79,7 +79,7 @@ Package:
             * Updated version from 1.1.2 to 1.1.3
             * Cardinality changes:
                 * identifier:nadexIdentifier. From 0..1 to 0..* 
-        * DataStandardsWales-Practitioner
+        * DataStandardsWales-PractitionerRole
             * Updated version from 1.1.1 to 1.1.2
             * .specialty. Changed valueset binding from required to extensible to align with UK Core
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
@@ -124,11 +124,11 @@ Package:
             * Removed all SubSpeciality Namespaces
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
-        * DocumentReference
-            * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}
-            * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
-            * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
-            * {{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}
+        * Document Reference
+            * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text:Encounter-based}}
+            * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Event-based}}
+            * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Not event-based}}
+            * {{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Misfiled (document not event-based)}}
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
