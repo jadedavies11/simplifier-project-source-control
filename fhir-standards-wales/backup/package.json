@@ -1,7 +1,7 @@
 {
   "name": "fhir.r4.wales",
-  "version": "2.2.0",
-  "description": "Wales profiles and assets",
+  "version": "2.3.0",
+  "description": "NHS Wales Profiles and assets to enable the implementation of Diagnostics, Document Reference, Immunisations and Emergency Care Encounters. ",
   "author": "NHS Wales",
   "fhirVersions": [
     "4.0.1"

@@ -1,6 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-BCUHB-PAS-AppointmentIdentifier" />
-  <name value="AppointmentIdentifier" />
+  <name value="BCUHBPASAppointmentIdentifier" />
   <status value="active" />
   <kind value="identifier" />
   <date value="2025-02-10" />
@@ -10,7 +10,7 @@
   <usage value="Appointment identity" />
   <uniqueId>
     <type value="uri" />
-    <value value="https://fhir.bcuhb.nhs.wales/Id/pas-event-code" />
+    <value value="https://fhir.bcuhb.nhs.wales/Id/pas-event-identifier" />
     <preferred value="true" />
   </uniqueId>
 </NamingSystem>
