@@ -2,6 +2,31 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.4.0 STU2
+Package: 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+
+    * New Extensions
+
+    * Changes to Profiles
+        * DataStandardsWales-Consent
+            * Updated version from 0.0.1 to 0.0.2
+            * .source. Added reference to DataStandardsWales-DocumentReference
+        * DataStandardsWales-Encounter
+            * Updated version from 1.0.1 to 1.0.2
+            * .condition. Added reference to DataStandardsWales-Condition
+            * .reasonReference. Added reference to DataStandardsWales-Condition
+        * DataStandardsWales-Encounter-UEC
+            * Updated version from 0.0.1 to 0.0.2
+            * .condition. Added reference to DataStandardsWales-Condition
+            * .reasonReference. Added reference to DataStandardsWales-Condition
+    * Changes to Extensions
+        * DataStandardsWales-UEC-DischargeInformationGiven
+            * Updated version from 0.0.1 to 0.0.2
+            * dischargeInformation.value. Added reference to DataStandardsWales-DocumentReference
+
+
 ### v2.3.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
