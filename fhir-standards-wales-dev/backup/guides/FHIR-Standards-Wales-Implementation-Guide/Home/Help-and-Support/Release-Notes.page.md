@@ -21,11 +21,33 @@ Package:
             * Updated version from 0.0.1 to 0.0.2
             * .condition. Added reference to DataStandardsWales-Condition
             * .reasonReference. Added reference to DataStandardsWales-Condition
+        * DataStandardsWales-ImagingStudy
+            * Updated version from 0.0.7 to 0.0.8
+            * series.specimen. Added reference to DataStandardsWales-Specimen
+        * DataStandardsWales-Observation-Lab
+            * Updated version from 0.1.1 to 0.1.2
+            * .hasMember . Added reference to DataStandardsWales-QuestionnaireResponse
+        * DataStandardsWales-Observation-VitalSigns-BMI
+            * Updated version from 1.1.0 to 1.1.1
+            * .note.author. Added reference to DataStandardsWales-RelatedPerson
     * Changes to Extensions
         * DataStandardsWales-UEC-DischargeInformationGiven
             * Updated version from 0.0.1 to 0.0.2
             * dischargeInformation.value. Added reference to DataStandardsWales-DocumentReference
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+    * Removed Value Sets 
+        * DataStandardsWales-UEC-ActivityType
 
+
+
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * Changes to Naming Systems
+        * New Naming Systems
+            * Namespace for UEC Attendance Identifier
+
+Guide:
+* Added UEC AttendanceIdentifier Name in Naming Systems table
+* Removed ValueSet-DataStandardsWales-UEC-ActivityType from Terminology page
 
 ### v2.3.0 STU2
 Package: 

@@ -1,7 +1,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation-VitalSigns-BMI" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BMI" />
-  <version value="1.1.0" />
+  <version value="1.1.1" />
   <name value="DataStandardsWalesObservationVitalSignsBMI" />
   <title value="Data Standards Wales Observation Vital Signs BMI" />
   <status value="draft" />
@@ -88,9 +88,9 @@
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/Profile-DataStandardsWales-RelatedPerson" />
       </type>
       <type>
         <code value="string" />

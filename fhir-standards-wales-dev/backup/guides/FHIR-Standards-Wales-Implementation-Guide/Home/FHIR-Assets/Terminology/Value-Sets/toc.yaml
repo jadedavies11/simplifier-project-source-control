@@ -66,8 +66,7 @@
   filename: ValueSet-DataStandardsWales-UEC-Acuity.page.md
 - name: ValueSet-DataStandardsWales-UEC-DischargeDestination
   filename: ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md
-- name: ValueSet-DataStandardsWales-UEC-ActivityType
-  filename: ValueSet-DataStandardsWales-UEC-ActivityType.page.md- name: ValueSet-FHIRStandardsWales-DocumentAttribute
+- name: ValueSet-FHIRStandardsWales-DocumentAttribute
   filename: ValueSet-FHIRStandardsWales-DocumentAttribute.page.md
 - name: ValueSet-FHIRStandardsWales-DocumentErrorAction
   filename: ValueSet-FHIRStandardsWales-DocumentErrorAction.page.md
