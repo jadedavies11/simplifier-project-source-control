@@ -46,6 +46,7 @@ Package:
             * Namespace for UEC Attendance Identifier
 
 Guide:
+* Added Document Guidance page
 * Added UEC AttendanceIdentifier Name in Naming Systems table
 * Removed ValueSet-DataStandardsWales-UEC-ActivityType from Terminology page
 
