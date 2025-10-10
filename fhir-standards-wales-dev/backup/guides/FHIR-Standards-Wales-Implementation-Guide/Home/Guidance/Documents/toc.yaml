@@ -1,10 +1,8 @@
 - name: Index
   filename: Index.page.md
-- name: Introduction
-  filename: Introduction.page.md
-- name: Clinical Scenario - Encounter-based Document
-  filename: Clinical-Scenario-Encounter-Based-Document.page.md
-- name: Clinical Scenario - Event-based Document
-  filename: Clinical-Scenario-Event-Based-Document.page.md
-- name: Clinical Scenario - Document not Event-based
-  filename: Clinical-Scenario-Not-Event-Based-Document.page.md
+- name: Documents
+  filename: Documents.page.md
+- name: Clinical Scenarios
+  filename: Clinical-Scenarios.page.md
+- name: Document Error Workflow  
+  filename: Document-Error-Workflow.page.md
