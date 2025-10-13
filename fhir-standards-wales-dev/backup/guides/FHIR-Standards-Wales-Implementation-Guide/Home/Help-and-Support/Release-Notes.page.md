@@ -8,8 +8,13 @@ Package:
     * New Profiles
 
     * New Extensions
+        * DataStandardsWales-ClinicCode
 
     * Changes to Profiles
+        * DataStandardsWales-Appointment
+            * Updated version from 1.0.1 to 1.0.2
+            * New extension added:
+                * DataStandardsWales-ClinicCode
         * DataStandardsWales-Consent
             * Updated version from 0.0.1 to 0.0.2
             * .source. Added reference to DataStandardsWales-DocumentReference
@@ -24,6 +29,9 @@ Package:
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.0.7 to 0.0.8
             * series.specimen. Added reference to DataStandardsWales-Specimen
+        * DataStandardsWales-MedicationRequest
+            * Updated version from 1.1.2 to 1.1.3
+            * .performer. Added reference to DataStandardsWales-RelatedPerson              
         * DataStandardsWales-Observation-Lab
             * Updated version from 0.1.1 to 0.1.2
             * .hasMember . Added reference to DataStandardsWales-QuestionnaireResponse
@@ -31,24 +39,41 @@ Package:
             * Updated version from 1.1.0 to 1.1.1
             * .note.author. Added reference to DataStandardsWales-RelatedPerson
     * Changes to Extensions
+        * DataStandardsWales-Immunization.basedOn
+            * Updated version from 0.1.0 to 0.1.1
+            * value. Added reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-UEC-DischargeInformationGiven
             * Updated version from 0.0.1 to 0.0.2
             * dischargeInformation.value. Added reference to DataStandardsWales-DocumentReference
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+    * Changes to Code Systems
+        * FHIR Standards Wales Document Attribute
+            * Added display information
     * Removed Value Sets 
         * DataStandardsWales-UEC-ActivityType
-
+        * DataStandardsWales-UEC-CareConsultationMechanism
+    * Changes to Value Sets 
+        * DataStandardsWales-EncounterType
+            * Expanded DataStandardsWales-UEC-CareConsultationMechanism Code System
+            * Expanded DataStandardsWales-UEC-ActivityType Code System
 
 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
             * Namespace for UEC Attendance Identifier
+            * Namespaces for LIMS TCLE and TCL patient identifiers
 
 Guide:
-* Added Document Guidance page
 * Added UEC AttendanceIdentifier Name in Naming Systems table
 * Removed ValueSet-DataStandardsWales-UEC-ActivityType from Terminology page
+* Removed ValueSet-DataStandardsWales-UEC-CareConsultationMechanism from Terminology page
+* Added LIMS TCLE and TCL patient identifiers in Naming Systems table
+* Added DataStandardsWales-UEC-CareConsultationMechanism Code System to DataStandardsWales-EncounterType Value Set guide page
+* Added DataStandardsWales-UEC-ActivityType Code System to DataStandardsWales-EncounterType Value Set guide page
+* Added a new page to outline the DataStandardsWales-ClinicCode extension
+* Updated DataStandardsWales-Appointment page to include DataStandardsWales-ClinicCode extension
+* Added display coluimn to FHIR Standards Wales Document Attribute guide page
 
 ### v2.3.0 STU2
 Package: 
