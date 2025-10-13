@@ -34,7 +34,6 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-ArrivalMode.page.md, text:ValueSet-DataStandardsWales-UEC-ArrivalMode}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-AttendanceSource.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceSource}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-CareConsultationMechanism.page.md, text:ValueSet-DataStandardsWales-UEC-CareConsultationMechanism}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md, text:ValueSet-DataStandardsWales-UEC-DischargeDestination}}
 * {{pagelink:ValueSet-DataStandardsWales-WrrsTaskType, text:ValueSet-DataStandardsWales-WrrsTaskType}}
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute, text:ValueSet-FHIRStandardsWales-DocumentAttribute}}
