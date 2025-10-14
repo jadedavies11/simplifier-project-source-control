@@ -2,7 +2,7 @@
   filename: Index.page.md
 - name: ExamplarProfilePage
   filename: ExamplarProfilePage.page.md
-- name: DataStandardsWales-Appointment
+- name: Data Standards Wales - Appointment
   filename: DataStandardsWales-Appointment.page.md
 - name: DataStandardsWales-AllergyIntolerance
   filename: DataStandardsWales-AllergyIntolerance.page.md
@@ -11,11 +11,11 @@
 - name: DataStandardsWales-AuditEvent
   filename: DataStandardsWales-AuditEvent.page.md
 - name: DataStandardsWales-Composition
-  filename: DataStandardsWales-Composition.page.md  
+  filename: DataStandardsWales-Composition.page.md
 - name: DataStandardsWales-Condition
-  filename: DataStandardsWales-Condition.page.md  
+  filename: DataStandardsWales-Condition.page.md
 - name: DataStandardsWales-Consent
-  filename: DataStandardsWales-Consent.page.md  
+  filename: DataStandardsWales-Consent.page.md
 - name: DataStandardsWales-Device
   filename: DataStandardsWales-Device.page.md
 - name: DataStandardsWales-DiagnosticReport
