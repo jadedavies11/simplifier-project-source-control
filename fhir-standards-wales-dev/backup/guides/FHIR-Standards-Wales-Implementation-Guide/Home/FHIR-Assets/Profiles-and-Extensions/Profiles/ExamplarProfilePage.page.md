@@ -1,6 +1,5 @@
 ---
 name: DataStandardsWalesPatient
-namealias: DataStandardsWalesPatient
 ---
 
 ## {{page-title}}
