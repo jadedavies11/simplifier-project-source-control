@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Consent" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Consent" />
-  <version value="0.0.1" />
+  <version value="0.0.2" />
   <name value="DataStandardsWalesConsent" />
   <title value="Data Standards Wales Consent" />
   <status value="draft" />
@@ -48,10 +48,10 @@
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Contract" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Consent" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
       </type>
     </element>
     <element id="Consent.verification.verifiedWith">
