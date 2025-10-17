@@ -70,5 +70,5 @@
   filename: ValueSet-FHIRStandardsWales-DocumentErrorAction.page.md
 - name: ValueSet-FHIRStandardsWales-DocumentErrorStatus
   filename: ValueSet-FHIRStandardsWales-DocumentErrorStatus.page.md
-- name: Message Events
-  filename: ValueSet-MessageEvent.page.md
+- name: ValueSet-MessageEvents
+  filename: ValueSet-MessageEvents.page.md

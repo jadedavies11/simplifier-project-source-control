@@ -21,7 +21,7 @@
 	<copyright value="2025 NHS Wales." />
 	<compose>
 		<include>
-			<system value="https://fhir.nhs.wales/CodeSystem/message-event"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/message-events"/>
 		</include>
 	</compose>
 </ValueSet>
