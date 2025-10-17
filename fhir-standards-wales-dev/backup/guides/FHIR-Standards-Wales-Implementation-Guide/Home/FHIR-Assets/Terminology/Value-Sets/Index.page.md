@@ -39,4 +39,4 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute, text:ValueSet-FHIRStandardsWales-DocumentAttribute}}
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorAction, text:ValueSet-FHIRStandardsWales-DocumentErrorAction}}
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus, text:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}
-* {{pagelink:Message Events, text: Message Events}}
+* {{pagelink:ValueSet-MessageEvents, text:ValueSet-MessageEvents}}

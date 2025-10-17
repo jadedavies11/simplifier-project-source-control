@@ -18,4 +18,4 @@ The following Code Systems have been defined for this implementation guide:
 * {{pagelink:CodeSystem-FHIRStandardsWales-DocumentAttribute, text:CodeSystem-FHIRStandardsWales-DocumentAttribute}}
 * {{pagelink:CodeSystem-FHIRStandardsWales-DocumentErrorAction, text:CodeSystem-FHIRStandardsWales-DocumentErrorAction}}
 * {{pagelink:CodeSystem-FHIRStandardsWales-DocumentErrorStatus, text:CodeSystem-FHIRStandardsWales-DocumentErrorStatus}}
-* {{pagelink:Message Events, text:Message Events}}
+* {{pagelink:CodeSystem-MessageEvents, text:CodeSystem-MessageEvents}}
