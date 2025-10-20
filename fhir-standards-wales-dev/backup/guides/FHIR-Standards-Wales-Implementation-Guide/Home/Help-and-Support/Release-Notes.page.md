@@ -28,16 +28,23 @@ Package:
             * .reasonReference. Added reference to DataStandardsWales-Condition
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.0.7 to 0.0.8
-            * series.specimen. Added reference to DataStandardsWales-Specimen
+            * .reasonReference. Added reference to DataStandardsWales-DocumentReference
+            * .series.specimen. Added reference to DataStandardsWales-Specimen
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.1.2 to 1.1.3
             * .performer. Added reference to DataStandardsWales-RelatedPerson              
+        * DataStandardsWales-Observation
+            * Updated version from 0.1.2 to 0.1.3
+            * .derivedFrom. Added reference to DataStandardsWales-DocumentReference
         * DataStandardsWales-Observation-Lab
             * Updated version from 0.1.1 to 0.1.2
             * .hasMember . Added reference to DataStandardsWales-QuestionnaireResponse
         * DataStandardsWales-Observation-VitalSigns-BMI
             * Updated version from 1.1.0 to 1.1.1
             * .note.author. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-ServiceRequest
+            * Updated version from 1.0.0 to 1.0.1
+            * .reasonReference. Added reference to DataStandardsWales-DocumentReference
     * Changes to Extensions
         * DataStandardsWales-Immunization.basedOn
             * Updated version from 0.1.0 to 0.1.1
@@ -57,6 +64,8 @@ Package:
         * DataStandardsWales-UEC-ActivityType
         * DataStandardsWales-UEC-CareConsultationMechanism
     * Changes to Value Sets 
+        * DataStandardsWales-DocumentType
+            * Expanded SNOMED CT codes to show 50 concepts as sample
         * DataStandardsWales-EncounterType
             * Expanded DataStandardsWales-UEC-CareConsultationMechanism Code System
             * Expanded DataStandardsWales-UEC-ActivityType Code System
@@ -70,6 +79,7 @@ Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added new pages to outline the Data Standards Wales Value Sets created in this release
 * Added new pages to outline the Data Standards Wales Code Systems created in this release
+* Updated resource link on the Guidance: Growth Charts page from Observation to Patient profile
 * Added UEC AttendanceIdentifier Name in Naming Systems table
 * Removed ValueSet-DataStandardsWales-UEC-ActivityType from Terminology page
 * Removed ValueSet-DataStandardsWales-UEC-CareConsultationMechanism from Terminology page
@@ -78,7 +88,9 @@ Guide:
 * Added DataStandardsWales-UEC-ActivityType Code System to DataStandardsWales-EncounterType Value Set guide page
 * Added a new page to outline the DataStandardsWales-ClinicCode extension
 * Updated DataStandardsWales-Appointment page to include DataStandardsWales-ClinicCode extension
+* Removed search parameters from the Examples tab of the Immunization Profile page
 * Added display column to FHIR Standards Wales Document Attribute guide page
+* Added SNOMED CT codes an expansion to DataStandardsWales-DocumentType guide page
 
 ### v2.3.0 STU2
 Package: 
