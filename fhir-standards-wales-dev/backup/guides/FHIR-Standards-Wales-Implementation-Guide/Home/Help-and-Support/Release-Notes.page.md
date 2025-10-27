@@ -74,6 +74,7 @@ Package:
         * New Naming Systems
             * Namespace for UEC Attendance Identifier
             * Namespaces for LIMS TCLE and TCL patient identifiers
+            * Namespaces for PAS Subspecialities
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors

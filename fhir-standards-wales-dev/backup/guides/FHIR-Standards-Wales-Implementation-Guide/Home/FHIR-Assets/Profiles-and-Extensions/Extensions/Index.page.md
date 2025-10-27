@@ -23,6 +23,6 @@ The following Extensions have been defined for this implementation guide.
 * {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated}}
 * {{pagelink:Extension-DataStandardsWales-SourceSystem}}
 * {{pagelink:Extension-DataStandardsWales-Speciality}}
-* {{pagelink:Extension-DataStandardsWales-UEC-AttendanceCategory}}
-* {{pagelink:Extension-DataStandardsWales-UEC-DischargeInformationGiven}}
-* {{pagelink:Extension-DataStandardsWales-UEC-ExpectedTimeOfTreatment}}
+* {{pagelink:Extension-DataStandardsWales-UECAttendanceCategory}}
+* {{pagelink:Extension-DataStandardsWales-UECDischargeInformationGiven}}
+* {{pagelink:Extension-DataStandardsWales-UECExpectedTimeOfTreatment}}
