@@ -34,4 +34,5 @@ The table below gives guidance about the structure of the guide and an indicatio
 ||Licensing|Details on the licensed products used within this guide|
 ||Deployment|Details on how project packages can be used|
 ||Related Pages|A list of websites that are used by NHS Wales to develop FHIR profiles|
+||Training|Provides links to documentation, presentations and videos to introduce readers to the HL7 FHIR Standard in addition to content that may assist those further along their FHIR journey.|
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="WPASSourceAdmission"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/WPASSourceAdmission"/>
+    <version value="0.0.1" />
+	<name value="WPASSourceAdmission"/>
+	<title value="WPAS Source Admission"/>
+    <status value="draft" />
+    <experimental value="true" />	
+    <date value="2025-10-16" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="FHIR Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="This CodeSystem contains a list of source admission codes and descriptions specific to Welsh PAS. These codes are owned and maintained by the DHCW Welsh PAS team."/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="21"/>
+		<display value="New Appointment"/>
+	</concept>
+	<concept>
+		<code value="23"/>
+		<display value="Direct Booking"/>
+	</concept>
+	<concept>
+		<code value="25"/>
+		<display value="Follow-up"/>
+	</concept>
+</CodeSystem>

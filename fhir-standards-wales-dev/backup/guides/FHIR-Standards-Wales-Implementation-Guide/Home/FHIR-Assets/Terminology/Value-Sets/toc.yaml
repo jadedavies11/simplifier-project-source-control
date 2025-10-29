@@ -70,5 +70,13 @@
   filename: ValueSet-FHIRStandardsWales-DocumentErrorAction.page.md
 - name: ValueSet-FHIRStandardsWales-DocumentErrorStatus
   filename: ValueSet-FHIRStandardsWales-DocumentErrorStatus.page.md
+- name: ValueSet-DataStandardsWales-MainSpecialty
+  filename: ValueSet-DataStandardsWales-MainSpecialty.page.md
 - name: ValueSet-MessageEvents
   filename: ValueSet-MessageEvents.page.md
+- name: ValueSet-PASReferralSource
+  filename: ValueSet-PASReferralSource.page.md
+- name: ValueSet-PASAdmitSource
+  filename: ValueSet-PASAdmitSource.page.md
+- name: ValueSet-PASSourceAdmission
+  filename: ValueSet-PASSourceAdmission.page.md

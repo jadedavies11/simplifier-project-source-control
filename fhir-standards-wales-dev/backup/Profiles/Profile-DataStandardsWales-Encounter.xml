@@ -77,7 +77,7 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-ImmunizationRecommendation" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImmunizationRecommendation" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition" />
       </type>
     </element>
