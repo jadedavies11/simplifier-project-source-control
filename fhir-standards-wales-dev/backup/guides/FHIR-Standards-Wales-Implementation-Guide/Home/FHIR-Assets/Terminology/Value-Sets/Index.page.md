@@ -17,11 +17,11 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
 * {{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements, text:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}
 * {{pagelink:ValueSet-DataStandardsWales-HeartRate, text:ValueSet-DataStandardsWales-HeartRate}}
+* {{pagelink:ValueSet-DataStandardsWales-MainSpecialty, text:ValueSet-DataStandardsWales-MainSpecialty}}
 * {{pagelink:ValueSet-DataStandardsWales-MaritalStatus, text:ValueSet-DataStandardsWales-MaritalStatus}}
 * {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text:ValueSet-DataStandardsWales-ObservationVitalSignsType}}
 * {{pagelink:ValueSet-DataStandardsWales-Occupation, text:ValueSet-DataStandardsWales-Occupation}}
 * {{pagelink:ValueSet-DataStandardsWales-OxygenSaturation, text:ValueSet-DataStandardsWales-OxygenSaturation}}
-* {{pagelink:ValueSet-PASEventType, text:ValueSet-PASEventType}}
 * {{pagelink:ValueSet-DataStandardsWales-PatientRecordType, text:ValueSet-DataStandardsWales-PatientRecordType}}
 * {{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity, text:ValueSet-DataStandardsWales-ProvenanceActivity}}
 * {{pagelink:ValueSet-DataStandardsWales-QuestionnaireQuestionCodes, text:ValueSet-DataStandardsWales-QuestionnaireQuestionCodes}}
@@ -40,3 +40,7 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorAction, text:ValueSet-FHIRStandardsWales-DocumentErrorAction}}
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus, text:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}
 * {{pagelink:ValueSet-MessageEvents, text:ValueSet-MessageEvents}}
+* {{pagelink:ValueSet-PASAdmitSource, text:ValueSet-PASAdmitSource}}
+* {{pagelink:ValueSet-PASEventType, text:ValueSet-PASEventType}}
+* {{pagelink:ValueSet-PASReferralSource, text:ValueSet-PASReferralSource}}
+* {{pagelink:ValueSet-PASSourceAdmission, text:ValueSet-PASSourceAdmission}}

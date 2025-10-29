@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-ImagingStudy" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
-  <version value="0.0.8" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesImagingStudy" />
   <title value="Data Standards Wales Imaging Study" />
   <status value="draft" />
@@ -92,7 +92,7 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition" />
       </type>
     </element>
     <element id="ImagingStudy.series.endpoint">

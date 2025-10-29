@@ -12,30 +12,43 @@ Package:
 
     * Changes to Profiles
         * DataStandardsWales-Appointment
-            * Updated version from 1.0.1 to 1.0.2
+            * Updated version from 1.0.1 to 1.1.0
+            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation   
             * New extension added:
                 * DataStandardsWales-ClinicCode
+            * .reasonReference. Added reference to DataStandardsWales-Condition    
         * DataStandardsWales-Consent
             * Updated version from 0.0.1 to 0.0.2
             * .source. Added reference to DataStandardsWales-DocumentReference
+        * DataStandardsWales-DiagnosticReport
+            * Updated version from 0.1.2 to 0.1.3            
+            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-DiagnosticReport-Lab
+            * Updated version from 0.1.1 to 0.1.2            
+            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-Encounter
             * Updated version from 1.0.1 to 1.0.2
             * .condition. Added reference to DataStandardsWales-Condition
             * .reasonReference. Added reference to DataStandardsWales-Condition
+            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-Encounter-UEC
             * Updated version from 0.0.1 to 0.0.2
             * .condition. Added reference to DataStandardsWales-Condition
             * .reasonReference. Added reference to DataStandardsWales-Condition
         * DataStandardsWales-ImagingStudy
-            * Updated version from 0.0.7 to 0.0.8
-            * .reasonReference. Added reference to DataStandardsWales-DocumentReference
+            * Updated version from 0.0.7 to 0.1.0
+            * .reasonReference. 
+                * Added reference to DataStandardsWales-Condition
+                * Added reference to DataStandardsWales-DocumentReference
             * .series.specimen. Added reference to DataStandardsWales-Specimen
         * DataStandardsWales-MedicationRequest
-            * Updated version from 1.1.2 to 1.1.3
-            * .performer. Added reference to DataStandardsWales-RelatedPerson              
+            * Updated version from 1.1.2 to 1.2.0
+            * .performer. Added reference to DataStandardsWales-RelatedPerson     
+            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation         
         * DataStandardsWales-Observation
             * Updated version from 0.1.2 to 0.1.3
             * .derivedFrom. Added reference to DataStandardsWales-DocumentReference
+            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-Observation-Lab
             * Updated version from 0.1.1 to 0.1.2
             * .hasMember . Added reference to DataStandardsWales-QuestionnaireResponse
@@ -53,13 +66,21 @@ Package:
             * Updated version from 0.0.1 to 0.0.2
             * dischargeInformation.value. Added reference to DataStandardsWales-DocumentReference
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
-    * New CodeSystems
+    * New Code Systems
+        * DataStandardsWales-MainSpecialty
         * MessageEvents
-    * New ValueSets
-        * MessageEvents
+        * WPASReferralSource
+        * WPASAdmitSource
+        * WPASSourceAdmission
     * Changes to Code Systems
         * FHIR Standards Wales Document Attribute
             * Added display information
+    * New Value Sets
+        * DataStandardsWales-MainSpecialty
+        * MessageEvents
+        * PASReferralSource
+        * PASAdmitSource
+        * PASSourceAdmission
     * Removed Value Sets 
         * DataStandardsWales-UEC-ActivityType
         * DataStandardsWales-UEC-CareConsultationMechanism
@@ -77,10 +98,12 @@ Package:
             * Namespaces for PAS Subspecialities
 
 Guide:
+* Added new pages to outline the Code Systems created in this release
+* Added new pages to outline the Value Sets created in this release
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
-* Added new pages to outline the Data Standards Wales Value Sets created in this release
-* Added new pages to outline the Data Standards Wales Code Systems created in this release
 * Updated resource link on the Guidance: Growth Charts page from Observation to Patient profile
+* Added new pages to outline the Code Systems created in this release
+* Added new pages to outline the Value Sets created in this release
 * Added UEC AttendanceIdentifier Name in Naming Systems table
 * Removed ValueSet-DataStandardsWales-UEC-ActivityType from Terminology page
 * Removed ValueSet-DataStandardsWales-UEC-CareConsultationMechanism from Terminology page
@@ -91,7 +114,11 @@ Guide:
 * Updated DataStandardsWales-Appointment page to include DataStandardsWales-ClinicCode extension
 * Removed search parameters from the Examples tab of the Immunization Profile page
 * Added display column to FHIR Standards Wales Document Attribute guide page
+* Added Value Set title to all Value Set guide pages
+
 * Added SNOMED CT codes an expansion to DataStandardsWales-DocumentType guide page
+
+
 
 ### v2.3.0 STU2
 Package: 
@@ -160,12 +187,6 @@ Package:
             * Updated version from 0.1.1 to 0.1.2
             * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
             * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
-        * DataStandardsWales-MedicationRequest
-            * Updated version from 1.1.1 to 1.1.2
-            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
-        * DataStandardsWales-Observation
-            * Updated version from 0.1.1 to 0.1.2
-            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation 
         * DataStandardsWales-Practitioner
             * Updated version from 1.1.2 to 1.1.3
             * Cardinality changes:
