@@ -134,7 +134,9 @@ The following examples are published with this guide and all available as a down
 ### Provenance Examples
 * {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text: Example Provenance - Demographics as Recorded extension usage}}
 * {{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text: Example Provenance - Demographics update as result of an HL7v2 patient demographic update }}
-* {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
+* {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceCreation, text: Example Provenance - DocumentReference creation}}
+* {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics, text: Example Provenance - Demographics as recorded with care document}}
+* {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provenance - Health Care Assistant Practitioner and PractitionerRole}}
 * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text: Example Provenance - record with multiple targets e.g. for growth chart observations}}
 
 ### Questionnaire Examples

@@ -11,6 +11,7 @@ The table below gives guidance about the structure of the guide and an indicatio
 |Guidance||An Overview of the relationship between the resources within the guide.|
 ||Administrative Data|Overview of the administrative profiles and examples of how they can be used|
 ||Allergy|Overview of the allergy profiles and examples of how they can be used|
+||Care Documents|Overview of the use of document reference and associated resources for care document metadata
 ||Diagnostic Reports|Overview of the diagnostic report profiles and examples of how they can be used|
 ||Medications|Overview of the medication profiles and examples of how they can be used|
 ||Sensitive Data |Overview of how sensitive data can be treated in FHIR profiles|
