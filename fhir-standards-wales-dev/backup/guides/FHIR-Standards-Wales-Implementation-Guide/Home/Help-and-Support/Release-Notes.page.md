@@ -101,9 +101,8 @@ Guide:
 * Added new pages to outline the Code Systems created in this release
 * Added new pages to outline the Value Sets created in this release
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
+* Added Care Document Guidance page
 * Updated resource link on the Guidance: Growth Charts page from Observation to Patient profile
-* Added new pages to outline the Code Systems created in this release
-* Added new pages to outline the Value Sets created in this release
 * Added UEC AttendanceIdentifier Name in Naming Systems table
 * Removed ValueSet-DataStandardsWales-UEC-ActivityType from Terminology page
 * Removed ValueSet-DataStandardsWales-UEC-CareConsultationMechanism from Terminology page
@@ -115,10 +114,7 @@ Guide:
 * Removed search parameters from the Examples tab of the Immunization Profile page
 * Added display column to FHIR Standards Wales Document Attribute guide page
 * Added Value Set title to all Value Set guide pages
-
 * Added SNOMED CT codes an expansion to DataStandardsWales-DocumentType guide page
-
-
 
 ### v2.3.0 STU2
 Package: 
