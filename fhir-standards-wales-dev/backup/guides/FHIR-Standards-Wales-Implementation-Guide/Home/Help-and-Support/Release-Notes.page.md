@@ -90,6 +90,9 @@ Package:
         * DataStandardsWales-EncounterType
             * Expanded DataStandardsWales-UEC-CareConsultationMechanism Code System
             * Expanded DataStandardsWales-UEC-ActivityType Code System
+        * DataStandardsWales-Sex
+            * Updated version from 1.0.1 to 1.1.0
+            * Updated Code System to current version
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
@@ -100,7 +103,7 @@ Package:
 Guide:
 * Added new pages to outline the Code Systems created in this release
 * Added new pages to outline the Value Sets created in this release
-* General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
 * Added Care Document Guidance page
 * Updated resource link on the Guidance: Growth Charts page from Observation to Patient profile
 * Added UEC AttendanceIdentifier Name in Naming Systems table
