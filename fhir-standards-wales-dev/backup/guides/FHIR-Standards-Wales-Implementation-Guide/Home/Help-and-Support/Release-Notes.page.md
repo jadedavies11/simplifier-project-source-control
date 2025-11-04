@@ -87,6 +87,7 @@ Package:
     * Changes to Value Sets 
         * DataStandardsWales-DocumentType
             * Expanded SNOMED CT codes to show 50 concepts as sample
+            * Constraint changed from descendantOf to memberOf
         * DataStandardsWales-EncounterType
             * Expanded DataStandardsWales-UEC-CareConsultationMechanism Code System
             * Expanded DataStandardsWales-UEC-ActivityType Code System
@@ -490,7 +491,7 @@ Package:
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Provenance
-            * {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Growth Chart}} 
+            * Example-DataStandardsWales-Provenance-Growth-Charts (Note: Example subsequently removed in v2.2.0 STU2)
 
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
