@@ -25,7 +25,7 @@
             <filter>
                 <property value="constraint" />
                 <op value="=" />
-                <value value="DescendantOf 1127551000000109" />
+                <value value="memberOf 1127551000000109" />
             </filter>
 		</include>
 	</compose>
