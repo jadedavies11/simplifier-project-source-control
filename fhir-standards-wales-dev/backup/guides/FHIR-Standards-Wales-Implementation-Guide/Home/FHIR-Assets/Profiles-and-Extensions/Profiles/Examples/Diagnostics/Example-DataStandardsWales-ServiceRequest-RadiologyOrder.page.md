@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-{{tree:diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
+      {{tree:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
+      {{table:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
+      {{xml:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
+      {{json:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
+      {{narrative:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
     </div>  
   </div>
 </div>

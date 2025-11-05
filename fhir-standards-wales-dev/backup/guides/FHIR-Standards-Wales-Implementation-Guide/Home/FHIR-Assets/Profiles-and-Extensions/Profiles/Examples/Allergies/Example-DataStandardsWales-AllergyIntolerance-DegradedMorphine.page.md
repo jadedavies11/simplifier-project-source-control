@@ -23,19 +23,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{tree:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine-duplicate-2}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{table:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine-duplicate-2}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{xml:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine-duplicate-2}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{json:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine-duplicate-2}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{narrative:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine-duplicate-2}}
     </div>  
   </div>
 </div>

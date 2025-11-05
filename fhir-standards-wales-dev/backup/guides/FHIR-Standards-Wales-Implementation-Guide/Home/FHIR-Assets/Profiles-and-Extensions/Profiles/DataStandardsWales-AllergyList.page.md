@@ -37,9 +37,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies.page.md, text:Example List - with Allergies}}</li>  
-            <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies-Empty.page.md, text:Example List - empty list}}</li>  
-                  <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies-NoKnownAllergy.page.md, text:Example List - with no known Allergies}}</li>    
+      <li>{{pagelink:Example-DataStandardsWales-List-Allergies, text:Example List - With allergies}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-List-Allergies-notRecorded, text:Example List - Empty list}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-List-Allergies-NoKnownAllergy, text:Example List - No known allergies}}</li>
     </list>
   </div>    
 </div>

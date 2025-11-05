@@ -119,6 +119,9 @@ Guide:
 * Added display column to FHIR Standards Wales Document Attribute guide page
 * Added Value Set title to all Value Set guide pages
 * Added SNOMED CT codes an expansion to DataStandardsWales-DocumentType guide page
+* Corrected pagelink in Example-DataStandardsWales-DocumentReference-Provenance page
+* Updated Example-DataStandardsWales-ServiceRequest-RadiologyOrder page to correct links
+* Updated Allergy example pages to align naming between example files and example pages on the Implementation Guide and to correct the rendering of links
 
 ### v2.3.0 STU2
 Package: 

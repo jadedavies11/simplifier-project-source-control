@@ -5,24 +5,24 @@
 The following examples are published with this guide and all available as a downloadable as zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
 
 ### Appointment Examples
-*  {{pagelink:Example-DataStandardsWales-Appointment-GenSurgery, text:Example Appointment - General Surgery}}
+* {{pagelink:Example-DataStandardsWales-Appointment-GenSurgery, text:Example Appointment - General Surgery}}
 
 ### Allergy Examples
-*  {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Potato.page.md, text:Example food allergy - Potato}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-deleted.page.md, text:Example deleted allergy - Potato}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy.page.md, text:Example exclusion - no known allergy}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Aspirin.page.md, text:Example medication allergy -Aspirin}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example food allergy - Potato}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete, text:Example deleted allergy - Potato}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:Example exclusion - No known allergy}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Aspirin, text:Example medication allergy - Aspirin}}
 
 ### Allergy List Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies.page.md, text:Example List - with Allergies}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies-Empty.page.md, text:Example List - empty list}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies-NoKnownAllergy.page.md, text:Example List - with no known Allergies}}
+* {{pagelink:Example-DataStandardsWales-List-Allergies, text:Example List - With allergies}}
+* {{pagelink:Example-DataStandardsWales-List-Allergies-notRecorded, text:Example List - Empty list}}
+* {{pagelink:Example-DataStandardsWales-List-Allergies-NoKnownAllergy, text:Example List - With no known allergies}}
 
 ### Allergy Degraded
-* {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-bundle-allergies-degraded.page.md, text:Example Bundle - Degraded Allergy}}
-* {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedwasps.page.md, text:Example List - Degraded Wasp Allergy}}
-* {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedmorphine.page.md, text:Example List - Degraded Morphine Allergy}}
-* {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedibuprofen.page.md, text:Example List - Degraded Ibuprofen Allergy}}
+* {{pagelink:Example-DataStandardsWales-Bundle-Allergies-Degraded, text:Example Bundle - Degraded allergies}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Example List - Degraded wasp allergy}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Example List - Degraded morphine allergy}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Example List - Degraded aspirin allergy}}
 
 ### Audit Event Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-AuditEvent-CreateObservations.page.md, text: Audit Event - Create Observation}}
