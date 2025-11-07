@@ -91,6 +91,9 @@ Package:
         * DataStandardsWales-EncounterType
             * Expanded DataStandardsWales-UEC-CareConsultationMechanism Code System
             * Expanded DataStandardsWales-UEC-ActivityType Code System
+        * DataStandardsWales-GenderIdentity
+            * Updated version from 1.0.1 to 1.1.0
+            * Removed code system version in URI reference
         * DataStandardsWales-Sex
             * Updated version from 1.0.1 to 1.1.0
             * Updated Code System to current version
