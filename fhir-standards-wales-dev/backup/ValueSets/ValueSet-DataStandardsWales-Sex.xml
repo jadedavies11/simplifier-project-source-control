@@ -32,7 +32,7 @@
         <offset value="0" />
         <parameter>
             <name value="version" />
-            <valueUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Sex|1.0.1" />
+            <valueUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Sex" />
         </parameter>
 		<contains>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Sex" />

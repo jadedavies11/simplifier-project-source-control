@@ -94,9 +94,15 @@ Package:
         * DataStandardsWales-GenderIdentity
             * Updated version from 1.0.1 to 1.1.0
             * Removed code system version in URI reference
+        * DataStandardsWales-MaritalStatus
+            * Updated version from 1.0.1 to 1.1.0
+            * Removed code system version in URI reference
         * DataStandardsWales-Sex
             * Updated version from 1.0.1 to 1.1.0
-            * Updated Code System to current version
+            * Removed code system version in URI reference
+        * DataStandardsWales-Title
+            * Updated version from 1.0.1 to 1.1.0
+            * Removed code system version in URI reference
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
