@@ -1,7 +1,7 @@
 - name: Naming Conventions
   filename: Naming-Conventions
-- name: Naming Systems
-  filename: Naming-Systems.page.md
+- name: Naming-Systems
+  filename: Naming-Systems-Design.page.md
 - name: Design Patterns
   filename: Design-Patterns.md
 - name: Supplemental Metadata
