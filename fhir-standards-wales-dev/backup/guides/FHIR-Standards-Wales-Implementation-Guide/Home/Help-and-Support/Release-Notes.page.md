@@ -86,6 +86,7 @@ Package:
         * DataStandardsWales-UEC-CareConsultationMechanism
     * Changes to Value Sets 
         * DataStandardsWales-DocumentType
+            * Updated version from 0.0.1 to 0.0.2
             * Expanded SNOMED CT codes to show 50 concepts as sample
             * Constraint changed from descendantOf to memberOf
         * DataStandardsWales-EncounterType
