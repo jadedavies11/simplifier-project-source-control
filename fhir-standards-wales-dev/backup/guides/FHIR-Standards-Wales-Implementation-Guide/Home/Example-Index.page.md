@@ -2,7 +2,7 @@
 
 ## {{page-title}}
 
-{{pagelink:Naming-Systems-Design, text:Naming Systems}}
+{{pagelink:FHIR-Standards-Wales-Implementation-Guide-Home-FHIR-Assets-Naming-Systems, text:Naming Systems}}
 
 The following examples are published with this guide and all available as a downloadable as zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
 
