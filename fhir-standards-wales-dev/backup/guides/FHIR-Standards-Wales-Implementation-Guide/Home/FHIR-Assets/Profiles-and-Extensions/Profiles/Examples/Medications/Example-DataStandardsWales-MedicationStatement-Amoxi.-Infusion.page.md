@@ -6,7 +6,7 @@ This shows an example medication statement, which references the following examp
   * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
   * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Practitioner-Doctor.page.md, text:Practitioner - Dr Sally Jones}}
 * Medication:
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/Example-DataStandardsWales-Medication-Amoxicillin-Infusion.page.md, text:Amoxicillin (infusion)}}
+  * {{pagelink:Example-DataStandardsWales-Medication-Amoxicillin-Infusion, text:Amoxicillin (infusion)}}
 <div class="tab-wrap">
   <ul class="tab-head">
     <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">

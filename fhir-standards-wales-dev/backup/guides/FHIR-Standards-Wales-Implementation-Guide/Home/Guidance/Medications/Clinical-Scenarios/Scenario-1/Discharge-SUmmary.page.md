@@ -1,6 +1,6 @@
 ### 5) Discharge summary
 
-{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-List-Medications-Discharge.page.md, text: Example list of discharge medications based on the medications below}}
+{{pagelink:Example-DataStandardsWales-List-Medications-Discharge, text: Example list of discharge medications based on the medications below}}
 
 * Bendroflumethiazide 2.5mg tablets – 1 tablet every morning
 * Bisoprolol 1.25mg tablets – 1 tablet every morning  

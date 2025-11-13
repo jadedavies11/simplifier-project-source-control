@@ -1,6 +1,6 @@
 ### 1) GP Record 
 
-{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-GP/Example-DataStandardsWales-List-Medications-GP.page.md, text: Example list of medications as recorded in a GP system, based on the repeat and acute medications below}}.
+{{pagelink:Example-DataStandardsWales-List-Medications-GP, text: Example list of medications as recorded in a GP system, based on the repeat and acute medications below}}.
 
 #### Repeat
 
