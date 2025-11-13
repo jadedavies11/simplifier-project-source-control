@@ -27,19 +27,19 @@ These pages contain guidance on the following areas:
 	<div class="col">
 			<div class="col-md-7 card text-center ">
   <div class="card-body">
-    <h4 class="card-title"><b>{{pagelink:Home/Help-and-Support/Related-Pages.page.md,text: Related Pages}}</b></h4>
+    <h4 class="card-title"><b>{{pagelink:Related-Pages,text: Related Pages}}</b></h4>
     <p class="card-text">Links related to NHS Wales FHIR development and UK Core</p>
 	</div>
 	</div>
 			<div class="col-md-7 card text-center">
   <div class="card-body">
-    <h4 class="card-title"><b>{{pagelink:Home/Help-and-Support/Version-Control-and-Ballot-Process.page.md}}</b></h4>
+    <h4 class="card-title"><b>{{pagelink:Version-Control-and-Ballot-Process}}</b></h4>
     <p class="card-text">Outline of how active, draft, and experimental resources should be handled by implementers</p>
 				</div>
 				</div>
 				<div class="col-md-7 card text-center">
 				  <div class="card-body">
-    <h4 class="card-title"><b>{{pagelink:Home/Help-and-Support/Help-and-Support.page.md,text: Help and Support}}</b></h4>
+    <h4 class="card-title"><b>{{pagelink:Help-and-Support,text: Help and Support}}</b></h4>
     <p class="card-text">For suggestions or queries, please email Data Standards Wales using the link on this page</p>
 		</div>
 			</div>

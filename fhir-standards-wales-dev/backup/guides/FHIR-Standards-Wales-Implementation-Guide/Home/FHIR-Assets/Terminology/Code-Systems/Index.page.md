@@ -9,11 +9,11 @@ The following Code Systems have been defined for this implementation guide:
 * {{pagelink:CodeSystem-DataStandardsWales-MaritalStatus, text:CodeSystem-DataStandardsWales-MaritalStatus}}
 * {{pagelink:CodeSystem-DataStandardsWales-PatientRecordType, text:CodeSystem-DataStandardsWales-PatientRecordType}}
 * {{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text:CodeSystem-DataStandardsWales-RecordingSetting}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-Sex.page.md, text:CodeSystem-DataStandardsWales-Sex}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-Title.page.md, text:CodeSystem-DataStandardsWales-Title}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-UEC-ActivityType.page.md, text:CodeSystem-DataStandardsWales-UEC-ActivityType}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-UEC-AttendanceCategory.page.md, text:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism.page.md, text:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism}}
+* {{pagelink:CodeSystem-DataStandardsWales-Sex, text:CodeSystem-DataStandardsWales-Sex}}
+* {{pagelink:CodeSystem-DataStandardsWales-Title, text:CodeSystem-DataStandardsWales-Title}}
+* {{pagelink:CodeSystem-DataStandardsWales-UEC-ActivityType, text:CodeSystem-DataStandardsWales-UEC-ActivityType}}
+* {{pagelink:CodeSystem-DataStandardsWales-UEC-AttendanceCategory, text:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}
+* {{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism, text:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism}}
 * {{pagelink:CodeSystem-DataStandardsWales-WrrsTaskType, text:CodeSystem-DataStandardsWales-WrrsTaskType}}
 * {{pagelink:CodeSystem-FHIRStandardsWales-DocumentAttribute, text:CodeSystem-FHIRStandardsWales-DocumentAttribute}}
 * {{pagelink:CodeSystem-FHIRStandardsWales-DocumentErrorAction, text:CodeSystem-FHIRStandardsWales-DocumentErrorAction}}
@@ -22,4 +22,4 @@ The following Code Systems have been defined for this implementation guide:
 * {{pagelink:CodeSystem-WPASAdmitSource, text:CodeSystem-WPASAdmitSource}}
 * {{pagelink:CodeSystem-WPASEventType, text:CodeSystem-WPASEventType}}
 * {{pagelink:CodeSystem-WPASReferralSource, text:CodeSystem-WPASReferralSource}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-WPASSourceAdmission.page.md, text:CodeSystem-WPASSourceAdmission}}
+* {{pagelink:CodeSystem-WPASSourceAdmission, text:CodeSystem-WPASSourceAdmission}}
