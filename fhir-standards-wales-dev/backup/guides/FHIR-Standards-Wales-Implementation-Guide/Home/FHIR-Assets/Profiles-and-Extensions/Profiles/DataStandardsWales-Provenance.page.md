@@ -49,7 +49,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 Each Provenance must have:
 * One or more targets
@@ -75,4 +75,4 @@ The `Provenance.target` field **SHALL** be populated to reference the FHIR resou
 Please see the {{pagelink:Home/Guidance/Provenance}} page within the Guidance section for further information. 
 
 ### Extensions 
-Some use cases require the original demographic data at time of recording to stored directly against the clinical data e.g. for diagnostic reports in Wales. This additional provenace can be captured using the {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DemographicsAsRecorded.page.md,text:DataStandardsWales-DemographicsAsRecorded}} extension.
+Some use cases require the original demographic data at time of recording to stored directly against the clinical data e.g. for diagnostic reports in Wales. This additional provenace can be captured using the {{pagelink:Extension-DataStandardsWales-DemographicsAsRecorded,text:DataStandardsWales-DemographicsAsRecorded}} extension.

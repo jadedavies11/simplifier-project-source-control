@@ -2,8 +2,6 @@
 
 ## {{page-title}}
 
-{{pagelink:FHIR-Standards-Wales-Implementation-Guide-Home-FHIR-Assets-Naming-Systems, text:Naming Systems}}
-
 The following examples are published with this guide and all available as a downloadable as zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
 
 ### Appointment Examples
@@ -148,7 +146,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition, text: Example Questionnaire Response - Growth Chart Condition}}
 
 ### Related Person Examples
-* {{pagelink:Example-DataStandardsWales-RelatedPerson-NaturalMother., text:Example Related Person - Natural Mother}}
+*  {{pagelink:Example-DataStandardsWales-RelatedPerson-NaturalMother, text:Example Related Person - Natural Mother}}
 
 ### ServiceRequest Examples
 * {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}

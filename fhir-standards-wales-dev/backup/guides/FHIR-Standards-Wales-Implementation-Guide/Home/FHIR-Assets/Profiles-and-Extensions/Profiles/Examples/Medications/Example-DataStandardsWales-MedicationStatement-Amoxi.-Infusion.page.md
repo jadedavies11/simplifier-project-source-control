@@ -4,7 +4,7 @@
 This shows an example medication statement, which references the following example resources:
 * Subject, source and context:
   * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Practitioner-Doctor.page.md, text:Practitioner - Dr Sally Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Doctor, text:Practitioner - Dr Sally Jones}}
 * Medication:
   * {{pagelink:Example-DataStandardsWales-Medication-Amoxicillin-Infusion, text:Amoxicillin (infusion)}}
 <div class="tab-wrap">

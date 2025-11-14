@@ -40,13 +40,13 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/Example-DataStandardsWales-Medication-Amoxicillin-Infusion.page.md, text:Amoxicillin (infusion)}}</li>             
+      <li>{{pagelink:Example-DataStandardsWales-Medication-Amoxicillin-Infusion, text:Amoxicillin (infusion)}}</li>             
     </list>
   </div>    
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
 Each Medication record must support:
 1. code

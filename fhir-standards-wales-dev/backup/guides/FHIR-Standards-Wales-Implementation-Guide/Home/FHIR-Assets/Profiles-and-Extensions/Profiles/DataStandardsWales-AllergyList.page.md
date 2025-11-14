@@ -45,7 +45,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 Each Allergy List must have:
 1. A status
@@ -69,12 +69,12 @@ The resource **SHALL** include a reference to the subject (patient).
 
 The extensions listed below are those created to support Data Standards Wales: 
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy.page.md, text:DataStandardsWales-SingleRecord-AllergiesListConfirmedBy}}
+* {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy, text:DataStandardsWales-SingleRecord-AllergiesListConfirmedBy}}
 is used to provide a reference to the practitioner who confirmed the changes.
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate.page.md, text:DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}}
+* {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate, text:DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}}
 carries a timestamp for when a change has been confirmed.
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated.page.md, text:DataStandardsWales-SingleRecord-AllergiesListUpdated}}
-  is used to provide a boolean on whether the allergies list has been updated.
+* {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated, text:DataStandardsWales-SingleRecord-AllergiesListUpdated}}
+is used to provide a boolean on whether the allergies list has been updated.
 
 _Note: this list does not include extensions provided by UK Core and you should refer to their implementation guide for support_
 

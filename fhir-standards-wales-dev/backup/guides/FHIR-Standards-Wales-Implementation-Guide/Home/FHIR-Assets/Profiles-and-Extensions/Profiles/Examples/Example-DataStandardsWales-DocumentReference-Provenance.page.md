@@ -1,5 +1,5 @@
 ## {{page-title}}
-This DocumentReference example is used in conjuction with the {{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Provenance}} example and shows how provenance can be linked to the message that triggered the insert or update to the record e.g. an HL7v2 ADT^A31 demographic update message.
+This DocumentReference example is used in conjuction with the {{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text: Provenance}} example and shows how provenance can be linked to the message that triggered the insert or update to the record e.g. an HL7v2 ADT^A31 demographic update message.
 
 <div class="tab-wrap">
   <ul class="tab-head">
