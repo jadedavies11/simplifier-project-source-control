@@ -5,9 +5,9 @@
 This example references the following example resources:
 * Allergies:
   * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Morphine, text: morphine}}  - following modification from degraded to be coded correctly
-   * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Potato}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen.page.md, text: Ibuprofen}} - following modification from degraded to be coded correctly
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Wasps.page.md, text: wasp}} - following modification from degraded to be coded correctly
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Potato}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Ibuprofen, text: Ibuprofen}} - following modification from degraded to be coded correctly
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Wasps, text: wasp}} - following modification from degraded to be coded correctly
 * Subject, source and context:
   * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
   * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Practitioner - Dr Dhiren Patel }}

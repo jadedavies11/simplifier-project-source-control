@@ -51,7 +51,7 @@ _*Examples provided have been clinically assured on the 07-Aug-2024_
 ## Profile Specific Implementation Guidance: ##
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
 Each Immunization **must have**:
 
@@ -86,8 +86,8 @@ Each Immunization **must support**:
 
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard:
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-AdministeredProduct.page.md,text:DataStandardsWales-AdministeredProduct}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DateProcedureLastUpdated.page.md,text:DataStandardsWales-DateProcedureLastUpdated}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-ForecastCreationSource.page.md,text:DataStandardsWales-ForecastCreationSource}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-Immunization.basedOn.page.md,text:DataStandardsWales-Immunization.basedOn}}
+* {{pagelink:Extension-DataStandardsWales-AdministeredProduct,text:DataStandardsWales-AdministeredProduct}}
+* {{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated,text:DataStandardsWales-DateProcedureLastUpdated}}
+* {{pagelink:Extension-DataStandardsWales-ForecastCreationSource,text:DataStandardsWales-ForecastCreationSource}}
+* {{pagelink:Extension-DataStandardsWales-Immunization.basedOn,text:DataStandardsWales-Immunization.basedOn}}
 

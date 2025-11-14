@@ -46,5 +46,5 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard:
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-ClinicCode.page.md,text:DataStandardsWales-ClinicCode}}
+* {{pagelink:Extension-DataStandardsWales-ClinicCode,text:DataStandardsWales-ClinicCode}}
 

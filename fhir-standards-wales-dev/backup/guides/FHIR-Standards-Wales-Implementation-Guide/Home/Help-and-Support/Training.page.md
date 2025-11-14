@@ -2,7 +2,7 @@
 
 <div class="warning"><span class="ExtLinkWarn"></span></div>
 
-This Training page provides links to documentation, presentations and videos to introduce readers to the HL7 FHIR Standard in addition to content that may assist those further along their FHIR journey. Nevertheless, these resources are not exhaustive and the experiences of others in the FHIR community, such as those shared in FHIR Chat (see {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}), can provide valuable insight. Consequently, readers are encouraged to access other pages in this Implementation Guide to aid understanding.  
+This Training page provides links to documentation, presentations and videos to introduce readers to the HL7 FHIR Standard in addition to content that may assist those further along their FHIR journey. Nevertheless, these resources are not exhaustive and the experiences of others in the FHIR community, such as those shared in FHIR Chat (see {{pagelink:Related-Pages,text:Related Pages}}), can provide valuable insight. Consequently, readers are encouraged to access other pages in this Implementation Guide to aid understanding.  
 
 ### Introductions and Overviews
 
