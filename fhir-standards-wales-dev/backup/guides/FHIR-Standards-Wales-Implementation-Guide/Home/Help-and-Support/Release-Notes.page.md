@@ -5,11 +5,8 @@ This page describes the published versions of this implementation guide and diff
 ### v2.4.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
-    * New Profiles
-
     * New Extensions
         * DataStandardsWales-ClinicCode
-
     * Changes to Profiles
         * DataStandardsWales-Appointment
             * Updated version from 1.0.1 to 1.1.0
@@ -112,10 +109,11 @@ Package:
             * Namespaces for PAS Subspecialities
 
 Guide:
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
+* Added new pages to outline the Data Standards Wales Extensions created in this release
 * Added new pages to outline the Code Systems created in this release
 * Added new pages to outline the Value Sets created in this release
-* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
-* Added Care Document Guidance page
+* Added Care Documents Guidance page
 * Updated resource link on the Guidance: Growth Charts page from Observation to Patient profile
 * Added UEC AttendanceIdentifier Name in Naming Systems table
 * Removed ValueSet-DataStandardsWales-UEC-ActivityType from Terminology page
