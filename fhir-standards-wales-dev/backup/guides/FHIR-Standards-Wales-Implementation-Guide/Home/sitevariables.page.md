@@ -1,3 +1,3 @@
 ---
-igversion: 2.1.0
+igversion: 2.4.0
 ---
