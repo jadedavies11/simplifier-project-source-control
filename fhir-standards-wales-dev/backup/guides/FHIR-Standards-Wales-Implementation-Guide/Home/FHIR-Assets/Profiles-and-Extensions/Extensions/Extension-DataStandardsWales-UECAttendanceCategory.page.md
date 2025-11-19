@@ -23,7 +23,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:https://fhir.nhs.wales/StructureDefinition/-AttendanceCategory, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-AttendanceCategory, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
