@@ -18,7 +18,7 @@ Implementation Guide version history is provided in the table below.
 	</thead>
 	<tbody>
 		<tr>
-			<td scope="row">19/11/2025</td>
+			<td scope="row">20/11/2025</td>
 			<td>2.4.0 STU2</td>
 			<td>4.0.1</td>
 			<td>2.0.1</td>
