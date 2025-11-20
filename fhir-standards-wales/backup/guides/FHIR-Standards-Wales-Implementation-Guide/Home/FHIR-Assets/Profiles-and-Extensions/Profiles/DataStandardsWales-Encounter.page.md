@@ -43,14 +43,14 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-EmergencyAdmission.page.md, text:Emergency Admission}}</li>     
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio.page.md, text:In-Progress Emergency Admission}}</li>               
+      <li>{{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Emergency Admission}}</li>     
+      <li>{{pagelink:Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio, text:In-Progress Emergency Admission}}</li>               
     </list>
   </div>    
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 Each Encounter must have:
 1. A status

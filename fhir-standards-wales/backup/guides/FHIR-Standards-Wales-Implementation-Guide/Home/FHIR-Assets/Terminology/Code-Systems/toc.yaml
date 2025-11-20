@@ -30,3 +30,14 @@
   filename: CodeSystem-FHIRStandardsWales-DocumentErrorAction.page.md 
 - name: CodeSystem-FHIRStandardsWales-DocumentErrorStatus
   filename: CodeSystem-FHIRStandardsWales-DocumentErrorStatus.page.md 
+- name: CodeSystem-DataStandardsWales-MainSpecialty
+  filename: CodeSystem-DataStandardsWales-MainSpecialty.page.md
+- name: CodeSystem-MessageEvents
+  filename: CodeSystem-MessageEvents.page.md
+- name: CodeSystem-WPASReferralSource
+  filename: CodeSystem-WPASReferralSource.page.md
+- name: CodeSystem-WPASAdmitSource
+  filename: CodeSystem-WPASAdmitSource.page.md
+- name: CodeSystem-WPASSourceAdmission
+  filename: CodeSystem-WPASSourceAdmission.page.md
+

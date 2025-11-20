@@ -45,4 +45,6 @@
 - name: Extension-DataStandardsWales-UECDischargeInformationGiven
   filename: Extension-DataStandardsWales-UECDischargeInformationGiven.page.md
 - name: Extension-DataStandardsWales-UECExpectedTimeOfTreatment
-  filename: Extension-DataStandardsWales-UECExpectedTimeOfTreatment.page.md  
+  filename: Extension-DataStandardsWales-UECExpectedTimeOfTreatment.page.md
+- name: Extension-DataStandardsWales-ClinicCode
+  filename: Extension-DataStandardsWales-ClinicCode.page.md  

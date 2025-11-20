@@ -38,7 +38,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 	</div>
   <div id="tabeg" class="tabcontent">
       <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-AuditEvent-CreateObservations.page.md, text: Audit Event - Create Observation}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-AuditEvent-CreateObservations, text: Audit Event - Create Observation}}</li>
     </list>
   </div>
 </div>

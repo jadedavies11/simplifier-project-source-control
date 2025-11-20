@@ -3,6 +3,7 @@
 The following Extensions have been defined for this implementation guide.
 
 * {{pagelink:Extension-DataStandardsWales-AdministeredProduct}}
+* {{pagelink:Extension-DataStandardsWales-ClinicCode}}
 * {{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated}}
 * {{pagelink:Extension-DataStandardsWales-DemographicsAsRecorded}}
 * {{pagelink:Extension-DataStandardsWales-DocumentAttester}}

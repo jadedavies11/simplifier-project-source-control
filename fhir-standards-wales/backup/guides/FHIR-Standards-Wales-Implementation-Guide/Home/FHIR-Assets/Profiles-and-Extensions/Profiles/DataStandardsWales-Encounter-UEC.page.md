@@ -5,7 +5,7 @@
 ### Overview
 The [Encounter-UEC](https://www.hl7.org/fhir/r4/encounter.html) resource is used to describe a patient’s attendance at a healthcare facility for Urgent and Emergency Care.
 
-The {{page-title}} profile is derived from the {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-Encounter.page.md, text: NHS Wales Encounter Profile}} and is therefore listed as experimental. It defines additional rules for use within Urgent and Emergency Care uses in health and care organisations in Wales.
+The {{page-title}} profile is derived from the {{page-title}} profile is derived from the {{pagelink:DataStandardsWales-Encounter, text: NHS Wales Encounter Profile}} and is therefore listed as experimental. It defines additional rules for use within Urgent and Emergency Care uses in health and care organisations in Wales.
 
 Refer to [Digital Health and Care Wales Welsh Emergency Care Data Set User Guide v0.1](https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/20250123-wecds-user-guide-v1-00-final-published-pdf/) for additional guidance.
 
@@ -43,7 +43,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 Each Encounter must have:
 1. A status

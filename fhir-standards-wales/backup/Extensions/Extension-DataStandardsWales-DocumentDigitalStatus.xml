@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DocumentDigitalStatus" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
@@ -60,7 +61,7 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentDigitalStatus" />
       </binding>
     </element>
-    <element id="Extension.value[x].extension">
+        <element id="Extension.value[x].extension">
       <path value="Extension.value[x].extension" />
       <max value="0" />
     </element>

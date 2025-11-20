@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-UECDischargeInformationGiven" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-DischargeInformationGiven" />
-  <version value="0.0.1" />
+  <version value="0.0.2" />
   <name value="ExtensionDataStandardsWalesUECDischargeInformationGiven" />
   <title value="Extension Data Standards Wales UEC Discharge Information Given" />
   <status value="draft" />
@@ -44,6 +45,10 @@
       <definition value="A true or false statement regarding whether the information provided at discharge from UEC was given to the patient or not." />
       <max value="1" />
     </element>
+    <element id="Extension.extension:givenToPatient.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
     <element id="Extension.extension:givenToPatient.url">
       <path value="Extension.extension.url" />
       <fixedUri value="givenToPatient" />
@@ -60,6 +65,10 @@
       <short value="UEC Discharge Information" />
       <definition value="A reference to the information provided at discharge from UEC." />
     </element>
+    <element id="Extension.extension:dischargeInformation.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
     <element id="Extension.extension:dischargeInformation.url">
       <path value="Extension.extension.url" />
       <fixedUri value="dischargeInformation" />
@@ -68,7 +77,7 @@
       <path value="Extension.extension.value[x]" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/Profile-DataStandardsWales-DocumentReference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
       </type>
     </element>
     <element id="Extension.url">

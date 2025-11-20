@@ -38,13 +38,13 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md, text:Example Related Person - Natural Mother}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-RelatedPerson-NaturalMother, text:Example Related Person - Natural Mother}}</li>
     </list>
   </div>   
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
 The following elements are defined by [Core Reference Data Standards](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm), which are also marked as must be supported:
 

@@ -5,31 +5,31 @@
 The following examples are published with this guide and all available as a downloadable as zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
 
 ### Appointment Examples
-*  {{pagelink:Example-DataStandardsWales-Appointment-GenSurgery, text:Example Appointment - General Surgery}}
+* {{pagelink:Example-DataStandardsWales-Appointment-GenSurgery, text:Example Appointment - General Surgery}}
 
 ### Allergy Examples
-*  {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Potato.page.md, text:Example food allergy - Potato}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-deleted.page.md, text:Example deleted allergy - Potato}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy.page.md, text:Example exclusion - no known allergy}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Aspirin.page.md, text:Example medication allergy -Aspirin}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example food allergy - Potato}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete, text:Example deleted allergy - Potato}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:Example exclusion - No known allergy}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Aspirin, text:Example medication allergy - Aspirin}}
 
 ### Allergy List Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies.page.md, text:Example List - with Allergies}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies-Empty.page.md, text:Example List - empty list}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies-NoKnownAllergy.page.md, text:Example List - with no known Allergies}}
+* {{pagelink:Example-DataStandardsWales-List-Allergies, text:Example List - With allergies}}
+* {{pagelink:Example-DataStandardsWales-List-Allergies-notRecorded, text:Example List - Empty list}}
+* {{pagelink:Example-DataStandardsWales-List-Allergies-NoKnownAllergy, text:Example List - With no known allergies}}
 
 ### Allergy Degraded
-* {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-bundle-allergies-degraded.page.md, text:Example Bundle - Degraded Allergy}}
-* {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedwasps.page.md, text:Example List - Degraded Wasp Allergy}}
-* {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedmorphine.page.md, text:Example List - Degraded Morphine Allergy}}
-* {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedibuprofen.page.md, text:Example List - Degraded Ibuprofen Allergy}}
+* {{pagelink:Example-DataStandardsWales-Bundle-Allergies-Degraded, text:Example Bundle - Degraded allergies}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Example List - Degraded wasp allergy}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Example List - Degraded morphine allergy}}
+* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Example List - Degraded aspirin allergy}}
 
 ### Audit Event Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-AuditEvent-CreateObservations.page.md, text: Audit Event - Create Observation}}
+* {{pagelink:Example-DataStandardsWales-AuditEvent-CreateObservations, text: Audit Event - Create Observation}}
 
 ### Device Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-CDRcomponent.page.md, text:Example Device - CDR Component}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-WPAS.page.md, text:Example Device - WPAS}}
+* {{pagelink:Example-DataStandardsWales-Device-CDRcomponent, text:Example Device - CDR Component}}
+* {{pagelink:Example-DataStandardsWales-Device-WPAS, text:Example Device - WPAS}}
 
 ### Diagnostic Report Examples
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: Example Diagnostic Report - CT Abdomen}}
@@ -43,7 +43,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}
 
 ### Encounter Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio.page.md, text:Example Encounter - In-Progress Emergency Admission}}
+* {{pagelink:Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio, text:Example Encounter - In-Progress Emergency Admission}}
 
 ### Endpoint Examples
 * {{pagelink:Example-DataStandardsWales-Endpoint-Dicom, text: Example Endpoint - Dicom Ima}}
@@ -72,39 +72,39 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Ward E (NPT)}}
 
 ### Medication Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/Example-DataStandardsWales-Medication-Amoxicillin-Infusion.page.md, text:Example Medication - Amoxicillin (infusion)}}
+* {{pagelink:Example-DataStandardsWales-Medication-Amoxicillin-Infusion, text:Example Medication - Amoxicillin (infusion)}}
 
 ### Medication List Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-GP/Example-DataStandardsWales-List-Medications-GP.page.md, text: Example medication list - GP medications list}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Outpatient/Example-DataStandardsWales-List-Medications-Outpatient.page.md, text: Example medication list - Outpatient medications list}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Admission/Example-DataStandardsWales-List-Medications-Admission.page.md, text: Example medication list - Medications on admission}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-List-Medications-Inpatient.page.md, text: Example medication list - Inpatient medications list}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-List-Medications-Discharge.page.md, text: Example medication list - Medications on discharge}}
+* {{pagelink:Example-DataStandardsWales-List-Medications-GP, text: Example medication list - GP medications list}}
+* {{pagelink:Example-DataStandardsWales-List-Medications-Outpatient, text: Example medication list - Outpatient medications list}}
+* {{pagelink:Example-DataStandardsWales-List-Medications-Admission, text: Example medication list - Medications on admission}}
+* {{pagelink:Example-DataStandardsWales-List-Medications-Inpatient, text: Example medication list - Inpatient medications list}}
+* {{pagelink:Example-DataStandardsWales-List-Medications-Discharge, text: Example medication list - Medications on discharge}}
 
 ### MedicationStatement Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion.page.md, text:Amoxicillin (infusion)}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Ramipr.-Inpatient.page.md, text:Ramipril}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Admission/Example-DataStandardsWales-MedicationStatement-Ibupro.-Admission.page.md, text:Ibuprofen (patient reported)}}
+* {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion, text:Amoxicillin (infusion)}}
+* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipr.-Inpatient, text:Ramipril}}
+* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Admission, text:Ibuprofen (patient reported)}}
 
 ### Observation Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-ACVPU.page.md, text: Example Observation - ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BloodPressure.page.md, text: Example Observation - Blood pressure}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyHeight.page.md, text: Example Observation - Body height}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyTemperature.page.md, text: Example Observation - Body temperature}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text: Example Observation - Body weight}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
+* {{pagelink:Example-DataStandardsWales-Observation-ACVPU, text: Example Observation - ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
+* {{pagelink:Example-DataStandardsWales-Observation-BloodPressure, text: Example Observation - Blood pressure}}
+* {{pagelink:Example-DataStandardsWales-Observation-BodyHeight, text: Example Observation - Body height}}
+* {{pagelink:Example-DataStandardsWales-Observation-BodyTemperature, text: Example Observation - Body temperature}}
+* {{pagelink:Example-DataStandardsWales-Observation-BodyWeight, text: Example Observation - Body weight}}
+* {{pagelink:Example-DataStandardsWales-Observation-RespiratoryRate, text: Example Observation - Respiratory rate}}
 
 ### Observation Vital Signs BMI Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md, text: Example Observation Vital Signs - BMI}}
+* {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-BMI, text: Example Observation Vital Signs - BMI}}
 
 ### Observation Vital Signs Body Height Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight.page.md, text: Example Observation Vital Signs - Maternal Height}}
+* {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight, text: Example Observation Vital Signs - Maternal Height}}
 
 ### Observation Vital Signs Body Weight Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-Weight.page.md, text: Example Observation Vital Signs - Weight}}
+* {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-Weight, text: Example Observation Vital Signs - Weight}}
 
 ### Observation Vital Signs Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference.page.md, text:Example Observation Vital Signs - Head Circumference}}
+* {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference, text:Example Observation Vital Signs - Head Circumference}}
 
 ### Organization Examples
 * {{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
@@ -134,17 +134,19 @@ The following examples are published with this guide and all available as a down
 ### Provenance Examples
 * {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text: Example Provenance - Demographics as Recorded extension usage}}
 * {{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text: Example Provenance - Demographics update as result of an HL7v2 patient demographic update }}
-* {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
+* {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceCreation, text: Example Provenance - DocumentReference creation}}
+* {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics, text: Example Provenance - Demographics as recorded with care document}}
+* {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provenance - Health Care Assistant Practitioner and PractitionerRole}}
 * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text: Example Provenance - record with multiple targets e.g. for growth chart observations}}
 
 ### Questionnaire Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md, text: Example Questionnaire - Growth Chart Condition}}
+* {{pagelink:Example-DataStandardsWales-Questionnaire-GrowthChartCondition, text: Example Questionnaire - Growth Chart Condition}}
 
 ### Questionnaire Response Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md, text: Example Questionnaire Response - Growth Chart Condition}}
+* {{pagelink:Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition, text: Example Questionnaire Response - Growth Chart Condition}}
 
 ### Related Person Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md, text:Example Related Person - Natural Mother}}
+*  {{pagelink:Example-DataStandardsWales-RelatedPerson-NaturalMother, text:Example Related Person - Natural Mother}}
 
 ### ServiceRequest Examples
 * {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}
