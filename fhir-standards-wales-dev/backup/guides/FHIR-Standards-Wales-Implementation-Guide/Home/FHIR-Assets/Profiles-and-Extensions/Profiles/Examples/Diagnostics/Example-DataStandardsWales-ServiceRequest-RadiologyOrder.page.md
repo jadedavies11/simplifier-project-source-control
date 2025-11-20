@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
+      {{tree:fhir-standards-wales/diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
+      {{table:fhir-standards-wales/diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
+      {{xml:fhir-standards-wales/diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
+      {{json:fhir-standards-wales/diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-ServiceRequest-RadiologyOrder-duplicate-2}}
+      {{narrative:fhir-standards-wales/diagnostics-example-datastandardswales-servicerequest-radiologyorder}}
     </div>  
   </div>
 </div>

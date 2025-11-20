@@ -106,7 +106,8 @@ Package:
         * New Naming Systems
             * Namespace for UEC Attendance Identifier
             * Namespaces for LIMS TCLE and TCL patient identifiers
-            * Namespaces for PAS Subspecialities
+        * Update to PAS Sub-Specialty Naming Systems
+            * Health Board initials prefix added to the Name element
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
@@ -244,8 +245,6 @@ Package:
             * Namespaces for PAS upi identifiers. These additional identifiers are for referrals and appointments and encounters so CDR can identify when an appointment has come from a referral and when a patient has e.g arrived at their appointment.  CDR would store this value as an additional identifier against each referral, appointment and encounter in the existing identifier FHIR array.
             * Namespace for WCRS DocumentId values
             * Namespace for WCRS DocumentSupersessionSetId values
-        * Namespaces for SubSpeciality ids
-            * Removed all SubSpeciality Namespaces
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Document Reference

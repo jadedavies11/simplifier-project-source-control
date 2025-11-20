@@ -31,19 +31,19 @@ This example references the following example resources:
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-List-Allergies}}
+      {{tree:fhir-standards-wales/example-datastandardswales-list-allergies}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-List-Allergies}}
+      {{table:fhir-standards-wales/example-datastandardswales-list-allergies}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-List-Allergies}}
+      {{xml:fhir-standards-wales/example-datastandardswales-list-allergies}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-List-Allergies}}
+      {{json:fhir-standards-wales/example-datastandardswales-list-allergies}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-List-Allergies}}
+      {{narrative:fhir-standards-wales/example-datastandardswales-list-allergies}}
     </div>  
   </div>
 </div>
