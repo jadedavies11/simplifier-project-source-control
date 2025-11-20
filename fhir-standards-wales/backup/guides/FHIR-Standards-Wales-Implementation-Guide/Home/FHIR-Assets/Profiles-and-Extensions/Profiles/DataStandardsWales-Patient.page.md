@@ -45,7 +45,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
 Each Patient record must support:
 * A patient identifier
@@ -73,15 +73,15 @@ When populating these fields implementers are required to use the codes defined 
 
 The extensions listed below are those created to support Data Standards Wales: 
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-Religion.page.md,text:DataStandardsWales-Religion}}
+* {{pagelink:Extension-DataStandardsWales-Religion,text:DataStandardsWales-Religion}}
   defined in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm).
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-Occupation.page.md,text:DataStandardsWales-Occupation}} indicates the patient occupation and uses a SNOMED  CT reference set.
+* {{pagelink:Extension-DataStandardsWales-Occupation,text:DataStandardsWales-Occupation}} indicates the patient occupation and uses a SNOMED  CT reference set.
 
 
 _Note: this list does not include extensions provided by UK Core and you should refer to their implementation guide for support_
 
 ### Slices
-The following identifier slices for use with the patient profile are listed below. The namespaces denoting issuing authority for each identifier are defined on the {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md, text:Naming Systems}} page.  NHS numbers are further described in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/).
+The following identifier slices for use with the patient profile are listed below. The namespaces denoting issuing authority for each identifier are defined on the {{pagelink:Naming-Systems, text:Naming Systems}} page.  NHS numbers are further described in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/).
  
 * `Patient.identifier:nhsNumber` 
 * `Patient.identifier:abuhbPasIdentifier` 
@@ -96,15 +96,15 @@ The following identifier slices for use with the patient profile are listed belo
 ### Terminology Bindings (differential)
 This profile defines the following terminology bindings in addition to those defined in UK Core.
 
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-Occupation.page.md, text:ValueSet-DataStandardsWales-Occupation}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-Title.page.md, text:ValueSet-DataStandardsWales-Title}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-Religion.page.md, text:ValueSet-DataStandardsWales-Religion}}
+* {{pagelink:ValueSet-DataStandardsWales-Occupation, text:ValueSet-DataStandardsWales-Occupation}}
+* {{pagelink:ValueSet-DataStandardsWales-Title, text:ValueSet-DataStandardsWales-Title}}
+* {{pagelink:ValueSet-DataStandardsWales-Religion, text:ValueSet-DataStandardsWales-Religion}}
 
 ### Concept Maps
 The following concept maps provide a mapping to and from UK Core / HL7 codes to Data Standards Wales codes:
 
 |Concept|Mapping for HL7/UK Core codes to Data Standards Wales codes|Mapping for Data Standards Wales codes to HL7/UK Core codes|
 |-|-|-|
-|Marital status|{{pagelink:Home/FHIR-Assets/Terminology/Concept-Maps/ConceptMap-DataStandardsWales-UKCorePersonMaritalStatusCode-MaritalStatus.page.md, text:DataStandardsWales-UKCorePersonMaritalStatusCode-MaritalStatus}}|{{pagelink:Home/FHIR-Assets/Terminology/Concept-Maps/ConceptMap-DataStandardsWales-MaritalStatus-UKCorePersonMaritalStatusCode.page.md, text:DataStandardsWales-MaritalStatus-UKCorePersonMaritalStatusCode}}|
-|Gender identity|{{pagelink:Home/FHIR-Assets/Terminology/Concept-Maps/ConceptMap-DataStandardsWales-HL7AdministrativeGender-GenderIdentity.page.md, text:DataStandardsWales-HL7AdministrativeGender-GenderIdentity}}|{{pagelink:Home/FHIR-Assets/Terminology/Concept-Maps/ConceptMap-DataStandardsWales-GenderIdentity-HL7AdministrativeGender.page.md, text:DataStandardsWales-GenderIdentity-HL7AdministrativeGender}}|
-|Sex|{{pagelink:Home/FHIR-Assets/Terminology/Concept-Maps/ConceptMap-DataStandardsWales-UKCoreBirthSex-Sex.page.md, text:DataStandardsWales-UKCoreBirthSex-Sex}}|{{pagelink:Home/FHIR-Assets/Terminology/Concept-Maps/ConceptMap-DataStandardsWales-Sex-UKCoreBirthSex.page.md, text:DataStandardsWales-Sex-UKCoreBirthSex}}|
+|Marital status|{{pagelink:ConceptMap-DataStandardsWales-UKCorePersonMaritalStatusCode-MaritalStatus, text:DataStandardsWales-UKCorePersonMaritalStatusCode-MaritalStatus}}|{{pagelink:ConceptMap-DataStandardsWales-MaritalStatus-UKCorePersonMaritalStatusCode, text:DataStandardsWales-MaritalStatus-UKCorePersonMaritalStatusCode}}|
+|Gender identity|{{pagelink:ConceptMap-DataStandardsWales-HL7AdministrativeGender-GenderIdentity, text:DataStandardsWales-HL7AdministrativeGender-GenderIdentity}}|{{pagelink:ConceptMap-DataStandardsWales-GenderIdentity-HL7AdministrativeGender, text:DataStandardsWales-GenderIdentity-HL7AdministrativeGender}}|
+|Sex|{{pagelink:ConceptMap-DataStandardsWales-UKCoreBirthSex-Sex, text:DataStandardsWales-UKCoreBirthSex-Sex}}|{{pagelink:ConceptMap-DataStandardsWales-Sex-UKCoreBirthSex, text:DataStandardsWales-Sex-UKCoreBirthSex}}|

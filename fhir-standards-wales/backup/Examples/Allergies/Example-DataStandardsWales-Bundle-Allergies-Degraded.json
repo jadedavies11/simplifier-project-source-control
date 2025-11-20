@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "Example-DataStandardsWales-Bundle-Allergies-Degraded",
+  "id":"Example-DataStandardsWales-Bundle-Allergies-Degraded",
   "type": "searchset",
   "total": 1,
   "link": [
@@ -102,9 +102,7 @@
           {
             "use": "official",
             "family": "Jones",
-            "given": [
-              "Alice"
-            ]
+            "given": ["Alice"]
           }
         ],
         "telecom": [
@@ -117,10 +115,7 @@
         "birthDate": "1980-09-13",
         "address": [
           {
-            "line": [
-              "14 Western Way",
-              "BARRY"
-            ],
+            "line": ["14 Western Way", "BARRY"],
             "postalCode": "CF62 9AZ"
           }
         ],
@@ -213,8 +208,7 @@
         ]
       }
     },
-    {
-      "resource": {
+    {"resource":{
         "resourceType": "AllergyIntolerance",
         "id": "Example-DataStandardsWales-AllergyIntolerance-Aspirin",
         "meta": {
@@ -279,8 +273,7 @@
             "severity": "mild"
           }
         ]
-      }
-    },
+      }},
     {
       "resource": {
         "resourceType": "AllergyIntolerance",
@@ -309,18 +302,15 @@
           ]
         },
         "type": "allergy",
-        "category": [
-          "food"
-        ],
+        "category": ["food"],
         "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "735053000",
-              "display": "Potato"
-            }
-          ]
-        },
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "735053000",
+            "display": "Potato"
+          }
+        ]},
         "patient": {
           "reference": "Patient/Example-DataStandardsWales-Patient-AliceJones",
           "display": "JONES, Alice"

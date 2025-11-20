@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="WPASReferralSource"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/WPASReferralSource"/>
+    <version value="0.0.1" />
+	<name value="WPASReferralSource"/>
+	<title value="WPAS Referral Source"/>
+    <status value="draft" />
+    <experimental value="true" />	
+    <date value="2025-10-16" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="FHIR Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="This CodeSystem contains a list of referral codes and descriptions specific to Welsh PAS. These codes are owned and maintained by the DHCW Welsh PAS team."/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="1"/>
+		<display value="GP - medical"/>
+	</concept>
+	<concept>
+		<code value="GE"/>
+		<display value="GP Electronic Referral"/>
+	</concept>
+</CodeSystem>

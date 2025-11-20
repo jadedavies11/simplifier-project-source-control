@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="WPASAdmitSource"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/WPASAdmitSource"/>
+    <version value="0.0.1" />
+	<name value="WPASAdmitSource"/>
+	<title value="WPAS Admit Source"/>
+    <status value="draft" />
+    <experimental value="true" />	
+    <date value="2025-10-16" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="FHIR Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="This CodeSystem contains a list of admission source codes and descriptions specific to Welsh PAS. These codes are owned and maintained by the DHCW Welsh PAS team."/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="10"/>
+		<display value="Referral (GP)"/>
+	</concept>
+	<concept>
+		<code value="12"/>
+		<display value="Referral from another consultant"/>
+	</concept>
+	<concept>
+		<code value="14"/>
+		<display value="Self Referral"/>
+	</concept>
+	<concept>
+		<code value="19"/>
+		<display value="Usual place of residence"/>
+	</concept>
+	<concept>
+		<code value="21"/>
+		<display value="Outpatient waiting list"/>
+	</concept>
+	<concept>
+		<code value="23"/>
+		<display value="Outpatient "/>
+	</concept>
+	<concept>
+		<code value="25"/>
+		<display value="Follow-up outpatient appointment"/>
+	</concept>
+	<concept>
+		<code value="29"/>
+		<display value="Temporary place of residence"/>
+	</concept>
+	<concept>
+		<code value="31"/>
+		<display value="Day case waiting list"/>
+	</concept>
+	<concept>
+		<code value="33"/>
+		<display value="Day case"/>
+	</concept>
+	<concept>
+		<code value="39"/>
+		<display value="Penal establishment"/>
+	</concept>
+	<concept>
+		<code value="41"/>
+		<display value="Inpatient waiting list"/>
+	</concept>
+	<concept>
+		<code value="43"/>
+		<display value="Inpatient "/>
+	</concept>
+	<concept>
+		<code value="49"/>
+		<display value="Special hospital"/>
+	</concept>
+	<concept>
+		<code value="51"/>
+		<display value="Other NHS provider - general ward"/>
+	</concept>
+	<concept>
+		<code value="54"/>
+		<display value="NHS nursing/group residential home"/>
+	</concept>
+	<concept>
+		<code value="63"/>
+		<display value="Follow-up Day Care attendance"/>
+	</concept>
+	<concept>
+		<code value="65"/>
+		<display value="Follow-up Ward Attender Appt"/>
+	</concept>
+	<concept>
+		<code value="69"/>
+		<display value="Local authority care"/>
+	</concept>
+	<concept>
+		<code value="79"/>
+		<display value="Babies born in or on the way to hos"/>
+	</concept>
+	<concept>
+		<code value="89"/>
+		<display value="Other, inc. non-NHS hospital, nursi"/>
+	</concept>
+	<concept>
+		<code value="98"/>
+		<display value="Not applicable"/>
+	</concept>
+	<concept>
+		<code value="99"/>
+		<display value="Not known"/>
+	</concept>
+	<concept>
+		<code value="E3"/>
+		<display value="A and E/MIU Contact"/>
+	</concept>
+	<concept>
+		<code value="E5"/>
+		<display value="A and E/MIU Followup Attendance"/>
+	</concept>
+	<concept>
+		<code value="H1"/>
+		<display value="HCP List"/>
+	</concept>
+	<concept>
+		<code value="H3"/>
+		<display value="HCP activity"/>
+	</concept>
+	<concept>
+		<code value="H5"/>
+		<display value="Followup HCP activity"/>
+	</concept>
+	<concept>
+		<code value="M1"/>
+		<display value="MCT List"/>
+	</concept>
+	<concept>
+		<code value="S1"/>
+		<display value="See on Symptom Follow Up"/>
+	</concept>
+	<concept>
+		<code value="S2"/>
+		<display value="Patient Initiated Follow Up"/>
+	</concept>
+	<concept>
+		<code value="S3"/>
+		<display value="Remote Monitoring Triggered"/>
+	</concept>
+</CodeSystem>

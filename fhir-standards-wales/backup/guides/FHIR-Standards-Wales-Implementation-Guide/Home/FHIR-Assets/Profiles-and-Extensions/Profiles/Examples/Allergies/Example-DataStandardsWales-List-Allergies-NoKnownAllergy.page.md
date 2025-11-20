@@ -4,7 +4,7 @@
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy.page.md, text:no known allergy}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:no known allergy}}
 
 * Subject, source and context:
   * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}

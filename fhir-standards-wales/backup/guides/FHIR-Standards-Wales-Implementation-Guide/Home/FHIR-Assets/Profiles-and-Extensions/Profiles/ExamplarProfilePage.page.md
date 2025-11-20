@@ -19,7 +19,7 @@ name: DataStandardsWalesPatient
         Canonical: url
 ```
 
-{{page:Home/FHIR-Assets/Profiles-and-Extensions/ResourceOverview.page.md}}
+{{page:ResourceOverview}}
 
 
 

@@ -1,4 +1,5 @@
-<ServiceRequest xmlns="http://hl7.org/fhir">
+<ServiceRequest
+  xmlns="http://hl7.org/fhir">
   <id value="Example-DSW-ServiceRequest-PathologyOrder-SpigeoAllComPhno" />
   <meta>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
@@ -10,7 +11,8 @@
   </meta>
   <text>
     <status value="generated" />
-    <div xmlns="http://www.w3.org/1999/xhtml">Sp IgE to Other, Allergy Comment, Phenobarbital level</div>
+    <div
+      xmlns="http://www.w3.org/1999/xhtml">Sp IgE to Other, Allergy Comment, Phenobarbital level</div>
   </text>
   <identifier>
     <system value="https://fhir.nhs.wales/Id/wrrs-episode-number" />
@@ -36,8 +38,8 @@
     <text value="Pathology order" />
   </code>
   <subject>
-    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-    <display value="JONES, Alice (NHS: 9912003444)" />
+		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <authoredOn value="2021-11-10T09:47:09.283+00:00" />
   <requester>
@@ -45,8 +47,8 @@
     <display value="..." />
   </requester>
   <specimen>
-    <reference value="Specimen/Example-DataStandardsWales-Specimen-Serum" />
-    <display value="Serum" />
+      <reference value="Specimen/Example-DataStandardsWales-Specimen-Serum" />
+      <display value="Serum" />
   </specimen>
   <note>
     <text value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse faucibus interdum posuere lorem. Ipsum suspendisse ultrices gravida dictum fusce. Mattis ullamcorper 1111" />

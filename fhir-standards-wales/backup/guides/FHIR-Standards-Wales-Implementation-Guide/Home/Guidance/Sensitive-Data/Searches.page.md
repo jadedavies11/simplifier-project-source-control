@@ -20,5 +20,5 @@ GET [base]/[resource]?patient=[id]&code=[code]&_tag=http://terminology.hl7.org/C
 ```
 
 ## UK Core Access
-Please also refer to {{pagelink:Home/Design/UK-Core-Access.page.md,text:UK Core Access}} for further details on standardising clinical data queries.
+Please also refer to {{pagelink:UK-Core-Access,text:UK Core Access}} for further details on standardising clinical data queries.
 

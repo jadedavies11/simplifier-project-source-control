@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Encounter-UEC" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter-UEC" />
-  <version value="0.0.1" />
+  <version value="0.0.2" />
   <name value="DataStandardsWalesEncounterUEC" />
   <title value="Data Standards Wales Encounter UEC" />
   <status value="draft" />
@@ -72,6 +73,24 @@
         <description value="Indicates the Acuity of the UEC encounter as determined at the point of triage." />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-Acuity" />
       </binding>
+    </element>
+    <element id="Encounter.reasonReference">
+      <path value="Encounter.reasonReference" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
+        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-ImmunizationRecommendation" />
+      </type>
+    </element>
+    <element id="Encounter.diagnosis.condition">
+      <path value="Encounter.diagnosis.condition" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
+      </type>
     </element>
     <element id="Encounter.hospitalization.admitSource">
       <path value="Encounter.hospitalization.admitSource" />
