@@ -23,19 +23,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{tree:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{table:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{xml:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{json:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{narrative:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
     </div>  
   </div>
 </div>
