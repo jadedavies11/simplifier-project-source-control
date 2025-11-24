@@ -2,6 +2,29 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.5.0 STU2
+Package: 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+    * New Extensions  
+    * Changes to Profiles
+    * Changes to Extensions
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+    * New Code Systems
+    * Removed Code Systems
+    * Changes to Code Systems
+    * New Value Sets
+    * Removed Value Sets
+    * Changes to Value Sets
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * Changes to Naming Systems
+        * New Naming Systems
+Guide:
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
+* Replaced Data Standards email with FHIR Service email on Version Control and Ballot Process page
+* Replaced Data Standards email with FHIR Service email on Concept Maps page
+* Corrected Practitioner name on Example Amoxicillin (infusion) page
+
 ### v2.4.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
