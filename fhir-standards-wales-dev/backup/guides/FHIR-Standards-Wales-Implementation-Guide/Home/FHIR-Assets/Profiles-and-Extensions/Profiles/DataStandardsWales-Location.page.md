@@ -44,7 +44,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 Each Location must have:
 1. A name
@@ -68,7 +68,7 @@ The `Location.status` field **SHOULD** be populated to indicate whether the orga
 The `Location.name` field **SHALL** be populated.
 
 ### Slices
-The following identifier slice is used with the location profile listed below. The namespaces denoting issuing authority for the identifier are defined on the {{pagelink:Naming-Systems, text:Naming Systems}} page.
+The following identifier slice is used with the location profile listed below. The namespaces denoting issuing authority for the identifier are defined on the {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md, text:Naming Systems}} page.
  
 * `Location.identifier:wrtsLocationIdentifier` 
 

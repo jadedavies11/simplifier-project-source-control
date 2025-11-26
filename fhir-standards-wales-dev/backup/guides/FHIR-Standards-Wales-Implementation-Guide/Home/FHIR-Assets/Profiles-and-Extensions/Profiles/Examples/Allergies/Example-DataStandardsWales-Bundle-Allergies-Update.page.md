@@ -4,10 +4,10 @@
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Degraded morphine}}-  modified to be coded correctly
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Potato}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Degraded Aspirin}} -  modified to be coded correctly
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Degraded wasp}} -  modified to be coded correctly
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine.page.md, text:Degraded morphine}}-  modified to be coded correctly
+   * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Potato.page.md, text:Potato}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-DegradedIbuprofen.page.md, text:Degraded Ibuprofen}} -  modified to be coded correctly
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-DegradedWasps.page.md, text:Degraded wasp}} -  modified to be coded correctly
 * Subject, source and context:
   * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
   * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Practitioner - Dr Dhiren Patel }}

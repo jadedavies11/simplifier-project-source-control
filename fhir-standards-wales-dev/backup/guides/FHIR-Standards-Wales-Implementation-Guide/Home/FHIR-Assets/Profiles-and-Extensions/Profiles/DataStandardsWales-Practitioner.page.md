@@ -50,7 +50,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
 Each Practitioner record must have:
 1. A `Practitioner.name` to indicate the name by which the individual is known.
@@ -59,7 +59,7 @@ Each Practitioner record must support:
 1. A `Practitioner.identifier` to indicate the unique identifier(s) under which the individual is registered.
 
 ### Slices
-The following slices are defined for use within this profile. The namespaces denoting issuing authority for each identifier are defined by HL7 UK with the exception of `Practitioner.identifier:nadexIdentifier` which is defined on the {{pagelink:Naming-Systems, text:NHS Wales Naming Systems}} page.
+The following slices are defined for use within this profile. The namespaces denoting issuing authority for each identifier are defined by HL7 UK with the exception of `Practitioner.identifier:nadexIdentifier` which is defined on the {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md, text:NHS Wales Naming Systems}} page.
 * `Practitioner.identifier`
 * `Practitioner.identifier:nadexIdentifier`
 * `Practitioner.identifier:gdcNumber`

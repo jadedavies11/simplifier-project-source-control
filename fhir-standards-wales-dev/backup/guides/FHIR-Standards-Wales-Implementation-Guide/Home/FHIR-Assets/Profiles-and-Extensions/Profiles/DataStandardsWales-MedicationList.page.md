@@ -37,17 +37,17 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-GP, text: GP medications list}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-Outpatient, text: Outpatient medications list}}</li>      
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-Admission, text: Medications on admission}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-Inpatient, text: Inpatient medications list}}</li>      
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-Discharge, text: Medications on discharge}}</li>      
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-GP/Example-DataStandardsWales-List-Medications-GP.page.md, text: GP medications list}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Outpatient/Example-DataStandardsWales-List-Medications-Outpatient.page.md, text: Outpatient medications list}}</li>      
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Admission/Example-DataStandardsWales-List-Medications-Admission.page.md, text: Medications on admission}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-List-Medications-Inpatient.page.md, text: Inpatient medications list}}</li>      
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-List-Medications-Discharge.page.md, text: Medications on discharge}}</li>      
     </list>
   </div>    
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 Each Medication List must have:
 1. A status

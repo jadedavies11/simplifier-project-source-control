@@ -37,16 +37,16 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example food allergy - Potato}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete, text:Example deleted allergy - Potato}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:Example exclusion - No known allergy}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-AllergyIntolerance-Aspirin, text:Example medication allergy - Aspirin}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Potato.page.md, text:Example food allergy - Potato}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-deleted.page.md, text:Example deleted allergy - Potato}}</li> 
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy.page.md, text:Example exclusion - no known allergy}}</li> 
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Aspirin.page.md, text:Example medication allergy -Aspirin}}</li>                 
     </list>
   </div>    
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 Each AllergyIntolerance must have:
 1. A code

@@ -28,7 +28,7 @@ The FHIR data model consists of the following resources:
 * {{pagelink:DataStandardsWales-Observation-VitalSigns-BMI,text:Observation-Vital Signs-BMI}}
 * {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight,text:Observation-Vital Signs-Body Height}}
 * {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight,text:Observation-Vital Signs-Body Weight}}
-* {{pagelink:DataStandardsWales-Patient,text:Patient}}
+* {{pagelink:DataStandardsWales-Patient,text:Observation}}
 * {{pagelink:DataStandardsWales-Practitioner,text:Practitioner}}
 * {{pagelink:DataStandardsWales-PractitionerRole,text:Practitioner Role}}
 * {{pagelink:DataStandardsWales-Questionnaire,text:Questionnaire}}
