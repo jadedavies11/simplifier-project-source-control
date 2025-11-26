@@ -2,8 +2,6 @@
   filename: Administrative-Data
 - name: Allergy
   filename: Allergy
-- name: Care Documents
-  filename: Care-Documents
 - name: Diagnostic Reports
   filename: Diagnostic-Reports
 - name: Growth Charts

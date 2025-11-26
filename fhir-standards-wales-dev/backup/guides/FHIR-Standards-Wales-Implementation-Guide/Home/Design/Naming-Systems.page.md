@@ -20,4 +20,4 @@ The example above is based on the following principles:
 *Avoid use of alternatives such as ‘CRN’, ‘pas-number’, ‘pas-id’, ‘patient-identifier’ etc.
 
 ### Commonly Used Patient System Identifier Namespaces
-The commonly used namespaces for PAS patient identifiers are available on the {{pagelink:Naming-Systems}} page.
+The commonly used namespaces for PAS patient identifiers are available on the {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md}} page.

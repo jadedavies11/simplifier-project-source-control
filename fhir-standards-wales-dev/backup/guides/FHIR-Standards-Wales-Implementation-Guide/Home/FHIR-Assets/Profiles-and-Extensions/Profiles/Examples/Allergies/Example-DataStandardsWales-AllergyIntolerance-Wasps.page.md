@@ -23,19 +23,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
+      {{tree:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
+      {{table:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
+      {{xml:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
+      {{json:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
+      {{narrative:FHIR-Standards-Wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>  
   </div>
 </div>

@@ -45,7 +45,7 @@ This profile aligns with the [UK Core Service Request Profile](https://simplifie
 
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 **Each Service Request must have:**
 1. A status

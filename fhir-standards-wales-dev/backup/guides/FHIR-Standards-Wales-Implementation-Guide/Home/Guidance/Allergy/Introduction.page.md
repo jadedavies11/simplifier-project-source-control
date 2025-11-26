@@ -1,7 +1,7 @@
 ## {{page-title}}
 This implementation guide include the following resources for allergy.
 * {{pagelink:DataStandardsWales-AllergyList}}
-* {{pagelink:DataStandardsWales-AllergyIntolerance}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-AllergyIntolerance.page.md}}
 
 ### Clinical scenario: producing an Allergy List  
 In this scenario, a patient is admitted as an inpatient; allergies are made available from several sources in varying quality. The end user will need to refine this prior to prescribing.  The allergies are presented, checked and the current allergies list is created.  
