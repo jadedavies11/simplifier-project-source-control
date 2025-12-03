@@ -1,0 +1,307 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-DocumentType"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentType"/>
+    <version value="0.0.2" />
+    <name value="DataStandardsWalesDocumentType"/>
+	<title value="Data Standards Wales Document Type"/>
+    <status value="draft" />
+    <experimental value="true" />
+	<date value="2025-08-18" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
+		</telecom>
+    </contact>
+	<description value="A set of codes used to identify the category of a document within NHS Wales."/>
+	<copyright value="2025 NHS Wales." />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="memberOf 1127551000000109" />
+            </filter>
+		</include>
+	</compose>
+	<expansion>
+		<extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
+			<valueBoolean value="true"/>
+		</extension>
+		<identifier value="urn:uuid:3237e4e4-9203-4ece-aada-84127c4f0973"/>
+		<timestamp value="2025-10-15T11:10:56+00:00"/>
+		<total value="1722"/>
+		<offset value="0"/>
+		<parameter>
+			<name value="version"/>
+			<valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20250409"/>
+		</parameter>
+		<parameter>
+			<name value="used-codesystem"/>
+			<valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20250409"/>
+		</parameter>
+		<parameter>
+			<name value="displayLanguage"/>
+			<valueCode value="en-GB,en;q=0.9,en-US;q=0.8"/>
+		</parameter>
+		<parameter>
+			<name value="count"/>
+			<valueInteger value="50"/>
+		</parameter>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="717071000000105"/>
+			<display value="Address instruction"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="959881000000109"/>
+			<display value="Art therapy care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="715271000000107"/>
+			<display value="Attendance allowance examination administration"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="715011000000109"/>
+			<display value="Breast screening administration"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="736401008"/>
+			<display value="Chemotherapy care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="25751000000102"/>
+			<display value="Children's home visit note"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="736283006"/>
+			<display value="Chronic obstructive pulmonary disease clinical management plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="1184592007"/>
+			<display value="Communication problem document section"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="184232002"/>
+			<display value="Computer record print"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="961931000000109"/>
+			<display value="Diabetes education care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="715351000000106"/>
+			<display value="Drug addict notification administration"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="714471000000109"/>
+			<display value="Drug stock control administration"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="773596008"/>
+			<display value="Elderly medicine care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="715141000000106"/>
+			<display value="Employment examination/report administration"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="184234001"/>
+			<display value="Family record folder"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="1421000000108"/>
+			<display value="Forces sickness on leave certificate"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="13681000000105"/>
+			<display value="FP1 form patient registration without NHS card"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="13741000000105"/>
+			<display value="FP69 form warning of removal from list"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="196971000000103"/>
+			<display value="General Practice Initial Summary"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="725921000000106"/>
+			<display value="GP13 ex Her Majesty's forces registration form"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="315012009"/>
+			<display value="Heartsave card"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="736402001"/>
+			<display value="Hip fracture inpatient care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="1331904007"/>
+			<display value="Informed clinical opinion document"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="1362461000000105"/>
+			<display value="Inherited metabolic medicine care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="750011000000106"/>
+			<display value="Integrated Care and Support Plan - Funded Nursing Care"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="826491000000106"/>
+			<display value="Intervention record"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="820251000000104"/>
+			<display value="Interventional radiology record"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="1149501000000101"/>
+			<display value="List of consultations"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="736363007"/>
+			<display value="Minor plastic surgery inpatient care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="758981000000100"/>
+			<display value="Multiple sclerosis monitoring administration"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="801561000000101"/>
+			<display value="Outpatient Clinic Attendance - Maxillofacial and Tertiary Letter"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="961531000000102"/>
+			<display value="Paediatric pain management care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="829261000000109"/>
+			<display value="Patient narrative"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="61471000000109"/>
+			<display value="Pregnancy episode details"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="773979001"/>
+			<display value="Prosthetic care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="13871000000109"/>
+			<display value="RAN2A form"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="886821000000100"/>
+			<display value="Relevant clinical risk factors"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="816661000000107"/>
+			<display value="Relevant medical information"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="445616004"/>
+			<display value="Report with official legal status"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="925231000000108"/>
+			<display value="Request"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="423100009"/>
+			<display value="Results section"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="887121000000105"/>
+			<display value="Review of systems"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="886951000000100"/>
+			<display value="Risks to others"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="1363501000000100"/>
+			<display value="Royal College of Physicians NEWS2 (National Early Warning Score 2) chart"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="11511000000101"/>
+			<display value="RPF7 postal vote application form"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="960921000000104"/>
+			<display value="Spinal surgery care plan"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="305761000000107"/>
+			<display value="Unseal Report"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="353151000000100"/>
+			<display value="Verified amendment to transfer degraded record"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="767731000000105"/>
+			<display value="Walk in centre administration"/>
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct"/>
+			<code value="1025641000000106"/>
+			<display value="Withdraw Notice Reject under the Care Act 2014 Schedule 3"/>
+		</contains>
+	</expansion>
+</ValueSet>

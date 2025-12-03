@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-ImagingStudy" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
-  <version value="0.0.7" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesImagingStudy" />
   <title value="Data Standards Wales Imaging Study" />
   <status value="draft" />
@@ -89,10 +89,10 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Media" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition" />
       </type>
     </element>
     <element id="ImagingStudy.series.endpoint">
@@ -106,7 +106,7 @@
       <path value="ImagingStudy.series.specimen" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Specimen" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Specimen" />
       </type>
     </element>
     <element id="ImagingStudy.series.performer.actor">

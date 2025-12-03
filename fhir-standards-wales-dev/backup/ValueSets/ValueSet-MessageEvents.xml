@@ -1,0 +1,27 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-DocumentCategory"/>
+	<url value="https://fhir.nhs.wales/message-events"/>
+    <version value="0.0.1" />
+    <name value="MessageEvents"/>
+	<title value="Message Events"/>
+    <status value="draft" />
+    <experimental value="true" />
+	<date value="2025-10-15" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
+		</telecom>
+    </contact>
+	<description value="Message Events ValueSet is owned and managed by the NHS Wales App. These are not a data standard and this snapshot is for example use only."/>
+	<copyright value="2025 NHS Wales." />
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/message-events"/>
+		</include>
+	</compose>
+</ValueSet>

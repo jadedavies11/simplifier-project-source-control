@@ -4,7 +4,7 @@
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Potato.page.md, text:Potato- mild Urticarial rash}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Potato - mild Urticarial rash}}
 
 * Subject, source and context:
   * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
