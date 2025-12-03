@@ -44,7 +44,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
 **Each DiagnosticReport must have:**
 1. A status
@@ -93,7 +93,8 @@ The following example resources are provided within this guide:
  - {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Cardiology - ECG}}
  - {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Cardiology - Stress Test}}
 
- * Please see [Data Standards Wales DiagnosticReport Profile for Laboratory results]{{pagelink:DataStandardsWales-DiagnosticReport-Lab}} for examples of Pathology/Laboratory results.
+ * Please see {{pagelink:DataStandardsWales-DiagnosticReport-Lab, text: Data Standards Wales Diagnostic Report Profile for Laboratory results}} for examples of Pathology/Laboratory results.
+
       
 
 ### Mandatory Search Parameters

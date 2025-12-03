@@ -1,11 +1,14 @@
 {
-  "name": "NHSWalesfhirprofilesR",
-  "version": "2.1.0",
-  "description": "Put a description here",
-  "dependencies": {
-    "fhir.r4.ukcore.stu2": "2.0.1"
-  },
+  "name": "fhir.r4.wales",
+  "version": "2.5.0",
+  "description": "NHS Wales FHIR Profiles R4 Package",
+  "author": "NHS Wales",
   "fhirVersions": [
-    "4.0.0"
-  ]
+    "4.0.1"
+  ],
+  "jurisdiction": "urn:iso:std:iso:3166#GB",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "fhir.r4.ukcore.stu2": "2.0.1"
+  }
 }

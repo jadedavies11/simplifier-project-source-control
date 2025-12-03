@@ -1,6 +1,6 @@
 ### 4) Inpatient medication 
 
-{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-List-Medications-Inpatient.page.md, text: Example list of inpatient medications based on the medications below}}.
+{{pagelink:Example-DataStandardsWales-List-Medications-Inpatient, text: Example list of inpatient medications based on the medications below}}.
 
 * Bendroflumethiazide 2.5mg tablets – 1 tablet every morning
 * Bisoprolol 1.25mg oral every morning  

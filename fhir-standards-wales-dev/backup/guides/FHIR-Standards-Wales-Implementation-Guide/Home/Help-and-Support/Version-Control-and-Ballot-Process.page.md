@@ -17,7 +17,7 @@ Following the first STU1 for ballot release,  we will develop a review strategy 
 
 ### Change Management
 
-We are currently developing our change management strategy and we will ensure that all stakeholders are informed of changes to the implementation guide. To date this has been handled through the Interoperability Standards Working Group and the ballot process.  We have begun to use Azure DevOps to track all changes on a per release basis and we eventually turn the projects user stories into release notes.  These will be disseminated via an email distribution list which you can ask to be added to via the {{pagelink:Home/Help-and-Support/Help-and-Support.page.md,text:data standards email inbox}}. A more detailed breakdown of changes that have occurred in new releases will also be provided on the implementation guide.
+We are currently developing our change management strategy and we will ensure that all stakeholders are informed of changes to the implementation guide. To date this has been handled through the Interoperability Standards Working Group and the ballot process.  We have begun to use Azure DevOps to track all changes on a per release basis and we eventually turn the projects user stories into release notes.  These will be disseminated via an email distribution list which you can ask to be added to via the {{pagelink:Help-and-Support,text:FHIR Standards Wales email inbox}}. A more detailed breakdown of changes that have occurred in new releases will also be provided on the implementation guide.
 
 ### Standard for Trial Use (STU) Explanation
 

@@ -37,18 +37,18 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-ACVPU.page.md, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}</li>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BloodPressure.page.md, text:Blood pressure}}</li>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyHeight.page.md, text:Body height}}</li>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyTemperature.page.md, text:Body temperature}}</li>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text:Body weight}}</li>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text:Respiratory rate}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Observation-ACVPU, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Observation-BloodPressure, text:Blood pressure}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Observation-BodyHeight, text:Body height}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Observation-BodyTemperature, text:Body temperature}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Observation-BodyWeight, text:Body weight}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Observation-RespiratoryRate, text:Respiratory rate}}</li>
     </list>
   </div>    
 </div>
 
 ### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 **Each Observation must have:**
 1. A status
@@ -64,15 +64,6 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 1. An interpretation, e.g. high, low, normal
 1. A link to subsidiary "group member" observations made as part of this observation
 1. One or more subsidiary components, e.g. systolic and diastolic blood pressure measurements.
-
-### Example Observations
-The following example resources are provided within this guide:
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-ACVPU.page.md, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BloodPressure.page.md, text:Blood pressure}}
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyHeight.page.md, text:Body height}}
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyTemperature.page.md, text:Body temperature}}
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text:Body weight}}
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text:Respiratory rate}}
 
 ### Mandatory Search Parameters
 The following search parameters and search parameter combinations **SHALL** be supported:

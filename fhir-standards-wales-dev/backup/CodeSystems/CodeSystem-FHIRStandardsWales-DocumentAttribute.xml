@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="FHIRStandardsWales-DocumentAttribute"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentAttribute"/>
+    <version value="0.0.1" />
+	<name value="FHIRStandardsWalesDocumentAttribute"/>
+	<title value="FHIR Standards Wales Document Attribute"/>
+    <status value="draft" />
+    <experimental value="true" />	
+    <date value="2025-09-19" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
+		</telecom>
+    </contact>
+	<description value="A set of codes used to identify specific document attributes that are not part of the formal document metadata.  Values have been sourced from documents in the Welsh Care Records System"/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="AilmentCode"/>
+		<display value="Ailment Code"/>
+	</concept>
+	<concept>
+		<code value="AilmentName"/>
+		<display value="Ailment Name"/>
+	</concept>
+	<concept>
+		<code value="AllergiesRecorded"/>
+		<display value="Allergies Recorded"/>
+	</concept>
+	<concept>
+		<code value="AwaitingAdditionalInfo"/>
+		<display value="Awaiting Additional Info"/>
+	</concept>
+	<concept>
+		<code value="CancelledBy"/>
+		<display value="Cancelled By"/>
+	</concept>
+	<concept>
+		<code value="CancelledOn"/>
+		<display value="Cancelled On"/>
+	</concept>
+	<concept>
+		<code value="CareSequence"/>
+		<display value="Care Sequence"/>
+	</concept>
+	<concept>
+		<code value="CareSetting"/>
+		<display value="Care Setting"/>
+	</concept>
+	<concept>
+		<code value="CasDbId"/>
+		<display value="Cas Db Id"/>
+	</concept>
+	<concept>
+		<code value="Clinic"/>
+		<display value="Clinic"/>
+	</concept>
+	<concept>
+		<code value="ClinicalCircumstanceDescription"/>
+		<display value="Clinical Circumstance Description"/>
+	</concept>
+	<concept>
+		<code value="ClinicCode"/>
+		<display value="Clinic Code"/>
+	</concept>
+	<concept>
+		<code value="ClinicName"/>
+		<display value="Clinic Name"/>
+	</concept>
+	<concept>
+		<code value="CloneDateTime"/>
+		<display value="Clone Date Time"/>
+	</concept>
+	<concept>
+		<code value="CloneSequenceNumber"/>
+		<display value="Clone Sequence Number"/>
+	</concept>
+	<concept>
+		<code value="CloneSourceDocumentId"/>
+		<display value="Clone Source Document Id"/>
+	</concept>
+	<concept>
+		<code value="CloneSourceIsDraft"/>
+		<display value="CloneSourceIsDraft"/>
+	</concept>
+	<concept>
+		<code value="CloneSourceSetSeqNo"/>
+		<display value="Clone Source Set Seq No"/>
+	</concept>
+	<concept>
+		<code value="CloneSourceSupersessionSet"/>
+		<display value="Clone Source Supersession Set"/>
+	</concept>
+	<concept>
+		<code value="Comments"/>
+		<display value="Comments"/>
+	</concept>
+	<concept>
+		<code value="ConsultantPriority"/>
+		<display value="Consultant Priority"/>
+	</concept>
+	<concept>
+		<code value="ConsultationPeriod"/>
+		<display value="Consultation Period"/>
+	</concept>
+	<concept>
+		<code value="ConsultationType"/>
+		<display value="Consultation Type"/>
+	</concept>
+	<concept>
+		<code value="CounterSignatureRequestorId"/>
+		<display value="Counter Signature Requestor Id"/>
+	</concept>
+	<concept>
+		<code value="DalHasBeenReactivated"/>
+		<display value="Dal Has Been Reactivated"/>
+	</concept>
+	<concept>
+		<code value="DataMigrationSource"/>
+		<display value="Data Migration Source"/>
+	</concept>
+	<concept>
+		<code value="DateReceived"/>
+		<display value="Date Received"/>
+	</concept>
+	<concept>
+		<code value="DateReferred"/>
+		<display value="Date Referred"/>
+	</concept>
+	<concept>
+		<code value="DateSubmitted"/>
+		<display value="Date Submitted"/>
+	</concept>
+	<concept>
+		<code value="DestinationHealthboardCode"/>
+		<display value="Destination Healthboard Code"/>
+	</concept>
+	<concept>
+		<code value="DestinationHospitalCode"/>
+		<display value="Destination Hospital Code"/>
+	</concept>
+	<concept>
+		<code value="DestinationSpecialtyCode"/>
+		<display value="Destination Specialty Code"/>
+	</concept>
+	<concept>
+		<code value="Diagnosis"/>
+		<display value="Diagnosis"/>
+	</concept>
+	<concept>
+		<code value="DiagnosisDate"/>
+		<display value="Diagnosis Date"/>
+	</concept>
+	<concept>
+		<code value="Discipline"/>
+		<display value="Discipline"/>
+	</concept>
+	<concept>
+		<code value="DocumentRequiresCountersignature"/>
+		<display value="Document Requires Countersignature"/>
+	</concept>
+	<concept>
+		<code value="Duplicate"/>
+		<display value="Duplicate"/>
+	</concept>
+	<concept>
+		<code value="EditCrossOrg"/>
+		<display value="Edit Cross Org"/>
+	</concept>
+	<concept>
+		<code value="Encoding"/>
+		<display value="Encoding"/>
+	</concept>
+	<concept>
+		<code value="EventId"/>
+		<display value="Event Id"/>
+	</concept>
+	<concept>
+		<code value="FinalEditDateTime"/>
+		<display value="Final Edit Date Time"/>
+	</concept>
+	<concept>
+		<code value="GMCCode"/>
+		<display value="GMC Code"/>
+	</concept>
+	<concept>
+		<code value="HepmaSystem"/>
+		<display value="Hepma System"/>
+	</concept>
+	<concept>
+		<code value="HoldUntil"/>
+		<display value="Hold Until"/>
+	</concept>
+	<concept>
+		<code value="IsEmergency"/>
+		<display value="Is Emergency"/>
+	</concept>
+	<concept>
+		<code value="IsHistoricDalSaved"/>
+		<display value="Is Historic Dal Saved"/>
+	</concept>
+	<concept>
+		<code value="IsPharmacyLocked"/>
+		<display value="Is Pharmacy Locked"/>
+	</concept>
+	<concept>
+		<code value="LocalDocumentTypeCode"/>
+		<display value="Local Document Type Code"/>
+	</concept>
+	<concept>
+		<code value="LocalSubSpecialty"/>
+		<display value="Local SubSpecialty"/>
+	</concept>
+	<concept>
+		<code value="LocalSubSpecialtyCode"/>
+		<display value="Local SubSpecialty Code"/>
+	</concept>
+	<concept>
+		<code value="LocationType"/>
+		<display value="Location Type"/>
+	</concept>
+	<concept>
+		<code value="MandatoryCoscDate"/>
+		<display value="Mandatory Cosc Date"/>
+	</concept>
+	<concept>
+		<code value="ManualDal"/>
+		<display value="Manual Dal"/>
+	</concept>
+	<concept>
+		<code value="MedicalRecordType"/>
+		<display value="Medical Record Type"/>
+	</concept>
+	<concept>
+		<code value="MeetingDate"/>
+		<display value="Meeting Date"/>
+	</concept>
+	<concept>
+		<code value="OptimalCoscDate"/>
+		<display value="Optimal Cosc Date"/>
+	</concept>
+	<concept>
+		<code value="OutcomeAction"/>
+		<display value="Outcome Action"/>
+	</concept>
+	<concept>
+		<code value="PasLink"/>
+		<display value="Pas Link"/>
+	</concept>
+	<concept>
+		<code value="PathwayId"/>
+		<display value="Pathway Id"/>
+	</concept>
+	<concept>
+		<code value="PathwayIdentifier"/>
+		<display value="Pathway Identifier"/>
+	</concept>
+	<concept>
+		<code value="PatientActionIfHadNotReceivedConsultationCode"/>
+		<display value="Patient Action If Had Not Received Consultation Code"/>
+	</concept>
+	<concept>
+		<code value="PatientActionIfHadNotReceivedConsultationText"/>
+		<display value="Patient Action If Had Not Received Consultation Text"/>
+	</concept>
+	<concept>
+		<code value="PatientPrivacyCategory"/>
+		<display value="Patient Privacy Category"/>
+	</concept>
+	<concept>
+		<code value="PatientRevoke"/>
+		<display value="Patient Revoke"/>
+	</concept>
+	<concept>
+		<code value="PatientShare"/>
+		<display value="Patient Share"/>
+	</concept>
+	<concept>
+		<code value="PharmacistGphc"/>
+		<display value="Pharmacist GPhC"/>
+	</concept>
+	<concept>
+		<code value="PharmacistName"/>
+		<display value="Pharmacist Name"/>
+	</concept>
+	<concept>
+		<code value="PharmacyName"/>
+		<display value="Pharmacy Name"/>
+	</concept>
+	<concept>
+		<code value="PharmacyPPA"/>
+		<display value="Pharmacy PPA"/>
+	</concept>
+	<concept>
+		<code value="PracticeID"/>
+		<display value="Practice ID"/>
+	</concept>
+	<concept>
+		<code value="PrescribedItemFormularyIds"/>
+		<display value="Prescribed Item Formulary Ids"/>
+	</concept>
+	<concept>
+		<code value="PrescribedItemNames"/>
+		<display value="Prescribed Item Names"/>
+	</concept>
+	<concept>
+		<code value="PreviousActionCompleted"/>
+		<display value="Previous Action Completed"/>
+	</concept>
+	<concept>
+		<code value="PrioritisationData"/>
+		<display value="Prioritisation Data"/>
+	</concept>
+	<concept>
+		<code value="Priority"/>
+		<display value="Priority"/>
+	</concept>
+	<concept>
+		<code value="PriorityChangeReason"/>
+		<display value="Priority Change Reason"/>
+	</concept>
+	<concept>
+		<code value="ReadOnly"/>
+		<display value="Read Only"/>
+	</concept>
+	<concept>
+		<code value="ReasonForSensitivity"/>
+		<display value="Reason For Sensitivity"/>
+	</concept>
+	<concept>
+		<code value="Rebook"/>
+		<display value="Rebook"/>
+	</concept>
+	<concept>
+		<code value="RecipientHospital"/>
+		<display value="Recipient Hospital"/>
+	</concept>
+	<concept>
+		<code value="RecipientSpecialty"/>
+		<display value="Recipient Specialty"/>
+	</concept>
+	<concept>
+		<code value="ReferralActionedBy"/>
+		<display value="Referral Actioned By"/>
+	</concept>
+	<concept>
+		<code value="ReferralActionedDate"/>
+		<display value="Referral Actioned Date"/>
+	</concept>
+	<concept>
+		<code value="ReferralAdviceCode"/>
+		<display value="Referral Advice Code"/>
+	</concept>
+	<concept>
+		<code value="ReferralAdviceText"/>
+		<display value="Referral Advice Text"/>
+	</concept>
+	<concept>
+		<code value="ReferralId"/>
+		<display value="Referral Id"/>
+	</concept>
+	<concept>
+		<code value="ReferralType"/>
+		<display value="Referral Type"/>
+	</concept>
+	<concept>
+		<code value="ReferrerPasCode"/>
+		<display value="Referral PAS Code"/>
+	</concept>
+	<concept>
+		<code value="ReferrerSpecialtyCode"/>
+		<display value="Referrer Specialty Code"/>
+	</concept>
+	<concept>
+		<code value="ReferringClinicianCode"/>
+		<display value="Referring Clinician Code"/>
+	</concept>
+	<concept>
+		<code value="RequiresSignOff"/>
+		<display value="Requires Sign-Off"/>
+	</concept>
+	<concept>
+		<code value="SensitivePrior"/>
+		<display value="Sensitive Prior"/>
+	</concept>
+	<concept>
+		<code value="ShareWithPatient"/>
+		<display value="Share With Patient"/>
+	</concept>
+	<concept>
+		<code value="ShareWithReferrer"/>
+		<display value="Share With Referrer"/>
+	</concept>
+	<concept>
+		<code value="Signer"/>
+		<display value="Signer"/>
+	</concept>
+	<concept>
+		<code value="SingleCancerPathwayIdentifier"/>
+		<display value="Single Cancer Pathway Identifier"/>
+	</concept>
+	<concept>
+		<code value="SpecificSiteTeam"/>
+		<display value="Specific Site Team"/>
+	</concept>
+	<concept>
+		<code value="SpellNumber"/>
+		<display value="Spell Number"/>
+	</concept>
+	<concept>
+		<code value="Status"/>
+		<display value="Status"/>
+	</concept>
+	<concept>
+		<code value="SubDocumentType"/>
+		<display value="Sub-Document Type"/>
+	</concept>
+	<concept>
+		<code value="SubDocumentTypeCode"/>
+		<display value="Sub-Document Type Code"/>
+	</concept>
+	<concept>
+		<code value="SubjectOrganisation"/>
+		<display value="Subject Organisation"/>
+	</concept>
+	<concept>
+		<code value="SubjectOrganisationCode"/>
+		<display value="Subject Organisation Code"/>
+	</concept>
+	<concept>
+		<code value="SubSpecialty"/>
+		<display value="Sub-Specialty"/>
+	</concept>
+	<concept>
+		<code value="SubSpecialtyCode"/>
+		<display value="Sub-Specialty Code"/>
+	</concept>
+	<concept>
+		<code value="ThirdPartyDataIncluded"/>
+		<display value="Third Party Data Included"/>
+	</concept>
+	<concept>
+		<code value="TreatmentStartDate"/>
+		<display value="Treatment Start Date"/>
+	</concept>
+	<concept>
+		<code value="TumourSiteCode"/>
+		<display value="Tumour Site Code"/>
+	</concept>
+	<concept>
+		<code value="UniqueId"/>
+		<display value="Unique Id"/>
+	</concept>
+	<concept>
+		<code value="VisitNumber"/>
+		<display value="Visit Number"/>
+	</concept>
+	<concept>
+		<code value="WorklistId"/>
+		<display value="Work list Id"/>
+	</concept>
+</CodeSystem>

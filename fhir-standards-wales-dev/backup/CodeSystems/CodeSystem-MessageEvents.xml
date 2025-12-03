@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="MessageEvents"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/message-events"/>
+    <version value="0.0.1" />
+	<name value="MessageEvents"/>
+	<title value="Message Events"/>
+    <status value="draft" />
+    <experimental value="true" />	
+    <date value="2025-10-15" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
+		</telecom>
+    </contact>
+	<description value="Message Events CodeSystem is owned and managed by the NHS Wales App. These are not a data standard and this snapshot is for example use only."/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="appointment-new"/>
+		<display value="Appointment New"/>
+	</concept>	
+	<concept>
+		<code value="appointment-update"/>
+		<display value="Appointment Update"/>
+	</concept>
+	<concept>
+		<code value="appointment-cancel"/>
+		<display value="Appointment Cancel"/>
+	</concept>
+		<concept>
+		<code value="servicerequest-new"/>
+		<display value="ServiceRequest New"/>
+	</concept>	
+	<concept>
+		<code value="servicerequest-update"/>
+		<display value="ServiceRequest Update"/>
+	</concept>
+	<concept>
+		<code value="servicerequest-cancel"/>
+		<display value="ServiceRequest Cancel"/>
+	</concept>
+</CodeSystem>
