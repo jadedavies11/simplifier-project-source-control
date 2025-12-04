@@ -1,0 +1,282 @@
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI" />
+  <identifier>
+    <system value="https://fhir.cavuhb.nhs.wales/Id/example-uec-bundle-identifier" />
+    <value value="a166bc23-cf9c-437e-9df6-2e44fbd23d60" />
+  </identifier>
+  <type value="message" />
+  <timestamp value="2025-12-02T12:05:33+00:00" />
+  <entry>
+    <fullUrl value="urn:uuid:e8a6fc5c-3a82-48be-b93c-ac19feb61296" />
+    <resource>
+      <MessageHeader>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/MessageHeader" />
+        </meta>
+        <eventCoding>
+          <system value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-UEC-MessageEvent" />
+          <code value="uec-arrival" />
+          <display value="UEC arrival" />
+        </eventCoding>
+        <source>
+          <name value="CAV UEC app" />
+          <endpoint value="https://example-hb-uecapp-endpoint.com" />
+        </source>
+        <responsible>
+          <reference value="3462b025-d107-41e0-8aa2-5f21ac54e790" />
+          <type value="Organization" />
+          <display value="Cardiff and Vale University Health Board" />
+        </responsible>
+        <focus>
+          <reference value="urn:uuid:9fd40bf6-e4bb-4260-98e9-d1a0c0a3bbfc" />
+          <type value="Encounter" />
+          <display value="123456789 - UHW Emergency Unit Minor Injuries Attendance - Ms Marjorie Pryor (A272114) - 2025-12-02 12:00" />
+        </focus>
+        <focus>
+          <reference value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69" />
+          <type value="Patient" />
+          <display value="Ms Marjorie Pryor (A272114)" />
+        </focus>
+        <focus>
+          <reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790" />
+          <type value="Organization" />
+          <display value="Cardiff and Vale University Health Board" />
+        </focus>
+        <focus>
+          <reference value="urn:uuid:b21912e3-94f1-4fe2-870f-2918614ab8ea" />
+          <type value="Organization" />
+          <display value="University Hospital Of Wales" />
+        </focus>
+        <focus>
+          <reference value="urn:uuid:1499098a-f76e-4fe8-bb0a-ec40bb508723" />
+          <type value="Organization" />
+          <display value="North Cardiff Medical Centre" />
+        </focus>
+        <focus>
+          <reference value="urn:uuid:f39f272c-50e0-4df5-af0a-e4edfca6882b" />
+          <type value="Location" />
+          <display value="UHW Emergency Unit Minor Injuries" />
+        </focus>
+        <definition value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-UEC-Arrival" />
+      </MessageHeader>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:9fd40bf6-e4bb-4260-98e9-d1a0c0a3bbfc" />
+    <resource>
+      <Encounter xmlns="http://hl7.org/fhir">
+        <meta>
+          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter-UEC" />
+        </meta>
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ExpectedTimeOfTreatment">
+          <valueDateTime value="2025-12-02T12:15:00+00:00" />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/encounter-modeOfArrival">
+          <valueCoding>
+            <system value="http://snomed.info/sct" />
+            <code value="1048061000000105" />
+            <display value="Arrival by public transport" />
+          </valueCoding>
+        </extension>
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-AttendanceCategory">
+          <valueCodeableConcept>
+            <coding>
+              <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-AttendanceCategory" />
+              <code value="1" />
+              <display value="Unplanned first Urgent and Emergency Care or Same Day Emergency Care Attendance for a new clinical condition (or deterioration of a chronic condition)." />
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <identifier>
+          <system value="https://fhir.cavuhb.nhs.wales/Id/example-uec-encounter-identifier" />
+          <value value="123456789" />
+        </identifier>
+        <status value="arrived" />
+        <class>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+          <code value="EMER" />
+          <display value="emergency" />
+        </class>
+        <type>
+          <coding>
+            <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-ActivityType" />
+            <code value="Minor-Injury-Unit" />
+            <display value="Emergency Care Attendance at an Emergency Care Department Type Minor Injury Unit." />
+          </coding>
+        </type>
+        <type>
+          <coding>
+            <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-CareConsultationMechanism" />
+            <code value="Face-to-face" />
+            <display value="Face to face" />
+          </coding>
+        </type>
+        <serviceType>
+          <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="409971007" />
+            <display value="Emergency medicine service" />
+          </coding>
+        </serviceType>
+        <priority>
+          <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="1077241000000103" />
+            <display value="Standard level emergency care" />
+          </coding>
+        </priority>
+        <subject>
+          <reference value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69" />
+          <display value="Ms Marjorie Pryor (A272114)" />
+        </subject>
+        <period>
+          <start value="2025-12-02T12:00:23+00:00" />
+        </period>
+        <hospitalization>
+          <origin>
+              <reference value="urn:uuid:1499098a-f76e-4fe8-bb0a-ec40bb508723" />
+              <display value="North Cardiff Medical Centre" />
+          </origin>
+          <admitSource>
+            <coding>
+              <system value="http://snomed.info/sct" />
+              <code value="276491000" />
+              <display value="Referred by member of Primary Health Care Team" />
+            </coding>
+          </admitSource>
+        </hospitalization>
+        <location>
+          <location>
+            <reference value="urn:uuid:f39f272c-50e0-4df5-af0a-e4edfca6882b" />
+            <display value="UHW Emergency Unit Minor Injuries" />
+          </location>
+        </location>
+        <serviceProvider>
+          <reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790" />
+          <display value="Cardiff and Vale University Health Board " />
+        </serviceProvider>
+      </Encounter>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69" />
+    <resource>
+      <Patient>
+        <meta>
+          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        </meta>
+        <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory">
+          <valueCodeableConcept>
+            <coding>
+              <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategoryWales" />
+              <code value="A" />
+              <display value="Any White Background, including Welsh, English, Scottish, Northern Irish, Irish, British" />
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <identifier>
+          <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus">
+            <valueCodeableConcept>
+              <coding>
+                <system value=" https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatusWales" />
+                <code value="07" />
+                <display value="Number not present and trace not required" />
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+        </identifier>
+        <identifier>
+          <system value="https://fhir.cavuhb.nhs.wales/Id/pas-identifier" />
+          <value value="A272114" />
+        </identifier>
+        <name>
+          <family value="Marjorie" />
+          <given value="Pryor" />
+          <prefix value="Ms" />
+        </name>
+        <gender value="female" />
+        <birthDate value="1961-12-16" />
+        <address>
+          <line value="7 Llandaff Court" />
+          <line value="Penarth" />
+          <postalCode value="CF64 3JH" />
+        </address>
+        <generalPractitioner>
+          <reference value="urn:uuid:1499098a-f76e-4fe8-bb0a-ec40bb508723" />
+          <display value="North Cardiff Medical Centre" />
+        </generalPractitioner>
+        <managingOrganization>
+          <reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790" />
+          <display value="Cardiff and Vale University Health Board" />
+        </managingOrganization>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790" />
+    <resource>
+      <Organization>
+        <meta>
+          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        </meta>
+        <identifier>
+          <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+          <value value="7A4" />
+        </identifier>
+        <name value="Cardiff and Vale University Health Board" />
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:b21912e3-94f1-4fe2-870f-2918614ab8ea" />
+    <resource>
+      <Organization>
+        <meta>
+          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        </meta>
+        <identifier>
+          <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+          <value value="7A4BV" />
+        </identifier>
+        <name value="University Hospital Of Wales" />
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1499098a-f76e-4fe8-bb0a-ec40bb508723" />
+    <resource>
+      <Organization>
+        <meta>
+          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        </meta>
+        <identifier>
+          <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+          <value value="W97015" />
+        </identifier>
+        <name value="North Cardiff Medical Centre" />
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:f39f272c-50e0-4df5-af0a-e4edfca6882b" />
+    <resource>
+      <Location>
+        <meta>
+          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+        </meta>
+        <identifier>
+          <system value="https://fhir.nhs.wales/Id/wrts-location-identifier" />
+          <value value="7A4BVUHEMIN" />
+        </identifier>
+        <name value="UHW Emergency Unit Minor Injuries" />
+        <address>
+          <text value="Lower Ground, The Gateway, Cardiff CF14 4XW" />
+        </address>
+        <managingOrganization>
+          <reference value="urn:uuid:3b21912e3-94f1-4fe2-870f-2918614ab8ea" />
+          <display value="University Hospital Of Wales" />
+        </managingOrganization>
+      </Location>
+    </resource>
+  </entry>
+</Bundle>

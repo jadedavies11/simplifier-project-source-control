@@ -11,6 +11,7 @@ Package:
     * Changes to Extensions
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
+        * FHIRStandardsWales-UEC-MessageEvent
     * Removed Code Systems
     * Changes to Code Systems
     * New Value Sets
@@ -147,12 +148,18 @@ Package:
             * Namespaces for LIMS TCLE and TCL patient identifiers
         * Update to PAS Sub-Specialty Naming Systems
             * Health Board initials prefix added to the Name element
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+        * Urgent and Emergency Care
+            * Example UEC Arrival Bundle (UHW Emergency Unit Minor Injuries)
+            * MessageDefinition for UEC Arrival Event
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
 * Added new pages to outline the Data Standards Wales Extensions created in this release
 * Added new pages to outline the Code Systems created in this release
 * Added new pages to outline the Value Sets created in this release
+* Added new pages to outline the Examples created in this release
 * Added Care Documents Guidance page
 * Updated resource link on the Guidance: Growth Charts page from Observation to Patient profile
 * Added UEC AttendanceIdentifier Name in Naming Systems table
