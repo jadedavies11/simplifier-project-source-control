@@ -64,7 +64,7 @@ Ideally the staff involved with the document as author, attester or committer ca
 
 ### Provenance
 The Provenance resource provides an audit trail of when a specific document version was committed and by whom. If patient demographics are also submitted, these are captured in an additional Provenance instance that specifically captures demographics as recorded, to support retrospective analysis. See the dedicated guidance page for clarification of the purpose and use of the Provenance resource:
-* {{pagelink:Provenance/Index.page.md, text: Provenance Guidance}}
+* {{pagelink:Home/Guidance/Provenance/Index.page.md, text: Provenance Guidance}}
 
 ## Supporting Legacy Metadata
 Legacy care documents may have associated metadata that are not explicitly covered by the formal content of the DocumentReference or its related resources. In order to avoid data loss on migration, a complex extension has been included called documentAttribute. To mitigate against uncontrolled proliferation of document metadata, the attribute name code has been locked down to known attribute names from the Welsh Care Records Service that are not addressed in more formal ways.
