@@ -118,13 +118,6 @@
             <display value="Emergency medicine service" />
           </coding>
         </serviceType>
-        <priority>
-          <coding>
-            <system value="http://snomed.info/sct" />
-            <code value="1077241000000103" />
-            <display value="Standard level emergency care" />
-          </coding>
-        </priority>
         <subject>
           <reference value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69" />
           <display value="Ms Marjorie Pryor (A272114)" />

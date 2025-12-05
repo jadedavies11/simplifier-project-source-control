@@ -25,16 +25,16 @@
       {{tree:MessageDefinition/MessageDefinition-DataStandardsWales-UEC-Arrival}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:MessageDefinition-DataStandardsWales-UEC-Arrival}}
+      {{table:MessageDefinition/MessageDefinition-DataStandardsWales-UEC-Arrival}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:MessageDefinition-DataStandardsWales-UEC-Arrival}}
+      {{xml:MessageDefinition/MessageDefinition-DataStandardsWales-UEC-Arrival}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:MessageDefinition-DataStandardsWales-UEC-Arrival}}
+      {{json:MessageDefinition/MessageDefinition-DataStandardsWales-UEC-Arrival}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:MessageDefinition-DataStandardsWales-UEC-Arrival}}
+      {{narrative:MessageDefinition/MessageDefinition-DataStandardsWales-UEC-Arrival}}
     </div>  
   </div>
 </div>
