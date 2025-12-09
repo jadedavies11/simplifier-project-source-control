@@ -1,7 +1,5 @@
 - name: Example-DataStandardsWales-AuditEvent-CreateObservations
   filename: Example-DataStandardsWales-AuditEvent-CreateObservations.page.md
-- name: Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI
-  filename: Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
@@ -84,8 +82,6 @@
   filename: Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md
 - name: Example-DataStandardsWales-RelatedPerson-NaturalMother
   filename: Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md
-- name: MessageDefinition-DataStandardsWales-UEC-Arrival
-  filename: MessageDefinition-DataStandardsWales-UEC-Arrival.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
@@ -98,5 +94,3 @@
   filename: Observation-VitalSigns
 - name: Provenance
   filename: Provenance
-- name: Urgent and Emergency Care
-  filename: UEC
