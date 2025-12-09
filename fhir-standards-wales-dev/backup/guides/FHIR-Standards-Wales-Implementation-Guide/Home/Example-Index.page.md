@@ -154,7 +154,3 @@ The following examples are published with this guide and all available as a down
 ### Specimen Examples
 * {{pagelink:Example-DataStandardsWales-Specimen-Blood, text: Example Specimen - Blood}}
 * {{pagelink:Example-DataStandardsWales-Specimen-Urine, text: Example Specimen - Urine}}
-
-### Urgent and Emergency Care Examples
-* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example UEC Arrival Bundle (UHW Emergency Unit Minor Injuries)}}
-* {{pagelink:MessageDefinition-DataStandardsWales-UEC-Arrival, text: MessageDefinition for UEC Arrival Event}}

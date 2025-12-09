@@ -29,9 +29,7 @@
 - name: CodeSystem-FHIRStandardsWales-DocumentErrorAction
   filename: CodeSystem-FHIRStandardsWales-DocumentErrorAction.page.md 
 - name: CodeSystem-FHIRStandardsWales-DocumentErrorStatus
-  filename: CodeSystem-FHIRStandardsWales-DocumentErrorStatus.page.md
-- name: CodeSystem-FHIRStandardsWales-UEC-MessageEvent
-  filename: CodeSystem-FHIRStandardsWales-UEC-MessageEvent.page.md  
+  filename: CodeSystem-FHIRStandardsWales-DocumentErrorStatus.page.md 
 - name: CodeSystem-DataStandardsWales-MainSpecialty
   filename: CodeSystem-DataStandardsWales-MainSpecialty.page.md
 - name: CodeSystem-MessageEvents
