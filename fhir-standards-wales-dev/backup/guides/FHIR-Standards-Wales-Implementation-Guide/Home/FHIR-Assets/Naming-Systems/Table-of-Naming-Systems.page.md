@@ -20,7 +20,7 @@
       Practitioner
     </li>
     <li class="tablink" onclick="openCity(this,'tabservicerequest')" data-target="tabservicerequest">
-      Organization
+      Service Request
     </li>
   </ul>
   <div class="tab-main">
