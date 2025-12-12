@@ -1,13 +1,4 @@
-<fql output='table'>
-  from
-    NamingSystem
-  where
-    usage='Document identity'
-  select
-    uniqueId[0].value,
-    name,
-    description,
-    responsible
-  order by
-    responsible
-</fql>
+---
+usagetype: 'Document identity'
+---
+{{page:Naming-System-Usage-query}}
