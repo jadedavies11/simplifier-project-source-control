@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-UEC-MessageEvent"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>	
+    <version value="0.0.2" />
+    <name value="DataStandardsWales-UEC-MessageEvent"/>
+	<title value="Data Standards Wales UEC Message Event"/>
+    <status value="draft" />
+    <date value="2025-12-12" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="FHIR Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+    <description value="This CodeSystem indicates the valid message events for use within a message bundle submitting data related to an attendance at an urgent and emergency care facility."/>
+    <copyright value="2025 NHS Wales." />
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="uec-arrival"/>
+        <display value="UEC arrival"/>
+        <definition value="Indicates a message event reporting the arrival of a patient at a UEC facility."/>
+    </concept>
+    <concept>
+        <code value="uec-triage"/>
+        <display value="UEC triage"/>
+        <definition value="Indicates a message event reporting the triage of a patient at a UEC facility."/>
+    </concept>
+    <concept>
+        <code value="uec-discharge"/>
+        <display value="UEC discharge"/>
+        <definition value="Indicates a message event reporting the discharge of a patient from a UEC facility."/>
+    </concept>	             
+</CodeSystem>

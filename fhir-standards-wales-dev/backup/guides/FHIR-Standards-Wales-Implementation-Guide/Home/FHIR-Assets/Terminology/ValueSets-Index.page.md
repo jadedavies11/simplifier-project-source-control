@@ -19,6 +19,7 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-HeartRate, text:ValueSet-DataStandardsWales-HeartRate}}
 * {{pagelink:ValueSet-DataStandardsWales-MainSpecialty, text:ValueSet-DataStandardsWales-MainSpecialty}}
 * {{pagelink:ValueSet-DataStandardsWales-MaritalStatus, text:ValueSet-DataStandardsWales-MaritalStatus}}
+* {{pagelink:ValueSet-DataStandardsWales-MessageEvent, text:ValueSet-DataStandardsWales-MessageEvent}}
 * {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text:ValueSet-DataStandardsWales-ObservationVitalSignsType}}
 * {{pagelink:ValueSet-DataStandardsWales-Occupation, text:ValueSet-DataStandardsWales-Occupation}}
 * {{pagelink:ValueSet-DataStandardsWales-OxygenSaturation, text:ValueSet-DataStandardsWales-OxygenSaturation}}

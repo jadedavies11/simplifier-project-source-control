@@ -6,14 +6,21 @@ This page describes the published versions of this implementation guide and diff
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
+        * DataStandardsWales-MessageDefinition
+        * DataStandardsWales-MessageHeader
     * New Extensions  
     * Changes to Profiles
+        * DataStandardsWales-MedicationRequest
+            * Updated version from 1.2.0 to 1.3.0
+            * .requestor. Cardinality changed from 1..1 to 0..1 to align with UKCore.
     * Changes to Extensions
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
+        * DataStandardsWales-UEC-MessageEvent
     * Removed Code Systems
     * Changes to Code Systems
     * New Value Sets
+        * DataStandardsWales-MessageEvent
     * Removed Value Sets
     * Changes to Value Sets
         * DataStandardsWales-EncounterType
@@ -31,14 +38,28 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+        * Urgent and Emergency Care
+            * Example UEC Arrival Bundle (UHW Emergency Unit Minor Injuries)
+            * MessageDefinition for UEC Arrival Event
+
 Guide:
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
+* Added a new page to outline the DataStandardsWales-MessageDefinition profile
+* Added a new page to outline the DataStandardsWales-MessageHeader profile
+* Added new pages to outline the Code Systems created in this release
+* Added new pages to outline the Value Sets created in this release
+* Added new pages to outline the Examples created in this release
 * Added WRTS contact details to DataStandardsWales-EncounterType Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Occupation Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Religion Value Set guide page
-* Removed duplicated examples from DataStandardsWales-Observation guide page. All examples are now located in the Examples tab of the Profile Content table.
+* Removed duplicated examples from DataStandardsWales-Observation guide page. All examples are now located in the Examples tab of the Profile Content table
 * Renamed Naming Systems page in Design tab to Naming Systems Design
 * Updated page link in FHIR Assets Naming System from Naming System to Naming Systems Design
+* Standardised resource links in IG pages
+* Correct title page for Extension Data Standards Wales Speciality to align with IG standards
+* Alphabetised yaml toc files
 
 
 ### v2.4.0 STU2

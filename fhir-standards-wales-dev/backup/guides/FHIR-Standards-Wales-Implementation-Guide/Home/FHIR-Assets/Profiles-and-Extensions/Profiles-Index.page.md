@@ -25,6 +25,8 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-MedicationList}}
 * {{pagelink:DataStandardsWales-MedicationRequest}}
 * {{pagelink:DataStandardsWales-MedicationStatement}}
+* {{pagelink:DataStandardsWales-MessageDefinition}}
+* {{pagelink:DataStandardsWales-MessageHeader}}
 * {{pagelink:DataStandardsWales-Observation}}
 * {{pagelink:DataStandardsWales-Observation-Lab}}
 * {{pagelink:DataStandardsWales-Observation-VitalSigns}}

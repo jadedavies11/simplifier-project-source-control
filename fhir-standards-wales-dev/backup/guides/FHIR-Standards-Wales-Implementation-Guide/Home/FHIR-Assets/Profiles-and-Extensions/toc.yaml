@@ -4,3 +4,5 @@
   filename: Profiles-Index.page.md
 - name: Extensions
   filename: Extensions-Index.page.md
+- name: Message Definitions
+  filename: Message-Definitions-Index.page.md
