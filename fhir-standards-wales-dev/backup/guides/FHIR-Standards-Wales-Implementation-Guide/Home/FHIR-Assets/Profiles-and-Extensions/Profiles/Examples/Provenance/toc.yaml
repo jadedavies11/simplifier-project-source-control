@@ -6,7 +6,9 @@
   filename: Example-DataStandardsWales-Provenance-DocumentReferenceCreation.page.md
 - name: Example-DataStandardsWales-Provenance-DocumentReferenceDemographics
   filename: Example-DataStandardsWales-Provenance-DocumentReferenceDemographics.page.md
-- name: Example-DataStandardsWales-Provenance-MultipleTargets
-  filename: Example-DataStandardsWales-Provenance-MultipleTargets.page.md
 - name: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole
   filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md
+- name: Example-DataStandardsWales-Provenance-MultipleTargets
+  filename: Example-DataStandardsWales-Provenance-MultipleTargets.page.md
+
+

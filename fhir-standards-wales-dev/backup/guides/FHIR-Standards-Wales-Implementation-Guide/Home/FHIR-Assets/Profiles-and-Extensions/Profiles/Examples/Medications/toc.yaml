@@ -1,14 +1,16 @@
-- name: MedicationList-GP
-  filename: MedicationList-GP
-- name: MedicationList-Outpatient
-  filename: MedicationList-Outpatient
-- name: MedicationList-Admission
-  filename: MedicationList-Admission
-- name: MedicationList-Inpatient
-  filename: MedicationList-Inpatient
-- name: MedicationList-Discharge
-  filename: MedicationList-Discharge
 - name: Example-DataStandardsWales-Medication-Amoxicillin-Infusion
   filename: Example-DataStandardsWales-Medication-Amoxicillin-Infusion.page.md
 - name: Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion
   filename: Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion.page.md
+- name: MedicationList-Admission
+  filename: MedicationList-Admission
+- name: MedicationList-Discharge
+  filename: MedicationList-Discharge
+- name: MedicationList-GP
+  filename: MedicationList-GP
+- name: MedicationList-Inpatient
+  filename: MedicationList-Inpatient
+- name: MedicationList-Outpatient
+  filename: MedicationList-Outpatient
+
+

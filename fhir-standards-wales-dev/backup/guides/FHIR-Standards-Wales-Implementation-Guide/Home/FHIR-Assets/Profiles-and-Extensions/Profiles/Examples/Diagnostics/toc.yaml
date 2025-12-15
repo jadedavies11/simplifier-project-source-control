@@ -1,15 +1,13 @@
-- name: Example-DataStandardsWales-DiagnosticReport-FBC
-  filename: Example-DataStandardsWales-DiagnosticReport-FBC.page.md
 - name: Example-DataStandardsWales-DiagnosticReport-CTAbdomen
   filename: Example-DataStandardsWales-DiagnosticReport-CTAbdomen.page.md
 - name: Example-DataStandardsWales-DiagnosticReport-ECG
   filename: Example-DataStandardsWales-DiagnosticReport-ECG.page.md
-- name: Example-DataStandardsWales-DiagnosticReport-StressTest
-  filename: Example-DataStandardsWales-DiagnosticReport-StressTest.page.md
+- name: Example-DataStandardsWales-DiagnosticReport-FBC
+  filename: Example-DataStandardsWales-DiagnosticReport-FBC.page.md
 - name: Example-DataStandardsWales-DiagnosticReport-MultiplePanel
   filename: Example-DataStandardsWales-DiagnosticReport-MultiplePanel.page.md
-- name: Example-DataStandardsWales-ServiceRequest-PathologyOrder
-  filename: Example-DataStandardsWales-ServiceRequest-PathologyOrder.page.md
+- name: Example-DataStandardsWales-DiagnosticReport-StressTest
+  filename: Example-DataStandardsWales-DiagnosticReport-StressTest.page.md
 - name: Example-DataStandardsWales-Endpoint-Dicom
   filename: Example-DataStandardsWales-Endpoint-Dicom.page.md
 - name: Example-DataStandardsWales-ImagingStudy-CTAbdomen
@@ -20,6 +18,8 @@
   filename: Example-DataStandardsWales-ObservationGroup-LFT.page.md
 - name: Example-DataStandardsWales-ObservationResult-FBCWBC
   filename: Example-DataStandardsWales-ObservationResult-FBCWBC.page.md
+- name: Example-DataStandardsWales-ServiceRequest-PathologyOrder
+  filename: Example-DataStandardsWales-ServiceRequest-PathologyOrder.page.md
 - name: Example-DataStandardsWales-ServiceRequest-RadiologyOrder
   filename: Example-DataStandardsWales-ServiceRequest-RadiologyOrder.page.md
 - name: Example-DataStandardsWales-Specimen-Blood
