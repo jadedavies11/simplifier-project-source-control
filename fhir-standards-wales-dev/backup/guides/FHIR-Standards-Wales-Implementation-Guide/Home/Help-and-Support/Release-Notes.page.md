@@ -8,7 +8,9 @@ Package:
     * New Profiles
         * DataStandardsWales-MessageDefinition
         * DataStandardsWales-MessageHeader
-    * New Extensions  
+    * New Extensions 
+    * New Message Definitions
+        * MessageDefinition-DataStandardsWales-UEC-Arrival
     * Changes to Profiles
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.2.0 to 1.3.0
@@ -41,13 +43,13 @@ Package:
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Urgent and Emergency Care
-            * Example UEC Arrival Bundle (UHW Emergency Unit Minor Injuries)
-            * MessageDefinition for UEC Arrival Event
+            * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
 * Added a new page to outline the DataStandardsWales-MessageDefinition profile
 * Added a new page to outline the DataStandardsWales-MessageHeader profile
+* Added new pages to outline the Message Definitions created in this release
 * Added new pages to outline the Code Systems created in this release
 * Added new pages to outline the Value Sets created in this release
 * Added new pages to outline the Examples created in this release
@@ -60,6 +62,7 @@ Guide:
 * Standardised resource links in IG pages
 * Correct title page for Extension Data Standards Wales Speciality to align with IG standards
 * Alphabetised yaml toc files
+* Standardised examples names in Example Index page
 
 
 ### v2.4.0 STU2

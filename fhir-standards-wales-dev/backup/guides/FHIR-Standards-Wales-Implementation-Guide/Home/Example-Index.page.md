@@ -25,7 +25,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Example List - Degraded aspirin allergy}}
 
 ### Audit Event Examples
-* {{pagelink:Example-DataStandardsWales-AuditEvent-CreateObservations, text: Audit Event - Create Observation}}
+* {{pagelink:Example-DataStandardsWales-AuditEvent-CreateObservations, text: Example Audit Event - Create Observation}}
 
 ### Device Examples
 * {{pagelink:Example-DataStandardsWales-Device-CDRcomponent, text:Example Device - CDR Component}}
@@ -82,9 +82,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-List-Medications-Discharge, text: Example medication list - Medications on discharge}}
 
 ### MedicationStatement Examples
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion, text:Amoxicillin (infusion)}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipr.-Inpatient, text:Ramipril}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Admission, text:Ibuprofen (patient reported)}}
+* {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion, text:Example Medication Statement - Amoxicillin (infusion)}}
+* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipr.-Inpatient, text:Example Medication Statement - Ramipril}}
+* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Admission, text:Example Medication Statement - Ibuprofen (patient reported)}}
 
 ### Observation Examples
 * {{pagelink:Example-DataStandardsWales-Observation-ACVPU, text: Example Observation - ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
@@ -156,5 +156,5 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Specimen-Urine, text: Example Specimen - Urine}}
 
 ### Urgent and Emergency Care Examples
-* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries))}}
+* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
 

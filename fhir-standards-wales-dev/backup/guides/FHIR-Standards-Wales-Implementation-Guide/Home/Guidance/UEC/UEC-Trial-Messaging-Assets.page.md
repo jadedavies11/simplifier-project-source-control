@@ -9,6 +9,7 @@ Placeholder content.  Guidance to be developed shortly.
 
 ### FHIR Resources
 * {{pagelink:DataStandardsWales-Condition}}
+* {{pagelink:DataStandardsWales-Device}}
 * {{pagelink:DataStandardsWales-DocumentReference}}
 * {{pagelink:DataStandardsWales-Encounter-UEC}}
 * {{pagelink:DataStandardsWales-Location}}
@@ -18,14 +19,14 @@ Placeholder content.  Guidance to be developed shortly.
 * {{pagelink:DataStandardsWales-Provenance}}
 
 ### FHIR Messaging Resources
-* {{pagelink:https://hl7.org/fhir/R4/bundle.html}}
+* [Bundle](https://www.hl7.org/fhir/R4/bundle.html)
 * {{pagelink:DataStandardsWales-MessageDefinition}}
 * {{pagelink:DataStandardsWales-MessageHeader}}
 
 ### UEC Message Definitions
 * {{pagelink:MessageDefinition-DataStandardsWales-UEC-Arrival}}
 
-### Value Sets for UEC Messaging
+### Data Standards Wales Value Sets used in UEC Arrival Messaging
 * {{pagelink:ValueSet-DataStandardsWales-MessageEvent, text:ValueSet-DataStandardsWales-MessageEvent}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-Acuity, text:ValueSet-DataStandardsWales-UEC-Acuity}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-ArrivalMode, text:ValueSet-DataStandardsWales-UEC-ArrivalMode}}
@@ -33,7 +34,7 @@ Placeholder content.  Guidance to be developed shortly.
 * {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceSource, text:ValueSet-DataStandardsWales-UEC-AttendanceSource}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-DischargeDestination, text:ValueSet-DataStandardsWales-UEC-DischargeDestination}}
 
-### Code Systems for UEC Messaging
+### Data Standards Wales Code Systems used in UEC Arrival Messaging
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-ActivityType, text:CodeSystem-DataStandardsWales-UEC-ActivityType}}
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-AttendanceCategory, text:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism, text:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism}}
@@ -49,17 +50,3 @@ Scenario: Ms Marjorie Pryor (CAV PAS Number A272114) attends the Emergency Unit 
 
 Message bundle: 
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
-
-
-
-
-
-
-
-
-
-
-
-* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
-* {{pagelink:MessageDefinition-DataStandardsWales-UEC-Arrival, text: MessageDefinition for UEC Arrival Event}}
-* {{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent, text:CodeSystem-DataStandardsWales-UEC-MessageEvent}}
