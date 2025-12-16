@@ -32,7 +32,7 @@
   filename: ValueSet-DataStandardsWales-MainSpecialty.page.md
 - name: ValueSet-DataStandardsWales-MaritalStatus
   filename: ValueSet-DataStandardsWales-MaritalStatus.page.md
-- name: ValueSet-DataStnadardsWales-MessageEvent
+- name: ValueSet-DataStandardsWales-MessageEvent
   filename: ValueSet-DataStandardsWales-MessageEvent.page.md
 - name: ValueSet-DataStandardsWales-ObservationVitalSignsType
   filename: ValueSet-DataStandardsWales-ObservationVitalSignsType.page.md

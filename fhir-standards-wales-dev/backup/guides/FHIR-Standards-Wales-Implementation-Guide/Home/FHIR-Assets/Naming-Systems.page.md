@@ -1,21 +1,4 @@
----
-usagetype: 'Appointment identity'
----
-
 <div class="warning"><span class="ImplementWarn"></span></div>
-
-<fql>
-  from
-    NamingSystem
-  where
-    usage=%usagetype
-  select
-    uniqueId[0].value, name, description, responsible
-  order by
-    responsible
-  with
-    header
-</fql>
 
 # {{page-title}}
 The following published Naming Systems are for use within Wales. 

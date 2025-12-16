@@ -2,4 +2,4 @@
 
 ## {{page-title}}
 
-{{render:https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-DischargeDestination, text:DataStandardsWales-UEC-DischargeDestination}}
+{{render:https://fhir.nhs.wales/ValueSet/DataStandardsWales-MessageEvent, text:DataStandardsWales-MessageEvent}}
