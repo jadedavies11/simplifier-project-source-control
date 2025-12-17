@@ -53,6 +53,8 @@ Guide:
 * Added new pages to outline the Code Systems created in this release
 * Added new pages to outline the Value Sets created in this release
 * Added new pages to outline the Examples created in this release
+* Added FHIR Messaging Guidance page
+* Added Urgent and Emergency Care Guidance page (PLACEHOLDER)
 * Added WRTS contact details to DataStandardsWales-EncounterType Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Occupation Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Religion Value Set guide page

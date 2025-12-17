@@ -1,5 +1,5 @@
 <MessageDefinition xmlns="http://hl7.org/fhir">
-	<id value="MessageDefinition-DataStandardsWales-UEC-Arrival"/>
+	<id value="DataStandardsWales-UEC-Arrival"/>
 	<url value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-UEC-Arrival"/>
 	<name value="MessageDefinitionDataStandardsWalesUECArrival"/>
 	<title value="Message Definition Data Standards Wales UEC Arrival"/>
