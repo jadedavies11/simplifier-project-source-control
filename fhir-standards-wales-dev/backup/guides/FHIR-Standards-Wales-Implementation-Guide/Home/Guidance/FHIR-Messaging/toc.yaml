@@ -1,6 +1,0 @@
-- name: Index
-  filename: Index.page.md
-- name: FHIR Messaging Overview
-  filename: FHIR-Messaging.page.md
-- name: FHIR Messaging Examples
-  filename: FHIR-Messaging-Examples.page.md

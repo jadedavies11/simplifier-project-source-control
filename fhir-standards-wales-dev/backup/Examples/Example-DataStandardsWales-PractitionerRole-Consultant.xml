@@ -1,7 +1,7 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
     <id value="Example-DataStandardsWales-PractitionerRole-Consultant" />
     <meta>
-        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-PractitionerRole" />
     </meta>
     <practitioner>
         <reference value="Practitioner/Example-DataStandardsWales-Practitioner-Consultant" />

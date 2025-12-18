@@ -6,8 +6,6 @@
   filename: Care-Documents
 - name: Diagnostic Reports
   filename: Diagnostic-Reports
-- name: FHIR Messaging
-  filename: FHIR-Messaging
 - name: Growth Charts
   filename: Growth-Charts
 - name: Medications

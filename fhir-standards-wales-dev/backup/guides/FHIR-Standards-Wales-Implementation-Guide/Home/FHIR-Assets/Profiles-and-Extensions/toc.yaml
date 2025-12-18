@@ -6,3 +6,5 @@
   filename: Extensions-Index.page.md
 - name: Message Definitions
   filename: Message-Definitions-Index.page.md
+- name: Backported Extensions
+  filename: Backported-Extensions.page.md
