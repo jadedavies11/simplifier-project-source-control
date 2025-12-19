@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="Example-DataStandardsWales-Bundle-SubmitClinician-Literal"/>
+	<identifier>
+		<system value="https://fhir.sbuuhb.nhs.wales/Id/example-bundle-identifier"/>
+		<value value="9d582876-be21-47bb-a4b8-6f123c6c890b"/>
+	</identifier>
+	<type value="message"/>
+	<timestamp value="2025-12-17T12:00:15+00:00"/>
+	<entry>
+		<fullUrl value="b390be34-6ddc-4476-a7c9-ac081a055d66"/>
+		<resource>
+			<MessageHeader>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MessageHeader"/>
+				</meta>
+				<eventCoding>
+					<system value="https://fhir.nhs.wales/CodeSystem/Example-MessageEvent-CodeSystem"/>
+					<code value="submit-clinician"/>
+					<display value="Submit clinician"/>
+				</eventCoding>
+				<source>
+					<name value="Staff admin app"/>
+					<endpoint value="https://example-admin-endpoint.com"/>
+				</source>
+				<responsible>
+					<reference value="Organization/Example-DataStandardsWales-Organization-SwanseaBay"/>
+					<type value="Organization"/>
+					<display value="Swansea Bay University Health Board"/>
+				</responsible>
+				<focus>
+					<reference value="Practitioner/Example-DataStandardsWales-Practitioner-Consultant"/>
+					<type value="Practitioner"/>
+					<display value="Dr Dhiren Patel (GMC: 9630333)"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:32aa8c29-0ee2-4b1b-96de-236cfa9a0ae9"/>
+					<type value="PractitionerRole"/>
+					<display value="SBUHB - Dr Dhiren Patel (GMC: 9630333)"/>
+				</focus>
+				<focus>
+					<reference value="Organization/Example-DataStandardsWales-Organization-SwanseaBay"/>
+					<type value="Organization"/>
+					<display value="Swansea Bay University Health Board"/>
+				</focus>
+				<definition value="https://fhir.nhs.wales/MessageDefinition/Example-DataStandardsWales-MessageDefinition-SubmitClinician"/>
+			</MessageHeader>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:32aa8c29-0ee2-4b1b-96de-236cfa9a0ae9"/>
+		<resource>
+			<PractitionerRole>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+				</meta>
+				<practitioner>
+					<reference value="Practitioner/Example-DataStandardsWales-Practitioner-Consultant"/>
+					<display value="Dr Dhiren Patel (GMC: 9630333)"/>
+				</practitioner>
+				<organization>
+					<reference value="Organization/Example-DataStandardsWales-Organization-SwanseaBay"/>
+					<display value="Swansea Bay University Health Board"/>
+				</organization>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="768839008"/>
+						<display value="Consultant"/>
+					</coding>
+				</code>
+				<specialty>
+					<coding>
+						<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+						<code value="430"/>
+						<display value="Geriatric Medicine"/>
+					</coding>
+				</specialty>
+			</PractitionerRole>
+		</resource>
+	</entry>
+</Bundle>

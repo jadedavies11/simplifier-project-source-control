@@ -1,6 +1,24 @@
 ## {{page-title}}
 
-This page describes the published versions of this implementation guide and differences between versions:
+This page describes the published versions of this implementation guide and differences between versions. To view historical versions of the implementation guide, please see the full <a href="https://simplifier.net/guide/wales-fhir-implementation-guide-version-history" alt="Wales FHIR Implementation GUide Version History" target="_blank">Wales FHIR Implementation Guide Version History</a>
+
+<div class="tab-wrap">
+  <ul class="tab-head">
+    <li class="tablink tab-active" onclick="openCity(this,'tabtwofive')" data-target="tabtwofive">
+      2025
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtwofour')" data-target="tabtwofour">
+      2024
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtwothree')" data-target="tabtwothree">
+      2023
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtwotwo')" data-target="tabtwotwo">
+      2022
+    </li>
+  </ul>
+  <div class="tab-main">
+  <div id="tabtwofive" class="tabcontent active">
 
 ### v2.5.0 STU2
 Package: 
@@ -578,6 +596,9 @@ Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
 * General improvements including removing of duplicate sections, spelling mistakes and capitalisation of abbreviations (i.e. DM+D)
 
+  </div>
+  <div id="tabtwofour" class="tabcontent">
+
 ### v2.0.0 STU2
 As part of our commitment to quality assurance and interoperability, we undertook an exercise to review and align the existing FHIR Standards Wales Package with UK Core STU2 (fhir.r4.ukcore.stu2 2.0.1). This resulted in us rationalising the FHIR Standards Wales Package where possible, removing detail that can already be derived from UK Core STU2, whilst still adhering to the principles of FHIR and supporting Wales specific content where required. 
 In addition to the removal of replicate content, the following changes were made: 
@@ -914,6 +935,8 @@ Guide:
 * Added a link for FHIR PSOM Wales Project Page to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
 * Updated [Wales FHIR Implementation Guide Version History](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History-v1.1.0/Home/Version-History.page.md?version=1.1.0) to include links to respective Release Notes.
 
+  </div>
+  <div id="tabtwothree" class="tabcontent">
 
 ### v1.0.1 STU1
 
@@ -1034,6 +1057,9 @@ Experimental medication profiles were added.
 
 A profile can now be designated as "Experimental" to show publishing intent in the near future.
 
+  </div>
+  <div id="tabtwotwo" class="tabcontent">
+
 ### 0.0.2 & 0.0.3 - Discovery
 
 Various profile drafts and fixes have been added.
@@ -1042,6 +1068,9 @@ Various profile drafts and fixes have been added.
 The initial draft of the Data Standards Wales FHIR Implementation Guide, and should be considered 'under construction'. It contains only the base FHIR 'people and places' administrative resources.
 
 This version is not intended for use, but is published for early comment and feedback.
+
+  </div>
+</div>
 
 <div class="container">
     <div class="row">

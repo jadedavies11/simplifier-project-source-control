@@ -1,6 +1,30 @@
 ## {{page-title}}
 
-This page describes the published versions of this implementation guide and differences between versions:
+This page describes the published versions of this implementation guide and differences between versions. For versions prior to 2.0.0, please see the full <a href="https://simplifier.net/guide/wales-fhir-implementation-guide-version-history" alt="Wales FHIR Implementation GUide Version History" target="_blank">Wales FHIR Implementation Guide Version History</a>
+
+<div class="tab-wrap">
+  <ul class="tab-head">
+    <li class="tablink tab-active" onclick="openCity(this,'tabtwofive')" data-target="tabtwofive">
+      v2.5.0
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtwofour')" data-target="tabtwofour">
+      v2.4.0
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtwothree')" data-target="tabtwothree">
+      v2.3.0
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtwotwo')" data-target="tabtwotwo">
+      v2.2.0
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtwoone')" data-target="tabtwoone">
+      v2.1.0
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtwozero')" data-target="tabtwozero">
+      v2.0.0
+    </li>
+  </ul>
+  <div class="tab-main">
+  <div id="tabtwofive" class="tabcontent active">
 
 ### v2.5.0 STU2
 Package: 
@@ -71,6 +95,8 @@ Guide:
 * Alphabetised yaml toc files
 * Standardised examples names in Example Index page
 
+  </div>
+  <div id="tabtwofour" class="tabcontent">
 
 ### v2.4.0 STU2
 Package: 
@@ -202,6 +228,9 @@ Guide:
 * Updated Example-DataStandardsWales-ServiceRequest-RadiologyOrder page to correct links
 * Updated Allergy example pages to align naming between example files and example pages on the Implementation Guide and to correct the rendering of links
 * Updated page.md pagelinks to shortened pagelinks throughout implementation guide
+
+  </div>
+  <div id="tabtwothree" class="tabcontent">
 
 ### v2.3.0 STU2
 Package: 
@@ -344,6 +373,9 @@ Guide:
 * Added HL7 International R5 tile to Related Pages
 + Added namespaces for WCRS DocumentId and WCRS DocumentSupersessionSetId values in Naming Systems table
 
+  </div>
+  <div id="tabtwotwo" class="tabcontent">
+
 ### v2.2.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
@@ -405,6 +437,9 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Speciality extension
 * Updated relevant pages within the Guide to reflect changes outlined in Package
 * Created a new section for {{pagelink:Home/Guidance/Growth-Charts,text: Growth Charts}} guidance
+
+  </div>
+  <div id="tabtwoone" class="tabcontent">
 
 ### v2.1.0 STU2
 Package:
@@ -577,6 +612,9 @@ Package:
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
 * General improvements including removing of duplicate sections, spelling mistakes and capitalisation of abbreviations (i.e. DM+D)
+
+  </div>
+  <div id="tabtwozero" class="tabcontent">
 
 ### v2.0.0 STU2
 As part of our commitment to quality assurance and interoperability, we undertook an exercise to review and align the existing FHIR Standards Wales Package with UK Core STU2 (fhir.r4.ukcore.stu2 2.0.1). This resulted in us rationalising the FHIR Standards Wales Package where possible, removing detail that can already be derived from UK Core STU2, whilst still adhering to the principles of FHIR and supporting Wales specific content where required. 
@@ -816,232 +854,8 @@ Examples:
 Guide:
 * Created a new section for {{pagelink:Home/Guidance/provenance}} guidance
 
-                
-### v1.2.1 STU1
-Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
-    * Changes to Profiles    
-        * DataStandardsWales-AllergiesList
-            * Added Extensions for:
-                * DataStandardsWales-SingleRecord-AllergiesListUpdated
-                * DataStandardsWales-SingleRecord-AllergiesListConfirmedDateurceTimestamp
-                * DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
-    * New Extensions
-        * DataStandardsWales-SingleRecord-AllergiesListUpdated
-        * DataStandardsWales-SingleRecord-AllergiesListConfirmedDateurceTimestamp
-        * DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
-    * Changes to Extensions
-        * DataStandardsWales-CDRPatientRecordType
-            * Removed this extension as the data item will be captured in tags
-        * DataStandardsWales-CDRSourceTimestamp
-            * Removed this extension as the data item will be captured in tags
-* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
-    * Changes to Identifiers
-        * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and BCUHBWestPASIdentifier to BCUHBPASIdentifier
-* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
-    * New examples
-        * Immunization
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}  
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}    
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}  
-        * Dosage
-            * Drops
-            * Inhaler
-            * Oral Solution PRN                 
-        
-Guide:
-* Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
-* Added a section for Change Requests to {{pagelink:Home/Help-and-Support/Help-and-Support.page.md,text:Help and Support}}.
-* Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
-* Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} page.
-* Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page.
-
-
-
-### v1.1.1 STU1
-Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
-    * Changes to Profiles
-        * DataStandardsWales-Provenance   
-            * Updated references to use Data Standards Wales profiles     
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
-    * Changes to Extensions
-        * DataStandardsWales-DemographicsAsRecorded
-            * Renamed the DOB extension to birtDate 
-            * Updated the extension URL
-            * Updated the items within the extension URLs
-        * DataStandardsWales-CDRPatientRecordType
-            * Updated the name of the extension
-        * DataStandardsWales-CDRSourceTimestamp
-            * Updated the name of the extension
-
-Guide:
-* Updated the contact email address on the {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
-
-
-            
-### v1.1.0 STU1
-
-Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
-    * New Profiles
-        * DataStandardsWales-Device
-        * DataStandardsWales-Provenance        
-    * Changes to Profiles    
-        * DataStandardsWales-Patient
-            * Added Extensions for:
-                * DataStandardsWales-CDRPatientRecordType
-                * DataStandardsWales-CDRSourceTimestamp
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
-    * New Extensions
-        * DataStandardsWales-CDRPatientRecordType
-        * DataStandardsWales-CDRSourceTimestamp
-        * DataStandardsWales-DemographicsAsRecorded
-
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Value Sets}}:
-    * New Value Sets
-        * DataStandardsWales-ProvenanceActivity
-        * DataStandardsWales-PatientRecordType
-
- * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}:
-    * Corrected oid references. Changed from 2.16.840.1.113883.2.1.8.1.5.nnn to 2.16.840.1.113883.2.1.8.1.3.nnn    
-
-Guide:
-* Updated relevant pages within the Guide to reflect changes outlined in Package.
-* Updated {{pagelink:Home/Help-and-Support/Glossary.page.md,text:Glossary}}.
-  
-* Added definitions for Active, Draft and Experimental to {{pagelink:Home/Introduction/Profile-Descriptions,text:Introduction-Profile Descriptions}}
-* Added a link for FHIR PSOM Wales Project Page to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
-* Updated [Wales FHIR Implementation Guide Version History](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History-v1.1.0/Home/Version-History.page.md?version=1.1.0) to include links to respective Release Notes.
-
-
-### v1.0.1 STU1
-
-Package: 
-* Profiles:
-    * DataStandardsWales-Practitioner
-        * Quotes removed from sdsuserid
-    * DataStandardsWales-Location
-        * Cardinality changed from 1..1 to 0..1:
-            * .address
-            * .managingOrganization.identifier
-    * DataStandardsWales-MedicationDispense
-        * Cardinality changed from 1..1 to 0..1:
-            * .authorizingPrescription
-            * .authorizingPrescription.reference
-            * .identifier
-            * .performer
-            * .location.display
-            * .quantity.value
-            * .quantity.unit
-            * .quantity.system
-            * .quantity.code
-        * Must support added to:
-            * .location
-            * .receiver
-            * .context              
-    * DataStandardsWales-Observation
-        * Cardinality changed from 1..1 to 0..1:
-            * .partOf.identifier
-    * DataStandardsWales-Observation-Lab Resource
-        * Corrected spelling error
-* Code Systems:
-    * DataStandardsWales-GenderIdentity
-        * Trailing space removed from display value
-    * DataStandardsWales-Sex
-        * Trailing space removed from display value
-* Value Set: 
-    * DataStandardsWales-GenderIdentity
-        * Trailing space removed from display value
-    * DataStandardsWales-Sex
-        * Trailing space removed from display value
-    * DataStandardsWales-Title
-        * Code expansion format corrected
-* Concept Maps:
-    * DataStandardsWales-GenderIdentity-HL7AdministrativeGender Resource
-        * Corrected spelling error
-        * Changed the targetURI to correct valueset
-    * DataStandardsWales-HL7AdministrativeGender-GenderIdentity Resource
-        * Changed the targetURI to correct valueset
-    * DataStandardsWales-MaritalStatus-UKCorePersonMaritalStatusCode Resource
-        * Changed the targetURI to correct valueset
-        * Leading space removed from target value
-* Extension:
-    * DataStandardsWales-MedicationCourseOfTherapyType
-        * Change to correct valueset
-* Naming Systems:
-    * Velindre PAS namespace OID corrected
-    * BCUHB Central PAS Identifier corrected inconsistency
-* Examples:
-    * Organization - Glangwili General Hospital 
-        * Removed hospital classification extension
-    * Organization - Neath - Port Talbot Hospital 
-        * Removed hospital classification extension
-* Fixed render issues in ConceptsMaps, CodeSystem, NamingSystem & ValueSet by using HL7 FHIR XML element order
-* Spaces removed in NamingSystems name to conform to HL7 as name can be used as id
-
-Guide:
-* DataStandardsWales-MedicationDispense
-    * Mandatory and Must Support Data Elements list updated to reflect changes made to the profile and correct previously omitted information:
-        * Updated the must have list as per current profile settings
-        * Updated the must support list as per current profile settings   
-
-### v1.0.0 STU1
-
-* Changes made following feedback from the publication of the pre-release
-
-### v1.0.0 STU1 - pre release
-
-* Changes made in response to the ballot feedback process
-
-### v0.1.1 STU1 - for ballot
-
-* Minor errata to fix asset rendering issues
-
-### v0.1.0 STU1 - for ballot
-
-* First pass review of profiles
-* Medication Scenarios
-* Improvements to navigation
-* Fixed page links and spelling
-* Removed duplicate guidance
-* References to HL7 or UK Core guidance where necessary
-
-
-### 0.0.5 - Discovery
-
-Experimental medication profiles were added.
-
-
-* Immunization
-* MedicationAdministration
-
-
-The following experimental profiles were amended.
-
-
-* MedicationDispense
-* MedicationRequest
-
-
-### 0.0.4 - Discovery
-
-Experimental medication profiles were added.
-
-
-* MedicationRequest
-* MedicationDispense
-
-A profile can now be designated as "Experimental" to show publishing intent in the near future.
-
-### 0.0.2 & 0.0.3 - Discovery
-
-Various profile drafts and fixes have been added.
-
-### 0.0.1 - Discovery
-The initial draft of the Data Standards Wales FHIR Implementation Guide, and should be considered 'under construction'. It contains only the base FHIR 'people and places' administrative resources.
-
-This version is not intended for use, but is published for early comment and feedback.
+  </div>
+</div>
 
 <div class="container">
     <div class="row">
