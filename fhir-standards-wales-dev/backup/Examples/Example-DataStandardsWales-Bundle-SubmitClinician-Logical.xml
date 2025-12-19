@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="Example-DataStandardsWales-Bundle-SubmitClinician-Logical"/>
+	<identifier>
+		<system value="https://fhir.sbuuhb.nhs.wales/Id/example-bundle-identifier"/>
+		<value value="9d582876-be21-47bb-a4b8-6f123c6c890b"/>
+	</identifier>
+	<type value="message"/>
+	<timestamp value="2025-12-17T12:00:15+00:00"/>
+	<entry>
+		<fullUrl value="b390be34-6ddc-4476-a7c9-ac081a055d66"/>
+		<resource>
+			<MessageHeader>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MessageHeader"/>
+				</meta>
+				<eventCoding>
+					<system value="https://fhir.nhs.wales/CodeSystem/Example-MessageEvent-CodeSystem"/>
+					<code value="submit-clinician"/>
+					<display value="Submit clinician"/>
+				</eventCoding>
+				<source>
+					<name value="Staff admin app"/>
+					<endpoint value="https://example-admin-endpoint.com"/>
+				</source>
+				<responsible>
+					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
+					<type value="Organization"/>
+					<display value="Swansea Bay University Health Board"/>
+				</responsible>
+				<focus>
+					<reference value="urn:uuid:24736b45-50c4-4d86-9ae5-fb565da70590"/>
+					<type value="Practitioner"/>
+					<display value="Dr Dhiren Patel (GMC: 9630333)"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:32aa8c29-0ee2-4b1b-96de-236cfa9a0ae9"/>
+					<type value="PractitionerRole"/>
+					<display value="SBUHB - Dr Dhiren Patel (GMC: 9630333)"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
+					<type value="Organization"/>
+					<display value="Swansea Bay University Health Board"/>
+				</focus>
+				<definition value="https://fhir.nhs.wales/MessageDefinition/Example-DataStandardsWales-MessageDefinition-SubmitClinician"/>
+			</MessageHeader>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:24736b45-50c4-4d86-9ae5-fb565da70590"/>
+		<resource>
+			<Practitioner>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.wales/Id/nadex-identifier"/>
+					<value value="dh000567"/>
+				</identifier>
+				<identifier>
+					<system value="https://fhir.hl7.org.uk/Id/gmc-number"/>
+					<value value="9630333"/>
+				</identifier>
+				<name>
+					<family value="Patel"/>
+					<given value="Dhiren"/>
+					<prefix value="Dr"/>
+				</name>
+				<gender value="male"/>
+			</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:32aa8c29-0ee2-4b1b-96de-236cfa9a0ae9"/>
+		<resource>
+			<PractitionerRole>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+				</meta>
+				<practitioner>
+					<reference value="urn:uuid:24736b45-50c4-4d86-9ae5-fb565da70590"/>
+					<display value="Dr Dhiren Patel (GMC: 9630333)"/>
+				</practitioner>
+				<organization>
+					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
+					<display value="Swansea Bay University Health Board"/>
+				</organization>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="768839008"/>
+						<display value="Consultant"/>
+					</coding>
+				</code>
+				<specialty>
+					<coding>
+						<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+						<code value="430"/>
+						<display value="Geriatric Medicine"/>
+					</coding>
+				</specialty>
+			</PractitionerRole>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
+		<resource>
+			<Organization>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+					<value value="7A3"/>
+				</identifier>
+				<name value="Swansea Bay University Local Health Board"/>
+			</Organization>
+		</resource>
+	</entry>
+</Bundle>

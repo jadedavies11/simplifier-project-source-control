@@ -1,0 +1,14 @@
+- name: Index
+  filename: Index.page.md
+- name: v2.5.0 STU2
+  filename: Release-Note-v2.5.0.page.md
+- name: v2.4.0 STU2
+  filename: Release-Note-v2.4.0.page.md
+- name: v2.3.0 STU2
+  filename: Release-Note-v2.3.0.page.md
+- name: v2.2.0 STU2
+  filename: Release-Note-v2.2.0.page.md
+- name: v2.1.0 STU2
+  filename: Release-Note-v2.1.0.page.md
+- name: v2.0.0 STU2
+  filename: Release-Note-v2.0.0.page.md

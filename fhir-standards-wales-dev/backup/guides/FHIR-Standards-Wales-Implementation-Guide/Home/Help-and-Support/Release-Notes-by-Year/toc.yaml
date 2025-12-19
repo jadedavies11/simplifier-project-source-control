@@ -1,0 +1,10 @@
+- name: Index
+  filename: Index.page.md
+- name: 2025
+  filename: Release-Note-2025.page.md
+- name: 2024
+  filename: Release-Note-2024.page.md
+- name: 2023
+  filename: Release-Note-2023.page.md
+- name: 2022
+  filename: Release-Note-2022.page.md
