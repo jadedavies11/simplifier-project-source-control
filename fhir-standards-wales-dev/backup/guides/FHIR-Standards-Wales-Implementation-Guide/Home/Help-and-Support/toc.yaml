@@ -20,11 +20,3 @@
   filename: Related-Pages.page.md
 - name: Training
   filename: Training.page.md  
-- name: Release Notes - by Year
-  filename: Release-Notes-by-Year.page.md
-- name: Release Notes - by Version
-  filename: Release-Notes-by-Version.page.md
-- name: Release Notes - by Year (Scrolling)
-  filename: Release-Notes-by-Year
-- name: Release Notes - by Version (Scrolling)
-  filename: Release-Notes-by-Version
