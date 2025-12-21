@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="Example-DataStandardsWales-Bundle-UEC-Duscharge-UHWEUMI"/>
+	<identifier>
+		<system value="https://fhir.cavuhb.nhs.wales/Id/example-uec-bundle-identifier"/>
+		<value value="e6bab57e-1566-4287-b3f6-9277094e0e08"/>
+	</identifier>
+	<type value="message"/>
+	<timestamp value="2025-12-02T14:35:00+00:00"/>
+	<entry>
+		<fullUrl value="urn:uuid:42a84446-c4a0-4e78-8e57-cbce700f2353"/>
+		<resource>
+			<MessageHeader>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MessageHeader"/>
+				</meta>
+				<eventCoding>
+					<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>
+					<code value="uec-triage"/>
+					<display value="UEC triage"/>
+				</eventCoding>
+				<source>
+					<name value="CAV UEC app"/>
+					<endpoint value="https://example-hb-uecapp-endpoint.com"/>
+				</source>
+				<responsible>
+					<reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790"/>
+					<type value="Organization"/>
+					<display value="Cardiff and Vale University Health Board"/>
+				</responsible>
+				<focus>
+					<reference value="urn:uuid:9fd40bf6-e4bb-4260-98e9-d1a0c0a3bbfc"/>
+					<type value="Encounter"/>
+					<display value="123456789 - UHW Emergency Unit Minor Injuries Attendance - Ms Marjorie Pryor (A272114) - 2025-12-02 12:00"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69"/>
+					<type value="Patient"/>
+					<display value="Ms Marjorie Pryor (A272114)"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790"/>
+					<type value="Organization"/>
+					<display value="Cardiff and Vale University Health Board"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:b21912e3-94f1-4fe2-870f-2918614ab8ea"/>
+					<type value="Organization"/>
+					<display value="University Hospital Of Wales"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:1499098a-f76e-4fe8-bb0a-ec40bb508723"/>
+					<type value="Organization"/>
+					<display value="North Cardiff Medical Centre"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:f39f272c-50e0-4df5-af0a-e4edfca6882b"/>
+					<type value="Location"/>
+					<display value="UHW Emergency Unit Minor Injuries"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:0d86bfa3-8d75-4550-a663-5e1463b912ce"/>
+					<type value="PractitionerRole"/>
+					<display value="Mrs Lisa Potts (NMC:AB123456W) - Nurse - CAVUHB"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:3dd6d58c-318c-4b0c-975a-b5b351474659"/>
+					<type value="PractitionerRole"/>
+					<display value="Mark Smith (NADEX:ma000199) - HCA - CAVUHB"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:dc18a7b1-6202-4a0d-ac68-e837136d27d0"/>
+					<type value="PractitionerRole"/>
+					<display value="Dr Dhiren Patel (GMC:9630333) - Consultant - CAVUHB"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:b58d510d-5aef-4827-97b5-303ab5fc5416"/>
+					<type value="Practitioner"/>
+					<display value="Mrs Lisa Potts (NMC:AB123456W)"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:d44f3741-7a90-40cc-9e1b-744fd004112a"/>
+					<type value="Practitioner"/>
+					<display value="Mark Smith (NADEX:ma000199)"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:c528ead6-d5ac-4b99-be7e-0540f808e590"/>
+					<type value="Practitioner"/>
+					<display value="Dr Dhiren Patel (GMC:9630333)"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:8c1145dd-ff6f-49c4-a733-ff494a77f4aa"/>
+					<type value="Condition"/>
+					<display value="Swollen ankle"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:18199ed9-05b6-4b14-b5c4-8e2e66f001b9"/>
+					<type value="Condition"/>
+					<display value="Asthma"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:9568623a-a1cd-4a39-bd6b-c6084b90109e"/>
+					<type value="Condition"/>
+					<display value="Hypertension"/>
+				</focus>
+				<definition value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-UEC-Discharge"/>
+			</MessageHeader>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:9fd40bf6-e4bb-4260-98e9-d1a0c0a3bbfc"/>
+		<resource>
+			<Encounter xmlns="http://hl7.org/fhir">
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter-UEC"/>
+				</meta>
+				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EmergencyCareDischargeStatus">
+					<valueCodeableConcept>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="182992009"/>
+							<display value="Treatment completed"/>
+						</coding>
+					</valueCodeableConcept>
+				</extension>
+				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ExpectedTimeOfTreatment">
+					<valueDateTime value="2025-12-02T12:15:00+00:00"/>
+				</extension>
+				<extension url="http://hl7.org/fhir/StructureDefinition/encounter-modeOfArrival">
+					<valueCoding>
+						<system value="http://snomed.info/sct"/>
+						<code value="1048061000000105"/>
+						<display value="Arrival by public transport"/>
+					</valueCoding>
+				</extension>
+				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-AttendanceCategory">
+					<valueCodeableConcept>
+						<coding>
+							<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-AttendanceCategory"/>
+							<code value="1"/>
+							<display value="Unplanned first Urgent and Emergency Care or Same Day Emergency Care Attendance for a new clinical condition (or deterioration of a chronic condition)."/>
+						</coding>
+					</valueCodeableConcept>
+				</extension>
+				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-DischargeInformationGiven">
+					<extension url="givenToPatient">
+						<valueBoolean value="true"/>
+					</extension>
+				</extension>
+				<identifier>
+					<system value="https://fhir.cavuhb.nhs.wales/Id/example-uec-encounter-identifier"/>
+					<value value="123456789"/>
+				</identifier>
+				<status value="finished"/>
+				<statusHistory>
+					<status value="arrived"/>
+					<period>
+						<start value="2025-12-02T12:00:23+00:00"/>
+						<end value="2025-12-02T12:11:59+00:00"/>
+					</period>
+				</statusHistory>
+				<statusHistory>
+					<status value="triaged"/>
+					<period>
+						<start value="2025-12-02T12:12:00+00:00"/>
+						<end value="2025-12-02T12:29:59+00:00"/>
+					</period>
+				</statusHistory>
+				<statusHistory>
+					<status value="in-progress"/>
+					<period>
+						<start value="2025-12-02T12:30:00+00:00"/>
+						<end value="2025-12-02T14:34:59+00:00"/>
+					</period>
+				</statusHistory>
+				<class>
+					<system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+					<code value="EMER"/>
+					<display value="emergency"/>
+				</class>
+				<type>
+					<coding>
+						<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-ActivityType"/>
+						<code value="Minor-Injury-Unit"/>
+						<display value="Emergency Care Attendance at an Emergency Care Department Type Minor Injury Unit."/>
+					</coding>
+				</type>
+				<type>
+					<coding>
+						<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-CareConsultationMechanism"/>
+						<code value="Face-to-face"/>
+						<display value="Face to face"/>
+					</coding>
+				</type>
+				<serviceType>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="409971007"/>
+						<display value="Emergency medicine service"/>
+					</coding>
+				</serviceType>
+				<priority>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="1077241000000103"/>
+						<display value="Standard level emergency care"/>
+					</coding>
+				</priority>
+				<subject>
+					<reference value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69"/>
+					<display value="Ms Marjorie Pryor (A272114)"/>
+				</subject>
+				<participant>
+					<individual>
+						<reference value="urn:uuid:0d86bfa3-8d75-4550-a663-5e1463b912ce"/>
+						<type value="PractitionerRole"/>
+						<display value="Mrs Lisa Potts (NMC:AB123456W) - Nurse - CAVUHB"/>
+					</individual>
+				</participant>
+				<period>
+					<start value="2025-12-02T12:00:23+00:00"/>
+				</period>
+				<diagnosis>
+					<condition>
+						<reference value="urn:uuid:8c1145dd-ff6f-49c4-a733-ff494a77f4aa"/>
+						<type value="Condition"/>
+						<display value="Swollen ankle"/>
+					</condition>
+					<use>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/diagnosis-role"/>
+							<code value="CC"/>
+							<display value="Chief complaint"/>
+						</coding>
+					</use>
+				</diagnosis>
+				<diagnosis>
+					<condition>
+						<reference value="urn:uuid:18199ed9-05b6-4b14-b5c4-8e2e66f001b9"/>
+						<type value="Condition"/>
+						<display value="Asthma"/>
+					</condition>
+					<use>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/diagnosis-role"/>
+							<code value="CM"/>
+							<display value="Comorbidity diagnosis"/>
+						</coding>
+					</use>
+				</diagnosis>
+				<diagnosis>
+					<condition>
+						<reference value="urn:uuid:9568623a-a1cd-4a39-bd6b-c6084b90109e"/>
+						<type value="Condition"/>
+						<display value="Hypertension"/>
+					</condition>
+					<use>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/diagnosis-role"/>
+							<code value="CM"/>
+							<display value="Comorbidity diagnosis"/>
+						</coding>
+					</use>
+				</diagnosis>
+				<hospitalization>
+					<origin>
+						<reference value="urn:uuid:1499098a-f76e-4fe8-bb0a-ec40bb508723"/>
+						<display value="North Cardiff Medical Centre"/>
+					</origin>
+					<admitSource>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="276491000"/>
+							<display value="Referred by member of Primary Health Care Team"/>
+						</coding>
+					</admitSource>
+					<dischargeDisposition>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="306689006"/>
+							<display value="Discharge to home"/>
+						</coding>
+					</dischargeDisposition>
+				</hospitalization>
+				<location>
+					<location>
+						<reference value="urn:uuid:f39f272c-50e0-4df5-af0a-e4edfca6882b"/>
+						<display value="UHW Emergency Unit Minor Injuries"/>
+					</location>
+				</location>
+				<serviceProvider>
+					<reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790"/>
+					<display value="Cardiff and Vale University Health Board "/>
+				</serviceProvider>
+			</Encounter>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69"/>
+		<resource>
+			<Patient>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient"/>
+				</meta>
+				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory">
+					<valueCodeableConcept>
+						<coding>
+							<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategoryWales"/>
+							<code value="A"/>
+							<display value="Any White Background, including Welsh, English, Scottish, Northern Irish, Irish, British"/>
+						</coding>
+					</valueCodeableConcept>
+				</extension>
+				<identifier>
+					<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus">
+						<valueCodeableConcept>
+							<coding>
+								<system value=" https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatusWales"/>
+								<code value="07"/>
+								<display value="Number not present and trace not required"/>
+							</coding>
+						</valueCodeableConcept>
+					</extension>
+				</identifier>
+				<identifier>
+					<system value="https://fhir.cavuhb.nhs.wales/Id/pas-identifier"/>
+					<value value="A272114"/>
+				</identifier>
+				<name>
+					<family value="Marjorie"/>
+					<given value="Pryor"/>
+					<prefix value="Ms"/>
+				</name>
+				<gender value="female"/>
+				<birthDate value="1961-12-16"/>
+				<address>
+					<line value="7 Llandaff Court"/>
+					<line value="Penarth"/>
+					<postalCode value="CF64 3JH"/>
+				</address>
+				<generalPractitioner>
+					<reference value="urn:uuid:1499098a-f76e-4fe8-bb0a-ec40bb508723"/>
+					<display value="North Cardiff Medical Centre"/>
+				</generalPractitioner>
+				<managingOrganization>
+					<reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790"/>
+					<display value="Cardiff and Vale University Health Board"/>
+				</managingOrganization>
+			</Patient>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790"/>
+		<resource>
+			<Organization>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+					<value value="7A4"/>
+				</identifier>
+				<name value="Cardiff and Vale University Health Board"/>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:b21912e3-94f1-4fe2-870f-2918614ab8ea"/>
+		<resource>
+			<Organization>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+					<value value="7A4BV"/>
+				</identifier>
+				<name value="University Hospital Of Wales"/>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:1499098a-f76e-4fe8-bb0a-ec40bb508723"/>
+		<resource>
+			<Organization>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+					<value value="W97015"/>
+				</identifier>
+				<name value="North Cardiff Medical Centre"/>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:f39f272c-50e0-4df5-af0a-e4edfca6882b"/>
+		<resource>
+			<Location>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.wales/Id/wrts-location-identifier"/>
+					<value value="7A4BVUHEMIN"/>
+				</identifier>
+				<name value="UHW Emergency Unit Minor Injuries"/>
+				<address>
+					<text value="Lower Ground, The Gateway, Cardiff CF14 4XW"/>
+				</address>
+				<managingOrganization>
+					<reference value="urn:uuid:b21912e3-94f1-4fe2-870f-2918614ab8ea"/>
+					<display value="University Hospital Of Wales"/>
+				</managingOrganization>
+			</Location>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:0d86bfa3-8d75-4550-a663-5e1463b912ce"/>
+		<resource>
+			<PractitionerRole>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+				</meta>
+				<practitioner>
+					<reference value="urn:uuid:b58d510d-5aef-4827-97b5-303ab5fc5416"/>
+					<display value="Mrs Lisa Potts (NMC:AB123456W)"/>
+				</practitioner>
+				<organization>
+					<reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790"/>
+					<display value="Cardiff and Vale University Health Board"/>
+				</organization>
+				<code>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/practitioner-role"/>
+						<code value="nurse"/>
+						<display value="Nurse"/>
+					</coding>
+				</code>
+			</PractitionerRole>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:3dd6d58c-318c-4b0c-975a-b5b351474659"/>
+		<resource>
+			<PractitionerRole>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+				</meta>
+				<practitioner>
+					<reference value="urn:uuid:d44f3741-7a90-40cc-9e1b-744fd004112a"/>
+					<display value="Mark Smith (NADEX:ma000199)"/>
+				</practitioner>
+				<organization>
+					<reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790"/>
+					<display value="Cardiff and Vale University Health Board"/>
+				</organization>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="224577009"/>
+						<display value="Healthcare assistant"/>
+					</coding>
+				</code>
+			</PractitionerRole>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:dc18a7b1-6202-4a0d-ac68-e837136d27d0"/>
+		<resource>
+			<PractitionerRole>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+				</meta>
+				<practitioner>
+					<reference value="urn:uuid:c528ead6-d5ac-4b99-be7e-0540f808e590"/>
+					<display value="Dr Dhiren Patel (GMC:9630333)"/>
+				</practitioner>
+				<organization>
+					<reference value="urn:uuid:3462b025-d107-41e0-8aa2-5f21ac54e790"/>
+					<display value="Cardiff and Vale University Health Board"/>
+				</organization>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="768839008"/>
+						<display value="Consultant"/>
+					</coding>
+				</code>
+				<specialty>
+					<coding>
+						<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+						<code value="430"/>
+						<display value="Geriatric Medicine"/>
+					</coding>
+				</specialty>
+			</PractitionerRole>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:b58d510d-5aef-4827-97b5-303ab5fc5416"/>
+		<resource>
+			<Practitioner>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.wales/Id/nadex-identifier"/>
+					<value value="Li123456"/>
+				</identifier>
+				<identifier>
+					<system value="https://fhir.hl7.org.uk/Id/nmc-number"/>
+					<value value="AB123456W"/>
+				</identifier>
+				<name>
+					<family value="Potts"/>
+					<given value="Lisa"/>
+					<prefix value="Mrs"/>
+				</name>
+				<gender value="female"/>
+			</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:d44f3741-7a90-40cc-9e1b-744fd004112a"/>
+		<resource>
+			<Practitioner>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.wales/Id/nadex-identifier"/>
+					<value value="ma000199"/>
+				</identifier>
+				<name>
+					<family value="Smith"/>
+					<given value="Mark"/>
+				</name>
+			</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:c528ead6-d5ac-4b99-be7e-0540f808e590"/>
+		<resource>
+			<Practitioner>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.wales/Id/nadex-identifier"/>
+					<value value="dh000567"/>
+				</identifier>
+				<identifier>
+					<system value="https://fhir.hl7.org.uk/Id/gmc-number"/>
+					<value value="9630333"/>
+				</identifier>
+				<name>
+					<family value="Patel"/>
+					<given value="Dhiren"/>
+					<prefix value="Dr"/>
+				</name>
+				<gender value="male"/>
+			</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:8c1145dd-ff6f-49c4-a733-ff494a77f4aa"/>
+		<resource>
+			<Condition>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+						<code value="encounter-diagnosis"/>
+						<display value="Encounter Diagnosis"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="267039000"/>
+						<display value="Swollen ankle"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69"/>
+					<display value="Ms Marjorie Pryor (A272114)"/>
+				</subject>
+			</Condition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:18199ed9-05b6-4b14-b5c4-8e2e66f001b9"/>
+		<resource>
+			<Condition>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+						<code value="encounter-diagnosis"/>
+						<display value="Encounter Diagnosis"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="195967001"/>
+						<display value="Asthma"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69"/>
+					<display value="Ms Marjorie Pryor (A272114)"/>
+				</subject>
+			</Condition>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:9568623a-a1cd-4a39-bd6b-c6084b90109e"/>
+		<resource>
+			<Condition>
+				<category>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+						<code value="encounter-diagnosis"/>
+						<display value="Encounter Diagnosis"/>
+					</coding>
+				</category>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="38341003"/>
+						<display value="Hypertension"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="urn:uuid:bfecbb93-a62f-4f19-9f23-e5c448f66d69"/>
+					<display value="Ms Marjorie Pryor (A272114)"/>
+				</subject>
+			</Condition>
+		</resource>
+	</entry>
+</Bundle>

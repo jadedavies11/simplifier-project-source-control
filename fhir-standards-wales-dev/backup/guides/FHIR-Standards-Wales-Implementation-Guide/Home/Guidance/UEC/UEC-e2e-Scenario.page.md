@@ -5,7 +5,7 @@ At 12:12 she was assessed by triage nurse Mrs Lisa Potts as requiring standard l
 
 Marjorie was seen by a health care support worker and a consultant during the visit, the first at 12:30.  The consultations resulted in a diagnosis of a sprained ankle and appropriate management, before Marjorie was discharged to home at 14:35, with advice for follow-up via her general practitioner. A copy of the discharge letter was provided to her at the point of discharge.
 
-NOTE that any investigations, the problem list (formal diagnoses), problem management, the discharge information and follow up are beyond the scope of the Phase 1 UEC data submissions.
+NOTE that any investigations, the problem list (formal diagnoses), problem management, the discharge information document and follow up are beyond the scope of the Phase 1 UEC data submissions.
 
 ### Step 1 - UEC Arrival
 The first data submission occurs after the patient arrival at the UEC facility has been registered.  The case-specific details known at this stage are:
@@ -52,7 +52,7 @@ The status and status history will need to be updated:
 ><sup>_Encounter status:_ triaged</sup><br />
 ><sup>_Encounter statusHistory:_ arrived start 2025-12-02 12:00 end 2025-12-02 12:11:59</sup><br />
 
-The bundle construction for this step is illustrated below, together with a populated example message bundle.
+The bundle construction for this step is illustrated below, together with a populated example message bundle.  
 <br />
 {{render:Diagrams-UEC-triage-messaging-model}}
 <br />
@@ -74,7 +74,7 @@ The status and status history will need to be updated to include the current sta
 ><sup>_Encounter statusHistory:_ triaged start 2025-12-02 12:12 end 2025-12-02 12:29:59</sup><br />
 ><sup>_Encounter statusHistory:_ in-progress start 2025-12-02 12:30 end 2025-12-02 14:34:59</sup><br />
 
-The bundle construction for this step is illustrated below, together with a populated example message bundle.
+The bundle construction for this step is illustrated below, together with a populated example message bundle. The discharge destination organisation  has been included in the graphic because it is specific to UEC discharge. It is omitted from the bundle example because in this scenario the patient is discharged to home.
 <br />
 {{render:Diagrams-UEC-discharge-messaging-model}}
 <br />
