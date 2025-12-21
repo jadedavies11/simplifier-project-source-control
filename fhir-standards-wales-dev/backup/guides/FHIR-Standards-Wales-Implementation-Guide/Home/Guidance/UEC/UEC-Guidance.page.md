@@ -6,7 +6,6 @@
   - [FHIR Resources](#fhir-resources)
     * [Condition](#condition)
     * [Device](#device)
-    * [DocumentReference](#documentreference)
     * [Encounter-UEC](#encounter-uec)
     * [Location](#location)
     * [Organization](#organization)
@@ -33,12 +32,11 @@ A specific resource profile has been developed for a UEC encounter.  This includ
 ## Data Model Overview
 The UEC data for each patient attendance will be stored as a dedicated UEC Encounter resource linked to Condition resources for the chief complaint and any comorbidies noted during the attendance. The attendance context and involved clinicial staff will be captured through linking of the applicable FHIR administrative resources such as Organization, Location and PractitionerRole. The creation or update of a UEC Encounter or Condition will be associated with one or more Provenance instances, targeting the specific resource versions created. 
 
-The diagram below provides an overview of the involved FHIR resources and how they can be interconnected to support the relevant subset of the WECDS. The presence or absence of certain links will depend upon the specific use case and the progress.
+The diagram below provides an overview of the involved FHIR resources and how they can be interconnected to support the relevant subset of the WECDS. The presence or absence of certain links will depend upon the specific use case and the progress through the UEC encounter.
 
 The FHIR data model consists of the following resources: 
 * {{pagelink:DataStandardsWales-Condition, text:Condition}}
 * {{pagelink:DataStandardsWales-Device, text:Device}}
-* {{pagelink:DataStandardsWales-DocumentReference, text:DocumentReference}}
 * {{pagelink:DataStandardsWales-Encounter-UEC, text:Encounter-UEC}}
 * {{pagelink:DataStandardsWales-Location, text:Location}}
 * {{pagelink:DataStandardsWales-Organization}}
@@ -56,9 +54,6 @@ The Condition resource should be used to capture both the chief complaint for th
 ### Device
 The Device resource represents the systems from which the UEC data submission was sourced.
 
-### DocumentReference
-The Document reference resource can be used to capture discharge information related to the UEC attendance.
-
 ### Encounter-UEC
 The UEC Encounter profile is a specialisation of the standard Encounter resource which should be used to represent the attendance of the patient at the UEC facility, from the time of arrival to the time of departure.  It makes use of the following UEC-specific value sets:
 * {{pagelink:ValueSet-DataStandardsWales-UEC-Acuity}}
@@ -71,10 +66,12 @@ The UEC Encounter profile is a specialisation of the standard Encounter resource
 A Location resource is referenced to identify the specific UEC facility (e.g. a specific minor injuries department) that the patient attended for the UEC encounter.
 
 ### Organization
-One or more Organization resources may be referenced from the encounter to identify the service provider (typically a Health Board) that is responsible for the UEC encounter and, where applicable, the source organisation and the organisation to which the patient is discharged. The patient's health board of residence is identified by an Organization resource referenced from the Patient resource.
+One or more Organization resources may be referenced from the encounter to identify the service provider (typically a Health Board) that is responsible for the UEC encounter, the organization that manages the UEC facility and, where applicable, the source organisation and the organisation to which the patient is discharged. Where different from the service provider, the following organisations may also be involved:
+- The patient's health board of residence (referenced from the Patient resource)
+- The health board employer of a participant (referenced from the PractitionerRole resource)
 
 ### Patient
-A PractitionerRole resource is referenced to identify each clinician involved with the patient during their UEC attendance, including their specialty and the health board under which they were operating.  
+A Patient resource is referenced to identify the attendee at the UEC facility i.e. the subject of the UEC encounter.
 
 ### PractitionerRole
 A PractitionerRole resource is referenced to identify each UEC care professional involved with the patient during their UEC attendance, including their specialty and the health board under which they were operating.  
@@ -111,5 +108,5 @@ These message events have been captured in a dedicated code system that can be e
 ### UEC Message Definitions
 MessageDefinition resource instances have been defined FOR TRIAL USE for the Phase 1 UEC data submissions
 * {{pagelink:MessageDefinition-DataStandardsWales-UEC-Arrival}}
-* {{pagelink:MessageDefinition-DataStandardsWales-UEC-Triage}} - PENDING
-* {{pagelink:MessageDefinition-DataStandardsWales-UEC-Discharge}} - PENDING
+* {{pagelink:MessageDefinition-DataStandardsWales-UEC-Triage}}
+* {{pagelink:MessageDefinition-DataStandardsWales-UEC-Discharge}}
