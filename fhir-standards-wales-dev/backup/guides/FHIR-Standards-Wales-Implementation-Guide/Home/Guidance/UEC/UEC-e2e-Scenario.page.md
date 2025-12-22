@@ -3,7 +3,7 @@ Ms Marjorie Pryor attends the Emergency Unit Minor Injuries facility of Universi
 
 At 12:12 she was assessed by triage nurse Mrs Lisa Potts as requiring standard level emergency care acuity and the swollen ankle was recorded together with the comorbidities of asthma and hypertension. 
 
-Marjorie was seen by a health care support worker and a consultant during the visit, the first at 12:30.  The consultations resulted in a diagnosis of a sprained ankle and appropriate management, before Marjorie was discharged to home at 14:35, with advice for follow-up via her general practitioner. A copy of the discharge letter was provided to her at the point of discharge.
+Marjorie was seen by a health care assistant and a consultant during the visit, the first at 12:30.  The consultations resulted in a diagnosis of a sprained ankle and appropriate management, before Marjorie was discharged to home at 14:35, with advice for follow-up via her general practitioner. A copy of the discharge letter was provided to her at the point of discharge.
 
 NOTE that any investigations, the problem list (formal diagnoses), problem management, the discharge information document and follow up are beyond the scope of the Phase 1 UEC data submissions.
 
@@ -38,7 +38,7 @@ The bundle construction for this step is illustrated below, together with a popu
 {{render:Diagrams-UEC-arrival-messaging-model}}
 <br />
 
-Message bundle: {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
+Message bundle: {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}<br />
 Message definition: {{pagelink:MessageDefinition-DataStandardsWales-UEC-Arrival}}
 
 ### Step 2 - UEC Triage
@@ -57,7 +57,7 @@ The bundle construction for this step is illustrated below, together with a popu
 {{render:Diagrams-UEC-triage-messaging-model}}
 <br />
 
-Message bundle: {{pagelink:Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI, text: Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)}}
+Message bundle: {{pagelink:Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI, text: Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)}}<br />
 Message definition: {{pagelink:MessageDefinition-DataStandardsWales-UEC-Triage}}
 
 ### Step 3 - UEC Discharge
@@ -79,5 +79,5 @@ The bundle construction for this step is illustrated below, together with a popu
 {{render:Diagrams-UEC-discharge-messaging-model}}
 <br />
 
-Message bundle: {{pagelink:Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI, text: Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)}}
+Message bundle: {{pagelink:Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI, text: Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)}}<br />
 Message definition: {{pagelink:MessageDefinition-DataStandardsWales-UEC-Discharge}}

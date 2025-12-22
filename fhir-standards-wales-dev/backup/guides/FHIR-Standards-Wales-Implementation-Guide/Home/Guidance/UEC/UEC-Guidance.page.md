@@ -6,7 +6,7 @@
   - [FHIR Resources](#fhir-resources)
     * [Condition](#condition)
     * [Device](#device)
-    * [Encounter-UEC](#encounter-uec)
+    * [UEC Encounter](#uec-encounter)
     * [Location](#location)
     * [Organization](#organization)
     * [Patient](#patient)
@@ -37,12 +37,12 @@ The diagram below provides an overview of the involved FHIR resources and how th
 The FHIR data model consists of the following resources: 
 * {{pagelink:DataStandardsWales-Condition, text:Condition}}
 * {{pagelink:DataStandardsWales-Device, text:Device}}
-* {{pagelink:DataStandardsWales-Encounter-UEC, text:Encounter-UEC}}
+* {{pagelink:DataStandardsWales-Encounter-UEC, text:UEC Encounter}}
 * {{pagelink:DataStandardsWales-Location, text:Location}}
-* {{pagelink:DataStandardsWales-Organization}}
-* {{pagelink:DataStandardsWales-Patient}}
-* {{pagelink:DataStandardsWales-PractitionerRole}}
-* {{pagelink:DataStandardsWales-Provenance}}
+* {{pagelink:DataStandardsWales-Organization, text:Organization}}
+* {{pagelink:DataStandardsWales-Patient, text:Patient}}
+* {{pagelink:DataStandardsWales-PractitionerRole, text:PractitionerRole}}
+* {{pagelink:DataStandardsWales-Provenance, text:Provenance}}
 
 <br />
 {{render:Diagrams-UEC-encounter-maximal-logical-model}}
@@ -54,7 +54,7 @@ The Condition resource should be used to capture both the chief complaint for th
 ### Device
 The Device resource represents the systems from which the UEC data submission was sourced.
 
-### Encounter-UEC
+### UEC Encounter
 The UEC Encounter profile is a specialisation of the standard Encounter resource which should be used to represent the attendance of the patient at the UEC facility, from the time of arrival to the time of departure.  It makes use of the following UEC-specific value sets:
 * {{pagelink:ValueSet-DataStandardsWales-UEC-Acuity}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-ArrivalMode}}
@@ -74,7 +74,7 @@ One or more Organization resources may be referenced from the encounter to ident
 A Patient resource is referenced to identify the attendee at the UEC facility i.e. the subject of the UEC encounter.
 
 ### PractitionerRole
-A PractitionerRole resource is referenced to identify each UEC care professional involved with the patient during their UEC attendance, including their specialty and the health board under which they were operating.  
+A PractitionerRole resource is referenced to identify each UEC care professional participating in the care of the patient during their UEC attendance, including their specialty and the health board under which they were operating.  
 
 ### Provenance
 The Provenance resource will capture metadata related to the creation or update of each affected resource instance (as the target of the provenance record) and may also be used to capture the subject demographics at the time of the encounter. Provenance content will be specifically determined and the appropriate instances assembled by the CDR message handler, so it will not appear within the submission message examples in the section below.
@@ -98,9 +98,9 @@ The following message events have been defined FOR TRIAL USE at Phase 1, pending
 
 | Message event | Submission point             | Resources (if applicable to use case)           |
 |:--|:--|:------|
-| uec-arrival<br /><br /><br /><br /><br /> | On completion of registering the <br />patient’s arrival at the UEC facility<br /><br /><br /> <br />| Encounter-UEC <br />Patient<br />Organization (service provider)<br />Organization (attendance source)<br />Location (UEC facility) |
-| uec-triage<br /><br /><br /><br /><br /><br /><br /><br /> | On completion of recording the <br />triage assessment<br /><br /><br /> <br /><br /><br /><br />| Encounter-UEC <br />Patient<br />Organization (service provider)<br />Organization (attendance source)<br />Location (UEC facility)<br />ProfessionalRole (e.g. triage nurse)<br />Condition (chief complaint)<br />Condition (each comorbidity) |
-| uec-discharge<br /><br /><br /><br /><br /><br /><br /><br /><br /> | On completion of the UEC attendance <br />i.e. the point of discharge<br /><br /><br /><br /><br /><br /><br /><br />| Encounter-UEC <br />Patient<br />Organization (service provider)<br />Organization (attendance source)<br />Location (UEC facility)<br />ProfessionalRole (each professional)<br />Condition (chief complaint)<br />Condition (each comorbidity)<br />DocumentReference (discharge information) |
+| uec-arrival<br /><br /><br /><br /><br /> | On completion of registering the <br />patient’s arrival at the UEC facility<br /><br /><br /> <br />| UEC Encounter <br />Patient<br />Organization (service provider)<br />Organization (attendance source)<br />Location (UEC facility) |
+| uec-triage<br /><br /><br /><br /><br /><br /><br /><br /> | On completion of recording the <br />triage assessment<br /><br /><br /> <br /><br /><br /><br />| UEC Encounter <br />Patient<br />Organization (service provider)<br />Organization (attendance source)<br />Location (UEC facility)<br />ProfessionalRole (e.g. triage nurse)<br />Condition (chief complaint)<br />Condition (each comorbidity) |
+| uec-discharge<br /><br /><br /><br /><br /><br /><br /><br /><br /> | On completion of the UEC attendance <br />i.e. the point of discharge<br /><br /><br /><br /><br /><br /><br /><br />| UEC Encounter <br />Patient<br />Organization (service provider)<br />Organization (attendance source)<br />Location (UEC facility)<br />ProfessionalRole (each professional)<br />Condition (chief complaint)<br />Condition (each comorbidity)<br />DocumentReference (discharge information) |
 
 These message events have been captured in a dedicated code system that can be extended as the scope increases through the project phases:
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent}}
