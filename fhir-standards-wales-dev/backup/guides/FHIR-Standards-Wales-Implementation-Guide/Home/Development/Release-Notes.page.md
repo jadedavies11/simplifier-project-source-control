@@ -41,6 +41,8 @@ Package:
     * Changes to Naming Systems
         * New Naming Systems
             * Namespaces for PAS link identifiers
+        * Updated Naming Systems
+            * Corrected Sub-Specialty id from Speciality to Specialty
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Urgent and Emergency Care
@@ -70,6 +72,7 @@ Guide:
 * Correct title page for Extension Data Standards Wales Speciality to align with IG standards
 * Alphabetised yaml toc files
 * Standardised examples names in Example Index page
+
 
 
 ### v2.4.0 STU2
