@@ -33,8 +33,8 @@ These pages contain guidance on the following areas:
 	</div>
 			<div class="col-md-7 card text-center">
   <div class="card-body">
-    <h4 class="card-title"><b>{{pagelink:Version-Control-and-Ballot-Process}}</b></h4>
-    <p class="card-text">Outline of how active, draft, and experimental resources should be handled by implementers</p>
+    <h4 class="card-title"><b>{{pagelink:Development}}</b></h4>
+    <p class="card-text">Outline of version management and how active, draft, and experimental resources should be handled by implementers</p>
 				</div>
 				</div>
 				<div class="col-md-7 card text-center">
