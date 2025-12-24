@@ -1,4 +1,4 @@
-## {{page-title}}
+### {{page-title}}
 
 Alongside version numbering, the Wales FHIR Implementation Guide employs status categories based on HL7 FHIR terminology. These are categorical terms used to denote the stability and risk of an asset. 
 

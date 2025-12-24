@@ -1,4 +1,4 @@
-## {{page-title}}
+### {{page-title}}
 
 Standards for Trial Use (STU) – Used to describe releases, the STU is usually suffixed with a number to denote the current version (e.g. STU1, STU2, etc.) and the number will increase after every ballot.
 
