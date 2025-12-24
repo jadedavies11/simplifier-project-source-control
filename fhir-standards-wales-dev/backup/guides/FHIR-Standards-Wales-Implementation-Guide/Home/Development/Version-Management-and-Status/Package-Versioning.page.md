@@ -1,4 +1,4 @@
-## {{page-title}}
+### {{page-title}}
 
 Wales FHIR Standards use Simplifier NPM packages to release the FHIR Conformance Assets. The NPM package name format is all lower case and formatted as:
 

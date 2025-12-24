@@ -1,4 +1,4 @@
-## {{page-title}}
+### {{page-title}}
 
 Version data, using the Semantic Versioning Standards format, is reflected in the version elements for the following assets:
 * Profiles
