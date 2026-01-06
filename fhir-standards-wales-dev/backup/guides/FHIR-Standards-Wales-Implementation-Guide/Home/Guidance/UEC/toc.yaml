@@ -1,4 +1,6 @@
 - name: Index
   filename: Index.page.md
-- name: UEC Trial Messaging Assets
-  filename: UEC-Trial-Messaging-Assets.page.md
+- name: Urgent and Emergency Care
+  filename: UEC-Guidance.page.md
+- name: UEC End-to-End Scenario
+  filename: UEC-e2e-Scenario.page.md
