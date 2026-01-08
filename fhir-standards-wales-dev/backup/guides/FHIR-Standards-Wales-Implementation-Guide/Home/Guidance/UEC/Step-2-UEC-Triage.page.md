@@ -1,7 +1,7 @@
 The second data submission occurs after the patient has been triaged at the UEC facility and the acuity of the attendance determined.
 
-<div class="tab-wrap">
-  <ul class="tab-head">
+<div class="tab-wrap" id="tabs2">
+  <ul class="tab-head" id="tabs2head">
     <li class="tablink tab-active" onclick="openCity(this,'tabnarrative2')" data-target="tabnarrative2">
       Step Narrative
     </li>
@@ -18,7 +18,7 @@ The second data submission occurs after the patient has been triaged at the UEC 
       Example Bundle
     </li>  
   </ul>
-  <div class="tab-main">
+  <div class="tab-main" id="tabs2main">
     <div id="tabnarrative2" class="tabcontent active">
        At 12:12 Marjorie was assessed by triage nurse Mrs Lisa Potts as requiring standard level emergency care acuity and the swollen ankle was recorded together with the comorbidities of asthma and hypertension. 
     </div>
