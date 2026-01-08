@@ -1,7 +1,7 @@
 The first data submission occurs after the patient arrival at the UEC facility has been registered.  
 
-<div class="tab-wrap">
-  <ul class="tab-head">
+<div class="tab-wrap" id="tabs1">
+  <ul class="tab-head" id="tabs1head">
     <li class="tablink tab-active" onclick="openCity(this,'tabnarrative1')" data-target="tabnarrative1">
       Step Narrative
     </li>
@@ -18,7 +18,7 @@ The first data submission occurs after the patient arrival at the UEC facility h
       Example Bundle
     </li>  
   </ul>
-  <div class="tab-main">
+  <div class="tab-main" id="tabs1main">
     <div id="tabnarrative1" class="tabcontent active">
        Ms Marjorie Pryor attends the Emergency Unit Minor Injuries facility of University Hospital of Wales at 12:00 on 02/12/2025 with a painful swollen ankle. She has been advised to attend by her GP at North Cardiff Medical Centre and an appointment was booked for 12:15. She travelled to the appointment by bus. This was her first UEC attendance for the condition.
     </div>

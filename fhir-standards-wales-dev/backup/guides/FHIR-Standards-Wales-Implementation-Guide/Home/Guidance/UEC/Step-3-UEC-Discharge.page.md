@@ -1,7 +1,7 @@
 The final data submission occurs after the patient has been discharged at the UEC facility.
 
-<div class="tab-wrap">
-  <ul class="tab-head">
+<div class="tab-wrap" id="tabs3">
+  <ul class="tab-head" id="tabs3head">
     <li class="tablink tab-active" onclick="openCity(this,'tabnarrative3')" data-target="tabnarrative3">
       Step Narrative
     </li>
@@ -18,7 +18,7 @@ The final data submission occurs after the patient has been discharged at the UE
       Example Bundle
     </li>  
   </ul>
-  <div class="tab-main">
+  <div class="tab-main"  id="tabs3main">
     <div id="tabnarrative3" class="tabcontent active">
        Marjorie was seen by a health care assistant and a consultant during the visit, the first at 12:30. The consultations resulted in a diagnosis of a sprained ankle and appropriate management, before Marjorie was discharged to home at 14:35, with advice for follow-up via her general practitioner. A copy of the discharge letter was provided to her at the point of discharge.
     </div>
