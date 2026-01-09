@@ -6,10 +6,6 @@
   filename: Example-DataStandardsWales-AuditEvent-CreateObservations.page.md
 - name: Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI
   filename: Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI.page.md
-- name: Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
-  filename: Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI.page.md
-- name: Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI
-  filename: Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
