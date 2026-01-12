@@ -72,6 +72,7 @@ Guide:
 * Correct title page for Extension Data Standards Wales Speciality to align with IG standards
 * Alphabetised yaml toc files
 * Standardised examples names in Example Index page
+* Replaced HL7 R5 AuditEvent link with HL7 R4 AuditEvent link in DataStandardsWales-AuditEvent IG page
 
 
 
