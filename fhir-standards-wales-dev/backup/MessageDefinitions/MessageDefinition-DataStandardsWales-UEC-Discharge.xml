@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MessageDefinition xmlns="http://hl7.org/fhir">
-	<id value="MessageDefinition-DataStandardsWales-UEC-Arrival"/>
-	<url value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-UEC-Arrival"/>
-	<name value="MessageDefinitionDataStandardsWalesUECArrival"/>
-	<title value="Message Definition Data Standards Wales UEC Arrival"/>
+	<id value="MessageDefinition-DataStandardsWales-UEC-Discharge"/>
+	<url value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-UEC-Discharge"/>
+	<name value="MessageDefinitionDataStandardsWalesUECDischarge"/>
+	<title value="Message Definition Data Standards Wales UEC Discharge"/>
 	<status value="draft"/>
 	<date value="2025-12-19"/>
 	<publisher value="NHS Wales"/>
@@ -15,11 +15,11 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="Message to record patient arrival at a UEC facility."/>
+	<description value="Message to record patient discharge from a UEC facility."/>
 	<eventCoding>
 		<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>
-		<code value="uec-arrival"/>
-		<display value="UEC arrival"/>
+		<code value="uec-discharge"/>
+		<display value="UEC discharge"/>
 	</eventCoding>
 	<focus>
 		<code value="Encounter"/>
@@ -43,6 +43,30 @@
 		<code value="Location"/>
 		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location"/>
 		<min value="1"/>
+		<max value="1"/>
+	</focus>
+	<focus>
+		<code value="PractitionerRole"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+		<min value="1"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="Practitioner"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"/>
+		<min value="1"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="Condition"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition"/>
+		<min value="1"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="DocumentReference"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
+		<min value="0"/>
 		<max value="1"/>
 	</focus>
 </MessageDefinition>
