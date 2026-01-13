@@ -11,6 +11,8 @@ Package:
     * New Extensions 
     * New Message Definitions
         * MessageDefinition-DataStandardsWales-UEC-Arrival
+        * MessageDefinition-DataStandardsWales-UEC-Triage
+        * MessageDefinition-DataStandardsWales-UEC-Discharge
     * Changes to Profiles
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.2.0 to 1.3.0
@@ -47,6 +49,8 @@ Package:
     * New Examples
         * Urgent and Emergency Care
             * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
+            * Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)
+            * Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)
         * FHIR Messaging guidance
             * Example Message Bundle - Submit Clinician (Logical Referencing)
             * Example Message Bundle - Submit Clinician (Literal FHIR Referencing)
