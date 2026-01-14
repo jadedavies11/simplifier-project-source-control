@@ -5,7 +5,7 @@
 ### Overview
 The [AuditEvent](https://www.hl7.org/fhir/r4/auditevent.html) resource records events for the purpose of security log maintenance. Typical uses include detection of intrusion attempts and monitoring for inappropriate usage.
 
-The {{page-title}} profile is derived from the [HL7 R4 AuditEvent](http://hl7.org/fhir/R4/auditevent.html). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [HL7 R4 AuditEvent](http://hl7.org/fhir/auditevent.html). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-AuditEvent}}
 
