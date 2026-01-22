@@ -2,33 +2,372 @@
 
 The following Extensions have been defined for this implementation guide.
 
-| Extensions | Bound to Profile | Bound to element | ValueSets | Based on NHS Wales Standard | Backport |
-| --- | --- | --- | --- | --- | --- |
-| {{pagelink:Extension-DataStandardsWales-AdministeredProduct}}| {{pagelink:DataStandardsWales-Immunization}} | Immunization.extension:DataStandardsWalesAdministeredProduct |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-ClinicCode}} | {{pagelink:DataStandardsWales-Appointment}} | Appointment.extension:clinicCode |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated}}  | {{pagelink:DataStandardsWales-Immunization}} | Immunization.extension:DataStandardsWalesDateProcedureLastUpdated |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-DemographicsAsRecorded}} | {{pagelink:DataStandardsWales-Provenance}} | Provenance.extension:extensionDataStandardsWalesDemographicsAsRecorded | [AdministrativeGender](https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/3001742) |   |   |
-| {{pagelink:Extension-DataStandardsWales-DocumentAttester}} | {{pagelink:DataStandardsWales-DocumentReference}}  | DocumentReference.extension:attesterR5 | [composition-attestation-mode](https://hl7.org/fhir/valueset-composition-attestation-mode.html) | | R5 Backport |
-| {{pagelink:Extension-DataStandardsWales-DocumentAttribute}}| {{pagelink:DataStandardsWales-DocumentReference}} | DocumentReference.extension:documentAttribute | [FHIRStandardsWalesDocumentAttribute](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139681) |  |   |
-| {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} | {{pagelink:DataStandardsWales-DocumentReference}} | DocumentReference.extension:digitalStatus | [DataStandardsWalesDocumentDigitalStatus](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139426) |  |   |
-| {{pagelink:Extension-DataStandardsWales-DocumentErrorAction}} | {{pagelink:DataStandardsWales-DocumentReference}} | DocumentReference.extension:errorAction |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}} | {{pagelink:DataStandardsWales-DocumentReference}} | DocumentReference.extension:errorStatus |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-DocumentVersion}} | {{pagelink:DataStandardsWales-DocumentReference}} | DocumentReference.extension:versionR5 |  |   | R5 Backport |
-| {{pagelink:Extension-DataStandardsWales-ForecastCreationSource}} | {{pagelink:DataStandardsWales-Immunization}} | Immunization.extension:DataStandardsWalesForecastCreationSource |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-Immunization.basedOn}}  | {{pagelink:DataStandardsWales-Immunization}} | Immunization.extension:DataStandardsWalesImmunizationBasedOn |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-MedicationCourseOfTherapyType}} | {{pagelink:DataStandardsWales-MedicationStatement}} | MedicationStatement.extension:medicationCourseOfTherapyType |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-Occupation}}  | {{pagelink:DataStandardsWales-Patient}} | Patient.extension:occupation | [DataStandardsWalesOccupation](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139471) | [Core Reference Data Standards](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm) |   |
-| {{pagelink:Extension-DataStandardsWales-RecordingSetting}}| {{pagelink:DataStandardsWales-Observation-VitalSigns}}  | Observation.extension:recordingSetting | [DataStandardsWalesRecordingSetting](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139490) |   |   |
-| {{pagelink:Extension-DataStandardsWales-RecordingSetting}}| {{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}} | Observation.extension:recordingSetting | [DataStandardsWalesRecordingSetting](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139490) |   |   |
-| {{pagelink:Extension-DataStandardsWales-RecordingSetting}}| {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}  | Observation.extension:recordingSetting | [DataStandardsWalesRecordingSetting](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139490) |   |   |
-| {{pagelink:Extension-DataStandardsWales-RecordingSetting}}| {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}  | Observation.extension:recordingSetting | [DataStandardsWalesRecordingSetting](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139490) |   |   |
-| {{pagelink:Extension-DataStandardsWales-Religion}} | {{pagelink:DataStandardsWales-Patient}} | Patient.extension:religion | [DataStandardsWalesReligion](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139492) | [Core Reference Data Standards](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm) |   |
-| {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy}} | {{pagelink:DataStandardsWales-AllergyList}} | List.extension:SingleRecordAllergiesListConfirmedBy |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}} | {{pagelink:DataStandardsWales-AllergyList}} | List.extension:SingleRecordAllergiesListConfirmedDate |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated}} | {{pagelink:DataStandardsWales-AllergyList}} | List.extension:SingleRecordAllergiesListUpdated |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-SourceSystem}}| {{pagelink:DataStandardsWales-DocumentReference}} | DocumentReference.extension:sourceSystem |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-Speciality}}  | {{pagelink:DataStandardsWales-Encounter}} | Encounter.extension:Speciality |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-Speciality}}  | {{pagelink:DataStandardsWales-Encounter-UEC}} | Encounter.extension:Speciality |  |   |   |
-| {{pagelink:Extension-DataStandardsWales-UECAttendanceCategory}}| {{pagelink:DataStandardsWales-Encounter-UEC}} | UEC Encounter.extension:uecAttendanceCategory | [DataStandardsWalesUECAttendanceCategory](https://simplifier.net/packages/fhir.r4.wales/2.4.0/files/3139509) | [Welsh Emergency Care Data DSCN](https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/data-standard-change-notices-docs/dscns-2024/20240718-dscn-2024-12-welsh-emergency-care-data-set-0-3-2-pdf1/) |   |
-| {{pagelink:Extension-DataStandardsWales-UECDischargeInformationGiven}}  | {{pagelink:DataStandardsWales-Encounter-UEC}} | Encounter.extension:uecDischargeInformationGiven |  | [Welsh Emergency Care Data DSCN](https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/data-standard-change-notices-docs/dscns-2024/20240718-dscn-2024-12-welsh-emergency-care-data-set-0-3-2-pdf1/) |   |
-| {{pagelink:Extension-DataStandardsWales-UECExpectedTimeOfTreatment}} | {{pagelink:DataStandardsWales-Encounter-UEC}} | Encounter.extension:uecExpectedTimeOfTreatment |  | [Welsh Emergency Care Data DSCN](https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/data-standard-change-notices-docs/dscns-2024/20240718-dscn-2024-12-welsh-emergency-care-data-set-0-3-2-pdf1/) |   |
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th scope="col">Extension</th>
+			<th scope="col">Bound to Profile</th>
+			<th scope="col">Bound to Profile Element</th>
+			<th scope="col">ValueSet</th>
+			<th scope="col">CodeSystem</th>
+			<th scope="col">NHS Wales Standard</th>
+			<th scope="col">Backported</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999538">bodyPosition</a>
+			</td>
+			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
+			<td>Observation.extension:bodyPosition</td>
+			<td>
+				<a href="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition">DataStandardsWalesBodyPosition</a>
+			</td>
+			<td>SNOMED CT/td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+		<tr>
+			<td>
+				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999538">bodyPosition</a>
+			</td>
+			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
+			<td>Observation.extension:bodyPosition</td>
+			<td>
+				<a href="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition">DataStandardsWalesBodyPosition</a>
+			</td>
+			<td>SNOMED CT/td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999538">bodyPosition</a>
+			</td>
+			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
+			<td>Observation.extension:bodyPosition</td>
+			<td>
+				<a href="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition">DataStandardsWalesBodyPosition</a>
+			</td>
+			<td>SNOMED CT/td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999538">bodyPosition</a>
+			</td>
+			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
+			<td>Observation.extension:bodyPosition</td>
+			<td>
+				<a href="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition">DataStandardsWalesBodyPosition</a>
+			</td>
+			<td>SNOMED CT/td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-AdministeredProduct}}</td>
+			<td>{{pagelink:DataStandardsWales-Immunization}}</td>
+			<td>Immunization.extension:DataStandardsWalesAdministeredProduct</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-ClinicCode}}</td>
+			<td>{{pagelink:DataStandardsWales-Appointment}}</td>
+			<td>Appointment.extension:clinicCode</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated}}</td>
+			<td>{{pagelink:DataStandardsWales-Immunization}}</td>
+			<td>Immunization.extension:DataStandardsWalesDateProcedureLastUpdated</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-DemographicsAsRecorded}}</td>
+			<td>{{pagelink:DataStandardsWales-Provenance}}</td>
+			<td>Provenance.extension:extensionDataStandardsWalesDemographicsAsRecorded</td>
+			<td>
+				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/3001742">AdministrativeGender</a>
+			</td>
+			<td>
+				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/3001376">AdministrativeGender</a>
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-DocumentAttester}}</td>
+			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+			<td>DocumentReference.extension:attesterR5</td>
+			<td>
+				<a href="https://hl7.org/fhir/valueset-composition-attestation-mode.html">composition-attestation-mode</a>
+			</td>
+			<td>
+				<a href="https://hl7.org/fhir/codesystem-composition-attestation-mode.html">composition-attestation-mode</a>
+			</td>
+			<td></td>
+			<td>R5 Backport</td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-DocumentAttribute}}</td>
+			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+			<td>DocumentReference.extension:documentAttribute</td>
+			<td>{{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute}}</td>
+			<td>{{pagelink:CodeSystem-FHIRStandardsWales-DocumentAttribute}}</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}}</td>
+			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+			<td>DocumentReference.extension:digitalStatus</td>
+			<td>{{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}</td>
+			<td>{{pagelink:CodeSystem-DataStandardsWales-DocumentDigitalStatus}}</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-DocumentErrorAction}}</td>
+			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+			<td>DocumentReference.extension:errorAction</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}}</td>
+			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+			<td>DocumentReference.extension:errorStatus</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-DocumentVersion}}</td>
+			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+			<td>DocumentReference.extension:versionR5</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>R5 Backport</td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-ForecastCreationSource}}</td>
+			<td>{{pagelink:DataStandardsWales-Immunization}}</td>
+			<td>Immunization.extension:DataStandardsWalesForecastCreationSource</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-Immunization.basedOn}}</td>
+			<td>{{pagelink:DataStandardsWales-Immunization}}</td>
+			<td>Immunization.extension:DataStandardsWalesImmunizationBasedOn</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-MedicationCourseOfTherapyType}}</td>
+			<td>{{pagelink:DataStandardsWales-MedicationStatement}}</td>
+			<td>MedicationStatement.extension:medicationCourseOfTherapyType</td>
+			<td>
+				<a href="https://terminology.hl7.org/7.0.1/ValueSet-medicationrequest-course-of-therapy.html">Medication request course of therapy codes</a>
+			</td>
+			<td>
+				<a href="https://terminology.hl7.org/7.0.1/CodeSystem-medicationrequest-course-of-therapy.html">MedicationRequest Course of Therapy Codes</a>
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-Occupation}}</td>
+			<td>{{DataStandardsWales-Patient}}</td>
+			<td>Patient.extension:occupation</td>
+			<td>{{pagelink:ValueSet-DataStandardsWales-Occupation}}</td>
+			<td>SNOMED CT</td>
+			<td>
+				<a href="https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm">Core Reference Data Standards</a>
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
+			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
+			<td>Observation.extension:recordingSetting</td>
+			<td>{{pagelink: ValueSet-DataStandardsWales-RecordingSetting}}</td>
+			<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
+			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
+			<td>Observation.extension:recordingSetting</td>
+			<td>{{pagelink: ValueSet-DataStandardsWales-RecordingSetting}}</td>
+			<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
+			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
+			<td>Observation.extension:recordingSetting</td>
+			<td>{{pagelink: ValueSet-DataStandardsWales-RecordingSetting}}</td>
+			<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
+			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
+			<td>Observation.extension:recordingSetting</td>
+			<td>{{pagelink: ValueSet-DataStandardsWales-RecordingSetting}}</td>
+			<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-Religion}}</td>
+			<td>{{pagelink:DataStandardsWales-Patient}}</td>
+			<td>Patient.extension:religion</td>
+			<td>{{pagelink:ValueSet-DataStandardsWales-Religion}}</td>
+			<td>SNOMED CT</td>
+			<td>
+				<a href="https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm">Core Reference Data Standards</a>
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy}}</td>
+			<td>{{pagelink:DataStandardsWales-AllergyList}}</td>
+			<td>List.extension:SingleRecordAllergiesListConfirmedBy</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}}</td>
+			<td>{{pagelink:DataStandardsWales-AllergyList}}</td>
+			<td>List.extension:SingleRecordAllergiesListConfirmedDate</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated}}</td>
+			<td>{{pagelink:DataStandardsWales-AllergyList}}</td>
+			<td>List.extension:SingleRecordAllergiesListUpdated</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-SourceSystem}}</td>
+			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+			<td>DocumentReference.extension:sourceSystem</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-Speciality}}</td>
+			<td>{{pagelink:DataStandardsWales-Encounter}}</td>
+			<td>Encounter.extension:Speciality</td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483924">ValueSet-UKCore-PracticeSettingCode</a>
+			</td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483923">CodeSystem-UKCore-PracticeSettingCode</a>
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-Speciality}}</td>
+			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+			<td>Encounter.extension:Speciality</td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483924">ValueSet-UKCore-PracticeSettingCode</a>
+			</td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483923">CodeSystem-UKCore-PracticeSettingCode</a>
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-UECAttendanceCategory}}</td>
+			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+			<td>Encounter.extension:uecAttendanceCategory</td>
+			<td>{{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}</td>
+			<td>{{pagelink:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}</td>	
+			<td>
+				<a href="https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/data-standard-change-notices-docs/dscns-2024/20240718-dscn-2024-12-welsh-emergency-care-data-set-0-3-2-pdf1/">Welsh Emergency Care Data 
+Set</a>
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-UECDischargeInformationGiven}}</td>
+			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+			<td>Encounter.extension:uecDischargeInformationGiven</td>
+			<td></td>
+			<td></td>	
+			<td>
+				<a href="https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/data-standard-change-notices-docs/dscns-2024/20240718-dscn-2024-12-welsh-emergency-care-data-set-0-3-2-pdf1/">Welsh Emergency Care Data 
+Set</a>
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>{{pagelink:Extension-DataStandardsWales-UECExpectedTimeOfTreatment}}</td>
+			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+			<td>Encounter.extension:uecExpectedTimeOfTreatment</td>
+			<td></td>
+			<td></td>	
+			<td>
+				<a href="https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/data-standard-change-notices-docs/dscns-2024/20240718-dscn-2024-12-welsh-emergency-care-data-set-0-3-2-pdf1/">Welsh Emergency Care Data 
+Set</a>
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2998643">modeOfArrival/a>
+			</td>
+			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+			<td>Encounter.extension:modeOfArrival</td>
+			<td>{{pagelink:ValueSet-DataStandardsWales-UEC-ArrivalMode}}</td>
+			<td>SNOMED CT</td>	
+			<td>
+				<a href="https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/data-standard-change-notices-docs/dscns-2024/20240718-dscn-2024-12-welsh-emergency-care-data-set-0-3-2-pdf1/">Welsh Emergency Care Data 
+Set</a>
+			</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
