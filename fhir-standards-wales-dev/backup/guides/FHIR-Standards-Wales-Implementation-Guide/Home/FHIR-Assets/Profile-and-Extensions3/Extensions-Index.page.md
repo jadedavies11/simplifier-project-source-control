@@ -17,7 +17,7 @@ The following Extensions have been defined for this implementation guide.
 	</thead>
 	<tbody>
 		<tr>
-			<td>
+			<td scope="row">
 				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999538">bodyPosition</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
@@ -30,8 +30,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-		<tr>
-			<td>
+			<td scope="row">
 				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999538">bodyPosition</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
@@ -44,7 +43,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>
+			<td scope="row">
 				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999538">bodyPosition</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
@@ -57,7 +56,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>
+			<td scope="row">
 				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999538">bodyPosition</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
@@ -70,7 +69,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-AdministeredProduct}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-AdministeredProduct}}</td>
 			<td>{{pagelink:DataStandardsWales-Immunization}}</td>
 			<td>Immunization.extension:DataStandardsWalesAdministeredProduct</td>
 			<td></td>
@@ -79,7 +78,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-ClinicCode}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-ClinicCode}}</td>
 			<td>{{pagelink:DataStandardsWales-Appointment}}</td>
 			<td>Appointment.extension:clinicCode</td>
 			<td></td>
@@ -88,7 +87,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated}}</td>
 			<td>{{pagelink:DataStandardsWales-Immunization}}</td>
 			<td>Immunization.extension:DataStandardsWalesDateProcedureLastUpdated</td>
 			<td></td>
@@ -97,7 +96,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-DemographicsAsRecorded}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DemographicsAsRecorded}}</td>
 			<td>{{pagelink:DataStandardsWales-Provenance}}</td>
 			<td>Provenance.extension:extensionDataStandardsWalesDemographicsAsRecorded</td>
 			<td>
@@ -110,7 +109,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-DocumentAttester}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentAttester}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>DocumentReference.extension:attesterR5</td>
 			<td>
@@ -123,7 +122,7 @@ The following Extensions have been defined for this implementation guide.
 			<td>R5 Backport</td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-DocumentAttribute}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentAttribute}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>DocumentReference.extension:documentAttribute</td>
 			<td>{{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute}}</td>
@@ -132,7 +131,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>DocumentReference.extension:digitalStatus</td>
 			<td>{{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}</td>
@@ -141,7 +140,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-DocumentErrorAction}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentErrorAction}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>DocumentReference.extension:errorAction</td>
 			<td></td>
@@ -150,7 +149,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>DocumentReference.extension:errorStatus</td>
 			<td></td>
@@ -159,7 +158,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-DocumentVersion}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentVersion}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>DocumentReference.extension:versionR5</td>
 			<td></td>
@@ -168,7 +167,7 @@ The following Extensions have been defined for this implementation guide.
 			<td>R5 Backport</td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-ForecastCreationSource}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-ForecastCreationSource}}</td>
 			<td>{{pagelink:DataStandardsWales-Immunization}}</td>
 			<td>Immunization.extension:DataStandardsWalesForecastCreationSource</td>
 			<td></td>
@@ -177,7 +176,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-Immunization.basedOn}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-Immunization.basedOn}}</td>
 			<td>{{pagelink:DataStandardsWales-Immunization}}</td>
 			<td>Immunization.extension:DataStandardsWalesImmunizationBasedOn</td>
 			<td></td>
@@ -186,7 +185,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-MedicationCourseOfTherapyType}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-MedicationCourseOfTherapyType}}</td>
 			<td>{{pagelink:DataStandardsWales-MedicationStatement}}</td>
 			<td>MedicationStatement.extension:medicationCourseOfTherapyType</td>
 			<td>
@@ -199,8 +198,8 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-Occupation}}</td>
-			<td>{{DataStandardsWales-Patient}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-Occupation}}</td>
+			<td>{{pagelink:DataStandardsWales-Patient}}</td>
 			<td>Patient.extension:occupation</td>
 			<td>{{pagelink:ValueSet-DataStandardsWales-Occupation}}</td>
 			<td>SNOMED CT</td>
@@ -210,7 +209,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
 			<td>Observation.extension:recordingSetting</td>
 			<td>{{pagelink: ValueSet-DataStandardsWales-RecordingSetting}}</td>
@@ -219,7 +218,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
 			<td>Observation.extension:recordingSetting</td>
 			<td>{{pagelink: ValueSet-DataStandardsWales-RecordingSetting}}</td>
@@ -228,7 +227,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 			<td>Observation.extension:recordingSetting</td>
 			<td>{{pagelink: ValueSet-DataStandardsWales-RecordingSetting}}</td>
@@ -237,7 +236,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-RecordingSetting}}</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 			<td>Observation.extension:recordingSetting</td>
 			<td>{{pagelink: ValueSet-DataStandardsWales-RecordingSetting}}</td>
@@ -246,7 +245,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-Religion}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-Religion}}</td>
 			<td>{{pagelink:DataStandardsWales-Patient}}</td>
 			<td>Patient.extension:religion</td>
 			<td>{{pagelink:ValueSet-DataStandardsWales-Religion}}</td>
@@ -257,7 +256,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy}}</td>
 			<td>{{pagelink:DataStandardsWales-AllergyList}}</td>
 			<td>List.extension:SingleRecordAllergiesListConfirmedBy</td>
 			<td></td>
@@ -266,7 +265,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}}</td>
 			<td>{{pagelink:DataStandardsWales-AllergyList}}</td>
 			<td>List.extension:SingleRecordAllergiesListConfirmedDate</td>
 			<td></td>
@@ -275,7 +274,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated}}</td>
 			<td>{{pagelink:DataStandardsWales-AllergyList}}</td>
 			<td>List.extension:SingleRecordAllergiesListUpdated</td>
 			<td></td>
@@ -284,7 +283,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-SourceSystem}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-SourceSystem}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>DocumentReference.extension:sourceSystem</td>
 			<td></td>
@@ -293,7 +292,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-Speciality}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-Speciality}}</td>
 			<td>{{pagelink:DataStandardsWales-Encounter}}</td>
 			<td>Encounter.extension:Speciality</td>
 			<td>
@@ -306,7 +305,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-Speciality}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-Speciality}}</td>
 			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
 			<td>Encounter.extension:Speciality</td>
 			<td>
@@ -319,7 +318,7 @@ The following Extensions have been defined for this implementation guide.
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-UECAttendanceCategory}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-UECAttendanceCategory}}</td>
 			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
 			<td>Encounter.extension:uecAttendanceCategory</td>
 			<td>{{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}</td>
@@ -331,7 +330,7 @@ Set</a>
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-UECDischargeInformationGiven}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-UECDischargeInformationGiven}}</td>
 			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
 			<td>Encounter.extension:uecDischargeInformationGiven</td>
 			<td></td>
@@ -343,7 +342,7 @@ Set</a>
 			<td></td>
 		</tr>
 		<tr>
-			<td>{{pagelink:Extension-DataStandardsWales-UECExpectedTimeOfTreatment}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-UECExpectedTimeOfTreatment}}</td>
 			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
 			<td>Encounter.extension:uecExpectedTimeOfTreatment</td>
 			<td></td>
@@ -355,7 +354,7 @@ Set</a>
 			<td></td>
 		</tr>
 		<tr>
-			<td>
+			<td scope="row">
 				<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2998643">modeOfArrival/a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
