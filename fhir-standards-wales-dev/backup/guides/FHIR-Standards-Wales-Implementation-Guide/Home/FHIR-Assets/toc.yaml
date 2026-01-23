@@ -10,3 +10,7 @@
   filename: Profile2
 - name: Profiles and Extensions3
   filename: Profile-and-Extensions3
+- name: Profile4
+  filename: Profile4table.page.md
+- name: Extension4
+  filename: Extension4table.page.md
