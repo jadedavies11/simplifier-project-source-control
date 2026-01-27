@@ -6,7 +6,7 @@
 The [QuestionnaireResponse](https://www.hl7.org/fhir/r4/questionnaireresponse.html) resource that groups questions and answers in coherent subsets is response to a questionnaire.
 
 
-The {{page-title}} profile is derived from the [HL7 R4 Questionnaire](https://hl7.org/fhir/R4/questionnaireresponse.html). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [HL7 R4 QuestionnaireResponse](https://hl7.org/fhir/R4/questionnaireresponse.html). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse}}
 

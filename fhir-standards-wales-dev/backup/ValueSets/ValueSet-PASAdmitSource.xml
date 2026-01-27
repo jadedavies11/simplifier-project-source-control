@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="PASAdmitSource"/>
 	<url value="https://fhir.nhs.wales/ValueSet/PASAdmitSource"/>
-    <version value="0.0.1" />
+    <version value="0.0.2" />
     <name value="PASAdmitSource"/>
 	<title value="PAS Admit Source"/>
     <status value="draft" />
@@ -20,7 +20,7 @@
 	<copyright value="2025 NHS Wales." />
 	<compose>
 		<include>
-			<system value="https://fhir.nhs.wales/CodeSystem/PASAdmitSource"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/WPASAdmitSource"/>
 		</include>
 	</compose>
 </ValueSet>

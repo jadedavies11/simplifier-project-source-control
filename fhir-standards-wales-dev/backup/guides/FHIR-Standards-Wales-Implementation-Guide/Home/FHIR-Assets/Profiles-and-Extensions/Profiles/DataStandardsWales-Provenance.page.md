@@ -3,7 +3,7 @@
 ## {{page-title}}
 
 ### Overview
-The [Provenance](https://www.hl7.org/fhir/r4/provenance.html) resource tracks information about the activity that created, revised, deleted, or signed a version of a resource, describing the entities and agents involved.
+The [Provenance](https://hl7.org/fhir/r4/provenance.html) resource tracks information about the activity that created, revised, deleted, or signed a version of a resource, describing the entities and agents involved.
 
 The {{page-title}} profile is derived from the [HL7 R4 Provenance](http://hl7.org/fhir/Provenance.html). It defines additional rules for use within health and care organisations in Wales.
 
