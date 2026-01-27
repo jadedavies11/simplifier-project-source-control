@@ -1,9 +1,9 @@
 <div class="warning"><span class="ExperiWarn"></span></div>
 
 ## {{page-title}}
-The [Endpoint](https://www.hl7.org/fhir/r4/Endpoint.html) resource contains information about a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated. Typical examples include buildings, wards, corridors, rooms or beds, but may also include mobile clinics, a vehicle or lift, or a patient's home. 
+The [Endpoint](https://hl7.org/fhir/R4/endpoint.html) resource contains information about a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated. Typical examples include buildings, wards, corridors, rooms or beds, but may also include mobile clinics, a vehicle or lift, or a patient's home. 
 
-The {{page-title}} profile is derived from the [HL7 R4 Endpoint Standard](http://hl7.org/fhir/endpoint.html). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [HL7 R4 Endpoint Standard](https://hl7.org/fhir/R4/endpoint.html). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Endpoint}}
 

@@ -15,6 +15,12 @@ Package:
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.2.0 to 1.3.0
             * .requestor. Cardinality changed from 1..1 to 0..1 to align with UKCore.
+        * DataStandardsWales-Observation-VitalSigns-BMI
+        	* Updated version from 1.1.1 to 1.1.2
+        	* .code.coding. Valueset binding URL corrected
+        * DataStandardsWales-ServiceRequest
+        	* Updated version from 1.0.1 to 1.1.0
+	        * .reasonReference. Valueset binding updated from UKCore Condition to Data Standards Wales Condition
     * Changes to Extensions
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
@@ -37,6 +43,12 @@ Package:
             * Updated version from 1.0.0 to 1.1.0
             * Updated SNOMED CT 20250409 version 
             * Expanded SNOMED CT codes to show 50 concepts as sample
+		* DataStandardsWales-RecordingSetting
+			* Updated version from 1.0.0 to 1.0.1
+			* Valueset binding URL corrected
+		* ValueSet-PASAdmitSource
+			* Updated version from 0.0.1 to 0.0.2
+			* Valueset binding URL corrected
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
@@ -53,7 +65,7 @@ Package:
             * Example Message Definition - Submit Clinician
 
 Guide:
-* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks.
 * Added a new page to outline the DataStandardsWales-MessageDefinition profile
 * Added a new page to outline the DataStandardsWales-MessageHeader profile
 * Added new pages to outline the Message Definitions created in this release
@@ -67,11 +79,13 @@ Guide:
 * Added WRTS contact details to DataStandardsWales-Religion Value Set guide page
 * Removed duplicated examples from DataStandardsWales-Observation guide page. All examples are now located in the Examples tab of the Profile Content table
 * Renamed Naming Systems page in Design tab to Naming Systems Design
+* Renamed Example-DataStandardsWales-Bundle-Allergies-Update page to Example-DataStandardsWales-Bundle-Allergies-Upgrade
 * Updated page link in FHIR Assets Naming System from Naming System to Naming Systems Design
 * Standardised resource links in IG pages
 * Correct title page for Extension Data Standards Wales Speciality to align with IG standards
 * Alphabetised yaml toc files
 * Standardised examples names in Example Index page
+* Replaced HL7 R5 AuditEvent link with HL7 R4 AuditEvent link in DataStandardsWales-AuditEvent IG page
 
 
 

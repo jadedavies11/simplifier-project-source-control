@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-ServiceRequest" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
-  <version value="1.0.1" />
+  <version value="1.1.0" />
   <name value="DataStandardsWalesServiceRequest" />
   <title value="Data Standards Wales Service Request" />
   <status value="active" />
@@ -91,7 +91,7 @@
       <path value="ServiceRequest.reasonReference" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
