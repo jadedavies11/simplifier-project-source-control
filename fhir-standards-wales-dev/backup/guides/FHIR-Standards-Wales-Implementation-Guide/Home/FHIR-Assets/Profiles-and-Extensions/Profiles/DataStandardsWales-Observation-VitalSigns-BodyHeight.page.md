@@ -5,7 +5,7 @@
 ### Overview
 The [Observation VitalSigns BodyHeight](https://www.hl7.org/fhir/r4/observation.html) resource contains additional support for recording body height vital signs for clinical observations.
 
-The {{page-title}} profile is derived from the [UK Core Observation VitalSigns BodyHeight Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Observation-VitalSigns-BodyHeight?version=current). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Observation VitalSigns BodyHeight Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/home/profilesandextensions/UKCore-Observation-VitalSigns-BodyHeight?version=0.10.0). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyHeight}}
 

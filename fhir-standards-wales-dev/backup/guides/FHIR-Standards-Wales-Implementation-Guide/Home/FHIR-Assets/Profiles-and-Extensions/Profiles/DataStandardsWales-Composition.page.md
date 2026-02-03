@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [Composition](https://hl7.org/fhir/R4/composition.html) profile allows a record of a set of healthcare-related information that is assembled together into a single logical package that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement.
 
-The {{page-title}} profile is derived from the [UK Core Composition](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-Composition?version=current). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Composition](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-Composition?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Composition}}
 
