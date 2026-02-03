@@ -44,8 +44,6 @@
   filename: ValueSet-DataStandardsWales-PatientRecordType.page.md
 - name: ValueSet-DataStandardsWales-ProvenanceActivity
   filename: ValueSet-DataStandardsWales-ProvenanceActivity.page.md
-- name: ValueSet-DataStandardsWales-QuestionnaireQuestionCodes
-  filename: ValueSet-DataStandardsWales-QuestionnaireQuestionCodes.page.md
 - name: ValueSet-DataStandardsWales-RecordingSetting
   filename: ValueSet-DataStandardsWales-RecordingSetting.page.md
 - name: ValueSet-DataStandardsWales-Religion
@@ -65,9 +63,7 @@
 - name: ValueSet-DataStandardsWales-UEC-AttendanceSource
   filename: ValueSet-DataStandardsWales-UEC-AttendanceSource.page.md
 - name: ValueSet-DataStandardsWales-UEC-DischargeDestination
-  filename: ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md  
-- name: ValueSet-DataStandardsWales-WrrsTaskType
-  filename: ValueSet-DataStandardsWales-WrrsTaskType.page.md
+  filename: ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md
 - name: ValueSet-FHIRStandardsWales-DocumentAttribute
   filename: ValueSet-FHIRStandardsWales-DocumentAttribute.page.md
 - name: ValueSet-FHIRStandardsWales-DocumentErrorAction

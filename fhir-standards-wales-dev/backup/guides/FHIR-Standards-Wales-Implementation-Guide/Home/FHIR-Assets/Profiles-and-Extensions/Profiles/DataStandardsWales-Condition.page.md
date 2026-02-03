@@ -6,7 +6,7 @@
 The [Condition](https://www.hl7.org/fhir/R4/condition.html) resource describes a clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern. 
 
 The {{page-title}} 
-profile is derived from the [UK Core Condition Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Condition). It defines additional rules for use within health and care organisations in Wales. 
+profile is derived from the [UK Core Condition Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Condition?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. 
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition}}
 

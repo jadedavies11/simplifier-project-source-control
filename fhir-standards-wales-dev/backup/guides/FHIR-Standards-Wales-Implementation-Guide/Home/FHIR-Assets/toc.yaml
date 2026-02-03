@@ -4,3 +4,9 @@
   filename: Terminology
 - name: Naming Systems
   filename: Naming-Systems.page.md
+- name: New-Profiles
+  filename: New-Profile.page.md
+- name: New-Extensions
+  filename: New-Extension.page.md
+- name: Profiles-in-Resources
+  filename: Profiles-Resources.page.md

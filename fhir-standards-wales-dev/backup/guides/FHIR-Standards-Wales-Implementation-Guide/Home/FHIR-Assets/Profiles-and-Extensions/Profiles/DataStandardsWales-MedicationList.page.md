@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [List](https://www.hl7.org/fhir/r4/list.html) resource is a curated collection of resources. The Medication List profile is intended to provide a snapshot view of a patient's medications.
 
-The {{page-title}} profile is derived from the [UK Core List Profile](https://simplifier.net/packages/fhir.r4.ukcore.stu1/1.0.0/files/806176). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core List Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-List?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 For additional guidance on implementation of UK Core, [see here](https://simplifier.net/guide/UK-Core-Implementation-Guide/Home?version=1.0.0).
 

@@ -15,7 +15,6 @@ The following Code Systems have been defined for this implementation guide:
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-AttendanceCategory, text:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism, text:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism}}
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent, text:CodeSystem-DataStandardsWales-UEC-MessageEvent}}
-* {{pagelink:CodeSystem-DataStandardsWales-WrrsTaskType, text:CodeSystem-DataStandardsWales-WrrsTaskType}}
 * {{pagelink:CodeSystem-FHIRStandardsWales-DocumentAttribute, text:CodeSystem-FHIRStandardsWales-DocumentAttribute}}
 * {{pagelink:CodeSystem-FHIRStandardsWales-DocumentErrorAction, text:CodeSystem-FHIRStandardsWales-DocumentErrorAction}}
 * {{pagelink:CodeSystem-FHIRStandardsWales-DocumentErrorStatus, text:CodeSystem-FHIRStandardsWales-DocumentErrorStatus}}

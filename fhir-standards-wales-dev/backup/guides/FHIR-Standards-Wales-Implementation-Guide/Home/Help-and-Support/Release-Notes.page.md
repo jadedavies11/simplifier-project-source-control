@@ -11,7 +11,13 @@ Package:
     * New Extensions 
     * New Message Definitions
         * MessageDefinition-DataStandardsWales-UEC-Arrival
+    * Removed Profiles
+        * DataStandardsWales-Dosage
+            * Retired from active use in v2.3.0. Removed to prevent inappropriate use
     * Changes to Profiles
+        * DataStandardsWales-Appointment
+            * Updated version from 1.1.0 to 1.2.0
+            * .id and .title added   
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.2.0 to 1.3.0
             * .requestor. Cardinality changed from 1..1 to 0..1 to align with UKCore.
@@ -26,10 +32,16 @@ Package:
     * New Code Systems
         * DataStandardsWales-UEC-MessageEvent
     * Removed Code Systems
+        * DataStandardsWales-WRRSTaskType
+            * Initially introduced as an optional CodeSystem but not implemented. Removed to prevent inappropriate use
     * Changes to Code Systems
     * New Value Sets
         * DataStandardsWales-MessageEvent
     * Removed Value Sets
+        * DataStandardsWales-QuestionnaireQuestionCodes
+            * Initially introduced as an optional ValueSet but not implemented. Removed to prevent inappropriate use
+        * DataStandardsWales-WRRSTaskType
+            * Initially introduced as an optional ValueSet but not implemented. Removed to prevent inappropriate use
     * Changes to Value Sets
         * DataStandardsWales-EncounterType
             * Updated version from 1.0.0 to 1.1.0
@@ -78,6 +90,9 @@ Guide:
 * Added WRTS contact details to DataStandardsWales-Occupation Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Religion Value Set guide page
 * Removed duplicated examples from DataStandardsWales-Observation guide page. All examples are now located in the Examples tab of the Profile Content table
+* Removed DataStandardsWales-Dosage documentation
+* Removed DataStandardsWales-QuestionnaireQuestionCodes documentation
+* Removed DataStandardsWales-WRRSTaskType Code System and Value Set documentation
 * Renamed Naming Systems page in Design tab to Naming Systems Design
 * Renamed Example-DataStandardsWales-Bundle-Allergies-Update page to Example-DataStandardsWales-Bundle-Allergies-Upgrade
 * Updated page link in FHIR Assets Naming System from Naming System to Naming Systems Design

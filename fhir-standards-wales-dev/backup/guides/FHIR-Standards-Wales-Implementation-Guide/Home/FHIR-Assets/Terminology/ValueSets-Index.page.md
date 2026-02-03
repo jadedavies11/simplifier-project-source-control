@@ -25,7 +25,6 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-OxygenSaturation, text:ValueSet-DataStandardsWales-OxygenSaturation}}
 * {{pagelink:ValueSet-DataStandardsWales-PatientRecordType, text:ValueSet-DataStandardsWales-PatientRecordType}}
 * {{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity, text:ValueSet-DataStandardsWales-ProvenanceActivity}}
-* {{pagelink:ValueSet-DataStandardsWales-QuestionnaireQuestionCodes, text:ValueSet-DataStandardsWales-QuestionnaireQuestionCodes}}
 * {{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text:ValueSet-DataStandardsWales-RecordingSetting}}
 * {{pagelink:ValueSet-DataStandardsWales-Religion, text:ValueSet-DataStandardsWales-Religion}}
 * {{pagelink:ValueSet-DataStandardsWales-RespirationRate, text:ValueSet-DataStandardsWales-RespirationRate}}
@@ -36,7 +35,6 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceCategory, text:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceSource, text:ValueSet-DataStandardsWales-UEC-AttendanceSource}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-DischargeDestination, text:ValueSet-DataStandardsWales-UEC-DischargeDestination}}
-* {{pagelink:ValueSet-DataStandardsWales-WrrsTaskType, text:ValueSet-DataStandardsWales-WrrsTaskType}}
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute, text:ValueSet-FHIRStandardsWales-DocumentAttribute}}
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorAction, text:ValueSet-FHIRStandardsWales-DocumentErrorAction}}
 * {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus, text:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}

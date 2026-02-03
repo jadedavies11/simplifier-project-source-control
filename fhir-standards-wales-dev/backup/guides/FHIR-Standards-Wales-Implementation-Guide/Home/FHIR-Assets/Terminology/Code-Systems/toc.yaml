@@ -24,8 +24,6 @@
   filename: CodeSystem-DataStandardsWales-UEC-AttendanceCategory.page.md  
 - name: CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism
   filename: CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism.page.md
-- name: CodeSystem-DataStandardsWales-WrrsTaskType
-  filename: CodeSystem-DataStandardsWales-WrrsTaskType.page.md
 - name: CodeSystem-FHIRStandardsWales-DocumentAttribute
   filename: CodeSystem-FHIRStandardsWales-DocumentAttribute.page.md
 - name: CodeSystem-FHIRStandardsWales-DocumentErrorAction

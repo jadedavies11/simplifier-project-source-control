@@ -5,7 +5,7 @@
 ### Overview
 The [RelatedPerson](https://www.hl7.org/fhir/r4/relatedperson.html) resource is about the information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.
 
-The {{page-title}} profile is derived from the [UK Core RelatedPerson Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-RelatedPerson). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core RelatedPerson Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-RelatedPerson?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson}}
 
