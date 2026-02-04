@@ -12,8 +12,8 @@ The following Profiles have been defined for this implementation guide and group
 </ul>
 <p><b>Diagnostics:</b></p>
 <ul>
-<li>{{pagelink:pagelink:DataStandardsWales-DiagnosticReport}}</li>
-<li>{{DataStandardsWales-DiagnosticReport-Lab}}</li>
+<li>{{pagelink:DataStandardsWales-DiagnosticReport}}</li>
+<li>{{pagelink:DataStandardsWales-DiagnosticReport-Lab}}</li>
 <li>{{pagelink:DataStandardsWales-Endpoint}}</li>
 <li>{{pagelink:DataStandardsWales-ImagingStudy}}</li>
 <li>{{pagelink:DataStandardsWales-Observation}}</li>
@@ -30,14 +30,14 @@ The following Profiles have been defined for this implementation guide and group
 <li>{{pagelink:DataStandardsWales-Location}}</li>
 <li>{{pagelink:DataStandardsWales-Organization}}</li>
 <li>{{pagelink:DataStandardsWales-Questionnaire}}</li>
-<li>{{DataStandardsWales-QuestionnaireResponse}}</li>
+<li>{{pagelink:DataStandardsWales-QuestionnaireResponse}}</li>
 </ul>
 <p><b>Medication:</b></p>
 <ul>
 <li>{{pagelink:DataStandardsWales-Immunization}}</li>
 <li>{{pagelink:DataStandardsWales-ImmunizationRecommendation}}</li>
 <li>{{pagelink:DataStandardsWales-Medication}}</li>
-<li>{{DataStandardsWales-MedicationAdministration}}</li>
+<li>{{pagelink:DataStandardsWales-MedicationAdministration}}</li>
 <li>{{pagelink:DataStandardsWales-MedicationDispense}}</li>
 <li>{{pagelink:DataStandardsWales-MedicationList}}</li>
 <li>{{pagelink:DataStandardsWales-MedicationRequest}}</li>

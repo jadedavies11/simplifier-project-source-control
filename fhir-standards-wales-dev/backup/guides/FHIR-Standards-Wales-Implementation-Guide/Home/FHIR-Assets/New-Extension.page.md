@@ -16,8 +16,8 @@ The following Extensions have been defined for this implementation guide.
     <col style="width: 16%;">
     <col style="width: 21%;">
     <col style="width: 16%;">
-    <col style="width: 12%;">
     <col style="width: 14%;">
+    <col style="width: 12%;">
     <col style="width: 9%;">
   </colgroup>
 
