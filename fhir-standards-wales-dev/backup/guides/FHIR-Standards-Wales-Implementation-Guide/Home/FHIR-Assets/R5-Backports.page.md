@@ -32,7 +32,7 @@ The following Extensions are backported from R5 and are used in the implementati
 	</thead>
 	<tbody>
 		<tr>
-			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentAttester}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentAttester, text:DataStandardsWales-DocumentAttester}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>extension:attesterR5</td>
 			<td>
@@ -44,7 +44,7 @@ The following Extensions are backported from R5 and are used in the implementati
 			<td>CodeableConcept, dateTime, Reference</td>
 		</tr>
 		<tr>
-			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentVersion}}</td>
+			<td scope="row">{{pagelink:Extension-DataStandardsWales-DocumentVersion, text:DataStandardsWales-DocumentVersion}}</td>
 			<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
 			<td>extension:versionR5</td>
 			<td></td>
@@ -53,7 +53,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483769">Extension-UKCore-DiagnosticReportComposition</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483769">UKCore-DiagnosticReportComposition</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-DiagnosticReport}}</td>
 			<td>extension:compositionReferenceR5</td>
@@ -63,7 +63,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483769">Extension-UKCore-DiagnosticReportComposition</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483769">UKCore-DiagnosticReportComposition</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-DiagnosticReport-Lab}}</td>
 			<td>extension:compositionReferenceR5</td>
@@ -73,7 +73,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483770">Extension-UKCore-DiagnosticReportNote</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483770">UKCore-DiagnosticReportNote</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-DiagnosticReport}}</td>
 			<td>extension:noteR5</td>
@@ -83,7 +83,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483770">Extension-UKCore-DiagnosticReportNote</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483770">UKCore-DiagnosticReportNote</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-DiagnosticReport-Lab}}</td>
 			<td>extension:noteR5</td>
@@ -93,7 +93,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483771">Extension-UKCore-DiagnosticReportSupportingInfo</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483771">UKCore-DiagnosticReportSupportingInfo</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-DiagnosticReport}}</td>
 			<td>extension:supportingInfoR5</td>
@@ -105,7 +105,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483771">Extension-UKCore-DiagnosticReportSupportingInfo</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483771">UKCore-DiagnosticReportSupportingInfo</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-DiagnosticReport-Lab}}</td>
 			<td>extension:supportingInfoR5</td>
@@ -117,7 +117,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">Extension-UKCore-ObservationBodyStructure</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">UKCore-ObservationBodyStructure</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation}}</td>
 			<td>extension:bodyStructureR5</td>
@@ -127,7 +127,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">Extension-UKCore-ObservationBodyStructure</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">UKCore-ObservationBodyStructure</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-Lab}}</td>
 			<td>extension:bodyStructureR5</td>
@@ -137,7 +137,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">Extension-UKCore-ObservationBodyStructure</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">UKCore-ObservationBodyStructure</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
 			<td>extension:bodyStructureR5</td>
@@ -147,7 +147,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">Extension-UKCore-ObservationBodyStructure</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">UKCore-ObservationBodyStructure</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
 			<td>extension:bodyStructureR5</td>
@@ -157,7 +157,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">Extension-UKCore-ObservationBodyStructure</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">UKCore-ObservationBodyStructure</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 			<td>extension:bodyStructureR5</td>
@@ -167,7 +167,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">Extension-UKCore-ObservationBodyStructure</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483786">UKCore-ObservationBodyStructure</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 			<td>extension:bodyStructureR5</td>
@@ -177,7 +177,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">Extension-UKCore-ObservationTriggeredBy</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">UKCore-ObservationTriggeredBy</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation}}</td>
 			<td>extension:triggeredByR5</td>
@@ -191,7 +191,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">Extension-UKCore-ObservationTriggeredBy</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">UKCore-ObservationTriggeredBy</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-Lab}}</td>
 			<td>extension:triggeredByR5</td>
@@ -205,7 +205,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">Extension-UKCore-ObservationTriggeredBy</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">UKCore-ObservationTriggeredBy</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
 			<td>extension:triggeredByR5</td>
@@ -219,7 +219,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">Extension-UKCore-ObservationTriggeredBy</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">UKCore-ObservationTriggeredBy</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
 			<td>extension:triggeredByR5</td>
@@ -233,7 +233,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">Extension-UKCore-ObservationTriggeredBy</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">UKCore-ObservationTriggeredBy</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 			<td>extension:triggeredByR5</td>
@@ -247,7 +247,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">Extension-UKCore-ObservationTriggeredBy</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483787">UKCore-ObservationTriggeredBy</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 			<td>extension:triggeredByR5</td>
@@ -261,7 +261,7 @@ The following Extensions are backported from R5 and are used in the implementati
 		</tr>
 		<tr>
 			<td scope="row">
-				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483796">Extension-UKCore-SpecimenCollectionCollector</a>
+				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483796">UKCore-SpecimenCollectionCollector</a>
 			</td>
 			<td>{{pagelink:DataStandardsWales-Specimen}}</td>
 			<td>collection.collector.extension:collectionCollectorR5</td>

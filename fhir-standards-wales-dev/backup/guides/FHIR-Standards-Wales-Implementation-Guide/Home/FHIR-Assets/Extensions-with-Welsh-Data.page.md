@@ -37,7 +37,7 @@ The following Extensions contain Welsh datasets.
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
 			<td>
-				<a href="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition">DataStandardsWalesBodyPosition</a>
+				<a href="https://simplifier.net/fhir-standards-wales/datastandardswales-bodyposition">DataStandardsWalesBodyPosition</a>
 			</td>
 			<td>SNOMED CT</td>
 			<td></td>
@@ -49,7 +49,7 @@ The following Extensions contain Welsh datasets.
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
 			<td>
-				<a href="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition">DataStandardsWalesBodyPosition</a>
+				<a href="https://simplifier.net/fhir-standards-wales/datastandardswales-bodyposition">DataStandardsWalesBodyPosition</a>
 			</td>
 			<td>SNOMED CT</td>
 			<td></td>
@@ -61,7 +61,7 @@ The following Extensions contain Welsh datasets.
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 			<td>
-				<a href="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition">DataStandardsWalesBodyPosition</a>
+				<a href="https://simplifier.net/fhir-standards-wales/datastandardswales-bodyposition">DataStandardsWalesBodyPosition</a>
 			</td>
 			<td>SNOMED CT</td>
 			<td></td>
@@ -73,7 +73,7 @@ The following Extensions contain Welsh datasets.
 			</td>
 			<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 			<td>
-				<a href="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition">DataStandardsWalesBodyPosition</a>
+				<a href="https://simplifier.net/fhir-standards-wales/datastandardswales-bodyposition">DataStandardsWalesBodyPosition</a>
 			</td>
 			<td>SNOMED CT</td>
 			<td></td>
@@ -149,7 +149,7 @@ The following Extensions contain Welsh datasets.
 			</td>
 			<td>
 				<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483864">UKCore-EmergencyCareOutcomeOfAttendanceWales</a>
-				<a SNOMED CT</a>
+				&nbsp;SNOMED CT
 			</td>
 			<td>
 				<a href="https://www.datadictionary.wales.nhs.uk/#!WordDocuments/outcomeofattendance.htm">Outcome of Attendance</a>
