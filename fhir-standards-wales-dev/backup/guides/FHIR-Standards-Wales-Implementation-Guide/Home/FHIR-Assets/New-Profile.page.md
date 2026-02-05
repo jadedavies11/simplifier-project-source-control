@@ -2,23 +2,34 @@
 
 The following Profiles have been defined for this implementation guide.
 
+<style>
+  th, td {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+</style>
 
+<table class="table table-striped" style="table-layout: fixed;">
+  <colgroup>
+    <col style="width: 40%;">
+    <col style="width: 40%;">
+    <col style="width: 20%;">
+  </colgroup>
 
-<table class="table table-striped">
-	<thead>
-		<tr>
-			<th scope="col">Profiles</th>
-			<th scope="col">Based on</th>
-			<th scope="col">Status</th>
-		</tr>
+<thead>
+	<tr>
+		<th scope="col">Profiles</th>
+		<th scope="col">Based on</th>
+		<th scope="col">Status</th>
+	</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td scope="row">{{pagelink:DataStandardsWales-AllergyIntolerance}}</td>
-			<td>
-				<a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-AllergyIntolerance?version=2.0.1">UKCore-AllergyIntolerance</a>
-			</td>
-			<td><span style="background-color:green;color:white">Active</span></td>
+	<tr>
+		<td scope="row">{{pagelink:DataStandardsWales-AllergyIntolerance}}</td>
+		<td>
+			<a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-AllergyIntolerance?version=2.0.1">UKCore-AllergyIntolerance</a>
+		</td>
+		<td><span style="background-color:green;color:white">Active</span></td>
 		</tr>
 		<tr>
 			<td scope="row">{{pagelink:DataStandardsWales-AllergyList}}</td>
@@ -306,4 +317,3 @@ The following Profiles have been defined for this implementation guide.
 		<tr>
 	</tbody>
 	</table>
-
