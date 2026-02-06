@@ -216,7 +216,6 @@ Set</a>
 		</td>
 		<td>Coding</td>
 		<td>
-		
 			<a href="https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/data-standard-change-notices-docs/dscns-2024/20240718-dscn-2024-12-welsh-emergency-care-data-set-0-3-2-pdf1/">Welsh Emergency Care Data 
 Set</a>
 		</td>		
@@ -378,7 +377,10 @@ Set</a>
 		<td scope="row">{{pagelink:DataStandardsWales-Patient}}</td>
 		<td>{{pagelink:Extension-DataStandardsWales-Occupation, text:DataStandardsWales-Occupation}}</td>
 		<td>extension:occupation</td>
-		<td>{{pagelink:ValueSet-DataStandardsWales-Occupation}} &nbsp;SNOMED CT</td>
+		<td>
+			<a href="https://simplifier.net/fhir-standards-wales/datastandardswales-occupation">DataStandardsWales-Occupation</a>
+			&nbsp;SNOMED CT
+		</td>
 		<td>CodeableConcept</td>
 		<td>
 			<a href="https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm">Core Reference Data Standards</a>
@@ -389,7 +391,10 @@ Set</a>
 		<td scope="row">{{pagelink:DataStandardsWales-Patient}}</td>
 		<td>{{pagelink:Extension-DataStandardsWales-Religion, text:DataStandardsWales-Religion}}</td>
 		<td>Patient.extension:religion</td>
-		<td>{{pagelink:ValueSet-DataStandardsWales-Religion}} &nbsp;SNOMED CT</td>
+		<td>
+			<a href="https://simplifier.net/fhir-standards-wales/datastandardswales-religion">DataStandardsWales-Religion</a>
+			&nbsp;SNOMED CT
+		</td>
 		<td>CodeableConcept</td>
 		<td>
 			<a href="https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm">Core Reference Data Standards</a>

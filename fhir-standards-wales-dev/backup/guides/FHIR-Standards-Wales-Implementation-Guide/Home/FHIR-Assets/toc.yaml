@@ -4,15 +4,5 @@
   filename: Terminology
 - name: Naming Systems
   filename: Naming-Systems.page.md
-- name: New-Profiles
-  filename: New-Profile.page.md
-- name: New-Extensions
-  filename: New-Extension.page.md
-- name: Profiles-in-Resources
-  filename: Profiles-Resources.page.md
-- name: R5-Backports
-  filename: R5-Backports.page.md
-- name: DSW-Profiles-with-Welsh-Extensions
-  filename: DSW-Profile-with-Welsh-Extensions.page.md
-- name: Extensions-with-Welsh-Data
-  filename: Extensions-with-Welsh-Data.page.md
+- name: New-Profiles-and-Extensions
+  filename: New-Profiles-and-Extensions
