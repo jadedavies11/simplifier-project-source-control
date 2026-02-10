@@ -206,9 +206,9 @@ Set</a>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:DataStandardsWales-Encounter-UEC}}</td>	
-		</td>
-			<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2998643">modeOfArrival</a>
 		<td>
+			<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2998643">modeOfArrival</a>
+		</td>
 		<td>extension:modeOfArrival</td>
 		<td>
 			<a href="https://simplifier.net/fhir-standards-wales/datastandardswales-uec-arrivalmode">DataStandardsWales-UEC-ArrivalMode</a>
