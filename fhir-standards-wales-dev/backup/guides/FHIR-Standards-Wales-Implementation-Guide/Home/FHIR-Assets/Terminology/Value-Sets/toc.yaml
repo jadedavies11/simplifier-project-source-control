@@ -1,5 +1,7 @@
 - name: Index
   filename: Index.page.md
+- name: ValueSet-DataStandardsWales-BloodPressure-AliasType
+  filename: ValueSet-DataStandardsWales-BloodPressure-AliasType.page.md
 - name: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic
   filename: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic.page.md
 - name: ValueSet-DataStandardsWales-BloodPressure-Diastolic
@@ -28,6 +30,12 @@
   filename: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements.page.md
 - name: ValueSet-DataStandardsWales-HeartRate
   filename: ValueSet-DataStandardsWales-HeartRate.page.md
+- name: ValueSet-DataStandardsWales-LocationClassification
+  filename: ValueSet-DataStandardsWales-LocationClassification.page.md
+- name: ValueSet-DataStandardsWales-LocationForm
+  filename: ValueSet-DataStandardsWales-LocationForm.page.md
+- name: ValueSet-DataStandardsWales-LocationSubclassification
+  filename: ValueSet-DataStandardsWales-LocationSubclassification.page.md
 - name: ValueSet-DataStandardsWales-MainSpecialty
   filename: ValueSet-DataStandardsWales-MainSpecialty.page.md
 - name: ValueSet-DataStandardsWales-MaritalStatus
@@ -38,6 +46,14 @@
   filename: ValueSet-DataStandardsWales-ObservationVitalSignsType.page.md
 - name: ValueSet-DataStandardsWales-Occupation
   filename: ValueSet-DataStandardsWales-Occupation.page.md
+- name: ValueSet-DataStandardsWales-OrganizationClassification
+  filename: ValueSet-DataStandardsWales-OrganizationClassification.page.md
+- name: ValueSet-DataStandardsWales-OrganizationDomain
+  filename: ValueSet-DataStandardsWales-OrganizationDomain.page.md
+- name: ValueSet-DataStandardsWales-OrganizationSector
+  filename: ValueSet-DataStandardsWales-OrganizationSector.page.md
+- name: ValueSet-DataStandardsWales-OrganizationSublassification
+  filename: ValueSet-DataStandardsWales-OrganizationSubclassification.page.md
 - name: ValueSet-DataStandardsWales-OxygenSaturation
   filename: ValueSet-DataStandardsWales-OxygenSaturation.page.md
 - name: ValueSet-DataStandardsWales-PatientRecordType

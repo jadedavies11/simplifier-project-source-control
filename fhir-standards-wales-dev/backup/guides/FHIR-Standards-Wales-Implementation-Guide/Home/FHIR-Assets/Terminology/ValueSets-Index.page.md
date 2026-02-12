@@ -2,6 +2,7 @@
 
 The following Value Sets have been defined for this implementation guide:
 
+* {{pagelink:ValueSet-DataStandardsWales-BloodPressure-AliasType, text:ValueSet-DataStandardsWales-BloodPressure-AliasType}}
 * {{pagelink:ValueSet-DataStandardsWales-BloodPressure-AverageSystolic, text:ValueSet-DataStandardsWales-BloodPressure-AverageSystolic}}
 * {{pagelink:ValueSet-DataStandardsWales-BloodPressure-Diastolic, text:ValueSet-DataStandardsWales-BloodPressure-Diastolic}}
 * {{pagelink:ValueSet-DataStandardsWales-BloodPressure-Systolic, text:ValueSet-DataStandardsWales-BloodPressure-Systolic}}
@@ -17,11 +18,18 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
 * {{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements, text:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}
 * {{pagelink:ValueSet-DataStandardsWales-HeartRate, text:ValueSet-DataStandardsWales-HeartRate}}
+* {{pagelink:ValueSet-DataStandardsWales-LocationClassification, text:ValueSet-DataStandardsWales-LocationClassification}}
+* {{pagelink:ValueSet-DataStandardsWales-LocationForm, text:ValueSet-DataStandardsWales-LocationForm}}
+* {{pagelink:ValueSet-DataStandardsWales-LocationSubclassification, text:ValueSet-DataStandardsWales-LocationSubclassification}}
 * {{pagelink:ValueSet-DataStandardsWales-MainSpecialty, text:ValueSet-DataStandardsWales-MainSpecialty}}
 * {{pagelink:ValueSet-DataStandardsWales-MaritalStatus, text:ValueSet-DataStandardsWales-MaritalStatus}}
 * {{pagelink:ValueSet-DataStandardsWales-MessageEvent, text:ValueSet-DataStandardsWales-MessageEvent}}
 * {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text:ValueSet-DataStandardsWales-ObservationVitalSignsType}}
 * {{pagelink:ValueSet-DataStandardsWales-Occupation, text:ValueSet-DataStandardsWales-Occupation}}
+* {{pagelink:ValueSet-DataStandardsWales-OrganizationClassification, text:ValueSet-DataStandardsWales-OrganizationClassification}}
+* {{pagelink:ValueSet-DataStandardsWales-OrganizationDomain, text:ValueSet-DataStandardsWales-OrganizationDomain}}
+* {{pagelink:ValueSet-DataStandardsWales-OrganizationSector, text:ValueSet-DataStandardsWales-OrganizationSector}}
+* {{pagelink:ValueSet-DataStandardsWales-OrganizationSubclassification, text:ValueSet-DataStandardsWales-OrganizationSubclassification}}
 * {{pagelink:ValueSet-DataStandardsWales-OxygenSaturation, text:ValueSet-DataStandardsWales-OxygenSaturation}}
 * {{pagelink:ValueSet-DataStandardsWales-PatientRecordType, text:ValueSet-DataStandardsWales-PatientRecordType}}
 * {{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity, text:ValueSet-DataStandardsWales-ProvenanceActivity}}
