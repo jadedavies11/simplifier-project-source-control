@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-DataStandardsWales-GridReference" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference" />
+  <version value="0.0.1" />
+  <name value="ExtensionDataStandardsWalesGridReference" />
+  <title value="Extension Data Standards Wales Grid Reference" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2026-02-11" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <description value="This extension captures a grid reference as northings and eastings" />
+  <purpose value="To support systems that use grid reference rather than longitude and latitude." />
+  <copyright value="2026 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Location" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Extension to capture a grid reference" />
+      <definition value="This extension captures a grid reference as northings and eastings" />
+    </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <min value="2" />
+      <max value="2" />
+    </element>
+    <element id="Extension.extension:northings">
+      <path value="Extension.extension" />
+      <sliceName value="northings" />
+      <short value="The northings element of the grid reference applicable to the location" />
+      <definition value="The northings element of the grid reference applicable to the location.  Used in locating the correct square on a map." />
+      <comment value="Northings element, using the appropriate number of digits for the required specificity of position." />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:northings.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:northings.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="northings" />
+    </element>
+    <element id="Extension.extension:northings.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <short value="The northings element of the grid reference" />
+      <definition value="The northings element of the grid reference applicable to the location." />
+      <type>
+        <code value="integer" />
+      </type>
+    </element>
+    <element id="Extension.extension:eastings">
+      <path value="Extension.extension" />
+      <sliceName value="eastings" />
+      <short value="The eastings element of the grid reference applicable to the location" />
+      <definition value="The eastings element of the grid reference applicable to the location.  Used in locating the correct square on a map." />
+      <comment value="Eastings element, using the appropriate number of digits for the required specificity of position." />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:eastings.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:eastings.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="eastings" />
+    </element>
+    <element id="Extension.extension:eastings.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <short value="The eastings element of the grid reference" />
+      <definition value="The eastings element of the grid reference applicable to the location." />
+      <type>
+        <code value="integer" />
+      </type>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

@@ -49,7 +49,7 @@ These pages contain guidance on the following areas:
 
 ### Resource Index
 
-<table id="resourceIndex" class="table table-striped RohiesClass">
+<table id="resourceIndex" class="table table-striped">
   <thead>
     <tr>
       <th scope="col" colspan="2">People</th>

@@ -54,29 +54,48 @@ Each Organisation must have:
   * The `Organization.name` field **SHALL** be populated.
 
 Each Organisation must support:
-* An identifier *
-  * The `Organization.identifier` field **SHOULD** contain all available identifiers. Typical identifiers include:
-    * The [Organisation Data Service](https://digital.nhs.uk/services/organisation-data-service) (ODS) issues and manages unique identification codes and accompanying reference data for organisations that interact with any area of the NHS. The ODS code for organisations managed by this service should be populated (this includes ANANA format codes).
-    * A GP Cluster code for Welsh GP cluster organisations.
+* An identifier*
+  * The `Organization.identifier` field **SHOULD** contain all available identifiers. In particular:
+    * The [Organisation Data Service](https://digital.nhs.uk/services/organisation-data-service) (ODS) issues and manages unique identification codes and accompanying reference data for organisations that interact with any area of the NHS. The ODS code for organisations managed by this service **SHOULD** be populated (this includes ANANA format codes).  <br /><br />
 
-* A status of the organisation (i.e., whether is still active )
-  * The `Organization.status` field **SHOULD** be populated to indicate whether the organisation is still active.
+* The active status of the organisation
+  * The `Organization.active` field **SHOULD** be populated to indicate whether the organisation is still active.  <br /><br />
 
-_*see Implementation Guidance for the identifier element below_
+* Details of `Organization.type`, ideally structured to comprise sector plus a hierarchical organization type 
+  * `sector` **SHOULD** be provided to distinguish public, private and third sector organizations
+  * `domain` **SHOULD** be provided to identify the domain or industry in which the organization operates
+  * `classification` **SHOULD** be provided as a high level classification of the organization type within the applicable domain.
+  * `subclassification` **SHOULD** be provided as a lower level classification of the organization type within the applicable domain.  <br /><br />
+
+* For each `Organization.alias`, an `aliasType` extension **SHOULD** specify the nature of the alias.
+
+* Where applicable:
+  * the `Organization.partOf` field **SHOULD** contain a reference to the parent organization
+  * the `Organization.telecon` field **SHOULD** contain at least one contact point (e.g. telephone number)
+  * the `Organization.address` field **SHOULD** contain at least one address for the organization
+
+_*See implementation guidance for the identifier element in the Slices section below_
 
 ### Extensions
 
-* The following extensions are defined for use within this profile: 
-  * The UK Core extension [Extension-UKCore-MainLocation](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-MainLocation?version=2.0.1) extends the Organisation resource to support the exchange of information on the Organisation's main location, as a reference to a Location resource, which is currently not supported by the FHIR standard.
-  * The HL7 common extension [organization-period](http://hl7.org/fhir/R4/extension-organization-period.html) describes the date range that the organisation should be considered available.
+The following extensions are defined for use within this profile: 
+* The UK Core extension [Extension-UKCore-MainLocation](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-MainLocation?version=2.0.1) extends the Organization resource to support the exchange of information on the Organisation's main location, as a reference to a Location resource, which is currently not supported by the FHIR standard.
+
+* The UK Core extension [Extension-UKCore-AddressKey](https://simplifier.net/resolve?scope=package:fhir.r4.ukcore.stu2@2.0.1&filepath=package/Extension-UKCore-AddressKey.json) extends the Address datatype to support the storage of additional address identifiers.
+
+* The HL7 common extension [organization-period](http://hl7.org/fhir/R4/extension-organization-period.html) describes the date range that the organization should be considered available.
+
+* {{pagelink:Extension-DataStandardsWales-AliasType}} is used to specify the nature of each alias.
   
-
-
 ### Slices
-The following identifier slices for use with the Organization profile are listed below. ODS Organisation Code is further described [UK Core Naming System](https://simplifier.net/guide/UKNamingSystems/Home?version=current) and GP Cluster code is further described in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm).
- 
-* `Organization.identifier:odsOrganisationCode` 
-* `Organization.identifier:gpClusterCode` 
- 
 
+Slices apply to the following elements:
+* `Organization.identifier` 
+  * `Organization.identifier:odsOrganisationCode`. The ODS Organisation Code is further described here: [UK Core Naming System](https://simplifier.net/guide/UKNamingSystems/Home?version=current)
+  * `Organization.identifier:gpClusterCode`. This slice is marked as deprecated because it applies to only a small proportion of organizations and is misnamed for its current use. The identifier for a primary care cluster can be recorded as a generic identifier distinguished by its system value. It is further described under the GP Cluster Code entry in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm).  <br /><br />
 
+* `Organization.type` includes a slice for each of the four organization type variants described above under Mandatory and Must Support Data Elements: 
+  * `Organization.type:sector`
+  * `Organization.type:domain`
+  * `Organization.type:classification`
+  * `Organization.type:subclassification` 
