@@ -3,7 +3,7 @@
 ## {{page-title}}
 
 ### Overview
-The [Location](https://www.hl7.org/fhir/r4/location.html) resource contains information about a physical or virtual place where services are provided and resources and participants may be stored, found, contained, or accommodated. Typical examples include buildings, wards, corridors, rooms or beds, but may also include mobile clinics, a vehicle or lift, or a patient's home. 
+The [Location](https://www.hl7.org/fhir/r4/location.html) resource contains information about a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated. Typical examples include buildings, wards, corridors, rooms or beds, but may also include mobile clinics, a vehicle or lift, or a patient's home. 
 
 The {{page-title}} profile is derived from the [UK Core Location Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Location?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Location resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
 
@@ -47,47 +47,29 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
 Each Location must have:
-* A name
-  * The `Location.name` field **SHALL** be populated.
+1. A name
 
 Each Location must support:
-* An identifier*
-  * The `Location.identifier` field **SHOULD** contain all available identifiers. Typical identifiers include:
-    * Identifiers assigned to the location by the Welsh Reference Data Service
-    * Other identifiers assigned by a hospital PAS or other clinical system.  <br /><br />
+1. An identifier *
+2. A status of the location (i.e. whether it is active, suspended or inactive)
+3. An address for the location
+4. A managing organization for the location
+5. A part of reference to signify if a location is physically part of another location
 
-* A status of the location (i.e. whether it is active, suspended or inactive)
-  *  The `Location.status` field **SHOULD** be populated to indicate whether the organization is active, suspended or inactive.  <br /><br />
+*see Implementation Guidance for the identifier element below
 
-* Details of `Location.type`, ideally structured to comprise a hierarchical location type appropriate to the domain of the managing organization:
-  * `classification` **SHOULD** be provided as a high level classification of the location type.
-  * `subclassification` **SHOULD** be provided as a lower level classification of the location type.  <br /><br />
 
-* For each `Location.alias`, an `aliasType` extension **SHOULD** specify the nature of the alias.
+The `Location.identifier` field **SHOULD** contain all available identifiers. Typical identifiers include:
+  * Identifiers assigned to the location by the Welsh Reference Data Service
+  * Other identifiers assigned by a hospital PAS or other clinical system.
 
-* Where applicable:
-  * the `Location.partOf` field **SHOULD** contain a reference to the location that this location is physically part of.
-  * the `Location.managingOrganization` field **SHOULD** contain a reference to the organization that manages the service delivery at the location.
-  * the `Location.address` field **SHOULD** contain at least one address for the location.
+The `Location.status` field **SHOULD** be populated to indicate whether the organization is active, suspended or inactive.
 
-_*See implementation guidance for the identifier element in the Slices section below_
-
-### Extensions
-
-The following extensions are defined for use within this profile: 
-* The UK Core extension [Extension-UKCore-AddressKey](https://simplifier.net/resolve?scope=package:fhir.r4.ukcore.stu2@2.0.1&filepath=package/Extension-UKCore-AddressKey.json) extends the Address datatype to support the storage of additional address identifiers.
-
-* {{pagelink:Extension-DataStandardsWales-AliasType}} is used to specify the nature of each alias.
-* {{pagelink:Extension-DataStandardsWales-GridReference}} is used to specify the northings and eastings applicable to the location.
-* {{pagelink:Extension-DataStandardsWales-LocationPeriod}} is used to specify fixed characteristics of the location such as wheelchair access.
-* {{pagelink:Extension-DataStandardsWales-LocationPeriod}} is used to specify the active period for the location.
+The `Location.name` field **SHALL** be populated.
 
 ### Slices
+The following identifier slice is used with the location profile listed below. The namespaces denoting issuing authority for the identifier are defined on the {{pagelink:Naming-Systems, text:Naming Systems}} page.
+ 
+* `Location.identifier:wrtsLocationIdentifier` 
 
-Slices apply to the following elements:
-* `Location.identifier`.  The namespaces denoting issuing authority for the identifier are defined on the {{pagelink:Naming-Systems, text:Naming Systems}} page.  A dedicated slice is provided for the WRTS location identifier:
-  * `Location.identifier:wrtsLocationIdentifier`. <br /><br />
 
-* `Location.type` includes a slice for each of the two type variants described above under Mandatory and Must Support Data Elements: 
-  * `Location.type:classification`
-  * `Location.type:subclassification` 

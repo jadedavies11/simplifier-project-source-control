@@ -1,0 +1,15 @@
+- name: Terminology Index
+  filename: New-Index.page.md
+- name: Value Sets
+  filename: New-ValueSet-List.page.md
+- name: Code Systems
+  filename: New-CodeSystem-List.page.md
+- name: Local ValueSets with SNOMED CT Codes
+  filename: Welsh-VS-with-SCT-Codes.page.md
+- name: UKCore ValueSets with NHS Wales CodeSystems
+  filename: UKCore-VS-with-Welsh-CS.page.md
+- name: PAS ValueSets
+  filename: PAS-VS.page.md
+- name: Welsh Data in Extensions
+  filename: Welsh-Data-in-Extensions.page.md
+
