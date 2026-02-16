@@ -2,14 +2,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Organization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-  <version value="1.2.0" />
+  <version value="1.1.1" />
   <name value="DataStandardsWalesOrganization" />
   <title value="Data Standards Wales Organization" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-01-29" />
+  <date value="2023-08-02" />
   <publisher value="NHS Wales" />
-  <copyright value="2026 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="v2" />
@@ -41,11 +41,6 @@
       <path value="Organization.identifier" />
       <comment value="Identifiers for the organization SHOULD be populated if the data exists" />
     </element>
-    <element id="Organization.identifier:odsOrganisationCode">
-      <path value="Organization.identifier" />
-      <sliceName value="odsOrganisationCode" />
-      <mustSupport value="true" />
-    </element>
     <element id="Organization.identifier:odsSiteCode">
       <path value="Organization.identifier" />
       <sliceName value="odsSiteCode" />
@@ -54,8 +49,8 @@
     <element id="Organization.identifier:gpClusterCode">
       <path value="Organization.identifier" />
       <sliceName value="gpClusterCode" />
-      <short value="[deprecated] Identifies a Wales GP Cluster organization across multiple systems" />
-      <definition value="[deprecated] Identifier for a Wales GP Cluster organization that is used to identify the organization across multiple disparate systems. This slice will be removed at a future version of this profile. It applies to a small number of organization resources that are more accurately named primary care clusters.  It can be stored as a generic identifier using the applicable naming system." />
+      <short value="Identifies a Wales GP Cluster organization across multiple systems" />
+      <definition value="Identifier for a Wales GP Cluster organization that is used to identify the organization across multiple disparate systems." />
     </element>
     <element id="Organization.identifier:gpClusterCode.system">
       <path value="Organization.identifier.system" />
@@ -70,115 +65,15 @@
       <path value="Organization.active" />
       <comment value="A status of the organization (i.e., whether is still active ) SHOULD be populated if the data exists.&#xD;&#xA;&#xD;&#xA;This active flag is not intended to be used to mark an organization as temporarily closed or under construction. Instead the Location(s) within the Organization should have the suspended status. If further details of the reason for the suspension are required, then an extension on this element should be used.&#xA;&#xA;This element is labeled as a modifier because it may be used to mark that the resource was created in error." />
     </element>
-    <element id="Organization.type">
-      <path value="Organization.type" />
-      <slicing>
-        <description value="Slices to support a structured organization type, including values from a hierarchical organization type code system, with appropriately filtered value sets." />
-        <ordered value="true" />
-        <rules value="open" />
-      </slicing>
-      <comment value="A structured organization type comprising sector, domain, classification and subclassification should be provided for known organizations, especially where these form part of the organization hierarchy for domains relevant to the delivery of health and care within Wales." />
-      <requirements value="For type-specific retrieval of organization resources in operational use cases and to enhance secondary data analysis." />
-      <binding>
-        <strength value="extensible" />
-        <description value="A set of concepts indicating the organisation type, derived from the base CodeSystem, and Genomics specific concepts.  Extended for organizations involved in the delivery of health and care in Wales by a structured organization type hierarchy, represented by dedicated slices and value sets." />
-      </binding>
-    </element>
-    <element id="Organization.type:sector">
-      <path value="Organization.type" />
-      <sliceName value="sector" />
-      <short value="Distinguishes public, private and third sector organizations" />
-      <definition value="The sector of the economy in which the organization operates, based on its funding and control models: public, private or third sector." />
-      <comment value="A structured organization type comprising sector, domain, classification and subclassification should be provided for known organizations, especially where these form part of the organization hierarchy for domains relevant to the delivery of health and care within Wales." />
-      <requirements value="For type-specific retrieval of organization resources in operational use cases and to enhance secondary data analysis." />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="A set of concepts indicating the organization sector." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSector" />
-      </binding>
-    </element>
-    <element id="Organization.type:sector.coding.system">
-      <path value="Organization.type.coding.system" />
-      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationSector" />
-    </element>
-    <element id="Organization.type:domain">
-      <path value="Organization.type" />
-      <sliceName value="domain" />
-      <short value="The domain or industry in which the organization operates" />
-      <definition value="The domain or industry in which the organization operates. In addition to health this includes for example education, social care and justice." />
-      <comment value="A structured organization type comprising sector, domain, classification and subclassification should be provided for known organizations, especially where these form part of the organization hierarchy for domains relevant to the delivery of health and care within Wales." />
-      <requirements value="For type-specific retrieval of organization resources in operational use cases and to enhance secondary data analysis." />
-      <max value="1" />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="A set of concepts indicating the organization domain." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationDomain" />
-      </binding>
-    </element>
-    <element id="Organization.type:classification">
-      <path value="Organization.type" />
-      <sliceName value="classification" />
-      <short value="A high level classification of the organization type" />
-      <definition value="A high level classification of the organization type within the applicable domain e.g. Primary care within the Health domain." />
-      <comment value="A structured organization type comprising sector, domain, classification and subclassification should be provided for known organizations, especially where these form part of the organization hierarchy for domains relevant to the delivery of health and care within Wales." />
-      <requirements value="For type-specific retrieval of organization resources in operational use cases and to enhance secondary data analysis." />
-      <max value="1" />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="A set of concepts indicating the organization classification.  Within the organisation type hierarchy, a set of classification entries is defined for each domain." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationClassification" />
-      </binding>
-    </element>
-    <element id="Organization.type:subclassification">
-      <path value="Organization.type" />
-      <sliceName value="subclassification" />
-      <short value="A lower level classification of the organization type" />
-      <definition value="A lower level classification of the organization type within the applicable domain and classification e.g. Dental practice as a specific type of Primary care organization." />
-      <comment value="A structured organization type comprising sector, domain, classification and subclassification should be provided for known organizations, especially where these form part of the organization hierarchy for domains relevant to the delivery of health and care within Wales." />
-      <requirements value="For type-specific retrieval of organization resources in operational use cases and to enhance secondary data analysis." />
-      <max value="1" />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="A set of concepts indicating the organization subclassification.  Within the organisation type hierarchy, a set of subclassification entries is defined for each classification within each domain." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSubclassification" />
-      </binding>
-    </element>
     <element id="Organization.name">
       <path value="Organization.name" />
       <definition value="A name associated with the organization (e.g. ODS name)." />
       <comment value="Organization name SHALL be populated. If the name of an organization changes, consider putting the old name in the alias column so that it can still be located through searches." />
       <min value="1" />
     </element>
-    <element id="Organization.alias.extension:aliasType">
-      <path value="Organization.alias.extension" />
-      <sliceName value="aliasType" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
-      </type>
-      <isModifier value="false" />
-    </element>
     <element id="Organization.telecom.value">
       <path value="Organization.telecom.value" />
       <min value="1" />
-    </element>
-    <element id="Organization.address.extension:addressKey">
-      <path value="Organization.address.extension" />
-      <sliceName value="addressKey" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Organization.address.postalCode">
-      <path value="Organization.address.postalCode" />
-      <definition value="A postal code designating a region defined by the postal service.&#xD;&#xA;&#xD;&#xA;Format: 8 character alphanumeric&#xD;&#xA;The specific code format as specified by the Office of National statistics (ONS)&#xD;&#xA;&#xD;&#xA;Data description&#xD;&#xA;Unit postcode – 8 character version&#xD;&#xA;&#xD;&#xA;Range of codes/ Entity code&#xD;&#xA;AB1 Δ Δ 1AA - ZE99 Δ 9ZZ (maximum range)&#xD;&#xA;&#xD;&#xA;Comments&#xD;&#xA;2, 3 or 4-character outward code - left aligned;&#xD;&#xA;3-character inward code - right aligned;&#xD;&#xA;5th character always blank and&#xD;&#xA;3rd and 4th characters may be blank (Δ)&#xD;&#xA;&#xD;&#xA;This allows a space to be inserted to differentiate between the inward and outward segments of the code, enabling full use to be made of the Royal Mail postcode functionality." />
-      <requirements value="This guidance is based upon the published Data Standards Wales (DSW) recommendation for representing the postal code in systems.  While this is the preferred representation it is understood that some systems may not currently comply to the standard.  As such, this should be taken as guidance only. No software constraints have been placed on the data element to reject certain patterns therefore any string value sent is acceptable. However, it is best practice to follow the standard set out below for any new implementation or if a current system is being updated to conform to DSW standards.&#xD;&#xA;&#xD;&#xA;Please reference https://www.datadictionary.wales.nhs.uk/#!WordDocuments/informationspecification65.htm for full details on this data standard." />
     </element>
     <element id="Organization.partOf">
       <path value="Organization.partOf" />
@@ -196,20 +91,6 @@
     <element id="Organization.partOf.identifier.value">
       <path value="Organization.partOf.identifier.value" />
       <min value="1" />
-    </element>
-    <element id="Organization.contact.address.extension:addressKey">
-      <path value="Organization.contact.address.extension" />
-      <sliceName value="addressKey" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Organization.contact.address.postalCode">
-      <path value="Organization.contact.address.postalCode" />
-      <definition value="A postal code designating a region defined by the postal service.&#xD;&#xA;&#xD;&#xA;Format: 8 character alphanumeric&#xD;&#xA;The specific code format as specified by the Office of National statistics (ONS)&#xD;&#xA;&#xD;&#xA;Data description&#xD;&#xA;Unit postcode – 8 character version&#xD;&#xA;&#xD;&#xA;Range of codes/ Entity code&#xD;&#xA;AB1 Δ Δ 1AA - ZE99 Δ 9ZZ (maximum range)&#xD;&#xA;&#xD;&#xA;Comments&#xD;&#xA;2, 3 or 4-character outward code - left aligned;&#xD;&#xA;3-character inward code - right aligned;&#xD;&#xA;5th character always blank and&#xD;&#xA;3rd and 4th characters may be blank (Δ)&#xD;&#xA;&#xD;&#xA;This allows a space to be inserted to differentiate between the inward and outward segments of the code, enabling full use to be made of the Royal Mail postcode functionality." />
-      <requirements value="This guidance is based upon the published Data Standards Wales (DSW) recommendation for representing the postal code in systems.  While this is the preferred representation it is understood that some systems may not currently comply to the standard.  As such, this should be taken as guidance only. No software constraints have been placed on the data element to reject certain patterns therefore any string value sent is acceptable. However, it is best practice to follow the standard set out below for any new implementation or if a current system is being updated to conform to DSW standards.&#xD;&#xA;&#xD;&#xA;Please reference https://www.datadictionary.wales.nhs.uk/#!WordDocuments/informationspecification65.htm for full details on this data standard." />
     </element>
     <element id="Organization.endpoint">
       <path value="Organization.endpoint" />

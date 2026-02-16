@@ -2,14 +2,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Location" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-  <version value="1.2.0" />
+  <version value="1.1.1" />
   <name value="DataStandardsWalesLocation" />
   <title value="Data Standards Wales Location" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-01-29" />
+  <date value="2023-11-10" />
   <publisher value="NHS Wales" />
-  <copyright value="2026 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -17,39 +17,6 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Location" />
   <derivation value="constraint" />
   <differential>
-    <element id="Location.extension:locationPeriod">
-      <path value="Location.extension" />
-      <sliceName value="locationPeriod" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-LocationPeriod" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Location.extension:characteristicR5">
-      <path value="Location.extension" />
-      <sliceName value="characteristicR5" />
-      <short value="A static characteristic of the location" />
-      <definition value="A characteristic of the location e.g. wheelchair ramp.  Not to be confused with services offered at the location." />
-      <comment value="Backported from R5." />
-      <requirements value="R5 data content needed for a data standard defined under HL7 FHIR R4." />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Location.extension:gridReference">
-      <path value="Location.extension" />
-      <sliceName value="gridReference" />
-      <comment value="Grid reference variant of position." />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference" />
-      </type>
-      <isModifier value="false" />
-    </element>
     <element id="Location.identifier">
       <path value="Location.identifier" />
       <comment value="Identifiers for the location SHOULD be populated if the data exists" />
@@ -86,90 +53,6 @@
       <path value="Location.name" />
       <comment value="Location name SHALL be populated. If the name of a location changes, consider putting the old name in the alias column so that it can still be located through searches." />
       <min value="1" />
-    </element>
-    <element id="Location.alias.extension:aliasType">
-      <path value="Location.alias.extension" />
-      <sliceName value="aliasType" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Location.type">
-      <path value="Location.type" />
-      <slicing>
-        <description value="Slices to support a structured location type, including values from a hierarchical location type code system, with appropriately filtered value sets." />
-        <ordered value="true" />
-        <rules value="open" />
-      </slicing>
-      <comment value="A structured location type comprising classification and subclassification should be provided for known locations, especially where these are managed within the formal organization hierarchy for domains relevant to the delivery of health and care within Wales." />
-      <requirements value="For type-specific retrieval of location resources in operational use cases and to enhance secondary data analysis." />
-    </element>
-    <element id="Location.type:classification">
-      <path value="Location.type" />
-      <sliceName value="classification" />
-      <short value="A high level classification of the location type within the domain of its managing organization" />
-      <definition value="A high level classification of the location type within the domain of its managing organization. e.g. Hospital within the Health domain." />
-      <comment value="A structured location type comprising classification and subclassification should be provided for known locations, especially where these are managed within the formal organization hierarchy for domains relevant to the delivery of health and care within Wales." />
-      <requirements value="For type-specific retrieval of location resources in operational use cases and to enhance secondary data analysis." />
-      <max value="1" />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="A set of concepts indicating the location classification as applicable to the domain of the managing organization." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationClassification" />
-      </binding>
-    </element>
-    <element id="Location.type:classification.coding.system">
-      <path value="Location.type.coding.system" />
-      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-LocationTypeHierarchy" />
-    </element>
-    <element id="Location.type:subclassification">
-      <path value="Location.type" />
-      <sliceName value="subclassification" />
-      <short value="A lower level classification of the location type within the domain of its managing organization" />
-      <definition value="A lower level classification of the location type within the domain of its managing organization. e.g. Major acute hospital within the Health domain." />
-      <comment value="A structured location type comprising classification and subclassification should be provided for known locations, especially where these are managed within the formal organization hierarchy for domains relevant to the delivery of health and care within Wales." />
-      <requirements value="For type-specific retrieval of location resources in operational use cases and to enhance secondary data analysis." />
-      <max value="1" />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="A set of concepts indicating the location subclassification as applicable to the domain of the managing organization." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationSubclassification" />
-      </binding>
-    </element>
-    <element id="Location.type:subclassification.coding.system">
-      <path value="Location.type.coding.system" />
-      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-LocationTypeHierarchy" />
-    </element>
-    <element id="Location.telecom.value">
-      <path value="Location.telecom.value" />
-      <min value="1" />
-    </element>
-    <element id="Location.address.extension:addressKey">
-      <path value="Location.address.extension" />
-      <sliceName value="addressKey" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Location.address.postalCode">
-      <path value="Location.address.postalCode" />
-      <definition value="A postal code designating a region defined by the postal service.&#xD;&#xA;&#xD;&#xA;Format: 8 character alphanumeric&#xD;&#xA;The specific code format as specified by the Office of National statistics (ONS)&#xD;&#xA;&#xD;&#xA;Data description&#xD;&#xA;Unit postcode – 8 character version&#xD;&#xA;&#xD;&#xA;Range of codes/ Entity code&#xD;&#xA;AB1 Δ Δ 1AA - ZE99 Δ 9ZZ (maximum range)&#xD;&#xA;&#xD;&#xA;Comments&#xD;&#xA;2, 3 or 4-character outward code - left aligned;&#xD;&#xA;3-character inward code - right aligned;&#xD;&#xA;5th character always blank and&#xD;&#xA;3rd and 4th characters may be blank (Δ)&#xD;&#xA;&#xD;&#xA;This allows a space to be inserted to differentiate between the inward and outward segments of the code, enabling full use to be made of the Royal Mail postcode functionality." />
-      <requirements value="This guidance is based upon the published Data Standards Wales (DSW) recommendation for representing the postal code in systems.  While this is the preferred representation it is understood that some systems may not currently comply to the standard.  As such, this should be taken as guidance only. No software constraints have been placed on the data element to reject certain patterns therefore any string value sent is acceptable. However, it is best practice to follow the standard set out below for any new implementation or if a current system is being updated to conform to DSW standards.&#xD;&#xA;&#xD;&#xA;Please reference https://www.datadictionary.wales.nhs.uk/#!WordDocuments/informationspecification65.htm for full details on this data standard." />
-    </element>
-    <element id="Location.physicalType">
-      <path value="Location.physicalType" />
-      <definition value="Physical form of the location, e.g. building, room, vehicle, road.  Includes virtual option." />
-      <binding>
-        <strength value="preferred" />
-        <description value="Physical (or virtual) form of the location." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationForm" />
-      </binding>
     </element>
     <element id="Location.managingOrganization">
       <path value="Location.managingOrganization" />
