@@ -11,13 +11,22 @@ Package:
     * New Extensions 
     * New Message Definitions
         * MessageDefinition-DataStandardsWales-UEC-Arrival
+        * MessageDefinition-DataStandardsWales-UEC-Triage
+        * MessageDefinition-DataStandardsWales-UEC-Discharge
     * Removed Profiles
         * DataStandardsWales-Dosage
             * Retired from active use in v2.3.0. Removed to prevent inappropriate use
     * Changes to Profiles
         * DataStandardsWales-Appointment
             * Updated version from 1.1.0 to 1.2.0
-            * .id and .title added   
+            * .id and .title added  
+        * DataStandardsWales-Appointment
+            * Updated version from 1.1.0 to 1.2.0
+            * Amended Extension Elements names:
+                * From Immunization.extension:DataStandardsWalesImmunizationBasedOn to Immunization.extension:immunizationBasedOnR5
+                * From Immunization.extension:DataStandardsWalesAdministeredProduct to Immunization.extension:administeredProduct
+                * From Immunization.extension:DataStandardsWalesForecastCreationSource to Immunization.extension:forecastCreationSource
+                * From Immunization.extension:DataStandardsWalesDateProcedureLastUpdated to Immunization.extension:dateProcedureLastUpdated
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.2.0 to 1.3.0
             * .requestor. Cardinality changed from 1..1 to 0..1 to align with UKCore.
@@ -28,6 +37,9 @@ Package:
         	* Updated version from 1.0.1 to 1.1.0
 	        * .reasonReference. Valueset binding updated from UKCore Condition to Data Standards Wales Condition
     * Changes to Extensions
+        * Extension-DataStandardsWales-Immunization.basedOn
+            * Updated version from 0.1.1 to 0.2.0
+            * Updated URL value from Extension to extension
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
         * DataStandardsWales-UEC-MessageEvent
@@ -71,6 +83,8 @@ Package:
     * New Examples
         * Urgent and Emergency Care
             * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
+            * Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)
+            * Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)
         * FHIR Messaging guidance
             * Example Message Bundle - Submit Clinician (Logical Referencing)
             * Example Message Bundle - Submit Clinician (Literal FHIR Referencing)
@@ -85,7 +99,7 @@ Guide:
 * Added new pages to outline the Value Sets created in this release
 * Added new pages to outline the Examples created in this release
 * Added FHIR Messaging Guidance page
-* Added Urgent and Emergency Care Guidance page (PLACEHOLDER)
+* Added Urgent and Emergency Care Guidance page
 * Added WRTS contact details to DataStandardsWales-EncounterType Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Occupation Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Religion Value Set guide page
