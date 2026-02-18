@@ -23,6 +23,8 @@
  
 </div>
 
+<br />_**!! EARLY DRAFT CONTENT FOR FEEDBACK !!**_
+
 ## Introduction
 The Welsh Emergency Care Data Set (WECDS) defines the data required from new Urgent and Emergency Care (UEC) applications. A phased approach is being taken to supporting the capture of UEC data within the Care Data Repository (CDR). The scope of the current (first) phase is the submission of UEC activity data relating to the arrival of a patient at an Urgent and Emergency Care (UEC) facility, their initial assessment (triage) and their discharge and departure from the facility. The data will be made available via the National Data Analytics Platform for secondary analysis of UEC facility utilisation.
 
