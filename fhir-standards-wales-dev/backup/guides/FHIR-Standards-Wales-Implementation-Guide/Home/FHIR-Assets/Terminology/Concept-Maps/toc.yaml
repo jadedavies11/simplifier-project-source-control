@@ -1,3 +1,5 @@
+- name: Index
+  filename: Index.page.md
 - name: ConceptMap-DataStandardsWales-GenderIdentity-HL7AdministrativeGender
   filename: ConceptMap-DataStandardsWales-GenderIdentity-HL7AdministrativeGender.page.md
 - name: ConceptMap-DataStandardsWales-HL7AdministrativeGender-GenderIdentity

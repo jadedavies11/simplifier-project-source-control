@@ -1,3 +1,5 @@
+- name: Index
+  filename: Index.page.md
 - name: DataStandardsWales-AllergyIntolerance
   filename: DataStandardsWales-AllergyIntolerance.page.md
 - name: DataStandardsWales-AllergyList

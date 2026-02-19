@@ -8,7 +8,6 @@ Package:
     * New Profiles
         * DataStandardsWales-MessageDefinition
         * DataStandardsWales-MessageHeader
-    * New Extensions 
     * New Message Definitions
         * MessageDefinition-DataStandardsWales-UEC-Arrival
         * MessageDefinition-DataStandardsWales-UEC-Triage
@@ -46,7 +45,6 @@ Package:
     * Removed Code Systems
         * DataStandardsWales-WRRSTaskType
             * Initially introduced as an optional CodeSystem but not implemented. Removed to prevent inappropriate use
-    * Changes to Code Systems
     * New Value Sets
         * DataStandardsWales-MessageEvent
     * Removed Value Sets
@@ -115,8 +113,6 @@ Guide:
 * Alphabetised yaml toc files
 * Standardised examples names in Example Index page
 * Replaced HL7 R5 AuditEvent link with HL7 R4 AuditEvent link in DataStandardsWales-AuditEvent IG page
-
-
 
 ### v2.4.0 STU2
 Package: 
