@@ -1,3 +1,5 @@
+- name: Index
+  filename: Index.page.md
 - name: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic
   filename: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic.page.md
 - name: ValueSet-DataStandardsWales-BloodPressure-Diastolic
