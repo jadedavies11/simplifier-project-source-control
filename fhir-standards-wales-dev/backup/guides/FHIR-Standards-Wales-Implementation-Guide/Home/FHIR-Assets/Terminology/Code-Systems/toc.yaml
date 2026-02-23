@@ -24,8 +24,6 @@
   filename: CodeSystem-DataStandardsWales-UEC-AttendanceCategory.page.md  
 - name: CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism
   filename: CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism.page.md
-- name: CodeSystem-DataStandardsWales-UEC-MessageEvent
-  filename: CodeSystem-DataStandardsWales-UEC-MessageEvent.page.md
 - name: CodeSystem-FHIRStandardsWales-DocumentAttribute
   filename: CodeSystem-FHIRStandardsWales-DocumentAttribute.page.md
 - name: CodeSystem-FHIRStandardsWales-DocumentErrorAction
@@ -36,9 +34,8 @@
   filename: CodeSystem-MessageEvents.page.md
 - name: CodeSystem-WPASAdmitSource
   filename: CodeSystem-WPASAdmitSource.page.md
-- name: CodeSystem-WPASEventType
-  filename: CodeSystem-WPASEventType.page.md
 - name: CodeSystem-WPASReferralSource
   filename: CodeSystem-WPASReferralSource.page.md
 - name: CodeSystem-WPASSourceAdmission
   filename: CodeSystem-WPASSourceAdmission.page.md
+

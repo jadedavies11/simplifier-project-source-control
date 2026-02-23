@@ -130,9 +130,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant}}
-* {{pagelink:Example-DataStandardsWales-MessageDefinition-SubmitClinician, text:Example Message Definition - Submit Clinician (PractitionerRole)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Literal, text:Example Message Bundle - Submit Clinician (with Literal Referencing)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Logical, text:Example Message Bundle - Submit Clinician (with Logical Referencing)}}
 
 ### Provenance Examples
 * {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text: Example Provenance - Demographics as Recorded extension usage}}
@@ -160,6 +157,4 @@ The following examples are published with this guide and all available as a down
 
 ### Urgent and Emergency Care Examples
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI, text: Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI, text: Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)}}
 
