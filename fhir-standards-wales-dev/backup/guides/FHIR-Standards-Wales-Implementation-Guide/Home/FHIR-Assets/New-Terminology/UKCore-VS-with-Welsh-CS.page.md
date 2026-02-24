@@ -35,7 +35,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483832">UKCore-AdmissionMethod</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483834">UKCore-AdmissionMethodWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483834">UKCore-AdmissionMethodWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483833">UKCore-AdmissionMethodEngland</a>
 		</td>
 		<td>
@@ -50,7 +50,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483832">UKCore-AdmissionMethod</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483834">UKCore-AdmissionMethodWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483834">UKCore-AdmissionMethodWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483833">UKCore-AdmissionMethodEngland</a>
 		</td>
 		<td>
@@ -65,7 +65,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483856">UKCore-DischargeDestination</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483858">UKCore-DischargeDestinationWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483858">UKCore-DischargeDestinationWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483857">UKCore-DischargeDestinationEngland</a>
 		</td>
 		<td>
@@ -80,7 +80,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483859">UKCore-DischargeMethod</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483861">UKCore-DischargeMethodWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483861">UKCore-DischargeMethodWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483860">UKCore-DischargeMethodEngland</a>
 		</td>
 		<td>
@@ -95,7 +95,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483859">UKCore-DischargeMethod</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483861">UKCore-DischargeMethodWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483861">UKCore-DischargeMethodWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483860">UKCore-DischargeMethodEngland</a>
 		</td>
 		<td>
@@ -110,7 +110,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483863">UKCore-EmergencyCareDischargeStatus</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483864">UKCore-EmergencyCareOutcomeOfAttendanceWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483864">UKCore-EmergencyCareOutcomeOfAttendanceWales</a><br>
 			&nbsp;SNOMED CT
 		</td>
 		<td>
@@ -125,7 +125,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483863">UKCore-EmergencyCareDischargeStatus</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483864">UKCore-EmergencyCareOutcomeOfAttendanceWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483864">UKCore-EmergencyCareOutcomeOfAttendanceWales</a><br>
 			&nbsp;SNOMED CT
 		</td>
 		<td>
@@ -140,7 +140,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483865">UKCore-EncounterLocationType</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483867">UKCore-EncounterLocationTypeWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483867">UKCore-EncounterLocationTypeWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483866">UKCore-EncounterLocationTypeEngland</a>
 		</td>
 		<td>
@@ -155,7 +155,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483865">UKCore-EncounterLocationType</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483867">UKCore-EncounterLocationTypeWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483867">UKCore-EncounterLocationTypeWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483866">UKCore-EncounterLocationTypeEngland</a>
 		</td>
 		<td>
@@ -170,7 +170,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483869">UKCore-EthnicCategory</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483871">UKCore-EthnicCategoryWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483871">UKCore-EthnicCategoryWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483870">UKCore-EthnicCategoryEngland</a>
 		</td>
 		<td>
@@ -185,7 +185,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483878">UKCore-LegalStatusClassification</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483880">UKCore-LegalStatusClassificationWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483880">UKCore-LegalStatusClassificationWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483879">UKCore-LegalStatusClassificationEngland</a>
 		</td>
 		<td>
@@ -200,7 +200,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483878">UKCore-LegalStatusClassification</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483880">UKCore-LegalStatusClassificationWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483880">UKCore-LegalStatusClassificationWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483879">UKCore-LegalStatusClassificationEngland</a>
 		</td>
 		<td>
@@ -215,8 +215,8 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483906">UKCore-NHSNumberVerificationStatus</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483908">UKCore-NHSNumberVerificationStatusWales</a>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483907">UKCore-LegalStatusClassificationEngland</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483908">UKCore-NHSNumberVerificationStatusWales</a><br>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483907">UKCore-LegalStatusClassificationEngland</a><br>
 			<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999019">v3.NullFlavor</a>
 		</td>
 		<td>
@@ -231,7 +231,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483914">UKCore-OutcomeOfAttendance</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483916">UKCore-OutcomeOfAttendanceWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483916">UKCore-OutcomeOfAttendanceWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483915">UKCore-OutcomeOfAttendanceEngland</a>
 		</td>
 		<td>
@@ -246,7 +246,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483914">UKCore-OutcomeOfAttendance</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483916">UKCore-OutcomeOfAttendanceWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483916">UKCore-OutcomeOfAttendanceWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483915">UKCore-OutcomeOfAttendanceEngland</a>
 		</td>
 		<td>
@@ -261,9 +261,9 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483919">UKCore-PersonMaritalStatusCode</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483921">UKCore-PersonMaritalStatusWales</a>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483920">UKCore-PersonMaritalStatusEngland</a>
-			<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2997937">v3.MaritalStatus</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483921">UKCore-PersonMaritalStatusWales</a><br>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483920">UKCore-PersonMaritalStatusEngland</a><br>
+			<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2997937">v3.MaritalStatus</a><br>
 			<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999019">v3.NullFlavor</a>
 		</td>
 		<td>
@@ -279,7 +279,7 @@ The following UKCore ValueSets contain Welsh CodeSystems.
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483939">UKCore-SourceOfAdmission</a>
 		</td>
 		<td>
-			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483941">UKCore-SourceOfAdmissionWales</a>
+			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483941">UKCore-SourceOfAdmissionWales</a><br>
 			<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483940">UKCore-SourceOfAdmissionEngland</a>
 		</td>
 		<td>

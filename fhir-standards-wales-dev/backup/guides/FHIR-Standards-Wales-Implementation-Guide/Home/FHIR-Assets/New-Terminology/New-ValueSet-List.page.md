@@ -44,7 +44,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BMI, text: DataStandardsWales-BMI}}</td>
@@ -52,7 +52,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
 		<td>Observation.code.coding:snomedCT</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyHeightMeasurements, text: DataStandardsWales-BodyHeightMeasurements}}</td>
@@ -60,7 +60,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 		<td>Observation.code.coding:snomedCT</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition, text: DataStandardsWales-BodyPosition}}</td>
@@ -68,7 +68,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
 		<td>Observation.extension:bodyPosition</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition, text: DataStandardsWales-BodyPosition}}</td>
@@ -76,7 +76,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
 		<td>Observation.extension:bodyPosition</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition, text: DataStandardsWales-BodyPosition}}</td>
@@ -84,7 +84,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 		<td>Observation.extension:bodyPosition</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition, text: DataStandardsWales-BodyPosition}}</td>
@@ -92,7 +92,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 		<td>Observation.extension:bodyPosition</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text: DataStandardsWales-BodyTemperature}}</td>
@@ -100,7 +100,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 		<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text: DataStandardsWales-BodyWeightMeasurements}}</td>
@@ -108,7 +108,7 @@ The following ValueSets have been defined for this implementation guide.
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 		<td>Observation.code.coding:snomedCT</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-DocumentCategory, text: DataStandardsWales-DocumentCategory}}</td>
@@ -136,8 +136,8 @@ The following ValueSets have been defined for this implementation guide.
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-EncounterType, text: DataStandardsWales-EncounterType}}</td>
-		<td>{{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism, text: DataStandardsWales-UEC-CareConsultationMechanism}}
-		{{pagelink:CodeSystem-DataStandardsWales-UEC-ActivityType, text: DataStandardsWales-UEC-ActivityType}}
+		<td>{{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism, text: DataStandardsWales-UEC-CareConsultationMechanism}}<br>
+		{{pagelink:CodeSystem-DataStandardsWales-UEC-ActivityType, text: DataStandardsWales-UEC-ActivityType}}<br>
 			&nbsp;SNOMED CT	
 		</td>
 		<td>
@@ -164,7 +164,7 @@ Set</a>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-HeartRate, text: DataStandardsWales-HeartRate}}</td>
@@ -172,7 +172,7 @@ Set</a>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-MainSpecialty, text: DataStandardsWales-MainSpecialty}}</td>
@@ -196,22 +196,12 @@ Set</a>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-MessageEvent, text: DataStandardsWales-MessageEvent}}</td>
-		<td>{{pagelink:CodeSystem-DataStandardsWales-MessageEvent, text: DataStandardsWales-MessageEvent}}
-			<a href="https://simplifier.net/fhir-standards-wales-dev/messageevents">MessageEvents</a>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent, text: DataStandardsWales-UEC-MessageEvent}}<br>
+		{{pagelink:CodeSystem-MessageEvents, text: MessageEvents}}
 		</td>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
 		<td>MessageDefinition.event</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-MessageHeader, text: DataStandardsWales-MessageHeader}}</td>
-		<td>{{pagelink:CodeSystem-DataStandardsWales-MessageEvent, text: DataStandardsWales-MessageEvent}}
-			<a href="https://simplifier.net/fhir-standards-wales-dev/messageevents">MessageEvents</a>
-		</td>
-		<td></td>
-		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
-		<td>MessageHeader.event</td>
 		<td></td>
 	</tr>
 	<tr>
@@ -300,15 +290,7 @@ Set</a>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
-	</tr>
-	<tr>
-		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
-		<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td>Not bound to profile</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity, text: DataStandardsWales-ProvenanceActivity}}</td>
@@ -340,7 +322,7 @@ Set</a>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
 		<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
 		<td></td>
-		<td>{{pagelink:DataStandardsWales-Observation-BodyHeight}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 		<td>Observation.extension:recordingSetting</td>
 		<td></td>
 	</tr>
@@ -348,7 +330,7 @@ Set</a>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
 		<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
 		<td></td>
-		<td>{{pagelink:DataStandardsWales-Observation-BodyWeight}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 		<td>Observation.extension:recordingSetting</td>
 		<td></td>
 	</tr>
@@ -358,7 +340,7 @@ Set</a>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-Religion, text: DataStandardsWales-Religion}}</td>
@@ -507,7 +489,7 @@ Set</a>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>For CDR/ NHS App use only and not bound to a profile in the IG. The SCT codes are UKCoreSourceOfServiceRequest ValueSet</td>
+		<td>For CDR/ NHS App use only and not bound to a profile in the IG.<br>The SCT codes are UKCoreSourceOfServiceRequest ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-PASSourceAdmission, text: PASSourceAdmission}}</td>
