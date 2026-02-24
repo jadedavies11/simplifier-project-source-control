@@ -215,7 +215,7 @@ Set</a>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
 		<td>MessageDefinition.event</td>
-		<td>Embedded in DataStandardsWalesMessageEvent ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-MessageEvent, text: DataStandardsWalesMessageEvent}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:CodeSystem-MessageEvents, text: MessageEvents}}</td>
@@ -223,7 +223,7 @@ Set</a>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-MessageHeader}}</td>
 		<td>MessageHeader.event</td>
-		<td>Embedded in DataStandardsWalesMessageEvent ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-MessageEvent, text: DataStandardsWalesMessageEvent}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:CodeSystem-WPASAdmitSource, text: WPASAdmitSource}}</td>

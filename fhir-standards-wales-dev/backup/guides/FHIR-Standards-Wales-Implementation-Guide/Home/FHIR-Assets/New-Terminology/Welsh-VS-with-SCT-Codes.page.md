@@ -33,77 +33,77 @@ The following ValueSets containing SNOMED CT codes.
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BloodPressure-Diastolic, text: DataStandardsWales-BloodPressure-Diastolic}}</td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BloodPressure-Systolic, text: DataStandardsWales-BloodPressure-Systolic}}</td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BMI, text: DataStandardsWales-BMI}}</td>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
 		<td>Observation.code.coding:snomedCT</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet too</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyHeightMeasurements, text: DataStandardsWales-BodyHeightMeasurements}}</td>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 		<td>Observation.code.coding:snomedCT</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet too</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition, text: DataStandardsWales-BodyPosition}}</td>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
 		<td>Observation.extension:bodyPosition</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet too</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition, text: DataStandardsWales-BodyPosition}}</td>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
 		<td>Observation.extension:bodyPosition</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet too</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition, text: DataStandardsWales-BodyPosition}}</td>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
 		<td>Observation.extension:bodyPosition</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet too</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition, text: DataStandardsWales-BodyPosition}}</td>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 		<td>Observation.extension:bodyPosition</td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet too</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text: DataStandardsWales-BodyTemperature}}</td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 		<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text: DataStandardsWales-BodyWeightMeasurements}}</td>
 		<td></td>
 		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
 		<td>Observation.code.coding:snomedCT</td>
-		<td> Embedded in DataStandardsWalesObservationVitalSignsType ValueSet too</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet too</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-DocumentType, text: DataStandardsWales-DocumentType}}</td>
@@ -124,14 +124,14 @@ The following ValueSets containing SNOMED CT codes.
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-HeartRate, text: DataStandardsWales-HeartRate}}</td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWales-ObservationVitalSignsType}}</td>
@@ -208,7 +208,7 @@ The following ValueSets containing SNOMED CT codes.
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-Religion, text: DataStandardsWales-Religion}}</td>
@@ -224,7 +224,7 @@ The following ValueSets containing SNOMED CT codes.
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Embedded in DataStandardsWalesObservationVitalSignsType ValueSet</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text: DataStandardsWalesObservationVitalSignsType}} ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-Acuity, text: DataStandardsWales-UEC-Acuity}}</td>
