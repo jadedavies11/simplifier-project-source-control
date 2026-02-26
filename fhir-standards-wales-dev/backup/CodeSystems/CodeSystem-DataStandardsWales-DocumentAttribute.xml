@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="FHIRStandardsWales-DocumentAttribute"/>
-	<url value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentAttribute"/>
-    <version value="0.0.1" />
-	<name value="FHIRStandardsWalesDocumentAttribute"/>
-	<title value="FHIR Standards Wales Document Attribute"/>
+	<id value="DataStandardsWales-DocumentAttribute"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentAttribute"/>
+    <version value="0.1.0" />
+	<name value="DataStandardsWalesDocumentAttribute"/>
+	<title value="Data Standards Wales Document Attribute"/>
     <status value="draft" />
     <experimental value="true" />	
-    <date value="2025-09-19" />
+    <date value="2026-02-25" />
     <publisher value="NHS Wales" />
     <contact>
 		<name value="FHIR Standards" />
@@ -165,6 +165,10 @@
 	<concept>
 		<code value="DocumentRequiresCountersignature"/>
 		<display value="Document Requires Countersignature"/>
+	</concept>
+	<concept>
+		<code value="DocumentSubType"/>
+		<display value="Document Subtype"/>
 	</concept>
 	<concept>
 		<code value="Duplicate"/>

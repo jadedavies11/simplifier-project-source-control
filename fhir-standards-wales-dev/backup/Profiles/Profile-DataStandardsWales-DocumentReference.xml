@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-DocumentReference" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesDocumentReference" />
   <title value="Data Standards Wales Document Reference" />
   <status value="draft" />
-  <experimental value="true" />
+  <experimental value="false" />
   <date value="2025-08-18" />
   <publisher value="NHS Wales" />
   <copyright value="2025 NHS Wales" />

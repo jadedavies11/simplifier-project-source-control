@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation-VitalSigns-BMI" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BMI" />
-  <version value="1.1.2" />
+  <version value="1.2.0" />
   <name value="DataStandardsWalesObservationVitalSignsBMI" />
   <title value="Data Standards Wales Observation Vital Signs BMI" />
-  <status value="draft" />
-  <date value="2025-04-01" />
+  <status value="active" />
+  <date value="2026-02-26" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="NHS Wales" />
@@ -16,7 +16,7 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <description value="Resource structure is based on UKCore-Observation-BMI v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. Defines the additional constraints and extensions on the Data Standards Wales Observation Vital Signs profile" />
+  <description value="Resource structure is derived from Data Standards Wales - Observation - Vital Signs. It has drawn on UK Core - Observation - BMI v 1.0.0 (not yet included in a balloted release) for guidance on specific content and constraints for use when the observation is a BMI measurement." />
   <purpose value="To provide implementers with additional support when implementing measuring and recording body mass index and to provide a consistent structure to how the data is presented." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
@@ -51,16 +51,6 @@
     <element id="Observation.code.coding:snomedCT.code">
       <path value="Observation.code.coding.code" />
       <min value="1" />
-    </element>
-    <element id="Observation.subject">
-      <path value="Observation.subject" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
-      </type>
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />

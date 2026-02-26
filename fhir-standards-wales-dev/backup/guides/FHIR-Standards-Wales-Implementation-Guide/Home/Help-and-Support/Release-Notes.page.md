@@ -8,26 +8,120 @@ Package:
     * New Profiles
         * DataStandardsWales-MessageDefinition
         * DataStandardsWales-MessageHeader
-    * New Extensions 
     * New Message Definitions
         * MessageDefinition-DataStandardsWales-UEC-Arrival
+        * MessageDefinition-DataStandardsWales-UEC-Triage
+        * MessageDefinition-DataStandardsWales-UEC-Discharge
     * Removed Profiles
         * DataStandardsWales-Dosage
             * Retired from active use in v2.3.0. Removed to prevent inappropriate use
     * Changes to Profiles
         * DataStandardsWales-Appointment
             * Updated version from 1.1.0 to 1.2.0
-            * .id and .title added   
+            * .id and .title added  
+        * DataStandardsWales-Appointment
+            * Updated version from 1.1.0 to 1.2.0
+            * Amended Extension Elements names:
+                * From Immunization.extension:DataStandardsWalesImmunizationBasedOn to Immunization.extension:immunizationBasedOnR5
+                * From Immunization.extension:DataStandardsWalesAdministeredProduct to Immunization.extension:administeredProduct
+                * From Immunization.extension:DataStandardsWalesForecastCreationSource to Immunization.extension:forecastCreationSource
+                * From Immunization.extension:DataStandardsWalesDateProcedureLastUpdated to Immunization.extension:dateProcedureLastUpdated
+        * DataStandardsWales-Composition
+            * Updated version from 0.1.0 to 0.2.0
+            * .experimental. Updated from true to false  
+        * DataStandardsWales-Condition
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false  
+        * DataStandardsWales-Device
+            * Updated version from 0.0.2 to 1.0.0             
+            * .status. Updated from draft to active
+            * .experimental. Updated from true to false
+            * Must Support flag added to .identifier:applicationInstanceId
+        * DataStandardsWales-DiagnosticReport
+            * Updated version from 0.1.3 to 0.2.0
+            * .experimental. Updated from true to false    
+        * DataStandardsWales-DiagnosticReport-Lab
+            * Updated version from 0.1.2 to 0.2.0
+            * .experimental. Updated from true to false   
+        * DataStandardsWales-DocumentReference
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false  
+        * DataStandardsWales-Encounter-UEC
+            * Updated version from 0.0.2 to 0.1.0
+            * .experimental. Updated from true to false   
+        * DataStandardsWales-Endpoint
+            * Updated version from 0.0.5 to 1.0.0             
+            * .status. Updated from draft to active
+            * .experimental. Updated from true to false  
+        * DataStandardsWales-ImagingStudy
+            * Updated version from 0.1.0 to 0.2.0
+            * .experimental. Updated from true to false  
+        * DataStandardsWales-ImmunizationRecommendation
+            * Updated version from 0.0.2 to 1.0.0             
+            * .status. Updated from draft to active                    
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.2.0 to 1.3.0
             * .requestor. Cardinality changed from 1..1 to 0..1 to align with UKCore.
+        * DataStandardsWales-Observation
+            * Updated version from 0.1.3 to 1.0.0             
+            * .status. Updated from draft to active
+            * .experimental. Updated from true to false 
+        * DataStandardsWales-Observation-Lab
+            * Updated version from 0.1.2 to 0.2.0
+            * .experimental. Updated from true to false  
+        * DataStandardsWales-Observation-VitalSigns
+            * Updated version from 1.1.0 to 1.2.0             
+            * .status. Updated from draft to active 
+            * .description. Updated to reflect correct derivation              
+            * .subject. Constrained to only DataStandardsWalesPatient
         * DataStandardsWales-Observation-VitalSigns-BMI
-        	* Updated version from 1.1.1 to 1.1.2
+        	* Updated version from 1.1.1 to 1.2.0
+            * .status. Updated from draft to active
+            * .description. Updated to reflect correct derivation  
         	* .code.coding. Valueset binding URL corrected
+            * .subject. Differential removed (constraint is same as base profile)
+        * DataStandardsWales-Observation-VitalSigns-BodyHeight
+        	* Updated version from 1.1.0 to 1.2.0
+            * .status. Updated from draft to active   
+            * .description. Updated to reflect correct derivation  
+            * .code.coding:snomedCT. Removed description from the binding
+            * .subject. Differential removed (constraint is same as base profile)
+        * DataStandardsWales-Observation-VitalSigns-BodyWeight
+        	* Updated version from 1.1.0 to 1.2.0
+            * .status. Updated from draft to active
+            * .description. Updated to reflect correct derivation  
+            * .code.coding:snomedCT. Removed description from the binding
+            * .subject. Differential removed (constraint is same as base profile)
+        * DataStandardsWales-Provenance
+            * Updated version from 0.0.2 to 1.0.0             
+            * .status. Updated from draft to active
+            * .experimental. Updated from true to false  
+        * DataStandardsWales-Questionnaire
+        	* Updated version from 0.1.0 to 1.0.0
+            * .status. Updated from draft to active   
+         * DataStandardsWales-QuestionnaireResponse
+        	* Updated version from 0.1.0 to 1.0.0
+            * .status. Updated from draft to active               
         * DataStandardsWales-ServiceRequest
         	* Updated version from 1.0.1 to 1.1.0
+            * .experimental. Updated from true to false  
 	        * .reasonReference. Valueset binding updated from UKCore Condition to Data Standards Wales Condition
+        * DataStandardsWales-Specimen
+            * Updated version from 0.1.1 to 0.2.0
+            * .experimental. Updated from true to false      
     * Changes to Extensions
+        * Extension-DataStandardsWales-Immunization.basedOn
+            * Updated version from 0.1.1 to 0.2.0
+            * Updated URL value from Extension to extension
+        * Extension-DataStandardsWales-DocumentAttribute
+            * Updated version from 0.0.1 to 0.1.0
+            * Replaced Value Set in attributeName.value[x] from FHIRStandardsWales-DocumentAttribute to DataStandardsWales-DocumentAttribute
+        * Extension-DataStandardsWales-DocumentErrorAction
+            * Updated version from 0.0.1 to 0.1.0
+            * Replaced Value Set in actionType.value[x] from FHIRStandardsWales-DocumentErrorAction to DataStandardsWales-DocumentErrorAction
+        * Extension-DataStandardsWales-DocumentErrorStatus
+            * Updated version from 0.0.1 to 0.1.0
+            * Replaced Value Set in .value[x] from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
         * DataStandardsWales-UEC-MessageEvent
@@ -35,14 +129,27 @@ Package:
         * DataStandardsWales-WRRSTaskType
             * Initially introduced as an optional CodeSystem but not implemented. Removed to prevent inappropriate use
     * Changes to Code Systems
+        * FHIRStandardsWales-DocumentAttribute
+            * Updated version from 0.0.1 to 0.1.0
+            * Renamed Code System from FHIRStandardsWales-DocumentAttribute to DataStandardsWales-DocumentAttribute
+        * FHIRStandardsWales-DocumentErrorAction
+            * Updated version from 1.0.0 to 1.1.0
+            * Renamed Code System from FHIRStandardsWales-DocumentErrorAction to DataStandardsWales-DocumentErrorAction
+        * FHIRStandardsWales-DocumentErrorStatus
+            * Updated version from 1.0.0 to 1.1.0
+            * Renamed Code System from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
     * New Value Sets
         * DataStandardsWales-MessageEvent
+        * DataStandardsWales-BloodPressure-AverageSystolic
     * Removed Value Sets
         * DataStandardsWales-QuestionnaireQuestionCodes
             * Initially introduced as an optional ValueSet but not implemented. Removed to prevent inappropriate use
         * DataStandardsWales-WRRSTaskType
             * Initially introduced as an optional ValueSet but not implemented. Removed to prevent inappropriate use
     * Changes to Value Sets
+        * DataStandardsWales-BloodPressure
+            * Updated version from 1.0.0 to 1.1.0
+            * Rebased the content of the value set to UKCore-BloodPressure v1.0.0 which is not yet included in a balloted release
         * DataStandardsWales-EncounterType
             * Updated version from 1.0.0 to 1.1.0
             * Updated SNOMED CT 20250409 version 
@@ -61,6 +168,19 @@ Package:
 		* ValueSet-PASAdmitSource
 			* Updated version from 0.0.1 to 0.0.2
 			* Valueset binding URL corrected
+        * DataStandardsWales-Observation-VitalSigns
+            * Updated version from 1.0.0 to 1.1.0
+            * Corrected all canonical references to constituent value sets
+            * Removed expansion codes, which can be found in the constituent value sets
+        * FHIRStandardsWales-DocumentAttribute
+            * Updated version from 0.0.1 to 0.1.0
+            * Renamed Value Set from FHIRStandardsWales-DocumentAttribute to DataStandardsWales-DocumentAttribute
+        * FHIRStandardsWales-DocumentErrorAction
+            * Updated version from 1.0.0 to 1.1.0
+            * Renamed Value Set from FHIRStandardsWales-DocumentErrorAction to DataStandardsWales-DocumentErrorAction
+        * FHIRStandardsWales-DocumentErrorStatus
+            * Updated version from 1.0.0 to 1.1.0
+            * Renamed Value Set from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
@@ -71,6 +191,8 @@ Package:
     * New Examples
         * Urgent and Emergency Care
             * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
+            * Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)
+            * Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)
         * FHIR Messaging guidance
             * Example Message Bundle - Submit Clinician (Logical Referencing)
             * Example Message Bundle - Submit Clinician (Literal FHIR Referencing)
@@ -78,6 +200,7 @@ Package:
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks.
+* Updated Draft/Active status and removed Experimental flag on the Home page to mirror changes to the profiles
 * Added a new page to outline the DataStandardsWales-MessageDefinition profile
 * Added a new page to outline the DataStandardsWales-MessageHeader profile
 * Added new pages to outline the Message Definitions created in this release
@@ -85,10 +208,11 @@ Guide:
 * Added new pages to outline the Value Sets created in this release
 * Added new pages to outline the Examples created in this release
 * Added FHIR Messaging Guidance page
-* Added Urgent and Emergency Care Guidance page (PLACEHOLDER)
+* Added Urgent and Emergency Care Guidance page
 * Added WRTS contact details to DataStandardsWales-EncounterType Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Occupation Value Set guide page
 * Added WRTS contact details to DataStandardsWales-Religion Value Set guide page
+* Updated wording on DataStandardsWales-Observation-VitalSigns Profile pages to clarify derivation.
 * Removed duplicated examples from DataStandardsWales-Observation guide page. All examples are now located in the Examples tab of the Profile Content table
 * Removed DataStandardsWales-Dosage documentation
 * Removed DataStandardsWales-QuestionnaireQuestionCodes documentation
@@ -101,8 +225,11 @@ Guide:
 * Alphabetised yaml toc files
 * Standardised examples names in Example Index page
 * Replaced HL7 R5 AuditEvent link with HL7 R4 AuditEvent link in DataStandardsWales-AuditEvent IG page
-
-
+* Corrected pagelink for Example Encounter - In-Progress Emergency Admission in Example Index page
+* Renamed Code System and Value Set pages from FHIRStandardsWales-DocumentAttribute to DataStandardsWales-DocumentAttribute
+* Renamed Code System and Value Set pages from FHIRStandardsWales-DocumentErrorAction to DataStandardsWales-DocumentErrorAction
+* Renamed Code System and Value Set pages from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
+* Added Mandatory and Must Support Data Elements section to Device IG page
 
 ### v2.4.0 STU2
 Package: 

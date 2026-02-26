@@ -16,10 +16,16 @@
   filename: ValueSet-DataStandardsWales-BodyTemperature.page.md
 - name: ValueSet-DataStandardsWales-BodyWeightMeasurements
   filename: ValueSet-DataStandardsWales-BodyWeightMeasurements.page.md
+- name: ValueSet-DataStandardsWales-DocumentAttribute
+  filename: ValueSet-DataStandardsWales-DocumentAttribute.page.md
 - name: ValueSet-DataStandardsWales-DocumentCategory
   filename: ValueSet-DataStandardsWales-DocumentCategory.page.md
 - name: ValueSet-DataStandardsWales-DocumentDigitalStatus
   filename: ValueSet-DataStandardsWales-DocumentDigitalStatus.page.md
+- name: ValueSet-DataStandardsWales-DocumentErrorAction
+  filename: ValueSet-DataStandardsWales-DocumentErrorAction.page.md
+- name: ValueSet-DataStandardsWales-DocumentErrorStatus
+  filename: ValueSet-DataStandardsWales-DocumentErrorStatus.page.md
 - name: ValueSet-DataStandardsWales-DocumentType
   filename: ValueSet-DataStandardsWales-DocumentType.page.md
 - name: ValueSet-DataStandardsWales-GenderIdentity
@@ -64,12 +70,6 @@
   filename: ValueSet-DataStandardsWales-UEC-AttendanceSource.page.md
 - name: ValueSet-DataStandardsWales-UEC-DischargeDestination
   filename: ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md
-- name: ValueSet-FHIRStandardsWales-DocumentAttribute
-  filename: ValueSet-FHIRStandardsWales-DocumentAttribute.page.md
-- name: ValueSet-FHIRStandardsWales-DocumentErrorAction
-  filename: ValueSet-FHIRStandardsWales-DocumentErrorAction.page.md
-- name: ValueSet-FHIRStandardsWales-DocumentErrorStatus
-  filename: ValueSet-FHIRStandardsWales-DocumentErrorStatus.page.md
 - name: ValueSet-MessageEvents
   filename: ValueSet-MessageEvents.page.md
 - name: ValueSet-PASAdmitSource

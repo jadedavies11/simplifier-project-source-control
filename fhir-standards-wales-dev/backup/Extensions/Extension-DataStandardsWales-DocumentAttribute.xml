@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DocumentAttribute" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesDocumentAttribute" />
   <title value="Extension Data Standards Wales Document Attribute" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2025-08-18" />
+  <date value="2026-02-25" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -66,7 +66,7 @@
       <binding>
         <strength value="required" />
         <description value="User-readable semantic codes for allowed attributes.  Based on document metadata data held as document attributes in the Welsh Care Records Service and not represented via dedicated elements." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentAttribute" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentAttribute" />
       </binding>
     </element>
     <element id="Extension.extension:attributeValue">

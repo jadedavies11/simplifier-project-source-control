@@ -5,7 +5,7 @@
 ### Overview
 The [Observation VitalSigns BMI](https://www.hl7.org/fhir/r4/observation.html) resource contains additional support when measuring and recording body mass index about an individual receiving health or care-related services.
 
-The {{page-title}} profile is derived from the [UK Core Observation VitalSigns BMI Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/home/profilesandextensions/UKCore-Observation-VitalSigns-BMI?version=0.10.0). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is is derived from the {{pagelink:DataStandardsWales-Observation-VitalSigns, text: Data Standards Wales Observation - Vital Signs Profile}}. It defines additional rules for use when the observation is a BMI measurement.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BMI}}
 
