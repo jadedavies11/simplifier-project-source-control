@@ -1,4 +1,8 @@
 - name: Index
   filename: Index.page.md
-- name: UEC Trial Messaging Assets
-  filename: UEC-Trial-Messaging-Assets.page.md
+- name: UEC Overview
+  filename: UEC-Guidance.page.md
+- name: UEC Data Submission
+  filename: UEC-Submission-CDR.page.md
+- name: UEC End-to-End Scenario
+  filename: UEC-e2e-Scenario.page.md

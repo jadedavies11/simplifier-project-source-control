@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DocumentErrorAction" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesDocumentErrorAction" />
   <title value="Extension Data Standards Wales Document Error Action" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2025-09-24" />
+  <date value="2026-02-26" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -66,7 +66,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentErrorAction" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentErrorAction" />
       </binding>
     </element>
     <element id="Extension.extension:actionDateTime">

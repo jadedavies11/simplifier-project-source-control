@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="FHIRStandardsWales-DocumentErrorStatus"/>
-	<url value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentErrorStatus"/>
-    <version value="1.0.0" />
-	<name value="FHIRStandardsWalesDocumentErrorStatus"/>
-	<title value="FHIR Standards Wales Document Error Status"/>
+	<id value="DataStandardsWales-DocumentErrorStatus"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentErrorStatus"/>
+    <version value="1.1.0" />
+	<name value="DataStandardsWalesDocumentErrorStatus"/>
+	<title value="Data Standards Wales Document Error Status"/>
     <status value="active" />
-    <date value="2025-09-19" />
+    <date value="2026-02-25" />
     <publisher value="NHS Wales" />
     <contact>
 		<name value="FHIR Standards" />

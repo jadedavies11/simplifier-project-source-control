@@ -2,14 +2,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Immunization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
-  <version value="1.1.0" />
+  <version value="1.2.0" />
   <name value="DataStandardsWalesImmunization" />
   <title value="Data Standards Wales Immunization" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2025-04-30" />
+  <date value="2026-02-06" />
   <publisher value="NHS Wales" />
-  <copyright value="2024 NHS Wales." />
+  <copyright value="2026 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -31,36 +31,36 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedure" />
       </binding>
     </element>
-    <element id="Immunization.extension:DataStandardsWalesImmunizationBasedOn">
+    <element id="Immunization.extension:immunizationBasedOnR5">
       <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesImmunizationBasedOn" />
+      <sliceName value="immunizationBasedOnR5" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" />
       </type>
       <isModifier value="false" />
     </element>
-    <element id="Immunization.extension:DataStandardsWalesAdministeredProduct">
+    <element id="Immunization.extension:administeredProduct">
       <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesAdministeredProduct" />
+      <sliceName value="administeredProduct" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AdministeredProduct" />
       </type>
       <isModifier value="false" />
     </element>
-    <element id="Immunization.extension:DataStandardsWalesForecastCreationSource">
+    <element id="Immunization.extension:forecastCreationSource">
       <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesForecastCreationSource" />
+      <sliceName value="forecastCreationSource" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecastCreationSource" />
       </type>
       <isModifier value="false" />
     </element>
-    <element id="Immunization.extension:DataStandardsWalesDateProcedureLastUpdated">
+    <element id="Immunization.extension:dateProcedureLastUpdated">
       <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesDateProcedureLastUpdated" />
+      <sliceName value="dateProcedureLastUpdated" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DateProcedureLastUpdated" />

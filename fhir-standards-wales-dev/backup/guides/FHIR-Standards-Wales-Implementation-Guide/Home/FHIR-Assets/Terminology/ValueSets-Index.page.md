@@ -10,8 +10,11 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-BodyPosition, text:ValueSet-DataStandardsWales-BodyPosition}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text:ValueSet-DataStandardsWales-BodyTemperature}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text:ValueSet-DataStandardsWales-BodyWeightMeasurements}}
+* {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute, text:ValueSet-DataStandardsWales-DocumentAttribute}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentCategory, text:ValueSet-DataStandardsWales-DocumentCategory}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus, text:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
+* {{pagelink:ValueSet-DataStandardsWales-DocumentErrorAction, text:ValueSet-DataStandardsWales-DocumentErrorAction}}
+* {{pagelink:ValueSet-DataStandardsWales-DocumentErrorStatus, text:ValueSet-DatsStandardsWales-DocumentErrorStatus}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentType, text:ValueSet-DataStandardsWales-DocumentType}}
 * {{pagelink:ValueSet-DataStandardsWales-EncounterType, text:ValueSet-DataStandardsWales-EncounterType}}
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
@@ -35,9 +38,6 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceCategory, text:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceSource, text:ValueSet-DataStandardsWales-UEC-AttendanceSource}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-DischargeDestination, text:ValueSet-DataStandardsWales-UEC-DischargeDestination}}
-* {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute, text:ValueSet-FHIRStandardsWales-DocumentAttribute}}
-* {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorAction, text:ValueSet-FHIRStandardsWales-DocumentErrorAction}}
-* {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus, text:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}
 * {{pagelink:ValueSet-MessageEvents, text:ValueSet-MessageEvents}}
 * {{pagelink:ValueSet-PASAdmitSource, text:ValueSet-PASAdmitSource}}
 * {{pagelink:ValueSet-PASEventType, text:ValueSet-PASEventType}}

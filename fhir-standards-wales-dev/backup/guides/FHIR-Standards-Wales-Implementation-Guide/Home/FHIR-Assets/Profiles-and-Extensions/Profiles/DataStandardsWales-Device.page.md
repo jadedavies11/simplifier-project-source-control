@@ -41,6 +41,16 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
 </div>
 
+### Mandatory and Must Support Data Elements
+
+Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+
+Each Device must support:
+
+* An identifier of type applicationInstanceId
+* A device status
+* A device type
+
 
 ### Slice
 The following identifier slice is to be used with the device profile is listed below. 
