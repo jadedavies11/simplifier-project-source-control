@@ -73,25 +73,21 @@ Package:
             * Updated version from 1.1.0 to 1.2.0             
             * .status. Updated from draft to active 
             * .description. Updated to reflect correct derivation              
-            * .subject. Constrained to only DataStandardsWalesPatient
         * DataStandardsWales-Observation-VitalSigns-BMI
         	* Updated version from 1.1.1 to 1.2.0
             * .status. Updated from draft to active
             * .description. Updated to reflect correct derivation  
         	* .code.coding. Valueset binding URL corrected
-            * .subject. Differential removed (constraint is same as base profile)
         * DataStandardsWales-Observation-VitalSigns-BodyHeight
         	* Updated version from 1.1.0 to 1.2.0
             * .status. Updated from draft to active   
             * .description. Updated to reflect correct derivation  
             * .code.coding:snomedCT. Removed description from the binding
-            * .subject. Differential removed (constraint is same as base profile)
         * DataStandardsWales-Observation-VitalSigns-BodyWeight
         	* Updated version from 1.1.0 to 1.2.0
             * .status. Updated from draft to active
             * .description. Updated to reflect correct derivation  
             * .code.coding:snomedCT. Removed description from the binding
-            * .subject. Differential removed (constraint is same as base profile)
         * DataStandardsWales-Provenance
             * Updated version from 0.0.2 to 1.0.0             
             * .status. Updated from draft to active
@@ -113,15 +109,34 @@ Package:
         * Extension-DataStandardsWales-Immunization.basedOn
             * Updated version from 0.1.1 to 0.2.0
             * Updated URL value from Extension to extension
+        * Extension-DataStandardsWales-DocumentAttester
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
         * Extension-DataStandardsWales-DocumentAttribute
             * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
             * Replaced Value Set in attributeName.value[x] from FHIRStandardsWales-DocumentAttribute to DataStandardsWales-DocumentAttribute
+        * Extension-DataStandardsWales-DocumentDigitalStatus
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+            * Replaced value unknown with UNK in short description
         * Extension-DataStandardsWales-DocumentErrorAction
             * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
             * Replaced Value Set in actionType.value[x] from FHIRStandardsWales-DocumentErrorAction to DataStandardsWales-DocumentErrorAction
         * Extension-DataStandardsWales-DocumentErrorStatus
             * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
             * Replaced Value Set in .value[x] from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
+        * Extension-DataStandardsWales-DocumentVersion
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * Extension-DataStandardsWales-SourceSystem
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * Extension-DataStandardsWales-UECDischargeInformationGiven
+            * Updated version from 0.0.2 to 0.1.0
+            * .experimental. Updated from true to false       
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
         * DataStandardsWales-UEC-MessageEvent
@@ -129,8 +144,19 @@ Package:
         * DataStandardsWales-WRRSTaskType
             * Initially introduced as an optional CodeSystem but not implemented. Removed to prevent inappropriate use
     * Changes to Code Systems
+        * DataStandardsWales-DocumentCategory
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * DataStandardsWales-DocumentDigitalStatus
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+            * Removed 'unknown' code 
+        * DataStandardsWales-PatientRecordType
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
         * FHIRStandardsWales-DocumentAttribute
             * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
             * Renamed Code System from FHIRStandardsWales-DocumentAttribute to DataStandardsWales-DocumentAttribute
         * FHIRStandardsWales-DocumentErrorAction
             * Updated version from 1.0.0 to 1.1.0
@@ -138,6 +164,21 @@ Package:
         * FHIRStandardsWales-DocumentErrorStatus
             * Updated version from 1.0.0 to 1.1.0
             * Renamed Code System from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
+        * MessageEvents
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * WPASAdmitSource
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * WPASEventType
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * WPASReferralSource
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * WPASSourceAdmission
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
     * New Value Sets
         * DataStandardsWales-MessageEvent
         * DataStandardsWales-BloodPressure-AverageSystolic
@@ -150,6 +191,16 @@ Package:
         * DataStandardsWales-BloodPressure
             * Updated version from 1.0.0 to 1.1.0
             * Rebased the content of the value set to UKCore-BloodPressure v1.0.0 which is not yet included in a balloted release
+        * DataStandardsWales-DocumentCategory
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * DataStandardsWales-DocumentDigitalStatus
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+            * Added v.3 NullFlavor Code System
+        * DataStandardsWales-DocumentType
+            * Updated version from 0.0.2 to 0.1.0
+            * .experimental. Updated from true to false
         * DataStandardsWales-EncounterType
             * Updated version from 1.0.0 to 1.1.0
             * Updated SNOMED CT 20250409 version 
@@ -158,22 +209,31 @@ Package:
             * Updated version from 0.0.5 to 0.1.0
             * Updated SNOMED CT 20250409 version 
             * Expanded SNOMED CT codes to show 50 concepts as sample
+            * .experimental. Updated from true to false
         * DataStandardsWales-Occupation
             * Updated version from 1.0.0 to 1.1.0
             * Updated SNOMED CT 20250409 version 
             * Expanded SNOMED CT codes to show 50 concepts as sample
+        * DataStandardsWales-PatientRecordType
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * DataStandardsWales-ProvenanceActivity
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
 		* DataStandardsWales-RecordingSetting
 			* Updated version from 1.0.0 to 1.0.1
 			* Valueset binding URL corrected
-		* ValueSet-PASAdmitSource
-			* Updated version from 0.0.1 to 0.0.2
+		* PASAdmitSource
+			* Updated version from 0.0.1 to 0.1.0
 			* Valueset binding URL corrected
+            * .experimental. Updated from true to false
         * DataStandardsWales-Observation-VitalSigns
             * Updated version from 1.0.0 to 1.1.0
             * Corrected all canonical references to constituent value sets
             * Removed expansion codes, which can be found in the constituent value sets
         * FHIRStandardsWales-DocumentAttribute
             * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
             * Renamed Value Set from FHIRStandardsWales-DocumentAttribute to DataStandardsWales-DocumentAttribute
         * FHIRStandardsWales-DocumentErrorAction
             * Updated version from 1.0.0 to 1.1.0
@@ -181,6 +241,19 @@ Package:
         * FHIRStandardsWales-DocumentErrorStatus
             * Updated version from 1.0.0 to 1.1.0
             * Renamed Value Set from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
+        * MessageEvents
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+            * Renamed id from DataStandardsWales-DocumentCategory to MessageEvents
+        * PASEventType
+           * Updated version from 0.0.1 to 0.1.0
+           * .experimental. Updated from true to false
+        * PASReferralSource
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false
+        * PASSourceAdmission
+            * Updated version from 0.0.1 to 0.1.0
+            * .experimental. Updated from true to false         
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
@@ -230,6 +303,7 @@ Guide:
 * Renamed Code System and Value Set pages from FHIRStandardsWales-DocumentErrorAction to DataStandardsWales-DocumentErrorAction
 * Renamed Code System and Value Set pages from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
 * Added Mandatory and Must Support Data Elements section to Device IG page
+* Replaced unknown with UNK in DataStandardsWales-DocumentReference IG page 
 
 ### v2.4.0 STU2
 Package: 

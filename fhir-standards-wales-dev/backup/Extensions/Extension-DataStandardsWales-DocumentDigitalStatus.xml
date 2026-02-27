@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DocumentDigitalStatus" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesDocumentDigitalStatus" />
   <title value="Extension Data Standards Wales Document Digital Status" />
   <status value="draft" />
-  <experimental value="true" />
-  <date value="2025-08-18" />
+  <experimental value="false" />
+  <date value="2026-02-26" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -49,7 +49,7 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <short value="born-digital-document | scanned-paper-document | unknown" />
+      <short value="born-digital-document | scanned-paper-document | UNK" />
       <definition value="Indicates whether the document was always digital or created from a paper original via scanning." />
       <min value="1" />
       <type>
