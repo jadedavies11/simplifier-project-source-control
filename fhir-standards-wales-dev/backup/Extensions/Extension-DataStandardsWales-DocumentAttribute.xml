@@ -6,7 +6,7 @@
   <name value="ExtensionDataStandardsWalesDocumentAttribute" />
   <title value="Extension Data Standards Wales Document Attribute" />
   <status value="draft" />
-  <experimental value="true" />
+  <experimental value="false" />
   <date value="2026-02-25" />
   <publisher value="NHS Wales" />
   <contact>

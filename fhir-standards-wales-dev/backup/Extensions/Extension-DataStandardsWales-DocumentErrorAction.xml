@@ -6,7 +6,7 @@
   <name value="ExtensionDataStandardsWalesDocumentErrorAction" />
   <title value="Extension Data Standards Wales Document Error Action" />
   <status value="draft" />
-  <experimental value="true" />
+  <experimental value="false" />
   <date value="2026-02-26" />
   <publisher value="NHS Wales" />
   <contact>

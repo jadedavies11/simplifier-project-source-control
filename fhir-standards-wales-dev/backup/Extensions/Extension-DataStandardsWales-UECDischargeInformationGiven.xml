@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-UECDischargeInformationGiven" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-DischargeInformationGiven" />
-  <version value="0.0.2" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesUECDischargeInformationGiven" />
   <title value="Extension Data Standards Wales UEC Discharge Information Given" />
   <status value="draft" />
-  <experimental value="true" />
-  <date value="2025-09-24" />
+  <experimental value="false" />
+  <date value="2026-02-26" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
