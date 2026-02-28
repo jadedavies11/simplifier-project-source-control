@@ -304,6 +304,7 @@ Guide:
 * Renamed Code System and Value Set pages from FHIRStandardsWales-DocumentErrorStatus to DataStandardsWales-DocumentErrorStatus
 * Added Mandatory and Must Support Data Elements section to Device IG page
 * Replaced unknown with UNK in DataStandardsWales-DocumentReference IG page 
+* Data Exchange category added to Resource Index
 
 ### v2.4.0 STU2
 Package: 

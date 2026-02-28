@@ -60,52 +60,51 @@ These pages contain guidance on the following areas:
 	<tbody>
 		<tr>
       <td class="resource">{{pagelink:DataStandardsWales-Patient}} </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-Location}} </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	 
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	 
       <td class="resource">{{pagelink:DataStandardsWales-Appointment}}  </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	  
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	  
     </tr>
     <tr>
       <td class="resource">{{pagelink:DataStandardsWales-Practitioner}} </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-Organization}}  </td> 
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
-			<td class="resource">{{pagelink:DataStandardsWales-Encounter}}  </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	
+	  <td class="status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="resource">{{pagelink:DataStandardsWales-Encounter}}  </td> 
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	
     </tr>
     <tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-PractitionerRole}} </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-Questionnaire}}  </td>
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-Encounter-UEC}}  </td> 
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+	  <td class="status"><a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
     </tr>
 		<tr>
 		<td class="resource">{{pagelink:DataStandardsWales-RelatedPerson}}  </td> 
-		<td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+		<td class="status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 		<td class="resource">{{pagelink:DataStandardsWales-QuestionnaireResponse}} </td> 
-		<td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 		<td class="resource">{{pagelink:DataStandardsWales-DocumentReference}} </td> 
-		<td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
     </tr>
 	<tr>
 		<td class="resource"></td> 
-		<td class=status"> <a href="/ui/workflow/overview?id=1" </td>
+		<td class="status"> <a href="/ui/workflow/overview?id=1"></a></td>
 		<td class="resource">{{pagelink:DataStandardsWales-Condition}}  </td> 
-		<td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
 		<td class="resource">{{pagelink:DataStandardsWales-ServiceRequest}}  </td> 
-	  <td class=status">	  <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	    <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
     </tr>
 	<tr>
 		<td class="resource"></td> 
-		<td class=status"> <a href="/ui/workflow/overview?id=1" </td>
+		<td class="status"> <a href="/ui/workflow/overview?id=1"></a></td>
 		<td class="resource">{{pagelink:DataStandardsWales-Device}}  </td> 
-		<td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
-		<td class="resource"></td> 
+		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
     </tr>
-	</tbody>
+  </tbody>
 </table>
 
 <table id="resourceIndex" class="table table-striped">
@@ -119,94 +118,97 @@ These pages contain guidance on the following areas:
   <tbody>
     <tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-DiagnosticReport}} </td> 
-	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+	  <td class="status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-Medication}}  </td> 
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-AllergyIntolerance}}  </td>
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-DiagnosticReport-Lab}} </td> 
-	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+	  <td class="status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-MedicationAdministration}}  </td> 
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-AllergyList}} </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Observation}}  </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-MedicationDispense}}  </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Observation-VitalSigns}} </td> 
-	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status">  <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-MedicationList}} </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}} </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-MedicationRequest}} </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
   <tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}  </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-MedicationStatement}}  </td> 
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}  </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-Immunization}} </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
   	  <td class="resource">{{pagelink:DataStandardsWales-Observation-Lab}} </td> 
-	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+	  <td class="status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-ImmunizationRecommendation}} </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Specimen}}  </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-ImagingStudy}}  </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Endpoint}}  </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
   </tbody>
 </table>
 
-<table id="resourceIndex" class="table table-striped" style="width:34%">
+<table id="resourceIndex" class="table table-striped" style="width:67%; table-layout:auto">  
   <thead>
     <tr>
       <th scope="col" colspan="2">Security and Privacy</th>
+      <th scope="col" colspan="2">Data Exchange</th>
     </tr>
   </thead>
   <tbody>
 	</tr>
 	<tr>
-	  <td class="resource" style="width:74%">{{pagelink:DataStandardsWales-AuditEvent}} </td>
-	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
-	</tr>
-	<tr>
-	 <td class="resource">{{pagelink:DataStandardsWales-Composition}}</td> 
-	 <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td> 
+	  <td class="resource" style="width:37%">{{pagelink:DataStandardsWales-AuditEvent}} </td>
+	  <td class="status" style="width:13%">  <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="resource" style="width:37%">{{pagelink:DataStandardsWales-Composition}}</td> 
+	  <td class="status" style="width:13%"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td> 
 	</tr>
 	<tr>
 	 <td class="resource">{{pagelink:DataStandardsWales-Consent}}</td> 
-	 <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td> 
+	 <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td> 
+	 <td class="resource">{{pagelink:DataStandardsWales-MessageDefinition}}</td> 
+	 <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td> 
 	</tr>
 	<tr>
       <td class="resource">{{pagelink:DataStandardsWales-Provenance}}  </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="resource">{{pagelink:DataStandardsWales-MessageHeader}}</td> 
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td> 
     </tr>
   </tbody>
 </table>
