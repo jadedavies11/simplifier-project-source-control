@@ -2,6 +2,8 @@
   filename: Index.page.md
 - name: Extension-DataStandardsWales-AdministeredProduct
   filename: Extension-DataStandardsWales-AdministeredProduct.page.md
+- name: Extension-DataStandardsWales-AliasType
+  filename: Extension-DataStandardsWales-AliasType.page.md
 - name: Extension-DataStandardsWales-ClinicCode
   filename: Extension-DataStandardsWales-ClinicCode.page.md  
 - name: Extension-DataStandardsWales-DateProcedureLastUpdated
@@ -22,8 +24,14 @@
   filename: Extension-DataStandardsWales-DocumentVersion.page.md
 - name: Extension-DataStandardsWales-ForecastCreationSource
   filename: Extension-DataStandardsWales-ForecastCreationSource.page.md
+- name: Extension-DataStandardsWales-GridReference
+  filename: Extension-DataStandardsWales-GridReference.page.md
 - name: Extension-DataStandardsWales-Immunization.basedOn
   filename: Extension-DataStandardsWales-Immunization.basedOn.page.md
+- name: Extension-DataStandardsWales-LocationCharacteristic
+  filename: Extension-DataStandardsWales-LocationCharacteristic.page.md
+- name: Extension-DataStandardsWales-LocationPeriod
+  filename: Extension-DataStandardsWales-LocationPeriod.page.md
 - name: Extension-DataStandardsWales-MedicationCourseOfTherapyType
   filename: Extension-DataStandardsWales-MedicationCourseOfTherapyType.page.md
 - name: Extension-DataStandardsWales-Occupation
