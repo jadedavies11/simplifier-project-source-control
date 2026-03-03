@@ -73,21 +73,25 @@ Package:
             * Updated version from 1.1.0 to 1.2.0             
             * .status. Updated from draft to active 
             * .description. Updated to reflect correct derivation              
+            * .subject. Removed references to HL7 Group, DataStandardsWales-Location and DataStandardsWales-Device
         * DataStandardsWales-Observation-VitalSigns-BMI
         	* Updated version from 1.1.1 to 1.2.0
             * .status. Updated from draft to active
             * .description. Updated to reflect correct derivation  
         	* .code.coding. Valueset binding URL corrected
+            * .subject. Removed differential to reflect the constraint in base profile
         * DataStandardsWales-Observation-VitalSigns-BodyHeight
         	* Updated version from 1.1.0 to 1.2.0
             * .status. Updated from draft to active   
             * .description. Updated to reflect correct derivation  
             * .code.coding:snomedCT. Removed description from the binding
+            * .subject. Removed differential to reflect the constraint in base profile
         * DataStandardsWales-Observation-VitalSigns-BodyWeight
         	* Updated version from 1.1.0 to 1.2.0
             * .status. Updated from draft to active
             * .description. Updated to reflect correct derivation  
             * .code.coding:snomedCT. Removed description from the binding
+            * .subject. Removed differential to reflect the constraint in base profile
         * DataStandardsWales-Provenance
             * Updated version from 0.0.2 to 1.0.0             
             * .status. Updated from draft to active
@@ -305,6 +309,7 @@ Guide:
 * Added Mandatory and Must Support Data Elements section to Device IG page
 * Replaced unknown with UNK in DataStandardsWales-DocumentReference IG page 
 * Data Exchange category added to Resource Index
+* DataStandardsWales-Endpoint moved from Diagnostics to Entities in the Resource Index
 
 ### v2.4.0 STU2
 Package: 
