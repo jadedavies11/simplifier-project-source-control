@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="PASEventType"/>
 	<url value="https://fhir.nhs.wales/ValueSet/PASEventType"/>
-    <version value="0.1.0" />
+    <version value="0.0.1" />
     <name value="PASEventType"/>
 	<title value="PAS Event Type"/>
     <status value="draft" />
-    <experimental value="false" />
-	<date value="2026-02-26" />
+    <experimental value="true" />
+	<date value="2025-07-25" />
     <publisher value="NHS Wales" />
 	<contact>
 		<name value="FHIR Standards"/>

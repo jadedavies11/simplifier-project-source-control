@@ -5,7 +5,7 @@
 	<name value="MessageDefinitionDataStandardsWalesUECArrival"/>
 	<title value="Message Definition Data Standards Wales UEC Arrival"/>
 	<status value="draft"/>
-	<date value="2025-12-19"/>
+	<date value="2025-12-18"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -36,7 +36,7 @@
 	<focus>
 		<code value="Organization"/>
 		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-		<min value="1"/>
+		<min value="2"/>
 		<max value="*"/>
 	</focus>
 	<focus>

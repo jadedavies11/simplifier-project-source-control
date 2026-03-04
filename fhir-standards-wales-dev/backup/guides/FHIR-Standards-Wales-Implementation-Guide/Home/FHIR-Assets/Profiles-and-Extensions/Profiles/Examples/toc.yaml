@@ -4,10 +4,8 @@
   filename: Diagnostics
 - name: Example-DataStandardsWales-AuditEvent-CreateObservations
   filename: Example-DataStandardsWales-AuditEvent-CreateObservations.page.md
-- name: Example-DataStandardsWales-Bundle-SubmitClinician-Literal
-  filename: Example-DataStandardsWales-Bundle-SubmitClinician-Literal.page.md
-- name: Example-DataStandardsWales-Bundle-SubmitClinician-Logical
-  filename: Example-DataStandardsWales-Bundle-SubmitClinician-Logical.page.md
+- name: Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI
+  filename: Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
@@ -30,8 +28,6 @@
   filename: Example-DataStandardsWales-Location-CadogWard.page.md
 - name: Example-DataStandardsWales-Location-WardE
   filename: Example-DataStandardsWales-Location-WardE.page.md
-- name: Example-DataStandardsWales-MessageDefinition-SubmitClinician
-  filename: Example-DataStandardsWales-MessageDefinition-SubmitClinician.page.md
 - name: Example-DataStandardsWales-Observation-ACVPU
   filename: Example-DataStandardsWales-Observation-ACVPU.page.md
 - name: Example-DataStandardsWales-Observation-BloodPressure

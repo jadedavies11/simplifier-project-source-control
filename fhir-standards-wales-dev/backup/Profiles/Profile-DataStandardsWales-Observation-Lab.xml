@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation-Lab" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-Lab" />
-  <version value="0.2.0" />
+  <version value="0.1.2" />
   <name value="DataStandardsWalesObservationLab" />
   <title value="Data Standards Wales Observation - Lab" />
   <status value="draft" />
-  <experimental value="false" />
-  <date value="2026-02-26" />
+  <experimental value="true" />
+  <date value="2023-05-24" />
   <publisher value="NHS Wales" />
   <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
