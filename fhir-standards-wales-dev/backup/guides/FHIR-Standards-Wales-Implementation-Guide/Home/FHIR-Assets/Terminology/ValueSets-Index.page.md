@@ -2,7 +2,6 @@
 
 The following Value Sets have been defined for this implementation guide:
 
-* {{pagelink:ValueSet-DataStandardsWales-BloodPressure-AliasType, text:ValueSet-DataStandardsWales-BloodPressure-AliasType}}
 * {{pagelink:ValueSet-DataStandardsWales-BloodPressure-AverageSystolic, text:ValueSet-DataStandardsWales-BloodPressure-AverageSystolic}}
 * {{pagelink:ValueSet-DataStandardsWales-BloodPressure-Diastolic, text:ValueSet-DataStandardsWales-BloodPressure-Diastolic}}
 * {{pagelink:ValueSet-DataStandardsWales-BloodPressure-Systolic, text:ValueSet-DataStandardsWales-BloodPressure-Systolic}}
@@ -11,28 +10,18 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-BodyPosition, text:ValueSet-DataStandardsWales-BodyPosition}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text:ValueSet-DataStandardsWales-BodyTemperature}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text:ValueSet-DataStandardsWales-BodyWeightMeasurements}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute, text:ValueSet-DataStandardsWales-DocumentAttribute}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentCategory, text:ValueSet-DataStandardsWales-DocumentCategory}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus, text:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentErrorAction, text:ValueSet-DataStandardsWales-DocumentErrorAction}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentErrorStatus, text:ValueSet-DatsStandardsWales-DocumentErrorStatus}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentType, text:ValueSet-DataStandardsWales-DocumentType}}
 * {{pagelink:ValueSet-DataStandardsWales-EncounterType, text:ValueSet-DataStandardsWales-EncounterType}}
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
 * {{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements, text:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}
 * {{pagelink:ValueSet-DataStandardsWales-HeartRate, text:ValueSet-DataStandardsWales-HeartRate}}
-* {{pagelink:ValueSet-DataStandardsWales-LocationClassification, text:ValueSet-DataStandardsWales-LocationClassification}}
-* {{pagelink:ValueSet-DataStandardsWales-LocationForm, text:ValueSet-DataStandardsWales-LocationForm}}
-* {{pagelink:ValueSet-DataStandardsWales-LocationSubclassification, text:ValueSet-DataStandardsWales-LocationSubclassification}}
 * {{pagelink:ValueSet-DataStandardsWales-MainSpecialty, text:ValueSet-DataStandardsWales-MainSpecialty}}
 * {{pagelink:ValueSet-DataStandardsWales-MaritalStatus, text:ValueSet-DataStandardsWales-MaritalStatus}}
 * {{pagelink:ValueSet-DataStandardsWales-MessageEvent, text:ValueSet-DataStandardsWales-MessageEvent}}
 * {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text:ValueSet-DataStandardsWales-ObservationVitalSignsType}}
 * {{pagelink:ValueSet-DataStandardsWales-Occupation, text:ValueSet-DataStandardsWales-Occupation}}
-* {{pagelink:ValueSet-DataStandardsWales-OrganizationClassification, text:ValueSet-DataStandardsWales-OrganizationClassification}}
-* {{pagelink:ValueSet-DataStandardsWales-OrganizationDomain, text:ValueSet-DataStandardsWales-OrganizationDomain}}
-* {{pagelink:ValueSet-DataStandardsWales-OrganizationSector, text:ValueSet-DataStandardsWales-OrganizationSector}}
-* {{pagelink:ValueSet-DataStandardsWales-OrganizationSubclassification, text:ValueSet-DataStandardsWales-OrganizationSubclassification}}
 * {{pagelink:ValueSet-DataStandardsWales-OxygenSaturation, text:ValueSet-DataStandardsWales-OxygenSaturation}}
 * {{pagelink:ValueSet-DataStandardsWales-PatientRecordType, text:ValueSet-DataStandardsWales-PatientRecordType}}
 * {{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity, text:ValueSet-DataStandardsWales-ProvenanceActivity}}
@@ -46,6 +35,9 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceCategory, text:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceSource, text:ValueSet-DataStandardsWales-UEC-AttendanceSource}}
 * {{pagelink:ValueSet-DataStandardsWales-UEC-DischargeDestination, text:ValueSet-DataStandardsWales-UEC-DischargeDestination}}
+* {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute, text:ValueSet-FHIRStandardsWales-DocumentAttribute}}
+* {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorAction, text:ValueSet-FHIRStandardsWales-DocumentErrorAction}}
+* {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus, text:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}
 * {{pagelink:ValueSet-MessageEvents, text:ValueSet-MessageEvents}}
 * {{pagelink:ValueSet-PASAdmitSource, text:ValueSet-PASAdmitSource}}
 * {{pagelink:ValueSet-PASEventType, text:ValueSet-PASEventType}}

@@ -5,8 +5,8 @@
 	<name value="DataStandardsWalesOccupation"/>
 	<title value="Data Standards Wales Occupation"/>
 	<status value="draft"/>
-	<experimental value="false"/>
-	<date value="2026-02-26"/>
+	<experimental value="true"/>
+	<date value="2025-11-19"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="Data Standards"/>

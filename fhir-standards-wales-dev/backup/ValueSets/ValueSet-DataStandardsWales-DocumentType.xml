@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-DocumentType"/>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentType"/>
-    <version value="0.1.0" />
+    <version value="0.0.2" />
     <name value="DataStandardsWalesDocumentType"/>
 	<title value="Data Standards Wales Document Type"/>
     <status value="draft" />
-    <experimental value="false" />
-	<date value="2026-02-26" />
+    <experimental value="true" />
+	<date value="2025-08-18" />
     <publisher value="NHS Wales" />
     <contact>
 		<name value="FHIR Standards" />

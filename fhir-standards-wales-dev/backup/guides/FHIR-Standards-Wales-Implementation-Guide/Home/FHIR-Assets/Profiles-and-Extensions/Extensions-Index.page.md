@@ -3,7 +3,6 @@
 The following Extensions have been defined for this implementation guide.
 
 * {{pagelink:Extension-DataStandardsWales-AdministeredProduct}}
-* {{pagelink:Extension-DataStandardsWales-AliasType}}
 * {{pagelink:Extension-DataStandardsWales-ClinicCode}}
 * {{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated}}
 * {{pagelink:Extension-DataStandardsWales-DemographicsAsRecorded}}
@@ -14,10 +13,7 @@ The following Extensions have been defined for this implementation guide.
 * {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}}
 * {{pagelink:Extension-DataStandardsWales-DocumentVersion}}
 * {{pagelink:Extension-DataStandardsWales-ForecastCreationSource}}
-* {{pagelink:Extension-DataStandardsWales-GridReference}}
 * {{pagelink:Extension-DataStandardsWales-Immunization.basedOn}}
-* {{pagelink:Extension-DataStandardsWales-LocationCharacteristic}}
-* {{pagelink:Extension-DataStandardsWales-LocationPeriod}}
 * {{pagelink:Extension-DataStandardsWales-MedicationCourseOfTherapyType}}
 * {{pagelink:Extension-DataStandardsWales-Occupation}}
 * {{pagelink:Extension-DataStandardsWales-RecordingSetting}}
