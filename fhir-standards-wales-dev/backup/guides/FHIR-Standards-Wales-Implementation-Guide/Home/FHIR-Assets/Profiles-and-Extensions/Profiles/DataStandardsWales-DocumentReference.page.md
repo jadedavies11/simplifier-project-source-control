@@ -77,7 +77,7 @@ The `DocumentReference.status` field **SHALL** be populated with with one of the
 The `DocumentReference.extension.digitalStatus` field **SHALL** be populated with with one of the following values defined by the FHIR standard:
 - born-digital-document
 - scanned-paper-document
-- unknown
+- UNK
 <br>
 
 ### Extensions

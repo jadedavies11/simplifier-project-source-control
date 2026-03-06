@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-ProvenanceActivity" />
   <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-ProvenanceActivity" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesProvenanceActivity" />
   <title value="Data Standards Wales Provenance Activity" />
   <status value="draft" />
-  <experimental value="true" />
-  <date value="2024-05-23" />
+  <experimental value="false" />
+  <date value="2026-02-26" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="Data Standards" />
