@@ -1,3 +1,5 @@
+- name: Index
+  filename: Index.page.md
 - name: Introduction
   filename: Introduction.page.md
 - name: Examples

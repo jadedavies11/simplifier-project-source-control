@@ -2,8 +2,11 @@
 
 The following Code Systems have been defined for this implementation guide:
 
+* {{pagelink:CodeSystem-DataStandardsWales-DocumentAttribute, text:CodeSystem-DataStandardsWales-DocumentAttribute}}
 * {{pagelink:CodeSystem-DataStandardsWales-DocumentCategory, text:CodeSystem-DataStandardsWales-DocumentCategory}}
 * {{pagelink:CodeSystem-DataStandardsWales-DocumentDigitalStatus, text:CodeSystem-DataStandardsWales-DocumentDigitalStatus}}
+* {{pagelink:CodeSystem-DataStandardsWales-DocumentErrorAction, text:CodeSystem-DataStandardsWales-DocumentErrorAction}}
+* {{pagelink:CodeSystem-DataStandardsWales-DocumentErrorStatus, text:CodeSystem-DataStandardsWales-DocumentErrorStatus}}
 * {{pagelink:CodeSystem-DataStandardsWales-GenderIdentity, text:CodeSystem-DataStandardsWales-GenderIdentity}}
 * {{pagelink:CodeSystem-DataStandardsWales-MainSpecialty, text:CodeSystem-DataStandardsWales-MainSpecialty}}
 * {{pagelink:CodeSystem-DataStandardsWales-MaritalStatus, text:CodeSystem-DataStandardsWales-MaritalStatus}}
@@ -15,9 +18,6 @@ The following Code Systems have been defined for this implementation guide:
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-AttendanceCategory, text:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism, text:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism}}
 * {{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent, text:CodeSystem-DataStandardsWales-UEC-MessageEvent}}
-* {{pagelink:CodeSystem-FHIRStandardsWales-DocumentAttribute, text:CodeSystem-FHIRStandardsWales-DocumentAttribute}}
-* {{pagelink:CodeSystem-FHIRStandardsWales-DocumentErrorAction, text:CodeSystem-FHIRStandardsWales-DocumentErrorAction}}
-* {{pagelink:CodeSystem-FHIRStandardsWales-DocumentErrorStatus, text:CodeSystem-FHIRStandardsWales-DocumentErrorStatus}}
 * {{pagelink:CodeSystem-MessageEvents, text:CodeSystem-MessageEvents}}
 * {{pagelink:CodeSystem-WPASAdmitSource, text:CodeSystem-WPASAdmitSource}}
 * {{pagelink:CodeSystem-WPASEventType, text:CodeSystem-WPASEventType}}
