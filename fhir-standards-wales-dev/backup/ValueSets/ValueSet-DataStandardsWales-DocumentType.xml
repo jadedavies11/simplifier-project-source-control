@@ -17,7 +17,7 @@
 			<rank value="1" />
 		</telecom>
     </contact>
-	<description value="A set of codes used to identify the category of a document within NHS Wales."/>
+	<description value="A set of codes used to identify the category of a document within NHS Wales. Selected from the 'Record composition type' simple reference set of the SNOMED CT UK coding system."/>
 	<copyright value="2025 NHS Wales." />
     <compose>
         <include>

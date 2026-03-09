@@ -205,6 +205,7 @@ Package:
         * DataStandardsWales-DocumentType
             * Updated version from 0.0.2 to 0.1.0
             * .experimental. Updated from true to false
+            * Added 'Record composition type' simple reference set to description.
         * DataStandardsWales-EncounterType
             * Updated version from 1.0.0 to 1.1.0
             * Updated SNOMED CT 20250409 version 
