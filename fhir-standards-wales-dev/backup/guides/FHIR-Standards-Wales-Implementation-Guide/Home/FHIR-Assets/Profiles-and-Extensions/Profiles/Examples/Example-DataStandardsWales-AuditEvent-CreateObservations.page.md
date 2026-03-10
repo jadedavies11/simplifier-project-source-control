@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example AuditEvent - Create Observations
 
 <div class="tab-wrap">

@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 This extension provides outline data for an action performed as part of a document error workflow e.g. document misfile proposed.
 

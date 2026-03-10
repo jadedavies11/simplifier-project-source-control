@@ -1,5 +1,3 @@
-DocumentReferenceDe. <div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Provenance - Document Reference Creation
 
 <div class="tab-wrap">

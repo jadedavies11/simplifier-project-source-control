@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Provenance - Multiple Targets
 
 <div class="tab-wrap">

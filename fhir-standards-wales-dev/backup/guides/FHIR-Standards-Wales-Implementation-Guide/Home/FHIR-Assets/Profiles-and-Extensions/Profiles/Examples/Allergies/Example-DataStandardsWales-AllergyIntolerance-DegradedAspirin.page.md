@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example AllergyIntolerance - Transfer Degraded 'Asprin Ibuprofen'
 This shows an example medication allergy.
 

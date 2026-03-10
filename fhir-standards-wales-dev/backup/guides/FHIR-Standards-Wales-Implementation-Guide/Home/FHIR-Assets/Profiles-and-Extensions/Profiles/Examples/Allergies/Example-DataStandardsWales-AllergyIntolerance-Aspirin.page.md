@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example AllergyIntolerance - Aspirin
 This shows an example medication allergy.
 

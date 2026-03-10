@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example MedicationStatement - Bendroflumethiazide
 This shows an example medication statement as recorded within the GP record.
 

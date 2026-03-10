@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example AllergyIntolerance - no known allergies
 This shows an example recording a patient that is known to have no allergies.
 

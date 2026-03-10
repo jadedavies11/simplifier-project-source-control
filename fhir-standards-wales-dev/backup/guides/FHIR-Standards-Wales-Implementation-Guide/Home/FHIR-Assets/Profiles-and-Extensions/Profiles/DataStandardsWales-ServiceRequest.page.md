@@ -1,5 +1,3 @@
-<div class="warning"><span class="ExperiWarn"></span></div>
-
 ## {{page-title}}
 The [ServiceRequest](https://www.hl7.org/fhir/r4/ServiceRequest.html) resource contains information of a request for a procedure or diagnostic or other service to be planned, proposed, or performed, as distinguished by the ServiceRequest.intent field value, with or on a patient.
 

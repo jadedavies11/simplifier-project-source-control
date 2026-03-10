@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 An extension to carry a reference to a practitioner resource to identify who confirmed the changes.
 
