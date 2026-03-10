@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Practitioner - Dhiren Patel (Consultant)
 
 <div class="tab-wrap">

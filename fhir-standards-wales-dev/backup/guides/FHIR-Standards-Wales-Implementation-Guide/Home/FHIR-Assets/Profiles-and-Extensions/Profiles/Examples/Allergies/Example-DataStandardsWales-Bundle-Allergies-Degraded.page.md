@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Bundle - Degraded Allergies
 
 This example references the following example resources:

@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 An extension to capture a participant who has authenticated the accuracy of the document. (Backport from FHIR R5.)
 

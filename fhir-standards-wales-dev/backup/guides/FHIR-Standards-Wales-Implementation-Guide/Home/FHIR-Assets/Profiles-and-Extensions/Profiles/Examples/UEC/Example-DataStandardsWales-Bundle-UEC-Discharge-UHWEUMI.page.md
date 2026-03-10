@@ -1,4 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+<div class="warning"><span class="DevWarn"></span></div>
 
 ## Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)
 

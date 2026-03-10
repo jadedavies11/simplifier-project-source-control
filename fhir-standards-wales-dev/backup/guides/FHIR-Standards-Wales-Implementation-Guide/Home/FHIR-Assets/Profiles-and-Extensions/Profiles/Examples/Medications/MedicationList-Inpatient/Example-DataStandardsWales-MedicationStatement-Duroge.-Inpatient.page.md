@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example MedicationStatement - Durogesic DTrans
 This shows an example medication statement as recorded as part of the inpatient medication record.
 

@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example List Allergies (generate)
 
 This example references the following example resources:

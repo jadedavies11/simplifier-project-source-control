@@ -1,5 +1,3 @@
-<div class="warning"><span class="ExperiWarn"></span></div>
-
 ## {{page-title}}
 The [Specimen](https://www.hl7.org/fhir/r4/Specimen.html) resource contains information about a sample to be used for analysis.
 

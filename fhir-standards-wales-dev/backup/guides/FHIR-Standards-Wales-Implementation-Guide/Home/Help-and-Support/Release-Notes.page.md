@@ -318,6 +318,8 @@ Guide:
 * Added Provenance Extensions section to Provenance Guidance page
 * Added ValueSets DataStandardsWales-EncounterType & PASEventType to yaml toc file
 * Provided additional information on the Care Documents guidance page
+* Updated left sided navigation panes and asset indexes for easier discovery
+
 ### v2.4.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
