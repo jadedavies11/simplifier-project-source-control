@@ -1,4 +1,4 @@
-## Example AllergyIntolerance - Ibuprofen
+## AllergyIntolerance - Medication (ibuprofen)
 This shows an example medication allergy.
 
 <div class="tab-wrap">

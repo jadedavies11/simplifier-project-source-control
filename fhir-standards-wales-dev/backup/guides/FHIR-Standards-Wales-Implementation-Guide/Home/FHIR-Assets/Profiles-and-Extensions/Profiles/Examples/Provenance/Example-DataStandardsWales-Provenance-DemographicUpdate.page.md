@@ -1,4 +1,4 @@
-## Example Provenance - Demographics Update
+## Example Provenance - Demographics update as result of an HL7v2 patient demographic update
 
 <div class="tab-wrap">
   <ul class="tab-head">

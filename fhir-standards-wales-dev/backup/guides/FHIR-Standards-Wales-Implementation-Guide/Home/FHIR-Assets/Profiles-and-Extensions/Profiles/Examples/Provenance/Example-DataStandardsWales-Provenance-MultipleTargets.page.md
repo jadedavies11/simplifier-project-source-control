@@ -1,4 +1,4 @@
-## Example Provenance - Multiple Targets
+## Example Provenance - Record with multiple targets e.g. for growth chart observations
 
 <div class="tab-wrap">
   <ul class="tab-head">

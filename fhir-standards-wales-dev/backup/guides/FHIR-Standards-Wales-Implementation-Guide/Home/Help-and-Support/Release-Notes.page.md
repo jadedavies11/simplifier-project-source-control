@@ -319,6 +319,8 @@ Guide:
 * Added ValueSets DataStandardsWales-EncounterType & PASEventType to yaml toc file
 * Provided additional information on the Care Documents guidance page
 * Updated left sided navigation panes and asset indexes for easier discovery
+* Removed most page warnings, restricting them to home page, main index pages and specific content that is under development
+* Updated narrative content to reflect revised understanding of experimental as exploratory e.g. for prototyping
 
 ### v2.4.0 STU2
 Package: 

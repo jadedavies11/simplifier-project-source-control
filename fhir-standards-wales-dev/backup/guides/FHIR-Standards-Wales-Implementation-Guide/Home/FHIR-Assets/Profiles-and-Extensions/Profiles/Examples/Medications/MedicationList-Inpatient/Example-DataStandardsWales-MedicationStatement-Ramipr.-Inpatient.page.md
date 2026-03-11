@@ -1,4 +1,4 @@
-## Example MedicationStatement - Ramipril
+## Example MedicationStatement - Inpatient - Ramipril
 This shows an example medication statement as recorded as part of the inpatient medication record.
 
 <div class="tab-wrap">

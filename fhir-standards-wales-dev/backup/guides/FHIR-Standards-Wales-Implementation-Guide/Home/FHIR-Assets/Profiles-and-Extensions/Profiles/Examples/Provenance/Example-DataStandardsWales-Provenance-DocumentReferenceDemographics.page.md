@@ -1,4 +1,4 @@
-## Example Provenance - Demographics as Recorded with Care Document
+## Example Provenance - Demographics as recorded with care document
 
 <div class="tab-wrap">
   <ul class="tab-head">

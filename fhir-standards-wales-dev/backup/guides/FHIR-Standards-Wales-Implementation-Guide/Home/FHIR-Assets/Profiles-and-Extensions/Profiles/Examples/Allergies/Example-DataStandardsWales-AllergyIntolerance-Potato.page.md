@@ -1,4 +1,4 @@
-## Example AllergyIntolerance - Potato
+## Example AllergyIntolerance - Food (potato)
 This shows an example food allergy.
 
 <div class="tab-wrap">

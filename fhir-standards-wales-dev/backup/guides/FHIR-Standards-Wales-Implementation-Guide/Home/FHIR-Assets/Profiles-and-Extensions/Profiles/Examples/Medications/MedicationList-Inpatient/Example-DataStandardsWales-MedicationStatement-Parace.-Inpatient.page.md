@@ -1,4 +1,4 @@
-## Example MedicationStatement - Paracetamol
+## Example MedicationStatement - Inpatient - Paracetamol
 This shows an example medication statement as recorded as part of the inpatient medication record.
 
 <div class="tab-wrap">

@@ -1,4 +1,4 @@
-## Example Observation Result - Pathology Whole Blood Count
+## Example Observation Result - Pathology White Blood Cell Count
 
 <div class="tab-wrap">
   <ul class="tab-head">

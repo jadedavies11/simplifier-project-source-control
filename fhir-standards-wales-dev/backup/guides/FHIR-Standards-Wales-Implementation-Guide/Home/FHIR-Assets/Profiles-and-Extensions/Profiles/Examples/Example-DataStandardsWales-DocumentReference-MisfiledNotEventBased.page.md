@@ -1,4 +1,5 @@
-## Example Document Reference - A document which has been misfiled via a two-step workflow: misfile proposed and then accepted.  The document in this example is not based on a patient healthcare event.
+## Example Document Reference - Misfiled (document not event-based)
+This example represents a document which has been misfiled via a two-step workflow: misfile proposed and then accepted.  The document in this example is not based on a patient healthcare event.
 
 <div class="tab-wrap">
   <ul class="tab-head">

@@ -1,4 +1,4 @@
-## Example Provenance - Document Reference Creation
+## Example Provenance - DocumentReference creation
 
 <div class="tab-wrap">
   <ul class="tab-head">

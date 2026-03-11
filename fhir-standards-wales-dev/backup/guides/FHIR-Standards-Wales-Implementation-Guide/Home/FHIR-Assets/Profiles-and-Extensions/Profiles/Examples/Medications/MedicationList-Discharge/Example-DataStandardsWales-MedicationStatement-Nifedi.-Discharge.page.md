@@ -1,4 +1,4 @@
-## Example MedicationStatement - Nifedipress
+## Example MedicationStatement - Discharge - Nifedipress
 This shows an example medication statement as recorded on discharge.
 
 <div class="tab-wrap">

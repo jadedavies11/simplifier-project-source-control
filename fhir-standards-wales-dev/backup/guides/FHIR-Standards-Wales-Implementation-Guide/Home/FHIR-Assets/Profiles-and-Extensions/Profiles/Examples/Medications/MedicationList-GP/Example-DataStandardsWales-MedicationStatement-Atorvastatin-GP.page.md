@@ -1,4 +1,4 @@
-## Example MedicationStatement - Atorvastatin
+## Example MedicationStatement - GP - Atorvastatin
 This shows an example medication statement as recorded within the GP record.
 
 <div class="tab-wrap">

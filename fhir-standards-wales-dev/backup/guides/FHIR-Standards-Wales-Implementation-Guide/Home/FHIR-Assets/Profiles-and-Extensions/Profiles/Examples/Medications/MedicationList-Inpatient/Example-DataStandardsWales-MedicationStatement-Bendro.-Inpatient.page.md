@@ -1,4 +1,4 @@
-## Example MedicationStatement - Bendroflumethiazide
+## Example MedicationStatement - Inpatient - Bendroflumethiazide
 This shows an example medication statement as recorded as part of the inpatient medication record.
 
 <div class="tab-wrap">

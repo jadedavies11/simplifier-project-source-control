@@ -1,4 +1,5 @@
-## Example Document Reference - A document based on a patient event that is not a FHIR Encounter resource
+## Example Document Reference - Event-based
+This example represents a document based on a patient event that is not a FHIR Encounter resource.
 
 <div class="tab-wrap">
   <ul class="tab-head">

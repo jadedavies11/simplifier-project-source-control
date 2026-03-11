@@ -1,4 +1,4 @@
-## Example MedicationStatement - Bisoprolol
+## Example MedicationStatement - GP - Bisoprolol
 This shows an example medication statement as recorded within the GP record.
 
 <div class="tab-wrap">

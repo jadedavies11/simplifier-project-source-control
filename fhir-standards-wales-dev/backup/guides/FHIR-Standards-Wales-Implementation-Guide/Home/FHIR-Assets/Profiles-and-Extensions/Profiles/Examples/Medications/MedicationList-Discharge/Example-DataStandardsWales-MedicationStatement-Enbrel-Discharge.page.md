@@ -1,4 +1,4 @@
-## Example MedicationStatement - Enbrel
+## Example MedicationStatement - Discharge - Enbrel
 This shows an example medication statement as recorded on discharge.
 
 <div class="tab-wrap">

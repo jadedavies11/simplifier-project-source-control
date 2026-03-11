@@ -1,4 +1,4 @@
-## Example MedicationStatement - Latanoprost
+## Example MedicationStatement - Discharge - Latanoprost
 This shows an example medication statement as recorded on discharge.
 
 <div class="tab-wrap">

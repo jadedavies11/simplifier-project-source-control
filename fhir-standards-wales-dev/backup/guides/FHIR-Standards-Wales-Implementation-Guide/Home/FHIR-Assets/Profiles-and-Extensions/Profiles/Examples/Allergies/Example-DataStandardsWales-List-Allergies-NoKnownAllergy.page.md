@@ -1,12 +1,12 @@
-## Example List - No Known Allergies List
+## Example Allergy List - No known allergies
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:no known allergy}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:Example AllergyIntolerance - No known allergies}}
 
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Practitioner - Dr Dhiren Patel }}
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
 
 
 <div class="tab-wrap">
