@@ -1,4 +1,4 @@
-## Example Medication - Amoxicillin Infusion
+## Example Medication - Amoxicillin infusion
 <div class="tab-wrap">
   <ul class="tab-head">
     <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">

@@ -1,4 +1,5 @@
-## Example Document Reference - A document that is not based on a patient healthcare event 
+## Example Document Reference - Not event-based
+This example represents a document related to patient health or care but not based on a patient healthcare event. 
 
 <div class="tab-wrap">
   <ul class="tab-head">

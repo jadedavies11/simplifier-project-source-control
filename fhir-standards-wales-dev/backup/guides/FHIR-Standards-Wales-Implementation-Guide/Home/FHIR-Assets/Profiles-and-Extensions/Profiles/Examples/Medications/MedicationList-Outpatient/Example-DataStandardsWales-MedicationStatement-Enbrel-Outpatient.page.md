@@ -1,4 +1,4 @@
-## Example MedicationStatement - Enbrel
+## Example MedicationStatement - Outpatient - Enbrel
 This shows an example medication statement as recorded within an outpatient attendance.
 
 <div class="tab-wrap">

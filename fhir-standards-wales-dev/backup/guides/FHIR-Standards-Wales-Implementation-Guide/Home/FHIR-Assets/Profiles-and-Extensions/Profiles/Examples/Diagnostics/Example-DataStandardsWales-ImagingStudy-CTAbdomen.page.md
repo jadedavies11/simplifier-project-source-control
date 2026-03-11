@@ -1,4 +1,4 @@
-## Example Imaging Study - Radiology DICOM Endpoint
+## Example Imaging Study - Radiology CT Abdomen
 
 <div class="tab-wrap">
   <ul class="tab-head">

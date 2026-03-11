@@ -1,4 +1,4 @@
-## Example MedicationStatement - Bisoprolol
+## Example MedicationStatement - Inpatient - Bisoprolol
 This shows an example medication statement as recorded as part of the inpatient medication record.
 
 <div class="tab-wrap">

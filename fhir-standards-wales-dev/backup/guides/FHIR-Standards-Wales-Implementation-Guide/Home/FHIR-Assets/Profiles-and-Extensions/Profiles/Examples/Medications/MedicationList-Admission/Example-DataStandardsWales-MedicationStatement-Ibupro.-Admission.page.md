@@ -1,4 +1,4 @@
-## Example MedicationStatement - Ibuprofen
+## Example MedicationStatement - Patient reported - Ibuprofen
 This shows an example medication statement as recorded on admission. This medication has been self-reported by the patient.
 
 <div class="tab-wrap">

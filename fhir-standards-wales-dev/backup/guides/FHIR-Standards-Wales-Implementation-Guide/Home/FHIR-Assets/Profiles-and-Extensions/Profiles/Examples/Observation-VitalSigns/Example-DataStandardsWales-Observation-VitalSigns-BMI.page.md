@@ -1,4 +1,4 @@
-## Example Observation - BMI
+## Example Observation - Vital Signs - BMI
 
 <div class="tab-wrap">
   <ul class="tab-head">

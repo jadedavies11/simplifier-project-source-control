@@ -2,20 +2,20 @@
 
 This example medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Patient - Peter Piper}}
+  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
 * Medication statements:
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Bendro.-Inpatient.page.md, text:Bendroflumethiazide}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Bisop.-Inpatient.page.md, text:Bisoprolol}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Nifedi.-Inpatient.page.md, text:Nifedipress}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Ramipr.-Inpatient.page.md, text:Ramipril}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Atorva.-Inpatient.page.md, text:Atorvastatin}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Parace.-Inpatient.page.md, text:Paracetamol}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Duroge.-Inpatient.page.md, text:Durogesic DTrans}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Hydroc.-Inpatient.page.md, text:Hydrocortisone}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Latano.-Inpatient.page.md, text:Latanoprost}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Enbrel-Inpatient.page.md, text:Enbrel}}
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Inpatient/Example-DataStandardsWales-MedicationStatement-Ibupro.-Inpatient.page.md, text:Ibuprofen (stopped)}}
-
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorva.-Inpatient, text:Example MedicationStatement - Inpatient - Atorvastatin}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-Inpatient, text:Example MedicationStatement - Inpatient - Bendroflumethiazide}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisop.-Inpatient, text:Example MedicationStatement - Inpatient - Bisoprolol}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Duroge.-Inpatient, text:Example MedicationStatement - Inpatient - Durogesic DTrans}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Enbrel-Inpatient, text:Example MedicationStatement - Inpatient - Enbrel}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydroc.-Inpatient, text:Example MedicationStatement - Inpatient - Hydrocortisone}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Latano.-Inpatient, text:Example MedicationStatement - Inpatient - Latanoprost}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedi.-Inpatient, text:Example MedicationStatement - Inpatient - Nifedipress}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Inpatient, text:Example MedicationStatement - Inpatient - Paracetamol}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipri.-Inpatient, text:Example MedicationStatement - Inpatient - Ramipril}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Inpatient, text:Example MedicationStatement - Inpatient - Ibuprofen (stopped)}}
+  
 Below is an example of the above medication statements combined into a medication list:
   
 <div class="tab-wrap">

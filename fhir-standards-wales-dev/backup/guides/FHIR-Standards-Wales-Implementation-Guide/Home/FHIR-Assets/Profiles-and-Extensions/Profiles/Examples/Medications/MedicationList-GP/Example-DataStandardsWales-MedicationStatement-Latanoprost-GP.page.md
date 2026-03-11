@@ -1,4 +1,4 @@
-## Example MedicationStatement - Latanoprost
+## Example MedicationStatement - GP - Latanoprost
 This shows an example medication statement as recorded within the GP record.
 
 <div class="tab-wrap">

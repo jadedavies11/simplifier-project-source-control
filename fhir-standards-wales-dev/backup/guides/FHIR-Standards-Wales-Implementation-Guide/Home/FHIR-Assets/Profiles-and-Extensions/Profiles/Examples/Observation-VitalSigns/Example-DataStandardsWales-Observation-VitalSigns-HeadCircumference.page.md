@@ -1,4 +1,4 @@
-## Example Observation - Head Circumference
+## Example Observation - Vital Signs - Head Circumference
 
 <div class="tab-wrap">
   <ul class="tab-head">

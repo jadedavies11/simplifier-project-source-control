@@ -1,4 +1,4 @@
-## Example MedicationStatement - Ramipril
+## Example MedicationStatement - Discharge - Ramipril
 This shows an example medication statement as recorded on discharge.
 
 <div class="tab-wrap">

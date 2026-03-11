@@ -1,4 +1,4 @@
-## Example AllergyIntolerance - Transfer Degraded 'Morphine Oramorph'
+## Example AllergyIntolerance - Transfer degraded allergy (morphine)
 This shows an example medication allergy.
 
 <div class="tab-wrap">
