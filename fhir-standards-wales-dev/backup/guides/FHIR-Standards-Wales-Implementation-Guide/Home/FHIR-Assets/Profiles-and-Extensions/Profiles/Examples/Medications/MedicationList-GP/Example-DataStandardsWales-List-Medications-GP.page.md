@@ -1,8 +1,10 @@
-## Example Medications List - GP record
+<div class="warning"><span class="ClinicalWarn"></span></div>
 
-This example medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
+## Example Medications List - GP Record
+
+This examples medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
+  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Patient - Peter Piper}}
 * Medication statements:
   * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-GP/Example-DataStandardsWales-MedicationStatement-Bendro.-GP.page.md, text:Bendroflumethiazide}}
   * {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP, text:Amoxicillin}}

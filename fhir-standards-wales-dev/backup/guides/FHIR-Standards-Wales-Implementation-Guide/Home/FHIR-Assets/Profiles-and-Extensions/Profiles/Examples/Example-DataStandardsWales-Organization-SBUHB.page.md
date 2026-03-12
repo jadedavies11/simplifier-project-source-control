@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Organization - Swansea Bay University Local Health Board
 
 <div class="tab-wrap">

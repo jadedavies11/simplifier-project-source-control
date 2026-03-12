@@ -1,3 +1,5 @@
+<div class="warning"><span class="ImplementWarn"></span></div>
+
 ## {{page-title}}
 An extension to carry a boolean value for when a record has been updated.
 

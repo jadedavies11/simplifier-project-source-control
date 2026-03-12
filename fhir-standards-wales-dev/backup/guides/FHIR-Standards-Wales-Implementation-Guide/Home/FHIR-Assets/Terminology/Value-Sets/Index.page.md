@@ -6,4 +6,4 @@ topic: Value Sets
 
 The following Value Sets have been defined for this implementation guide:
 
-{{index:children}}
+{{index:current}}

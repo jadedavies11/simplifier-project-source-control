@@ -1,10 +1,12 @@
-## Example Allergy List - Empty list
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example List - Empty Allergies List
 
 This example references the following example resources:
 
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Practitioner - Dr Dhiren Patel }}
 
 
 <div class="tab-wrap">

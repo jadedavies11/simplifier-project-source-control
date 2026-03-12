@@ -10,4 +10,4 @@ In general, it is expected for NHS Wales source systems to comply with the data 
 
 The following Code System concept mapping files have been defined for this implementation guide:
 
-{{index:children}}
+{{index:current}}

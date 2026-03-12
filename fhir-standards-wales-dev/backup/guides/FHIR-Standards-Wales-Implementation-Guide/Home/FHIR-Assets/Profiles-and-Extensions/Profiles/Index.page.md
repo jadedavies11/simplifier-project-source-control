@@ -6,4 +6,4 @@ topic: Profiles
 
 The following Profiles have been defined for this implementation guide:
 
-{{index:children}}
+{{index:current}}

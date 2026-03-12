@@ -1,3 +1,5 @@
+<div class="warning"><span class="ExperiWarn"></span></div>
+
 ## {{page-title}}
 The [DocumentReference](https://www.hl7.org/fhir/r4/documentreference.html) resource profile is used to index a document, clinical note, or other binary object to make them available to a healthcare system. A document is some sequence of bytes that is identifiable, establishes its own context (e.g., what subject, author, etc. can be displayed to the user), and has defined update management. The DocumentReference resource can be used with any document format that has a recognized MIME type and that conforms to this definition.
 
@@ -47,14 +49,14 @@ Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory
 Each DocumentReference must have:
 1. A status
 1. A digital status
+1. A type
+1. One or more categories
 1. One or more attachments as *either* a base 64 binary *or* a URL. 
 
 Each DocumentReference must support:
 1. One or more identifiers
 1. A document status
 1. An error status (applicable if document is entered in error)
-1. A type
-1. One or more categories
 1. A subject
 1. A date
 1. One or more authors

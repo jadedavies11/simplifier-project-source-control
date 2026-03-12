@@ -1,4 +1,6 @@
-## Example Provenance - Demographics as recorded with care document
+DocumentReferenceDe. <div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example Provenance - Demographics as Recorded with Care Document
 
 <div class="tab-wrap">
   <ul class="tab-head">

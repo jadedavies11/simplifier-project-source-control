@@ -1,4 +1,6 @@
-## Example Observation - Vital Signs - Head Circumference
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+### Example Observation - Head Circumference
 
 <div class="tab-wrap">
   <ul class="tab-head">

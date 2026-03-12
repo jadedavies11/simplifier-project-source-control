@@ -1,14 +1,16 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Bundle - Degraded Allergies
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Example AllergyIntolerance - Transfer degraded allergy (morphine)}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Example AllergyIntolerance - Transfer degraded allergy (aspirin and ibuprofen)}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Example AllergyIntolerance - Transfer degraded allergy (wasps)}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Degraded morphine allergy}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Potato allergy}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Degraded aspirin allergy}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Degraded wasp allergy}}
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Practitioner - Dr Dhiren Patel }}
 
 
 <div class="tab-wrap">

@@ -1,3 +1,5 @@
+<div class="warning"><span class="ImplementWarn"></span></div>
+
 ## {{page-title}}
 The [MedicationAdministration](https://www.hl7.org/fhir/r4/medicationadministration.html) resource is a record of a medication that is administered to a patient.
 

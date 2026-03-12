@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Patient - Peter Piper
 
 <div class="tab-wrap">

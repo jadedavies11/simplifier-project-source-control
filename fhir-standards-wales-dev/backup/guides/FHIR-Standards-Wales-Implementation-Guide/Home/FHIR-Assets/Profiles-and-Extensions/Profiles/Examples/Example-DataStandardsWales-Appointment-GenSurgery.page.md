@@ -1,4 +1,6 @@
-## Example Appointment - General Surgery
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example General Surgery Appointment
 
 <div class="tab-wrap">
   <ul class="tab-head">

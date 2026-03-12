@@ -6,4 +6,4 @@ topic: Code Systems
 
 The following Code Systems have been defined for this implementation guide:
 
-{{index:children}}
+{{index:current}}

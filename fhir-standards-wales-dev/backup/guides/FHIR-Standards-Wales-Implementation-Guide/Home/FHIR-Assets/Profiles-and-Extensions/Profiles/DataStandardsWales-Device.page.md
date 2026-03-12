@@ -1,3 +1,5 @@
+<div class="warning"><span class="ExperiWarn"></span></div>
+
 ## {{page-title}}
 The [Device](https://www.hl7.org/fhir/r4/device.html) profile captures the type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.
 
