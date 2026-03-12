@@ -1,20 +1,22 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Medications List - Discharge medication
 
-This example medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
+This examples medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
+  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Patient - Peter Piper}}
 * Medication statements:
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorva.-Discharge, text:Example MedicationStatement - Discharge - Atorvastatin}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-Discharge, text:Example MedicationStatement - Discharge - Bendroflumethiazide}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisop.-Discharge, text:Example MedicationStatement - Discharge - Bisoprolol}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Duroge.-Discharge, text:Example MedicationStatement - Discharge - Durogesic DTrans}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Enbrel-Discharge, text:Example MedicationStatement - Discharge - Enbrel}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydroc.-Discharge, text:Example MedicationStatement - Discharge - Hydrocortisone}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Latano.-Discharge, text:Example MedicationStatement - Discharge - Latanoprost}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedi.-Discharge, text:Example MedicationStatement - Discharge - Nifedipress}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Discharge, text:Example MedicationStatement - Discharge - Paracetamol}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipri.-Discharge, text:Example MedicationStatement - Discharge - Ramipril}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Discharge, text:Example MedicationStatement - Discharge - Ibuprofen (stopped)}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-Discharge, text:Bendroflumethiazide}} 
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Bisop.-Discharge.page.md, text:Bisoprolol}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Nifedi.-Discharge.page.md, text:Nifedipress}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Ramipr.-Discharge.page.md, text:Ramipril}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Atorva.-Discharge.page.md, text:Atorvastatin}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Parace.-Discharge.page.md, text:Paracetamol}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Duroge.-Discharge.page.md, text:Durogesic DTrans}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Hydroc.-Discharge.page.md, text:Hydrocortisone}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Latano.-Discharge.page.md, text:Latanoprost}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Enbrel-Discharge.page.md, text:Enbrel}}
+  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-Discharge/Example-DataStandardsWales-MedicationStatement-Ibupro.-Discharge.page.md, text:Ibuprofen (stopped)}}
 
 Below is an example of the above medication statements combined into a medication list:
   

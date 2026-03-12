@@ -1,4 +1,6 @@
-## Example MedicationStatement - Discharge - Durogesic DTrans
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example MedicationStatement - Durogesic DTrans
 This shows an example medication statement as recorded on discharge.
 
 <div class="tab-wrap">

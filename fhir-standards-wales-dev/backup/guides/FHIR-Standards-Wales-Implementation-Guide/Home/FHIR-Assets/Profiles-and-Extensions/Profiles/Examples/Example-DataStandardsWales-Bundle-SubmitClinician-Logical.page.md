@@ -1,6 +1,6 @@
-<div class="warning"><span class="DevWarn"></span></div>
+<div class="warning"><span class="ClinicalWarn"></span></div>
 
-## Example Message Bundle - Submit Clinician (with Logical Referencing)
+## Example Message Bundle - Submit Clinician (Logical referencing)
 
 <div class="tab-wrap">
   <ul class="tab-head">

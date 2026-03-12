@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Service Request - Radiology Order
 
 <div class="tab-wrap">

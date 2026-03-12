@@ -1,4 +1,6 @@
-## Example AllergyIntolerance - Medication (morphine)
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example AllergyIntolerance - Morphine
 This shows an example medication allergy.
 
 <div class="tab-wrap">

@@ -1,3 +1,5 @@
+<div class="warning"><span class="ImplementWarn"></span></div>
+
 ## {{page-title}}
 An extension to carry an indicator of the overall pattern of medication administration at the MedicationStatement level.
 

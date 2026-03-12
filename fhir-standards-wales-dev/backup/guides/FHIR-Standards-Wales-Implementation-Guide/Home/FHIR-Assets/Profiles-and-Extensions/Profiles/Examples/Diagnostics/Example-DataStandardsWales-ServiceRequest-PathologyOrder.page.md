@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Service Request - Pathology Full Blood Count
 
 <div class="tab-wrap">

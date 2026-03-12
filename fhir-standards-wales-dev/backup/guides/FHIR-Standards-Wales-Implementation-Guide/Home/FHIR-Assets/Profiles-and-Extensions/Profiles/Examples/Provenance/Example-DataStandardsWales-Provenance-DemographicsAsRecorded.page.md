@@ -1,4 +1,6 @@
-## Example Provenance - Demographics as Recorded extension usage
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example Provenance - Demographics As Recorded Extension
 
 <div class="tab-wrap">
   <ul class="tab-head">

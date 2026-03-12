@@ -1,4 +1,4 @@
-## Example Practitioner - Mark Smith (HCA)
+## Example Practitioner - Mark Smith
 
 <div class="tab-wrap">
   <ul class="tab-head">

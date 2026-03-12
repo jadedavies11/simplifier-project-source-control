@@ -45,7 +45,12 @@ Package:
             * .experimental. Updated from true to false   
         * DataStandardsWales-DocumentReference
             * Updated version from 0.0.1 to 0.1.0
-            * .experimental. Updated from true to false  
+            * .experimental. Updated from true to false
+            * .content.attachment.language. Updated description and Requirements
+            * .content.format. Updated description
+            * .context.practiceSetting. Corrected ValueSet binding
+            * .type. Increased minimum cardinality to 1
+            * .category. Increased minimum cardinality to 1
         * DataStandardsWales-Encounter-UEC
             * Updated version from 0.0.2 to 0.1.0
             * .experimental. Updated from true to false   
@@ -319,8 +324,7 @@ Guide:
 * Added ValueSets DataStandardsWales-EncounterType & PASEventType to yaml toc file
 * Provided additional information on the Care Documents guidance page
 * Updated left sided navigation panes and asset indexes for easier discovery
-* Removed most page warnings, restricting them to home page, main index pages and specific content that is under development
-* Updated narrative content to reflect revised understanding of experimental as exploratory e.g. for prototyping
+* Updated DataStandardsWales-DocumentReference page to reflect cardinality changes
 
 ### v2.4.0 STU2
 Package: 

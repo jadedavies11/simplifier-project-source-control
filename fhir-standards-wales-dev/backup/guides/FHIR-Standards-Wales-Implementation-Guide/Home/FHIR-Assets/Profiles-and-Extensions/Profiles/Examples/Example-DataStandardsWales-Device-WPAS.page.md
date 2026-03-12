@@ -1,4 +1,4 @@
-## Example Device - WPAS
+## {{page-title}}
 
 <div class="tab-wrap">
   <ul class="tab-head">

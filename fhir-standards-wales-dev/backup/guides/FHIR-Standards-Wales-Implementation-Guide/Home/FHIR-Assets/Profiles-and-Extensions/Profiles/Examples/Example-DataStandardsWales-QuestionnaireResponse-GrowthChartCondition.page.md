@@ -1,4 +1,6 @@
-## Example Questionnaire Response - Growth Chart Condition
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+### Example Questionnaire Response - Growth Chart Condition
 
 <div class="tab-wrap">
   <ul class="tab-head">

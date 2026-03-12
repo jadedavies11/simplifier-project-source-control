@@ -1,4 +1,6 @@
-## AllergyIntolerance - Medication (ibuprofen)
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example AllergyIntolerance - Ibuprofen
 This shows an example medication allergy.
 
 <div class="tab-wrap">
