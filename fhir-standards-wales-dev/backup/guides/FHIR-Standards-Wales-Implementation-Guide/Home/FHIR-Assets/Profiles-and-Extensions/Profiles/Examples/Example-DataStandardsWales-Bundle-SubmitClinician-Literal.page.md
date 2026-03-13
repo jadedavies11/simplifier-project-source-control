@@ -1,6 +1,6 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+<div class="warning"><span class="DevWarn"></span></div>
 
-## Example Message Bundle - Submit Clinician (Literal FHIR referencing)
+## Example Message Bundle - Submit Clinician (with Literal Referencing)
 
 <div class="tab-wrap">
   <ul class="tab-head">

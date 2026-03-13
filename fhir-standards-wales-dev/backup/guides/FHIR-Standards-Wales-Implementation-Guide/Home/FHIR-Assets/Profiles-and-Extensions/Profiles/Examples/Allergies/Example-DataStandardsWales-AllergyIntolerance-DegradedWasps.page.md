@@ -1,7 +1,5 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example AllergyIntolerance - Transfer Degraded 'Wasps'
-This shows an example medication allergy.
+## Example AllergyIntolerance - Transfer degraded allergy (wasps)
+This shows an example non-medication allergy.
 
 <div class="tab-wrap">
   <ul class="tab-head">

@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Practitioner - Philip Wickins (Physiotherapist)
 
 <div class="tab-wrap">

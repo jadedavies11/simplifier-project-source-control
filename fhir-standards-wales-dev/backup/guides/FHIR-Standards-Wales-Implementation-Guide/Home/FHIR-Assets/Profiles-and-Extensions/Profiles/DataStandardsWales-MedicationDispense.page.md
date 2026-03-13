@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 The [MedicationDispense](https://www.hl7.org/fhir/r4/medicationdispense.html) resource is a record of a medication that is dispensed to a patient.
 

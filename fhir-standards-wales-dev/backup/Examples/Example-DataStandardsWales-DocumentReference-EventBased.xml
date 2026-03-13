@@ -57,6 +57,17 @@
       <valueString value="http://www.wales.nhs.uk/ndr" />
     </extension>
   </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
+    <extension url="attributeName">
+      <valueCode value="DocumentSubType" />
+    </extension>
+    <extension url="attributeValue">
+      <valueString value="Adult services" />
+    </extension>
+    <extension url="attributeNamespace">
+      <valueString value="http://www.wales.nhs.uk/ndr" />
+    </extension>
+  </extension>
   <identifier>
     <system value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />
     <value value="FF849C81-9917-47D9-B929-4AF1BDD94670" />
@@ -76,16 +87,10 @@
   </type>
   <category>
     <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory" />
-      <code value="assessments" />
-      <display value="Assessments" />
+      <system value="http://snomed.info/sct" />
+      <code value="325931000000109" />
+      <display value="Assessment" />
     </coding>
-  </category>
-  <category>
-    <coding>
-      <system value="https://fhir.nhs.wales/indicator/document-subtype" />
-    </coding>
-    <text value="Adult services" />
   </category>
   <subject>
     <reference value="Patient/Example-DataStandardsWales-Patient-JohnSmith" />
@@ -115,14 +120,11 @@
   <content>
     <attachment>
       <contentType value="application/pdf" />
-      <language value="en" />
+      <language value="eng" />
       <url value="https://www.example.com/documentref1234" />
     </attachment>
   </content>
   <context>
-    <encounter>
-      <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation" />
-    </encounter>
     <period>
       <start value="2025-07-22T13:09:37+00:00" />
     </period>
