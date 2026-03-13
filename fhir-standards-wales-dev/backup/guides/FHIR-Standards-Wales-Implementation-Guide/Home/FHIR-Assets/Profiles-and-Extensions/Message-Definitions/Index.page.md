@@ -6,4 +6,4 @@ topic: Message Definitions
 
 The following Message Definitions have been defined for this implementation guide:
 
-{{index:current}}
+{{index:children}}

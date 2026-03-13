@@ -1,5 +1,3 @@
-<div class="warning"><span class="ExperiWarn"></span></div>
-
 ## {{page-title}}
 The [DocumentReference](https://www.hl7.org/fhir/r4/documentreference.html) resource profile is used to index a document, clinical note, or other binary object to make them available to a healthcare system. A document is some sequence of bytes that is identifiable, establishes its own context (e.g., what subject, author, etc. can be displayed to the user), and has defined update management. The DocumentReference resource can be used with any document format that has a recognized MIME type and that conforms to this definition.
 

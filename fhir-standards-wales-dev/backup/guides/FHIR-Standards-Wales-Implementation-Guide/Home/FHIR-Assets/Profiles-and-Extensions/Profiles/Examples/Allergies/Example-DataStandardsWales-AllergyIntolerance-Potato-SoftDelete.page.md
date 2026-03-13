@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example AllergyIntolerance - Deleted
+## Example AllergyIntolerance - Deleted allergy (potato)
 This shows an example of a deleted allergy. The status is set to ```entered in error``` and the ```verification status``` has been removed.
 
 <div class="tab-wrap">

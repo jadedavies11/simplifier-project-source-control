@@ -1,4 +1,4 @@
-## Example MedicationStatement - Ramipril
+## Example MedicationStatement - GP - Ramipril
 This shows an example medication statement as recorded within the GP record.
 
 <div class="tab-wrap">

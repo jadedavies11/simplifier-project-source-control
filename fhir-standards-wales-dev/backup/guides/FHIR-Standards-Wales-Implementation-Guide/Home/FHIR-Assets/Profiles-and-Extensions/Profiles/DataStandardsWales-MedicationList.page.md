@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 The [List](https://www.hl7.org/fhir/r4/list.html) resource is a curated collection of resources. The Medication List profile is intended to provide a snapshot view of a patient's medications.
 

@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Location - Cadog Ward (GGH)
 
 <div class="tab-wrap">

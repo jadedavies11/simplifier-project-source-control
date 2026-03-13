@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example MedicationStatement - Paracetamol
+## Example MedicationStatement - Patient reported - Paracetamol
 This shows an example medication statement as recorded on admission. This medication has been self-reported by the patient.
 
 <div class="tab-wrap">

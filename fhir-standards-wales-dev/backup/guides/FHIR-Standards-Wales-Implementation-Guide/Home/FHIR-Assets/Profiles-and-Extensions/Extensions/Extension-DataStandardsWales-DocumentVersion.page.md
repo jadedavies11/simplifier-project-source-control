@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 An extension to capture an explicitly assigned identifer of a variation of the content in the DocumentReference. (Backport from FHIR R5.)
 

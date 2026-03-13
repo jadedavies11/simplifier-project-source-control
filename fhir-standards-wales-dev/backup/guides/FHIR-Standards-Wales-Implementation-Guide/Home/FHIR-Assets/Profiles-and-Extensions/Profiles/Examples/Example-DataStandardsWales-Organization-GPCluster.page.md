@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Organization - GP Cluster
 
 <div class="tab-wrap">
