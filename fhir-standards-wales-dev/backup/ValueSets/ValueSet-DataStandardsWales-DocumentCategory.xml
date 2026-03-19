@@ -6,7 +6,7 @@
 	<title value="Data Standards Wales Document Category"/>
     <status value="draft" />
     <experimental value="false" />
-	<date value="2026-02-26" />
+	<date value="2026-03-16" />
     <publisher value="NHS Wales" />
     <contact>
 		<name value="FHIR Standards" />
@@ -18,10 +18,96 @@
 		</telecom>
     </contact>
 	<description value="A set of codes used to identify the category of a document within NHS Wales."/>
-	<copyright value="2025 NHS Wales." />
+	<copyright value="2026 NHS Wales." />
 	<compose>
 		<include>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory"/>
+			<system value="https://fhir.standards.wales/ValueSet/DataStandardsWales-DocumentCategory"/>
 		</include>
 	</compose>
+	<expansion>
+		<identifier value="urn:uuid:6ebfb48b-1cff-42ef-a05f-d27965f307bf" />
+		<timestamp value="2026-03-17T11:03:21+00:00" />
+		<total value="16" />
+		<offset value="0" />
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="37341000000109" />
+			<display value="Alert note" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="163221000000102" />
+			<display value="Allergies and Adverse Reactions" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="325931000000109" />
+			<display value="Assessment" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="734163000" />
+			<display value="Care plan" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="823651000000106" />
+			<display value="Clinical note" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="163161000000103" />
+			<display value="Documents and Correspondence" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="826491000000106" />
+			<display value="Intervention record" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="185361000000102" />
+			<display value="Medication" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="826501000000100" />
+			<display value="Miscellaneous record" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="826651000000100" />
+			<display value="Notification and legal document" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="823621000000101" />
+			<display value="Observation chart" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="408403008" />
+			<display value="Patient held record" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="822761000000108" />
+			<display value="Patient preferences record" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="229059009" />
+			<display value="Report" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="1054061000000102" />
+			<display value="Research study document" />
+		</contains>
+		<contains>
+			<system value="http://snomed.info/sct" />
+			<code value="823941000000103" />
+			<display value="Third party document" />
+		</contains>
+	</expansion>
 </ValueSet>

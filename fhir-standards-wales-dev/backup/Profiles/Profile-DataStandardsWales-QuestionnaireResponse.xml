@@ -18,7 +18,7 @@
   </contact>
   <description value="Resource structure is based on UKCore-QuestionnaireResponse v1.2.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. This profile defines the UK constraints and extensions on the International FHIR resource [QuestionnaireResponse](https://hl7.org/fhir/R4/QuestionnaireResponse.html)." />
   <purpose value="This profile describes a structured set of questions and their answers. The questions are ordered and grouped into coherent subsets, corresponding to the structure of the grouping of the questionnaire being responded to." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

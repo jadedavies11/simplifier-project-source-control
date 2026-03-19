@@ -13,7 +13,7 @@
     </type>
     <category>
         <coding>
-            <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory" />
+            <system value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentCategory" />
             <code value="826501000000100" />
             <display value="Miscellaneous record" />
         </coding>

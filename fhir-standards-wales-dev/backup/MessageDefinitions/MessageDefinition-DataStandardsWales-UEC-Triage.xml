@@ -2,11 +2,13 @@
 <MessageDefinition xmlns="http://hl7.org/fhir">
 	<id value="MessageDefinition-DataStandardsWales-UEC-Triage"/>
 	<url value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-UEC-Triage"/>
+	<version value="0.1.0" />
 	<name value="MessageDefinitionDataStandardsWalesUECTriage"/>
 	<title value="Message Definition Data Standards Wales UEC Triage"/>
 	<status value="draft"/>
 	<date value="2025-12-19"/>
 	<publisher value="NHS Wales"/>
+	<copyright value="2025 NHS Wales." />
 	<contact>
 		<name value="FHIR Standards"/>
 		<telecom>

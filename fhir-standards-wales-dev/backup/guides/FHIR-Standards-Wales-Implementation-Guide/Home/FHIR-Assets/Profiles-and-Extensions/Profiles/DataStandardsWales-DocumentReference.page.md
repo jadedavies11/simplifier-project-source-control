@@ -34,9 +34,10 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   <div id="tabeg" class="tabcontent">
     <list>
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}</li>     
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}</li> 
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}</li>              
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance}}</li>
     </list>
   </div>  
 </div>

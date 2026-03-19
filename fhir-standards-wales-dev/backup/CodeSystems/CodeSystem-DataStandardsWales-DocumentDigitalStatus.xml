@@ -19,7 +19,7 @@
 		</telecom>
     </contact>
 	<description value="A set of codes used to identify the digital status of a document within NHS Wales"/>
-    <copyright value="2025 NHS Wales." />
+    <copyright value="2026 NHS Wales." />
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>

@@ -1,10 +1,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-Occupation"/>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-Occupation"/>
-	<version value="0.1.0"/>
+	<version value="1.0.0"/>
 	<name value="DataStandardsWalesOccupation"/>
 	<title value="Data Standards Wales Occupation"/>
-	<status value="draft"/>
+	<status value="active"/>
 	<experimental value="false"/>
 	<date value="2026-02-26"/>
 	<publisher value="NHS Wales"/>
@@ -17,7 +17,7 @@
 		</telecom>
 	</contact>
 	<description value="A SNOMED code used to describe a patient's occupation. Only a sample of the value set has been shown. To obtain the full list, please contact the Welsh Reference and Terminology Service"/>
-	<copyright value="2025 NHS Wales."/>
+	<copyright value="2026 NHS Wales."/>
 	<compose>
 		<include>
 			<system value="http://snomed.info/sct"/>

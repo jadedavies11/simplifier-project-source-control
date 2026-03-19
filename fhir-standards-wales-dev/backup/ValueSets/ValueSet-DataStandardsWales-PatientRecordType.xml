@@ -1,10 +1,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-PatientRecordType" />
   <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-PatientRecordType" />
-  <version value="0.1.0" />
+  <version value="1.0.0" />
   <name value="DataStandardsWalesPatientRecordType" />
   <title value="Data Standards Wales Patient Record Type" />
-  <status value="draft" />
+  <status value="active" />
   <experimental value="false" />
   <date value="2026-02-26" />
   <publisher value="NHS Wales" />
@@ -17,7 +17,7 @@
     </telecom>
   </contact>
   <description value="A set of codes used to identify the record type of a patient within the CDR" />
-  <copyright value="2024 NHS Wales." />
+  <copyright value="2026 NHS Wales." />
   <compose>
 	<include>
 		<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-PatientRecordType"/>
