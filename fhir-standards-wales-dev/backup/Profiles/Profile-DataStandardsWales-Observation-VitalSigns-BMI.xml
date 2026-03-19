@@ -18,7 +18,7 @@
   </contact>
   <description value="Resource structure is derived from Data Standards Wales - Observation - Vital Signs. It has drawn on UK Core - Observation - BMI v 1.0.0 (not yet included in a balloted release) for guidance on specific content and constraints for use when the observation is a BMI measurement." />
   <purpose value="To provide implementers with additional support when implementing measuring and recording body mass index and to provide a consistent structure to how the data is presented." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

@@ -2,10 +2,10 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-DocumentErrorStatus"/>
 	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentErrorStatus"/>
-    <version value="1.1.0" />
+    <version value="0.1.0" />
 	<name value="DataStandardsWalesDocumentErrorStatus"/>
 	<title value="Data Standards Wales Document Error Status"/>
-    <status value="active" />
+    <status value="draft" />
     <date value="2026-02-25" />
     <publisher value="NHS Wales" />
     <contact>
@@ -18,7 +18,7 @@
 		</telecom>
     </contact>
 	<description value="A set of codes used to clarify the status of a document entered-in-error within NHS Wales."/>
-    <copyright value="2025 NHS Wales." />
+    <copyright value="2026 NHS Wales." />
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>

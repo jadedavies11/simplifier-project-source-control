@@ -2,10 +2,10 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="WPASReferralSource"/>
 	<url value="https://fhir.nhs.wales/CodeSystem/WPASReferralSource"/>
-    <version value="0.1.0" />
+    <version value="1.0.0" />
 	<name value="WPASReferralSource"/>
 	<title value="WPAS Referral Source"/>
-    <status value="draft" />
+    <status value="active" />
     <experimental value="false" />	
     <date value="2026-02-26" />
     <publisher value="NHS Wales" />
@@ -18,7 +18,7 @@
 		</telecom>
 	</contact>	
 	<description value="This CodeSystem contains a list of referral codes and descriptions specific to Welsh PAS. These codes are owned and maintained by the DHCW Welsh PAS team."/>
-    <copyright value="2025 NHS Wales." />
+    <copyright value="2026 NHS Wales." />
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>

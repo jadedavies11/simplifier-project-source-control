@@ -19,7 +19,7 @@
     </telecom>
   </contact>
   <description value="This profile allows recording of detailed information about a condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

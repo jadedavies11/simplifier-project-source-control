@@ -20,7 +20,7 @@
   </contact>
   <description value="This extension shows document attributes." />
   <purpose value="This extension shows document attributes." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

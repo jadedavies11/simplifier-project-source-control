@@ -1,10 +1,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-DocumentErrorAction"/>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentErrorAction"/>
-    <version value="1.1.0" />
+    <version value="0.1.0" />
     <name value="DataStandardsWalesDocumentErrorAction"/>
 	<title value="Data Standards Wales Document Error Status"/>
-    <status value="active" />
+    <status value="draft" />
 	<date value="2026-02-25" />
     <publisher value="NHS Wales" />
     <contact>
@@ -17,7 +17,7 @@
 		</telecom>
     </contact>
 	<description value="A set of codes used to record an action in the document error workflow in NHS Wales - relating to document misfile or revocation."/>
-	<copyright value="2025 NHS Wales." />
+	<copyright value="2026 NHS Wales." />
 	<compose>
 		<include>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentErrorAction"/>

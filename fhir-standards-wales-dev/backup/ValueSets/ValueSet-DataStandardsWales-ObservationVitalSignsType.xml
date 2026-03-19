@@ -5,7 +5,7 @@
     <name value="DataStandardsWalesObservationVitalSignsType" />
     <title value="Data Standards Wales ValueSet Observation Vital Signs Type" />
     <status value="active" />
-    <date value="2025-01-01" />
+    <date value="2026-02-25" />
     <publisher value="NHS Wales" />
     <contact>
         <name value="NHS Wales" />
@@ -17,7 +17,7 @@
         </telecom>
     </contact>
     <description value="Resource structure is based on UKCore-ObservationVitalSignsType v1.1.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A code from the SNOMED Clinical Terminology UK coding system for the type of vital sign." />
-    <copyright value="2025 NHS Wales" />
+    <copyright value="2026 NHS Wales" />
     <compose>
         <include>
             <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BloodPressure" />

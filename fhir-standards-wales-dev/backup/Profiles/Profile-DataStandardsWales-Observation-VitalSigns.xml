@@ -5,6 +5,7 @@
   <name value="DataStandardsWalesObservationVitalSigns" />
   <title value="Data Standards Wales Observation Vital Signs" />
   <status value="active" />
+  <experimental value="false" />
   <date value="2026-02-26" />
   <publisher value="NHS Wales" />
   <contact>
@@ -16,9 +17,9 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <description value="Resource structure is derived from Data Standards Wales - Observation. It has drawn on UK Core - Observation - Vital Signs v 1.1.1 (not yet included in a balloted release) for guidance on specific content and constraints for use when the observation is a vital signs measurement." />  
+  <description value="Resource structure is derived from Data Standards Wales - Observation. It has drawn on UK Core - Observation - Vital Signs v 1.1.1 (not yet included in a balloted release) for guidance on specific content and constraints for use when the observation is a vital signs measurement." />
   <purpose value="This profile allows exchange of internationally FHIR compliant vital signs information based on measurements and simple assertions made about an individual." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="workflow" />

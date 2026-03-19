@@ -20,7 +20,7 @@
   </contact>
   <description value="This extension provides a history of error actions performed e.g. document misfile proposed then accepted." />
   <purpose value="To support the document error workflow in NHS Wales, including the specific action performed, when, bu whom and any reason provided." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
