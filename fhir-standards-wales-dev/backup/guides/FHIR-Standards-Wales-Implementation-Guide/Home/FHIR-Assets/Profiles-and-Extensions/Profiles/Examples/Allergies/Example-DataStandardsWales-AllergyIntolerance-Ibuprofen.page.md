@@ -21,19 +21,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
+      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
+      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
+      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
+      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
+      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
     </div>  
   </div>
 </div>

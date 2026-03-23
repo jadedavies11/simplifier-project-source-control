@@ -21,19 +21,19 @@ This shows an example recording a patient that is known to have no allergies.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{tree:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{table:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{xml:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{json:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{narrative:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
     </div>  
   </div>
 </div>

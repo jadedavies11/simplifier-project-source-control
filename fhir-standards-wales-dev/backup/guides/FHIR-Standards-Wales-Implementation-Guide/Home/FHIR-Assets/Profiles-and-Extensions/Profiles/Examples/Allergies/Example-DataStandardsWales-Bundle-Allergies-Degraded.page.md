@@ -28,16 +28,16 @@ This example references the following example resources:
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/example-datastandardswales-bundle-allergies-degraded}}
+      {{tree:Bundle/Example-DataStandardsWales-Bundle-Allergies-Degraded}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/example-datastandardswales-bundle-allergies-degraded}}
+      {{table:Bundle/Example-DataStandardsWales-Bundle-Allergies-Degraded}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/example-datastandardswales-bundle-allergies-degraded}}
+      {{xml:Bundle/Example-DataStandardsWales-Bundle-Allergies-Degraded}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/example-datastandardswales-bundle-allergies-degraded}}
+      {{json:Bundle/Example-DataStandardsWales-Bundle-Allergies-Degraded}}
     </div>       
   </div>
 </div>

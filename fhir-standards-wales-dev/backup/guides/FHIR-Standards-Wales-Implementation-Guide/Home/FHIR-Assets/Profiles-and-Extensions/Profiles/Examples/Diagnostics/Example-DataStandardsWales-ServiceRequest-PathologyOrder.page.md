@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
+      {{tree:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
+      {{table:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
+      {{xml:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
+      {{json:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
+      {{narrative:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
     </div>  
   </div>
 </div>
