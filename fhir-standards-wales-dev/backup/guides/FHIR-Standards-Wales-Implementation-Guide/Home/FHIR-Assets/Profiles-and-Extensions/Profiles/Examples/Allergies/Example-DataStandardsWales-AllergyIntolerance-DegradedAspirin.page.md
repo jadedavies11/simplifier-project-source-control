@@ -24,16 +24,16 @@ This shows an example medication allergy.
       {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
     </div>  
   </div>
 </div>

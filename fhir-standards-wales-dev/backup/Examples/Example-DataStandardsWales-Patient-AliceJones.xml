@@ -10,7 +10,7 @@
     <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-BirthSex">
         <valueCode value="F" />
     </extension>      
-    <extension url="https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory">
+    <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory">
         <valueCodeableConcept>
             <coding>
                 <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategoryWales" />

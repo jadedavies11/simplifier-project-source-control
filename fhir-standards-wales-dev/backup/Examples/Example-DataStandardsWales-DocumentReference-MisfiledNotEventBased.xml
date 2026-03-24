@@ -1,5 +1,5 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
-  <id value="Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased" />
+  <id value="Example-DSW-DocumentReference-MisfiledNotEventBased" />
   <meta>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
   </meta>
