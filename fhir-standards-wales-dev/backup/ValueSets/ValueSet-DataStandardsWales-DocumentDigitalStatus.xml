@@ -47,14 +47,12 @@
 			<version value="2026-02-27" />
 			<code value="born-digital-document"/>
 			<display value="Born-digital document"/>
-			<definition value="The document was originally created in a digital format."/>
 		</contains>
 		<contains>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentDigitalStatus" />
 			<version value="2026-02-27" />
 			<code value="scanned-paper-document"/>
 			<display value="Scanned paper document"/>
-			<definition value="The document was originally created in a non-digital format and subsequently digitised."/>
 		</contains>
 	</expansion>
 </ValueSet>

@@ -24,4 +24,22 @@
   <type value="Questionnaire" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Questionnaire" />
   <derivation value="constraint" />
+  <differential>
+    <element id="Questionnaire.name">
+      <path value="Questionnaire.name" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Questionnaire.title">
+      <path value="Questionnaire.title" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Questionnaire.description">
+      <path value="Questionnaire.description" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Questionnaire.purpose">
+      <path value="Questionnaire.purpose" />
+      <mustSupport value="true" />
+    </element>
+  </differential>
 </StructureDefinition>

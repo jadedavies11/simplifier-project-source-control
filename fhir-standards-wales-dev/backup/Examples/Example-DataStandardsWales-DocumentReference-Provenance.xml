@@ -22,7 +22,7 @@
     <description value="Link to HL7v2 message for data provenance" />
     <content>
         <attachment>
-            <url value="https://[base]/[link id to HL7v2 message]" />
+            <url value="https://example.base.link.id/to/HL7v2/message" />
         </attachment>
     </content>
 </DocumentReference>

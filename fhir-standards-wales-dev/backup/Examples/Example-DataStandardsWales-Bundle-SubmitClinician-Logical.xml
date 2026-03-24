@@ -2,7 +2,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
 	<id value="Example-DataStandardsWales-Bundle-SubmitClinician-Logical"/>
 	<identifier>
-		<system value="https://fhir.sbuuhb.nhs.wales/Id/example-bundle-identifier"/>
+		<system value="https://fhir.sbuhb.nhs.wales/Id/example-bundle-identifier"/>
 		<value value="9d582876-be21-47bb-a4b8-6f123c6c890b"/>
 	</identifier>
 	<type value="message"/>
