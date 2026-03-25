@@ -6,8 +6,8 @@
 	<name value="MessageDefinitionDataStandardsWalesUECDischarge"/>
 	<title value="Message Definition Data Standards Wales UEC Discharge"/>
 	<status value="draft"/>
-	<description value="Message to record patient discharge from a UEC facility."/>
 	<date value="2025-12-19"/>
+	<description value="Message to record patient discharge from a UEC facility."/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>

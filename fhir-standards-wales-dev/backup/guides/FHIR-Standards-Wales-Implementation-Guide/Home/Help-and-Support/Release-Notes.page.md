@@ -3,6 +3,8 @@
 This page describes the published versions of this implementation guide and differences between versions:
 
 ### v2.5.0 STU2
+The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
+
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
@@ -12,9 +14,6 @@ Package:
         * MessageDefinition-DataStandardsWales-UEC-Arrival
         * MessageDefinition-DataStandardsWales-UEC-Discharge
         * MessageDefinition-DataStandardsWales-UEC-Triage
-    * Removed Profiles
-        * DataStandardsWales-Dosage
-            * Retired from active use in v2.3.0. Removed to prevent inappropriate use
     * Changes to Profiles
         * DataStandardsWales-Appointment
             * Updated version from 1.1.0 to 1.2.0
@@ -359,7 +358,6 @@ Guide:
 * Moved DataStandardsWales-Endpoint from Diagnostics to Entities in the Resource Index
 * Removed most page warnings, restricting them to home page, main index pages and specific content that is under development
 * Removed duplicated examples from DataStandardsWales-Observation guide page. All examples are now located in the Examples tab of the Profile Content table
-* Removed DataStandardsWales-Dosage documentation
 * Removed DataStandardsWales-QuestionnaireQuestionCodes documentation
 * Removed DataStandardsWales-WRRSTaskType Code System and Value Set documentation
 * Renamed Naming Systems page in Design tab to Naming Systems Design
