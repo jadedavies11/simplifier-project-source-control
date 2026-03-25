@@ -6,8 +6,8 @@
 	<name value="MessageDefinitionDataStandardsWalesUECTriage"/>
 	<title value="Message Definition Data Standards Wales UEC Triage"/>
 	<status value="draft"/>
-	<description value="Message to record patient triage at a UEC facility."/>
 	<date value="2025-12-19"/>
+	<description value="Message to record patient triage at a UEC facility."/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>

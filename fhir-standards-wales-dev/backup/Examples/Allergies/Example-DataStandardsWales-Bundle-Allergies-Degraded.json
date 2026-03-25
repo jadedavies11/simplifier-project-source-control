@@ -19,7 +19,7 @@
   ],
   "entry": [
     {
-      "fullUrl": "http://[host]/Patient/Example-DataStandardsWales-Patient-AliceJones",
+      "fullUrl": "http://examplehostname/Patient/Example-DataStandardsWales-Patient-AliceJones",
       "resource": {
         "resourceType": "Patient",
         "id": "Example-DataStandardsWales-Patient-AliceJones",
@@ -51,8 +51,8 @@
               "coding": [
                 {
                   "system": "http://snomed.info/sct",
-                  "code": "344151000000101",
-                  "display": "Follower of Church of England"
+                  "code": "160557009",
+                  "display": "Baptist, follower of religion"
                 }
               ]
             }
