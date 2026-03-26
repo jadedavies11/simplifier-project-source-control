@@ -2,7 +2,7 @@
 An extension to capture a participant who has authenticated the accuracy of the document. (Backport from FHIR R5.)
 
 ### Purpose
-This extension extends the DocumentReference resource to capture the document attestation including who, when and mode of attestation e.g. professional. This extension replaces the use of authenticator in the Data Standards Wales uses of DocumentReference at FHIR R4.
+This extension, which is an R5 backport, extends the DocumentReference resource to capture the document attestation including who, when and mode of attestation e.g. professional. This extension replaces the use of authenticator in the Data Standards Wales uses of DocumentReference at FHIR R4.
 
 ### Context of Use
 This extension may be used on the following profile(s):
@@ -20,7 +20,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttester, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

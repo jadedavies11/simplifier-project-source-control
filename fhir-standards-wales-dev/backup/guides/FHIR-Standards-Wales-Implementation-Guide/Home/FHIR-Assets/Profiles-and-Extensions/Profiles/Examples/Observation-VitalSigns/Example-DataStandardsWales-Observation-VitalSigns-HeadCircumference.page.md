@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{tree:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{table:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{xml:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
-    </div>       
+      {{json:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
+    </div>
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{narrative:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
     </div>  
   </div>
 </div>

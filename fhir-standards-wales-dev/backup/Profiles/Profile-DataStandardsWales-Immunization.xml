@@ -36,7 +36,7 @@
       <sliceName value="immunizationBasedOnR5" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Immunization.basedOn" />
       </type>
       <isModifier value="false" />
     </element>

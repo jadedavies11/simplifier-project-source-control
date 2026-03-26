@@ -21,19 +21,19 @@ This example represents a document which has been misfiled via a two-step workfl
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
+      {{tree:Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
+      {{table:Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
+      {{xml:Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
+      {{json:Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
+      {{narrative:Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>  
   </div>
 </div>

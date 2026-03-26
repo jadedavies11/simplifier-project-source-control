@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-Immunization.basedOn" />
-  <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Immunization.basedOn" />
   <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesImmunizationBasedOn" />
   <title value="Extension Data Standards Wales Immunization Based On" />
@@ -38,7 +38,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Immunization.basedOn" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
