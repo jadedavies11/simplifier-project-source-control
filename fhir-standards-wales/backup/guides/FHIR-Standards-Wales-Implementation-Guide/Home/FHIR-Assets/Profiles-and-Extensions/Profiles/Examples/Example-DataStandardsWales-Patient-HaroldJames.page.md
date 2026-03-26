@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Patient - Harold James
 
 <div class="tab-wrap">

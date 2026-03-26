@@ -1,14 +1,12 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example List - Allergies List
+## Example Allergy List - With allergy
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Potato - mild Urticarial rash}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
 
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Practitioner - Dr Dhiren Patel }}
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
 
 
 <div class="tab-wrap">
@@ -31,19 +29,19 @@ This example references the following example resources:
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/example-datastandardswales-list-allergies}}
+      {{tree:List/Example-DataStandardsWales-List-Allergies}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/example-datastandardswales-list-allergies}}
+      {{table:List/Example-DataStandardsWales-List-Allergies}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/example-datastandardswales-list-allergies}}
+      {{xml:List/Example-DataStandardsWales-List-Allergies}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/example-datastandardswales-list-allergies}}
+      {{json:List/Example-DataStandardsWales-List-Allergies}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:fhir-standards-wales/example-datastandardswales-list-allergies}}
+      {{narrative:List/Example-DataStandardsWales-List-Allergies}}
     </div>  
   </div>
 </div>

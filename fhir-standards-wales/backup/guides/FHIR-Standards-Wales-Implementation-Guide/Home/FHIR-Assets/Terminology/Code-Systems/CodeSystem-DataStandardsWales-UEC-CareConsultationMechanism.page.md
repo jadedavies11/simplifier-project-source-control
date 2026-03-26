@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 
 This CodeSystem indicates the mechanism of the consultation. 

@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example AllergyIntolerance - Aspirin
+## Example AllergyIntolerance - Medication (aspirin)
 This shows an example medication allergy.
 
 <div class="tab-wrap">

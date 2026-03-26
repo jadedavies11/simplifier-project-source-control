@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 An extension to capture manually entered recommendations by the healthcare professional.
 
@@ -22,7 +20,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesforecastcreationsource, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecastCreationSource, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

@@ -8,11 +8,9 @@ This implementation guide include the following active resources for medicines:
 * {{pagelink:DataStandardsWales-MedicationList}}
 * {{pagelink:DataStandardsWales-MedicationRequest}}
 * {{pagelink:DataStandardsWales-MedicationStatement}}
-
-The following profiles are currently in draft/experimental:
-
-* {{pagelink:DataStandardsWales-Dosage}}
 * {{pagelink:DataStandardsWales-Immunization}}
+* {{pagelink:DataStandardsWales-ImmunizationRecommendation}}
+
 
 ## Clinical Scenarios
 

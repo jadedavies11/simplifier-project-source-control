@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Observation - ACVPU (Alert Confusion Voice Pain Unresponsive) scale score
 
 <div class="tab-wrap">

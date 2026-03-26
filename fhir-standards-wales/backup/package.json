@@ -1,7 +1,7 @@
 {
   "name": "fhir.r4.wales",
-  "version": "2.4.0",
-  "description": "NHS Wales FHIR Profiles R4 Package",
+  "version": "2.5.0",
+  "description": "NHS Wales minor release to move several resources to v1.0.0. Changes to the draft DocumentReference made available for review to move it to v1.0.0 in next release. MessageDefinition and MessageHeader profiles have also been added. Many quality of life improvements have also been made to the IG pages and profile metadata.",
   "author": "NHS Wales",
   "fhirVersions": [
     "4.0.1"

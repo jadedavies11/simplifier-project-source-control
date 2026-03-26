@@ -1,0 +1,43 @@
+## Example Allergy Bundle - Upgraded allergies
+
+This example references the following example resources:
+* Allergies:
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Example AllergyIntolerance - Transfer degraded allergy (morphine)}} - modified to be coded correctly
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Example AllergyIntolerance - Transfer degraded allergy (aspirin and ibuprofen)}} - modified to be coded correctly
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Example AllergyIntolerance - Transfer degraded allergy (wasps)}} - modified to be coded correctly
+* Subject, source and context:
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
+
+
+<div class="tab-wrap">
+  <ul class="tab-head">
+    <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">
+      Overview
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtable')" data-target="tabtable">
+      Table
+    </li>
+    <li class="tablink tab-active" onclick="openCity(this,'tabxml')" data-target="tabxml">
+      XML
+    </li>    
+    <li class="tablink" onclick="openCity(this,'tabjson')" data-target="tabjson">
+      JSON
+    </li>    
+  </ul>
+  <div class="tab-main">
+    <div id="tabtree" class="tabcontent">
+      {{tree:Bundle/Example-DataStandardsWales-Bundle-Allergies-Upgrade}}
+    </div>
+    <div id="tabtable" class="tabcontent">
+      {{table:Bundle/Example-DataStandardsWales-Bundle-Allergies-Upgrade}}
+    </div>       
+    <div id="tabxml" class="tabcontent active">      
+      {{xml:Bundle/Example-DataStandardsWales-Bundle-Allergies-Upgrade}}
+    </div>
+    <div id="tabjson" class="tabcontent">
+      {{json:Bundle/Example-DataStandardsWales-Bundle-Allergies-Upgrade}}
+    </div>       
+  </div>
+</div>

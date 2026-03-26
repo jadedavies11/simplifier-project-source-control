@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example PractitionerRole - Prescribing Nurse
 
 <div class="tab-wrap">

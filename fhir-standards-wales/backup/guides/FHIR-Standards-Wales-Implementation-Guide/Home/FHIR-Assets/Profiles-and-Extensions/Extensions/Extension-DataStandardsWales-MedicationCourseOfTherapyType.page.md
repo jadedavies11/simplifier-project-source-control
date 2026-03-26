@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 An extension to carry an indicator of the overall pattern of medication administration at the MedicationStatement level.
 
@@ -22,7 +20,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesmedicationcourseoftherapytype, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-MedicationCourseOfTherapyType, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
