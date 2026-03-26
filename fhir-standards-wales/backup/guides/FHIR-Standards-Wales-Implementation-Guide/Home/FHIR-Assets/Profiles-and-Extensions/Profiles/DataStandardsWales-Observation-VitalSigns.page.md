@@ -1,11 +1,9 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 
 ### Overview
 The [Observation VitalSigns](https://www.hl7.org/fhir/r4/observation.html) resource contains additional support for recording vital signs for clinical observations.
 
-The {{page-title}} profile is derived from the [UK Core Observation VitalSigns Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Observation-VitalSigns?version=current). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is is derived from the {{pagelink:DataStandardsWales-Observation, text: Data Standards Wales Observation Profile}}. It defines additional rules for use when the observation is a vital signs measurement.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns}}
 

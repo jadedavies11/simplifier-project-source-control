@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example MedicationStatement - Ibuprofen
+## Example MedicationStatement - Inpatient - Ibuprofen (stopped)
 This shows an example medication statement as recorded as part of the inpatient medication record.
 
 <div class="tab-wrap">

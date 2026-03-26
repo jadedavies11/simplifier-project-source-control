@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example PractitionerRole - Consultant (Geriatric Medicine)
 
 <div class="tab-wrap">

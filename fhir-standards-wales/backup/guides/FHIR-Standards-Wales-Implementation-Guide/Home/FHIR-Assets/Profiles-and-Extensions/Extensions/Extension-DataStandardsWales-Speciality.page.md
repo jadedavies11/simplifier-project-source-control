@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 An extension to carry the specialty of a practitioner that would be required to perform the service at this encounter
 

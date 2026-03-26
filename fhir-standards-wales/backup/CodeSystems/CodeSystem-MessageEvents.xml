@@ -2,12 +2,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="MessageEvents"/>
 	<url value="https://fhir.nhs.wales/CodeSystem/message-events"/>
-    <version value="0.0.1" />
+    <version value="1.0.0" />
 	<name value="MessageEvents"/>
 	<title value="Message Events"/>
-    <status value="draft" />
-    <experimental value="true" />	
-    <date value="2025-10-15" />
+    <status value="active" />
+    <experimental value="false" />	
+    <date value="2026-03-16" />
     <publisher value="NHS Wales" />
     <contact>
 		<name value="FHIR Standards" />
@@ -19,7 +19,7 @@
 		</telecom>
     </contact>
 	<description value="Message Events CodeSystem is owned and managed by the NHS Wales App. These are not a data standard and this snapshot is for example use only."/>
-    <copyright value="2025 NHS Wales." />
+    <copyright value="2026 NHS Wales." />
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>

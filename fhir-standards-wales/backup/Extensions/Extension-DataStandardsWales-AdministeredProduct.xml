@@ -2,11 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-AdministeredProduct" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AdministeredProduct" />
-  <version value="0.1.0" />
+  <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesAdministeredProduct" />
   <title value="Extension Data Standards Wales Administered Product" />
-  <status value="draft" />
-  <date value="2025-04-28" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2026-03-09" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -19,7 +20,7 @@
   </contact>
   <description value="This extension shows immunisation medication." />
   <purpose value="This extension shows immunisation medication." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

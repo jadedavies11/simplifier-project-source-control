@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 An extension to capture attributes of a document that are not explicitly addressed within DocumentReference.  Intended for use by exception only to capture data important for specific document types e.g.clinical trial code for cancer-related documents.  May be used more extensively for legacy documents.
 
@@ -22,7 +20,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesdocumentattribute, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

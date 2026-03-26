@@ -1,4 +1,4 @@
-## {{page-title}}
+## Example Device - CDR Component
 
 <div class="tab-wrap">
   <ul class="tab-head">

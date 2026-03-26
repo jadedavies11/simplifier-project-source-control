@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example MedicationStatement - Atorvastatin
+## Example MedicationStatement - Discharge - Atorvastatin
 This shows an example medication statement as recorded on discharge.
 
 <div class="tab-wrap">

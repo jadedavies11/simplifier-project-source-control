@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Observation - Body Temperature
 
 <div class="tab-wrap">
