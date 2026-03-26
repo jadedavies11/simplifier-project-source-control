@@ -32,9 +32,6 @@
     </div>
     <div id="tabjson" class="tabcontent">
       {{json:Example-DataStandardsWales-Bundle-SubmitClinician-Logical}}
-    </div>       
-    <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Bundle-SubmitClinician-Logical}}
-    </div>  
+    </div>
   </div>
 </div>

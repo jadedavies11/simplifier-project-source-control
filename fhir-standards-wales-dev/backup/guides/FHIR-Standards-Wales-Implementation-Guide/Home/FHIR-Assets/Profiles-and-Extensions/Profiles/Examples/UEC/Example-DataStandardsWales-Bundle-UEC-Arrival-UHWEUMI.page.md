@@ -32,9 +32,6 @@
     </div>
     <div id="tabjson" class="tabcontent">
       {{json:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI}}
-    </div>       
-    <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI}}
-    </div>  
+    </div> 
   </div>
 </div>

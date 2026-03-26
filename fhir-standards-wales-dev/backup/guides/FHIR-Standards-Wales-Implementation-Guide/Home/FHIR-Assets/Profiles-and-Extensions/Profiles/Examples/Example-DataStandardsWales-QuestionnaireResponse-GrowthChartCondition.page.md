@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
+      {{tree:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
+      {{table:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
+      {{xml:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
+      {{json:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
+      {{narrative:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
     </div>  
   </div>
 </div>

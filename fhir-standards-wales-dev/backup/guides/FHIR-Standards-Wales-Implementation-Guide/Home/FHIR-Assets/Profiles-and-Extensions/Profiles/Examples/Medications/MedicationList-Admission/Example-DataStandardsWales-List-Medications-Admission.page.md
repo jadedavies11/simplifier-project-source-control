@@ -4,7 +4,7 @@ This example medication list is provided as part of a patient journey scenario, 
 * Subject, source and context:
   * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
 * Medication statements:
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxicilin-GP, text:Example MedicationStatement - GP - Amoxicilin}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP, text:Example MedicationStatement - GP - Amoxicillin}}
   * {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorvastatin-GP, text:Example MedicationStatement - GP - Atorvastatin}}
   * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-GP, text:Example MedicationStatement - GP - Bendroflumethiazide}}
   * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisoprolol-GP, text:Example MedicationStatement - GP - Bisoprolol}}

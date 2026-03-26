@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DocumentVersion" />
-  <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion" />
   <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesDocumentVersion" />
   <title value="Extension Data Standards Wales Document Version" />
@@ -41,7 +41,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

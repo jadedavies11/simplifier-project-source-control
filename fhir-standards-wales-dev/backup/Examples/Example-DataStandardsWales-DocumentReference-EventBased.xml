@@ -12,10 +12,10 @@
       <display value="System ABC" />
     </valueReference>
   </extension>
-  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version">
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion">
     <valueString value="1" />
   </extension>
-  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester">
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester">
     <extension url="mode">
       <valueCodeableConcept>
         <coding>

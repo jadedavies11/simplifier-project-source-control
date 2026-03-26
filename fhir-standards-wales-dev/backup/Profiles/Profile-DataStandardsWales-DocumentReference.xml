@@ -46,7 +46,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version" />
       </type>
       <mustSupport value="true" />
       <isModifier value="false" />
@@ -56,7 +56,7 @@
       <sliceName value="attesterR5" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester" />
       </type>
       <mustSupport value="true" />
       <isModifier value="false" />
