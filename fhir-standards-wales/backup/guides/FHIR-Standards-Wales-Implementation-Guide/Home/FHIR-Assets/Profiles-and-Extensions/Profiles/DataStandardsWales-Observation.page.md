@@ -1,11 +1,9 @@
-<div class="warning"><span class="ExperiWarn"></span></div>
-
 ## {{page-title}}
 The [Observation](https://www.hl7.org/fhir/r4/Observation.html) resource is used to support diagnosis, monitor progress, determine baselines and patterns and even capture demographic characteristics. Most observations are simple name/value pair assertions with some metadata, but some observations group other observations together logically, or even are multi-component observations. 
 
 Note that the Observations included within an laboratory result report should implement the {{pagelink:DataStandardsWales-Observation-Lab}} profile.
 
-The {{page-title}} profile is derived from the [UK Core Observation Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Observation?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Observation Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Observation?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation}}
 
@@ -64,15 +62,6 @@ Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory
 1. An interpretation, e.g. high, low, normal
 1. A link to subsidiary "group member" observations made as part of this observation
 1. One or more subsidiary components, e.g. systolic and diastolic blood pressure measurements.
-
-### Example Observations
-The following example resources are provided within this guide:
-- {{pagelink:Example-DataStandardsWales-Observation-ACVPU, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
-- {{pagelink:Example-DataStandardsWales-Observation-BloodPressure, text:Blood pressure}}
-- {{pagelink:Example-DataStandardsWales-Observation-BodyHeight, text:Body height}}
-- {{pagelink:Example-DataStandardsWales-Observation-BodyTemperature, text:Body temperature}}
-- {{pagelink:Example-DataStandardsWales-Observation-BodyWeight, text:Body weight}}
-- {{pagelink:Example-DataStandardsWales-Observation-RespiratoryRate, text:Respiratory rate}}
 
 ### Mandatory Search Parameters
 The following search parameters and search parameter combinations **SHALL** be supported:

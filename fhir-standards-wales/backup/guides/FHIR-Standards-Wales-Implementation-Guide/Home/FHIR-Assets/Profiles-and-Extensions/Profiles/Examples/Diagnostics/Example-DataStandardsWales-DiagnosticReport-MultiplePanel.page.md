@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Diagnostic Report - Pathology Blood Sciences - Multiple Panel
 
 <div class="tab-wrap">

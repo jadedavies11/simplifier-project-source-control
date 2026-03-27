@@ -12,21 +12,22 @@
   filename: Example-DataStandardsWales-AllergyIntolerance-Morphine.page.md
 - name: Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy
   filename: Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy.page.md
-- name: Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete
-  filename: Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete.page.md
 - name: Example-DataStandardsWales-AllergyIntolerance-Potato
   filename: Example-DataStandardsWales-AllergyIntolerance-Potato.page.md
+- name: Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete
+  filename: Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete.page.md
 - name: Example-DataStandardsWales-AllergyIntolerance-Wasps
   filename: Example-DataStandardsWales-AllergyIntolerance-Wasps.page.md
 - name: Example-DataStandardsWales-Bundle-Allergies-Degraded
   filename: Example-DataStandardsWales-Bundle-Allergies-Degraded.page.md
 - name: Example-DataStandardsWales-Bundle-Allergies-Upgrade
   filename: Example-DataStandardsWales-Bundle-Allergies-Upgrade.page.md
+- name: Example-DataStandardsWales-List-Allergies
+  filename: Example-DataStandardsWales-List-Allergies.page.md
 - name: Example-DataStandardsWales-List-Allergies-Generate
   filename: Example-DataStandardsWales-List-Allergies-Generate.page.md
 - name: Example-DataStandardsWales-List-Allergies-NoKnownAllergy
   filename: Example-DataStandardsWales-List-Allergies-NoKnownAllergy.page.md
 - name: Example-DataStandardsWales-List-Allergies-notRecorded
   filename: Example-DataStandardsWales-List-Allergies-notRecorded.page.md
-- name: Example-DataStandardsWales-List-Allergies
-  filename: Example-DataStandardsWales-List-Allergies.page.md
+

@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example PractitionerRole - Physiotherapist
 
 <div class="tab-wrap">

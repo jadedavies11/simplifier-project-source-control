@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example MedicationStatement - Durogesic DTrans
+## Example MedicationStatement - GP - Durogesic DTrans
 This shows an example medication statement as recorded within the GP record.
 
 <div class="tab-wrap">

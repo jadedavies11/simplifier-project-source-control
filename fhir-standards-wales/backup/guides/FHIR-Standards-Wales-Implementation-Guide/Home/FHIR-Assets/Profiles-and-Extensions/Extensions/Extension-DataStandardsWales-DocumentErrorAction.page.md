@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 This extension provides outline data for an action performed as part of a document error workflow e.g. document misfile proposed.
 
@@ -22,7 +20,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesdocumenterroraction, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
