@@ -1,11 +1,11 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="DataStandardsWales-BloodPressure-AverageSystolic" />
-    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BloodPressure-AverageSystolic" />
-    <version value="1.0.0" />
-    <name value="DataStandardsWalesBloodPressureAverageSystolic" />
-    <title value="Data Standards Wales ValueSet Blood Pressure Average Systolic" />
+    <id value="DataStandardsWales-BloodPressure" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BloodPressure" />
+    <version value="1.1.0" />
+    <name value="DataStandardsWalesBloodPressure" />
+    <title value="Data Standards Wales ValueSet Blood Pressure" />
     <status value="active" />
-    <date value="2025-01-01" />
+    <date value="2025-12-18" />
     <publisher value="NHS Wales" />
     <contact>
         <name value="NHS Wales" />
@@ -16,7 +16,7 @@
             <rank value="1" />
         </telecom>
     </contact>
-    <description value="Resource structure is based on UKCore-BloodPressure-AverageSystolic v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A code from the SNOMED CT UK coding system for the systolic blood pressure. Selected from the SNOMED CT UK coding system: \n - 198081000000101  | Ambulatory systolic blood pressure (observable entity) \n - 314464000 | 24 hour systolic blood pressure (observable entity) \n - 314449000 | Average 24 hour systolic blood pressure (observable entity) \n - 314448008 | Maximum 24 hour systolic blood pressure (observable entity)  \n - 314447003 | Minimum 24 hour systolic blood pressure (observable entity) \n - DescendantOrSelfOf 314440001 | Average systolic blood pressure (observable entity)" />
+    <description value="Resource structure is based on UKCore-BloodPressure v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A code from the SNOMED CT UK coding system for blood pressure. Selected from the SNOMED CT UK coding system." />
     <copyright value="2025 NHS Wales" />
     <compose>
         <include>
@@ -24,59 +24,146 @@
             <filter>
                 <property value="constraint" />
                 <op value="=" />
-                <value value="198081000000101 OR 314464000 OR 314449000 OR 314448008 OR 314447003 OR descendantOrSelfOf 314440001" />
+                <value value="163020007 OR 75367002 OR 386534000 OR 87179004 OR 386533006 OR 386532001 OR 723237002 OR 251076008 OR 1036531000000108 OR 335661000000109 OR 163033001 OR 163035008 OR 163034007 OR 386536003 OR 252076005 OR 76882007 OR 71420008 OR 37476000 OR 364090009 OR 37087001 OR 251068006 OR 276760007 OR 276755008 OR 165077006 OR 371829003" />
             </filter>
         </include>
     </compose>
     <expansion>
-        <identifier value="17af4348-525a-486d-bc23-baa24ea7ab1a" />
-        <timestamp value="2023-10-31T22:11:00+00:00" />
-        <total value="9" />
-        <offset value="0" />
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="314464000" />
-            <display value="24 hour systolic blood pressure" />
-        </contains>
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="198081000000101" />
-            <display value="Ambulatory systolic blood pressure" />
-        </contains>
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="314449000" />
-            <display value="Average 24 hour systolic blood pressure" />
-        </contains>
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="314446007" />
-            <display value="Average day interval systolic blood pressure" />
-        </contains>
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="413606001" />
-            <display value="Average home systolic blood pressure" />
-        </contains>
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="314445006" />
-            <display value="Average night interval systolic blood pressure" />
-        </contains>
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="314440001" />
-            <display value="Average systolic blood pressure" />
-        </contains>
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="314448008" />
-            <display value="Maximum 24 hour systolic blood pressure" />
-        </contains>
-        <contains>
-            <system value="http://snomed.info/sct" />
-            <code value="314447003" />
-            <display value="Minimum 24 hour systolic blood pressure" />
-        </contains>
+      <identifier value="urn:uuid:015a592f-d21e-4879-bc46-041af118671f" />
+      <timestamp value="2025-03-31T09:34:55+00:00" />
+      <total value="25" />
+      <parameter>
+        <name value="used-codesystem" />
+        <valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20250312" />
+      </parameter>
+      <parameter>
+        <name value="version" />
+        <valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20250312" />
+      </parameter>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="386534000" />
+        <display value="Arterial blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="87179004" />
+        <display value="Arterial pulse pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="37087001" />
+        <display value="Arterial wedge pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="251068006" />
+        <display value="Atrial pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="75367002" />
+        <display value="Blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="71420008" />
+        <display value="Central venous pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="165077006" />
+        <display value="Intracardiac pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="386532001" />
+        <display value="Invasive arterial pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="386533006" />
+        <display value="Invasive blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="37476000" />
+        <display value="Jugular venous pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="276760007" />
+        <display value="Left atrial pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="163033001" />
+        <display value="Lying blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="251076008" />
+        <display value="Non-invasive arterial pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="723237002" />
+        <display value="Non-invasive blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="1036531000000108" />
+        <display value="Non-invasive central blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="163020007" />
+        <display value="O/E - blood pressure reading" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="371829003" />
+        <display value="Pulmonary vein wedge pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="276755008" />
+        <display value="Right atrial pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="335661000000109" />
+        <display value="Self measured blood pressure reading" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="163035008" />
+        <display value="Sitting blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="163034007" />
+        <display value="Standing blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="364090009" />
+        <display value="Systemic arterial pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="386536003" />
+        <display value="Systemic blood pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="252076005" />
+        <display value="Venous pressure" />
+      </contains>
+      <contains>
+        <system value="http://snomed.info/sct" />
+        <code value="76882007" />
+        <display value="Venous wedge pressure" />
+      </contains>
     </expansion>
 </ValueSet>

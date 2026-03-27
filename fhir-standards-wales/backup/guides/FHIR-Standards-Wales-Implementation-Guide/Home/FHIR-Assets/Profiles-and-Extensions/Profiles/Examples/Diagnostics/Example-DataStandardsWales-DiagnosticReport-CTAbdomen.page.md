@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Diagnostic Report - Radiology CT Abdomen
 
 <div class="tab-wrap">

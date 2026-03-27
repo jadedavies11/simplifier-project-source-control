@@ -417,7 +417,6 @@ span.url {
   color: black
 }
 
-
 .ClinicalWarn:before {
   content: "Important: ";
   font-weight: bold;
@@ -425,10 +424,20 @@ span.url {
 }
 
 .ClinicalWarn:after {
-  content: "Clinical examples are undergoing review and will be updated in a future release. For illustrative purposes only, do not use to guide implementation.";
+  content: "Clinical examples are provided for illustrative purposes only.  Implementers should use the examples as a starting point only, referring to the resource definition to adapt the examples for their specific scenarios.";
   color: black
 }
 
+.DevWarn:before {
+  content: "Important: ";
+  font-weight: bold;
+  color: black
+}
+
+.DevWarn:after {
+  content: "This content is still under development and is likely to be updated in a future release.";
+  color: black
+}
 
 .ExperiWarn:before {
   content: "Important: ";

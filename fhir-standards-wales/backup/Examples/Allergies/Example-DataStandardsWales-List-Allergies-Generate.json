@@ -1,6 +1,6 @@
 {
 	"resourceType": "List",
-	"id": "Example-DataStandardsWales-List-Allergies-Genenrate",
+	"id": "Example-DataStandardsWales-List-Allergies-Generate",
 	"meta": {
 		"profile": [
 			"https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-AllergyList"

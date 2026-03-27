@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example AllergyIntolerance - Morphine
+## Example AllergyIntolerance - Medication (morphine)
 This shows an example medication allergy.
 
 <div class="tab-wrap">
@@ -23,19 +21,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Morphine}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Morphine}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Morphine}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Morphine}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-morphine}}
+      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Morphine}}
     </div>  
   </div>
 </div>

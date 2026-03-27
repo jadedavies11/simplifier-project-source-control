@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Organization - Glangwili General Hospital
 
 <div class="tab-wrap">

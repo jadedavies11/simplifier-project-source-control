@@ -2,12 +2,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="WPASAdmitSource"/>
 	<url value="https://fhir.nhs.wales/CodeSystem/WPASAdmitSource"/>
-    <version value="0.0.1" />
+    <version value="1.0.0" />
 	<name value="WPASAdmitSource"/>
 	<title value="WPAS Admit Source"/>
-    <status value="draft" />
-    <experimental value="true" />	
-    <date value="2025-10-16" />
+    <status value="active" />
+    <experimental value="false" />	
+    <date value="2026-02-26" />
     <publisher value="NHS Wales" />
 	<contact>
 		<name value="FHIR Standards"/>	
@@ -18,7 +18,7 @@
 		</telecom>
 	</contact>	
 	<description value="This CodeSystem contains a list of admission source codes and descriptions specific to Welsh PAS. These codes are owned and maintained by the DHCW Welsh PAS team."/>
-    <copyright value="2025 NHS Wales." />
+    <copyright value="2026 NHS Wales." />
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>

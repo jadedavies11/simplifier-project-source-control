@@ -6,6 +6,8 @@
   filename: Care-Documents
 - name: Diagnostic Reports
   filename: Diagnostic-Reports
+- name: FHIR Messaging
+  filename: FHIR-Messaging
 - name: Growth Charts
   filename: Growth-Charts
 - name: Medications
@@ -14,3 +16,5 @@
   filename: Provenance
 - name: Sensitive Data
   filename: Sensitive-Data
+- name: Urgent and Emergency Care
+  filename: UEC

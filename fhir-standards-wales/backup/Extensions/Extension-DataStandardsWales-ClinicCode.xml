@@ -2,11 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-ClinicCode" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ClinicCode" />
-  <version value="0.0.1" />
+  <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesClinicCode" />
   <title value="Extension Data Standards Wales Clinic Code" />
-  <status value="draft" />
-  <date value="2025-10-10" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2026-03-09" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -19,7 +20,7 @@
   </contact>
   <description value="An extension to capture the clinic code." />
   <purpose value="This extension shows the clinic code." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
