@@ -14,6 +14,12 @@
   filename: CodeSystem-DataStandardsWales-MainSpecialty.page.md
 - name: CodeSystem-DataStandardsWales-MaritalStatus
   filename: CodeSystem-DataStandardsWales-MaritalStatus.page.md
+- name: CodeSystem-DataStandardsWales-OrganizationType-Trial-F
+  filename: CodeSystem-DataStandardsWales-OrganizationType-Trial-F.page.md
+- name: CodeSystem-DataStandardsWales-OrganizationType-Trial-H
+  filename: CodeSystem-DataStandardsWales-OrganizationType-Trial-H.page.md
+- name: CodeSystem-DataStandardsWales-OrganizationType-Trial-H2
+  filename: CodeSystem-DataStandardsWales-OrganizationType-Trial-H2.page.md
 - name: CodeSystem-DataStandardsWales-PatientRecordType
   filename: CodeSystem-DataStandardsWales-PatientRecordType.page.md
 - name: CodeSystem-DataStandardsWales-RecordingSetting

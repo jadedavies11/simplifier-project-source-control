@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-DataStandardsWales-AliasType" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
+  <version value="0.0.1" />
+  <name value="ExtensionDataStandardsWalesAliasType" />
+  <title value="Extension Data Standards Wales Alias Type" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2026-01-29" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <description value="This extension clarifies the nature of an alias." />
+  <purpose value="Informs the selection of the correct alias for a specific use case." />
+  <copyright value="2026 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Organization.alias" />
+  </context>
+  <context>
+    <type value="element" />
+    <expression value="Location.alias" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Alias type" />
+      <definition value="An extension to facilitate identification of aliases of the same type." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <short value="Specifies the nature of the alias" />
+      <definition value="Specifies he nature of the alias e.g. Standard acronym. Used to facilitate identification of a specific set of aliases across entities of the same type" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-AliasType" />
+      </binding>
+    </element>
+    <element id="Extension.value[x].coding.system">
+      <path value="Extension.value[x].coding.system" />
+      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType" />
+    </element>
+  </differential>
+</StructureDefinition>
