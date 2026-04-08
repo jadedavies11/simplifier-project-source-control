@@ -118,35 +118,7 @@
             evt.classList.add('tab-active');
             var target = evt.dataset.target;
             document.getElementById(target).classList.add('active');
-        }
-
-        // el: the clicked tab element (<li>)
-        // targetId: the id of the panel to show (e.g., 'tabnarrative1')
-        function openLocalTab(el, targetId) {
-            // Scope to the tab wrap so multiple tab sets can coexist
-            const wrapper = el.closest('.tab-wrap');
-            if (!wrapper) return;
-
-            // 1) Deactivate all tabs
-            const tabs = wrapper.querySelectorAll('.tab-head .tablink');
-            tabs.forEach(tab => tab.classList.remove('tab-active'));
-
-            // 2) Hide all panels
-            const panels = wrapper.querySelectorAll('.tab-main .tabcontent');
-            panels.forEach(panel => panel.classList.remove('active'));
-
-            // 3) Activate the clicked tab
-            el.classList.add('tab-active');
-
-            // 4) Show the target panel
-            const target = wrapper.querySelector('#' + CSS.escape(targetId));
-            if (target) {
-            target.classList.add('active');
-            } else {
-            // Optional: basic fallback if the panel id is wrong
-            console.warn(`openLocalTab: panel #${targetId} not found`);
             }
-        }
 
         // Get the button:
         let scrollToTopButton = document.getElementById("scrollBtn");

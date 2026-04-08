@@ -1,4 +1,6 @@
-## Example MedicationStatement - Inpatient - Bisoprolol
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example MedicationStatement - Bisoprolol
 This shows an example medication statement as recorded as part of the inpatient medication record.
 
 <div class="tab-wrap">

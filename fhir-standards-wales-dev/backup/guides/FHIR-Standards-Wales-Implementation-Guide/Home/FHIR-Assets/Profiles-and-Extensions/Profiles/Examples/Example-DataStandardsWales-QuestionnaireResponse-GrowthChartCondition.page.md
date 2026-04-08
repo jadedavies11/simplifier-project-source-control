@@ -1,4 +1,6 @@
-## Example Questionnaire Response - Growth Chart Condition
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+### Example Questionnaire Response - Growth Chart Condition
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
+      {{tree:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
+      {{table:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
+      {{xml:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
+      {{json:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:QuestionnaireResponse/Example-DSW-QuestionnaireResponse-GrowthChartCondition}}
+      {{narrative:QuestionnaireResponse/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition}}
     </div>  
   </div>
 </div>

@@ -1,4 +1,4 @@
-<Endpoint xmlns="http://hl7.org/fhir">
+<Endpoint>
     <id value="Example-DataStandardsWales-Endpoint-Dicom" />
     <meta>
         <versionId value="1" />

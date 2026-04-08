@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DateProcedureLastUpdated" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DateProcedureLastUpdated" />
-  <version value="1.0.0" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesDateProcedureLastUpdated" />
   <title value="Extension Data Standards Wales Date Procedure Last Updated" />
-  <status value="active" />
-  <date value="2026-03-09" />
+  <status value="draft" />
+  <date value="2025-04-28" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -19,7 +19,7 @@
   </contact>
   <description value="An extension to capture the procedure date was last updated." />
   <purpose value="This extension shows when the procedure date was last updated." />
-  <copyright value="2026 NHS Wales" />
+  <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

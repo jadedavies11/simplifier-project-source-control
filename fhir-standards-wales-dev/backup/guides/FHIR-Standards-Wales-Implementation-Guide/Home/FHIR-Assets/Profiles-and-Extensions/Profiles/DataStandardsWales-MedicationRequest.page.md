@@ -1,3 +1,5 @@
+<div class="warning"><span class="ImplementWarn"></span></div>
+
 ## {{page-title}}
 The [MedicationRequest](https://www.hl7.org/fhir/r4/medicationrequest.html) resource is a record of a medication that is being order for a patient.
 

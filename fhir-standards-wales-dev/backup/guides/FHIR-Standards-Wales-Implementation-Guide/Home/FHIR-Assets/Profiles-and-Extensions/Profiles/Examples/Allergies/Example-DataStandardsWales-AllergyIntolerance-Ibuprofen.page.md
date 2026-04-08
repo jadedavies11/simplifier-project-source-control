@@ -1,4 +1,6 @@
-## AllergyIntolerance - Medication (ibuprofen)
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example AllergyIntolerance - Ibuprofen
 This shows an example medication allergy.
 
 <div class="tab-wrap">
@@ -21,19 +23,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
+      {{tree:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
+      {{table:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
+      {{xml:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
+      {{json:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Ibuprofen}}
+      {{narrative:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-ibuprofen}}
     </div>  
   </div>
 </div>

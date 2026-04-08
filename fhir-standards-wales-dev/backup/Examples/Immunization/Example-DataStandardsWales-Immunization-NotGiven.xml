@@ -25,7 +25,7 @@
 		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS:9912003444)" />
 	</patient>
-	<occurrenceDateTime value="2024-07-10T10:30:00Z" />
+	<occurrenceDateTime value="2024-07-10T10:30" />
 	<location>
 		<reference value="Location/Example-DataStandardsWales-Location-CadogWard" />
 	</location>

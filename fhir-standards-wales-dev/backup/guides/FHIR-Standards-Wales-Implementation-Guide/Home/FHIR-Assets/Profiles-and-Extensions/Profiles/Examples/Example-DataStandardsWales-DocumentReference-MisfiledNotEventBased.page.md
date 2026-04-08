@@ -1,5 +1,6 @@
-## Example Document Reference - Misfiled (document not event-based)
-This example represents a document which has been misfiled via a two-step workflow: misfile proposed and then accepted.  The document in this example is not based on a patient healthcare event.
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+### Example Document Reference - A document which has been misfiled via a two-step workflow: misfile proposed and then accepted.  The document in this example is not based on a patient healthcare event.
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -21,19 +22,19 @@ This example represents a document which has been misfiled via a two-step workfl
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{tree:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{table:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{xml:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{json:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{narrative:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased}}
     </div>  
   </div>
 </div>

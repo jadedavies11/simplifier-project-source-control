@@ -2,12 +2,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DemographicsAsRecorded" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DemographicsAsRecorded" />
-  <version value="1.0.0" />
+  <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDemographicsAsRecorded" />
   <title value="Extension Data Standards Wales Demographics As Recorded" />
-  <status value="active" />
-  <experimental value="false" />
-  <date value="2026-03-09" />
+  <status value="draft" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="Data Standards" />
@@ -20,7 +18,7 @@
   </contact>
   <description value="An extension to carry the demographics details that were present as at the time of the care record change" />
   <purpose value="An extension to carry the demographics details that were present as at the time of the care record change" />
-  <copyright value="2026 NHS Wales" />
+  <copyright value="2023 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -44,13 +42,9 @@
       <short value="Address as at time of record change" />
       <definition value="Address as at time of record change" />
     </element>
-    <element id="Extension.extension:Address.extension">
-      <path value="Extension.extension.extension" />
-      <max value="0" />
-    </element>
     <element id="Extension.extension:Address.url">
       <path value="Extension.extension.url" />
-      <fixedUri value="Address" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-CDR-demographicsAsRecorded-address" />
     </element>
     <element id="Extension.extension:Address.value[x]">
       <path value="Extension.extension.value[x]" />
@@ -72,13 +66,9 @@
         <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1" />
       </binding>
     </element>
-    <element id="Extension.extension:Gender.extension">
-      <path value="Extension.extension.extension" />
-      <max value="0" />
-    </element>
     <element id="Extension.extension:Gender.url">
       <path value="Extension.extension.url" />
-      <fixedUri value="Gender" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-CDR-demographicsAsRecorded-gender" />
     </element>
     <element id="Extension.extension:Gender.value[x]">
       <path value="Extension.extension.value[x]" />
@@ -100,13 +90,9 @@
       <definition value="name as at time of record change" />
       <max value="1" />
     </element>
-    <element id="Extension.extension:Name.extension">
-      <path value="Extension.extension.extension" />
-      <max value="0" />
-    </element>
     <element id="Extension.extension:Name.url">
       <path value="Extension.extension.url" />
-      <fixedUri value="Name" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-CDR-demographicsAsRecorded-name" />
     </element>
     <element id="Extension.extension:Name.value[x]">
       <path value="Extension.extension.value[x]" />
@@ -123,13 +109,9 @@
       <definition value="Date of Birth as at time of record change" />
       <max value="1" />
     </element>
-    <element id="Extension.extension:birthDate.extension">
-      <path value="Extension.extension.extension" />
-      <max value="0" />
-    </element>
     <element id="Extension.extension:birthDate.url">
       <path value="Extension.extension.url" />
-      <fixedUri value="birthDate" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-CDR-demographicsAsRecorded-birthDate" />
     </element>
     <element id="Extension.extension:birthDate.value[x]">
       <path value="Extension.extension.value[x]" />
@@ -144,13 +126,9 @@
       <definition value="PAS Identifier as at time of record change" />
       <max value="1" />
     </element>
-    <element id="Extension.extension:PAS-Identifier.extension">
-      <path value="Extension.extension.extension" />
-      <max value="0" />
-    </element>
     <element id="Extension.extension:PAS-Identifier.url">
       <path value="Extension.extension.url" />
-      <fixedUri value="PAS-Identifier" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-CDR-demographicsAsRecorded-pas-identifier" />
     </element>
     <element id="Extension.extension:PAS-Identifier.value[x]">
       <path value="Extension.extension.value[x]" />

@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-SourceSystem" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
-  <version value="0.1.0" />
+  <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesSourceSystem" />
   <title value="Extension Data Standards Wales Source System" />
   <status value="draft" />
-  <experimental value="false" />
-  <date value="2026-02-26" />
+  <experimental value="true" />
+  <date value="2025-09-20" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -20,7 +20,7 @@
   </contact>
   <description value="This extension shows the repository in which a document is stored." />
   <purpose value="This extension shows the repository in which a document is stored." />
-  <copyright value="2026 NHS Wales" />
+  <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

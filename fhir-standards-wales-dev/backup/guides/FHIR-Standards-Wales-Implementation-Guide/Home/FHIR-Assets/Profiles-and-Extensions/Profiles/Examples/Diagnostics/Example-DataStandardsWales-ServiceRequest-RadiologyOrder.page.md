@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Service Request - Radiology Order
 
 <div class="tab-wrap">
@@ -20,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:ServiceRequest/Example-DataStandardsWales-ServiceRequest-RadiologyOrder}}
+      {{tree:fhir-standards-wales/example-datastandardswales-servicerequest-radiologyorder}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:ServiceRequest/Example-DataStandardsWales-ServiceRequest-RadiologyOrder}}
+      {{table:fhir-standards-wales/example-datastandardswales-servicerequest-radiologyorder}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:ServiceRequest/Example-DataStandardsWales-ServiceRequest-RadiologyOrder}}
+      {{xml:fhir-standards-wales/example-datastandardswales-servicerequest-radiologyorder}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:ServiceRequest/Example-DataStandardsWales-ServiceRequest-RadiologyOrder}}
+      {{json:fhir-standards-wales/example-datastandardswales-servicerequest-radiologyorder}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:ServiceRequest/Example-DataStandardsWales-ServiceRequest-RadiologyOrder}}
+      {{narrative:fhir-standards-wales/example-datastandardswales-servicerequest-radiologyorder}}
     </div>  
   </div>
 </div>

@@ -1,6 +1,6 @@
-<div class="warning"><span class="DevWarn"></span></div>
+<div class="warning"><span class="ClinicalWarn"></span></div>
 
-## Example Message Definition - Submit Clinician (Practitioner Role)
+## Example Message Definition - Submit Clinician
 
 <div class="tab-wrap">
   <ul class="tab-head">

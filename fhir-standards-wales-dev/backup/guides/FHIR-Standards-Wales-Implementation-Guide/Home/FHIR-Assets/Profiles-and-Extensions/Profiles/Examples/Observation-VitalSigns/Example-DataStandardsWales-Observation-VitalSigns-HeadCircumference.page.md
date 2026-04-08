@@ -1,4 +1,6 @@
-## Example Observation - Vital Signs - Head Circumference
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+### Example Observation - Head Circumference
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
+      {{tree:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
+      {{table:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
+      {{xml:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
-    </div>
+      {{json:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+    </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-DSW-Observation-VitalSigns-HeadCircumference}}
+      {{narrative:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
     </div>  
   </div>
 </div>

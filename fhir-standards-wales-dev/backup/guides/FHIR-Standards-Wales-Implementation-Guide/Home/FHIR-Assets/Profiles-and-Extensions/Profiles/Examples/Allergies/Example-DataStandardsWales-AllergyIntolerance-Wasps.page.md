@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example AllergyIntolerance - Wasps
 This shows an example medication allergy.
 
@@ -21,19 +23,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Wasps}}
+      {{tree:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Wasps}}
+      {{table:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Wasps}}
+      {{xml:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Wasps}}
+      {{json:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Wasps}}
+      {{narrative:fhir-standards-wales/examples-allergies-example-datastandardswales-allergyintolerance-wasps}}
     </div>  
   </div>
 </div>

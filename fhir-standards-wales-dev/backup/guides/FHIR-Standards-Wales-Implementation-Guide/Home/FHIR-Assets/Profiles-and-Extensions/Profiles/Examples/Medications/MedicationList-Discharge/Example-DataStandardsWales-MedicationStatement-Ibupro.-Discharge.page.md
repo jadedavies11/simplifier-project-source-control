@@ -1,4 +1,6 @@
-## Example MedicationStatement - Discharge - Ibuprofen (stopped)
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example MedicationStatement - Ibuprofen
 This shows an example medication statement as recorded on discharge.
 
 <div class="tab-wrap">

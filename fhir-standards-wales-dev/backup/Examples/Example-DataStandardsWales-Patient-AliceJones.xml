@@ -8,15 +8,9 @@
         <div xmlns="http://www.w3.org/1999/xhtml">JONES, Alice (NHS: 9912003444)</div>
     </text>     
     <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-BirthSex">
-        <valueCodeableConcept>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender" />
-                <code value="F" />
-                <display value="Female" />
-            </coding>
-        </valueCodeableConcept>
+        <valueCode value="F" />
     </extension>      
-    <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory">
+    <extension url="https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory">
         <valueCodeableConcept>
             <coding>
                 <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategoryWales" />
@@ -29,8 +23,8 @@
         <valueCodeableConcept>
             <coding>
                 <system value="http://snomed.info/sct" />
-                <code value="160557009" />
-                <display value="Baptist, follower of religion" />
+                <code value="344151000000101" />
+                <display value="Follower of Church of England" />
             </coding>
         </valueCodeableConcept>
     </extension>

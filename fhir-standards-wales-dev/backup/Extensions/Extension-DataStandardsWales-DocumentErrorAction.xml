@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DocumentErrorAction" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction" />
-  <version value="0.1.0" />
+  <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDocumentErrorAction" />
   <title value="Extension Data Standards Wales Document Error Action" />
   <status value="draft" />
-  <experimental value="false" />
-  <date value="2026-02-26" />
+  <experimental value="true" />
+  <date value="2025-09-24" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -20,7 +20,7 @@
   </contact>
   <description value="This extension provides a history of error actions performed e.g. document misfile proposed then accepted." />
   <purpose value="To support the document error workflow in NHS Wales, including the specific action performed, when, bu whom and any reason provided." />
-  <copyright value="2026 NHS Wales" />
+  <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -66,7 +66,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentErrorAction" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentErrorAction" />
       </binding>
     </element>
     <element id="Extension.extension:actionDateTime">
