@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Service Request - Pathology Full Blood Count
 
 <div class="tab-wrap">
@@ -20,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
+      {{tree:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
+      {{table:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
+      {{xml:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
+      {{json:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC}}
+      {{narrative:fhir-standards-wales/example-datastandardswales-servicerequest-pathologyorder-fbc}}
     </div>  
   </div>
 </div>

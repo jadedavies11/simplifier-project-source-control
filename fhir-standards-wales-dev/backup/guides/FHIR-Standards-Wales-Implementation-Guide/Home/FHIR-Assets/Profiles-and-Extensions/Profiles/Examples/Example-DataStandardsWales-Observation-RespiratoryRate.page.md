@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Observation - Respiratory Rate
 
 <div class="tab-wrap">

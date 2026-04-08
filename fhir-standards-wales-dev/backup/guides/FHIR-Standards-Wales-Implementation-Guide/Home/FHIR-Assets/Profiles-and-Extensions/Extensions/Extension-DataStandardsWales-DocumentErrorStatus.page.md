@@ -1,3 +1,5 @@
+<div class="warning"><span class="ImplementWarn"></span></div>
+
 ## {{page-title}}
 An extension to capture the error status of a document
 

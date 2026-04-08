@@ -1,3 +1,5 @@
+<div class="warning"><span class="ExperiWarn"></span></div>
+
 ## {{page-title}}
 The [Device](https://www.hl7.org/fhir/r4/device.html) profile captures the type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.
 
@@ -38,16 +40,6 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
     </list>
   </div>
 </div>
-
-### Mandatory and Must Support Data Elements
-
-Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
-
-Each Device must support:
-
-* An identifier of type applicationInstanceId
-* A device status
-* A device type
 
 
 ### Slice

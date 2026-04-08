@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-Immunization.basedOn" />
-  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Immunization.basedOn" />
-  <version value="1.0.0" />
+  <url value="http://hl7.org/fhir/5.0/StructureDefinition/Extension-Immunization.basedOn" />
+  <version value="0.1.1" />
   <name value="ExtensionDataStandardsWalesImmunizationBasedOn" />
   <title value="Extension Data Standards Wales Immunization Based On" />
-  <status value="active" />
-  <experimental value="false" />
-  <date value="2026-03-09" />
+  <status value="draft" />
+  <date value="2025-04-24" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -20,7 +19,7 @@
   </contact>
   <description value="An extension to carry a plan, order or recommendation fulfilled in whole or in part by this immunisation. This is a R5 backport" />
   <purpose value="This extension, which is a R5 backport, allows tracing of an authorisation for the Immunisation." />
-  <copyright value="2026 NHS Wales" />
+  <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -38,7 +37,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Immunization.basedOn" />
+      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

@@ -1,8 +1,2 @@
-- name: Index
-  filename: Index.page.md
 - name: MessageDefinition-DataStandardsWales-UEC-Arrival
   filename: MessageDefinition-DataStandardsWales-UEC-Arrival.page.md
-- name: MessageDefinition-DataStandardsWales-UEC-Triage
-  filename: MessageDefinition-DataStandardsWales-UEC-Triage.page.md
-- name: MessageDefinition-DataStandardsWales-UEC-Discharge
-  filename: MessageDefinition-DataStandardsWales-UEC-Discharge.page.md

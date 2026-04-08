@@ -1,4 +1,6 @@
-## Example Provenance - Demographics as recorded with care document
+DocumentReferenceDe. <div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example Provenance - Demographics as Recorded with Care Document
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DSW-Provenance-DocumentReferenceDemographics}}
+      {{tree:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DSW-Provenance-DocumentReferenceDemographics}}
+      {{table:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DSW-Provenance-DocumentReferenceDemographics}}
+      {{xml:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DSW-Provenance-DocumentReferenceDemographics}}
+      {{json:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DSW-Provenance-DocumentReferenceDemographics}}
+      {{narrative:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics}}
     </div>  
   </div>
 </div>

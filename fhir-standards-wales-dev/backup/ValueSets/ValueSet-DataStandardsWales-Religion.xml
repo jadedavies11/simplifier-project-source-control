@@ -261,8 +261,8 @@
 			<system value="http://snomed.info/sct"/>
 			<code value="429708003"/>
 			<display value="Unitarian, follower of religion"/>
-		</contains>
 		<contains>
+		</contains>
 			<system value="http://snomed.info/sct"/>
 			<code value="429511004"/>
 			<display value="Vaishnava Hindu, follower of religion"/>

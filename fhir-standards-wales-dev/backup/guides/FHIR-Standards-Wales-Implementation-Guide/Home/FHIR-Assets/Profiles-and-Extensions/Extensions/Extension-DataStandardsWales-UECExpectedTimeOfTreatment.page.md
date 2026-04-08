@@ -1,3 +1,5 @@
+<div class="warning"><span class="ImplementWarn"></span></div>
+
 ## {{page-title}}
 An extension to carry the expected time of treatment of a UEC Encounter.
 

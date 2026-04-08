@@ -1,4 +1,6 @@
-## Example Related Person - Natural Mother
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+### Example Related Person - Natural Mother
 
 <div class="tab-wrap">
   <ul class="tab-head">

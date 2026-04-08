@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Diagnostic Report - Cardiology ECG
 
 <div class="tab-wrap">

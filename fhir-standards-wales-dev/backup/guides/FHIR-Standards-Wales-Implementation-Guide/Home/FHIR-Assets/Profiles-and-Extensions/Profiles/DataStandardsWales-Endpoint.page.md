@@ -1,3 +1,5 @@
+<div class="warning"><span class="ExperiWarn"></span></div>
+
 ## {{page-title}}
 The [Endpoint](https://hl7.org/fhir/R4/endpoint.html) resource contains information about a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated. Typical examples include buildings, wards, corridors, rooms or beds, but may also include mobile clinics, a vehicle or lift, or a patient's home. 
 

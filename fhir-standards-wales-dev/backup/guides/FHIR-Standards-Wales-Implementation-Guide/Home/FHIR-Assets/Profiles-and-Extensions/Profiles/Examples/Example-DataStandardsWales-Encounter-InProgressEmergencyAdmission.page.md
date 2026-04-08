@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Encounter - In-Progress Emergency Admission
 
 <div class="tab-wrap">
