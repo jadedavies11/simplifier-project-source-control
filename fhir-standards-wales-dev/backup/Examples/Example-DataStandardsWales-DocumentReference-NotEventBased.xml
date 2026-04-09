@@ -16,7 +16,7 @@
     <system value="www.localnamespace" />
     <value value="CONF-A123-10" />
   </identifier>
-  <status value="entered-in-error" />
+  <status value="current" />
   <docStatus value="final" />
   <type>
     <coding>
@@ -27,9 +27,9 @@
   </type>
   <category>
     <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory" />
-      <code value="notification-and-legal-documents" />
-      <display value="Notification &amp; Legal Documents" />
+      <system value="http://snomed.info/sct" />
+      <code value="826651000000100" />
+      <display value="Notification and legal document" />
     </coding>
   </category>
   <subject>
@@ -62,14 +62,11 @@
   <content>
     <attachment>
       <contentType value="application/pdf" />
-      <language value="en" />
+      <language value="eng" />
       <url value="https://www.example.com/documentref1234" />
     </attachment>
   </content>
   <context>
-    <encounter>
-      <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation" />
-    </encounter>
     <period>
       <start value="2025-02-20T00:00:00+00:00" />
       <end value="2026-02-19T23:59:00+00:00" />

@@ -5,7 +5,7 @@
     <name value="DataStandardsWalesRecordingSetting" />
     <title value="Data Standards Wales ValueSet Recording Setting" />
     <status value="active" />
-    <date value="2025-01-01" />
+    <date value="2026-01-12" />
     <publisher value="NHS Wales" />
     <contact>
         <name value="NHS Wales" />
@@ -17,7 +17,7 @@
         </telecom>
     </contact>
     <description value="Resource structure is based on UKCore-RecordingSetting v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A set of codes that define whether an observation was taken at home or in a clinical setting." />
-    <copyright value="2025 NHS Wales" />
+    <copyright value="2026 NHS Wales" />
     <compose>
         <include>
             <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-RecordingSetting" />

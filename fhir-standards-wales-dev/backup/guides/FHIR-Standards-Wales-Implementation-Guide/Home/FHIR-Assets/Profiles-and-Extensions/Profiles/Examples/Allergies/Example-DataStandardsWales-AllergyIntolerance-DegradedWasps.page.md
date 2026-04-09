@@ -1,7 +1,5 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example AllergyIntolerance - Transfer Degraded 'Wasps'
-This shows an example medication allergy.
+## Example AllergyIntolerance - Transfer degraded allergy (wasps)
+This shows an example non-medication allergy.
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -23,19 +21,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedwasps}}
+      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedWasps}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedwasps}}
+      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedWasps}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedwasps}}
+      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedWasps}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedwasps}}
+      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedWasps}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedwasps}}
+      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedWasps}}
     </div>  
   </div>
 </div>

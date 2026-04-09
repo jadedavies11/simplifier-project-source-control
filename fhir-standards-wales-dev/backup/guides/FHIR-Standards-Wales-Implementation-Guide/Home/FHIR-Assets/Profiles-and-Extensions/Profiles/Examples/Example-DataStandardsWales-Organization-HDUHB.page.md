@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Organization - Hywel Dda University Local Health Board
 
 <div class="tab-wrap">

@@ -4,6 +4,8 @@
   filename: Overview.page.md
 - name: Data Model - Provenance
   filename: Data-Model-Provenance.page.md
+- name: Provenance Extensions
+  filename: Provenance-Extensions.page.md
 - name: Examples
   filename: Examples.page.md
 - name: Provenance and the Care Data Repository

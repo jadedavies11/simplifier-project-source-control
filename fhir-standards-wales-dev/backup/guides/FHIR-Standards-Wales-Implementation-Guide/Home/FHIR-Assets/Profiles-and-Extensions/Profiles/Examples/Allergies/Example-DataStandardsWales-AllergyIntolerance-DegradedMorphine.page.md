@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example AllergyIntolerance - Transfer Degraded 'Morphine Oramorph'
+## Example AllergyIntolerance - Transfer degraded allergy (morphine)
 This shows an example medication allergy.
 
 <div class="tab-wrap">
@@ -23,19 +21,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:fhir-standards-wales/allergies-example-datastandardswales-allergyintolerance-degradedmorphine}}
+      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine}}
     </div>  
   </div>
 </div>

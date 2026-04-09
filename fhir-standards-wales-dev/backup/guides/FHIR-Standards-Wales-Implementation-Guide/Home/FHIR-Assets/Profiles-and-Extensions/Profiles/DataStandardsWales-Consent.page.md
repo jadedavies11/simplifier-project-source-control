@@ -1,5 +1,3 @@
-<div class="warning"><span class="ExperiWarn"></span></div>
-
 ## {{page-title}}
 The [Consent](https://hl7.org/fhir/R4/consent.html) profile is to be used to express a Consent regarding Healthcare. There are four anticipated uses for the Consent Resource, all of which are written or verbal agreements by a healthcare consumer (grantor) or a personal representative, made to an authorised entity (grantee) concerning authorised or restricted actions with any limitations on purpose of use, and handling instructions to which the authorised entity SHALL comply:
 * Privacy Consent Directive: Agreement to collect, access, use or disclose (share) information.

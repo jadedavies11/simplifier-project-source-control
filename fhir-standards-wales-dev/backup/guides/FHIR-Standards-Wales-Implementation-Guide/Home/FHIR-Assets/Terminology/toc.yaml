@@ -1,8 +1,8 @@
 - name: Index
   filename: Index.page.md
 - name: Value Sets
-  filename: ValueSets-Index.page.md
+  filename: Value-Sets
 - name: Code Systems
-  filename: CodeSystems-Index.page.md
+  filename: Code-Systems
 - name: Concept Maps
-  filename: ConceptMaps-Index.page.md 
+  filename: Concept-Maps

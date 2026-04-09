@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 
 Only a sample of the value set has been shown. To obtain the full list, please contact the Welsh Reference & Terminology Service by email:

@@ -1,4 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+<div class="warning"><span class="DevWarn"></span></div>
 
 ## Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
 
@@ -32,9 +32,6 @@
     </div>
     <div id="tabjson" class="tabcontent">
       {{json:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI}}
-    </div>       
-    <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI}}
-    </div>  
+    </div> 
   </div>
 </div>
