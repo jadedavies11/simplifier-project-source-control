@@ -1,16 +1,14 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example List Allergies (generate)
+## Example Allergy List - Generate
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Morphine, text: morphine}}  - following modification from degraded to be coded correctly
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Potato}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Ibuprofen, text: Ibuprofen}} - following modification from degraded to be coded correctly
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Wasps, text: wasp}} - following modification from degraded to be coded correctly
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Morphine, text: Example AllergyIntolerance - Medication (morphine)}} - following modification from degraded to be coded correctly
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Ibuprofen, text: Example AllergyIntolerance - Medication (ibuprofen)}} - following modification from degraded to be coded correctly
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Wasps, text:Example AllergyIntolerance - Wasps}} - following modification from degraded to be coded correctly
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Practitioner - Dr Dhiren Patel }}
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
 
 
 <div class="tab-wrap">
@@ -31,16 +29,16 @@ This example references the following example resources:
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/example-datastandardswales-bundle-allergies-upgrade}}
+      {{tree:List/Example-DataStandardsWales-List-Allergies-Generate}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/example-datastandardswales-bundle-allergies-upgrade}}
+      {{table:List/Example-DataStandardsWales-List-Allergies-Generate}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/example-datastandardswales-bundle-allergies-upgrade}}
+      {{xml:List/Example-DataStandardsWales-List-Allergies-Generate}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/example-datastandardswales-bundle-allergies-upgrade}}
+      {{json:List/Example-DataStandardsWales-List-Allergies-Generate}}
     </div>       
   </div>
 </div>

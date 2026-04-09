@@ -1,0 +1,1077 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DataStandardsWales-OrganizationType",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-03-18T14:17:41.796+00:00"
+  },
+  "language": "en-GB",
+  "text": {
+    "status": "generated",
+    "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch2\u003EData Standards Wales Organization Type\u003C/h2\u003E\u003Ctt\u003Ehttps://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType\u003C/tt\u003E\u003Cp/\u003E\u003C/div\u003E"
+  },
+  "url": "https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType",
+  "version": "1.1.0",
+  "name": "DataStandardsWalesOrganizationType",
+  "title": "Data Standards Wales Organization Type",
+  "status": "active",
+  "experimental": false,
+  "date": "2026-03-18T00:00:00.000Z",
+  "publisher": "Digital Health and Care Wales",
+  "contact": [
+    {
+      "name": "Data Standards",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "data.standards@wales.nhs.uk"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "valueSet": "https://fhir.standards.wales/ValueSet/DataStandardsWales-OrganizationType",
+  "hierarchyMeaning": "is-a",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 69,
+  "filter": [
+    {
+      "code": "slice",
+      "operator": [
+        "="
+      ],
+      "value": "Slice name"
+    }
+  ],
+  "property": [
+    {
+      "code": "slice",
+      "uri": "https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType#Slice",
+      "description": "In order to cureate the ValueSets as required",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "1",
+      "display": "Health",
+      "definition": "An organisation with the primary focus of diagnosing, treating, controlling, and preventing illness, disease, injury, or disability.",
+      "property": [
+        {
+          "code": "slice",
+          "valueString": "domain"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Social care",
+      "definition": "An organisation with the primary focus of providing practical, emotional, and social support to help vulnerable individuals live safely and independently, enhancing their quality of life",
+      "property": [
+        {
+          "code": "slice",
+          "valueString": "domain"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Education",
+      "definition": "An organisation with the primary focus of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits.",
+      "property": [
+        {
+          "code": "slice",
+          "valueString": "domain"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Justice",
+      "definition": "An organisation with the primary focus of upholding the law, ensuring public safety, and administering justice.",
+      "property": [
+        {
+          "code": "slice",
+          "valueString": "domain"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Administration",
+      "definition": "An organisation responsible for commissioning and coordinating the provision of essential services like education, social services, housing, waste collection, and leisure.",
+      "property": [
+        {
+          "code": "slice",
+          "valueString": "domain"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "display": "Provider authority",
+      "definition": "An organisation that acts as a higher level care provider, organising and structuring the care within its boundaries of influence.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "1"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "display": "Primary care",
+      "definition": "An organisation that provides non-specialized care as a patient's first point of contact for new general health issues. In addition to general practice, this may for example include a provider of general dental, community pharmacy or optometry services.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "1"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "display": "Secondary care",
+      "definition": "An organisation that provides specialised, referral-based care in a hospital setting.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "1"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "display": "Community care",
+      "definition": "An organisation that provides local health care support services e.g. home care.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "1"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "display": "Tertiary care",
+      "definition": "An organisation that provides highly specialized, complex medical treatment and diagnostics, requiring advanced facilities, technology, and expertise. Such organisations usually operate in large hospitals or centers, and their services are accessed via referral from primary or secondary care for conditions like cancer, organ transplants, neurosurgery, and major trauma.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "1"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "display": "Social care and childcare services",
+      "definition": "An organisation that provides support for children and families needing extra help, focusing on safety, well-being, and development, through services like family support, safeguarding, fostering, adoption, and care for disabled children",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "2"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "Social care and adult services",
+      "definition": "An organisation that provides practical help, support, and protection for adults with health or disability needs, enabling independent living through services like home help, equipment, day centers, respite care, and housing support",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "2"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "display": "School",
+      "definition": "An organisation that provides compulsory education for children, generally from age 4/5 to 16. It may also provide further education such as A-levels.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "3"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "display": "Further education",
+      "definition": "An organisation that is dedicated to post-16 learning (A-level, vocational qualifications).  Typically covers skills for work or entry to higher education.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "3"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "display": "Higher education",
+      "definition": "An organisation that provides university-level study (degrees, postgraduate). May include higher level diplomas, focusing on academic or advanced vocational skills for professional qualifications.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "3"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "display": "Criminal justice",
+      "definition": "An organisation with the primary focus of upholding the law, ensuring public safety, and administering justice.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "4"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "display": "Local authority",
+      "definition": "An organisation commissioning and coordinating the provision of essential services like education, social services, housing, waste collection and leisure to the population of a defined geographical area. Service provision by local authorities in the UK differs by location.  Some locations use a single tier system of unitary authorities, others use a two tier system of county councils and district authorities.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "5"
+        },
+        {
+          "code": "slice",
+          "valueString": "Class"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "display": "Region",
+      "definition": "An administrative grouping of health boards for the purpose of cross border delivery of certain types of healthcare services.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "6"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "display": "Health board",
+      "definition": "An organisation responsible for planning and delivering NHS Wales health services to meet the health care needs of the population of its defined geographic area across multiple health sectors.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "6"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "display": "Trust",
+      "definition": "An organisation that may act as a health care providers and provide hospital services, community services and/or other aspects of patient care, such as patient transport facilities. It may also act as commissioner when sub-contracting patient care services to other providers of health care.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "6"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "display": "Special health authority (SHA)",
+      "definition": "An NHS body which provide services on behalf of the National Health Service in the applicable country. Unlike other types of trust, they operate nationally rather than serve a specific geographical area.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "6"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "display": "Support",
+      "definition": "An organisation that supports the administration of healthcare at the level of national programmes and services.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "6"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "display": "Independent provider",
+      "definition": "A private sector organization contracted by the NHS in the provision of healthcare or in the support of the provision of healthcare.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "6"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "display": "GP practice",
+      "definition": "An organisation of one or more general practitioners who provide general medical services to the population as a first point of contact.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "7"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "display": "Dental practice",
+      "definition": "An organisation providing oral healthcare for the public such as check-ups, fillings and surgery.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "7"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "display": "Pharmacy practice",
+      "definition": "An organisation that works directly with patients to dispense medicines, providing guidance and recommendations on which medicines to take and how to take medicines safely. They may also advise on general health and wellbeing.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "7"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "display": "Optometry practice",
+      "definition": "An organisation providing general eye health care for the public such as eye tests, routine eye scans and corrective lenses.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "7"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "Hospital",
+      "definition": "An organisation providing patient treatment with specialized health science and auxiliary healthcare staff and medical equipment.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "8"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "display": "Ambulance service",
+      "definition": "Provider of emergency medical care, stabilization, and transport for sick or injured individuals to a hospital or other defined place of care.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "8"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "display": "District nursing",
+      "definition": "An organisation providing skilled nursing care to patients in their homes and communities, focusing on those who are housebound, have long-term conditions, or need complex care.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "9"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "display": "Health visiting",
+      "definition": "An organisation with workforce of specialist community public health nurses who provide expert advice, support and interventions to families with children in the first years of life, and help empower parents to make decisions that affect their family's future health and wellbeing.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "9"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "display": "Community centre",
+      "definition": "An organisation that provides community-based care facilities with the goal of increasing access to crucial primary and preventative care services.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "9"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "display": "Hospice",
+      "definition": "An organisation providing individual care more suited to the person who is approaching the end of life, in a gentler and calmer atmosphere than a hospital.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "9"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "display": "Burns and plastics centre",
+      "definition": "An organisation offering specialized medical treatment for severe skin injuries, combining acute burn care with plastic surgery for reconstruction, scar management, and rehabilitation.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "10"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "display": "Orthopaedics centre",
+      "definition": "An organisation offering specialized medical care for problems of the musculoskeletal system, from diagnosis to treatment.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "10"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "display": "Cancer centre",
+      "definition": "An organisation offering specialized medical treatment for cancer patients, such as radiotherapy and monitoring patients for progression or recurrence of the disease.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "10"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "display": "Adoption service",
+      "definition": "An organisation that makes arrangements for the adoption of children.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "display": "Care home service",
+      "definition": "An organisation providing accommodation, personal care and support for individuals unable to live independently, offering help with daily tasks (washing, dressing, meals) and supervision in a communal setting, with options for residential (personal) care or nursing care (medical needs).",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        },
+        {
+          "code": "parent",
+          "valueCode": "12"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "display": "Child minding",
+      "definition": "An organisation involved in the provision of childminding services e.g. an agency that registers and quality assures childminders (with and without domestic premises) and providers of �childcare on domestic premises� (CODPs)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "display": "Childrens day care",
+      "definition": "An organisation that delivers childcare in a group setting comprising 5 or more staff (childminders and assistants) in accordance with Ofsted classification.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "display": "Domiciliary support service",
+      "definition": "An organisation that provides professional care services to help people live independently in their own homes through daily visits or live in care. Their role is focused on assisting with household tasks, medication, and other activities that help to maintain quality of life.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "display": "Fostering service",
+      "definition": "An organisation that helps approved foster parents to provide a safe, stable home for children and young people who cannot live with their birth families. Some placements last only a short time, while others continue for much longer, depending on what each child needs.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "display": "Local authority fostering service",
+      "definition": "An organisation that operates within a local authority to help approved foster parents to provides a safe, stable home for children and young people who cannot live with their birth families. Some placements last only a short time, while others continue for much longer, depending on what each child needs.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "display": "Residential special school",
+      "definition": "A special school which accommodates pupils overnight, including a residential maintained or non-maintained special school, or a residential independent school wholly or mainly accommodating children with special educational needs.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "display": "Secure accommodation service",
+      "definition": "An organisation that operates for a local authority to manage the assignment of children to secure accommodation in an approved environment outside of the prison system or police cell e.g. to a young offenders institution",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "11"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "display": "Adult placement service",
+      "definition": "An organisation that helps approved adult placement carers to share their home and time with someone in need. Carers are ordinary people from the local community who offer support and short or long-term care within their home to those who need help due to age, illness or disability.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "12"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "display": "Maintained school",
+      "definition": "A school that is wholly owned and maintained by the applicable local authority.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "13"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "display": "Free school",
+      "definition": "A school that is funded by the government but not run by the local authority.  They are usually run by academy trusts, but they can also be run by universities, charities, businesses and faith groups.  Free schools have much greater freedom in terms of curriculum, school times and term dates, and can decide how to allocate funds.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "13"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "Independent school",
+      "definition": "A school that is not funded or controlled by central government and local authority; instead they are funded by way of tuition fees, donations and investments. Independent schools are also known as private schools or public schools.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "13"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "display": "Pupil referral unit",
+      "definition": "An organisation that teaches children who aren't able to attend school and may not otherwise receive suitable education. This could be because they have a short- or long-term illness, have been excluded or are a new starter waiting for a mainstream school place.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "13"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "display": "College",
+      "definition": "An institution in which students can study beyond the age of compulsory education for academic and vocational qualifications that are not undergraduate or graduate degrees.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "14"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "display": "Independent specialist college",
+      "definition": "An institution that provides post-16 education to young people with learning difficulties and/ or disabilities. Most students at specialist colleges have an Education Health and Care Plan (EHCP), with their needs unable to be met at a general further education college.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "14"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "display": "53",
+      "definition": "An institution in which students can study for undergraduate and graduate degrees",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "15"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "display": "Sexual assault referral centre",
+      "definition": "An organisation providing a safe space and dedicated care for anyone who has been raped, sexually assaulted or abused. They offer a range of services, including crisis care, medical and forensic examinations, emergency contraception and testing for sexually transmitted infections.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "16"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "display": "Constabulary",
+      "definition": "An organized body of police officers responsible for a country, district, or town.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "16"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "display": "Court",
+      "definition": "A judicial body that handles cases where someone is accused of breaking the law (a crime), determining guilt or innocence and imposing punishments like fines or imprisonment",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "16"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "display": "Prison",
+      "definition": "An organisation reponsible for the legal detention of persons in a secure facility as a punishment for a crime they have committed or while awaiting trial.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "16"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "display": "Secure children's home",
+      "definition": "An organisation providing a locked children's home environment that restricts the liberty of the young persons housed there.  It is a type of youth detention accommodation and/or secure welfare accommodation that caters for children and young people between the ages of 10-17",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "16"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "59",
+      "display": "Secure training centre",
+      "definition": "An organisation providing a type of youth detention accommodation that caters for children and young people between the ages of 10-17 who are in custody.  Secure training centres are usually smaller than young offender institutions and provide education, training and routine.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "16"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "60",
+      "display": "Young offenders institution",
+      "definition": "An organisation reponsible for the legal detention of youth offenders in a secure facility as a punishment for a crime they have committed or while awaiting trial, focusing on rehabilitation through education and skill development.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "16"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "61",
+      "display": "Immigration removal centre",
+      "definition": "An organisation providing a place where people are held for reasons relating to their immigration status. This could be: whilst immigration requests are being processed. whilst appeals against removal are being processed or. pending deportation after having had asylum applications refused.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "16"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "62",
+      "display": "Unitary authority",
+      "definition": "An organisation commissioning and coordinating the provision of essential services like education, social services, housing, waste collection, and leisure.  Unitary authorities provide a single-tier local government approach, combining the functions performed by district authorities and county councils.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "17"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "63",
+      "display": "County council",
+      "definition": "An organisation providing strategic, county-wide services as part of a two-tier local government system in England.  Services include education, social services (adult & children's), major roads, waste disposal, libraries, public transport.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "17"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "64",
+      "display": "District council",
+      "definition": "An organisation managing more localized services at district level within a county as part of a two-tier local government system in England.  Services include housing, local planning, refuse collection, environmental health, leisure facilities, parking.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "17"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "65",
+      "display": "City council",
+      "definition": "An organisation managing more localized services at city level within a county as part of a two-tier local government system in England.  Services include housing, local planning, refuse collection, environmental health, leisure facilities, parking.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "17"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "66",
+      "display": "Town or parish council",
+      "definition": "An organisation with elected members which operates at a level below district, borough and city councils or unitary authorities.  They represents the needs of their local population to the applicable level of local government and can help on a number of local issues such as allotments, community centres, play areas, grants and local planning consultations.  They also have powers to issue local fines e.g. for litter, graffiti, fly posting and dog offences.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "17"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "67",
+      "display": "Metropolitan borough council",
+      "definition": "An organisation acting as a single tier (unitary) council for the delivery of all services for a defined area within one of the metropolitan counties of England.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "17"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "68",
+      "display": "London borough council",
+      "definition": "An organisation acting as a single tier (unitary) council for the delivery of all services for a defined area within Greater London.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "17"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    },
+    {
+      "code": "69",
+      "display": "Combined authority",
+      "definition": "An organisation representing a collaboration of two or more councils within an area to take collective decisions across country boundaries in England.  The combined authority has a directly elected mayor and has a greater devolution of powers from central government.",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "17"
+        },
+        {
+          "code": "slice",
+          "valueString": "SubClass"
+        }
+      ]
+    }
+  ]
+}

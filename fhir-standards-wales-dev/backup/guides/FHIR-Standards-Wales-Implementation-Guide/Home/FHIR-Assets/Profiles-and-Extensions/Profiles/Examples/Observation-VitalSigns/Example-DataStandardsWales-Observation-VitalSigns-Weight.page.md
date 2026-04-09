@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-### Example Observation - Weight
+## Example Observation - Vital Signs - Weight
 
 <div class="tab-wrap">
   <ul class="tab-head">

@@ -1,6 +1,6 @@
 {
   "name": "fhir.r4.wales",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "NHS Wales FHIR Profiles R4 Package",
   "author": "NHS Wales",
   "fhirVersions": [

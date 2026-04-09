@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 The [MedicationStatement](https://www.hl7.org/fhir/r4/medicationstatement.html) resource is a record of a medication that is being consumed by a patient..
 

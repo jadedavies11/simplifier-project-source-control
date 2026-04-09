@@ -1,5 +1,3 @@
-<div class="warning"><span class="ImplementWarn"></span></div>
-
 ## {{page-title}}
 An extension to carry a plan, order or recommendation fulfilled in whole or in part by this immunisation.
 
