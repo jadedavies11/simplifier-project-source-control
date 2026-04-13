@@ -1,5 +1,5 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
-  <id value="Example-DSW-DocumentReference-MisfiledNotEventBased" />
+  <id value="Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased" />
   <meta>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
   </meta>
@@ -68,9 +68,9 @@
   </type>
   <category>
     <coding>
-      <system value="http://snomed.info/sct" />
-      <code value="826651000000100" />
-      <display value="Notification and legal document" />
+      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory" />
+      <code value="notification-and-legal-documents" />
+      <display value="Notification &amp; Legal Documents" />
     </coding>
   </category>
   <subject>
@@ -103,11 +103,14 @@
   <content>
     <attachment>
       <contentType value="application/pdf" />
-      <language value="eng" />
+      <language value="en" />
       <url value="https://www.example.com/documentref1234" />
     </attachment>
   </content>
   <context>
+    <encounter>
+      <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation" />
+    </encounter>
     <period>
       <start value="2025-02-20T00:00:00+00:00" />
       <end value="2026-02-19T23:59:00+00:00" />

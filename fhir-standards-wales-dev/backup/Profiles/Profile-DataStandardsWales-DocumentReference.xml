@@ -2,14 +2,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-DocumentReference" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
-  <version value="0.1.0" />
+  <version value="0.0.1" />
   <name value="DataStandardsWalesDocumentReference" />
   <title value="Data Standards Wales Document Reference" />
   <status value="draft" />
-  <experimental value="false" />
-  <date value="2026-02-26" />
+  <experimental value="true" />
+  <date value="2025-08-18" />
   <publisher value="NHS Wales" />
-  <copyright value="2026 NHS Wales" />
+  <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -46,7 +46,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
       </type>
       <mustSupport value="true" />
       <isModifier value="false" />
@@ -56,7 +56,7 @@
       <sliceName value="attesterR5" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
       </type>
       <mustSupport value="true" />
       <isModifier value="false" />
@@ -130,7 +130,6 @@
     <element id="DocumentReference.type">
       <path value="DocumentReference.type" />
       <short value="Kind of document" />
-      <min value="1" />
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
@@ -139,7 +138,6 @@
     </element>
     <element id="DocumentReference.category">
       <path value="DocumentReference.category" />
-      <min value="1" />
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
@@ -204,16 +202,6 @@
       <path value="DocumentReference.securityLabel" />
       <mustSupport value="true" />
     </element>
-    <element id="DocumentReference.content.attachment.language">
-      <path value="DocumentReference.content.attachment.language" />
-      <short value="Human language of the content" />
-      <definition value="The human language of the content. Within NHS Wales, the three character ISO 639-3 code should be used where possible e.g. &quot;eng&quot; for English, &quot;cym&quot; for Welsh." />
-      <requirements value="Users need to be able to choose between the languages in a set of attachments. ISO 639-3 is a subset of the BCP 47 standard." />
-    </element>
-    <element id="DocumentReference.content.format">
-      <path value="DocumentReference.content.format" />
-      <definition value="An identifier of the document encoding, structure, and template that the document conforms to beyond the base format indicated in the mimeType. This optional field is not part of the formal metadata standard for document submission in Wales.  It should not be confused with mime type which is stored as content.attachment.contentType." />
-    </element>
     <element id="DocumentReference.context.encounter">
       <path value="DocumentReference.context.encounter" />
       <type>
@@ -227,7 +215,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PracticeSettingCode" />
+        <valueSet value="https://simplifier.net/hl7-fhir--uk-core-r4-stu2-sequence2/ukcore-caresettingtype" />
       </binding>
     </element>
     <element id="DocumentReference.context.sourcePatientInfo">

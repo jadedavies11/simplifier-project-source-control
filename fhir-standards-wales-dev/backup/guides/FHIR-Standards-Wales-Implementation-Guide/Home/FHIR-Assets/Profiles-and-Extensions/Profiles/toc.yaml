@@ -84,6 +84,10 @@
   filename: DataStandardsWales-ServiceRequest.page.md
 - name: DataStandardsWales-Specimen
   filename: DataStandardsWales-Specimen.page.md
+- name: Examples
+  filename: Examples
+- name: ExemplarProfilePage
+  filename: ExemplarProfilePage.page.md
 
 
 

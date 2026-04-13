@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Questionnaire" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire" />
-  <version value="1.0.0" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesQuestionnaire" />
   <title value="Data Standards Wales Questionnaire" />
-  <status value="active" />
-  <date value="2026-02-26" />
+  <status value="draft" />
+  <date value="2025-01-01" />
   <publisher value="Data Standards Wales" />
   <contact>
     <name value="Data Standards Wales" />
@@ -17,29 +17,11 @@
     </telecom>
   </contact>
   <purpose value="This profile is used to organise a collection of questions intended to solicit information from patients, providers or other individuals involved in the healthcare domain." />
-  <copyright value="2026 NHS Wales" />
+  <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
   <type value="Questionnaire" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Questionnaire" />
   <derivation value="constraint" />
-  <differential>
-    <element id="Questionnaire.name">
-      <path value="Questionnaire.name" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Questionnaire.title">
-      <path value="Questionnaire.title" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Questionnaire.description">
-      <path value="Questionnaire.description" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Questionnaire.purpose">
-      <path value="Questionnaire.purpose" />
-      <mustSupport value="true" />
-    </element>
-  </differential>
 </StructureDefinition>

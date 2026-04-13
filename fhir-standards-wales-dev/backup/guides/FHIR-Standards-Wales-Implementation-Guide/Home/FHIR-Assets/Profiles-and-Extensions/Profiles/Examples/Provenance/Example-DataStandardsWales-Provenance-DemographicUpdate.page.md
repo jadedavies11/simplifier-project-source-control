@@ -1,4 +1,6 @@
-## Example Provenance - Demographics update as result of an HL7v2 patient demographic update
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example Provenance - Demographics Update
 
 <div class="tab-wrap">
   <ul class="tab-head">

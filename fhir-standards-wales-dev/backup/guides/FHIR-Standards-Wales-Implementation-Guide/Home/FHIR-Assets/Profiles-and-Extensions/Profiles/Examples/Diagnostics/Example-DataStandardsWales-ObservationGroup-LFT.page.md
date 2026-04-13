@@ -1,3 +1,5 @@
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
 ## Example Observation Group - Pathology Liver Function Test
 
 <div class="tab-wrap">

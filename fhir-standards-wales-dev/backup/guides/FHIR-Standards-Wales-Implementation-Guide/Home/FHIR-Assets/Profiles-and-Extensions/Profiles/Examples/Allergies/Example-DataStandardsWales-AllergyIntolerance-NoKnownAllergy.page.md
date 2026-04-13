@@ -1,4 +1,6 @@
-## Example AllergyIntolerance - No known allergies
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example AllergyIntolerance - no known allergies
 This shows an example recording a patient that is known to have no allergies.
 
 <div class="tab-wrap">
@@ -21,19 +23,19 @@ This shows an example recording a patient that is known to have no allergies.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
+      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
+      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
+      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
+      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:List/Example-DataStandardsWales-List-Allergies-NoKnownAllergy}}
+      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
     </div>  
   </div>
 </div>

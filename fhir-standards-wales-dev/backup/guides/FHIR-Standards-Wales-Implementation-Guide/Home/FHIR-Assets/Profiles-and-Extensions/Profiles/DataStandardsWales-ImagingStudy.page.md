@@ -1,3 +1,5 @@
+<div class="warning"><span class="ExperiWarn"></span></div>
+
 ## {{page-title}}
 The [ImagingStudy](https://hl7.org/fhir/R4/imagingstudy.html) resource provides information on a DICOM imaging study, and the series and imaging objects in that study. It also provides information on how to retrieve that information (in a native DICOM format, or in a rendered format, such as JPEG). ImagingStudy is used to make available information about all parts of a single DICOM study.
 

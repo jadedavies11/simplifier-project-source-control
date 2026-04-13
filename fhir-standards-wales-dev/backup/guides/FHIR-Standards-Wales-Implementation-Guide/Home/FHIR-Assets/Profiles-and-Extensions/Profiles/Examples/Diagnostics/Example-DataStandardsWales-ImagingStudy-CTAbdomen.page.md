@@ -1,4 +1,6 @@
-## Example Imaging Study - Radiology CT Abdomen
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example Imaging Study - Radiology DICOM Endpoint
 
 <div class="tab-wrap">
   <ul class="tab-head">

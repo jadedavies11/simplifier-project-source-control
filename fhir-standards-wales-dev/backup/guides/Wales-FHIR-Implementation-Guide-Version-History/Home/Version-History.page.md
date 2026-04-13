@@ -18,20 +18,6 @@ Implementation Guide version history is provided in the table below.
 	</thead>
 	<tbody>
 		<tr>
-			<td scope="row">26/03/2026</td>
-			<td>2.5.0 STU2</td>
-			<td>4.0.1</td>
-			<td>2.0.1</td>
-			<td>Minor release to move several resources to v1.0.0. Changes to the draft DocumentReference made available for review to move it to v1.0.0 in next release. MessageDefinition and MessageHeader profiles have also been added to support UEC.</td>
-			<td>
-				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=2.5.0">Home Page</a>
-			</td>
-			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=2.5.0">Release Notes</a></td>
-			<td>
-				<a href="https://simplifier.net/packages/fhir.r4.wales/2.5.0">fhir.r4.wales 2.5.0</a>
-			</td>
-		</tr>
-		<tr>
 			<td scope="row">20/11/2025</td>
 			<td>2.4.0 STU2</td>
 			<td>4.0.1</td>
@@ -45,6 +31,7 @@ Implementation Guide version history is provided in the table below.
 				<a href="https://simplifier.net/packages/fhir.r4.wales/2.4.0">fhir.r4.wales 2.4.0</a>
 			</td>
 		</tr>
+		<tr>
 		<tr>
 			<td scope="row">29/09/2025</td>
 			<td>2.3.0 STU2</td>

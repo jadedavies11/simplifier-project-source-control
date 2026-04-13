@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="PASReferralSource"/>
 	<url value="https://fhir.nhs.wales/ValueSet/PASReferralSource"/>
-	<version value="1.0.0"/>
+	<version value="0.0.1"/>
 	<name value="PASReferralSource"/>
 	<title value="PAS Referral Source"/>
-	<status value="active"/>
-	<experimental value="false"/>
-	<date value="2026-02-26"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2025-10-16"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -17,7 +17,7 @@
 		</telecom>
 	</contact>
 	<description value="This Value Set is based on UKCore Source Of Service Request with additional codes from PAS Referral Source Code System.  The PAS Referral Source Code System is owned and managed by Digital Health and Care Wales WPAS. These are not a data standard and this snapshot is for example use only."/>
-	<copyright value="2026 NHS Wales."/>
+	<copyright value="2025 NHS Wales."/>
 	<compose>
 		<include>
 			<system value="https://fhir.nhs.wales/CodeSystem/WPASReferralSource"/>
