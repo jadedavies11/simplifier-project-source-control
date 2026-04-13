@@ -1,4 +1,6 @@
-## Example AllergyIntolerance - Transfer degraded allergy (aspirin and ibuprofen)
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example AllergyIntolerance - Transfer Degraded 'Asprin Ibuprofen'
 This shows an example medication allergy.
 
 <div class="tab-wrap">
@@ -21,19 +23,19 @@ This shows an example medication allergy.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{tree:allergies-example-datastandardswales-allergyintolerance-degradedaspirin}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{table:allergies-example-datastandardswales-allergyintolerance-degradedaspirin}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{xml:allergies-example-datastandardswales-allergyintolerance-degradedaspirin}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{json:allergies-example-datastandardswales-allergyintolerance-degradedaspirin}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin}
+      {{narrative:allergies-example-datastandardswales-allergyintolerance-degradedaspirin}}
     </div>  
   </div>
 </div>

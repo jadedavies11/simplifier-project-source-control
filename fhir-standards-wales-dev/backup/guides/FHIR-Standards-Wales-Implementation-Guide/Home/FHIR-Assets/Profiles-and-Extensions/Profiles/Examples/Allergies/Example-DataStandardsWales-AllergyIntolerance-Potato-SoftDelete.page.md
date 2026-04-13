@@ -1,4 +1,6 @@
-## Example AllergyIntolerance - Deleted allergy (potato)
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example AllergyIntolerance - Deleted
 This shows an example of a deleted allergy. The status is set to ```entered in error``` and the ```verification status``` has been removed.
 
 <div class="tab-wrap">
@@ -21,19 +23,19 @@ This shows an example of a deleted allergy. The status is set to ```entered in e
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete}}
+      {{tree:allergies-example-datastandardswales-allergyintolerance-potato-softdelete}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete}}
+      {{table:allergies-example-datastandardswales-allergyintolerance-potato-softdelete}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete}}
+      {{xml:allergies-example-datastandardswales-allergyintolerance-potato-softdelete}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete}}
+      {{json:allergies-example-datastandardswales-allergyintolerance-potato-softdelete}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:AllergyIntolerance/Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete}}
+      {{narrative:allergies-example-datastandardswales-allergyintolerance-potato-softdelete}}
     </div>  
   </div>
 </div>

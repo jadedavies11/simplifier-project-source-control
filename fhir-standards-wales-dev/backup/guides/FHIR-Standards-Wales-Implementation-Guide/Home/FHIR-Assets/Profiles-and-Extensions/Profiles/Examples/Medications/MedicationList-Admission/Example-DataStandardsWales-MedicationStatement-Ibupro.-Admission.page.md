@@ -1,4 +1,6 @@
-## Example MedicationStatement - Patient reported - Ibuprofen
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example MedicationStatement - Ibuprofen
 This shows an example medication statement as recorded on admission. This medication has been self-reported by the patient.
 
 <div class="tab-wrap">

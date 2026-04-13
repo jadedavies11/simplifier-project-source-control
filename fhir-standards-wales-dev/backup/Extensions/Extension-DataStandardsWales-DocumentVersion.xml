@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DocumentVersion" />
-  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion" />
-  <version value="0.1.0" />
+  <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+  <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDocumentVersion" />
   <title value="Extension Data Standards Wales Document Version" />
   <status value="draft" />
-  <experimental value="false" />
-  <date value="2026-02-26" />
+  <experimental value="true" />
+  <date value="2025-09-23" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -18,7 +18,7 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <copyright value="2026 NHS Wales" />
+  <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -41,7 +41,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version" />
+      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

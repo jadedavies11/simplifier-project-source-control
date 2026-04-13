@@ -1,4 +1,6 @@
-## Example AllergyIntolerance - Food (potato)
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example AllergyIntolerance - Potato
 This shows an example food allergy.
 
 <div class="tab-wrap">

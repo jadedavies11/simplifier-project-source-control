@@ -1,4 +1,6 @@
-## Example MedicationStatement - Discharge - Enbrel
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example MedicationStatement - Enbrel
 This shows an example medication statement as recorded on discharge.
 
 <div class="tab-wrap">

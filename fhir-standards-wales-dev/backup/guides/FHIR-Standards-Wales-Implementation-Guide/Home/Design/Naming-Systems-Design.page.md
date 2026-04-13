@@ -1,3 +1,5 @@
+<div class="warning"><span class="ImplementWarn"></span></div>
+
 ## {{page-title}}
 
 ### System Identifier Namespaces for Welsh Patient Identifiers

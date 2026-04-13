@@ -1,4 +1,6 @@
-## Example Practitioner - Sandra Huggins (Prescribing Nurse)
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example Practitioner - Sandra Huggins (PrescribingNurse)
 
 <div class="tab-wrap">
   <ul class="tab-head">

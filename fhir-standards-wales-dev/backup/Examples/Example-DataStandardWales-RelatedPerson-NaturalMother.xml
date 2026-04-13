@@ -1,4 +1,4 @@
-<RelatedPerson xmlns="http://hl7.org/fhir">
+<RelatedPerson>
 	<id value="Example-DataStandardsWales-RelatedPerson-NaturalMother"/>
 		<meta>
 			<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />

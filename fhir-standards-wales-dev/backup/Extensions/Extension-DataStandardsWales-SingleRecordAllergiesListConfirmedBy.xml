@@ -2,12 +2,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DSW-SingleRecordAllergiesListConfirmedBy" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy" />
-  <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesSingleRecordAllergiesListConfirmedBy" />
   <title value="Extension Data Standards Wales Single Record Allergies List Confirmed By" />
-  <status value="active" />
-  <experimental value="false" />
-  <date value="2026-03-09" />
+  <status value="draft" />
+  <date value="2024-10-01" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="Data Standards" />
@@ -18,7 +16,7 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <copyright value="2026 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -35,10 +33,6 @@
       <short value="A reference to the practitioner who confirmed the allergy list" />
       <definition value="A reference to the practitioner who confirmed the allergy list" />
       <max value="1" />
-    </element>
-    <element id="Extension.extension">
-      <path value="Extension.extension" />
-      <max value="0" />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />

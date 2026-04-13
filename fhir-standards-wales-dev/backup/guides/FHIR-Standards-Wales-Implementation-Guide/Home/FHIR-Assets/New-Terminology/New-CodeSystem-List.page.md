@@ -1,0 +1,214 @@
+### {{page-title}}
+
+The following CodeSystems have been defined for this implementation guide.
+
+<style>
+  th, td {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+</style>
+
+<table class="table table-striped" style="table-layout: fixed;">
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th scope="col">CodeSystem</th>
+      <th scope="col">ValueSet</th>
+      <th scope="col">Bound to Profile</th>
+      <th scope="col">Bound to element</th>
+      <th scope="col">Additional information</th>
+    </tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-DocumentAttribute, text: DataStandardsWales-DocumentAttribute}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-DocumentAttribute, text: DataStandardsWales-DocumentAttribute}}</td>
+		<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+		<td>DocumentReference.extension:documentAttribute</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-DocumentCategory, text: DataStandardsWales-DocumentCategory}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-DocumentCategory, text: DataStandardsWales-DocumentCategory}}</td>
+		<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+		<td>DocumentReference.category</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-DocumentDigitalStatus, text: DataStandardsWales-DocumentDigitalStatus}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus, text: DataStandardsWales-DocumentDigitalStatus}}</td>
+		<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+		<td>DocumentReference.extension:digitalStatus</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-DocumentErrorAction, text: DataStandardsWales-DocumentErrorAction}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-DocumentErrorAction, text: DataStandardsWales-DocumentErrorAction}}</td>
+		<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+		<td>DocumentReference.extension:errorAction</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-DocumentErrorStatus, text: DataStandardsWales-DocumentErrorStatus}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-DocumentErrorStatus, text: DataStandardsWales-DocumentErrorStatus}}</td>
+		<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+		<td>DocumentReference.extension:errorStatus</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-GenderIdentity, text: DataStandardsWales-GenderIdentity}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text: DataStandardsWales-GenderIdentity}}</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td>Patient.gender</td>
+		<td>Used for mapping</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-MainSpecialty, text: DataStandardsWales-MainSpecialty}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-MainSpecialty, text: DataStandardsWales-MainSpecialty}}</td>
+		<td></td>
+		<td></td>
+		<td>Not bound to profile</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-MaritalStatus, text: DataStandardsWales-MaritalStatus}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-MaritalStatus, text: DataStandardsWales-MaritalStatus}}</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td>Patient.maritalStatus</td>
+		<td>Used for mapping</td>
+	</tr>
+		<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-PatientRecordType, text: DataStandardsWales-PatientRecordType}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-PatientRecordType, text: DataStandardsWales-PatientRecordType}}</td>
+		<td></td>
+		<td></td>
+		<td>Not bound to profile</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
+		<td>Observation.extension:recordingSetting</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
+		<td>Observation.extension:recordingSetting</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
+		<td>Observation.extension:recordingSetting</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text: DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
+		<td>Observation.extension:recordingSetting</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-Sex, text: DataStandardsWales-Sex}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-Sex, text: DataStandardsWales-Sex}}</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td>Patient.extension:birthSex</td>
+		<td>Used for mapping</td>
+	</tr>
+		<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-Title, text: DataStandardsWales-Title}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-Title, text: DataStandardsWales-Title}}</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td>Patient.name.prefix</td>
+		<td></td>
+	</tr>
+		<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-UEC-ActivityType, text: DataStandardsWales-UEC-ActivityType}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-EncounterType, text: DataStandardsWales-EncounterType}}</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td>Encounter.type</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-UEC-AttendanceCategory, text: DataStandardsWales-UEC-AttendanceCategory}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceCategory, text: DataStandardsWales-UEC-AttendanceCategory}}</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td>Encounter.extension:uecAttendanceCategory</td>
+		<td></td>
+	</tr>
+		<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism, text: DataStandardsWales-UEC-CareConsultationMechanism}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-EncounterType, text: DataStandardsWales-EncounterType}}</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td>Encounter.type</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent, text: DataStandardsWales-UEC-MessageEvent}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-MessageEvent, text: DataStandardsWales-MessageEvent}}</td>
+		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
+		<td>MessageDefinition.event</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent, text: DataStandardsWales-UEC-MessageHeader}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-MessageEvent, text: DataStandardsWales-MessageEvent}}</td>
+		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
+		<td>MessageHeader.event</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-MessageEvents, text: MessageEvents}}</td>
+		<td>{{pagelink:ValueSet-MessageEvents, text: MessageEvents}}</td>
+		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
+		<td>MessageDefinition.event</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-MessageEvents, text: MessageEvents}}</td>
+		<td>{{pagelink:ValueSet-MessageEvents, text: MessageEvents}}</td>
+		<td>{{pagelink:DataStandardsWales-MessageHeader}}</td>
+		<td>MessageHeader.event</td>
+		<td>Embedded in {{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-WPASAdmitSource, text: WPASAdmitSource}}</td>
+		<td>{{pagelink:ValueSet-PASAdmitSource, text: PASAdmitSource}}</td>
+		<td></td>
+		<td></td>
+		<td>For CDR/ NHS App use only and not bound to a profile in the IG</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-WPASEventType, text: WPASEventType}}</td>
+		<td>{{pagelink:ValueSet-PASEventType, text: PASEventType}}</td>
+		<td></td>
+		<td></td>
+		<td>For CDR/ NHS App use only and not bound to a profile in the IG</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-WPASReferralSource, text: WPASReferralSource}}</td>
+		<td>{{pagelink:ValueSet-PASReferralSource, text: PASReferralSource}}</td>
+		<td></td>
+		<td></td>
+		<td>For CDR/ NHS App use only and not bound to a profile in the IG</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:CodeSystem-WPASSourceAdmission, text: WPASSourceAdmission}}</td>
+		<td>{{pagelink:ValueSet-PASSourceAdmission, text: PASSourceAdmission}}</td>
+		<td></td>
+		<td></td>
+		<td>For CDR/ NHS App use only and not bound to a profile in the IG</td>
+	</tr>
+	</tbody>
+</table>
