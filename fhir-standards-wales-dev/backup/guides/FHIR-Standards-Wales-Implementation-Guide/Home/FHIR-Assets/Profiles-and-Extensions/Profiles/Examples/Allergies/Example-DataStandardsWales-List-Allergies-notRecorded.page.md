@@ -1,12 +1,10 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example List - Empty Allergies List
+## Example Allergy List - Empty list
 
 This example references the following example resources:
 
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Practitioner - Dr Dhiren Patel }}
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
 
 
 <div class="tab-wrap">
@@ -29,19 +27,19 @@ This example references the following example resources:
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:fhir-standards-wales/example-datastandardswales-list-allergies-notrecorded}}
+      {{tree:List/Example-DataStandardsWales-List-Allergies-NotRecorded}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:fhir-standards-wales/example-datastandardswales-list-allergies-notrecorded}}
+      {{table:List/Example-DataStandardsWales-List-Allergies-NotRecorded}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:fhir-standards-wales/example-datastandardswales-list-allergies-notrecorded}}
+      {{xml:List/Example-DataStandardsWales-List-Allergies-NotRecorded}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:fhir-standards-wales/example-datastandardswales-list-allergies-notrecorded}}
+      {{json:List/Example-DataStandardsWales-List-Allergies-NotRecorded}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:fhir-standards-wales/example-datastandardswales-list-allergies-notrecorded}}
+      {{narrative:List/Example-DataStandardsWales-List-Allergies-NotRecorded}}
     </div>  
   </div>
 </div>

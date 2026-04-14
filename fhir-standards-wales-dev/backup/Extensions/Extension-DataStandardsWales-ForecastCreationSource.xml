@@ -2,11 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-ForecastCreationSource" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecastCreationSource" />
-  <version value="0.1.0" />
+  <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesForecastCreationSource" />
   <title value="Extension Data Standards Wales Forecast Creation Source" />
-  <status value="draft" />
-  <date value="2025-04-28" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2026-03-09" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -19,7 +20,7 @@
   </contact>
   <description value="An extension to capture manually entered recommendations by the healthcare professional." />
   <purpose value="This extends the resource to capture manually entered recommendations by the healthcare professional." />
-  <copyright value="2025 NHS Wales" />
+  <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

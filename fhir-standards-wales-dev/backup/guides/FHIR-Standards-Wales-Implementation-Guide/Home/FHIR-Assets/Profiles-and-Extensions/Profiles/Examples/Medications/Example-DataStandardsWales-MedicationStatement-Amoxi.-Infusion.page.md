@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-## Example MedicationStatement - Amoxicillin Infusion
+## Example MedicationStatement - Amoxicillin infusion
 This shows an example medication statement, which references the following example resources:
 * Subject, source and context:
   * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
