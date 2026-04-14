@@ -1,2 +1,6 @@
 - name: Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI
   filename: Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI.page.md
+- name: Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
+  filename: Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI.page.md
+- name: Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI
+  filename: Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI.page.md

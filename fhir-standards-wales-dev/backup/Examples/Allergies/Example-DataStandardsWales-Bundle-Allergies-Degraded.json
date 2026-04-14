@@ -19,7 +19,7 @@
   ],
   "entry": [
     {
-      "fullUrl": "http://[host]/Patient/Example-DataStandardsWales-Patient-AliceJones",
+      "fullUrl": "http://examplehostname/Patient/Example-DataStandardsWales-Patient-AliceJones",
       "resource": {
         "resourceType": "Patient",
         "id": "Example-DataStandardsWales-Patient-AliceJones",
@@ -34,7 +34,7 @@
             "valueCode": "F"
           },
           {
-            "url": "https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory",
+            "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory",
             "valueCodeableConcept": {
               "coding": [
                 {
@@ -51,8 +51,8 @@
               "coding": [
                 {
                   "system": "http://snomed.info/sct",
-                  "code": "344151000000101",
-                  "display": "Follower of Church of England"
+                  "code": "160557009",
+                  "display": "Baptist, follower of religion"
                 }
               ]
             }

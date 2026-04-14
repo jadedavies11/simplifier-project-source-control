@@ -1,6 +1,6 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+<div class="warning"><span class="DevWarn"></span></div>
 
-## Example Message Bundle - Submit Clinician (Logical referencing)
+## Example Message Bundle - Submit Clinician (with Logical Referencing)
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -32,9 +32,6 @@
     </div>
     <div id="tabjson" class="tabcontent">
       {{json:Example-DataStandardsWales-Bundle-SubmitClinician-Logical}}
-    </div>       
-    <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Bundle-SubmitClinician-Logical}}
-    </div>  
+    </div>
   </div>
 </div>

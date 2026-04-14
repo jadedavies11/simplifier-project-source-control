@@ -22,6 +22,8 @@
     * [Revocation Workflow](#revocation-workflow)
 </div>
 
+*The scope of this guidance is the storage of metadata for documents related to the care of individual patients as part of their individual health care records.*
+
 ## Data Model Overview
 The metadata associated with patient care documents will be stored as a dedicated DocumentReference resource and, where appropriate, as a linked Encounter resource specific to the documented event. Many aspects of the metadata will be achieved through referencing of pre-existing administrative entities such as Device, Organisation and PractitionerRole. The creation or update of a DocumentReference instance will be associated with one or more Provenance resource instances, targeting the specific version of the DocumentReference instance. 
 
@@ -40,12 +42,16 @@ The FHIR data model consists of the following resources:
 {{render:Diagrams-Document-metadata-maximal-logical-model}}
 <br />
 
+Note that where alternative resource types may fulfil the particular role, the diagram illustrates the one that is preferred or most commonly used. At the current phase the document roles of author, authenticator, committer and senior responsible clinician can all be fulfilled by alternative resource types as specified in the applicable resource profile.
+
 ## FHIR Resources
 ### Device
 The source system that provided the document details will be represented as a Device resource instance.
 
 ### DocumentReference
-Each DocumentReference resource instance represents a distinct document. In addition to information about the document, the DocumentReference provides a URL to the location from which the document can be retrieved. For those familiar with the Welsh Care Records Service, the DocumentReference instance represents the document supersession set.
+A DocumentReference resource is the equivalent of a Welsh Care Records Service supersession set. As such it can have many versions with the same wcrsSupersessionSetId identifier, but each with a different wcrsDocumentId identifier. Earlier versions can be retrieved as a version history.  As part of the document  metadata, the document reference contains “attachment” details which should include at least the applicable mime-type and a pointer to the URL where the document is stored (or the data binary prior to document storage).
+
+A DocumentReference resource may be related to other distinct DocumentReference resources, for example where one document is an approval slip that “signs” another document, or where a document presenting a clinical summary at a consultation “replaces” the clinical summary document from the prior consultation.
 
 ### Encounter
 The documented event may be represented as an Encounter resource instance. In this case applications may access the referenced Encounter to retrieve the event details including document metadata such as event site and event organisation.

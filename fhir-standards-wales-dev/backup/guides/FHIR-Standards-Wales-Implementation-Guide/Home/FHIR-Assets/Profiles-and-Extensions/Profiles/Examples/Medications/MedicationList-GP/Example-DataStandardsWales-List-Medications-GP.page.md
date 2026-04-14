@@ -1,20 +1,18 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+## Example Medications List - GP record
 
-## Example Medications List - GP Record
-
-This examples medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
+This example medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Patient - Peter Piper}}
+  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
 * Medication statements:
-  * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Medications/MedicationList-GP/Example-DataStandardsWales-MedicationStatement-Bendro.-GP.page.md, text:Bendroflumethiazide}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP, text:Amoxicillin}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorvastatin-GP, text:Atorvastatin}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisoprolol-GP, text:Bisoprolol}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-DurogesicDTrans-GP, text:Durogesic DTrans}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydrocortisone-GP, text:Hydrocortisone}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Latanoprost-GP, text:Latanoprost}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedipress-GP, text:Nifedipress}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipril-GP, text:Ramipril}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP, text:Example MedicationStatement - GP - Amoxicilin}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorvastatin-GP, text:Example MedicationStatement - GP - Atorvastatin}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-GP, text:Example MedicationStatement - GP - Bendroflumethiazide}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisoprolol-GP, text:Example MedicationStatement - GP - Bisoprolol}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-DurogesicDTrans-GP, text:Example MedicationStatement - GP - Durogesic DTrans}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydrocortisone-GP, text:Example MedicationStatement - GP - Hydrocortisone}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Latanoprost-GP, text:Example MedicationStatement - GP - Latanoprost}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedipress-GP, text:Example MedicationStatement - GP - Nifedipress}}
+  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipril-GP, text:Example MedicationStatement - GP - Ramipril}}
 
 Below is an example of the above medication statements combined into a medication list:
 

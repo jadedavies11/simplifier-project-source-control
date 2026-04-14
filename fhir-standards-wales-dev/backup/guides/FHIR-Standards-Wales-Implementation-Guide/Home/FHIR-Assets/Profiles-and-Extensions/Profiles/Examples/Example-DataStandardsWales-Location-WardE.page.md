@@ -1,5 +1,3 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
 ## Example Location - Ward E (NPT)
 
 <div class="tab-wrap">

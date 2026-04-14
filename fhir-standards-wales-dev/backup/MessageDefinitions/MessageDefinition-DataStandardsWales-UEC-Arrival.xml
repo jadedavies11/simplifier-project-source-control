@@ -2,10 +2,12 @@
 <MessageDefinition xmlns="http://hl7.org/fhir">
 	<id value="MessageDefinition-DataStandardsWales-UEC-Arrival"/>
 	<url value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-UEC-Arrival"/>
+	<version value="0.1.0" />
 	<name value="MessageDefinitionDataStandardsWalesUECArrival"/>
 	<title value="Message Definition Data Standards Wales UEC Arrival"/>
 	<status value="draft"/>
-	<date value="2025-12-18"/>
+	<date value="2025-12-19"/>
+	<description value="Message to record patient arrival at a UEC facility."/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -15,7 +17,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="Message to record patient arrival at a UEC facility."/>
+	<copyright value="2025 NHS Wales." />		
 	<eventCoding>
 		<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>
 		<code value="uec-arrival"/>
@@ -36,7 +38,7 @@
 	<focus>
 		<code value="Organization"/>
 		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-		<min value="2"/>
+		<min value="1"/>
 		<max value="*"/>
 	</focus>
 	<focus>
