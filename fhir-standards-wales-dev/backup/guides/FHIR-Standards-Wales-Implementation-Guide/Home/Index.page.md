@@ -1,5 +1,5 @@
 ---
-igversion: 2.5.0
+igversion: 2.6.0
 ---
 
 # Wales FHIR Implementation Guide v{{variable: igversion}} STU2

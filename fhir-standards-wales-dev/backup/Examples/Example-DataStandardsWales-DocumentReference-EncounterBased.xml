@@ -12,7 +12,8 @@
       <display value="System ABC" />
     </valueReference>
   </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion">
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+">
     <valueString value="1" />
   </extension>
   <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester">
