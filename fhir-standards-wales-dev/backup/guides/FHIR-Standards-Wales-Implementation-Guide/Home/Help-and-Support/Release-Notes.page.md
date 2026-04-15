@@ -2,6 +2,57 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+
+### v2.6.0 STU2
+
+Package: 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+    * New Message Definitions
+    * New Extensions
+    * Removed to Profiles
+    * Removed to Message Definitions
+    * Removed to Extensions
+    * Changes to Profiles
+    * Changes to Message Definitions
+    * Changes to Extensions
+        * Extension-DataStandardsWales-DocumentVersion
+            * Updated version from 0.1.0 to 0.2.0
+            * Correct URL from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+    * New Code Systems
+    * Removed Code Systems
+    * Changes to Code Systems
+    * New Value Sets
+    * Removed Value Sets
+    * Changes to Value Sets
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * Changes to Naming Systems
+        * New Naming Systems
+            * Namespace for LIMS1 TCL encounter identifier
+            * Namespace for LIMS2 TCLe encounter identifier
+            * Namespaces for PAS location identifiers
+        * Updated Naming Systems
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+    * Changes to Examples
+        * Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI
+            * Added Condition.clinicalStatus
+        * Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
+            * Added Condition.clinicalStatus
+        * Example-DataStandardsWales-DocumentReference-EncounterBased
+            * Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+        * Example-DataStandardsWales-DocumentReference-EventBased
+            * Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+        * Example-DataStandardsWales-Immunization-FluVaccine
+            * Added Immunization.performer.actor.type
+        * Example-DataStandardsWales-Immunization-NotGiven
+            * Added Immunization.vaccineCode
+    * Removed Examples
+
+Guide:
+    * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+
 ### v2.5.0 STU2
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
 

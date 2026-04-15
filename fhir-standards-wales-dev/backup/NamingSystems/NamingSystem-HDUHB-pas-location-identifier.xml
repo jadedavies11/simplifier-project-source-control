@@ -1,0 +1,16 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-HDUHB-PAS-LocationIdentifier"/> 
+  <name value="HDUHBPASLocationIdentifier"/> 
+  <status value="active" />
+  <kind value="identifier"/>   
+  <date value="2026-04-10" />
+  <publisher value="NHS Wales" />
+  <responsible value="NHS Wales"/>
+  <description value="This namespace indicates a Hywel Dda University Health Board PAS location identifier."/> 
+  <usage value="Location Identifier"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.hduhb.nhs.wales/Id/pas-location-identifier"/> 
+    <preferred value="true"/> 
+  </uniqueId>
+</NamingSystem> 
