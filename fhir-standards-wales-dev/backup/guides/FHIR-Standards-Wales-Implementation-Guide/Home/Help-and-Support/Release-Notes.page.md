@@ -2,7 +2,6 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
-
 ### v2.6.0 STU2
 
 Package: 
@@ -29,8 +28,6 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
-            * Namespace for LIMS1 TCL encounter identifier
-            * Namespace for LIMS2 TCLe encounter identifier
             * Namespaces for PAS location identifiers
         * Updated Naming Systems
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:

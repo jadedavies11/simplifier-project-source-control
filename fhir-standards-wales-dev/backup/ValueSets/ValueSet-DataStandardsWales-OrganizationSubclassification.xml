@@ -1,0 +1,306 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-OrganizationSubclassification"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSubclassification"/>
+	<version value="0.0.1"/>
+	<name value="DataStandardsWalesOrganizationSubclassification"/>
+	<title value="Data Standards Wales Organization Subclassification"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2026-04-16"/>
+	<publisher value="NHS Wales"/>
+	<contact>
+		<name value="FHIR Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="Value set to apply a lower level classification to organizations within their domain, based on a hierarchical code system authored on the NHS Wales terminology server."/>
+	<copyright value="2026 NHS Wales."/>
+	<compose>
+		<include>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<filter>
+				<property value="slice"/>
+				<op value="="/>
+				<value value="subclassification"/>
+			</filter>
+		</include>
+	</compose>
+	<expansion>
+		<extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
+			<valueBoolean value="true"/>
+		</extension>
+		<identifier value="urn:uuid:e9fc45ae-8579-4151-8e17-848d7357de4b"/>
+		<timestamp value="2026-04-17T11:04:48+00:00"/>
+		<total value="52"/>
+		<offset value="0"/>
+		<parameter>
+			<name value="used-codesystem"/>
+			<valueUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType|0.2.0"/>
+		</parameter>
+		<parameter>
+			<name value="version"/>
+			<valueUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType|0.2.0"/>
+		</parameter>
+		<parameter>
+			<name value="displayLanguage"/>
+			<valueCode value="en-GB,en;q=0.9,en-US;q=0.8"/>
+		</parameter>
+		<parameter>
+			<name value="count"/>
+			<valueInteger value="50"/>
+		</parameter>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="adoption-service"/>
+			<display value="Adoption service"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="adult-placement-service"/>
+			<display value="Adult placement service"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="ambulance-service"/>
+			<display value="Ambulance service"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="burns-and-plastics-centre"/>
+			<display value="Burns and plastics centre"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="cancer-centre"/>
+			<display value="Cancer centre"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="care-home-service"/>
+			<display value="Care home service"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="child-minding"/>
+			<display value="Child minding"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="childrens-day-care"/>
+			<display value="Childrens day care"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="city-council"/>
+			<display value="City council"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="college"/>
+			<display value="College"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="combined-authority"/>
+			<display value="Combined authority"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="community-centre"/>
+			<display value="Community centre"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="constabulary"/>
+			<display value="Constabulary"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="county-council"/>
+			<display value="County council"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="court"/>
+			<display value="Court"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="dental-practice"/>
+			<display value="Dental practice"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="district-council"/>
+			<display value="District council"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="district-nursing"/>
+			<display value="District nursing"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="domiciliary-support-service"/>
+			<display value="Domiciliary support service"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="fostering-service"/>
+			<display value="Fostering service"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="free-school"/>
+			<display value="Free school"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="gp-practice"/>
+			<display value="GP practice"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="health-visiting"/>
+			<display value="Health visiting"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="hospice"/>
+			<display value="Hospice"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="hospital"/>
+			<display value="Hospital"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="immigration-removal-centre"/>
+			<display value="Immigration removal centre"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="independent-provider"/>
+			<display value="Independent provider"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="independent-school"/>
+			<display value="Independent school"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="independent-specialist-college"/>
+			<display value="Independent specialist college"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="local-authority-fostering-service"/>
+			<display value="Local authority fostering service"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="london-borough-council"/>
+			<display value="London borough council"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="maintained-school"/>
+			<display value="Maintained school"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="metropolitan-borough-council"/>
+			<display value="Metropolitan borough council"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="optometry-practice"/>
+			<display value="Optometry practice"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="orthopaedics-centre"/>
+			<display value="Orthopaedics centre"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="pharmacy-practice"/>
+			<display value="Pharmacy practice"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="prison"/>
+			<display value="Prison"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="pupil-referral-unit"/>
+			<display value="Pupil referral unit"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="residential-special-school"/>
+			<display value="Residential special school"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="secure-accommodation-service"/>
+			<display value="Secure accommodation service"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="secure-childrens-home"/>
+			<display value="Secure children's home"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="secure-training-centre"/>
+			<display value="Secure training centre"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="sexual-assault-referral-centre"/>
+			<display value="Sexual assault referral centre"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="special-health-authority"/>
+			<display value="Special health authority (SHA)"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="support"/>
+			<display value="Support"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="Town-or-parish-council"/>
+			<display value="Town or parish council"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="trust"/>
+			<display value="Trust"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="unitary-authority"/>
+			<display value="Unitary authority"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="University"/>
+			<display value="University"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="young-offenders-institution"/>
+			<display value="Young offenders institution"/>
+		</contains>
+	</expansion>
+</ValueSet>
