@@ -39,9 +39,6 @@
   <differential>
     <element id="Organization.identifier">
       <path value="Organization.identifier" />
-      <slicing>
-        <rules value="open" />
-      </slicing>
       <comment value="Identifiers for the organization SHOULD be populated if the data exists" />
     </element>
     <element id="Organization.identifier:odsOrganisationCode">
@@ -112,7 +109,20 @@
     </element>
     <element id="Organization.type:sector.coding.system">
       <path value="Organization.type.coding.system" />
+      <min value="1" />
       <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationSector" />
+    </element>
+    <element id="Organization.type:sector.coding.code">
+      <path value="Organization.type.coding.code" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSector" />
+      </binding>
+    </element>
+    <element id="Organization.type:sector.coding.display">
+      <path value="Organization.type.coding.display" />
+      <min value="1" />
     </element>
     <element id="Organization.type:domain">
       <path value="Organization.type" />
@@ -131,7 +141,20 @@
     </element>
     <element id="Organization.type:domain.coding.system">
       <path value="Organization.type.coding.system" />
+      <min value="1" />
       <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType" />
+    </element>
+    <element id="Organization.type:domain.coding.code">
+      <path value="Organization.type.coding.code" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationDomain" />
+      </binding>
+    </element>
+    <element id="Organization.type:domain.coding.display">
+      <path value="Organization.type.coding.display" />
+      <min value="1" />
     </element>
     <element id="Organization.type:classification">
       <path value="Organization.type" />
@@ -150,7 +173,20 @@
     </element>
     <element id="Organization.type:classification.coding.system">
       <path value="Organization.type.coding.system" />
+      <min value="1" />
       <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType" />
+    </element>
+    <element id="Organization.type:classification.coding.code">
+      <path value="Organization.type.coding.code" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationClassification" />
+      </binding>
+    </element>
+    <element id="Organization.type:classification.coding.display">
+      <path value="Organization.type.coding.display" />
+      <min value="1" />
     </element>
     <element id="Organization.type:subclassification">
       <path value="Organization.type" />
@@ -169,7 +205,20 @@
     </element>
     <element id="Organization.type:subclassification.coding.system">
       <path value="Organization.type.coding.system" />
+      <min value="1" />
       <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType" />
+    </element>
+    <element id="Organization.type:subclassification.coding.code">
+      <path value="Organization.type.coding.code" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSubclassification" />
+      </binding>
+    </element>
+    <element id="Organization.type:subclassification.coding.display">
+      <path value="Organization.type.coding.display" />
+      <min value="1" />
     </element>
     <element id="Organization.name">
       <path value="Organization.name" />
