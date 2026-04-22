@@ -34,12 +34,16 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-GGH, text: Glangwili General Hospital}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-NPT, text: Neath Port Talbot Hospital}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-CAVUHB, text: Cardiff and Vale University Local Health Board}}</li>
       <li>{{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Hywel Dda University Local Health Board}}</li>
       <li>{{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Swansea Bay University Local Health Board}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-GPPractice, text: GP Practice example}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-GPCluster, text: GP Cluster example}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-UHW, text: University Hospital of Wales}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-GGH, text: Glangwili General Hospital}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-NPT, text: Neath Port Talbot Hospital}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text: Cardiff North Cluster}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text: Amman Gwendraeth Cluster}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-NCMC, text: North Cardiff Medical Centre}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text: Amman Tawe Partnership}}</li>
     </list>
   </div>
 </div>
@@ -59,7 +63,7 @@ Each Organisation must support:
 * The active status of the organisation
   * The `Organization.active` field **SHOULD** be populated to indicate whether the organisation is still active.  <br /><br />
 
-* Details of `Organization.type`, ideally structured to comprise sector plus a hierarchical organization type 
+* Details of `Organization.type`, structured to comprise sector plus a hierarchical organization type 
   * `sector` **SHOULD** be provided to distinguish public, private and third sector organizations
   * `domain` **SHOULD** be provided to identify the domain or industry in which the organization operates
   * `classification` **SHOULD** be provided as a high level classification of the organization type within the applicable domain.

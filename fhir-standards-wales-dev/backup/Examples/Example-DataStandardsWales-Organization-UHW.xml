@@ -1,11 +1,11 @@
 <Organization xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Organization-NPT" />
+    <id value="Example-DataStandardsWales-Organization-UHW" />
     <meta>
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
     </meta>
     <text>
         <status value="generated" />
-        <div xmlns="http://www.w3.org/1999/xhtml">Neath Port Talbot Hospital</div>
+        <div xmlns="http://www.w3.org/1999/xhtml">University Hospital of Wales</div>
     </text>
     <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
         <valuePeriod>
@@ -14,7 +14,7 @@
     </extension>
     <identifier>
         <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-        <value value="7A3CJ" />
+        <value value="7A4BV" />
     </identifier>
     <active value="true" />
 	<type>
@@ -45,8 +45,8 @@
 			<display value="Hospital"/>
 		</coding>
 	</type>
-    <name value="Neath Port Talbot Hospital" />
-   <alias value="GGH">
+    <name value="University Hospital of Wales" />
+    <alias value="UHW">
         <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
             <valueCodeableConcept>
                 <coding>
@@ -59,20 +59,20 @@
     </alias>
     <telecom>
         <system value="phone" />
-        <value value="01639 862000" />
+        <value value="029 2074 7747" />
     </telecom>
     <address>
-        <line value="Baglan Way" />
-        <city value="Port Talbot" />
-        <district value="West Glamorgan" />
-        <postalCode value="SA12 7BX" />
+        <line value="Heath Park" />
+        <city value="Cardiff" />
+        <district value="South Glamorgan" />
+        <postalCode value="CF14 4XW" />
     </address>
     <partOf>
-        <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB" />
+        <reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB" />
 		<identifier>
 			<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-			<value value="7A3" />
+			<value value="7A4" />
 		</identifier>
-        <display value="Swansea Bay University Local Health Board" />
+        <display value="Cardiff and Vale University Local Health Board" />
     </partOf>
 </Organization>
