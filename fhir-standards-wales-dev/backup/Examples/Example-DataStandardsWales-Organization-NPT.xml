@@ -17,50 +17,7 @@
         <value value="7A3CJ" />
     </identifier>
     <active value="true" />
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
-			<code value="public"/>
-			<display value="Public"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="health"/>
-			<display value="Health"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="secondary-care"/>
-			<display value="Secondary care"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="hospital"/>
-			<display value="Hospital"/>
-		</coding>
-	</type>
     <name value="Neath Port Talbot Hospital" />
-   <alias value="GGH">
-        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-            <valueCodeableConcept>
-                <coding>
-                    <system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
-                    <code value="standard-acronym"/>
-                    <display value="Standard acronym"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
-    </alias>
-    <telecom>
-        <system value="phone" />
-        <value value="01639 862000" />
-    </telecom>
     <address>
         <line value="Baglan Way" />
         <city value="Port Talbot" />
@@ -68,11 +25,11 @@
         <postalCode value="SA12 7BX" />
     </address>
     <partOf>
-        <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB" />
 		<identifier>
 			<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
 			<value value="7A3" />
 		</identifier>
+        <reference value="Organization/Example-DataStandardsWales-Organization-SwanseaBay" />
         <display value="Swansea Bay University Local Health Board" />
     </partOf>
 </Organization>

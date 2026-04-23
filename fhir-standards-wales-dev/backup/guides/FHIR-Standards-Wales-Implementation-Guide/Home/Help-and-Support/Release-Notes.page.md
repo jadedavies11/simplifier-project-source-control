@@ -2,6 +2,7 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+
 ### v2.6.0 STU2
 
 Package: 
@@ -28,23 +29,29 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * New Naming Systems
+            * Namespace for LIMS1 TCL encounter identifier
+            * Namespace for LIMS2 TCLe encounter identifier
             * Namespaces for PAS location identifiers
         * Updated Naming Systems
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
     * Changes to Examples
+        * Example-DataStandardsWales-AllergyIntolerance-Morphine
+            * AllergyIntolerance.reaction.substance.code. Removed trailing white space from code
         * Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI
-            * Added Condition.clinicalStatus
+            * Condition.clinicalStatus. Added a value
         * Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
-            * Added Condition.clinicalStatus
+            * Condition.clinicalStatus. Added a value
         * Example-DataStandardsWales-DocumentReference-EncounterBased
-            * Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+            * DocumentReference.extension:versionR5. Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
         * Example-DataStandardsWales-DocumentReference-EventBased
-            * Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+            * DocumentReference.extension:versionR5. Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
         * Example-DataStandardsWales-Immunization-FluVaccine
-            * Added Immunization.performer.actor.type
+            * Immunization.performer.actor.type. Added a value
         * Example-DataStandardsWales-Immunization-NotGiven
-            * Added Immunization.vaccineCode
+            * Immunization.vaccineCode.coding.code. Added a value
+        * Example-DataStandardsWales-Patient-HaroldJames
+            * Patient.extension:religion.value. Updated the value to match sample data in ValueSet-DataStandardsWales-Religion
     * Removed Examples
 
 Guide:

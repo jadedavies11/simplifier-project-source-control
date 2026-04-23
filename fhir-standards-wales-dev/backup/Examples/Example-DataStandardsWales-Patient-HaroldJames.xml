@@ -20,8 +20,8 @@
         <valueCodeableConcept>
             <coding>
                 <system value="http://snomed.info/sct" />
-                <code value="160540005" />
-                <display value="Roman Catholic, follower of religion" />
+                <code value="160552003" />
+                <display value="Not religious" />
             </coding>
         </valueCodeableConcept>
     </extension>
