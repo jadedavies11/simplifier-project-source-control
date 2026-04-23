@@ -40,7 +40,7 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "9291801000001101 ",
+            "code": "9291801000001101",
             "display": "Oramorph"
           }
         ]
