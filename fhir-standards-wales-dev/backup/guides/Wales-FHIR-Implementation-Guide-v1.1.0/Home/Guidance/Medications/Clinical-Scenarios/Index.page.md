@@ -1,1 +1,0 @@
-{{pagelink:Home/Guidance/Medications/Clinical-Scenarios/Scenario-1, text: Medication List and Medication Statement Clinical Usage}}
