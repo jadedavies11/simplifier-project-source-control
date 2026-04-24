@@ -1,1 +1,0 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>

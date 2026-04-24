@@ -25,8 +25,8 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="GROWTCH-CHART-BUNDLE-GUID"/>
   <meta>
+    <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle" />
     <source value="https://wcp.nhs.wales" />
-    <profile value="http://hl7.org/fhir/StructureDefinition/Bundle" />
   </meta>
   <type value="collection"/>
 

@@ -36,22 +36,18 @@ Package:
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
     * Changes to Examples
-        * Example-DataStandardsWales-AllergyIntolerance-Morphine
-            * AllergyIntolerance.reaction.substance.code. Removed trailing white space from code
         * Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI
-            * Condition.clinicalStatus. Added a value
+            * Added Condition.clinicalStatus
         * Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
-            * Condition.clinicalStatus. Added a value
+            * Added Condition.clinicalStatus
         * Example-DataStandardsWales-DocumentReference-EncounterBased
-            * DocumentReference.extension:versionR5. Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+            * Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
         * Example-DataStandardsWales-DocumentReference-EventBased
-            * DocumentReference.extension:versionR5. Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+            * Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
         * Example-DataStandardsWales-Immunization-FluVaccine
-            * Immunization.performer.actor.type. Added a value
+            * Added Immunization.performer.actor.type
         * Example-DataStandardsWales-Immunization-NotGiven
-            * Immunization.vaccineCode.coding.code. Added a value
-        * Example-DataStandardsWales-Patient-HaroldJames
-            * Patient.extension:religion.value. Updated the value to match sample data in ValueSet-DataStandardsWales-Religion
+            * Added Immunization.vaccineCode
     * Removed Examples
 
 Guide:
