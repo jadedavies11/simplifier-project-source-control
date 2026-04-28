@@ -10,48 +10,58 @@ Package:
     * New Profiles
     * New Message Definitions
     * New Extensions
-    * Removed to Profiles
-    * Removed to Message Definitions
-    * Removed to Extensions
+    * Removed Profiles
+    * Removed Message Definitions
+    * Removed Extensions
     * Changes to Profiles
     * Changes to Message Definitions
     * Changes to Extensions
         * Extension-DataStandardsWales-DocumentVersion
             * Updated version from 0.1.0 to 0.2.0
             * Correct URL from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+        * Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated
+            * Updated version from 1.0.0 to 1.0.1
+            * .status. Updated from draft to active
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
-    * Removed Code Systems
-    * Changes to Code Systems
     * New Value Sets
+    * Removed Code Systems
     * Removed Value Sets
+    * Changes to Code Systems
     * Changes to Value Sets
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * New Naming Systems
+        * Namespace for LIMS1 TCL encounter identifier
+        * Namespace for LIMS2 TCLe encounter identifier
+        * Namespaces for PAS location identifiers
+    * Removed Naming Systems
     * Changes to Naming Systems
-        * New Naming Systems
-            * Namespace for LIMS1 TCL encounter identifier
-            * Namespace for LIMS2 TCLe encounter identifier
-            * Namespaces for PAS location identifiers
-        * Updated Naming Systems
+        * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions
+    
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
-    * Changes to Examples
-        * Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI
-            * Added Condition.clinicalStatus
-        * Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
-            * Added Condition.clinicalStatus
-        * Example-DataStandardsWales-DocumentReference-EncounterBased
-            * Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
-        * Example-DataStandardsWales-DocumentReference-EventBased
-            * Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
-        * Example-DataStandardsWales-Immunization-FluVaccine
-            * Added Immunization.performer.actor.type
-        * Example-DataStandardsWales-Immunization-NotGiven
-            * Added Immunization.vaccineCode
     * Removed Examples
+    * Changes to Examples
+        * Example-DataStandardsWales-AllergyIntolerance-Morphine
+            * AllergyIntolerance.reaction.substance.code. Removed trailing white space from code
+        * Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI
+            * Condition.clinicalStatus. Added a value
+        * Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
+            * Condition.clinicalStatus. Added a value
+        * Example-DataStandardsWales-DocumentReference-EncounterBased
+            * DocumentReference.extension:versionR5. Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+        * Example-DataStandardsWales-DocumentReference-EventBased
+            * DocumentReference.extension:versionR5. Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+        * Example-DataStandardsWales-Immunization-FluVaccine
+            * Immunization.performer.actor.type. Added a value
+        * Example-DataStandardsWales-Immunization-NotGiven
+            * Immunization.vaccineCode.coding.code. Added a value
+        * Example-DataStandardsWales-Patient-HaroldJames
+            * Patient.extension:religion.value. Updated the value to match sample data in ValueSet-DataStandardsWales-Religion
 
 Guide:
     * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+    * Updated Naming Systems index page to split by organisation
 
 ### v2.5.0 STU2
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
