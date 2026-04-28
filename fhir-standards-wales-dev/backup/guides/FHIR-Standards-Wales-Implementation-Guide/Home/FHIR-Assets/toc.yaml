@@ -3,8 +3,4 @@
 - name: Terminology
   filename: Terminology
 - name: Naming Systems
-  filename: Naming-Systems.page.md
-- name: New Profiles
-  filename: New-Profiles
-- name: New Extensions
-  filename: New-Extensions
+  filename: Naming-Systems
