@@ -1,4 +1,4 @@
-## Example Organization - GP Cluster
+## Example Organization - Cardiff and Vale University Local Health Board
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Organization-GPCluster}}
+      {{tree:Example-DataStandardsWales-Organization-CAVUHB}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Organization-GPCluster}}
+      {{table:Example-DataStandardsWales-Organization-CAVUHB}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Organization-GPCluster}}
+      {{xml:Example-DataStandardsWales-Organization-CAVUHB}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Organization-GPCluster}}
+      {{json:Example-DataStandardsWales-Organization-CAVUHB}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Organization-GPCluster}}
+      {{narrative:Example-DataStandardsWales-Organization-CAVUHB}}
     </div>  
   </div>
 </div>

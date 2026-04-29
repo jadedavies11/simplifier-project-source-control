@@ -10,9 +10,9 @@ Package:
     * New Profiles
     * New Message Definitions
     * New Extensions
-    * Removed Profiles
-    * Removed Message Definitions
-    * Removed Extensions
+    * Removed to Profiles
+    * Removed to Message Definitions
+    * Removed to Extensions
     * Changes to Profiles
     * Changes to Message Definitions
     * Changes to Extensions
@@ -24,23 +24,20 @@ Package:
             * .status. Updated from draft to active
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
-    * New Value Sets
     * Removed Code Systems
-    * Removed Value Sets
     * Changes to Code Systems
+    * New Value Sets
+    * Removed Value Sets
     * Changes to Value Sets
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
-    * New Naming Systems
-        * Namespace for LIMS1 TCL encounter identifier
-        * Namespace for LIMS2 TCLe encounter identifier
-        * Namespaces for PAS location identifiers
-    * Removed Naming Systems
     * Changes to Naming Systems
-        * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions
-    
+        * New Naming Systems
+            * Namespace for LIMS1 TCL encounter identifier
+            * Namespace for LIMS2 TCLe encounter identifier
+            * Namespaces for PAS location identifiers
+        * Updated Naming Systems
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
-    * Removed Examples
     * Changes to Examples
         * Example-DataStandardsWales-AllergyIntolerance-Morphine
             * AllergyIntolerance.reaction.substance.code. Removed trailing white space from code
@@ -58,10 +55,10 @@ Package:
             * Immunization.vaccineCode.coding.code. Added a value
         * Example-DataStandardsWales-Patient-HaroldJames
             * Patient.extension:religion.value. Updated the value to match sample data in ValueSet-DataStandardsWales-Religion
+    * Removed Examples
 
 Guide:
     * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
-    * Updated Naming Systems index page to split by organisation
 
 ### v2.5.0 STU2
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
