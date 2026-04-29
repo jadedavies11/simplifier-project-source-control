@@ -9,7 +9,7 @@
     </text>    
     <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
         <valuePeriod>
-            <start value="2009-10-01" />
+            <start value="2009-06-01" />
         </valuePeriod>
     </extension>
     <identifier>
@@ -17,7 +17,79 @@
         <value value="7A3" />
     </identifier>
     <active value="true" />
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
+			<code value="public"/>
+			<display value="Public"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="health"/>
+			<display value="Health"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="provider-authority"/>
+			<display value="Provider authority"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<code value="health-board"/>
+			<display value="Health board"/>
+		</coding>
+	</type>
     <name value="Swansea Bay University Local Health Board" />
+    <alias value="Swansea Bay University Health Board">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="preferred-name"/>
+                    <display value="Preferred name"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="Swansea Bay">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="short-name"/>
+                    <display value="Short name"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="SBUHB">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="standard-acronym"/>
+                    <display value="Standard acronym"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="SBU">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="short-acronym"/>
+                    <display value="Short acronym"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
     <telecom>
         <system value="phone" />
         <value value="01639 683670" />
