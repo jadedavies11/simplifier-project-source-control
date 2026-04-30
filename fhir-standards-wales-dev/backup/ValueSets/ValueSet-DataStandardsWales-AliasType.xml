@@ -6,7 +6,7 @@
 	<title value="Data Standards Wales Alias Type"/>
 	<status value="draft"/>
 	<experimental value="false"/>
-	<date value="2026-04-16"/>
+	<date value="2026-04-30"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -16,48 +16,11 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="Value set to classify alias by type, based on a code system authored on the NHS Wales terminology server."/>
+	<description value="Value set to classify alias by type."/>
 	<copyright value="2026 NHS Wales."/>
 	<compose>
 		<include>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
 		</include>
 	</compose>
-	<expansion>
-		<identifier value="urn:uuid:6a29af44-6181-4f78-b1b1-e9623c2d44e2"/>
-		<timestamp value="2026-04-15T15:32:38+00:00"/>
-		<total value="4"/>
-		<parameter>
-			<name value="used-codesystem"/>
-			<valueUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType|1.0.0"/>
-		</parameter>
-		<parameter>
-			<name value="version"/>
-			<valueUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType|1.0.0"/>
-		</parameter>
-		<parameter>
-			<name value="displayLanguage"/>
-			<valueCode value="en-GB,en;q=0.9,en-US;q=0.8"/>
-		</parameter>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
-			<code value="preferred-name"/>
-			<display value="Preferred name"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
-			<code value="short-acronym"/>
-			<display value="Short acronym"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
-			<code value="short-name"/>
-			<display value="Short name"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType"/>
-			<code value="standard-acronym"/>
-			<display value="Standard acronym"/>
-		</contains>
-	</expansion>	
 </ValueSet>

@@ -1,5 +1,7 @@
 - name: Index
   filename: Index.page.md
+- name: CodeSystem-DataStandardsWales-AliasType
+  filename: CodeSystem-DataStandardsWales-AliasType.page.md
 - name: CodeSystem-DataStandardsWales-DocumentAttribute
   filename: CodeSystem-DataStandardsWales-DocumentAttribute.page.md
 - name: CodeSystem-DataStandardsWales-DocumentDigitalStatus
@@ -14,6 +16,14 @@
   filename: CodeSystem-DataStandardsWales-MainSpecialty.page.md
 - name: CodeSystem-DataStandardsWales-MaritalStatus
   filename: CodeSystem-DataStandardsWales-MaritalStatus.page.md
+- name: CodeSystem-DataStandardsWales-OrganizationClassification
+  filename: CodeSystem-DataStandardsWales-OrganizationClassification.page.md
+- name: CodeSystem-DataStandardsWales-OrganizationDomain
+  filename: CodeSystem-DataStandardsWales-OrganizationDomain.page.md
+- name: CodeSystem-DataStandardsWales-OrganizationSector
+  filename: CodeSystem-DataStandardsWales-OrganizationSector.page.md
+- name: CodeSystem-DataStandardsWales-OrganizationSubclassification
+  filename: CodeSystem-DataStandardsWales-OrganizationSubclassification.page.md
 - name: CodeSystem-DataStandardsWales-PatientRecordType
   filename: CodeSystem-DataStandardsWales-PatientRecordType.page.md
 - name: CodeSystem-DataStandardsWales-RecordingSetting

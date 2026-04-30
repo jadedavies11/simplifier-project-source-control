@@ -6,7 +6,7 @@
 	<title value="Data Standards Wales Organization Classification"/>
 	<status value="draft"/>
 	<experimental value="false"/>
-	<date value="2026-04-16"/>
+	<date value="2026-04-30"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -16,93 +16,11 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="Value set to apply a high level classification to organizations within their domain, based on a hierarchical code system authored on the NHS Wales terminology server."/>
+	<description value="Value set to apply a high level classification to organizations."/>
 	<copyright value="2026 NHS Wales."/>
 	<compose>
 		<include>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<filter>
-				<property value="slice"/>
-				<op value="="/>
-				<value value="classification"/>
-			</filter>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
 		</include>
 	</compose>
-	<expansion>
-		<identifier value="urn:uuid:cde5ebbe-fb9f-4ce2-89e1-dd6f0c84afdc"/>
-		<timestamp value="2026-04-17T10:58:59+00:00"/>
-		<total value="12"/>
-		<parameter>
-			<name value="used-codesystem"/>
-			<valueUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType|0.2.0"/>
-		</parameter>
-		<parameter>
-			<name value="version"/>
-			<valueUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType|0.2.0"/>
-		</parameter>
-		<parameter>
-			<name value="displayLanguage"/>
-			<valueCode value="en-GB,en;q=0.9,en-US;q=0.8"/>
-		</parameter>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="community-care"/>
-			<display value="Community care"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="criminal-justice"/>
-			<display value="Criminal justice"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="further-education"/>
-			<display value="Further education"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="higher-education"/>
-			<display value="Higher education"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="local-authority"/>
-			<display value="Local authority"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="primary-care"/>
-			<display value="Primary care"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="provider-authority"/>
-			<display value="Provider authority"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="school"/>
-			<display value="School"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="secondary-care"/>
-			<display value="Secondary care"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="social-care-adult-services"/>
-			<display value="Social care and adult services"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="social-care-childcare-services"/>
-			<display value="Social care and childcare services"/>
-		</contains>
-		<contains>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
-			<code value="tertiary-care"/>
-			<display value="Tertiary care"/>
-		</contains>
-	</expansion>
 </ValueSet>

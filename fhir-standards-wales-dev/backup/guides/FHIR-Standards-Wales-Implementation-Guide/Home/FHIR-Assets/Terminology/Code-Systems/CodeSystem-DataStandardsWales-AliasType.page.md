@@ -1,8 +1,8 @@
 ## {{page-title}}
 <fql output="inline">
-from ValueSet
+from CodeSystem
 where name = 'DataStandardsWalesAliasType'
 select description
 </fql>
 
-{{render:https://fhir.nhs.wales/ValueSet/DataStandardsWales-AliasType}}
+{{render:https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType}}

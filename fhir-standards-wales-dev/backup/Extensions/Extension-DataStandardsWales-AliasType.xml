@@ -61,7 +61,7 @@
     </element>
     <element id="Extension.value[x].coding.system">
       <path value="Extension.value[x].coding.system" />
-      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-AliasType" />
+      <fixedUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType" />
     </element>
   </differential>
 </StructureDefinition>
