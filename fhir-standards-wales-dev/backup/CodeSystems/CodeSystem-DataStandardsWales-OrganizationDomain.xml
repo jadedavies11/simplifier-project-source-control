@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-OrganizationDomain"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>	
+    <version value="0.0.1" />
+    <name value="DataStandardsWalesOrganizationDomain"/>
+	<title value="Data Standards Wales Organization Domain"/>
+    <status value="draft" />
+    <experimental value="false" />
+    <date value="2026-04-30" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+		</telecom>
+    </contact>
+    <description value="Code system to classify organizations by domain."/>
+    <copyright value="2026 NHS Wales." />
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+	<concept>
+		<code value="health"/>
+		<display value="Health"/>
+		<definition value="An organisation with the primary focus of diagnosing, treating, controlling, and preventing illness, disease, injury, or disability."/>
+	</concept>
+	<concept>
+		<code value="social-care"/>
+		<display value="Social care"/>
+		<definition value="An organisation with the primary focus of providing practical, emotional, and social support to help vulnerable individuals live safely and independently, enhancing their quality of life"/>
+	</concept>
+	<concept>
+		<code value="education"/>
+		<display value="Education"/>
+		<definition value="An organisation with the primary focus of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits."/>
+	</concept>
+	<concept>
+		<code value="justice"/>
+		<display value="Justice"/>
+		<definition value="An organisation with the primary focus of upholding the law, ensuring public safety, and administering justice."/>
+	</concept>
+	<concept>
+		<code value="administration"/>
+		<display value="Administration"/>
+		<definition value="An organisation responsible for commissioning and coordinating the provision of essential services like education, social services, housing, waste collection, and leisure."/>
+	</concept>
+</CodeSystem>

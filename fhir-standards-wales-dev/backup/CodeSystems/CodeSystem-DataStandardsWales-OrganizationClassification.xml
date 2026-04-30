@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-OrganizationClassification"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>	
+    <version value="0.0.1" />
+    <name value="DataStandardsWalesOrganizationClassification"/>
+	<title value="Data Standards Wales Organization Classification"/>
+    <status value="draft" />
+    <experimental value="false" />
+    <date value="2026-04-30" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+		</telecom>
+    </contact>
+    <description value="Code system to apply a higher level classification to organizations."/>
+    <copyright value="2026 NHS Wales." />
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+	<concept>
+		<code value="provider-authority"/>
+		<display value="Provider authority"/>
+		<definition value="An organisation that acts as a higher level care provider, organising and structuring the care within its boundaries of influence."/>
+	</concept>
+	<concept>
+		<code value="primary-care"/>
+		<display value="Primary care"/>
+		<definition value="An organisation that provides non-specialized care as a patient's first point of contact for new general health issues. In addition to general practice, this may for example include a provider of general dental, community pharmacy or optometry services."/>
+	</concept>
+	<concept>
+		<code value="secondary-care"/>
+		<display value="Secondary care"/>
+		<definition value="An organisation that provides specialised, referral-based care in a hospital setting."/>
+	</concept>
+	<concept>
+		<code value="community-care"/>
+		<display value="Community care"/>
+		<definition value="An organisation that provides local health care support services e.g. home care."/>
+	</concept>
+	<concept>
+		<code value="tertiary-care"/>
+		<display value="Tertiary care"/>
+		<definition value="An organisation that provides highly specialized, complex medical treatment and diagnostics, requiring advanced facilities, technology, and expertise. Such organisations usually operate in large hospitals or centers, and their services are accessed via referral from primary or secondary care for conditions like cancer, organ transplants, neurosurgery, and major trauma."/>
+	</concept>
+	<concept>
+		<code value="social-care-childcare-services"/>
+		<display value="Social care and childcare services"/>
+		<definition value="An organisation that provides support for children and families needing extra help, focusing on safety, well-being, and development, through services like family support, safeguarding, fostering, adoption, and care for disabled children"/>
+	</concept>
+	<concept>
+		<code value="social-care-adult-services"/>
+		<display value="Social care and adult services"/>
+		<definition value="An organisation that provides practical help, support, and protection for adults with health or disability needs, enabling independent living through services like home help, equipment, day centers, respite care, and housing support"/>
+	</concept>
+	<concept>
+		<code value="school"/>
+		<display value="School"/>
+		<definition value="An organisation that provides compulsory education for children, generally from age 4/5 to 16. It may also provide further education such as A-levels."/>
+	</concept>
+	<concept>
+		<code value="further-education"/>
+		<display value="Further education"/>
+		<definition value="An organisation that is dedicated to post-16 learning (A-level, vocational qualifications).  Typically covers skills for work or entry to higher education."/>
+	</concept>
+	<concept>
+		<code value="higher-education"/>
+		<display value="Higher education"/>
+		<definition value="An organisation that provides university-level study (degrees, postgraduate). May include higher level diplomas, focusing on academic or advanced vocational skills for professional qualifications. "/>
+	</concept>
+	<concept>
+		<code value="criminal-justice"/>
+		<display value="Criminal justice"/>
+		<definition value="An organisation with the primary focus of upholding the law, ensuring public safety, and administering justice."/>
+	</concept>
+	<concept>
+		<code value="local-authority"/>
+		<display value="Local authority"/>
+		<definition value="An organisation commissioning and coordinating the provision of essential services like education, social services, housing, waste collection and leisure to the population of a defined geographical area. Service provision by local authorities in the UK differs by location.  Some locations use a single tier system of unitary authorities, others use a two tier system of county councils and district authorities."/>
+	</concept>
+</CodeSystem>

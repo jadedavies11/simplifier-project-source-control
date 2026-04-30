@@ -78,10 +78,6 @@
           <type value="value" />
           <path value="coding.system" />
         </discriminator>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.code" />
-        </discriminator>
         <description value="Slices to support a structured organization type, including values from a hierarchical organization type code system, with appropriately filtered value sets." />
         <ordered value="true" />
         <rules value="open" />
@@ -102,7 +98,7 @@
       <requirements value="For type-specific retrieval of organization resources in operational use cases and to enhance secondary data analysis." />
       <mustSupport value="true" />
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
         <description value="A set of concepts indicating the organization sector." />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSector" />
       </binding>
@@ -110,15 +106,11 @@
     <element id="Organization.type:sector.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
-      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationSector" />
+      <fixedUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector" />
     </element>
     <element id="Organization.type:sector.coding.code">
       <path value="Organization.type.coding.code" />
       <min value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSector" />
-      </binding>
     </element>
     <element id="Organization.type:sector.coding.display">
       <path value="Organization.type.coding.display" />
@@ -134,7 +126,7 @@
       <max value="1" />
       <mustSupport value="true" />
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
         <description value="A set of concepts indicating the organization domain." />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationDomain" />
       </binding>
@@ -142,15 +134,11 @@
     <element id="Organization.type:domain.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
-      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType" />
+      <fixedUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain" />
     </element>
     <element id="Organization.type:domain.coding.code">
       <path value="Organization.type.coding.code" />
       <min value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationDomain" />
-      </binding>
     </element>
     <element id="Organization.type:domain.coding.display">
       <path value="Organization.type.coding.display" />
@@ -166,7 +154,7 @@
       <max value="1" />
       <mustSupport value="true" />
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
         <description value="A set of concepts indicating the organization classification.  Within the organization type hierarchy, a set of classification entries is defined for each domain." />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationClassification" />
       </binding>
@@ -174,15 +162,11 @@
     <element id="Organization.type:classification.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
-      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType" />
+      <fixedUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification" />
     </element>
     <element id="Organization.type:classification.coding.code">
       <path value="Organization.type.coding.code" />
       <min value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationClassification" />
-      </binding>
     </element>
     <element id="Organization.type:classification.coding.display">
       <path value="Organization.type.coding.display" />
@@ -198,7 +182,7 @@
       <max value="1" />
       <mustSupport value="true" />
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
         <description value="A set of concepts indicating the organization subclassification.  Within the organization type hierarchy, a set of subclassification entries is defined for each classification within each domain." />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSubclassification" />
       </binding>
@@ -206,15 +190,11 @@
     <element id="Organization.type:subclassification.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
-      <fixedUri value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType" />
+      <fixedUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification" />
     </element>
     <element id="Organization.type:subclassification.coding.code">
       <path value="Organization.type.coding.code" />
       <min value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSubclassification" />
-      </binding>
     </element>
     <element id="Organization.type:subclassification.coding.display">
       <path value="Organization.type.coding.display" />

@@ -27,21 +27,21 @@
 	</type>
 	<type>
 		<coding>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
 			<code value="health"/>
 			<display value="Health"/>
 		</coding>
 	</type>
 	<type>
 		<coding>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
 			<code value="primary-care"/>
 			<display value="Primary care"/>
 		</coding>
 	</type>
 	<type>
 		<coding>
-			<system value="https://fhir.standards.wales/CodeSystem/DataStandardsWales-OrganizationType"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>
 			<code value="cluster"/>
 			<display value="Cluster"/>
 		</coding>

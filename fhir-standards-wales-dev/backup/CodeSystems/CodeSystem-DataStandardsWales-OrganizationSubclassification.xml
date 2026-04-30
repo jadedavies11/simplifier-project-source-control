@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-OrganizationSubclassification"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>	
+    <version value="0.0.1" />
+    <name value="DataStandardsWalesOrganizationSubclassification"/>
+	<title value="Data Standards Wales Organization Subclassification"/>
+    <status value="draft" />
+    <experimental value="false" />
+    <date value="2026-04-29" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+		</telecom>
+    </contact>
+    <description value="Code system to apply a lower level classification to organizations."/>
+    <copyright value="2026 NHS Wales." />
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+	<concept>
+		<code value="adoption-service"/>
+		<display value="Adoption service"/>
+		<definition value="An organisation that makes arrangements for the adoption of children."/>
+	</concept>
+	<concept>
+		<code value="adult-placement-service"/>
+		<display value="Adult placement service"/>
+		<definition value="An organisation that helps approved adult placement carers to share their home and time with someone in need. Carers are ordinary people from the local community who offer support and short or long-term care within their home to those who need help due to age, illness or disability."/>
+	</concept>
+	<concept>
+		<code value="ambulance-service"/>
+		<display value="Ambulance service"/>
+		<definition value="Provider of emergency medical care, stabilization, and transport for sick or injured individuals to a hospital or other defined place of care."/>
+	</concept>
+	<concept>
+		<code value="burns-and-plastics-centre"/>
+		<display value="Burns and plastics centre"/>
+		<definition value="An organisation offering specialized medical treatment for severe skin injuries, combining acute burn care with plastic surgery for reconstruction, scar management, and rehabilitation."/>
+	</concept>
+	<concept>
+		<code value="cancer-centre"/>
+		<display value="Cancer centre"/>
+		<definition value="An organisation offering specialized medical treatment for cancer patients, such as radiotherapy and monitoring patients for progression or recurrence of the disease."/>
+	</concept>
+	<concept>
+		<code value="care-home-service"/>
+		<display value="Care home service"/>
+		<definition value="An organisation providing accommodation, personal care and support for individuals unable to live independently, offering help with daily tasks (washing, dressing, meals) and supervision in a communal setting, with options for residential (personal) care or nursing care (medical needs)."/>
+	</concept>
+	<concept>
+		<code value="child-minding"/>
+		<display value="Child minding"/>
+		<definition value="An organisation involved in the provision of childminding services e.g. an agency that registers and quality assures childminders (with and without domestic premises) and providers of ‘childcare on domestic premises’ (CODPs)"/>
+	</concept>
+	<concept>
+		<code value="childrens-day-care"/>
+		<display value="Childrens day care"/>
+		<definition value="An organisation that delivers childcare in a group setting comprising 5 or more staff (childminders and assistants) in accordance with Ofsted classification."/>
+	</concept>
+	<concept>
+		<code value="city-council"/>
+		<display value="City council"/>
+		<definition value="An organisation managing more localized services at city level within a county as part of a two-tier local government system in England.  Services include housing, local planning, refuse collection, environmental health, leisure facilities, parking."/>
+	</concept>
+	<concept>
+		<code value="college"/>
+		<display value="College"/>
+		<definition value="An institution in which students can study beyond the age of compulsory education for academic and vocational qualifications that are not undergraduate or graduate degrees."/>
+	</concept>
+	<concept>
+		<code value="combined-authority"/>
+		<display value="Combined authority"/>
+		<definition value="An organisation representing a collaboration of two or more councils within an area to take collective decisions across country boundaries in England.  The combined authority has a directly elected mayor and has a greater devolution of powers from central government."/>
+	</concept>
+	<concept>
+		<code value="community-centre"/>
+		<display value="Community centre"/>
+		<definition value="An organisation that provides community-based care facilities with the goal of increasing access to crucial primary and preventative care services."/>
+	</concept>
+	<concept>
+		<code value="constabulary"/>
+		<display value="Constabulary"/>
+		<definition value="An organized body of police officers responsible for a country, district, or town."/>
+	</concept>
+	<concept>
+		<code value="county-council"/>
+		<display value="County council"/>
+		<definition value="An organisation providing strategic, county-wide services as part of a two-tier local government system in England.  Services include education, social services (adult &amp; children's), major roads, waste disposal, libraries, public transport."/>
+	</concept>
+	<concept>
+		<code value="court"/>
+		<display value="Court"/>
+		<definition value="A judicial body that handles cases where someone is accused of breaking the law (a crime), determining guilt or innocence and imposing punishments like fines or imprisonment"/>
+	</concept>
+	<concept>
+		<code value="dental-practice"/>
+		<display value="Dental practice"/>
+		<definition value="An organisation providing oral healthcare for the public such as check-ups, fillings and surgery."/>
+	</concept>
+	<concept>
+		<code value="district-council"/>
+		<display value="District council"/>
+		<definition value="An organisation managing more localized services at district level within a county as part of a two-tier local government system in England.  Services include housing, local planning, refuse collection, environmental health, leisure facilities, parking."/>
+	</concept>
+	<concept>
+		<code value="district-nursing"/>
+		<display value="District nursing"/>
+		<definition value="An organisation providing skilled nursing care to patients in their homes and communities, focusing on those who are housebound, have long-term conditions, or need complex care."/>
+	</concept>
+	<concept>
+		<code value="domiciliary-support-service"/>
+		<display value="Domiciliary support service"/>
+		<definition value="An organisation that provides professional care services to help people live independently in their own homes through daily visits or live in care. Their role is focused on assisting with household tasks, medication, and other activities that help to maintain quality of life."/>
+	</concept>
+	<concept>
+		<code value="fostering-service"/>
+		<display value="Fostering service"/>
+		<definition value="An organisation that helps approved foster parents to provide a safe, stable home for children and young people who cannot live with their birth families. Some placements last only a short time, while others continue for much longer, depending on what each child needs. "/>
+	</concept>
+	<concept>
+		<code value="free-school"/>
+		<display value="Free school"/>
+		<definition value="A school that is funded by the government but not run by the local authority.  They are usually run by academy trusts, but they can also be run by universities, charities, businesses and faith groups.  Free schools have much greater freedom in terms of curriculum, school times and term dates, and can decide how to allocate funds."/>
+	</concept>
+	<concept>
+		<code value="gp-practice"/>
+		<display value="GP practice"/>
+		<definition value="An organisation of one or more general practitioners who provide general medical services to the population as a first point of contact."/>
+	</concept>
+	<concept>
+		<code value="health-board"/>
+		<display value="Health board"/>
+		<definition value="An organisation responsible for planning and delivering NHS Wales health services to meet the health care needs of the population of its defined geographic area across multiple health sectors. "/>
+	</concept>
+	<concept>
+		<code value="health-visiting"/>
+		<display value="Health visiting"/>
+		<definition value="An organisation with workforce of specialist community public health nurses who provide expert advice, support and interventions to families with children in the first years of life, and help empower parents to make decisions that affect their family's future health and wellbeing."/>
+	</concept>
+	<concept>
+		<code value="hospice"/>
+		<display value="Hospice"/>
+		<definition value="An organisation providing individual care more suited to the person who is approaching the end of life, in a gentler and calmer atmosphere than a hospital."/>
+	</concept>
+	<concept>
+		<code value="hospital"/>
+		<display value="Hospital"/>
+		<definition value="An organisation providing patient treatment with specialized health science and auxiliary healthcare staff and medical equipment."/>
+	</concept>
+	<concept>
+		<code value="immigration-removal-centre"/>
+		<display value="Immigration removal centre"/>
+		<definition value="An organisation providing a place where people are held for reasons relating to their immigration status. This could be: whilst immigration requests are being processed. whilst appeals against removal are being processed or. pending deportation after having had asylum applications refused."/>
+	</concept>
+	<concept>
+		<code value="independent-provider"/>
+		<display value="Independent provider"/>
+		<definition value="A private sector organization contracted by the NHS in the provision of healthcare or in the support of the provision of healthcare."/>
+	</concept>
+	<concept>
+		<code value="independent-school"/>
+		<display value="Independent school"/>
+		<definition value="A school that is not funded or controlled by central government and local authority; instead they are funded by way of tuition fees, donations and investments. Independent schools are also known as private schools or public schools."/>
+	</concept>
+	<concept>
+		<code value="independent-specialist-college"/>
+		<display value="Independent specialist college"/>
+		<definition value="An institution that provides post-16 education to young people with learning difficulties and/ or disabilities. Most students at specialist colleges have an Education Health and Care Plan (EHCP), with their needs unable to be met at a general further education college."/>
+	</concept>
+	<concept>
+		<code value="local-authority-fostering-service"/>
+		<display value="Local authority fostering service"/>
+		<definition value="An organisation that operates within a local authority to help approved foster parents to provides a safe, stable home for children and young people who cannot live with their birth families. Some placements last only a short time, while others continue for much longer, depending on what each child needs."/>
+	</concept>
+	<concept>
+		<code value="london-borough-council"/>
+		<display value="London borough council"/>
+		<definition value="An organisation acting as a single tier (unitary) council for the delivery of all services for a defined area within Greater London."/>
+	</concept>
+	<concept>
+		<code value="maintained-school"/>
+		<display value="Maintained school"/>
+		<definition value="A school that is wholly owned and maintained by the applicable local authority."/>
+	</concept>
+	<concept>
+		<code value="metropolitan-borough-council"/>
+		<display value="Metropolitan borough council"/>
+		<definition value="An organisation acting as a single tier (unitary) council for the delivery of all services for a defined area within one of the metropolitan counties of England."/>
+	</concept>
+	<concept>
+		<code value="optometry-practice"/>
+		<display value="Optometry practice"/>
+		<definition value="An organisation providing general eye health care for the public such as eye tests, routine eye scans and corrective lenses."/>
+	</concept>
+	<concept>
+		<code value="orthopaedics-centre"/>
+		<display value="Orthopaedics centre"/>
+		<definition value="An organisation offering specialized medical care for problems of the musculoskeletal system, from diagnosis to treatment."/>
+	</concept>
+	<concept>
+		<code value="pharmacy-practice"/>
+		<display value="Pharmacy practice"/>
+		<definition value="An organisation that works directly with patients to dispense medicines, providing guidance and recommendations on which medicines to take and how to take medicines safely. They may also advise on general health and wellbeing."/>
+	</concept>
+	<concept>
+		<code value="prison"/>
+		<display value="Prison"/>
+		<definition value="An organisation reponsible for the legal detention of persons in a secure facility as a punishment for a crime they have committed or while awaiting trial."/>
+	</concept>
+	<concept>
+		<code value="pupil-referral-unit"/>
+		<display value="Pupil referral unit"/>
+		<definition value="An organisation that teaches children who aren't able to attend school and may not otherwise receive suitable education. This could be because they have a short- or long-term illness, have been excluded or are a new starter waiting for a mainstream school place."/>
+	</concept>
+	<concept>
+		<code value="region"/>
+		<display value="Region"/>
+		<definition value="An administrative grouping of health boards for the purpose of cross border delivery of certain types of healthcare services."/>
+	</concept>
+	<concept>
+		<code value="residential-special-school"/>
+		<display value="Residential special school"/>
+		<definition value="A special school which accommodates pupils overnight, including a residential maintained or non-maintained special school, or a residential independent school wholly or mainly accommodating children with special educational needs."/>
+	</concept>
+	<concept>
+		<code value="secure-accommodation-service"/>
+		<display value="Secure accommodation service"/>
+		<definition value="An organisation that operates for a local authority to manage the assignment of children to secure accommodation in an approved environment outside of the prison system or police cell e.g. to a young offenders institution"/>
+	</concept>
+	<concept>
+		<code value="secure-childrens-home"/>
+		<display value="Secure children's home"/>
+		<definition value="An organisation providing a locked children's home environment that restricts the liberty of the young persons housed there.  It is a type of youth detention accommodation and/or secure welfare accommodation that caters for children and young people between the ages of 10-17"/>
+	</concept>
+	<concept>
+		<code value="secure-training-centre"/>
+		<display value="Secure training centre"/>
+		<definition value="An organisation providing a type of youth detention accommodation that caters for children and young people between the ages of 10-17 who are in custody.  Secure training centres are usually smaller than young offender institutions and provide education, training and routine."/>
+	</concept>
+	<concept>
+		<code value="sexual-assault-referral-centre"/>
+		<display value="Sexual assault referral centre"/>
+		<definition value="An organisation providing a safe space and dedicated care for anyone who has been raped, sexually assaulted or abused. They offer a range of services, including crisis care, medical and forensic examinations, emergency contraception and testing for sexually transmitted infections."/>
+	</concept>
+	<concept>
+		<code value="special-health-authority"/>
+		<display value="Special health authority (SHA)"/>
+		<definition value="An NHS body which provide services on behalf of the National Health Service in the applicable country. Unlike other types of trust, they operate nationally rather than serve a specific geographical area."/>
+	</concept>
+	<concept>
+		<code value="support"/>
+		<display value="Support"/>
+		<definition value="An organisation that supports the administration of healthcare at the level of national programmes and services."/>
+	</concept>
+	<concept>
+		<code value="Town-or-parish-council"/>
+		<display value="Town or parish council"/>
+		<definition value="An organisation with elected members which operates at a level below district, borough and city councils or unitary authorities.  They represents the needs of their local population to the applicable level of local government and can help on a number of local issues such as allotments, community centres, play areas, grants and local planning consultations.  They also have powers to issue local fines e.g. for litter, graffiti, fly posting and dog offences."/>
+	</concept>
+	<concept>
+		<code value="trust"/>
+		<display value="Trust"/>
+		<definition value="An organisation that may act as a health care providers and provide hospital services, community services and/or other aspects of patient care, such as patient transport facilities. It may also act as commissioner when sub-contracting patient care services to other providers of health care."/>
+	</concept>
+	<concept>
+		<code value="unitary-authority"/>
+		<display value="Unitary authority"/>
+		<definition value="An organisation commissioning and coordinating the provision of essential services like education, social services, housing, waste collection, and leisure.  Unitary authorities provide a single-tier local government approach, combining the functions performed by district authorities and county councils."/>
+	</concept>
+	<concept>
+		<code value="University"/>
+		<display value="University"/>
+		<definition value="An institution in which students can study for undergraduate and graduate degrees"/>
+	</concept>
+	<concept>
+		<code value="young-offenders-institution"/>
+		<display value="Young offenders institution"/>
+		<definition value="An organisation reponsible for the legal detention of youth offenders in a secure facility as a punishment for a crime they have committed or while awaiting trial, focusing on rehabilitation through education and skill development. "/>
+	</concept>
+</CodeSystem>
