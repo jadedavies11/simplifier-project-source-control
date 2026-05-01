@@ -1,4 +1,6 @@
-## Example Organization - Cardiff North Cluster
+<div class="warning"><span class="DevWarn"></span></div>
+
+## Example Message Bundle - Submit Document (Event Based)
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +22,16 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Organization-CardiffNorth}}
+      {{tree:Example-DataStandardsWales-Bundle-SubmitDocument-Event}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Organization-CardiffNorth}}
+      {{table:Example-DataStandardsWales-Bundle-SubmitDocument-Event}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Organization-CardiffNorth}}
+      {{xml:Example-DataStandardsWales-Bundle-SubmitDocument-Event}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Organization-CardiffNorth}}
-    </div>       
-    <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Organization-CardiffNorth}}
-    </div>  
+      {{json:Example-DataStandardsWales-Bundle-SubmitDocument-Event}}
+    </div>
   </div>
 </div>

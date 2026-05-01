@@ -1,4 +1,4 @@
-## Example Organization - Amman Gwendraeth Cluster
+## Example Organization - GP Cluster
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Organization-AmmanGwendraeth}}
+      {{tree:Example-DataStandardsWales-Organization-GPCluster}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Organization-AmmanGwendraeth}}
+      {{table:Example-DataStandardsWales-Organization-GPCluster}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Organization-AmmanGwendraeth}}
+      {{xml:Example-DataStandardsWales-Organization-GPCluster}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Organization-AmmanGwendraeth}}
+      {{json:Example-DataStandardsWales-Organization-GPCluster}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Organization-AmmanGwendraeth}}
+      {{narrative:Example-DataStandardsWales-Organization-GPCluster}}
     </div>  
   </div>
 </div>

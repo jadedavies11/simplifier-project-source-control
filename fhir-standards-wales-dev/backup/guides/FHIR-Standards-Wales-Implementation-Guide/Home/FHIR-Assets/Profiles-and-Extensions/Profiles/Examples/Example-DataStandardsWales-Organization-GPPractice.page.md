@@ -1,4 +1,4 @@
-## Example Organization - Cardiff and Vale University Local Health Board
+## Example Organization - GP Practice
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Organization-CAVUHB}}
+      {{tree:Example-DataStandardsWales-Organization-GPPractice}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Organization-CAVUHB}}
+      {{table:Example-DataStandardsWales-Organization-GPPractice}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Organization-CAVUHB}}
+      {{xml:Example-DataStandardsWales-Organization-GPPractice}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Organization-CAVUHB}}
+      {{json:Example-DataStandardsWales-Organization-GPPractice}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Organization-CAVUHB}}
+      {{narrative:Example-DataStandardsWales-Organization-GPPractice}}
     </div>  
   </div>
 </div>

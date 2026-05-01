@@ -1,4 +1,6 @@
-## Example Organization - North Cardiff Medical Centre
+<div class="warning"><span class="DevWarn"></span></div>
+
+## Example Message Bundle - Submit Document (Encounter Based)
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +22,16 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Organization-NCMC}}
+      {{tree:Example-DataStandardsWales-Bundle-SubmitDocument-Encounter}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Organization-NCMC}}
+      {{table:Example-DataStandardsWales-Bundle-SubmitDocument-Encounter}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Organization-NCMC}}
+      {{xml:Example-DataStandardsWales-Bundle-SubmitDocument-Encounter}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Organization-NCMC}}
-    </div>       
-    <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Organization-NCMC}}
-    </div>  
+      {{json:Example-DataStandardsWales-Bundle-SubmitDocument-Encounter}}
+    </div>
   </div>
 </div>

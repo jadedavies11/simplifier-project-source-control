@@ -60,6 +60,11 @@ The following examples represent DocumentReference resources for the three scena
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
 
+### DocumentReference Bundles
+The following examples represent DocumentReference resources as message bundles:
+* {{pagelink: Example-DataStandardsWales-Bundle-SubmitDocument-Encounter, text:Example Message Bundle - Submit Document (Encounter Based)}}
+* {{pagelink: Example-DataStandardsWales-Bundle-SubmitDocument-Event, text:Example Message Bundle - Submit Document (Event Based)}}
+
 ### Provenance
 The following examples represent Provenance resource instances for a newly created DocumentReference for which patient demographics were provided:
 * {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceCreation, text: Example Provenance for DocumentReference creation}}
