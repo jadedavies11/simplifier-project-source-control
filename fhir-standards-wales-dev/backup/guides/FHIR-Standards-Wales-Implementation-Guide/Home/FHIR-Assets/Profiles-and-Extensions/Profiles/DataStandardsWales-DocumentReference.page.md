@@ -38,6 +38,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}</li>
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}</li>
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Bundle-SubmitDocument-Encounter, text:Example Message Bundle - Submit Document (Encounter Based)}}</li>
+      <li>{{pagelink: Example-DataStandardsWales-Bundle-SubmitDocument-Event, text:Example Message Bundle - Submit Document (Event Based)}}</li>
     </list>
   </div>  
 </div>

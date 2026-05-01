@@ -9,6 +9,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
     * New Message Definitions
+        * DataStandardsWales-MessageDefinition-SubmitDocument
     * New Extensions
     * Removed to Profiles
     * Removed to Message Definitions
@@ -19,9 +20,6 @@ Package:
         * Extension-DataStandardsWales-DocumentVersion
             * Updated version from 0.1.0 to 0.2.0
             * Correct URL from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
-        * Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated
-            * Updated version from 1.0.0 to 1.0.1
-            * .status. Updated from draft to active
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
     * Removed Code Systems
@@ -38,6 +36,8 @@ Package:
         * Updated Naming Systems
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
+        * Example-DataStandardsWales-Bundle-SubmitDocument-Encounter
+        * Example-DataStandardsWales-Bundle-SubmitDocument-Event
     * Changes to Examples
         * Example-DataStandardsWales-AllergyIntolerance-Morphine
             * AllergyIntolerance.reaction.substance.code. Removed trailing white space from code
@@ -59,6 +59,10 @@ Package:
 
 Guide:
     * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+    * Added a new page to outline the DataStandardsWales-MessageDefinition-SubmitDocument profile
+    * Added new pages to outline the Example-DataStandardsWales-Bundle-SubmitDocument-Encounter and Example-DataStandardsWales-Bundle-SubmitDocument-Event resources
+    * Updated DataStandardsWales-DocumentReference with added examples
+    * Updated Document Reference guidance with added examples
 
 ### v2.5.0 STU2
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.

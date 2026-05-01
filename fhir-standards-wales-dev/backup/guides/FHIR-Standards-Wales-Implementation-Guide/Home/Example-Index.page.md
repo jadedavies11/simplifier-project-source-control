@@ -128,6 +128,8 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Admission, text:Example MedicationStatement - Patient reported - Paracetamol}}
 
 ### Message Bundle Examples
+* {{pagelink: Example-DataStandardsWales-Bundle-SubmitDocument-Encounter, text:Example Message Bundle - Submit Document (Encounter Based)}}
+* {{pagelink: Example-DataStandardsWales-Bundle-SubmitDocument-Event, text:Example Message Bundle - Submit Document (Event Based)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Literal, text:Example Message Bundle - Submit Clinician (with Literal Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Logical, text:Example Message Bundle - Submit Clinician (with Logical Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
@@ -152,16 +154,12 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-Weight, text: Example Observation - Vital Signs - Weight}}
 
 ### Organization Examples
-* {{pagelink:Example-DataStandardsWales-Organization-CAVUHB, text: Example Organization - Cardiff and Vale University Local Health Board}}
-* {{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}
-* {{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}
-* {{pagelink:Example-DataStandardsWales-Organization-UHW, text: Example Organization - University Hospital of Wales}}
 * {{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
 * {{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}
-* {{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text:Example Organization - Cardiff North Cluster}}
-* {{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text:Example Organization - Amman Gwendraeth Cluster}}
-* {{pagelink:Example-DataStandardsWales-Organization-NCMC, text:Example Organization - North Cardiff Medical Centre}}
-* {{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}
+* {{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}
+* {{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}
+* {{pagelink:Example-DataStandardsWales-Organization-GPPractice, text:Example Organization - GP Practice}}
+* {{pagelink:Example-DataStandardsWales-Organization-GPCluster, text:Example Organization - GP Cluster}}
 
 ### Patient Examples
 * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}

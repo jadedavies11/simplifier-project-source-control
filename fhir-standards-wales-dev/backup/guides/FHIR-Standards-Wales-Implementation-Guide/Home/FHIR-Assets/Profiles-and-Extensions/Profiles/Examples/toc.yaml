@@ -10,6 +10,10 @@
   filename: Example-DataStandardsWales-Bundle-SubmitClinician-Literal.page.md
 - name: Example-DataStandardsWales-Bundle-SubmitClinician-Logical
   filename: Example-DataStandardsWales-Bundle-SubmitClinician-Logical.page.md
+- name: Example-DataStandardsWales-Bundle-SubmitDocument-Encounter
+  filename: Example-DataStandardsWales-Bundle-SubmitClinician-Encounter.page.md
+- name: Example-DataStandardsWales-Bundle-SubmitDocument-Event
+  filename: Example-DataStandardsWales-Bundle-SubmitClinician-Event.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
@@ -46,26 +50,18 @@
   filename: Example-DataStandardsWales-Observation-BodyWeight.page.md
 - name: Example-DataStandardsWales-Observation-RespiratoryRate
   filename: Example-DataStandardsWales-Observation-RespiratoryRate.page.md
-- name: Example-DataStandardsWales-Organization-AmmanGwendraeth
-  filename: Example-DataStandardsWales-Organization-AmmanGwendraeth.page.md
-- name: Example-DataStandardsWales-Organization-AmmanTawe
-  filename: Example-DataStandardsWales-Organization-AmmanTawe.page.md
-- name: Example-DataStandardsWales-Organization-CAVUHB
-  filename: Example-DataStandardsWales-Organization-CAVUHB.page.md
-- name: Example-DataStandardsWales-Organization-CardiffNorth
-  filename: Example-DataStandardsWales-Organization-CardiffNorth.page.md
 - name: Example-DataStandardsWales-Organization-GGH
   filename: Example-DataStandardsWales-Organization-GGH.page.md
+- name: Example-DataStandardsWales-Organization-GPCluster
+  filename: Example-DataStandardsWales-Organization-GPCluster.page.md
+- name: Example-DataStandardsWales-Organization-GPPractice
+  filename: Example-DataStandardsWales-Organization-GPPractice.page.md
 - name: Example-DataStandardsWales-Organization-HDUHB
   filename: Example-DataStandardsWales-Organization-HDUHB.page.md
-- name: Example-DataStandardsWales-Organization-NCMC
-  filename: Example-DataStandardsWales-Organization-NCMC.page.md
 - name: Example-DataStandardsWales-Organization-NPT
   filename: Example-DataStandardsWales-Organization-NPT.page.md
 - name: Example-DataStandardsWales-Organization-SBUHB
   filename: Example-DataStandardsWales-Organization-SBUHB.page.md
-- name: Example-DataStandardsWales-Organization-UHW
-  filename: Example-DataStandardsWales-Organization-UHW.page.md
 - name: Example-DataStandardsWales-Patient-AliceJones
   filename: Example-DataStandardsWales-Patient-AliceJones.page.md
 - name: Example-DataStandardsWales-Patient-HaroldJames

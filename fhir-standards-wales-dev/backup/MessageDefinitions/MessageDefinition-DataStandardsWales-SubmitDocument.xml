@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MessageDefinition xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-MessageDefinition-SubmitDocument"/>
+	<url value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-MessageDefinition-SubmitDocument"/>
+	<version value="0.1.0" />
+	<name value="DataStandardsWalesMessageDefinitionSubmitDocument"/>
+	<title value="Data Standards Wales Message Definition Submit Document"/>
+	<status value="draft"/>
+	<date value="2026-04-21"/>
+	<publisher value="NHS Wales"/>
+	<contact>
+		<name value="FHIR Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="A FHIR message definition used to submit document metadata to the NHS Wales Care Data Repository as a new document record or update. A visualisation of the document content may be provided for storage in the NHS Wales document repository, or a reference to an external URL supplied."/>
+	<eventCoding>
+		<system value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-MessageEvent"/>
+		<code value="submit-document"/>
+		<display value="Submits a new or updated document record to the NHS Wales Care Data Repository"/>
+	</eventCoding>
+	<focus>
+		<code value="Device"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device"/>
+		<min value="1"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="DocumentReference"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
+		<min value="1"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="Encounter"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter"/>
+		<min value="0"/>
+		<max value="1"/>
+	</focus>
+	<focus>
+		<code value="Location"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location"/>
+		<min value="0"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="Organization"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+		<min value="1"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="Patient"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient"/>
+		<min value="1"/>
+		<max value="1"/>
+	</focus>
+	<focus>
+		<code value="Practitioner"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"/>
+		<min value="0"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="PractitionerRole"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+		<min value="0"/>
+		<max value="*"/>
+	</focus>
+</MessageDefinition>

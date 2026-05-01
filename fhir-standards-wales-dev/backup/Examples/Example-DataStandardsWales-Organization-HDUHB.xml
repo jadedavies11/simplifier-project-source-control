@@ -17,79 +17,7 @@
         <value value="7A2" />
     </identifier>
     <active value="true" />
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
-			<code value="public"/>
-			<display value="Public"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
-			<code value="health"/>
-			<display value="Health"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
-			<code value="provider-authority"/>
-			<display value="Provider authority"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>
-			<code value="health-board"/>
-			<display value="Health board"/>
-		</coding>
-	</type>
     <name value="Hywel Dda University Local Health Board" />
-    <alias value="Hywel Dda University Health Board">
-        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-            <valueCodeableConcept>
-                <coding>
-                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
-                    <code value="preferred-name"/>
-                    <display value="Preferred name"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
-    </alias>
-    <alias value="Hywel Dda">
-        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-            <valueCodeableConcept>
-                <coding>
-                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
-                    <code value="short-name"/>
-                    <display value="Short name"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
-    </alias>
-    <alias value="HDUHB">
-        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-            <valueCodeableConcept>
-                <coding>
-                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
-                    <code value="standard-acronym"/>
-                    <display value="Standard acronym"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
-    </alias>
-    <alias value="HDU">
-        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-            <valueCodeableConcept>
-                <coding>
-                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
-                    <code value="short-acronym"/>
-                    <display value="Short acronym"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
-    </alias>
     <telecom>
         <system value="phone" />
         <value value="01437 771220" />
