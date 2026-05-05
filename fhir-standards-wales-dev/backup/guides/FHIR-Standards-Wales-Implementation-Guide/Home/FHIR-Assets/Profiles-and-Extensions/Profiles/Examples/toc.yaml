@@ -10,10 +10,6 @@
   filename: Example-DataStandardsWales-Bundle-SubmitClinician-Literal.page.md
 - name: Example-DataStandardsWales-Bundle-SubmitClinician-Logical
   filename: Example-DataStandardsWales-Bundle-SubmitClinician-Logical.page.md
-- name: Example-DataStandardsWales-Bundle-SubmitDocument-Encounter
-  filename: Example-DataStandardsWales-Bundle-SubmitClinician-Encounter.page.md
-- name: Example-DataStandardsWales-Bundle-SubmitDocument-Event
-  filename: Example-DataStandardsWales-Bundle-SubmitClinician-Event.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
