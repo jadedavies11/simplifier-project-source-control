@@ -1,0 +1,5 @@
+## {{page-title}}
+
+The Welsh Reference and Terminology Services team in Digital Health and Care Wales are responsible for the creation of namespaces and OIDs for NHS Wales systems. If you require one to be created please contact them via email at [DHCW.WRTSServiceAccount@wales.nhs.uk](mailto:DHCW.WRTSServiceAccount%40wales.nhs.uk?subject=Namespace%20Request). 
+
+As there are several hundred systems currently registered with OIDs it has been decided that they will not all be added as naming systems. To be pragmatic, we have added the most used, high-level system identifiers shared between systems. Please remember that identifiers are extensible so you are not limited to only referencing the below namespaces. Further information can be found on the {{pagelink:Home/Design/Naming-Systems-Design.page.md}} page.

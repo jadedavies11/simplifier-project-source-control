@@ -128,8 +128,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Admission, text:Example MedicationStatement - Patient reported - Paracetamol}}
 
 ### Message Bundle Examples
-* {{pagelink: Example-DataStandardsWales-Bundle-SubmitDocument-Encounter, text:Example Message Bundle - Submit Document (Encounter Based)}}
-* {{pagelink: Example-DataStandardsWales-Bundle-SubmitDocument-Event, text:Example Message Bundle - Submit Document (Event Based)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Literal, text:Example Message Bundle - Submit Clinician (with Literal Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Logical, text:Example Message Bundle - Submit Clinician (with Logical Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}

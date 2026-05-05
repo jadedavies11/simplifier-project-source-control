@@ -9,35 +9,38 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
     * New Message Definitions
-        * DataStandardsWales-MessageDefinition-SubmitDocument
     * New Extensions
-    * Removed to Profiles
-    * Removed to Message Definitions
-    * Removed to Extensions
+    * Removed Profiles
+    * Removed Message Definitions
+    * Removed Extensions
     * Changes to Profiles
     * Changes to Message Definitions
     * Changes to Extensions
         * Extension-DataStandardsWales-DocumentVersion
             * Updated version from 0.1.0 to 0.2.0
             * Correct URL from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+        * Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated
+            * Updated version from 1.0.0 to 1.0.1
+            * .status. Updated from draft to active
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
-    * Removed Code Systems
-    * Changes to Code Systems
     * New Value Sets
+    * Removed Code Systems
     * Removed Value Sets
+    * Changes to Code Systems
     * Changes to Value Sets
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * New Naming Systems
+        * Namespace for LIMS1 TCL encounter identifier
+        * Namespace for LIMS2 TCLe encounter identifier
+        * Namespaces for PAS location identifiers
+    * Removed Naming Systems
     * Changes to Naming Systems
-        * New Naming Systems
-            * Namespace for LIMS1 TCL encounter identifier
-            * Namespace for LIMS2 TCLe encounter identifier
-            * Namespaces for PAS location identifiers
-        * Updated Naming Systems
+        * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions
+    
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
-        * Example-DataStandardsWales-Bundle-SubmitDocument-Encounter
-        * Example-DataStandardsWales-Bundle-SubmitDocument-Event
+    * Removed Examples
     * Changes to Examples
         * Example-DataStandardsWales-AllergyIntolerance-Morphine
             * AllergyIntolerance.reaction.substance.code. Removed trailing white space from code
@@ -55,14 +58,13 @@ Package:
             * Immunization.vaccineCode.coding.code. Added a value
         * Example-DataStandardsWales-Patient-HaroldJames
             * Patient.extension:religion.value. Updated the value to match sample data in ValueSet-DataStandardsWales-Religion
+        * Example-WelshClinicalPortal-growth-chart-bundle
+            * Bundle.meta.profile. Removed element.
     * Removed Examples
 
 Guide:
     * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
-    * Added a new page to outline the DataStandardsWales-MessageDefinition-SubmitDocument profile
-    * Added new pages to outline the Example-DataStandardsWales-Bundle-SubmitDocument-Encounter and Example-DataStandardsWales-Bundle-SubmitDocument-Event resources
-    * Updated DataStandardsWales-DocumentReference with added examples
-    * Updated Document Reference guidance with added examples
+    * Updated Naming Systems index page to split by organisation
 
 ### v2.5.0 STU2
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
