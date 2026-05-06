@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-MessageEvent"/>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-MessageEvent"/>
-    <version value="0.1.0" />
+    <version value="0.2.0" />
     <name value="DataStandardsWalesMessageEvent"/>
 	<title value="Data Standards Wales Message Event"/>
     <status value="draft" />
     <experimental value="false" />
-	<date value="2025-12-12" />
+	<date value="2026-05-01" />
     <publisher value="NHS Wales" />
 	<contact>
 		<name value="FHIR Standards"/>
@@ -17,10 +17,13 @@
 		</telecom>
 	</contact>
 	<description value="This ValueSet captures the nature of a Message Event."/>
-	<copyright value="2025 NHS Wales." />
+	<copyright value="2026 NHS Wales." />
 	<compose>
 		<include>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>
+		</include>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Document-MessageEvent"/>
 		</include>
 		<include>
 			<system value="https://fhir.nhs.wales/CodeSystem/message-events"/>

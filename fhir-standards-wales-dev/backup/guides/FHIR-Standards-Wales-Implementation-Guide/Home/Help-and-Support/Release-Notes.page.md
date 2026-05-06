@@ -9,6 +9,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
     * New Message Definitions
+        * DataStandardsWales-MessageDefinition-SubmitCareDocument
     * New Extensions
     * Removed Profiles
     * Removed Message Definitions
@@ -24,11 +25,15 @@ Package:
             * .status. Updated from draft to active
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
+        * DataStandardsWales-Document-MessageEvent
     * New Value Sets
     * Removed Code Systems
     * Removed Value Sets
     * Changes to Code Systems
     * Changes to Value Sets
+        * DataStandardsWales-MessageEvent
+            * Updated version from 0.1.0 to 0.2.0
+            * Added DataStandardsWales-Document-MessageEvent as a CodeSystem
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
         * Namespace for LIMS1 TCL encounter identifier
@@ -40,6 +45,8 @@ Package:
     
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
+        * Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter
+        * Example-DataStandardsWales-Bundle-SubmitCareDocument-Event
     * Removed Examples
     * Changes to Examples
         * Example-DataStandardsWales-AllergyIntolerance-Morphine
@@ -64,6 +71,10 @@ Package:
 
 Guide:
     * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+    * Added a new page to outline the DataStandardsWales-MessageDefinition-SubmitCareDocument profile
+    * Added new pages to outline the Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter and Example-DataStandardsWales-Bundle-SubmitCareDocument-Event resources
+    * Updated DataStandardsWales-DocumentReference with added examples
+    * Updated Document Reference guidance with added examples
     * Updated Naming Systems index page to split by organisation
 
 ### v2.5.0 STU2

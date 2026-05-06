@@ -6,6 +6,10 @@
   filename: Example-DataStandardsWales-Appointment-GenSurgery.page.md
 - name: Example-DataStandardsWales-AuditEvent-CreateObservations
   filename: Example-DataStandardsWales-AuditEvent-CreateObservations.page.md
+- name: Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter
+  filename: Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter.page.md
+- name: Example-DataStandardsWales-Bundle-SubmitCareDocument-Event
+  filename: Example-DataStandardsWales-Bundle-SubmitCareDocument-Event.page.md
 - name: Example-DataStandardsWales-Bundle-SubmitClinician-Literal
   filename: Example-DataStandardsWales-Bundle-SubmitClinician-Literal.page.md
 - name: Example-DataStandardsWales-Bundle-SubmitClinician-Logical
