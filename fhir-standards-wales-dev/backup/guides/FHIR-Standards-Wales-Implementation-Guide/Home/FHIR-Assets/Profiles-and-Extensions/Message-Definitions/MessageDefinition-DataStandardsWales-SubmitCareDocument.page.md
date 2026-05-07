@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:MessageDefinition/MessageDefinition-DataStandardsWales-SubmitCareDocument}}
+      {{tree:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-MessageDefinition-SubmitCareDocument}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:MessageDefinition/MessageDefinition-DataStandardsWales-SubmitCareDocument}}
+      {{table:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-MessageDefinition-SubmitCareDocument}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:MessageDefinition/MessageDefinition-DataStandardsWales-SubmitCareDocument}}
+      {{xml:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-MessageDefinition-SubmitCareDocument}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:MessageDefinition/MessageDefinition-DataStandardsWales-SubmitCareDocument}}
+      {{json:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-MessageDefinition-SubmitCareDocument}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:MessageDefinition/MessageDefinition-DataStandardsWales-SubmitCareDocument}}
+      {{narrative:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-MessageDefinition-SubmitCareDocument}}
     </div>  
   </div>
 </div>
