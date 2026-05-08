@@ -1,4 +1,4 @@
-## Example Organization - North Cardiff Medical Centre
+## Example Organization - GP Practice
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Organization-NCMC}}
+      {{tree:Example-DataStandardsWales-Organization-GPPractice}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Organization-NCMC}}
+      {{table:Example-DataStandardsWales-Organization-GPPractice}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Organization-NCMC}}
+      {{xml:Example-DataStandardsWales-Organization-GPPractice}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Organization-NCMC}}
+      {{json:Example-DataStandardsWales-Organization-GPPractice}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Organization-NCMC}}
+      {{narrative:Example-DataStandardsWales-Organization-GPPractice}}
     </div>  
   </div>
 </div>

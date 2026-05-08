@@ -1,29 +1,24 @@
 <Organization xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Organization-GGH" />
+    <id value="Example-DataStandardsWales-Organization-GPCluster" />
     <meta>
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
     </meta>
     <text>
         <status value="generated" />
-        <div xmlns="http://www.w3.org/1999/xhtml">Glangwili General Hospital</div>
-    </text>     
+        <div xmlns="http://www.w3.org/1999/xhtml">Amman Gwendraeth GP Cluster</div>
+    </text>       
     <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
-        <valuePeriod>
-            <start value="2009-10-01" />
-        </valuePeriod>
-    </extension>
+		<valuePeriod>
+			<start value="2018-01-01" />
+		</valuePeriod>
+	</extension>	
     <identifier>
-        <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-        <value value="7A2AG" />
+        <use value="official" />
+        <system value="https://fhir.nhs.wales/Id/gpcluster-code" />
+        <value value="CC201" />
     </identifier>
-    <active value="true" />
-    <name value="Glangwili General Hospital" />
-    <address>
-        <line value="Dolgwili Road" />
-        <city value="Carmarthen" />
-        <district value="Dyfed" />
-        <postalCode value="SA31 2AF" />
-    </address>
+    <active value="true" />    
+    <name value="Amman Gwendraeth GP Cluster" />
     <partOf>
 		<identifier>
 			<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
