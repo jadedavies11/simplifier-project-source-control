@@ -1,32 +1,104 @@
 <Organization xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Organization-SBUHB" />
+    <id value="Example-DataStandardsWales-Organization-SBUHB"/>
     <meta>
-        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
     </meta>
     <text>
-        <status value="generated" />
+        <status value="generated"/>
         <div xmlns="http://www.w3.org/1999/xhtml">Swansea Bay University Local Health Board</div>
     </text>    
     <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
         <valuePeriod>
-            <start value="2009-10-01" />
+            <start value="2009-06-01"/>
         </valuePeriod>
     </extension>
     <identifier>
-        <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-        <value value="7A3" />
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="7A3"/>
     </identifier>
-    <active value="true" />
-    <name value="Swansea Bay University Local Health Board" />
+    <active value="true"/>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
+			<code value="public"/>
+			<display value="Public"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
+			<code value="health"/>
+			<display value="Health"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
+			<code value="provider-authority"/>
+			<display value="Provider authority"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>
+			<code value="health-board"/>
+			<display value="Health board"/>
+		</coding>
+	</type>
+    <name value="Swansea Bay University Local Health Board"/>
+    <alias value="Swansea Bay University Health Board">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="preferred-name"/>
+                    <display value="Preferred name"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="Swansea Bay">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="short-name"/>
+                    <display value="Short name"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="SBUHB">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="standard-acronym"/>
+                    <display value="Standard acronym"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="SBU">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="short-acronym"/>
+                    <display value="Short acronym"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
     <telecom>
-        <system value="phone" />
-        <value value="01639 683670" />
+        <system value="phone"/>
+        <value value="01639 683670"/>
     </telecom>
     <address>
-        <line value="One Talbot Gateway, Seaway Drive" />
-        <line value="Hafan Seaway Parade Industrial Estate" />
-        <line value="Baglan" />        
-        <city value="Port Talbot" />
-        <postalCode value="SA12 7BR" />        
+        <line value="One Talbot Gateway, Seaway Drive"/>
+        <line value="Hafan Seaway Parade Industrial Estate"/>
+        <line value="Baglan"/>        
+        <city value="Port Talbot"/>
+        <postalCode value="SA12 7BR"/>        
     </address>
 </Organization>
