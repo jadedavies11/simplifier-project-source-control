@@ -1,5 +1,7 @@
 - name: Index
   filename: Index.page.md
+- name: ValueSet-DataStandardsWales-AliasType
+  filename: ValueSet-DataStandardsWales-AliasType.page.md
 - name: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic
   filename: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic.page.md
 - name: ValueSet-DataStandardsWales-BloodPressure-Diastolic
@@ -48,6 +50,14 @@
   filename: ValueSet-DataStandardsWales-ObservationVitalSignsType.page.md
 - name: ValueSet-DataStandardsWales-Occupation
   filename: ValueSet-DataStandardsWales-Occupation.page.md
+- name: ValueSet-DataStandardsWales-OrganizationClassification
+  filename: ValueSet-DataStandardsWales-OrganizationClassification.page.md
+- name: ValueSet-DataStandardsWales-OrganizationDomain
+  filename: ValueSet-DataStandardsWales-OrganizationDomain.page.md
+- name: ValueSet-DataStandardsWales-OrganizationSector
+  filename: ValueSet-DataStandardsWales-OrganizationSector.page.md
+- name: ValueSet-DataStandardsWales-OrganizationSublassification
+  filename: ValueSet-DataStandardsWales-OrganizationSubclassification.page.md
 - name: ValueSet-DataStandardsWales-OxygenSaturation
   filename: ValueSet-DataStandardsWales-OxygenSaturation.page.md
 - name: ValueSet-DataStandardsWales-PatientRecordType

@@ -9,11 +9,22 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
     * New Message Definitions
+        * DataStandardsWales-MessageDefinition-SubmitCareDocument
     * New Extensions
+        * Extension-DataStandardsWales-AliasType
     * Removed Profiles
     * Removed Message Definitions
     * Removed Extensions
     * Changes to Profiles
+        * DataStandardsWales-Organization
+            * Updated version from 1.1.1 to 1.2.0
+            * .identifier slice odsOrganisationCode. Added a must support flag
+            * .identifier slice gpClusterCode. To be deprecated and updated definition
+            * .type. Added sector, domain, classification and subclassification slices with a must support flag and extensible value set bindings
+            * .type. Removed ValueSet-UKCore-OrganizationType and added ValueSet-DataStandardsWales-OrganizationTypeExtended
+            * .alias. Added Extension-DataStandardsWales-AliasType
+            * .address. Added Extension-UKCore-AddressKey
+            * .address.postaLCode. Removed Wales-specific guidance from definition
     * Changes to Message Definitions
     * Changes to Extensions
         * Extension-DataStandardsWales-DocumentVersion
@@ -24,11 +35,27 @@ Package:
             * .status. Updated from draft to active
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
-    * New Value Sets
+        * DataStandardsWales-AliasType
+        * DataStandardsWales-Document-MessageEvent
+        * DataStandardsWales-OrganizationClassification
+        * DataStandardsWales-OrganizationDomain
+        * DataStandardsWales-OrganizationSector
+        * DataStandardsWales-OrganizationSublassification
     * Removed Code Systems
+    * Changes to Code Systems
+    * New Value Sets
+        * DataStandardsWales-AliasType
+        * DataStandardsWales-OrganizationClassification
+        * DataStandardsWales-OrganizationDomain
+        * DataStandardsWales-OrganizationSector
+        * DataStandardsWales-OrganizationSublassification
+        * DataStandardsWales-OrganizationTypeExtended
     * Removed Value Sets
     * Changes to Code Systems
     * Changes to Value Sets
+        * DataStandardsWales-MessageEvent
+            * Updated version from 0.1.0 to 0.2.0
+            * Added DataStandardsWales-Document-MessageEvent as a CodeSystem
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
         * Namespace for LIMS1 TCL encounter identifier
@@ -36,11 +63,17 @@ Package:
         * Namespaces for PAS location identifiers
     * Removed Naming Systems
     * Changes to Naming Systems
-        * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions
-    
+        * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions   
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
-    * Removed Examples
+        * Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter
+        * Example-DataStandardsWales-Bundle-SubmitCareDocument-Event
+        * Example-DataStandardsWales-Organization-AmmanGwendraeth
+        * Example-DataStandardsWales-Organization-AmmanTawe
+        * Example-DataStandardsWales-Organization-CAVUHB
+        * Example-DataStandardsWales-Organization-CardiffNorth
+        * Example-DataStandardsWales-Organization-NCMC
+        * Example-DataStandardsWales-Organization-UHW
     * Changes to Examples
         * Example-DataStandardsWales-AllergyIntolerance-Morphine
             * AllergyIntolerance.reaction.substance.code. Removed trailing white space from code
@@ -56,14 +89,44 @@ Package:
             * Immunization.performer.actor.type. Added a value
         * Example-DataStandardsWales-Immunization-NotGiven
             * Immunization.vaccineCode.coding.code. Added a value
+        * Example-DataStandardsWales-Organization-GGH
+            * Added .type and .alias entries
+            * Corrected .partOf reference
+            * Removed trailing spaces
+        * Example-DataStandardsWales-Organization-HDUHB
+            * Added .type and .alias entries
+            * Removed trailing spaces
+        * Example-DataStandardsWales-Organization-NPT
+            * Added .type and .alias entries
+            * Corrected .partOf reference
+            * Removed trailing spaces
+        * Example-DataStandardsWales-Organization-SBUHB
+            * Added .type and .alias entries
+            * Removed trailing spaces
         * Example-DataStandardsWales-Patient-HaroldJames
             * Patient.extension:religion.value. Updated the value to match sample data in ValueSet-DataStandardsWales-Religion
         * Example-WelshClinicalPortal-growth-chart-bundle
             * Bundle.meta.profile. Removed element.
     * Removed Examples
+        * Example-DataStandardsWales-Organization-GPCluster
+            * Replaced by Example-DataStandardsWales-Organization-AmmanGwendraeth
+        * Example-DataStandardsWales-Organization-GPPractice
+            * Replaced by Example-DataStandardsWales-Organization-AmmanTawe
+* {{pagelink:Home/Design/Naming-Conventions, text:Naming Conventions}}:
+    * New Naming Conventions for MessageDefinition and MessageEvent
+        * Naming-Conventions-for-Message-Definition.page.md
 
 Guide:
     * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+    * Added new pages to outline the Code Systems created in this release
+    * Added new pages to outline the Value Sets created in this release
+    * Added new pages to outline the Examples created in this release
+    * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
+    * Updated Administrative Data guidance page to reflect the new examples
+    * Added a new page to outline the DataStandardsWales-MessageDefinition-SubmitCareDocument profile
+    * Added new pages to outline the Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter and Example-DataStandardsWales-Bundle-SubmitCareDocument-Event resources
+    * Updated DataStandardsWales-DocumentReference with added examples
+    * Updated Document Reference guidance with added examples
     * Updated Naming Systems index page to split by organisation
 
 ### v2.5.0 STU2
