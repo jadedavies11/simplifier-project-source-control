@@ -6,6 +6,9 @@ This page describes the published versions of this implementation guide and diff
 ### v2.6.0 STU2
 
 Package: 
+* Dependencies
+    * New Dependencies
+        * hl7.fhir.uv.xver-r5.r4: 0.1.0
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
     * New Message Definitions
@@ -15,21 +18,19 @@ Package:
     * Removed Profiles
     * Removed Message Definitions
     * Removed Extensions
+        * Extension-DataStandardsWales-DocumentAttester
+        * Extension-DataStandardsWales-DocumentVersion
+        * Extension-DataStandardsWales-Immunization.basedOn
     * Changes to Profiles
-        * DataStandardsWales-Organization
-            * Updated version from 1.1.1 to 1.2.0
-            * .identifier slice odsOrganisationCode. Added a must support flag
-            * .identifier slice gpClusterCode. To be deprecated and updated definition
-            * .type. Added sector, domain, classification and subclassification slices with a must support flag and extensible value set bindings
-            * .type. Removed ValueSet-UKCore-OrganizationType and added ValueSet-DataStandardsWales-OrganizationTypeExtended
-            * .alias. Added Extension-DataStandardsWales-AliasType
-            * .address. Added Extension-UKCore-AddressKey
-            * .address.postaLCode. Removed Wales-specific guidance from definition
+        * DataStandardsWales-DocumentReference
+            * Updated version from 0.1.0 to 0.2.0
+            * extension:versionR5 url changed to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version to reflect formal R5 to R4 backport. Updated short description, description, comments and requirements
+            * extension:attesterR5 url changed to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester to reflect formal R5 to R4 backport. Updated short description, description, comments and requirements
+        * DataStandardsWales-Immunization
+            * Updated version from 1.2.0 to 1.3.0
+            * extension:immunizationBasedOnR5 url changed to http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn to reflect formal R5 to R4 backport. Updated short description, description, and comments
     * Changes to Message Definitions
     * Changes to Extensions
-        * Extension-DataStandardsWales-DocumentVersion
-            * Updated version from 0.1.0 to 0.2.0
-            * Correct URL from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
         * Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated
             * Updated version from 1.0.0 to 1.0.1
             * .status. Updated from draft to active
@@ -41,8 +42,6 @@ Package:
         * DataStandardsWales-OrganizationDomain
         * DataStandardsWales-OrganizationSector
         * DataStandardsWales-OrganizationSublassification
-    * Removed Code Systems
-    * Changes to Code Systems
     * New Value Sets
         * DataStandardsWales-AliasType
         * DataStandardsWales-OrganizationClassification
@@ -50,8 +49,12 @@ Package:
         * DataStandardsWales-OrganizationSector
         * DataStandardsWales-OrganizationSublassification
         * DataStandardsWales-OrganizationTypeExtended
+    * Removed Code Systems
     * Removed Value Sets
     * Changes to Code Systems
+        * DataStandardsWales-DocumentAttribute
+            * Updated version from 0.1.0 to 0.2.0 
+            * Added concept DocumentTypeCode
     * Changes to Value Sets
         * DataStandardsWales-MessageEvent
             * Updated version from 0.1.0 to 0.2.0
@@ -82,9 +85,11 @@ Package:
         * Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
             * Condition.clinicalStatus. Added a value
         * Example-DataStandardsWales-DocumentReference-EncounterBased
-            * DocumentReference.extension:versionR5. Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+            * DocumentReference.extension:attesterR5. Corrected extension url from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttester to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester
+            * DocumentReference.extension:versionR5. Corrected extension url from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version
         * Example-DataStandardsWales-DocumentReference-EventBased
-            * DocumentReference.extension:versionR5. Corrected extension from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+            * DocumentReference.extension:attesterR5. Corrected extension url from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttester to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester
+            * DocumentReference.extension:versionR5. Corrected extension url from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version
         * Example-DataStandardsWales-Immunization-FluVaccine
             * Immunization.performer.actor.type. Added a value
         * Example-DataStandardsWales-Immunization-NotGiven
@@ -112,21 +117,25 @@ Package:
             * Replaced by Example-DataStandardsWales-Organization-AmmanGwendraeth
         * Example-DataStandardsWales-Organization-GPPractice
             * Replaced by Example-DataStandardsWales-Organization-AmmanTawe
-* {{pagelink:Home/Design/Naming-Conventions, text:Naming Conventions}}:
-    * New Naming Conventions for MessageDefinition and MessageEvent
-        * Naming-Conventions-for-Message-Definition.page.md
 
 Guide:
     * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+    * Added new pages to outline the Extensions created in this release
+    * Added new pages to outline the Message Definitions created in this release
+    * Added new pages to outline the Examples created in this release
     * Added new pages to outline the Code Systems created in this release
     * Added new pages to outline the Value Sets created in this release
     * Added new pages to outline the Examples created in this release
-    * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
-    * Updated Administrative Data guidance page to reflect the new examples
     * Added a new page to outline the DataStandardsWales-MessageDefinition-SubmitCareDocument profile
     * Added new pages to outline the Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter and Example-DataStandardsWales-Bundle-SubmitCareDocument-Event resources
+    * Updated Administrative Data guidance page to reflect the new Organization examples
+    * Updated Care Documents guidance with added examples and to clarify potential role of Device as author
+    * Updated DataStandardsWales-DocumentReference page to reflect the use of R5 backport extensions from dependency package
+    * Updated DataStandardsWales-Immunization page to reflect the use of R5 backport extensions from dependency package
+    * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
     * Updated DataStandardsWales-DocumentReference with added examples
-    * Updated Document Reference guidance with added examples
+    * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
+    * Updated DocumentReference examples to provide a fuller description of the scenario
     * Updated Naming Systems index page to split by organisation
 
 ### v2.5.0 STU2
@@ -165,7 +174,7 @@ Package:
         * DataStandardsWales-DocumentReference
             * Updated version from 0.0.1 to 0.1.0
             * .experimental. Updated from true to false
-            * extension:versionR5 url changed to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+            * extension:versionR5 url changed to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version 
             * extension:attesterR5 url changed to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester
             * .content.attachment.language. Updated description and Requirements
             * .content.format. Updated description

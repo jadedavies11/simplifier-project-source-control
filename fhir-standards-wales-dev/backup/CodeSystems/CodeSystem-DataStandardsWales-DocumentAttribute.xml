@@ -2,12 +2,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-DocumentAttribute"/>
 	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentAttribute"/>
-    <version value="0.1.0" />
+    <version value="0.2.0" />
 	<name value="DataStandardsWalesDocumentAttribute"/>
 	<title value="Data Standards Wales Document Attribute"/>
     <status value="draft" />
     <experimental value="false" />	
-    <date value="2026-02-25" />
+    <date value="2026-05-08" />
     <publisher value="NHS Wales" />
     <contact>
 		<name value="FHIR Standards" />
@@ -170,6 +170,10 @@
 		<code value="DocumentSubType"/>
 		<display value="Document Subtype"/>
 	</concept>
+    <concept>
+        <code value="DocumentTypeCode"/>
+        <display value="Document Type Code (WCP)"/>
+    </concept>
 	<concept>
 		<code value="Duplicate"/>
 		<display value="Duplicate"/>

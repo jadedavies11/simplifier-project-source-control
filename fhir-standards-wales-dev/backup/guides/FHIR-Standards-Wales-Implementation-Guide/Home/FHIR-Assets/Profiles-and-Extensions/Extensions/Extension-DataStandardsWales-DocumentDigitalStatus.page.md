@@ -2,7 +2,7 @@
 An extension to capture the digital status of a document
 
 ### Purpose
-This extension extends the DocumentReference resource to capture an indicator of whether the document was created as a digital document or via scanning of a paper document.
+This extends the DocumentReference resource to capture an indicator of whether the document was created as a digital document or via scanning of a paper document.
 
 ### Context of Use
 This extension may be used on the following profile(s):
