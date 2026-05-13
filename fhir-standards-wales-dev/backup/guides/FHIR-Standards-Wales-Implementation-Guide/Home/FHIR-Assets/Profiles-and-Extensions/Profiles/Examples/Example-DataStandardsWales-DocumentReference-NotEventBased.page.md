@@ -1,7 +1,5 @@
 ## Example Document Reference - Not event-based
-This example represents a document related to patient health or care but not based on a patient healthcare event.  The document is a confirmation of medical insurance coverage for treatment for a specified period, that directly replaces a document for insurance coverage now expired."
-
-NOTE that the example is illustrative of DocumentReference content in this sort of scenario.  Not all of the referenced resources currently exist as examples within this implementation guide.
+This example represents a document related to patient health or care but not based on a patient healthcare event. 
 
 <div class="tab-wrap">
   <ul class="tab-head">

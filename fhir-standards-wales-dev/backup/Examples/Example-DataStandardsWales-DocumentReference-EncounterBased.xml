@@ -1,5 +1,5 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
-  <id value="Example-DataStandardsWales-DocumentReference-EventBased" />
+  <id value="Example-DataStandardsWales-DocumentReference-EncounterBased" />
   <meta>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
   </meta>
@@ -12,10 +12,11 @@
       <display value="System ABC" />
     </valueReference>
   </extension>
-  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version">
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
+">
     <valueString value="1" />
   </extension>
-  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester">
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester">
     <extension url="mode">
       <valueCodeableConcept>
         <coding>
@@ -77,7 +78,7 @@
     <value value="6DB699D2-AD58-43DD-AEA5-341AE3DBFF93" />
   </identifier>
   <status value="current" />
-  <docStatus value="amended" />
+  <docStatus value="final" />
   <type>
     <coding>
       <system value="http://snomed.info/sct" />
@@ -125,9 +126,9 @@
     </attachment>
   </content>
   <context>
-    <period>
-      <start value="2025-07-22T13:09:37+00:00" />
-    </period>
+    <encounter>
+      <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation" />
+    </encounter>
     <practiceSetting>
       <coding>
         <system value="http://snomed.info/sct" />
@@ -135,21 +136,5 @@
         <display value="Diabetic medicine service" />
       </coding>
     </practiceSetting>
-    <related>
-      <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
-      <display value="Hywel Dda University Health Board" />
-    </related>
-    <related>
-      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospital" />
-      <display value="Glangwili General Hospital" />
-    </related>
-    <related>
-      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospitalOPD" />
-      <display value="Glangwili General Hospital Outpatients Department" />
-    </related>
-    <related>
-      <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
-      <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
-    </related>
   </context>
 </DocumentReference>

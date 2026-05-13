@@ -85,11 +85,9 @@ Each Immunization **must support**:
 ### Extensions
 
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard:
-  * Data Standards Wales extensions
-    * {{pagelink:Extension-DataStandardsWales-AdministeredProduct,text:DataStandardsWales-AdministeredProduct}}
-    * {{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated,text:DataStandardsWales-DateProcedureLastUpdated}}
-    * {{pagelink:Extension-DataStandardsWales-ForecastCreationSource,text:DataStandardsWales-ForecastCreationSource}}
 
-  * Backport extensions (from R5 via package [hl7.fhir.uv.xver-r5.r4 0.1.0](https://simplifier.net/packages/hl7.fhir.uv.xver-r5.r4/0.1.0))
-    * [ExtensionImmunization_BasedOn](http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.BasedOn)
+* {{pagelink:Extension-DataStandardsWales-AdministeredProduct,text:DataStandardsWales-AdministeredProduct}}
+* {{pagelink:Extension-DataStandardsWales-DateProcedureLastUpdated,text:DataStandardsWales-DateProcedureLastUpdated}}
+* {{pagelink:Extension-DataStandardsWales-ForecastCreationSource,text:DataStandardsWales-ForecastCreationSource}}
+* {{pagelink:Extension-DataStandardsWales-Immunization.basedOn,text:DataStandardsWales-Immunization.basedOn}}
 

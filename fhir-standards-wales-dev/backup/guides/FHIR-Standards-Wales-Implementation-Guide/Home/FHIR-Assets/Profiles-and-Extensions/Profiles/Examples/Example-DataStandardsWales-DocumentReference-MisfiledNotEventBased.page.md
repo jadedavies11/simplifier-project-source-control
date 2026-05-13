@@ -1,7 +1,5 @@
 ## Example Document Reference - Misfiled (document not event-based)
-This example illustrates a document reference that represents the misfiling of the example document in {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}.  In this scenario the original document was erroneously recorded against the prior patient seen.  The `errorAction` extension has been used to record the steps in the misfiling workflow: in which a nurse noticed the error and proposed the misfile, then subsequently the misfile was reviewed and accepted by a consultant.  The `status` and `errorStatus` have been updated accordingly.
-
-NOTE that the example is illustrative of DocumentReference content in a misfile scenario.  Not all of the referenced resources currently exist as examples within this implementation guide.
+This example represents a document which has been misfiled via a two-step workflow: misfile proposed and then accepted.  The document in this example is not based on a patient healthcare event.
 
 <div class="tab-wrap">
   <ul class="tab-head">

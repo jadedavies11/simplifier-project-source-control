@@ -1,8 +1,8 @@
 ## {{page-title}}
-An extension to capture the digital status of a document
+An extension to capture an explicitly assigned identifer of a variation of the content in the DocumentReference. (Backport from FHIR R5.)
 
 ### Purpose
-This extension extends the DocumentReference resource to capture an indicator of whether the document was created as a digital document or via scanning of a paper document.
+This extension, which is an R5 backport, extends the DocumentReference resource to capture a business version identifier (not a resource version id).  It can be used to store the SetSequenceNumber of a document from the Welsh Care Records Service. 
 
 ### Context of Use
 This extension may be used on the following profile(s):
@@ -20,7 +20,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

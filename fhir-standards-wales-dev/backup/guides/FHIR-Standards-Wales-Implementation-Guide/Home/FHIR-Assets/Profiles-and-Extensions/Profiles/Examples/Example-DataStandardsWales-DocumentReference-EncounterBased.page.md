@@ -1,7 +1,5 @@
 ## Example Document Reference - Encounter-based
-This document reference example represents a document from a patient consultation with the adult diabetes service that has been captured as an Encounter in the patient record.  The patient was seen by a nurse and a dietitian, who both authored content within the document.  The document was finalised and approved by the consultant with overall responsibility for the patient's care.  The document content is signposted by a url to the location from which the document PDF can be retrieved for display.
-
-NOTE that the example is illustrative of DocumentReference content in the case that an Encounter exists.  That Encounter holds the document metadata items that relate to the event such as event location and senior responsible clinician.  Not all of the referenced resources currently exist as examples within this implementation guide.
+This example represents a document based on a patient event that is a FHIR Encounter resource.
 
 <div class="tab-wrap">
   <ul class="tab-head">
