@@ -1,7 +1,5 @@
 ## Example Document Reference - Event-based
-This document reference example represents a document from a patient consultation with the adult diabetes service that has no corresponding Encounter in the patient record.  The patient was seen by a nurse and a dietitian in the outpatients department of Glangwili General Hospital. Both clinicians authored content within the document, which was finalised and approved by the consultant with overall responsibility for the patient's care.  The document content is signposted by a url to the location from which the document PDF can be retrieved for display.
-
-NOTE that the example is illustrative of DocumentReference content in the case that no Encounter resource exists to hold the document metadata items that relate to the event.  So it includes context references to the event organisation (health board), the event site (hospital location), the event location (the outpatients department) and the senior responsible clinician.  Not all of the referenced resources currently exist as examples within this implementation guide.
+This example represents a document based on a patient event that is not a FHIR Encounter resource.
 
 <div class="tab-wrap">
   <ul class="tab-head">

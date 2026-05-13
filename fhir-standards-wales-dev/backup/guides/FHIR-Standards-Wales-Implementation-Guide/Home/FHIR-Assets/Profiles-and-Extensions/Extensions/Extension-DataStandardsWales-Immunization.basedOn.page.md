@@ -1,12 +1,12 @@
 ## {{page-title}}
-An extension to capture the digital status of a document
+An extension to carry a plan, order or recommendation fulfilled in whole or in part by this immunisation.
 
 ### Purpose
-This extension extends the DocumentReference resource to capture an indicator of whether the document was created as a digital document or via scanning of a paper document.
+This extension, which is a R5 backport, allows tracing of an authorisation for the immunisation.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-- DocumentReference
+* Immunization
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -20,7 +20,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Immunization.basedOn, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

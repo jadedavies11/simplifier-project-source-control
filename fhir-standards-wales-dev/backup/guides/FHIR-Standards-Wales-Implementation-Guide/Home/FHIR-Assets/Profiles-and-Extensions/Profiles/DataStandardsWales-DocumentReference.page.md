@@ -86,14 +86,11 @@ The extensions listed below allow a number of the data elements listed above to 
   * Data Standards Wales extensions
     * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a mandatory indication of whether the document was born digital or scanned.
     * {{pagelink:Extension-DataStandardsWales-SourceSystem}} supports the identification of the system which supplied the document details.
+    * {{pagelink:Extension-DataStandardsWales-DocumentVersion}} supports the capture of a document version as defined in FHIR R5.
+    * {{pagelink:Extension-DataStandardsWales-DocumentAttester}} supports the capture of attester details as defined in FHIR R5 via a complex extension.
     * {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}} supports the exchange of information about the validity of the document.
     * {{pagelink:Extension-DataStandardsWales-DocumentErrorAction}} supports the capture of the error workflow actions that led to the current error status.
     * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of additional document metadata via a complex extension.
-
-  * Backport extensions (from R5 via package [hl7.fhir.uv.xver-r5.r4 0.1.0](https://simplifier.net/packages/hl7.fhir.uv.xver-r5.r4/0.1.0))
-    * [ExtensionDocumentReference_Attester](http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester) supports the identifiication of the person or entity that attested to the accuracy of the document.
-    * [ExtensionDocumentReference_Version](http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version) supports the capture of an explicitly assigned identifer of a variation of the content in the DocumentReference.
-
 
 
 
