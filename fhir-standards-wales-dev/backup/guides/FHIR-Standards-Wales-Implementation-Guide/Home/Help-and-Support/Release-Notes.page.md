@@ -112,6 +112,8 @@ Package:
             * Replaced by Example-DataStandardsWales-Organization-AmmanGwendraeth
         * Example-DataStandardsWales-Organization-GPPractice
             * Replaced by Example-DataStandardsWales-Organization-AmmanTawe
+* {{pagelink:Home/Design/Naming-Conventions, text:Naming Conventions}}:
+    * Added Naming Conventions for Message Definition Resources section
 
 Guide:
     * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
@@ -125,7 +127,6 @@ Guide:
     * Updated DataStandardsWales-DocumentReference with added examples
     * Updated Document Reference guidance with added examples
     * Updated Naming Systems index page to split by organisation
-    * Added a new section under the Care Documents guidance page to outline the version handling
 
 ### v2.5.0 STU2
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
