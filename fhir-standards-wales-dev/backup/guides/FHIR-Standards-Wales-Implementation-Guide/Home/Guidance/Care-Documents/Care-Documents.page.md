@@ -20,9 +20,6 @@
   - [Document Error Workflow](#document-error-workflow)
     * [Misfiling Workflow](#misfiling-workflow)
     * [Revocation Workflow](#revocation-workflow)
-  - [Care Document Versions](#care-document-versions)
-    * [How versioning works in WCRS](#how-versioning-works-in-WCRS)
-    * [How versioning works in FHIR](#how-versioning-works-in-FHIR)
 </div>
 
 *The scope of this guidance is the storage of metadata for documents related to the care of individual patients as part of their individual health care records.*
