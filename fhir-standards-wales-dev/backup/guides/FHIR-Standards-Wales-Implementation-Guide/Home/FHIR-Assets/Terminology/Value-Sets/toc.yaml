@@ -20,16 +20,10 @@
   filename: ValueSet-DataStandardsWales-BodyTemperature.page.md
 - name: ValueSet-DataStandardsWales-BodyWeightMeasurements
   filename: ValueSet-DataStandardsWales-BodyWeightMeasurements.page.md
-- name: ValueSet-DataStandardsWales-DocumentAttribute
-  filename: ValueSet-DataStandardsWales-DocumentAttribute.page.md
 - name: ValueSet-DataStandardsWales-DocumentCategory
   filename: ValueSet-DataStandardsWales-DocumentCategory.page.md
 - name: ValueSet-DataStandardsWales-DocumentDigitalStatus
   filename: ValueSet-DataStandardsWales-DocumentDigitalStatus.page.md
-- name: ValueSet-DataStandardsWales-DocumentErrorAction
-  filename: ValueSet-DataStandardsWales-DocumentErrorAction.page.md
-- name: ValueSet-DataStandardsWales-DocumentErrorStatus
-  filename: ValueSet-DataStandardsWales-DocumentErrorStatus.page.md
 - name: ValueSet-DataStandardsWales-EncounterType
   filename: ValueSet-DataStandardsWales-EncounterType.page.md
 - name: ValueSet-DataStandardsWales-DocumentType
