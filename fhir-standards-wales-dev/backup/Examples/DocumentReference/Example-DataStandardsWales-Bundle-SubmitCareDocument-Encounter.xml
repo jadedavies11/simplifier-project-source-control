@@ -24,19 +24,14 @@
 					<display value="DH000567 - Dr Dhiren Patel (SBUHB Dermatology Consultant)"/>
 				</enterer>
 				<source>
-					<name value="Welsh PAS (SBUHB Instance)"/>
-					<endpoint value="https://wpas.sbuhb.wales.nhs.uk"/>
+					<name value="ABMU Myrddin (New)"/>
+					<endpoint value="2.16.840.1.113883.2.1.8.1.5.108"/>
 				</source>
 				<responsible>
 					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
 					<type value="Organization"/>
 					<display value="Swansea Bay University Local Health Board"/>
 				</responsible>
-				<focus>
-					<reference value="urn:uuid:b807b330-3795-412a-967e-58ec2b935fea"/>
-					<type value="Device"/>
-					<display value="Welsh PAS (SBUHB Instance)"/>
-				</focus>
 				<focus>
 					<reference value="urn:uuid:c58877a4-3b18-4147-bf07-35580ad85a67"/>
 					<type value="DocumentReference"/>
@@ -82,51 +77,36 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="urn:uuid:b807b330-3795-412a-967e-58ec2b935fea"/>
-		<resource>
-			<Device>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
-				</meta>
-				<identifier>
-					<system value="https://fhir.nhs.wales/Id/application-instance-identifier" />
-					<value value="142" />
-				</identifier>
-				<manufacturer value="DHCW" />
-				<deviceName>
-					<name value="Welsh PAS (SBUHB Instance)" />
-					<type value="user-friendly-name" />
-				</deviceName>
-				<owner>
-					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a" />
-					<display value="Swansea Bay University Local Health Board" />
-				</owner>
-				<note>
-					<text value="SBUHB WPAS" />
-				</note>
-			</Device>
-		</resource>
-	</entry>
-	<entry>
 		<fullUrl value="urn:uuid:c58877a4-3b18-4147-bf07-35580ad85a67"/>
 		<resource>
 			<DocumentReference>
 				<meta>
+					<source value="2.16.840.1.113883.2.1.8.1.5.108"/>
 					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
+					<tag>
+						<system value="seqno"/>
+						<display value="1"/>
+					</tag>
+					<tag>
+						<system value="docattr_documenttypecode"/>
+						<display value="CLINICATT"/>
+					</tag>
+					<tag>
+						<system value="docattr_documentsubtype"/>
+						<display value="Face to face"/>
+					</tag>
+					<tag>
+						<system value="docattr_thirdpartydataincluded"/>
+						<display value="True"/>
+					</tag>
 				</meta>
 				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
 					<valueCode value="born-digital-document" />
 				</extension>
-				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem">
-					<valueReference>
-						<reference value="urn:uuid:b807b330-3795-412a-967e-58ec2b935fea" />
-						<display value="Welsh PAS (SBUHB Instance)" />
-					</valueReference>
-				</extension>
-					<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version">
+				<extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version">
 					<valueString value="1" />
 				</extension>
-				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester">
+				<extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester">
 					<extension url="mode">
 						<valueCodeableConcept>
 							<coding>
@@ -144,28 +124,6 @@
 							<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0" />
 							<display value="DH000567 - Dr Dhiren Patel (SBUHB Dermatology Consultant)"/>
 						</valueReference>
-					</extension>
-				</extension>
-				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
-					<extension url="attributeName">
-						<valueCode value="ThirdPartyDataIncluded" />
-					</extension>
-					<extension url="attributeValue">
-						<valueString value="True" />
-					</extension>
-					<extension url="attributeNamespace">
-						<valueString value="http://www.wales.nhs.uk/ndr" />
-					</extension>
-				</extension>
-				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
-					<extension url="attributeName">
-						<valueCode value="DocumentSubType" />
-					</extension>
-					<extension url="attributeValue">
-						<valueString value="Adult services" />
-					</extension>
-					<extension url="attributeNamespace">
-						<valueString value="http://www.wales.nhs.uk/ndr" />
 					</extension>
 				</extension>
 				<identifier>
@@ -224,6 +182,13 @@
 					<encounter>
 						<reference value="urn:uuid:385afcbd-75b2-484d-8613-55d7af6b06a6" />
 					</encounter>
+					<practiceSetting>
+						<coding>
+							<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+							<code value="330"/>
+							<display value="Dermatology"/>
+						</coding>
+					</practiceSetting>
 				</context>
 			</DocumentReference>
 		</resource>

@@ -1,5 +1,7 @@
 ## Example Document Reference - Not event-based
-This example represents a document related to patient health or care but not based on a patient healthcare event. 
+This example represents a document related to patient health or care but not based on a patient healthcare event.  The document is a confirmation of medical insurance coverage for treatment for a specified period, that directly replaces a document for insurance coverage now expired."
+
+NOTE that the example is illustrative of DocumentReference content in this sort of scenario.  Not all of the referenced resources currently exist as examples within this implementation guide.
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -21,19 +23,19 @@ This example represents a document related to patient health or care but not bas
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-DocumentReference-NotEventBased}}
+      {{tree:DocumentReference/Example-DataStandardsWales-DocumentReference-NotEventBased}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-DocumentReference-NotEventBased}}
+      {{table:DocumentReference/Example-DataStandardsWales-DocumentReference-NotEventBased}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-DocumentReference-NotEventBased}}
+      {{xml:DocumentReference/Example-DataStandardsWales-DocumentReference-NotEventBased}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-DocumentReference-NotEventBased}}
+      {{json:DocumentReference/Example-DataStandardsWales-DocumentReference-NotEventBased}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-DocumentReference-NotEventBased}}
+      {{narrative:DocumentReference/Example-DataStandardsWales-DocumentReference-NotEventBased}}
     </div>  
   </div>
 </div>

@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-DocumentReference" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
-  <version value="0.1.0" />
+  <version value="0.2.0" />
   <name value="DataStandardsWalesDocumentReference" />
   <title value="Data Standards Wales Document Reference" />
   <status value="draft" />
   <experimental value="false" />
-  <date value="2026-02-26" />
+  <date value="2026-05-07" />
   <publisher value="NHS Wales" />
   <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
@@ -24,70 +24,93 @@
     <element id="DocumentReference.extension:digitalStatus">
       <path value="DocumentReference.extension" />
       <sliceName value="digitalStatus" />
+      <short value="born-digital-document | scanned-paper-document | UNK" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
       </type>
       <isModifier value="false" />
     </element>
-    <element id="DocumentReference.extension:sourceSystem">
-      <path value="DocumentReference.extension" />
-      <sliceName value="sourceSystem" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
-      </type>
-      <mustSupport value="true" />
-      <isModifier value="false" />
+    <element id="DocumentReference.extension:digitalStatus.value[x]">
+      <path value="DocumentReference.extension.value[x]" />
+      <requirements value="Mandatory for use in NHS Wales." />
     </element>
     <element id="DocumentReference.extension:versionR5">
       <path value="DocumentReference.extension" />
       <sliceName value="versionR5" />
-      <max value="1" />
+      <short value="R5: An explicitly assigned identifer of a variation of the content in the DocumentReference" />
+      <definition value="R5: `DocumentReference.version`.  This is a business version identifier, not a resource version id.  It can be used to store the SetSequenceNumber of a document from the Welsh Care Records Service. (Backport from FHIR R5.)" />
+      <comment value="While each resource, including the DocumentReference itself, has its own version identifier, this is a formal identifier for the logical version of the DocumentReference as a whole. It would remain constant if the resources were moved to a new server, and all got new individual resource versions, for example." />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
       </type>
       <mustSupport value="true" />
-      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:versionR5.extension">
+      <path value="DocumentReference.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="DocumentReference.extension:versionR5.value[x]">
+      <path value="DocumentReference.extension.value[x]" />
+      <definition value="An explicitly assigned identifer of a variation of the content in the DocumentReference.  This is a business version identifier, not a resource version id.   It can be used to store the SetSequenceNumber of a document from the Welsh Care Records Service." />
     </element>
     <element id="DocumentReference.extension:attesterR5">
       <path value="DocumentReference.extension" />
       <sliceName value="attesterR5" />
+      <short value="R5: Attests to accuracy of the document" />
+      <definition value="R5: `DocumentReference.attester`.  A participant who has authenticated the accuracy of the document." />
+      <comment value="Only list each attester once." />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
       </type>
       <mustSupport value="true" />
-      <isModifier value="false" />
     </element>
-    <element id="DocumentReference.extension:errorStatus">
-      <path value="DocumentReference.extension" />
-      <sliceName value="errorStatus" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus" />
-      </type>
-      <mustSupport value="true" />
-      <isModifier value="false" />
+    <element id="DocumentReference.extension:attesterR5.extension:mode">
+      <path value="DocumentReference.extension.extension" />
+      <sliceName value="mode" />
+      <short value="R5: personal | professional | legal | official" />
+      <definition value="R5: `DocumentReference.attester.mode`. Indicates the level of authority of the attestation." />
+      <comment value="Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension." />
+      <requirements value="Indicates the level of authority of the attestation. Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension." />
     </element>
-    <element id="DocumentReference.extension:errorAction">
-      <path value="DocumentReference.extension" />
-      <sliceName value="errorAction" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction" />
-      </type>
-      <isModifier value="false" />
+    <element id="DocumentReference.extension:attesterR5.extension:mode.extension">
+      <path value="DocumentReference.extension.extension.extension" />
+      <max value="0" />
     </element>
-    <element id="DocumentReference.extension:documentAttribute">
-      <path value="DocumentReference.extension" />
-      <sliceName value="documentAttribute" />
+    <element id="DocumentReference.extension:attesterR5.extension:time">
+      <path value="DocumentReference.extension.extension" />
+      <sliceName value="time" />
+      <short value="R5: When the document was attested" />
+      <definition value="R5: `DocumentReference.attester.time`. Identifies when the information in the document was deemed accurate.  (Things may have changed since then.)" />
+      <comment value="Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension." />
+      <requirements value="Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension." />
+    </element>
+    <element id="DocumentReference.extension:attesterR5.extension:time.extension">
+      <path value="DocumentReference.extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="DocumentReference.extension:attesterR5.extension:party">
+      <path value="DocumentReference.extension.extension" />
+      <sliceName value="party" />
+      <definition value="R5: `DocumentReference.attester.party`. Identifies who has taken on the responsibility for accuracy of the document content." />
+      <comment value="Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension." />
+      <requirements value="Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension." />
+    </element>
+    <element id="DocumentReference.extension:attesterR5.extension:party.extension">
+      <path value="DocumentReference.extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="DocumentReference.extension:attesterR5.extension:party.value[x]">
+      <path value="DocumentReference.extension.extension.value[x]" />
       <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="DocumentReference.masterIdentifier">
       <path value="DocumentReference.masterIdentifier" />

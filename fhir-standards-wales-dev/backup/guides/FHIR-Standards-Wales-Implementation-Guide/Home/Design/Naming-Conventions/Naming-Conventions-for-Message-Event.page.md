@@ -1,67 +1,38 @@
 ### {{page-title}}
-The following naming convention applies to the FHIR Message Event:
+The following naming convention applies to the message event code as used by `MessageDefinition.eventCoding` and `MessageHeader.eventCoding`.
 
-The **event** name should be lower case and follow the [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) naming convention e.g.  
+The **event** code should be lower case and follow the [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) naming convention e.g.  
 
     ✅ patient-admission-submit  
     ❌ patientAdmission-submit  
     ❌ PatientAdmissionSubmit  
 
-* Event codes should be short and descriptive. 
-* Use a verb as a suffix to clarify intent and make it action-oriented.
-    * Common verbs: -submit, -notify, -cancel, -update.
-<br>
-
-#### Message Event Semantics
-* -submit: request to update if found, else create new.
-* -notify: informational event (server processes but does not persist resources).
-* -cancel: request to revoke/withdraw a prior submission.
-* -update: explicit update only (no create if missing).
-
-<br>
-
-#### Message Event Structure
-Format: 
-`primary-content`-`qualifier`-`verb`
-* `primary-content` → a match of the FHIR resource in plain English and hyphenated 
-    * DocumentReference → care-document
-    * AllergyIntolerance → allergy-list
-    * Practitioner → clinician
+Event codes should be short and descriptive in the form **[primary-content]-[qualifier]-[verb]**
+* `primary-content` → a high level description of the content in plain English and hyphenated (e.g. care-document, allergy-list, clinician)
 * `qualifier` → optional detail (e.g. initial, amendment, discharge, lab)
-* `verb` → action (e.g. submit, notify, cancel)
-
+* `verb` → action. Common verbs:
+    * -submit: request to update if found, else create new.
+    * -notify: informational event (server processes but does not persist resources).
+    * -cancel: request to revoke/withdraw a prior submission.
+    * -update: explicit update only (do not create if missing).
+<br>
 Avoid acronyms or local system jargon in the event code. Use standard healthcare terms wherever possible. 
 
-Example **WITHOUT** qualifiers
+Examples **WITHOUT** qualifiers
 * observation-submit
+* allergy-list-update
+* lab-result-notify
 
 Examples **WITH** qualifiers
 * observation-lab-submit
 * observation-vitalsigns-update
-* lab-result-notify
-
 <br>
 
-#### Examples in context 
-
-Event Code: `care-document-submit`
-
-Appears in:  
+Representation in event coding element:
 ```json
 "eventCoding": { 
-"system": "https://fhir.nhs.wales/CodeSystem/message-events", 
+"system": "https://fhir.nhs.wales/CodeSystem/DataStandardsWales-MessageEvent", 
 "code": "care-document-submit",
 "display": "Care Document Submit"
 } 
 ```
-Event Code: `observation-lab-result-notify` 
-
-Appears in: 
-```json
-"eventCoding": {
-  "system": "https://fhir.nhs.wales/CodeSystem/message-events",
-  "code": "observation-lab-result-notify",
-  "display": "Observation Lab Result Notify"
-}
-```
-<br>

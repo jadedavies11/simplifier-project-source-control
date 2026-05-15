@@ -48,7 +48,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance-related HL7v2 message}}
 
 ### Encounter Examples
 * {{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Example Encounter - Emergency Admission}}
@@ -190,6 +189,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics, text: Example Provenance - Demographics as recorded with care document}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provenance - Health Care Assistant Practitioner and PractitionerRole}}
 * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text: Example Provenance - Record with multiple targets e.g. for growth chart observations}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance-related HL7v2 message}}
 
 ### Questionnaire Examples
 * {{pagelink:Example-DataStandardsWales-Questionnaire-GrowthChartCondition, text: Example Questionnaire - Growth Chart Condition}}

@@ -4,14 +4,8 @@
   filename: CodeSystem-DataStandardsWales-AliasType.page.md
 - name: CodeSystem-DataStandardsWales-Document-MessageEvent
   filename: CodeSystem-DataStandardsWales-Document-MessageEvent.page.md
-- name: CodeSystem-DataStandardsWales-DocumentAttribute
-  filename: CodeSystem-DataStandardsWales-DocumentAttribute.page.md
 - name: CodeSystem-DataStandardsWales-DocumentDigitalStatus
   filename: CodeSystem-DataStandardsWales-DocumentDigitalStatus.page.md
-- name: CodeSystem-DataStandardsWales-DocumentErrorAction
-  filename: CodeSystem-DataStandardsWales-DocumentErrorAction.page.md 
-- name: CodeSystem-DataStandardsWales-DocumentErrorStatus
-  filename: CodeSystem-DataStandardsWales-DocumentErrorStatus.page.md 
 - name: CodeSystem-DataStandardsWales-GenderIdentity
   filename: CodeSystem-DataStandardsWales-GenderIdentity.page.md
 - name: CodeSystem-DataStandardsWales-MainSpecialty

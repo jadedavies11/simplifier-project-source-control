@@ -23,12 +23,6 @@
 					<display value="Submit care document"/>
 	</eventCoding>
 	<focus>
-		<code value="Device"/>
-		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device"/>
-		<min value="1"/>
-		<max value="*"/>
-	</focus>
-	<focus>
 		<code value="DocumentReference"/>
 		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
 		<min value="1"/>
@@ -67,6 +61,18 @@
 	<focus>
 		<code value="PractitionerRole"/>
 		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+		<min value="0"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="Device"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device"/>
+		<min value="0"/>
+		<max value="*"/>
+	</focus>
+	<focus>
+		<code value="RelatedPerson"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson"/>
 		<min value="0"/>
 		<max value="*"/>
 	</focus>

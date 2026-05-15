@@ -1,22 +1,36 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
-  <id value="Example-DataStandardsWales-DocumentReference-EncounterBased" />
+  <id value="Example-DataStandardsWales-DocumentReference-EventBased" />
   <meta>
-    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
+    <source value="2.16.840.1.113883.2.1.8.1.5.210"/>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
+    <tag>
+      <system value="seqno"/>
+      <display value="1"/>
+    </tag>
+    <tag>
+      <system value="docattr_documenttypecode"/>
+      <display value="CONSULTATIONNOTE_DIABETES"/>
+    </tag>
+    <tag>
+      <system value="docattr_documentsubtype"/>
+      <display value="Adult services"/>
+    </tag>
+    <tag>
+      <system value="docattr_clonesequencenumber"/>
+      <display value="0"/>
+    </tag>
+    <tag>
+      <system value="docattr_thirdpartydataincluded"/>
+      <display value="True"/>
+    </tag>
   </meta>
   <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
     <valueCode value="born-digital-document" />
   </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem">
-    <valueReference>
-      <reference value="Device/Example-DataStandardsWales-Source-System-for-Documents" />
-      <display value="System ABC" />
-    </valueReference>
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
-">
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version">
     <valueString value="1" />
   </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester">
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester">
     <extension url="mode">
       <valueCodeableConcept>
         <coding>
@@ -36,39 +50,6 @@
       </valueReference>
     </extension>
   </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
-    <extension url="attributeName">
-      <valueCode value="CloneSequenceNumber" />
-    </extension>
-    <extension url="attributeValue">
-      <valueString value="0" />
-    </extension>
-    <extension url="attributeNamespace">
-      <valueString value="http://www.wales.nhs.uk/ndr" />
-    </extension>
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
-    <extension url="attributeName">
-      <valueCode value="ThirdPartyDataIncluded" />
-    </extension>
-    <extension url="attributeValue">
-      <valueString value="True" />
-    </extension>
-    <extension url="attributeNamespace">
-      <valueString value="http://www.wales.nhs.uk/ndr" />
-    </extension>
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
-    <extension url="attributeName">
-      <valueCode value="DocumentSubType" />
-    </extension>
-    <extension url="attributeValue">
-      <valueString value="Adult services" />
-    </extension>
-    <extension url="attributeNamespace">
-      <valueString value="http://www.wales.nhs.uk/ndr" />
-    </extension>
-  </extension>
   <identifier>
     <system value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />
     <value value="FF849C81-9917-47D9-B929-4AF1BDD94670" />
@@ -78,7 +59,7 @@
     <value value="6DB699D2-AD58-43DD-AEA5-341AE3DBFF93" />
   </identifier>
   <status value="current" />
-  <docStatus value="final" />
+  <docStatus value="amended" />
   <type>
     <coding>
       <system value="http://snomed.info/sct" />
@@ -126,15 +107,31 @@
     </attachment>
   </content>
   <context>
-    <encounter>
-      <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation" />
-    </encounter>
+    <period>
+      <start value="2025-07-22T13:09:37+00:00" />
+    </period>
     <practiceSetting>
       <coding>
-        <system value="http://snomed.info/sct" />
-        <code value="963151000000104" />
-        <display value="Diabetic medicine service" />
+        <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+        <code value="302"/>
+        <display value="Endocrinology and Diabetes"/>
       </coding>
     </practiceSetting>
+    <related>
+      <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+      <display value="Hywel Dda University Health Board" />
+    </related>
+    <related>
+      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospital" />
+      <display value="Glangwili General Hospital" />
+    </related>
+    <related>
+      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospitalOPD" />
+      <display value="Glangwili General Hospital Outpatients Department" />
+    </related>
+    <related>
+      <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
+      <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
+    </related>
   </context>
 </DocumentReference>

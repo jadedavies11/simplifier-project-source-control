@@ -1,5 +1,7 @@
 ## Example Document Reference - Misfiled (document not event-based)
-This example represents a document which has been misfiled via a two-step workflow: misfile proposed and then accepted.  The document in this example is not based on a patient healthcare event.
+This example illustrates a document reference that represents the misfiling of the example document in {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}.  In this scenario the original document was erroneously recorded against the prior patient seen.  A nurse noticed the error and proposed the misfile, then subsequently the misfile was reviewed and accepted by a consultant. The current DocumentReference resource version represents the document after the misfile was accepted.  The `status` is "entered-in-error" and the `meta.tag` "latesterroraction" has been set to "misfile-accepted".  The details of who, when and the reason for the error misfile acceptance would be captured in a provenance record for the update.
+
+NOTE that the example is illustrative of DocumentReference content in a misfile scenario.  Not all of the referenced resources currently exist as examples within this implementation guide.
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -21,19 +23,19 @@ This example represents a document which has been misfiled via a two-step workfl
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{tree:DocumentReference/Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{table:DocumentReference/Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{xml:DocumentReference/Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{json:DocumentReference/Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DSW-DocumentReference-MisfiledNotEventBased}}
+      {{narrative:DocumentReference/Example-DSW-DocumentReference-MisfiledNotEventBased}}
     </div>  
   </div>
 </div>

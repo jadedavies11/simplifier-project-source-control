@@ -37,7 +37,6 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}</li>
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}</li>
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance}}</li>
       <li>{{pagelink:Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter, text:Example Message Bundle - Submit Document (Encounter Based)}}</li>
       <li>{{pagelink: Example-DataStandardsWales-Bundle-SubmitCareDocument-Event, text:Example Message Bundle - Submit Document (Event Based)}}</li>
     </list>
@@ -57,7 +56,6 @@ Each DocumentReference must have:
 Each DocumentReference must support:
 1. One or more identifiers
 1. A document status
-1. An error status (applicable if document is entered in error)
 1. A subject
 1. A date
 1. One or more authors
@@ -65,7 +63,7 @@ Each DocumentReference must support:
 1. A custodian
 1. One or more security labels
 1. A practice setting
-1. A source system
+1. A source system, identified in the `meta.source` element
 1. A version
 <br>
 
@@ -75,7 +73,7 @@ The `DocumentReference.status` field **SHALL** be populated with with one of the
 - entered-in-error
 <br>
 
-The `DocumentReference.extension.digitalStatus` field **SHALL** be populated with with one of the following values defined by the FHIR standard:
+The `DocumentReference.extension:digitalStatus` field **SHALL** be populated with with one of the following values defined by the FHIR standard:
 - born-digital-document
 - scanned-paper-document
 - UNK
@@ -85,13 +83,8 @@ The `DocumentReference.extension.digitalStatus` field **SHALL** be populated wit
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard:
   * Data Standards Wales extensions
     * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a mandatory indication of whether the document was born digital or scanned.
-    * {{pagelink:Extension-DataStandardsWales-SourceSystem}} supports the identification of the system which supplied the document details.
-    * {{pagelink:Extension-DataStandardsWales-DocumentVersion}} supports the capture of a document version as defined in FHIR R5.
-    * {{pagelink:Extension-DataStandardsWales-DocumentAttester}} supports the capture of attester details as defined in FHIR R5 via a complex extension.
-    * {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}} supports the exchange of information about the validity of the document.
-    * {{pagelink:Extension-DataStandardsWales-DocumentErrorAction}} supports the capture of the error workflow actions that led to the current error status.
-    * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of additional document metadata via a complex extension.
 
-
-
-   
+  * Backport extensions 
+    * R5 backports from package hl7.fhir.uv.xver-r5.r4
+      * [ExtensionDocumentReference_Attester](http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester) supports the identifiication of the person or entity that attested to the accuracy of the document.
+      * [ExtensionDocumentReference_Version](http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version) supports the capture of an explicitly assigned identifer of a variation of the content in the DocumentReference.
