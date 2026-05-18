@@ -66,7 +66,7 @@ The `Location.status` field **SHOULD** be populated to indicate whether the orga
 The `Location.name` field **SHALL** be populated.
 
 ### Slices
-The following identifier slice is used with the location profile listed below. The namespaces denoting issuing authority for the identifier are defined on the {{pagelink:Naming-Systems, text:Naming Systems}} page.
+The following identifier slice is used with the location profile listed below. The namespaces denoting issuing authority for the identifier are defined on the {{pagelink:FHIR-Assets/Naming-Systems}} page.
  
 * `Location.identifier:wrtsLocationIdentifier` 
 
