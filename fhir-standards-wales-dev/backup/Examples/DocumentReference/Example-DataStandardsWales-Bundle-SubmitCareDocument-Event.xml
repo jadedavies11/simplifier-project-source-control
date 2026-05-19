@@ -25,7 +25,7 @@
 				</enterer>
 				<source>
 					<name value="ABMU Myrddin (New)"/>
-					<endpoint value="2.16.840.1.113883.2.1.8.1.5.108"/>
+					<endpoint value="urn:oid:2.16.840.1.113883.2.1.8.1.5.108"/>
 				</source>
 				<responsible>
 					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
@@ -36,6 +36,11 @@
 					<reference value="urn:uuid:c58877a4-3b18-4147-bf07-35580ad85a67"/>
 					<type value="DocumentReference"/>
 					<display value="Clinic Note - Dermatology Clinic Attendance 2026-04-02T13:17:14+00:00"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:8d0fe3e6-c549-4da9-ad5a-874060a420e4"/>
+					<type value="Patient"/>
+					<display value="Mrs. Alice Jones"/>
 				</focus>
 				<focus>
 					<reference value="urn:uuid:9b37760f-fe46-4426-81ad-7ebeb18071ea"/>
@@ -51,11 +56,6 @@
 					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
 					<type value="Organization"/>
 					<display value="Swansea Bay University Local Health Board"/>
-				</focus>
-				<focus>
-					<reference value="urn:uuid:8d0fe3e6-c549-4da9-ad5a-874060a420e4"/>
-					<type value="Patient"/>
-					<display value="Mrs. Alice Jones"/>
 				</focus>
 				<focus>
 					<reference value="urn:uuid:a435c1df-e80a-4f3e-b352-a6b0843a4e79"/>
@@ -76,7 +76,7 @@
 		<resource>
 			<DocumentReference>
 				<meta>
-					<source value="2.16.840.1.113883.2.1.8.1.5.108"/>
+					<source value="urn:oid:2.16.840.1.113883.2.1.8.1.5.108"/>
 					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
 					<tag>
 						<system value="seqno"/>
@@ -202,58 +202,6 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="urn:uuid:9b37760f-fe46-4426-81ad-7ebeb18071ea"/>
-		<resource>
-			<Location>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-				</meta>
-				<identifier>
-					<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier" />
-					<value value="60138-example" />
-				</identifier>
-				<name value="Ward E (Neath Port Talbot Hospital)" />
-				<address>
-					<postalCode value="SA12 7BX" />
-				</address>
-				<managingOrganization>
-					<reference value="urn:uuid:647f5547-0e62-4424-8cd4-fea383a92c0d" />
-					<display value="Neath Port Talbot Hospital" />
-				</managingOrganization>
-			</Location>
-		</resource>
-	</entry>
-	<entry>
-		<fullUrl value="urn:uuid:647f5547-0e62-4424-8cd4-fea383a92c0d"/>
-		<resource>
-			<Organization>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-				</meta>
-				<identifier>
-					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-					<value value="7A3CJ"/>
-				</identifier>
-				<name value="Neath Port Talbot Hospital"/>
-			</Organization>
-		</resource>
-	</entry>
-	<entry>
-		<fullUrl value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
-		<resource>
-			<Organization>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-				</meta>
-				<identifier>
-					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-					<value value="7A3"/>
-				</identifier>
-				<name value="Swansea Bay University Local Health Board"/>
-			</Organization>
-		</resource>
-	</entry>
-	<entry>
 		<fullUrl value="urn:uuid:8d0fe3e6-c549-4da9-ad5a-874060a420e4"/>
 		<resource>
 			<Patient>
@@ -323,6 +271,58 @@
 					</coding>
 				</maritalStatus>
 			</Patient>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:9b37760f-fe46-4426-81ad-7ebeb18071ea"/>
+		<resource>
+			<Location>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+				</meta>
+				<identifier>
+					<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier" />
+					<value value="60138-example" />
+				</identifier>
+				<name value="Ward E (Neath Port Talbot Hospital)" />
+				<address>
+					<postalCode value="SA12 7BX" />
+				</address>
+				<managingOrganization>
+					<reference value="urn:uuid:647f5547-0e62-4424-8cd4-fea383a92c0d" />
+					<display value="Neath Port Talbot Hospital" />
+				</managingOrganization>
+			</Location>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:647f5547-0e62-4424-8cd4-fea383a92c0d"/>
+		<resource>
+			<Organization>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+					<value value="7A3CJ"/>
+				</identifier>
+				<name value="Neath Port Talbot Hospital"/>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
+		<resource>
+			<Organization>
+				<meta>
+					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+					<value value="7A3"/>
+				</identifier>
+				<name value="Swansea Bay University Local Health Board"/>
+			</Organization>
 		</resource>
 	</entry>
 	<entry>
