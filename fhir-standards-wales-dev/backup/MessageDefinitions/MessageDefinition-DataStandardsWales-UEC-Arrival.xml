@@ -7,8 +7,8 @@
 	<title value="Message Definition Data Standards Wales UEC Arrival"/>
 	<status value="draft"/>
 	<date value="2025-12-19"/>
-	<description value="Message to record patient arrival at a UEC facility."/>
 	<publisher value="NHS Wales"/>
+	<description value="Message to record patient arrival at a UEC facility."/>
 	<contact>
 		<name value="FHIR Standards"/>
 		<telecom>

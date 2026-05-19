@@ -18,22 +18,22 @@ Package:
     * Removed Profiles
     * Removed Message Definitions
     * Removed Extensions
-        * Extension-DataStandardsWales-DocumentAttester - replaced by formal R5 backport
-        * Extension-DataStandardsWales-DocumentAttribute - replaced by use of meta.tag
-        * Extension-DataStandardsWales-DocumentErrorAction - replaced by use of meta tag latesterroraction and Provenance
-        * Extension-DataStandardsWales-DocumentErrorStatus - not required
-        * Extension-DataStandardsWales-DocumentVersion - replaced by formal R5 backport
-        * Extension-DataStandardsWales-Immunization.basedOn - replaced by formal R5 backport
-        * Extension-DataStandardsWales-SourceSystem - replaced by use of meta.source
+        * Extension-DataStandardsWales-DocumentAttester
+        * Extension-DataStandardsWales-DocumentAttribute
+        * Extension-DataStandardsWales-DocumentErrorAction
+        * Extension-DataStandardsWales-DocumentErrorStatus
+        * Extension-DataStandardsWales-DocumentVersion
+        * Extension-DataStandardsWales-Immunization.basedOn
+        * Extension-DataStandardsWales-SourceSystem
     * Changes to Profiles
         * DataStandardsWales-DocumentReference
             * Updated version from 0.1.0 to 0.2.0
             * extension:attesterR5. Removed Extension-DataStandardsWales-DocumentAttester
             * extension:attesterR5. Added http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester to reflect formal R5 to R4 backport. Updated target profiles and descriptive elements (e.g. short, definition, comment)
-            * extension:documentAttribute. Removed extension slice
-            * extension:errorAction. Removed extension slice
-            * extension:errorStatus. Removed extension slice
-            * extension:sourceSystem. Removed extension slice
+            * extension:documentAttribute. Removed Extension-DataStandardsWales-DocumentAttribute. Replaced by use of meta.tag
+            * extension:errorAction. Removed Extension-DataStandardsWales-DocumentErrorAction. Replaced by use of meta tag latesterroraction and Provenance
+            * extension:errorStatus. Removed Extension-DataStandardsWales-DocumentErrorStatus. Not required
+            * extension:sourceSystem. Removed Extension-DataStandardsWales-SourceSystem. Replaced by use of meta.source
             * extension:versionR5. Removed Extension-DataStandardsWales-DocumentVersion
             * extension:versionR5. Added http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version to reflect formal R5 to R4 backport. Updated descriptive elements (e.g. short, definition, comment)
         * DataStandardsWales-Immunization
@@ -115,6 +115,7 @@ Package:
             * DocumentReference.extension:versionR5. Corrected extension url from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version
             * DocumentReference.meta.source. Added a value
             * DocumentReference.meta.tag. One entry added per removed extension:documentAttribute entry, plus docattr_documenttypecode
+            * Referenced examples adjusted
         * Example-DataStandardsWales-DocumentReference-EventBased
             * DocumentReference.context.practiceSetting. Corrected to use the required binding
             * DocumentReference.extension:attesterR5. Corrected extension url from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttester to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester
@@ -123,16 +124,19 @@ Package:
             * DocumentReference.extension:versionR5. Corrected extension url from https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentVersion to http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version
             * DocumentReference.meta.source. Added a value
             * DocumentReference.meta.tag. One entry added per removed extension:documentAttribute entry, plus docattr_documenttypecode
+            * Referenced examples adjusted
         * Example-DataStandardsWales-DocumentReference-NotEventBased
             * DocumentReference.extension:sourceSystem. Entry removed and replaced by meta.source
             * DocumentReference.meta.source. Added a value
             * DocumentReference.meta.tag. One entry added for docattr_documenttypecode
+            * Referenced examples adjusted
         * Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased
             * DocumentReference.extension:errorAction. Entries removed and replaced by meta.tag
             * DocumentReference.extension:errorStatus. Entry removed
             * DocumentReference.extension:sourceSystem. Entry removed and replaced by meta.source
             * DocumentReference.meta.source. Added a value
             * DocumentReference.meta.tag. One entry added for docattr_documenttypecode and another for latesterroraction
+            * Referenced examples adjusted
         * Example-DataStandardsWales-Immunization-FluVaccine
             * Immunization.performer.actor.type. Added a value
         * Example-DataStandardsWales-Immunization-NotGiven

@@ -1,7 +1,7 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-DocumentReference-EventBased" />
   <meta>
-    <source value="2.16.840.1.113883.2.1.8.1.5.210"/>
+    <source value="urn:oid:2.16.840.1.113883.2.1.8.1.5.210"/>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
     <tag>
       <system value="seqno"/>
@@ -45,8 +45,8 @@
     </extension>
     <extension url="party">
       <valueReference>
-        <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
-        <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
+        <reference value="PractitionerRole/Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
+        <display value="BLOGGS, Joe A, Dr (GMC:1234567), Consultant Diabetologist for HDUHB"/>
       </valueReference>
     </extension>
   </extension>
@@ -75,17 +75,17 @@
     </coding>
   </category>
   <subject>
-    <reference value="Patient/Example-DataStandardsWales-Patient-JohnSmith" />
-    <display value="SMITH, John B, Mr" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames" />
+    <display value="JAMES, Harold A, Mr" />
   </subject>
   <date value="2025-07-22T11:20:17+00:00" />
   <author>
-    <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay" />
-    <display value="MAY, Emily B, Ms (NMC:AB12345X)" />
+    <reference value="PractitionerRole/Example-DSW-PractitionerRole-Nurse-EmilyMay-HDUHB"/>
+    <display value="MAY, Emily B, Ms (NMC:AB12345X) - Nurse for HDUHB"/>
   </author>
   <author>
-    <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Dietitian-JudeFrancis" />
-    <display value="FRANCIS Jude, Miss (HCPC:DT123456)" />
+    <reference value="PractitionerRole/Example-DSW-PractitionerRole-Dietitian-JudeFrancis-HDUHB"/>
+    <display value="FRANCIS Jude, Miss (HCPC:DT123456), Dietitian for HDUHB"/>
   </author>
   <custodian>
     <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
@@ -122,16 +122,16 @@
       <display value="Hywel Dda University Health Board" />
     </related>
     <related>
-      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospital" />
+      <reference value="Location/Example-DataStandardsWales-Location-GGH" />
       <display value="Glangwili General Hospital" />
     </related>
     <related>
-      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospitalOPD" />
+      <reference value="Location/Example-DataStandardsWales-Location-GGH-OPD" />
       <display value="Glangwili General Hospital Outpatients Department" />
     </related>
     <related>
-      <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
-      <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
+        <reference value="PractitionerRole/Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
+        <display value="BLOGGS, Joe A, Dr (GMC:1234567), Consultant Diabetologist for HDUHB"/>
     </related>
   </context>
 </DocumentReference>
