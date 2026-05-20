@@ -85,6 +85,6 @@ The extensions listed below allow a number of the data elements listed above to 
     * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a mandatory indication of whether the document was born digital or scanned.
 
   * Backport extensions 
-    * The following extensions are based on elements in the [HL7 R5 DocumentReference](https://www.hl7.org/fhir/r5/documentreference.html) resource definition. See {{pagelink:Home/Introduction/Dependencies.page.md}} page for the applicable cross-version package dependency.
-      * **ExtensionDocumentReference_Attester** supports the identifiication of the person or entity that attested to the accuracy of the document. It is based on `DocumentReference.attester` in R5.
+    * The following extensions are based on elements in the [HL7 R5 DocumentReference](https://www.hl7.org/fhir/r5/documentreference.html) resource definition. See {{pagelink:Home/Introduction/Dependencies/Index.page.md}} page for the applicable cross-version package dependency.
+      * **ExtensionDocumentReference_Attester** supports the identification of the person or entity that attested to the accuracy of the document. It is based on `DocumentReference.attester` in R5.
       * **ExtensionDocumentReference_Version** supports the capture of an explicitly assigned identifer of a variation of the content in the DocumentReference. It is based on `DocumentReference.version` in R5.
