@@ -1,8 +1,0 @@
-- name: Index
-  filename: Index.page.md
-- name: Overview
-  filename: Overview.page.md
-- name: Model
-  filename: Model.page.md
-- name: Backport Extensions
-  filename: Backport-Extensions.page.md 
