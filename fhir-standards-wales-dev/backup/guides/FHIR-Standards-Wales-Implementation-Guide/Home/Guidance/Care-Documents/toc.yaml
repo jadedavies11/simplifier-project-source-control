@@ -6,3 +6,5 @@
   filename: Clinical-Scenarios.page.md
 - name: Care Document Versions
   filename: Care-Document-Versions.page.md
+- name: Document Error Workflow
+  filename: Document-Error-Workflow.page.md

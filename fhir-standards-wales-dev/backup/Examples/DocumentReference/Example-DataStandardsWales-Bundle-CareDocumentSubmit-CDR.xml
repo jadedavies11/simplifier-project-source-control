@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Bundle xmlns="http://hl7.org/fhir">
-	<id value="Example-DataStandardsWales-Bundle-SubmitCareDocument-Event"/>
+	<id value="Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR"/>
 	<identifier>
 		<system value="https://fhir.sbuhb.nhs.wales/Id/example-bundle-identifier"/>
 		<value value="3d1ca4a0-3d63-11f1-a707-dd757aa080e0"/>
@@ -11,17 +11,15 @@
 		<fullUrl value="urn:uuid:471b63b0-3d63-11f1-a707-dd757aa080e0"/>
 		<resource>
 			<MessageHeader>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MessageHeader"/>
-				</meta>
 				<eventCoding>
 					<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Document-MessageEvent"/>
 					<code value="submit-care-document"/>
 					<display value="Submit care document"/>
 				</eventCoding>
 				<enterer>
-					<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0"/>
-					<display value="DH000567 - Dr Dhiren Patel (SBUHB Dermatology Consultant)"/>
+					<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0" />
+					<type value="PractitionerRole" />
+					<display value="PATEL Dhiren, Dr (GMC:9630333), SBUHB Consultant"/>
 				</enterer>
 				<source>
 					<name value="ABMU Myrddin (New)"/>
@@ -32,10 +30,18 @@
 					<type value="Organization"/>
 					<display value="Swansea Bay University Local Health Board"/>
 				</responsible>
+				<reason>
+					<text value="Document Created"/>
+				</reason>
 				<focus>
 					<reference value="urn:uuid:c58877a4-3b18-4147-bf07-35580ad85a67"/>
 					<type value="DocumentReference"/>
 					<display value="Clinic Note - Dermatology Clinic Attendance 2026-04-02T13:17:14+00:00"/>
+				</focus>
+				<focus>
+					<reference value="urn:uuid:385afcbd-75b2-484d-8613-55d7af6b06a6"/>
+					<type value="Encounter"/>
+					<display value="Clinic Attendance 2026-04-02T13:17:14+00:00"/>
 				</focus>
 				<focus>
 					<reference value="urn:uuid:8d0fe3e6-c549-4da9-ad5a-874060a420e4"/>
@@ -48,11 +54,6 @@
 					<display value="Ward E (Neath Port Talbot Hospital)"/>
 				</focus>
 				<focus>
-					<reference value="urn:uuid:647f5547-0e62-4424-8cd4-fea383a92c0d"/>
-					<type value="Organization"/>
-					<display value="Neath Port Talbot Hospital"/>
-				</focus>
-				<focus>
 					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
 					<type value="Organization"/>
 					<display value="Swansea Bay University Local Health Board"/>
@@ -60,12 +61,12 @@
 				<focus>
 					<reference value="urn:uuid:a435c1df-e80a-4f3e-b352-a6b0843a4e79"/>
 					<type value="Practitioner"/>
-					<display value="Dr Dhiren Patel"/>
+					<display value="PATEL Dhiren, Dr (GMC:9630333)"/>
 				</focus>
 				<focus>
 					<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0"/>
 					<type value="PractitionerRole"/>
-					<display value="DH000567 - Dr Dhiren Patel (SBUHB Dermatology Consultant)"/>
+					<display value="PATEL Dhiren, Dr (GMC:9630333), SBUHB Consultant"/>
 				</focus>
 				<definition value="https://fhir.nhs.wales/MessageDefinition/Example-DataStandardsWales-MessageDefinition-SubmitCareDocument"/>
 			</MessageHeader>
@@ -77,7 +78,6 @@
 			<DocumentReference>
 				<meta>
 					<source value="urn:oid:2.16.840.1.113883.2.1.8.1.5.108"/>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
 					<tag>
 						<system value="seqno"/>
 						<display value="1"/>
@@ -91,8 +91,8 @@
 						<display value="Face to face"/>
 					</tag>
 					<tag>
-						<system value="docattr_thirdpartydataincluded"/>
-						<display value="True"/>
+						<system value="repositorycode"/>
+						<display value="NDR"/>
 					</tag>
 				</meta>
 				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
@@ -117,7 +117,8 @@
 					<extension url="party">
 						<valueReference>
 							<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0" />
-							<display value="DH000567 - Dr Dhiren Patel (SBUHB Dermatology Consultant)"/>
+							<type value="PractitionerRole" />
+							<display value="PATEL Dhiren, Dr (GMC:9630333), SBUHB Consultant"/>
 						</valueReference>
 					</extension>
 				</extension>
@@ -128,6 +129,10 @@
 				<identifier>
 					<system value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier" />
 					<value value="872acb32-fa72-4834-b6c5-a02b0ed6f012" />
+				</identifier>
+				<identifier>
+					<system value="urn:oid:2.16.840.1.113883.2.1.8.1.5.108" />
+					<value value="622ef5de-840e-4972-a28f-8b03f29a4bc6" />
 				</identifier>
 				<status value="current" />
 				<docStatus value="final" />
@@ -152,13 +157,14 @@
 				<date value="2026-04-03T13:37:15+00:00" />
 				<author>
 					<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0" />
-					<display value="DH000567 - Dr Dhiren Patel (SBUHB Dermatology Consultant)"/>
+					<type value="PractitionerRole" />
+					<display value="PATEL Dhiren, Dr (GMC:9630333), SBUHB Consultant"/>
 				</author>
 				<custodian>
 					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a" />
 					<display value="Swansea Bay University Local Health Board" />
 				</custodian>
-				<description value="Dermatology Clinic Note" />
+				<description value="Clinic Note" />
 				<securityLabel>
 					<coding>
 						<system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality" />
@@ -169,15 +175,15 @@
 				<content>
 					<attachment>
 						<contentType value="application/pdf" />
-						<language value="eng" />
+						<data value="U2FtcGxlIERvY3VtZW50" />
 						<url value="https://www.example.com/documentref9876" />
 					</attachment>
 				</content>
 				<context>
-					<period>
-						<start value="2026-04-02T13:09:37+00:00" />
-						<end value="2026-04-02T13:17:14+00:00" />
-					</period>
+					<encounter>
+						<reference value="urn:uuid:385afcbd-75b2-484d-8613-55d7af6b06a6"/>
+						<display value="Clinic Attendance 2026-04-02T13:17:14+00:00"/>
+					</encounter>
 					<practiceSetting>
 						<coding>
 							<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
@@ -185,77 +191,63 @@
 							<display value="Dermatology"/>
 						</coding>
 					</practiceSetting>
-					<related>
-						<reference value="urn:uuid:9b37760f-fe46-4426-81ad-7ebeb18071ea" />
-						<display value="Ward E (Neath Port Talbot Hospital)" />
-					</related>
-					<related>
-						<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a" />
-						<display value="Swansea Bay University Local Health Board" />
-					</related>
-					<related>
-						<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0" />
-						<display value="DH000567 - Dr Dhiren Patel (SBUHB Dermatology Consultant)"/>
-					</related>
 				</context>
 			</DocumentReference>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:385afcbd-75b2-484d-8613-55d7af6b06a6"/>
+		<resource>
+			<Encounter>
+				<status value="unknown" />
+				<class>
+					<system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor " />
+					<code value="UNK" />
+					<display value="Unknown" />
+				</class>
+				<subject>
+					<reference value="urn:uuid:8d0fe3e6-c549-4da9-ad5a-874060a420e4" />
+					<display value="Mrs. Alice Jones" />
+				</subject>
+				<participant>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType" />
+							<code value="ATND" />
+							<display value="attender" />
+						</coding>
+					</type>
+					<individual>
+						<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0" />
+						<type value="PractitionerRole" />
+						<display value="PATEL Dhiren, Dr (GMC:9630333), SBUHB Consultant"/>
+					</individual>
+				</participant>
+				<period>
+					<start value="2026-04-02T13:09:37+00:00" />
+				</period>
+				<location>
+					<location>
+						<reference value="urn:uuid:9b37760f-fe46-4426-81ad-7ebeb18071ea" />
+						<display value="Ward E (Neath Port Talbot Hospital)" />
+					</location>
+				</location>
+				<serviceProvider>
+					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a" />
+					<display value="Swansea Bay University Local Health Board" />
+				</serviceProvider>
+			</Encounter>
 		</resource>
 	</entry>
 	<entry>
 		<fullUrl value="urn:uuid:8d0fe3e6-c549-4da9-ad5a-874060a420e4"/>
 		<resource>
 			<Patient>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
-				</meta>
-				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-BirthSex">
-					<valueCodeableConcept>
-						<coding>
-							<system value="http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender" />
-							<code value="F" />
-							<display value="Female" />
-						</coding>
-					</valueCodeableConcept>
-				</extension>
-				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory">
-					<valueCodeableConcept>
-						<coding>
-							<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-EthnicCategoryWales" />
-							<code value="G" />
-							<display value="Any other mixed background / multiple ethnic background" />
-						</coding>
-					</valueCodeableConcept>
-				</extension>
-				<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Religion">
-					<valueCodeableConcept>
-						<coding>
-							<system value="http://snomed.info/sct" />
-							<code value="160557009" />
-							<display value="Baptist, follower of religion" />
-						</coding>
-					</valueCodeableConcept>
-				</extension>
-				<identifier>
-					<system value="https://fhir.nhs.uk/Id/nhs-number" />
-					<value value="9912003444" />
-				</identifier>
-				<identifier>
-					<system value="https://fhir.cavuhb.nhs.wales/Id/pas-identifier" />
-					<value value="E101067" />
-				</identifier>
-				<identifier>
-					<system value="https://fhir.sbuhb.nhs.wales/Id/pas-identifier" />
-					<value value="A901067" />
-				</identifier>
 				<name>
 					<use value="official" />
 					<family value="Jones" />
 					<given value="Alice" />
 				</name>
-				<telecom>
-					<system value="phone" />
-					<value value="01446231234" />
-				</telecom>
 				<gender value="female" />
 				<birthDate value="1980-09-13" />
 				<address>
@@ -263,13 +255,6 @@
 					<line value="BARRY" />
 					<postalCode value="CF62 9AZ" />
 				</address>
-				<maritalStatus>
-					<coding>
-						<system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus" />
-						<code value="M" />
-						<display value="Married" />
-					</coding>
-				</maritalStatus>
 			</Patient>
 		</resource>
 	</entry>
@@ -277,46 +262,18 @@
 		<fullUrl value="urn:uuid:9b37760f-fe46-4426-81ad-7ebeb18071ea"/>
 		<resource>
 			<Location>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-				</meta>
 				<identifier>
 					<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier" />
 					<value value="60138-example" />
 				</identifier>
 				<name value="Ward E (Neath Port Talbot Hospital)" />
-				<address>
-					<postalCode value="SA12 7BX" />
-				</address>
-				<managingOrganization>
-					<reference value="urn:uuid:647f5547-0e62-4424-8cd4-fea383a92c0d" />
-					<display value="Neath Port Talbot Hospital" />
-				</managingOrganization>
 			</Location>
-		</resource>
-	</entry>
-	<entry>
-		<fullUrl value="urn:uuid:647f5547-0e62-4424-8cd4-fea383a92c0d"/>
-		<resource>
-			<Organization>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-				</meta>
-				<identifier>
-					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-					<value value="7A3CJ"/>
-				</identifier>
-				<name value="Neath Port Talbot Hospital"/>
-			</Organization>
 		</resource>
 	</entry>
 	<entry>
 		<fullUrl value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
 		<resource>
 			<Organization>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-				</meta>
 				<identifier>
 					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
 					<value value="7A3"/>
@@ -329,15 +286,16 @@
 		<fullUrl value="urn:uuid:a435c1df-e80a-4f3e-b352-a6b0843a4e79"/>
 		<resource>
 			<Practitioner>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"/>
-				</meta>
 				<identifier>
 					<system value="https://fhir.hl7.org.uk/Id/gmc-number"/>
 					<value value="9630333"/>
 				</identifier>
+				<identifier>
+					<system value="https://fhir.nhs.wales/Id/nadex-identifier"/>
+					<value value="DH000567"/>
+				</identifier>
 				<name>
-					<text value="Dr Dhiren Patel"/>
+					<text value="PATEL Dhiren, Dr"/>
 					<family value="Patel"/>
 					<given value="Dhiren"/>
 					<prefix value="Dr"/>
@@ -349,16 +307,9 @@
 		<fullUrl value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0"/>
 		<resource>
 			<PractitionerRole>
-				<meta>
-					<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
-				</meta>
-				<identifier>
-					<system value="https://fhir.nhs.wales/Id/nadex-identifier"/>
-					<value value="dh000567"/>
-				</identifier>
 				<practitioner>
 					<reference value="urn:uuid:a435c1df-e80a-4f3e-b352-a6b0843a4e79"/>
-					<display value="Dr Dhiren Patel"/>
+					<display value="PATEL Dhiren, Dr (GMC:9630333)"/>
 				</practitioner>
 				<organization>
 					<reference value="urn:uuid:b44506ea-9042-4c3c-8cf2-65c0847e7d5a"/>
@@ -371,13 +322,6 @@
 						<display value="Consultant"/>
 					</coding>
 				</code>
-				<specialty>
-					<coding>
-						<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
-						<code value="330"/>
-						<display value="Dermatology"/>
-					</coding>
-				</specialty>
 			</PractitionerRole>
 		</resource>
 	</entry>

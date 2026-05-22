@@ -66,8 +66,7 @@ The following examples represent DocumentReference resources for the three scena
 
 ### DocumentReference Bundles
 The following examples represent DocumentReference resources as message bundles:
-* {{pagelink: Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter, text:Example Message Bundle - Submit Care Document (Encounter Based)}}
-* {{pagelink: Example-DataStandardsWales-Bundle-SubmitCareDocument-Event, text:Example Message Bundle - Submit Care Document (Event Based)}}
+* {{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}
 
 ### Provenance
 The following examples represent Provenance resource instances for a newly created DocumentReference for which patient demographics were provided:

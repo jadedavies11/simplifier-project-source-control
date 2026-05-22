@@ -1,6 +1,6 @@
 <div class="warning"><span class="DevWarn"></span></div>
 
-## Example Message Bundle - Submit Document (Encounter Based)
+## Example Message Bundle - Submit Care Document (Minimal Required CDR Data)
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,16 +22,16 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter}}
+      {{tree:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter}}
+      {{table:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter}}
+      {{xml:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter}}
+      {{json:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR}}
     </div>
   </div>
 </div>

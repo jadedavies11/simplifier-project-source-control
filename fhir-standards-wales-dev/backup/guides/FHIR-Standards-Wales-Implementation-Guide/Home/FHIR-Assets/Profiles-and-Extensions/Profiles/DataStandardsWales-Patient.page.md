@@ -79,7 +79,7 @@ The extensions listed below are those created to support Data Standards Wales:
 _Note: this list does not include extensions provided by UK Core and you should refer to their implementation guide for support_
 
 ### Slices
-The following identifier slices for use with the patient profile are listed below. The namespaces denoting issuing authority for each identifier are defined on the {{pagelink:Naming-Systems, text:Naming Systems}} page.  NHS numbers are further described in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/).
+The following identifier slices for use with the patient profile are listed below. The namespaces denoting issuing authority for each identifier are defined on the {{pagelink:Home/FHIR-Assets/Naming-Systems}} page.  NHS numbers are further described in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/).
  
 * `Patient.identifier:nhsNumber` 
 * `Patient.identifier:abuhbPasIdentifier` 

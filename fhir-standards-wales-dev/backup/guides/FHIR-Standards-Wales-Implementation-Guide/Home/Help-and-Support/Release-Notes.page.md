@@ -82,7 +82,7 @@ Package:
         * DataStandardsWales-MessageEvent
             * Updated version from 0.1.0 to 0.2.0
             * Added DataStandardsWales-Document-MessageEvent as a CodeSystem
-* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+* {{pagelink:Home/FHIR-Assets/Naming-Systems, text:Naming Systems}}
     * New Naming Systems
         * Namespace for LIMS1 TCL encounter identifier
         * Namespace for LIMS2 TCLe encounter identifier
@@ -92,8 +92,7 @@ Package:
         * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions   
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
-        * Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter
-        * Example-DataStandardsWales-Bundle-SubmitCareDocument-Event
+        * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
         * Example-DataStandardsWales-Organization-AmmanTawe
         * Example-DataStandardsWales-Organization-CAVUHB
@@ -105,6 +104,8 @@ Package:
             * AllergyIntolerance.reaction.substance.code. Removed trailing white space from code
         * Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI
             * Condition.clinicalStatus. Added a value
+        * Example-AuditEvent-CreateObservations
+            * AuditEvent.source. Added a value
         * Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI
             * Condition.clinicalStatus. Added a value
         * Example-DataStandardsWales-DocumentReference-EncounterBased
@@ -129,13 +130,6 @@ Package:
             * DocumentReference.extension:sourceSystem. Entry removed and replaced by meta.source
             * DocumentReference.meta.source. Added a value
             * DocumentReference.meta.tag. One entry added for docattr_documenttypecode
-            * Referenced examples adjusted
-        * Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased
-            * DocumentReference.extension:errorAction. Entries removed and replaced by meta.tag
-            * DocumentReference.extension:errorStatus. Entry removed
-            * DocumentReference.extension:sourceSystem. Entry removed and replaced by meta.source
-            * DocumentReference.meta.source. Added a value
-            * DocumentReference.meta.tag. One entry added for docattr_documenttypecode and another for latesterroraction
             * Referenced examples adjusted
         * Example-DataStandardsWales-Immunization-FluVaccine
             * Immunization.performer.actor.type. Added a value
@@ -162,6 +156,8 @@ Package:
         * Example-WelshClinicalPortal-growth-chart-bundle
             * Bundle.meta.profile. Removed element.       
     * Removed Examples
+        * Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased
+            * Removed pending decisions on error workflow handling
         * Example-DataStandardsWales-Organization-GPCluster
             * Replaced by Example-DataStandardsWales-Organization-AmmanGwendraeth
         * Example-DataStandardsWales-Organization-GPPractice
@@ -180,6 +176,7 @@ Guide:
     * Updated Care Documents guidance page to clarify the potential roles of Device, Patient, RelatedPerson, Practitioner and PractitionerRole
     * Updated Care Documents guidance page to indicate the implementation of encounter-based document metadata by the Care Documents Service
     * Updated Care Documents guidance page to indicate the use of meta tags to store legacy document attributes
+    * Updated Care Documents guidance page to replace Document Error Workflow section content with placeholder statements pending new guidance
     * Updated Care Documents guidance page with a new section to outline care document versions handling differences between WCRS and FHIR
     * Updated Care Documents guidance page with added examples 
     * Updated DataStandardsWales-DocumentReference profile page to reflect the revised set of extensions
