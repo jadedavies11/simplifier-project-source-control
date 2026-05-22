@@ -47,7 +47,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}
 
 ### Encounter Examples
 * {{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Example Encounter - Emergency Admission}}
@@ -127,8 +126,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Admission, text:Example MedicationStatement - Patient reported - Paracetamol}}
 
 ### Message Bundle Examples
-* {{pagelink: Example-DataStandardsWales-Bundle-SubmitCareDocument-Encounter, text:Example Message Bundle - Submit Care Document (Encounter Based)}}
-* {{pagelink: Example-DataStandardsWales-Bundle-SubmitCareDocument-Event, text:Example Message Bundle - Submit Care Document (Event Based)}}
+* {{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Submit Care Document (Minimal Required CDR Data)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Literal, text:Example Message Bundle - Submit Clinician (with Literal Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Logical, text:Example Message Bundle - Submit Clinician (with Logical Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
