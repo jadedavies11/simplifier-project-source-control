@@ -12,7 +12,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
     * New Message Definitions
-        * DataStandardsWales-MessageDefinition-SubmitCareDocument
+        * DataStandardsWales-CareDocumentSubmit
     * New Extensions
         * Extension-DataStandardsWales-AliasType
     * Removed Profiles
@@ -57,7 +57,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
         * DataStandardsWales-AliasType
-        * DataStandardsWales-Document-MessageEvent
+        * DataStandardsWales-MessageEvent
         * DataStandardsWales-OrganizationClassification
         * DataStandardsWales-OrganizationDomain
         * DataStandardsWales-OrganizationSector
@@ -81,7 +81,7 @@ Package:
     * Changes to Value Sets
         * DataStandardsWales-MessageEvent
             * Updated version from 0.1.0 to 0.2.0
-            * Added DataStandardsWales-Document-MessageEvent as a CodeSystem
+            * Added DataStandardsWales-MessageEvent as a CodeSystem
 * {{pagelink:Home/FHIR-Assets/Naming-Systems, text:Naming Systems}}
     * New Naming Systems
         * Namespace for LIMS1 TCL encounter identifier

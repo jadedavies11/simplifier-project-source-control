@@ -2,8 +2,6 @@
   filename: Index.page.md
 - name: CodeSystem-DataStandardsWales-AliasType
   filename: CodeSystem-DataStandardsWales-AliasType.page.md
-- name: CodeSystem-DataStandardsWales-Document-MessageEvent
-  filename: CodeSystem-DataStandardsWales-Document-MessageEvent.page.md
 - name: CodeSystem-DataStandardsWales-DocumentDigitalStatus
   filename: CodeSystem-DataStandardsWales-DocumentDigitalStatus.page.md
 - name: CodeSystem-DataStandardsWales-GenderIdentity
@@ -12,6 +10,8 @@
   filename: CodeSystem-DataStandardsWales-MainSpecialty.page.md
 - name: CodeSystem-DataStandardsWales-MaritalStatus
   filename: CodeSystem-DataStandardsWales-MaritalStatus.page.md
+- name: CodeSystem-DataStandardsWales-MessageEvent
+  filename: CodeSystem-DataStandardsWales-MessageEvent.page.md
 - name: CodeSystem-DataStandardsWales-OrganizationClassification
   filename: CodeSystem-DataStandardsWales-OrganizationClassification.page.md
 - name: CodeSystem-DataStandardsWales-OrganizationDomain

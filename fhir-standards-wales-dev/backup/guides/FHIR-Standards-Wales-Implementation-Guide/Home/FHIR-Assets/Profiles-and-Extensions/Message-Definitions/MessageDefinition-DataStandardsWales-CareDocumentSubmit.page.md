@@ -1,6 +1,6 @@
 <div class="warning"><span class="DevWarn"></span></div>
 
-## Example Message Bundle - Care Document Submit (Minimal Required CDR Data)
+## {{page-title}}
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,16 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR}}
+      {{tree:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-CareDocumentSubmit}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR}}
+      {{table:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-CareDocumentSubmit}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR}}
+      {{xml:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-CareDocumentSubmit}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR}}
-    </div>
+      {{json:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-CareDocumentSubmit}}
+    </div>       
+    <div id="tabnarrative" class="tabcontent">
+      {{narrative:https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-CareDocumentSubmit}}
+    </div>  
   </div>
 </div>

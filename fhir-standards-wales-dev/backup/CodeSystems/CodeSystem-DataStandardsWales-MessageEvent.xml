@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="DataStandardsWales-Document-MessageEvent"/>
-    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Document-MessageEvent"/>	
+    <id value="DataStandardsWales-MessageEvent"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-MessageEvent"/>	
     <version value="0.0.1" />
-    <name value="DataStandardsWales-Document-MessageEvent"/>
-	<title value="Data Standards Wales Document Message Event"/>
+    <name value="DataStandardsWalesMessageEvent"/>
+	<title value="Data Standards Wales Message Event"/>
     <status value="draft" />
     <experimental value="false" />
-    <date value="2026-05-01" />
+    <date value="2026-05-26" />
     <publisher value="NHS Wales" />
 	<contact>
 		<name value="FHIR Standards"/>	
@@ -22,8 +22,8 @@
     <caseSensitive value="true"/>
     <content value="complete"/>
     <concept>
-        <code value="submit-care-document"/>
-        <display value="Submit care document"/>
+        <code value="care-document-submit"/>
+        <display value="Care document submit"/>
         <definition value="Indicates a message event submitting a new or updated document record to the NHS Wales Care Data Repository."/>
     </concept>             
 </CodeSystem>
