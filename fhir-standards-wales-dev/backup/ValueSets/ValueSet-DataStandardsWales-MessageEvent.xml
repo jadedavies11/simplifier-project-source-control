@@ -6,7 +6,7 @@
 	<title value="Data Standards Wales Message Event"/>
     <status value="draft" />
     <experimental value="false" />
-	<date value="2026-05-01" />
+	<date value="2026-05-26" />
     <publisher value="NHS Wales" />
 	<contact>
 		<name value="FHIR Standards"/>
@@ -23,7 +23,7 @@
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>
 		</include>
 		<include>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Document-MessageEvent"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-MessageEvent"/>
 		</include>
 		<include>
 			<system value="https://fhir.nhs.wales/CodeSystem/message-events"/>

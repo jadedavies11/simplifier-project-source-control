@@ -12,9 +12,9 @@
 		<resource>
 			<MessageHeader>
 				<eventCoding>
-					<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Document-MessageEvent"/>
-					<code value="submit-care-document"/>
-					<display value="Submit care document"/>
+					<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-MessageEvent"/>
+					<code value="care-document-submit"/>
+					<display value="Care document submit"/>
 				</eventCoding>
 				<enterer>
 					<reference value="urn:uuid:a049e510-3d63-11f1-a707-dd757aa080e0" />
@@ -68,7 +68,7 @@
 					<type value="PractitionerRole"/>
 					<display value="PATEL Dhiren, Dr (GMC:9630333), SBUHB Consultant"/>
 				</focus>
-				<definition value="https://fhir.nhs.wales/MessageDefinition/Example-DataStandardsWales-MessageDefinition-SubmitCareDocument"/>
+				<definition value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-CareDocumentSubmit"/>
 			</MessageHeader>
 		</resource>
 	</entry>

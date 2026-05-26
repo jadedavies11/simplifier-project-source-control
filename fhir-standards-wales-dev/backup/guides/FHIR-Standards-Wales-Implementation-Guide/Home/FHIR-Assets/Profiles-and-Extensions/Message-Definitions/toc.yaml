@@ -1,7 +1,7 @@
 - name: Index
   filename: Index.page.md
-- name: MessageDefinition-DataStandardsWales-SubmitCareDocument
-  filename: MessageDefinition-DataStandardsWales-SubmitCareDocument.page.md
+- name: MessageDefinition-DataStandardsWales-CareDocumentSubmit
+  filename: MessageDefinition-DataStandardsWales-CareDocumentSubmit.page.md
 - name: MessageDefinition-DataStandardsWales-UEC-Arrival
   filename: MessageDefinition-DataStandardsWales-UEC-Arrival.page.md
 - name: MessageDefinition-DataStandardsWales-UEC-Triage
