@@ -88,7 +88,7 @@ These pages contain guidance on the following areas:
 		<td class="resource">{{pagelink:DataStandardsWales-QuestionnaireResponse}} </td> 
 		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 		<td class="resource">{{pagelink:DataStandardsWales-DocumentReference}} </td> 
-		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
+		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
     </tr>
 	<tr>
 		<td class="resource"></td> 

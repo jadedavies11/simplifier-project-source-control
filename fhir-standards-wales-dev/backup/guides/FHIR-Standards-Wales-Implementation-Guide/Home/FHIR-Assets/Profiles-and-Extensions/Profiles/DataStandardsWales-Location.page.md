@@ -36,6 +36,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   <div id="tabeg" class="tabcontent">
     <list>
       <li>{{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Cadog Ward (GGH)}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Outpatients Department (GGH)}}</li>
       <li>{{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Ward E (NPT)}}</li>
     </list>
   </div>    

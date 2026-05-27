@@ -2,6 +2,8 @@
   filename: Index.page.md
 - name: Version History
   filename: Version-History.page.md
+- name: Dependencies History
+  filename: Dependencies-History.page.md
 - name: Version Roadmap
   filename: Version-Roadmap.page.md
 - name: Change Notices

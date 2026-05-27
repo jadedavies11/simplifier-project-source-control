@@ -59,10 +59,15 @@ The diagram below shows how the FHIR resources work together to provide the meta
 
 ## Examples
 ### DocumentReference
-The following examples represent DocumentReference resources for the three scenarios outlined in the preceding sections:
+The following examples represent DocumentReference resources for the three scenarios outlined in the preceding sections including an earlier document referenced from the third example:
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}
+
+### Encounter
+The following example illustrates how a minimally populated Encounter resource can be used to convey the event-related document metadata such as event date and time, event organisation, event site, event location and senior reponsible clinician:
+* {{pagelink:Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation, text:Example Encounter - Documented Event (Diabetes Consultation)}}
 
 ### DocumentReference Bundles
 The following examples represent DocumentReference resources as message bundles:

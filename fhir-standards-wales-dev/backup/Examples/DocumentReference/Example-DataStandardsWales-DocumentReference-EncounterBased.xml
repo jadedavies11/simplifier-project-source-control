@@ -81,7 +81,7 @@
   <date value="2025-07-22T11:20:17+00:00"/>
   <author>
     <reference value="PractitionerRole/Example-DSW-PractitionerRole-Nurse-EmilyMay-HDUHB"/>
-    <display value="MAY, Emily B, Ms (NMC:AB12345X) - Nurse for HDUHB"/>
+    <display value="MAY, Emily B, Ms (NMC:AB12345X), Nurse for HDUHB"/>
   </author>
   <author>
     <reference value="PractitionerRole/Example-DSW-PractitionerRole-Dietitian-JudeFrancis-HDUHB"/>
@@ -108,7 +108,7 @@
   </content>
   <context>
     <encounter>
-      <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation"/>
+      <reference value="Encounter/Example-DSW-Encounter-DocumentedEvent-DiabetesConsultation"/>
     </encounter>
     <practiceSetting>
       <coding>

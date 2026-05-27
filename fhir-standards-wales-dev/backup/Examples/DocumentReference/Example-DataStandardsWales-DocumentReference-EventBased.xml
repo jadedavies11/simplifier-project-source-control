@@ -81,11 +81,11 @@
   <date value="2025-07-22T11:20:17+00:00" />
   <author>
     <reference value="PractitionerRole/Example-DSW-PractitionerRole-Nurse-EmilyMay-HDUHB"/>
-    <display value="MAY, Emily B, Ms (NMC:AB12345X) - Nurse for HDUHB"/>
+    <display value="MAY, Emily B, Ms (NMC:AB12345X), Nurse for HDUHB"/>
   </author>
   <author>
     <reference value="PractitionerRole/Example-DSW-PractitionerRole-Dietitian-JudeFrancis-HDUHB"/>
-    <display value="FRANCIS Jude, Miss (HCPC:DT123456), Dietitian for HDUHB"/>
+    <display value="FRANCIS, Jude, Miss (HCPC:DT123456), Dietitian for HDUHB"/>
   </author>
   <custodian>
     <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />

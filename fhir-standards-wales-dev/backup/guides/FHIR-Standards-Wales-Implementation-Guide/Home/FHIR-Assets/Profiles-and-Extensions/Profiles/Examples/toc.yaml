@@ -20,16 +20,24 @@
   filename: Example-DataStandardsWales-DocumentReference-EncounterBased.page.md
 - name: Example-DataStandardsWales-DocumentReference-EventBased
   filename: Example-DataStandardsWales-DocumentReference-EventBased.page.md
+- name: Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover
+  filename: Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover.page.md
 - name: Example-DataStandardsWales-DocumentReference-NotEventBased
   filename: Example-DataStandardsWales-DocumentReference-NotEventBased.page.md
 - name: Example-DataStandardsWales-DocumentReference-Provenance
   filename: Example-DataStandardsWales-DocumentReference-Provenance.page.md
+- name: Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation
+  filename: Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation.page.md
 - name: Example-DataStandardsWales-Encounter-EmergencyAdmission
   filename: Example-DataStandardsWales-Encounter-EmergencyAdmission.page.md
 - name: Example-DataStandardsWales-Encounter-InProgressEmergencyAdmission
   filename: Example-DataStandardsWales-Encounter-InProgressEmergencyAdmission.page.md
 - name: Example-DataStandardsWales-Location-CadogWard
   filename: Example-DataStandardsWales-Location-CadogWard.page.md
+- name: Example-DataStandardsWales-Location-GGH
+  filename: Example-DataStandardsWales-Location-GGH.page.md
+- name: Example-DataStandardsWales-Location-GGH-OPD
+  filename: Example-DataStandardsWales-Location-GGH-OPD.page.md
 - name: Example-DataStandardsWales-Location-WardE
   filename: Example-DataStandardsWales-Location-WardE.page.md
 - name: Example-DataStandardsWales-MessageDefinition-SubmitClinician
@@ -58,6 +66,8 @@
   filename: Example-DataStandardsWales-Organization-GGH.page.md
 - name: Example-DataStandardsWales-Organization-HDUHB
   filename: Example-DataStandardsWales-Organization-HDUHB.page.md
+- name: Example-DataStandardsWales-Organization-MedicalInsurer
+  filename: Example-DataStandardsWales-Organization-MedicalInsurer.page.md
 - name: Example-DataStandardsWales-Organization-NCMC
   filename: Example-DataStandardsWales-Organization-NCMC.page.md
 - name: Example-DataStandardsWales-Organization-NPT
@@ -74,18 +84,30 @@
   filename: Example-DataStandardsWales-Patient-PeterPiper.page.md
 - name: Example-DataStandardsWales-Practitioner-Consultant
   filename: Example-DataStandardsWales-Practitioner-Consultant.page.md
+- name: Example-DataStandardsWales-Practitioner-Consultant-JoeBloggs
+  filename: Example-DataStandardsWales-Practitioner-Consultant-JoeBloggs.page.md
+- name: Example-DataStandardsWales-Practitioner-Dietitian-JudeFrancis
+  filename: Example-DataStandardsWales-Practitioner-Dietitian-JudeFrancis.page.md
 - name: Example-DataStandardsWales-Practitioner-Doctor
   filename: Example-DataStandardsWales-Practitioner-Doctor.page.md
 - name: Example-DataStandardsWales-Practitioner-NonClinical
   filename: Example-DataStandardsWales-Practitioner-NonClinical.page.md
+- name: Example-DataStandardsWales-Practitioner-Nurse-EmilyMay
+  filename: Example-DataStandardsWales-Practitioner-Nurse-EmilyMay.page.md
 - name: Example-DataStandardsWales-Practitioner-Physiotherapist
   filename: Example-DataStandardsWales-Practitioner-Physiotherapist.page.md
 - name: Example-DataStandardsWales-Practitioner-PrescribingNurse
   filename: Example-DataStandardsWales-Practitioner-PrescribingNurse.page.md
+- name: Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs-HDUHB
+  filename: Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs-HDUHB.page.md
 - name: Example-DataStandardsWales-PractitionerRole-Consultant
   filename: Example-DataStandardsWales-PractitionerRole-Consultant.page.md
+- name: Example-DataStandardsWales-PractitionerRole-Dietitian-JudeFrancis-HDUHB
+  filename: Example-DataStandardsWales-PractitionerRole-Dietitian-JudeFrancis-HDUHB.page.md
 - name: Example-DataStandardsWales-PractitionerRole-HCA
   filename: Example-DataStandardsWales-PractitionerRole-HCA.page.md
+- name: Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay-HDUHB
+  filename: Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay-HDUHB.page.md
 - name: Example-DataStandardsWales-PractitionerRole-Physiotherapist
   filename: Example-DataStandardsWales-PractitionerRole-Physiotherapist.page.md
 - name: Example-DataStandardsWales-PractitionerRole-PrescribingNurse
