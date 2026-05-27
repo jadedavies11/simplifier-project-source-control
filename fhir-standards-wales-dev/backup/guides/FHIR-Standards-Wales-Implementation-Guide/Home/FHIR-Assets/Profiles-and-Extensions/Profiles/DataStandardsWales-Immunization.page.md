@@ -91,6 +91,5 @@ The extensions listed below allow a number of the data elements listed above to 
     * {{pagelink:Extension-DataStandardsWales-ForecastCreationSource,text:DataStandardsWales-ForecastCreationSource}}
 
   * Backport extensions
-    * R5 backports from package hl7.fhir.uv.xver-r5.r4
-      * [ExtensionImmunization_BasedOn](http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.BasedOn)
-
+    * The following extension is based on elements in the [HL7 R5 Immunization](https://www.hl7.org/fhir/r5/immunization.html) resource definition. See {{pagelink:Home/Help-and-Support/Deployment.page.md}} for more information on dependencies.
+      * **ExtensionImmunization_basedOn** supports the identification of the request or recommendation fulfilled by the immunization event. It is based on `Immunization.basedOn` in R5.

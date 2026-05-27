@@ -1,0 +1,23 @@
+<Location xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Location-GGH-OPD" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+    </meta>
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">Glangwili General Hospital Outpatients Department</div>
+    </text>      
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-location-identifier" />
+        <value value="7A2AGOPD" />
+    </identifier>
+    <name value="Glangwili General Hospital Outpatients Department" />
+    <managingOrganization>
+        <reference value="Organization/Example-DataStandardsWales-Organization-GGH" />
+        <display value="Glangwili General Hospital" />
+    </managingOrganization>
+    <partOf>
+        <reference value="Location/Example-DataStandardsWales-Location-GGH" />
+        <display value="Glangwili General Hospital" />
+    </partOf>
+</Location>

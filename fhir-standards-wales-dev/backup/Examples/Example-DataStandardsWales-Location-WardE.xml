@@ -20,7 +20,7 @@
 			<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier" />
 			<value value="6013-example" />
 		</identifier>
-        <reference value="Organization/Example-DataStandardsWales-Organization-NeathPortTalbotHospital" />
+        <reference value="Organization/Example-DataStandardsWales-Organization-NPTH" />
         <display value="Neath Port Talbot Hospital" />
     </managingOrganization>
 </Location>

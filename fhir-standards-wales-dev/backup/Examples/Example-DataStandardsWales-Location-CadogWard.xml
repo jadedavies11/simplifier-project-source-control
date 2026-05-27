@@ -28,4 +28,8 @@
         <reference value="Organization/Example-DataStandardsWales-Organization-GlangwiliGeneralHospital" />
         <display value="Glangwili General Hospital" />
     </managingOrganization>
+    <partOf>
+        <reference value="Location/Example-DataStandardsWales-Location-GGH" />
+        <display value="Glangwili General Hospital" />
+    </partOf>
 </Location>
