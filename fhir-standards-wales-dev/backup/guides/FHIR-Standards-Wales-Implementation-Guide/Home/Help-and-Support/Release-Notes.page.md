@@ -32,7 +32,7 @@ Package:
             * extension:attesterR5. Removed Extension-DataStandardsWales-DocumentAttester
             * extension:attesterR5. Added http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester to reflect formal R5 to R4 backport. Updated target profiles and descriptive elements (e.g. short, definition, comment)
             * extension:documentAttribute. Removed Extension-DataStandardsWales-DocumentAttribute. Replaced by use of meta.tag
-            * extension:errorAction. Removed Extension-DataStandardsWales-DocumentErrorAction. Replaced by use of meta tag latesterroraction and Provenance
+            * extension:errorAction. Removed Extension-DataStandardsWales-DocumentErrorAction. Error handling approach not yet finalised
             * extension:errorStatus. Removed Extension-DataStandardsWales-DocumentErrorStatus. Not required
             * extension:sourceSystem. Removed Extension-DataStandardsWales-SourceSystem. Replaced by use of meta.source
             * extension:versionR5. Removed Extension-DataStandardsWales-DocumentVersion

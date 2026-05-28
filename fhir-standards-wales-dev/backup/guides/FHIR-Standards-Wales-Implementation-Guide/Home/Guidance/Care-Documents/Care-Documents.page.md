@@ -59,6 +59,8 @@ A DocumentReference resource is the equivalent of a Welsh Care Records Service s
 
 A DocumentReference resource may be related to other distinct DocumentReference resources, for example where one document is an approval slip that “signs” another document, or where a document presenting a clinical summary at a consultation “replaces” the distinct clinical summary document from the prior consultation.
 
+Each DocumentReference resource should have a `meta.source` element that identifies the source system using its application identifier (OID). To support seamless searching across new and legacy data in the short to medium term, `meta.tag` instances can be used to store searchable document attributes.
+
 ### Encounter
 The documented event may be represented as an Encounter resource instance. In this case applications may access the referenced Encounter to retrieve the event details including document metadata such as event site and event organisation.
 

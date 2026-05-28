@@ -1,5 +1,5 @@
 ## Example Encounter - Documented Event (Diabetes Consultation)
-This example supports the illustration of an encounter-based DocumentReference.  It is referenced within {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased.page.md, text:Example DocumentReference - Encounter-based}} as the Encounter context for the document. This Encounter carries the minimal dataset for document event data that would be expected if there was no dedicated application functionality to provide a fuller Encounter dataset.  
+This example supports the illustration of an encounter-based DocumentReference.  It is referenced within {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text:Example DocumentReference - Encounter-based}} as the Encounter context for the document. This Encounter carries the minimal dataset for document event data that would be expected if there was no dedicated application functionality to provide a fuller Encounter dataset.  
 
 The Encounter specifically supports a document reference representing a diabetes consultation:
 - The consultation occurred in the Outpatients Department of Glangwili General Hospital at 09:37 on 22nd July

@@ -54,8 +54,8 @@
     <element id="Organization.identifier:gpClusterCode">
       <path value="Organization.identifier" />
       <sliceName value="gpClusterCode" />
-      <short value="[deprecated] Identifies a Wales GP Cluster organization across multiple systems" />
-      <definition value="[deprecated] Identifier for a Wales GP Cluster organization that is used to identify the organization across multiple disparate systems. This slice will be removed at a future version of this profile. It applies to a small number of organization resources that are more accurately named primary care clusters.  It can be stored as a generic identifier using the applicable naming system." />
+      <short value="Deprecated. Identifies a Wales GP Cluster organization across multiple systems" />
+      <definition value="Deprecated. Identifier for a Wales GP Cluster organization that is used to identify the organization across multiple disparate systems. This slice will be removed at a future version of this profile. It applies to a small number of organization resources that are more accurately named primary care clusters.  It can be stored as a generic identifier using the applicable naming system." />
       <requirements value="This identifier is shown as Must Support, only because it is an inherited property of the identifier element in the base definition.  The flag cannot be cleared because it is, through inheritance, applicable to all slices added by the profile.  Given that this identifier slice is deprecated, it should not be considered as Must Support by implementers." />
     </element>
     <element id="Organization.identifier:gpClusterCode.system">
@@ -79,7 +79,6 @@
           <path value="coding.system" />
         </discriminator>
         <description value="Slices to support a structured organization type, including values from a hierarchical organization type code system, with appropriately filtered value sets." />
-        <ordered value="true" />
         <rules value="open" />
       </slicing>
       <comment value="A structured organization type comprising sector, domain, classification and subclassification should be provided for known organizations, especially where these form part of the organization hierarchy for domains relevant to the delivery of health and care within Wales." />
@@ -90,7 +89,7 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationTypeExtended" />
       </binding>
     </element>
-    <element id="Organization.type:sector">
+	  <element id="Organization.type:sector">
       <path value="Organization.type" />
       <sliceName value="sector" />
       <short value="Distinguishes public, private and third sector organizations" />
@@ -104,6 +103,11 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSector" />
       </binding>
     </element>
+	  <element id="Organization.type:sector.coding">
+      <path value="Organization.type.coding"/>
+      <min value="1"/>
+      <max value="1"/>
+	  </element>
     <element id="Organization.type:sector.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
@@ -112,10 +116,14 @@
     <element id="Organization.type:sector.coding.code">
       <path value="Organization.type.coding.code" />
       <min value="1" />
-    </element>
+    </element>     
     <element id="Organization.type:sector.coding.display">
       <path value="Organization.type.coding.display" />
       <min value="1" />
+    </element>
+    <element id="Organization.type:sector.text">
+      <path value="Organization.type.text" />
+      <max value="0" />
     </element>
     <element id="Organization.type:domain">
       <path value="Organization.type" />
@@ -132,6 +140,11 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationDomain" />
       </binding>
     </element>
+	  <element id="Organization.type:domain.coding">
+      <path value="Organization.type.coding"/>
+      <min value="1"/>
+      <max value="1"/>
+	  </element>
     <element id="Organization.type:domain.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
@@ -144,6 +157,10 @@
     <element id="Organization.type:domain.coding.display">
       <path value="Organization.type.coding.display" />
       <min value="1" />
+    </element>
+    <element id="Organization.type:domain.text">
+      <path value="Organization.type.text" />
+      <max value="0" />
     </element>
     <element id="Organization.type:classification">
       <path value="Organization.type" />
@@ -160,6 +177,11 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationClassification" />
       </binding>
     </element>
+	  <element id="Organization.type:classification.coding">
+      <path value="Organization.type.coding"/>
+      <min value="1"/>
+      <max value="1"/>
+	  </element>
     <element id="Organization.type:classification.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
@@ -172,6 +194,10 @@
     <element id="Organization.type:classification.coding.display">
       <path value="Organization.type.coding.display" />
       <min value="1" />
+    </element>
+    <element id="Organization.type:classification.text">
+      <path value="Organization.type.text" />
+      <max value="0" />
     </element>
     <element id="Organization.type:subclassification">
       <path value="Organization.type" />
@@ -188,6 +214,11 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSubclassification" />
       </binding>
     </element>
+	  <element id="Organization.type:subclassification.coding">
+      <path value="Organization.type.coding"/>
+      <min value="1"/>
+      <max value="1"/>
+	  </element>
     <element id="Organization.type:subclassification.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
@@ -200,6 +231,10 @@
     <element id="Organization.type:subclassification.coding.display">
       <path value="Organization.type.coding.display" />
       <min value="1" />
+    </element>
+    <element id="Organization.type:subclassification.text">
+      <path value="Organization.type.text" />
+      <max value="0" />
     </element>
     <element id="Organization.name">
       <path value="Organization.name" />

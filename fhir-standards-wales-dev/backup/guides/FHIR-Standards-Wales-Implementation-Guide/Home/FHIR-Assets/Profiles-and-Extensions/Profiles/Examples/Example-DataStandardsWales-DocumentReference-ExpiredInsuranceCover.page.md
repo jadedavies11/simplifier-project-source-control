@@ -1,5 +1,5 @@
 ## Example Document Reference - Expired Insurance Cover
-This document reference example supports the illustration of related documents.  It is referenced within {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased.page.md, text:Example DocumentReference - Not Event-based}} as the document directly replaced by that example, which represents renewed insurance cover.
+This document reference example supports the illustration of related documents.  It is referenced within {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text:Example DocumentReference - Not Event-based}} as the document directly replaced by that example, which represents renewed insurance cover.
 
 <div class="tab-wrap">
   <ul class="tab-head">
