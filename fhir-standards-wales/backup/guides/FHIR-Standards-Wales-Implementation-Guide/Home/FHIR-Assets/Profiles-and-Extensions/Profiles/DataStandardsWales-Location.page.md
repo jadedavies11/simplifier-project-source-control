@@ -36,6 +36,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   <div id="tabeg" class="tabcontent">
     <list>
       <li>{{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Cadog Ward (GGH)}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Outpatients Department (GGH)}}</li>
       <li>{{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Ward E (NPT)}}</li>
     </list>
   </div>    
@@ -66,7 +68,7 @@ The `Location.status` field **SHOULD** be populated to indicate whether the orga
 The `Location.name` field **SHALL** be populated.
 
 ### Slices
-The following identifier slice is used with the location profile listed below. The namespaces denoting issuing authority for the identifier are defined on the {{pagelink:Naming-Systems, text:Naming Systems}} page.
+The following identifier slice is used with the location profile listed below. The namespaces denoting issuing authority for the identifier are defined on the {{pagelink:Home/FHIR-Assets/Naming-Systems}} page.
  
 * `Location.identifier:wrtsLocationIdentifier` 
 

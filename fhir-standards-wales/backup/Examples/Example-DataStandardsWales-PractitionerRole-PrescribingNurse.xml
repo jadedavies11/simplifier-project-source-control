@@ -7,7 +7,7 @@
         <reference value="Practitioner/Example-DataStandardsWales-Practitioner-PrescribingNurse" />
     </practitioner>
     <organization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-GPSurgery" />
+        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe" />
     </organization>
     <code>
         <coding>

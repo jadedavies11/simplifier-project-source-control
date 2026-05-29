@@ -28,6 +28,16 @@
         <name value="Mark Smith" />
         <requestor value="true" />
     </agent>
+    <source>
+		<observer>
+			<reference value="Device/Example-DataStandardsWales-Device-WPAS"/>
+		</observer>
+		<type>
+			    <system value="http://terminology.hl7.org/CodeSystem/security-source-type"/>
+			    <code value="4"/>
+			    <display value="Application Server"/>
+		</type>
+	</source>
     <entity>
         <what>
             <reference value="Observation/example1/_history/1" />

@@ -41,8 +41,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
         <li>{{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceCreation, text: Example Provenance record for DocumentReference creation}}</li>
         <li>{{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics, text: Example Provenance record for demographics as recorded with care document}}</li>
         <li>{{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text:Example Provenance record with multiple targets e.g. for growth chart observations}}</li>
-
-      </list>
+        <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text:Example Document Reference - Provenance-related HL7v2 message}}</li>
+    </list>
   </div>
 </div>
 

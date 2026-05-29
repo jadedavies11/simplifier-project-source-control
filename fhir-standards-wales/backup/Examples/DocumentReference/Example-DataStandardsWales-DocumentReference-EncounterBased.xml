@@ -1,0 +1,121 @@
+<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="Example-DataStandardsWales-DocumentReference-EncounterBased"/>
+  <meta>
+    <source value="urn:oid:2.16.840.1.113883.2.1.8.1.5.210"/>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
+    <tag>
+      <system value="seqno"/>
+      <display value="1"/>
+    </tag>
+    <tag>
+      <system value="docattr_documenttypecode"/>
+      <display value="CONSULTATIONNOTE_DIABETES"/>
+    </tag>
+    <tag>
+      <system value="docattr_documentsubtype"/>
+      <display value="Adult services"/>
+    </tag>
+    <tag>
+      <system value="docattr_clonesequencenumber"/>
+      <display value="0"/>
+    </tag>
+    <tag>
+      <system value="docattr_thirdpartydataincluded"/>
+      <display value="True"/>
+    </tag>
+  </meta>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
+    <valueCode value="born-digital-document"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version">
+    <valueString value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester">
+    <extension url="mode">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://hl7.org/fhir/valueset-composition-attestation-mode.html"/>
+          <code value="professional"/>
+          <display value="Professional"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="time">
+      <valueDateTime value="2025-07-22T13:09:37+00:00"/>
+    </extension>
+    <extension url="party">
+      <valueReference>
+        <reference value="PractitionerRole/Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
+        <display value="BLOGGS, Joe A, Dr (GMC:1234567), Consultant Diabetologist for HDUHB"/>
+      </valueReference>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="https://fhir.nhs.wales/Id/wcrs-document-identifier"/>
+    <value value="FF849C81-9917-47D9-B929-4AF1BDD94670"/>
+  </identifier>
+  <identifier>
+    <system value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier"/>
+    <value value="6DB699D2-AD58-43DD-AEA5-341AE3DBFF93"/>
+  </identifier>
+  <status value="current"/>
+  <docStatus value="final"/>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="766841000000106"/>
+      <display value="Consultation with patient"/>
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="325931000000109"/>
+      <display value="Assessment"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames"/>
+    <display value="JAMES, Harold A, Mr"/>
+  </subject>
+  <date value="2025-07-22T11:20:17+00:00"/>
+  <author>
+    <reference value="PractitionerRole/Example-DSW-PractitionerRole-Nurse-EmilyMay-HDUHB"/>
+    <display value="MAY, Emily B, Ms (NMC:AB12345X), Nurse for HDUHB"/>
+  </author>
+  <author>
+    <reference value="PractitionerRole/Example-DSW-PractitionerRole-Dietitian-JudeFrancis-HDUHB"/>
+    <display value="FRANCIS Jude, Miss (HCPC:DT123456), Dietitian for HDUHB"/>
+  </author>
+  <custodian>
+    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
+    <display value="Hywel Dda University Health Board"/>
+  </custodian>
+  <description value="Diabetes Consultation Note"/>
+  <securityLabel>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
+      <code value="N"/>
+      <display value="Normal"/>
+    </coding>
+  </securityLabel>
+  <content>
+    <attachment>
+      <contentType value="application/pdf"/>
+      <language value="eng"/>
+      <url value="https://www.example.com/documentref1234"/>
+    </attachment>
+  </content>
+  <context>
+    <encounter>
+      <reference value="Encounter/Example-DSW-Encounter-DocumentedEvent-DiabetesConsultation"/>
+    </encounter>
+    <practiceSetting>
+      <coding>
+        <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+        <code value="302"/>
+        <display value="Endocrinology and Diabetes"/>
+      </coding>
+    </practiceSetting>
+  </context>
+</DocumentReference>

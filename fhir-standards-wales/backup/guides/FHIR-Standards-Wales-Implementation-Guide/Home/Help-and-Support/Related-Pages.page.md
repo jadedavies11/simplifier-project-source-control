@@ -85,12 +85,12 @@ A list of the sites developed by HL7 International to assist with development an
 <div class="container">
     <div class="row">
         <div class="col-md-7 card">
-            <h4><b><a href="https://www.hl7.org/fhir/R4/" alt="HL7 International R4" target="_blank">HL7 International R4</a></b></h4>
-            <p>The current NHS Wales FHIR Implementation Guide has profiles that are derived from UK Core which is based on HL7 International R4</p>
+            <h4><b><a href="https://www.hl7.org/fhir/R4/" alt="HL7 FHIR R4" target="_blank">HL7 FHIR R4</a></b></h4>
+            <p>The current Data Standards Wales FHIR Implementation Guide has profiles that are derived from UK Core which is based on HL7 FHIR R4</p>
         </div>
         <div class="col-md-7 card">
-            <h4><b><a href="https://hl7.org/fhir/R5/index.html" alt="HL7 International R5" target="_blank">HL7 International R5</a></b></h4>
-            <p>The current NHS Wales FHIR Implementation Guide also contains some extensions backported from HL7 International R5 to enhance existing R4 content</p>
+            <h4><b><a href="https://simplifier.net/packages/hl7.fhir.uv.xver-r5.r4/0.1.0/" alt="HL7 FHIR Cross Version R5 to R4 Backport Extension Package" target="_blank">HL7 FHIR Cross Version R5 to R4 Backport Extension Package</a></b></h4>
+            <p>The current Data Standards Wales FHIR Implementation Guide contains some extensions backported from HL7 FHIR R5 to enhance existing R4 content</p>
         </div>
     </div>
 </div>
