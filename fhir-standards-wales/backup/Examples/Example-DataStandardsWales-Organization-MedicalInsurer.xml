@@ -1,0 +1,37 @@
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Organization-MedicalInsurer"/>
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">Star Value Medical Insurance Ltd.</div>
+    </text>
+    <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+        <valuePeriod>
+            <start value="2009-10-01"/>
+        </valuePeriod>
+    </extension>
+    <identifier>
+        <system value="https://externally-sourced-tbd/Id/company-reg-no"/>
+        <value value="12389006"/>
+    </identifier>
+    <active value="true"/>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
+			<code value="private"/>
+			<display value="Private"/>
+		</coding>
+	</type>
+    <name value="Star Value Medical Insurance Ltd."/>
+    <telecom>
+        <system value="phone"/>
+        <value value="0800 1222 3444"/>
+    </telecom>
+    <address>
+        <line value="99 Galaxy Drive"/>
+        <city value="Croydon"/>
+        <postalCode value="CR1 2AL"/>
+    </address>
+</Organization>

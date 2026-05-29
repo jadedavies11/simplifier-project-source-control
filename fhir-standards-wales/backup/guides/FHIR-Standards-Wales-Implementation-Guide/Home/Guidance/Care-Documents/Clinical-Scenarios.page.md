@@ -3,6 +3,8 @@
 ### Overview
 This scenario addresses the use of FHIR resources to fulfil the metadata requirements for a document that is based on an event represented as an Encounter resource. An example might be an outpatient clinic attendance.
 
+_This is the preferred approach for the submission of documents to the NHS Wales Care Documents Service._
+
 ### Implementation Guidance
 In this case, the document metadata specific to the documented event belong to the Encounter resource, so the recommendation would be to avoid storing them within the Document Reference resource instance as this would be data duplication:
 - Event Date and Time
@@ -19,7 +21,9 @@ The diagram below shows how the FHIR resources work together to provide the even
 
 ## Event-based Document
 ### Overview
-This scenario addresses the use of FHIR resources to fulfil the metadata requirements for a document that is based on an event that is not represented as an Encounter resource. An example might be a historic outpatient clinic attendance.
+This scenario addresses the use of FHIR resources to fulfil the metadata requirements for a document based on an event that is not represented as an Encounter resource. 
+
+_This scenario is not supported for the submission of documents to the NHS Wales Care Documents Service._
 
 ### Implementation Guidance
 In this case, the document metadata specific to the documented event must be explicit within the DocumentReference resource instance. The recommendation is to use the relevant sub-elements of the `DocumentReference.context` backbone element to capture the following event metadata:
@@ -55,10 +59,19 @@ The diagram below shows how the FHIR resources work together to provide the meta
 
 ## Examples
 ### DocumentReference
-The following examples represent DocumentReference resources for the three scenarios outlined in the preceding sections:
+The following examples represent DocumentReference resources for the three scenarios outlined in the preceding sections including an earlier document referenced from the third example:
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}
+
+### Encounter
+The following example illustrates how a minimally populated Encounter resource can be used to convey the event-related document metadata such as event date and time, event organisation, event site, event location and senior reponsible clinician:
+* {{pagelink:Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation, text:Example Encounter - Documented Event (Diabetes Consultation)}}
+
+### DocumentReference Bundles
+The following examples represent DocumentReference resources as message bundles:
+* {{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}
 
 ### Provenance
 The following examples represent Provenance resource instances for a newly created DocumentReference for which patient demographics were provided:

@@ -1,7 +1,7 @@
 {
   "name": "fhir.r4.wales",
-  "version": "2.5.0",
-  "description": "NHS Wales minor release to move several resources to v1.0.0. Changes to the draft DocumentReference made available for review to move it to v1.0.0 in next release. MessageDefinition and MessageHeader profiles have also been added. Many quality of life improvements have also been made to the IG pages and profile metadata.",
+  "version": "2.6.0",
+  "description": "Minor release that contains resources to support Document Reference. This was following a lengthy period of review to allow us to make the profile active. New example bundles have also been provided. Additionally, organization type slices have been added to further support the identification of different entities. Many additional quality of life changes made to the guide. Also added in support for R5 backports with a new package dependencies that contains these resources.",
   "author": "NHS Wales",
   "fhirVersions": [
     "4.0.1"
@@ -9,6 +9,7 @@
   "jurisdiction": "urn:iso:std:iso:3166#GB",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
-    "fhir.r4.ukcore.stu2": "2.0.1"
+    "fhir.r4.ukcore.stu2": "2.0.1",
+    "hl7.fhir.uv.xver-r5.r4": "0.1.0"
   }
 }

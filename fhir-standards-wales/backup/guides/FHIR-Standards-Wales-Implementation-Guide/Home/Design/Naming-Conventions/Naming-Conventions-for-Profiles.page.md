@@ -10,7 +10,7 @@ The **URL** of the profile shall be in the form
 * ```https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient```
 * ```https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationStatement```
 
-The **name** of the profile - specifically the name.value.element - shall be in the form **DataStandardsWales[ResourceType]** e.g. 
+The **name** of the profile - specifically the `name.value` element - shall be in the form **DataStandardsWales[ResourceType]** e.g. 
 * DataStandardsWalesPatient
 * DataStandardsWalesMedicationStatement
 

@@ -1,35 +1,78 @@
 <Organization xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Organization-NPT" />
+    <id value="Example-DataStandardsWales-Organization-NPT"/>
     <meta>
-        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
     </meta>
     <text>
-        <status value="generated" />
+        <status value="generated"/>
         <div xmlns="http://www.w3.org/1999/xhtml">Neath Port Talbot Hospital</div>
     </text>
     <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
         <valuePeriod>
-            <start value="2009-10-01" />
+            <start value="2009-10-01"/>
         </valuePeriod>
     </extension>
     <identifier>
-        <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-        <value value="7A3CJ" />
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="7A3CJ"/>
     </identifier>
-    <active value="true" />
-    <name value="Neath Port Talbot Hospital" />
+    <active value="true"/>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
+			<code value="public"/>
+			<display value="Public"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
+			<code value="health"/>
+			<display value="Health"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
+			<code value="secondary-care"/>
+			<display value="Secondary care"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>
+			<code value="hospital"/>
+			<display value="Hospital"/>
+		</coding>
+	</type>
+    <name value="Neath Port Talbot Hospital"/>
+   <alias value="GGH">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="standard-acronym"/>
+                    <display value="Standard acronym"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <telecom>
+        <system value="phone"/>
+        <value value="01639 862000"/>
+    </telecom>
     <address>
-        <line value="Baglan Way" />
-        <city value="Port Talbot" />
-        <district value="West Glamorgan" />
-        <postalCode value="SA12 7BX" />
+        <line value="Baglan Way"/>
+        <city value="Port Talbot"/>
+        <district value="West Glamorgan"/>
+        <postalCode value="SA12 7BX"/>
     </address>
     <partOf>
+        <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB"/>
 		<identifier>
-			<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-			<value value="7A3" />
+			<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+			<value value="7A3"/>
 		</identifier>
-        <reference value="Organization/Example-DataStandardsWales-Organization-SwanseaBay" />
-        <display value="Swansea Bay University Local Health Board" />
+        <display value="Swansea Bay University Local Health Board"/>
     </partOf>
 </Organization>

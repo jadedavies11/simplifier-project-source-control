@@ -1,0 +1,24 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+    <id value="Example-DSW-PractitionerRole-Dietitian-JudeFrancis-HDUHB" />
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-PractitionerRole" />
+    </meta>
+    <practitioner>
+        <reference value="Practitioner/Example-DSW-Practitioner-Dietitian-JudeFrancis" />
+    </practitioner>
+    <organization>
+        <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+    </organization>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="309417009" />
+            <display value="Diabetes dietitian" />
+        </coding>
+    </code>
+	<telecom>
+		<system value="phone" />
+		<value value="01267 227999" />
+		<use value="work" />
+	</telecom>
+</PractitionerRole>

@@ -7,7 +7,6 @@
 	<title value="Message Definition Data Standards Wales UEC Triage"/>
 	<status value="draft"/>
 	<date value="2025-12-19"/>
-	<description value="Message to record patient triage at a UEC facility."/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -17,6 +16,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
+	<description value="Message to record patient triage at a UEC facility."/>
 	<copyright value="2025 NHS Wales." />		
 	<eventCoding>
 		<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>

@@ -1,0 +1,24 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+	<id value="Example-DSW-Practitioner-Dietitian-JudeFrancis" />
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+	</meta>
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">FRANCIS, Jude, Miss (HCPC:DT123456)</div>
+    </text> 	
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/nadex-identifier" />
+		<value value="ju001001" />
+	</identifier>
+	<identifier>
+		<system value="https://fhir.hl7.org.uk/Id/hcpc-number" />
+		<value value="DT123456" />
+	</identifier>
+	<name>
+		<family value="Francis" />
+		<given value="Jude" />
+		<prefix value="Miss" />
+	</name>
+	<gender value="female" />
+</Practitioner>

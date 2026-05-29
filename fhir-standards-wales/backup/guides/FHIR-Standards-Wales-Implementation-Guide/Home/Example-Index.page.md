@@ -47,8 +47,8 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance-related HL7v2 message}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}
+* {{pagelink:Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation, text:Example Encounter - Documented Event (Diabetes Consultation)}}
 
 ### Encounter Examples
 * {{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Example Encounter - Emergency Admission}}
@@ -78,6 +78,8 @@ The following examples are published with this guide and all available as a down
 
 ### Location Examples
 * {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Cadog Ward (GGH)}}
+* {{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}
+* {{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Outpatients Department (GGH)}}
 * {{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Ward E (NPT)}}
 
 ### Medication Examples
@@ -128,6 +130,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Admission, text:Example MedicationStatement - Patient reported - Paracetamol}}
 
 ### Message Bundle Examples
+* {{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Literal, text:Example Message Bundle - Submit Clinician (with Literal Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Logical, text:Example Message Bundle - Submit Clinician (with Logical Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
@@ -152,12 +155,17 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-Weight, text: Example Observation - Vital Signs - Weight}}
 
 ### Organization Examples
-* {{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
-* {{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}
+* {{pagelink:Example-DataStandardsWales-Organization-CAVUHB, text: Example Organization - Cardiff and Vale University Local Health Board}}
 * {{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}
 * {{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}
-* {{pagelink:Example-DataStandardsWales-Organization-GPPractice, text:Example Organization - GP Practice}}
-* {{pagelink:Example-DataStandardsWales-Organization-GPCluster, text:Example Organization - GP Cluster}}
+* {{pagelink:Example-DataStandardsWales-Organization-UHW, text: Example Organization - University Hospital of Wales}}
+* {{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
+* {{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}
+* {{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text:Example Organization - Cardiff North Cluster}}
+* {{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text:Example Organization - Amman Gwendraeth Cluster}}
+* {{pagelink:Example-DataStandardsWales-Organization-NCMC, text:Example Organization - North Cardiff Medical Centre}}
+* {{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}
+* {{pagelink:Example-DataStandardsWales-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}
 
 ### Patient Examples
 * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
@@ -166,9 +174,12 @@ The following examples are published with this guide and all available as a down
 
 ### Practitioner Examples
 * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}
+* {{pagelink:Example-DataStandardsWales-Practitioner-Consultant-JoeBloggs, text:Example Practitioner - Joe Bloggs (Consultant)}}
 * {{pagelink:Example-DataStandardsWales-Practitioner-Doctor, text:Example Practitioner - Dr Sally Foster }}
+* {{pagelink:Example-DataStandardsWales-Practitioner-Dietitian-JudeFrancis, text:Example Practitioner - Jude Francis (Dietitian)}}
 * {{pagelink:Example-DataStandardsWales-Practitioner-Physiotherapist, text:Example Practitioner - Philip Wickins (Physiotherapist) }}
 * {{pagelink:Example-DataStandardsWales-Practitioner-PrescribingNurse, text:Example Practitioner - Sandra Huggins (Prescribing Nurse) }}
+* {{pagelink:Example-DataStandardsWales-Practitioner-Nurse-EmilyMay, text:Example Practitioner - Emily May (Nurse)}}
 * {{pagelink:Example-DataStandardsWales-Practitioner-NonClinical, text:Example Practitioner - Mark Smith (HCA)}}
 
 ### PractitionerRole Examples
@@ -176,6 +187,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant}}
+* {{pagelink:Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay-HDUHB, text:Example PractitionerRole - Emily May (Nurse for HDUHB)}}
+* {{pagelink:Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs-HDUHB, text:Example PractitionerRole - Joe Bloggs (Consultant Diabetologist for HDUHB)}}
+* {{pagelink:Example-DataStandardsWales-PractitionerRole-Dietitian-JudeFrancis-HDUHB, text:Example PractitionerRole - Jude Francis (Diabetes Dietitian for HDUHB)}}
 
 ### Provenance Examples
 * {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text: Example Provenance - Demographics as Recorded extension usage}}
@@ -184,6 +198,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics, text: Example Provenance - Demographics as recorded with care document}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provenance - Health Care Assistant Practitioner and PractitionerRole}}
 * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text: Example Provenance - Record with multiple targets e.g. for growth chart observations}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance-related HL7v2 message}}
 
 ### Questionnaire Examples
 * {{pagelink:Example-DataStandardsWales-Questionnaire-GrowthChartCondition, text: Example Questionnaire - Growth Chart Condition}}
