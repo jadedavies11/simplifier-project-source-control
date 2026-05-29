@@ -18,16 +18,16 @@ This DocumentReference example is used in conjuction with the {{pagelink:Example
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-DocumentReference-Provenance}}
+      {{tree:DocumentReference/Example-DataStandardsWales-DocumentReference-Provenance}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-DocumentReference-Provenance}}
+      {{table:DocumentReference/Example-DataStandardsWales-DocumentReference-Provenance}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-DocumentReference-Provenance}}
+      {{xml:DocumentReference/Example-DataStandardsWales-DocumentReference-Provenance}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-DocumentReference-Provenance}}
+      {{json:DocumentReference/Example-DataStandardsWales-DocumentReference-Provenance}}
     </div>        
   </div>
 </div>

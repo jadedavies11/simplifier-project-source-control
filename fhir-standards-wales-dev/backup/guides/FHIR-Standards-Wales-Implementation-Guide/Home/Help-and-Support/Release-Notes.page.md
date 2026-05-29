@@ -9,14 +9,11 @@ Package:
 * Dependencies
     * New Dependencies
         * hl7.fhir.uv.xver-r5.r4: 0.1.0
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
-    * New Profiles
+* Profiles and Extensions:
     * New Message Definitions
         * DataStandardsWales-CareDocumentSubmit
     * New Extensions
         * Extension-DataStandardsWales-AliasType
-    * Removed Profiles
-    * Removed Message Definitions
     * Removed Extensions
         * Extension-DataStandardsWales-DocumentAttester
         * Extension-DataStandardsWales-DocumentAttribute
@@ -50,7 +47,6 @@ Package:
             * .alias. Added Extension-DataStandardsWales-AliasType
             * .address. Added Extension-UKCore-AddressKey
             * .address.postaLCode. Removed Wales-specific guidance from definition
-    * Changes to Message Definitions
     * Changes to Extensions
         * Extension-DataStandardsWales-DocumentDigitalStatus
             * Updated version from 0.1.0 to 1.0.0
@@ -58,7 +54,7 @@ Package:
         * Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated
             * Updated version from 1.0.0 to 1.0.1
             * .status. Updated from draft to active
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+* Terminology:
     * New Code Systems
         * DataStandardsWales-AliasType
         * DataStandardsWales-MessageEvent
@@ -98,15 +94,14 @@ Package:
         * DataStandardsWales-MessageEvent
             * Updated version from 0.1.0 to 0.2.0
             * Added DataStandardsWales-MessageEvent as a CodeSystem
-* {{pagelink:Home/FHIR-Assets/Naming-Systems, text:Naming Systems}}
+* Naming Systems:
     * New Naming Systems
         * Namespace for LIMS1 TCL encounter identifier
         * Namespace for LIMS2 TCLe encounter identifier
         * Namespaces for PAS location identifiers
-    * Removed Naming Systems
     * Changes to Naming Systems
         * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions   
-* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Examples:
     * New Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR
         * Example-DataStandardsWales-Location-GGH
@@ -195,43 +190,43 @@ Package:
             * Replaced by Example-DataStandardsWales-Organization-AmmanGwendraeth
         * Example-DataStandardsWales-Organization-GPPractice
             * Replaced by Example-DataStandardsWales-Organization-AmmanTawe
-* {{pagelink:Home/Design/Naming-Conventions, text:Naming Conventions}}:
+* Naming Conventions:
     * Added Naming Conventions for Message Definition Resources section
 
 Guide:
-    * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
-    * Added new pages to outline the Code Systems created in this release
-    * Added new pages to outline the Extensions created in this release
-    * Added new pages to outline the Examples created in this release
-    * Added new pages to outline the Message Definitions created in this release
-    * Added new pages to outline the Value Sets created in this release
-    * Added new page for Backport Extensions in FHIR Assets to list backport extensions used in the Data Standards Wales FHIR Implementation Guide
-    * Added new page for Dependencies History to our [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/) page
-    * Updated Administrative Data guidance page to reflect the new Organization examples
-    * Updated Care Documents guidance page to clarify the potential roles of Device, Patient, RelatedPerson, Practitioner and PractitionerRole
-    * Updated Care Documents guidance page to indicate the implementation of encounter-based document metadata by the Care Documents Service
-    * Updated Care Documents guidance page to indicate the use of meta tags to store legacy document attributes
-    * Updated Care Documents guidance page to replace Document Error Workflow section content with placeholder statements pending new guidance
-    * Updated Care Documents guidance page with a new section to outline care document versions handling differences between WCRS and FHIR
-    * Updated Care Documents guidance page with added examples 
-    * Updated DataStandardsWales-DocumentReference profile page to reflect the revised set of extensions
-    * Updated DataStandardsWales-DocumentReference profile page with added examples
-    * Updated DataStandardsWales-DocumentReference profile page to remove Provenance-related example
-    * Updated DataStandardsWales-DocumentReference profile status to active in Resource Index
-    * Updated DataStandardsWales-Immunization profile page to reflect the revised set of extensions
-    * Updated DataStandardsWales-Location profile page with added examples
-    * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
-    * Updated DataStandardsWales-Organization profile page with added examples
-    * Updated DataStandardsWales-Practitioner profile page with added examples
-    * Updated DataStandardsWales-PractitionerRole profile page with added examples
-    * Updated DataStandardsWales-Provenance profile page to include provenance-related DocumentReference example
-    * Updated Deployment Help and Support page to provide a fuller description of the use of dependencies
-    * Updated DocumentReference example pages to provide a fuller description of the scenario
-    * Updated Naming Systems index page to split by organisation
-    * Removed pages relating to removed Code Systems
-    * Removed pages relating to removed Examples
-    * Removed pages relating to removed Extensions
-    * Removed pages relating to removed Value Sets
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+* Added new pages to outline the Code Systems created in this release
+* Added new pages to outline the Extensions created in this release
+* Added new pages to outline the Examples created in this release
+* Added new pages to outline the Message Definitions created in this release
+* Added new pages to outline the Value Sets created in this release
+* Added new page for Backport Extensions in FHIR Assets to list backport extensions used in the Data Standards Wales FHIR Implementation Guide
+* Added new page for Dependencies History to our [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/) page
+* Updated Administrative Data guidance page to reflect the new Organization examples
+* Updated Care Documents guidance page to clarify the potential roles of Device, Patient, RelatedPerson, Practitioner and PractitionerRole
+* Updated Care Documents guidance page to indicate the implementation of encounter-based document metadata by the Care Documents Service
+* Updated Care Documents guidance page to indicate the use of meta tags to store legacy document attributes
+* Updated Care Documents guidance page to replace Document Error Workflow section content with placeholder statements pending new guidance
+* Updated Care Documents guidance page with a new section to outline care document versions handling differences between WCRS and FHIR
+* Updated Care Documents guidance page with added examples 
+* Updated DataStandardsWales-DocumentReference profile page to reflect the revised set of extensions
+* Updated DataStandardsWales-DocumentReference profile page with added examples
+* Updated DataStandardsWales-DocumentReference profile page to remove Provenance-related example
+* Updated DataStandardsWales-DocumentReference profile status to active in Resource Index
+* Updated DataStandardsWales-Immunization profile page to reflect the revised set of extensions
+* Updated DataStandardsWales-Location profile page with added examples
+* Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
+* Updated DataStandardsWales-Organization profile page with added examples
+* Updated DataStandardsWales-Practitioner profile page with added examples
+* Updated DataStandardsWales-PractitionerRole profile page with added examples
+* Updated DataStandardsWales-Provenance profile page to include provenance-related DocumentReference example
+* Updated Deployment Help and Support page to provide a fuller description of the use of dependencies
+* Updated DocumentReference example pages to provide a fuller description of the scenario
+* Updated Naming Systems index page to split by organisation
+* Removed pages relating to removed Code Systems
+* Removed pages relating to removed Examples
+* Removed pages relating to removed Extensions
+* Removed pages relating to removed Value Sets
 
 ### v2.5.0 STU2
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
@@ -541,7 +536,7 @@ Package:
             * Updated version from 0.0.1 to 1.0.0
             * .experimental. Updated from true to false
             * .status. Updated from draft to active         
-* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+* Naming Systems:
     * Changes to Naming Systems
         * New Naming Systems
             * Namespaces for PAS link identifiers
@@ -759,7 +754,7 @@ Package:
         * DataStandardsWales-Title
             * Updated version from 1.0.1 to 1.1.0
             * Removed code system version in URI reference
-* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+* Naming Systems:
     * Changes to Naming Systems
         * New Naming Systems
             * Namespace for UEC Attendance Identifier
@@ -892,7 +887,7 @@ Package:
         * FHIR Standards Wales Document Error Action
         * FHIR Standards Wales Document Error Status
         * WPAS Event Type
-* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+* Naming Systems
     * Changes to Naming Systems
         * Namespaces for PAS Appointment ids
             * Updated value from pas-event-code to pas-event-identifier
@@ -909,7 +904,7 @@ Package:
             * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text:Encounter-based}}
             * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Event-based}}
             * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Not event-based}}
-            * {{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Misfiled (document not event-based)}}
+            * Misfiled (document not event-based)
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
@@ -963,7 +958,7 @@ Package:
             * Status fixed value removed
     * New Extensions
         * DataStandardsWales-Speciality 
-* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+* Naming Systems:
     * New Naming Systems
         * Namespaces for PAS Appointment ids
         * Namespaces for PAS Sub-speciality codes
@@ -1154,7 +1149,7 @@ Package:
         * DataStandardsWales-RespirationRate
     * New Code Systems
         * DataStandardsWales-RecordingSetting
-* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+* Naming Systems
     * New Naming Systems
         * NADEX-Identifier
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
@@ -1423,7 +1418,7 @@ Package:
             * Removed this extension as the data item will be captured in tags
         * DataStandardsWales-CDRSourceTimestamp
             * Removed this extension as the data item will be captured in tags
-* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+* Naming Systems:
     * Changes to Identifiers
         * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and BCUHBWestPASIdentifier to BCUHBPASIdentifier
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
@@ -1491,7 +1486,7 @@ Package:
         * DataStandardsWales-ProvenanceActivity
         * DataStandardsWales-PatientRecordType
 
- * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}:
+ * Naming Systems:
     * Corrected oid references. Changed from 2.16.840.1.113883.2.1.8.1.5.nnn to 2.16.840.1.113883.2.1.8.1.3.nnn    
 
 Guide:
