@@ -130,10 +130,6 @@
 					<system value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier" />
 					<value value="872acb32-fa72-4834-b6c5-a02b0ed6f012" />
 				</identifier>
-				<identifier>
-					<system value="urn:oid:2.16.840.1.113883.2.1.8.1.5.108" />
-					<value value="622ef5de-840e-4972-a28f-8b03f29a4bc6" />
-				</identifier>
 				<status value="current" />
 				<docStatus value="final" />
 				<type>
