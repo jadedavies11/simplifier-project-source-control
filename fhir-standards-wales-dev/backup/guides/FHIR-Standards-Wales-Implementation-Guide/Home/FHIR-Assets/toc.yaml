@@ -1,8 +1,12 @@
-- name: Profiles and Extensions
-  filename: Profiles-and-Extensions
+- name: Profiles
+  filename: New-Profiles
+- name: Extensions
+  filename: New-Extensions
 - name: Backport Extensions
   filename: Backport-Extensions.page.md  
 - name: Terminology
   filename: Terminology
 - name: Naming Systems
   filename: Naming-Systems
+- name: Profiles and Extensions
+  filename: Profiles-and-Extensions
