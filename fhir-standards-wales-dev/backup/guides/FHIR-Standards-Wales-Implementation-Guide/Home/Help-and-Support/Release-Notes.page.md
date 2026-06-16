@@ -33,6 +33,8 @@ Package:
 Guide:
 
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+* Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
+* Updated Change Notices page in the [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/)
 * Updated DataStandardsWales-Observation-VitalSigns profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BMI profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyHeight profile page with further guidance on dependencies
