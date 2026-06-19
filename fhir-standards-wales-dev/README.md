@@ -3,4 +3,4 @@ This folder contains the Simplifier Project [fhir-standards-wales-dev](https://s
 
 ## Last Updated
 
-Updated at: Thu Jun 18 18:11:01 UTC 2026
+Updated at: Fri Jun 19 17:26:41 UTC 2026
