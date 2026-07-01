@@ -14,7 +14,7 @@ Package:
             * Updated version from 1.0.0 to 1.1.0            
             * .context.practiceSetting. ValueSet binding amended from UKCore-PracticeSettingCode to UKCore-CareSettingType
             * extension:versionR5. SetSequenceNumber statement removed from definition
-            * extension:versionR5.value[x]. SetSequenceNumber statement removed from definition
+            * extension:versionR5.value. SetSequenceNumber statement removed from definition
             * identifier.slicing.description. Updated to refer to Care Documents Service instead of WCRS
             * identifier:wcrsDocumentId. Slice renamed as documentId; fixedUrl and definition adjusted accordingly
             * identifier:wcrsSupersessionSetId. Slice renamed as supersessionSetId; fixedUrl and definition adjusted accordingly 
