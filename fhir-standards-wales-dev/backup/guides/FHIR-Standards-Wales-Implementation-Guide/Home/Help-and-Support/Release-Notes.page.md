@@ -2,63 +2,52 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
-### v2.6.1 STU2 - Hotfix Release
-Summary: This release contains urgent corrections to DocumentReference and related resources, discovered during early use by the NHS Wales Care Documents Service of the newly activated DataStandardsWales-DocumentReference profile in the Wales FHIR Implementation Guide v2.6.0.
-
-Impact: No breaking changes: NOTE that the correction of the required value set binding for DocumentReference.practiceSetting would be a breaking change for any system applying the incorrect binding which was inadvertently introduced in version 2.6.0. However the Care Documents Service is expected to be the first user of the new Wales FHIR standard for care documents, and will use the corrected resource definition when they start processing documents into the Care Data Repository.
+### v2.7.0 STU2
 
 Package: 
-* Profiles and Extensions:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+    * New Message Definitions
+    * New Extensions
+    * Removed Profiles
+    * Removed Message Definitions
+    * Removed Extensions
     * Changes to Profiles
-        * DataStandardsWales-DocumentReference
-            * Updated version from 1.0.0 to 1.1.0            
-            * .context.practiceSetting. ValueSet binding amended from UKCore-PracticeSettingCode to UKCore-CareSettingType
-            * extension:versionR5. SetSequenceNumber statement removed from definition
-            * extension:versionR5.value. SetSequenceNumber statement removed from definition
-            * identifier.slicing.description. Updated to refer to Care Documents Service instead of WCRS
-            * identifier:wcrsDocumentId. Slice renamed as documentId; fixedUrl and definition adjusted accordingly
-            * identifier:wcrsSupersessionSetId. Slice renamed as supersessionSetId; fixedUrl and definition adjusted accordingly 
-            * identifier:externalSupersessionSetId. Slice added
-            * identifier.system. min value set to 1 for all slices; examples added with realistic content for slice
-            * identifier.value. min value set to 1 for all slices; comments and examples added with realistic content for slice
-        
+    * Changes to Message Definitions
+    * Changes to Extensions
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+    * New Code Systems
+    * New Value Sets
+    * Removed Code Systems
+    * Removed Value Sets
+    * Changes to Code Systems
+    * Changes to Value Sets
 * Naming Systems:
     * New Naming Systems
-        * DataStandardsWales-document-identifier
-        * DataStandardsWales-external-supersession-set-identifier
-        * DataStandardsWales-supersession-set-identifier
-
-    * Removed Naming Systems
-        * DataStandardsWales-wcrs-document-identifier (replaced by DataStandardsWales-document-identifier)
-        * DataStandardsWales-wcrs-supersession-set-identifier (replaced by DataStandardsWales-supersession-set-identifier)
-
-* Examples:
+    * Changes to Naming Systems
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
     * Changes to Examples
-        * [Example] Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR 
-            * identifier. Entries adjusted to match latest slice definitions
-            * context.practiceSetting. Updated to use SNOMED CT binding
-        * [Example] Example-DataStandardsWales-DocumentReference-EncounterBased
-            * identifier. Entries adjusted to match latest slice definitions
-            * context.practiceSetting. Updated to use SNOMED CT binding
-        * [Example] Example-DataStandardsWales-DocumentReference-EventBased
-            * identifier. Entries adjusted to match latest slice definitions
-            * context.practiceSetting. Updated to use SNOMED CT binding
-        * [Example] Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover
-            * identifier. Entries adjusted to match latest slice definitions   
-        * [Example] Example-DataStandardsWales-DocumentReference-NotEventBased
-            * identifier. Entries adjusted to match latest slice definitions   
-         
-    
+    * Removed Examples
+
 Guide:
-* PLACEHOLDER for planned changes in this hotfix release
+
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+* Updated Change Notices page in the [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/)
+* Updated DataStandardsWales-Observation-VitalSigns profile page with further guidance on dependencies
+* Updated DataStandardsWales-Observation-VitalSigns-BMI profile page with further guidance on dependencies
+* Updated DataStandardsWales-Observation-VitalSigns-BodyHeight profile page with further guidance on dependencies
+* Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
+* Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
+
 
 ### v2.6.0 STU2
 
 Package: 
-* Dependencies
+* {{pagelink:Home/Help-and-Support/Deployment.page.md,text:Dependencies}}:
     * New Dependencies
         * hl7.fhir.uv.xver-r5.r4: 0.1.0
-* Profiles and Extensions:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Message Definitions
         * DataStandardsWales-CareDocumentSubmit
     * New Extensions
@@ -103,7 +92,7 @@ Package:
         * Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated
             * Updated version from 1.0.0 to 1.0.1
             * .status. Updated from draft to active
-* Terminology:
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
         * DataStandardsWales-AliasType
         * DataStandardsWales-MessageEvent
@@ -143,14 +132,14 @@ Package:
         * DataStandardsWales-MessageEvent
             * Updated version from 0.1.0 to 0.2.0
             * Added DataStandardsWales-MessageEvent as a CodeSystem
-* Naming Systems:
+* {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
     * New Naming Systems
         * Namespace for LIMS1 TCL encounter identifier
         * Namespace for LIMS2 TCLe encounter identifier
         * Namespaces for PAS location identifiers
     * Changes to Naming Systems
         * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions   
-* Examples:
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR
         * Example-DataStandardsWales-Location-GGH
@@ -239,7 +228,7 @@ Package:
             * Replaced by Example-DataStandardsWales-Organization-AmmanGwendraeth
         * Example-DataStandardsWales-Organization-GPPractice
             * Replaced by Example-DataStandardsWales-Organization-AmmanTawe
-* Naming Conventions:
+* {{pagelink:Home/Design/Naming-Conventions, text:Naming Conventions}}:
     * Added Naming Conventions for Message Definition Resources section
 
 Guide:
