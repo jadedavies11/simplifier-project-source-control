@@ -123,16 +123,12 @@
 					</extension>
 				</extension>
 				<identifier>
-					<system value="https://fhir.nhs.wales/Id/document-identifier" />
+					<system value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />
 					<value value="aaf82a9f-c156-44df-91a3-a17501e5cd18" />
 				</identifier>
 				<identifier>
-					<system value="https://fhir.nhs.wales/Id/supersession-set-identifier" />
+					<system value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier" />
 					<value value="872acb32-fa72-4834-b6c5-a02b0ed6f012" />
-				</identifier>
-				<identifier>
-					<system value="https://fhir.nhs.wales/Id/external-supersession-set-identifier" />
-					<value value="108~AA12345" />
 				</identifier>
 				<status value="current" />
 				<docStatus value="final" />
@@ -186,9 +182,9 @@
 					</encounter>
 					<practiceSetting>
 						<coding>
-                            <system value="http://snomed.info/sct"/>
-                            <code value="700241009"/>
-                            <display value="Dermatology service"/>
+							<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+							<code value="330"/>
+							<display value="Dermatology"/>
 						</coding>
 					</practiceSetting>
 				</context>
