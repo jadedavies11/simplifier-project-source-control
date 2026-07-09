@@ -15,7 +15,7 @@
     </telecom>
   </contact>
   <responsible value="Digital Health and Care Wales" />
-  <description value="This namespace indicates a supersession set identifier (version-independent document identifier) issued by the NHS Wales Care Documents Service. Identifiers under this naming system are common across document versions." />
+  <description value="This namespace indicates a supersession set identifier (version-independent document identifier) issued by the NHS Wales Care Documents Service." />
   <usage value="Document identity"/>
   <uniqueId>
     <type value="uri" />
