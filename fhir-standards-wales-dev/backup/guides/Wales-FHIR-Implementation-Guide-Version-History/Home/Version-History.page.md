@@ -18,17 +18,17 @@ Implementation Guide version history is provided in the table below.
 	</thead>
 	<tbody>
 		<tr>
-			<td scope="row">29/05/2026</td>
-			<td>2.6.0 STU2</td>
+			<td scope="row">10/07/2026</td>
+			<td>2.6.1 STU2</td>
 			<td>4.0.1</td>
 			<td>2.0.1</td>
-			<td>Minor release that contains resources to support Document Reference. This was following a lengthy period of review to allow us to make the profile active. New example bundles have also been provided. Additionally, organization type slices have been added to further support the identification of different entities. Many additional quality of life changes made to the guide. Also added in support for R5 backports with a new package dependencies that contains these resources.</td>
+			<td>Urgent Correction Release. This release contains urgent corrections to DocumentReference and related resources, discovered during early use by the NHS Wales Care Documents Service of the newly activated DataStandardsWales-DocumentReference profile in the Wales FHIR Implementation Guide v2.6.0. It also contains a correction of a misleading Practitioner identifier slice name for registered pharmacists.</td>
 			<td>
-				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=2.6.0">Home Page</a>
+				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=2.6.1">Home Page</a>
 			</td>
-			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=2.6.0">Release Notes</a></td>
+			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=2.6.1">Release Notes</a></td>
 			<td>
-				<a href="https://simplifier.net/packages/fhir.r4.wales/2.6.0">fhir.r4.wales 2.6.0</a>
+				<a href="https://simplifier.net/packages/fhir.r4.wales/2.6.1">fhir.r4.wales 2.6.1</a>
 			</td>
 		</tr>
 		<tr>
