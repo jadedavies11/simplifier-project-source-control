@@ -59,7 +59,7 @@
     </function>
     <actor>
       <reference value="Practitioner/Example-DataStandardsWales-Practitioner-PrescribingNurse" />
-	  <type value="Practitioner" />
+      <type value="Practitioner" />
     </actor>
   </performer>
   <reasonCode>

@@ -1,7 +1,7 @@
 {
   "name": "fhir.r4.wales",
-  "version": "2.6.0",
-  "description": "Minor release that contains resources to support Document Reference. This was following a lengthy period of review to allow us to make the profile active. New example bundles have also been provided. Additionally, organization type slices have been added to further support the identification of different entities. Many additional quality of life changes made to the guide. Also added in support for R5 backports with a new package dependencies that contains these resources.",
+  "version": "2.6.1",
+  "description": "Project for HL7 FHIR® NHS Wales R4",
   "author": "NHS Wales",
   "fhirVersions": [
     "4.0.1"

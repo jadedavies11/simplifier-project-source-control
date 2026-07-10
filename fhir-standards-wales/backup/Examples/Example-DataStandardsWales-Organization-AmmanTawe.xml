@@ -1,68 +1,68 @@
 <Organization xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Organization-AmmanTawe"/>
-    <meta>
-        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-    </meta>
-    <text>
-        <status value="generated"/>
-        <div xmlns="http://www.w3.org/1999/xhtml">Amman Tawe Partnership</div>
-    </text>    
-    <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
-		<valuePeriod>
-			<start value="2012-05-11"/>
-		</valuePeriod>
-	</extension>	
+  <id value="Example-DataStandardsWales-Organization-AmmanTawe" />
+  <meta>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+  </meta>
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml">Amman Tawe Partnership</div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+    <valuePeriod>
+      <start value="2012-05-11" />
+    </valuePeriod>
+  </extension>
+  <identifier>
+    <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+    <value value="W00142" />
+  </identifier>
+  <active value="true" />
+  <type>
+    <coding>
+      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector" />
+      <code value="private" />
+      <display value="Private" />
+    </coding>
+  </type>
+  <type>
+    <coding>
+      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain" />
+      <code value="health" />
+      <display value="Health" />
+    </coding>
+  </type>
+  <type>
+    <coding>
+      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification" />
+      <code value="primary-care" />
+      <display value="Primary care" />
+    </coding>
+  </type>
+  <type>
+    <coding>
+      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification" />
+      <code value="gp-practice" />
+      <display value="GP practice" />
+    </coding>
+  </type>
+  <name value="Amman Tawe Partnership" />
+  <telecom>
+    <system value="phone" />
+    <value value="01269 822231" />
+  </telecom>
+  <address>
+    <line value="Graig Road" />
+    <line value="Gwaun Cea Gurwen" />
+    <city value="Ammanford" />
+    <district value="Dyfed" />
+    <postalCode value="SA18 1EG" />
+  </address>
+  <partOf>
+    <reference value="Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth" />
     <identifier>
-        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-        <value value="W00142"/>
+      <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+      <value value="CC201" />
     </identifier>
-    <active value="true"/>    
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
-			<code value="private"/>
-			<display value="Private"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
-			<code value="health"/>
-			<display value="Health"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
-			<code value="primary-care"/>
-			<display value="Primary care"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>
-			<code value="gp-practice"/>
-			<display value="GP practice"/>
-		</coding>
-	</type>
-    <name value="Amman Tawe Partnership"/>
-    <telecom>
-        <system value="phone"/>
-        <value value="01269 822231"/>
-    </telecom>
-    <address>
-        <line value="Graig Road"/>
-        <line value="Gwaun Cea Gurwen"/>
-        <city value="Ammanford"/>
-        <district value="Dyfed"/>
-        <postalCode value="SA18 1EG"/>        
-    </address>    
-    <partOf>
-        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth"/>
-		<identifier>
-			<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-			<value value="CC201"/>
-		</identifier>
-        <display value="Amman Gwendraeth"/>
-    </partOf>
+    <display value="Amman Gwendraeth" />
+  </partOf>
 </Organization>

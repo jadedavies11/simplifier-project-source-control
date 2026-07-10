@@ -1,25 +1,25 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-GPCluster-Code"/> 
-  <name value="GPClusterCode"/> 
+  <id value="DataStandardsWales-GPCluster-Code" />
+  <name value="GPClusterCode" />
   <status value="active" />
-  <kind value="identifier"/>  
+  <kind value="identifier" />
   <date value="2026-05-01" />
   <publisher value="NHS Wales" />
-    <contact>
-      <name value="FHIR Standards" />
-        <telecom>
-        <system value="email" />
-        <value value="fhir.standards@wales.nhs.uk" />
-        <use value="work" />
-        <rank value="1" />
-      </telecom>
-    </contact>
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <responsible value="Digital Health and Care Wales" />
-  <description value="This namespace indicates a Wales GP Cluster code"/> 
-  <usage value="Organization identity"/> 
-  <uniqueId> 
-    <type value="uri"/> 
-    <value value="https://fhir.nhs.wales/Id/gpcluster-code"/> 
-    <preferred value="true"/> 
+  <description value="This namespace indicates a Wales GP Cluster code" />
+  <usage value="Organization identity" />
+  <uniqueId>
+    <type value="uri" />
+    <value value="https://fhir.nhs.wales/Id/gpcluster-code" />
+    <preferred value="true" />
   </uniqueId>
-</NamingSystem>   
+</NamingSystem>

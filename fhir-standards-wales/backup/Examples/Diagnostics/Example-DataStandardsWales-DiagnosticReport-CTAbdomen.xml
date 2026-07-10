@@ -1,5 +1,4 @@
-<DiagnosticReport 
-  xmlns="http://hl7.org/fhir">
+<DiagnosticReport xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-DiagnosticReport-CTAbdomen" />
   <meta>
     <versionId value="3" />
@@ -24,24 +23,24 @@
   </basedOn>
   <status value="final" />
   <category>
-		<coding>
-			<system value="https://fhir.nhs.wales/Id/wrrs-provider-type-code" />
-			<code value="R" />
-			<display value="RADIOLOGY"/> 
-		</coding>	
-    <text value="Radiology" />	
-	</category>
+    <coding>
+      <system value="https://fhir.nhs.wales/Id/wrrs-provider-type-code" />
+      <code value="R" />
+      <display value="RADIOLOGY" />
+    </coding>
+    <text value="Radiology" />
+  </category>
   <code>
-		<coding>
-			<system value="https://fhir.nhs.wales/Id/wrrs-provider-system-code" />
-			<code value="CABDO" />
-			<display value="CT Abdomen" />
-		</coding>
+    <coding>
+      <system value="https://fhir.nhs.wales/Id/wrrs-provider-system-code" />
+      <code value="CABDO" />
+      <display value="CT Abdomen" />
+    </coding>
     <text value="CT Abdomen" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-		<display value="JONES, Alice (NHS: 9912003444)" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+    <display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <issued value="2021-05-19T11:25:38+00:00" />
   <performer>
@@ -56,8 +55,8 @@
     <reference value="Organization/Example-DataStandardsWales-Organization-HywelDda" />
     <display value="Hywel Dda Local Health Board" />
   </resultsInterpreter>
-	<imagingStudy> 
-		<reference value="ImagingStudy/Example-DataStandardsWales-ImagingStudy-CTAbdomen" />
-		<display value="CT Abdomen[A]  [Reported, signed by radiology]; JONES, Alice (NHS: 9912003444); Accession: HDD633125; Performed: 19 05 2021" />
-	</imagingStudy> 
+  <imagingStudy>
+    <reference value="ImagingStudy/Example-DataStandardsWales-ImagingStudy-CTAbdomen" />
+    <display value="CT Abdomen[A]  [Reported, signed by radiology]; JONES, Alice (NHS: 9912003444); Accession: HDD633125; Performed: 19 05 2021" />
+  </imagingStudy>
 </DiagnosticReport>

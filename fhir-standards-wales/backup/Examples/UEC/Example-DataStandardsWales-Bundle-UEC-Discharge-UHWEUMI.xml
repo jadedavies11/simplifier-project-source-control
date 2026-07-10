@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI" />
   <identifier>
@@ -547,7 +546,7 @@
     <fullUrl value="urn:uuid:8c1145dd-ff6f-49c4-a733-ff494a77f4aa" />
     <resource>
       <Condition>
-	      <clinicalStatus>
+        <clinicalStatus>
           <coding>
             <system value="http://terminology.hl7.org/CodeSystem/condition-clinical" />
             <code value="active" />
@@ -586,7 +585,7 @@
             <display value="Active" />
           </coding>
         </clinicalStatus>
-		    <category>
+        <category>
           <coding>
             <system value="http://terminology.hl7.org/CodeSystem/condition-category" />
             <code value="encounter-diagnosis" />
@@ -611,7 +610,7 @@
     <fullUrl value="urn:uuid:9568623a-a1cd-4a39-bd6b-c6084b90109e" />
     <resource>
       <Condition>
-	      <clinicalStatus>
+        <clinicalStatus>
           <coding>
             <system value="http://terminology.hl7.org/CodeSystem/condition-clinical" />
             <code value="active" />

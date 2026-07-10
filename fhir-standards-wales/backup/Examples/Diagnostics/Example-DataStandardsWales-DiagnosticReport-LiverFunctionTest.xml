@@ -1,5 +1,4 @@
-<DiagnosticReport 
-  xmlns="http://hl7.org/fhir">
+<DiagnosticReport xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-DiagnosticReport-LiverFunctionTest" />
   <meta>
     <versionId value="3" />
@@ -28,7 +27,7 @@
       <system value="https://fhir.nhs.wales/Id/wrrs-provider-type-code" />
       <code value="P" />
       <display value="PATHOLOGY" />
-    </coding> 
+    </coding>
     <text value="Pathology" />
   </category>
   <code>
@@ -36,12 +35,12 @@
       <system value="https://fhir.nhs.wales/Id/wrrs-provider-type-code" />
       <code value="P" />
       <display value="PATHOLOGY" />
-    </coding> 
+    </coding>
     <text value="Pathology" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-		<display value="JONES, Alice (NHS: 9912003444)" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+    <display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <issued value="2021-10-20T07:35:04+00:00" />
   <performer>

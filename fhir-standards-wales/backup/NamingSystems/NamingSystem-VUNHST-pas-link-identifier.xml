@@ -1,25 +1,25 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-VUNHST-PAS-LinkIdentifier"/>
-  <name value="VUNHSTPASLinkIdentifier"/>
+  <id value="DataStandardsWales-VUNHST-PAS-LinkIdentifier" />
+  <name value="VUNHSTPASLinkIdentifier" />
   <status value="active" />
-  <kind value="identifier"/>
+  <kind value="identifier" />
   <date value="2026-05-01" />
   <publisher value="NHS Wales" />
-    <contact>
-      <name value="FHIR Standards" />
-        <telecom>
-        <system value="email" />
-        <value value="fhir.standards@wales.nhs.uk" />
-        <use value="work" />
-        <rank value="1" />
-      </telecom>
-    </contact>
-  <responsible value="Velindre University NHS Trust"/>
-  <description value="This namespace indicates a Velindre University NHS Trust PAS link identifier."/> 
-  <usage value="Appointment identity, Encounter identity, ServiceRequest identity"/>
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <responsible value="Velindre University NHS Trust" />
+  <description value="This namespace indicates a Velindre University NHS Trust PAS link identifier." />
+  <usage value="Appointment identity, Encounter identity, ServiceRequest identity" />
   <uniqueId>
-    <type value="uri"/>
-    <value value="https://fhir.vunhst.nhs.wales/Id/pas-link-identifier"/>
-    <preferred value="true"/>
+    <type value="uri" />
+    <value value="https://fhir.vunhst.nhs.wales/Id/pas-link-identifier" />
+    <preferred value="true" />
   </uniqueId>
 </NamingSystem>

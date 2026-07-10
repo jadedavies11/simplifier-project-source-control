@@ -1,293 +1,293 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-Occupation"/>
-	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-Occupation"/>
-	<version value="1.0.0"/>
-	<name value="DataStandardsWalesOccupation"/>
-	<title value="Data Standards Wales Occupation"/>
-	<status value="active"/>
-	<experimental value="false"/>
-	<date value="2026-02-26"/>
-	<publisher value="NHS Wales"/>
-	<contact>
-		<name value="Data Standards"/>
-		<telecom>
-			<system value="email"/>
-			<value value="data.standards@wales.nhs.uk"/>
-			<use value="work"/>
-		</telecom>
-	</contact>
-	<description value="A SNOMED code used to describe a patient's occupation. Only a sample of the value set has been shown. To obtain the full list, please contact the Welsh Reference and Terminology Service"/>
-	<copyright value="2026 NHS Wales."/>
-	<compose>
-		<include>
-			<system value="http://snomed.info/sct"/>
-			<filter>
-				<property value="constraint"/>
-				<op value="="/>
-				<value value="memberOf 999001571000000109"/>
-			</filter>
-		</include>
-	</compose>
-	<expansion>
-		<extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
-			<valueBoolean value="true"/>
-		</extension>
-		<timestamp value="2025-11-19T21:53:58+10:00"/>
-		<total value="3728"/>
-		<offset value="0"/>
-		<parameter>
-			<name value="version"/>
-			<valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20250409"/>
-		</parameter>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="986591000000105"/>
-			<display value="Active serving member of the Royal Navy Reserve"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="309328009"/>
-			<display value="Ambulatory paediatrician"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159370008"/>
-			<display value="Berthing superintendent"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="308377008"/>
-			<display value="Boatman"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="31682003"/>
-			<display value="Cabinetmaker"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="17915008"/>
-			<display value="Canvasser"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="184154008"/>
-			<display value="Care manager"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="63695008"/>
-			<display value="Cash desk cashier"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="40665005"/>
-			<display value="Cellophane bag maker (machine)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="32501003"/>
-			<display value="Cigar maker (hand)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="418241000000102"/>
-			<display value="Command post assistant (Bates)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="310193003"/>
-			<display value="Coroner"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="386630002"/>
-			<display value="Cytogenetic technologist"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="453871000000107"/>
-			<display value="Electrician - Royal Engineers"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="67890000"/>
-			<display value="Electronics fitter (industrial equipment)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159399003"/>
-			<display value="Employment exchange manager"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="160107007"/>
-			<display value="Foreman: product assembly"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="52117005"/>
-			<display value="Glass cutter"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="30232007"/>
-			<display value="Glass-blowing-machine operator"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="445748009"/>
-			<display value="Graphic designer"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="224566003"/>
-			<display value="Haemodialysis nurse"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="34179008"/>
-			<display value="Hand embroiderer"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="48097005"/>
-			<display value="Hydrogenation operator (oils and fats)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159713000"/>
-			<display value="Kitchen porter"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159542005"/>
-			<display value="Library assistant"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159438009"/>
-			<display value="Manager - cultural facilities"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159371007"/>
-			<display value="Marine superintendent"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="49993003"/>
-			<display value="Oral surgeon"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="21552009"/>
-			<display value="Paper bag and envelope maker (machine)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159135001"/>
-			<display value="Parasitologist"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159674009"/>
-			<display value="Patrolman"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159095000"/>
-			<display value="Photographer (still camera)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="10880008"/>
-			<display value="Practical aid (veterinary)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159002008"/>
-			<display value="Practice nurse"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="3430008"/>
-			<display value="Radiation therapist"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="68869006"/>
-			<display value="Railway transport service inspector"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="309392000"/>
-			<display value="Research registrar"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="454671000000108"/>
-			<display value="Royal Air Force general mechanic, workshops"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="466401000000103"/>
-			<display value="Royal Air Force safety equipment fitter"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="59519004"/>
-			<display value="Sanitary engineer"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="8026002"/>
-			<display value="Ship joiner"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="18482007"/>
-			<display value="Sign-painter"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="158933003"/>
-			<display value="Social caseworker (general)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="158762005"/>
-			<display value="Solicitor"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="158801008"/>
-			<display value="Stockbroker"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="413327003"/>
-			<display value="Student in full time education"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="7351006"/>
-			<display value="Tinsmith"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="159267007"/>
-			<display value="Trainee architect"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="75423003"/>
-			<display value="Turbine fitter-assembler (except aircraft and marine)"/>
-		</contains>
-		<contains>
-			<system value="http://snomed.info/sct"/>
-			<code value="112253003"/>
-			<display value="Verger"/>
-		</contains>
-	</expansion>
+  <id value="DataStandardsWales-Occupation" />
+  <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-Occupation" />
+  <version value="1.0.0" />
+  <name value="DataStandardsWalesOccupation" />
+  <title value="Data Standards Wales Occupation" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2026-02-26" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="Data Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="data.standards@wales.nhs.uk" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="A SNOMED code used to describe a patient's occupation. Only a sample of the value set has been shown. To obtain the full list, please contact the Welsh Reference and Terminology Service" />
+  <copyright value="2026 NHS Wales." />
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct" />
+      <filter>
+        <property value="constraint" />
+        <op value="=" />
+        <value value="memberOf 999001571000000109" />
+      </filter>
+    </include>
+  </compose>
+  <expansion>
+    <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
+      <valueBoolean value="true" />
+    </extension>
+    <timestamp value="2025-11-19T21:53:58+10:00" />
+    <total value="3728" />
+    <offset value="0" />
+    <parameter>
+      <name value="version" />
+      <valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20250409" />
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="986591000000105" />
+      <display value="Active serving member of the Royal Navy Reserve" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="309328009" />
+      <display value="Ambulatory paediatrician" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159370008" />
+      <display value="Berthing superintendent" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="308377008" />
+      <display value="Boatman" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="31682003" />
+      <display value="Cabinetmaker" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="17915008" />
+      <display value="Canvasser" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="184154008" />
+      <display value="Care manager" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="63695008" />
+      <display value="Cash desk cashier" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="40665005" />
+      <display value="Cellophane bag maker (machine)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="32501003" />
+      <display value="Cigar maker (hand)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="418241000000102" />
+      <display value="Command post assistant (Bates)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="310193003" />
+      <display value="Coroner" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="386630002" />
+      <display value="Cytogenetic technologist" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="453871000000107" />
+      <display value="Electrician - Royal Engineers" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="67890000" />
+      <display value="Electronics fitter (industrial equipment)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159399003" />
+      <display value="Employment exchange manager" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="160107007" />
+      <display value="Foreman: product assembly" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="52117005" />
+      <display value="Glass cutter" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="30232007" />
+      <display value="Glass-blowing-machine operator" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="445748009" />
+      <display value="Graphic designer" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="224566003" />
+      <display value="Haemodialysis nurse" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="34179008" />
+      <display value="Hand embroiderer" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="48097005" />
+      <display value="Hydrogenation operator (oils and fats)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159713000" />
+      <display value="Kitchen porter" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159542005" />
+      <display value="Library assistant" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159438009" />
+      <display value="Manager - cultural facilities" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159371007" />
+      <display value="Marine superintendent" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="49993003" />
+      <display value="Oral surgeon" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="21552009" />
+      <display value="Paper bag and envelope maker (machine)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159135001" />
+      <display value="Parasitologist" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159674009" />
+      <display value="Patrolman" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159095000" />
+      <display value="Photographer (still camera)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="10880008" />
+      <display value="Practical aid (veterinary)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159002008" />
+      <display value="Practice nurse" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="3430008" />
+      <display value="Radiation therapist" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="68869006" />
+      <display value="Railway transport service inspector" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="309392000" />
+      <display value="Research registrar" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="454671000000108" />
+      <display value="Royal Air Force general mechanic, workshops" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="466401000000103" />
+      <display value="Royal Air Force safety equipment fitter" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="59519004" />
+      <display value="Sanitary engineer" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="8026002" />
+      <display value="Ship joiner" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="18482007" />
+      <display value="Sign-painter" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="158933003" />
+      <display value="Social caseworker (general)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="158762005" />
+      <display value="Solicitor" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="158801008" />
+      <display value="Stockbroker" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="413327003" />
+      <display value="Student in full time education" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="7351006" />
+      <display value="Tinsmith" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="159267007" />
+      <display value="Trainee architect" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="75423003" />
+      <display value="Turbine fitter-assembler (except aircraft and marine)" />
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct" />
+      <code value="112253003" />
+      <display value="Verger" />
+    </contains>
+  </expansion>
 </ValueSet>

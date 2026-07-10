@@ -5,15 +5,15 @@
   <kind value="identifier" />
   <date value="2026-05-01" />
   <publisher value="NHS Wales" />
-    <contact>
-      <name value="FHIR Standards" />
-        <telecom>
-        <system value="email" />
-        <value value="fhir.standards@wales.nhs.uk" />
-        <use value="work" />
-        <rank value="1" />
-      </telecom>
-    </contact>
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <responsible value="Powys Teaching Health Board" />
   <description value="This namespace indicates a Powys Teaching Health Board PAS sub-specialty identifier." />
   <usage value="Appointment identity" />
