@@ -1,25 +1,25 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="NHSWales-LIMS-TCL-SpecimenType-Code"/> 
-  <name value="TCLSpecimenTypeCodeIdentifier"/>
+  <id value="NHSWales-LIMS-TCL-SpecimenType-Code" />
+  <name value="TCLSpecimenTypeCodeIdentifier" />
   <status value="active" />
-  <kind value="identifier"/>   
+  <kind value="identifier" />
   <date value="2026-05-01" />
   <publisher value="NHS Wales" />
-    <contact>
-      <name value="FHIR Standards" />
-        <telecom>
-        <system value="email" />
-        <value value="fhir.standards@wales.nhs.uk" />
-        <use value="work" />
-        <rank value="1" />
-      </telecom>
-    </contact>
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <responsible value="Digital Health and Care Wales" />
-  <description value="This namespace is an identifier for a Trac Care Lab (LIMS) specimen type code"/> 
-  <usage value="LIMS diagnostic specimen type code identity"/> 
-  <uniqueId> 
-    <type value="uri"/> 
-    <value value="https://fhir.nhs.wales/Id/lims-tcl-specimen-type"/> 
-    <preferred value="true"/> 
-  </uniqueId> 
-</NamingSystem> 
+  <description value="This namespace is an identifier for a Trac Care Lab (LIMS) specimen type code" />
+  <usage value="LIMS diagnostic specimen type code identity" />
+  <uniqueId>
+    <type value="uri" />
+    <value value="https://fhir.nhs.wales/Id/lims-tcl-specimen-type" />
+    <preferred value="true" />
+  </uniqueId>
+</NamingSystem>

@@ -1,72 +1,80 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
-  <id value="Example-DSW-DocumentReference-ExpiredInsuranceCover"/>
+  <id value="Example-DSW-DocumentReference-ExpiredInsuranceCover" />
   <meta>
-    <source value="urn:oid:2.16.840.1.113883.2.1.8.1.3.193"/>
-    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
+    <source value="urn:oid:2.16.840.1.113883.2.1.8.1.3.193" />
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
     <tag>
-      <system value="seqno"/>
-      <display value="1"/>
+      <system value="seqno" />
+      <display value="1" />
     </tag>
     <tag>
-      <system value="docattr_documenttypecode"/>
-      <display value="MEDICALINSURANCE"/>
+      <system value="docattr_documenttypecode" />
+      <display value="MEDICALINSURANCE" />
     </tag>
   </meta>
   <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
-    <valueCode value="scanned-paper-document"/>
+    <valueCode value="scanned-paper-document" />
   </extension>
   <identifier>
-    <system value="www.localnamespace"/>
-    <value value="CONF-A123-10"/>
+    <system value="https://fhir.nhs.wales/Id/document-identifier" />
+    <value value="b86e9c4b-331e-4067-a05b-dc7bcbe2a680" />
   </identifier>
-  <status value="current"/>
-  <docStatus value="final"/>
+  <identifier>
+    <system value="https://fhir.nhs.wales/Id/supersession-set-identifier" />
+    <value value="3cc23695-0972-4a89-b568-b95b45e275b0" />
+  </identifier>
+  <identifier>
+    <system value="https://fhir.nhs.wales/Id/external-supersession-set-identifier" />
+    <value value="193~00011111" />
+  </identifier>
+  <status value="current" />
+  <docStatus value="final" />
   <type>
     <coding>
-      <system value="http://snomed.info/sct"/>
-      <code value="722447009"/>
-      <display value="Confirmation of insurance coverage for treatment"/>
+      <system value="http://snomed.info/sct" />
+      <code value="722447009" />
+      <display value="Confirmation of insurance coverage for treatment" />
     </coding>
   </type>
   <category>
     <coding>
-      <system value="http://snomed.info/sct"/>
-      <code value="826651000000100"/>
-      <display value="Notification and legal document"/>
+      <system value="http://snomed.info/sct" />
+      <code value="826651000000100" />
+      <display value="Notification and legal document" />
     </coding>
   </category>
   <subject>
-    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames"/>
-    <display value="JAMES, Harold A, Mr"/>
+    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames" />
+    <display value="JAMES, Harold A, Mr" />
   </subject>
-  <date value="2025-07-22T11:20:17+00:00"/>
+  <date value="2025-07-22T11:20:17+00:00" />
   <author>
-    <reference value="Organization/Example-DataStandardsWales-Organization-MedicalInsurer"/>
-    <display value="Star Value Medical Insurance Ltd"/>
+    <reference value="Organization/Example-DataStandardsWales-Organization-MedicalInsurer" />
+    <display value="Star Value Medical Insurance Ltd" />
   </author>
   <custodian>
-    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
-    <display value="Hywel Dda University Health Board"/>
+    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+    <display value="Hywel Dda University Health Board" />
   </custodian>
-  <description value="Insurance certificate covering surgical treatment"/>
+  <description value="Insurance certificate covering surgical treatment" />
   <securityLabel>
     <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
-      <code value="N"/>
-      <display value="Normal"/>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality" />
+      <code value="N" />
+      <display value="Normal" />
     </coding>
   </securityLabel>
   <content>
     <attachment>
-      <contentType value="application/pdf"/>
-      <language value="eng"/>
-      <url value="https://www.example.com/documentref1234"/>
+      <contentType value="application/pdf" />
+      <language value="eng" />
+      <url value="https://www.example.com/documentref1234" />
     </attachment>
   </content>
   <context>
     <period>
-      <start value="2024-02-20T00:00:00+00:00"/>
-      <end value="2025-02-19T23:59:00+00:00"/>
+      <start value="2024-02-20T00:00:00+00:00" />
+      <end value="2025-02-19T23:59:00+00:00" />
     </period>
   </context>
 </DocumentReference>

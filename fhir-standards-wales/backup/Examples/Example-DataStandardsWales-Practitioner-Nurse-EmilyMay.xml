@@ -1,25 +1,25 @@
 <Practitioner xmlns="http://hl7.org/fhir">
-	<id value="Example-DSW-Practitioner-Nurse-EmilyMay" />
-	<meta>
-		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
-	</meta>
-    <text>
-        <status value="generated" />
-        <div xmlns="http://www.w3.org/1999/xhtml">MAY, Emily B, Ms (NMC:AB12345X)</div>
-    </text> 		
-	<identifier>
-		<system value="https://fhir.nhs.wales/Id/nadex-identifier" />
-		<value value="em112233" />
-	</identifier>
-	<identifier>
-		<system value="https://fhir.hl7.org.uk/Id/nmc-number" />
-		<value value="AB12345X" />
-	</identifier>
-	<name>
-		<family value="May" />
-		<given value="Emily" />
-		<given value="Beatrice" />
-    	<prefix value="Ms" />
-	</name>
-	<gender value="female" />
+  <id value="Example-DSW-Practitioner-Nurse-EmilyMay" />
+  <meta>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+  </meta>
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml">MAY, Emily B, Ms (NMC:AB12345X)</div>
+  </text>
+  <identifier>
+    <system value="https://fhir.nhs.wales/Id/nadex-identifier" />
+    <value value="em112233" />
+  </identifier>
+  <identifier>
+    <system value="https://fhir.hl7.org.uk/Id/nmc-number" />
+    <value value="AB12345X" />
+  </identifier>
+  <name>
+    <family value="May" />
+    <given value="Emily" />
+    <given value="Beatrice" />
+    <prefix value="Ms" />
+  </name>
+  <gender value="female" />
 </Practitioner>

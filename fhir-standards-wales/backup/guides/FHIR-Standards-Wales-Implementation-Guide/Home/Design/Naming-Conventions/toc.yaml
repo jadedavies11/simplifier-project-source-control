@@ -10,7 +10,7 @@
   filename: Naming-Conventions-for-Extensions.page.md
 - name: Naming Conventions for CodeSystem and ValueSet Resources
   filename: Naming-Conventions-for-CodeSystem-and-ValueSet-Resources.page.md
-- name: Naming-Conventions-for-ConceptMap-Resources
+- name: Naming Conventions for ConceptMap Resources
   filename: Naming-Conventions-for-ConceptMap-Resources.page.md
 - name: Naming Conventions for Message Definition Resources
   filename: Naming-Conventions-for-Message-Definition.page.md

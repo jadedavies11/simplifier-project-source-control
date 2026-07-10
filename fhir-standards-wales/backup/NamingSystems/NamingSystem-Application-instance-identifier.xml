@@ -1,29 +1,29 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-Application-Instance-Identifier"/> 
-  <name value="ApplicationInstanceIdentifier"/> 
+  <id value="DataStandardsWales-Application-Instance-Identifier" />
+  <name value="ApplicationInstanceIdentifier" />
   <status value="active" />
-  <kind value="identifier"/>   
+  <kind value="identifier" />
   <date value="2026-05-01" />
   <publisher value="NHS Wales" />
-    <contact>
-      <name value="FHIR Standards" />
-        <telecom>
-        <system value="email" />
-        <value value="fhir.standards@wales.nhs.uk" />
-        <use value="work" />
-        <rank value="1" />
-      </telecom>
-    </contact>
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <responsible value="Digital Health and Care Wales" />
-  <description value="This namespace indicates an NHS Wales Application Instance identifier"/> 
-  <usage value="Patient identity"/> 
-  <uniqueId> 
-    <type value="uri"/> 
-    <value value="https://fhir.nhs.wales/Id/application-instance-identifier"/> 
-    <preferred value="true"/> 
+  <description value="This namespace indicates an NHS Wales Application Instance identifier" />
+  <usage value="Patient identity" />
+  <uniqueId>
+    <type value="uri" />
+    <value value="https://fhir.nhs.wales/Id/application-instance-identifier" />
+    <preferred value="true" />
   </uniqueId>
-  <uniqueId> 
-    <type value="oid"/> 
-    <value value="2.16.840.1.113883.2.1.8.1.5"/>
-  </uniqueId>   
-</NamingSystem> 
+  <uniqueId>
+    <type value="oid" />
+    <value value="2.16.840.1.113883.2.1.8.1.5" />
+  </uniqueId>
+</NamingSystem>

@@ -1,48 +1,48 @@
 <Encounter xmlns="http://hl7.org/fhir">
-	<id value="Example-DSW-Encounter-DocumentedEvent-DiabetesConsultation"/>
-	<meta>
-		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter"/>
-	</meta>
-	<status value="unknown"/>
-	<class>
-		<system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor "/>
-		<code value="UNK"/>
-		<display value="Unknown"/>
-	</class>
-	<subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames"/>
-		<display value="JAMES, Harold A, Mr"/>
-	</subject>
-	<participant>
-		<type>
-			<coding>
-				<system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
-				<code value="ATND"/>
-				<display value="attender"/>
-			</coding>
-		</type>
-		<individual>
-			<reference value="PractitionerRole/Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
-			<display value="BLOGGS, Joe A, Dr (GMC:1234567), Consultant Diabetologist for HDUHB"/>
-		</individual>
-	</participant>
-	<period>
-		<start value="2025-07-22T13:09:37+00:00"/>
-	</period>
-	<location>
-		<location>
-			<reference value="Location/Example-DataStandardsWales-Location-GGH"/>
-			<display value="Glangwili General Hospital"/>
-		</location>
-	</location>
-	<location>
-		<location>
-			<reference value="Location/Example-DataStandardsWales-Location-GGH-OPD"/>
-			<display value="Glangwili General Hospital Outpatients Department"/>
-		</location>
-	</location>
-	<serviceProvider>
-		<reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
-		<display value="Hywel Dda University Health Board"/>
-	</serviceProvider>
+  <id value="Example-DSW-Encounter-DocumentedEvent-DiabetesConsultation" />
+  <meta>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+  </meta>
+  <status value="unknown" />
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor " />
+    <code value="UNK" />
+    <display value="Unknown" />
+  </class>
+  <subject>
+    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames" />
+    <display value="JAMES, Harold A, Mr" />
+  </subject>
+  <participant>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType" />
+        <code value="ATND" />
+        <display value="attender" />
+      </coding>
+    </type>
+    <individual>
+      <reference value="PractitionerRole/Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB" />
+      <display value="BLOGGS, Joe A, Dr (GMC:1234567), Consultant Diabetologist for HDUHB" />
+    </individual>
+  </participant>
+  <period>
+    <start value="2025-07-22T13:09:37+00:00" />
+  </period>
+  <location>
+    <location>
+      <reference value="Location/Example-DataStandardsWales-Location-GGH" />
+      <display value="Glangwili General Hospital" />
+    </location>
+  </location>
+  <location>
+    <location>
+      <reference value="Location/Example-DataStandardsWales-Location-GGH-OPD" />
+      <display value="Glangwili General Hospital Outpatients Department" />
+    </location>
+  </location>
+  <serviceProvider>
+    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+    <display value="Hywel Dda University Health Board" />
+  </serviceProvider>
 </Encounter>
