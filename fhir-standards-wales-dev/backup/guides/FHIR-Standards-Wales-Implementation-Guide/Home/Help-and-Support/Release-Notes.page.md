@@ -2,6 +2,45 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.7.0 STU2
+
+Package: 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+    * New Message Definitions
+    * New Extensions
+    * Removed Profiles
+    * Removed Message Definitions
+    * Removed Extensions
+    * Changes to Profiles
+    * Changes to Message Definitions
+    * Changes to Extensions
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+    * New Code Systems
+    * New Value Sets
+    * Removed Code Systems
+    * Removed Value Sets
+    * Changes to Code Systems
+    * Changes to Value Sets
+* Naming Systems:
+    * New Naming Systems
+    * Changes to Naming Systems
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+    * Changes to Examples
+    * Removed Examples
+
+Guide:
+
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+* Updated Change Notices page in the [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/)
+* Updated DataStandardsWales-Observation-VitalSigns profile page with further guidance on dependencies
+* Updated DataStandardsWales-Observation-VitalSigns-BMI profile page with further guidance on dependencies
+* Updated DataStandardsWales-Observation-VitalSigns-BodyHeight profile page with further guidance on dependencies
+* Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
+* Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
+* Restored 2.6.0 release details to Version History page
+
 ### v2.6.1 STU2 - Urgent Correction Release
 Summary: This release contains urgent corrections to DocumentReference and related resources, discovered during early use by the NHS Wales Care Documents Service of the newly activated DataStandardsWales-DocumentReference profile in the Wales FHIR Implementation Guide v2.6.0. It also contains a correction of a misleading Practitioner identifier slice name for registered pharmacists.
 
@@ -56,10 +95,10 @@ Guide:
 ### v2.6.0 STU2
 
 Package: 
-* Dependencies
+* {{pagelink:Home/Help-and-Support/Deployment.page.md,text:Dependencies}}:
     * New Dependencies
         * hl7.fhir.uv.xver-r5.r4: 0.1.0
-* Profiles and Extensions:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Message Definitions
         * DataStandardsWales-CareDocumentSubmit
     * New Extensions
@@ -104,7 +143,7 @@ Package:
         * Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated
             * Updated version from 1.0.0 to 1.0.1
             * .status. Updated from draft to active
-* Terminology:
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
         * DataStandardsWales-AliasType
         * DataStandardsWales-MessageEvent
@@ -144,14 +183,14 @@ Package:
         * DataStandardsWales-MessageEvent
             * Updated version from 0.1.0 to 0.2.0
             * Added DataStandardsWales-MessageEvent as a CodeSystem
-* Naming Systems:
+* {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
     * New Naming Systems
         * Namespace for LIMS1 TCL encounter identifier
         * Namespace for LIMS2 TCLe encounter identifier
         * Namespaces for PAS location identifiers
     * Changes to Naming Systems
         * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions   
-* Examples:
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR
         * Example-DataStandardsWales-Location-GGH
@@ -240,7 +279,7 @@ Package:
             * Replaced by Example-DataStandardsWales-Organization-AmmanGwendraeth
         * Example-DataStandardsWales-Organization-GPPractice
             * Replaced by Example-DataStandardsWales-Organization-AmmanTawe
-* Naming Conventions:
+* {{pagelink:Home/Design/Naming-Conventions, text:Naming Conventions}}:
     * Added Naming Conventions for Message Definition Resources section
 
 Guide:
