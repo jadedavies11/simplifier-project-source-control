@@ -5,6 +5,7 @@ This page describes the published versions of this implementation guide and diff
 ### v2.7.0 STU2
 
 Package: 
+* Updated structure definition meta data elements for contact information and copyright for various Profiles, Extensions, Code Systems and Value Sets to reflect current information.
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
     * New Message Definitions
@@ -13,6 +14,9 @@ Package:
     * Removed Message Definitions
     * Removed Extensions
     * Changes to Profiles
+        * DataStandardsWales-Practitioner
+            * Updated version from 1.1.4 to 1.2.0
+            * .identifier. Added User Principal Name (UPN) slice
     * Changes to Message Definitions
     * Changes to Extensions
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
@@ -24,6 +28,7 @@ Package:
     * Changes to Value Sets
 * Naming Systems:
     * New Naming Systems
+        * Namespace for User Principal Name (UPN) identifier
     * Changes to Naming Systems
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
@@ -38,6 +43,7 @@ Guide:
 * Updated DataStandardsWales-Observation-VitalSigns-BMI profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyHeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
+* Updated DataStandardsWales-Practitioner profile page with new slice
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
 * Restored 2.6.0 release details to Version History page
 

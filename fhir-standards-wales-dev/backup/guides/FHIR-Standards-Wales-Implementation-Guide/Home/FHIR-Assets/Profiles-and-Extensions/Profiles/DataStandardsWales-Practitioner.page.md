@@ -69,3 +69,4 @@ The following slices are defined for use within this profile. The namespaces den
 * `Practitioner.identifier:nmcNumber`
 * `Practitioner.identifier:gphcNumber`
 * `Practitioner.identifier:sdsUserId`
+* `Practitioner.identifier:upnIdentifier`

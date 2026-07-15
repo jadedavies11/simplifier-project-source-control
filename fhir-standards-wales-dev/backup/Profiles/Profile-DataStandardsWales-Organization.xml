@@ -2,13 +2,22 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Organization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-  <version value="1.2.0" />
+  <version value="1.2.1" />
   <name value="DataStandardsWalesOrganization" />
   <title value="Data Standards Wales Organization" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-05-29" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <copyright value="2026 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <mapping>
@@ -89,7 +98,7 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationTypeExtended" />
       </binding>
     </element>
-	  <element id="Organization.type:sector">
+    <element id="Organization.type:sector">
       <path value="Organization.type" />
       <sliceName value="sector" />
       <short value="Distinguishes public, private and third sector organizations" />
@@ -103,11 +112,11 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSector" />
       </binding>
     </element>
-	  <element id="Organization.type:sector.coding">
-      <path value="Organization.type.coding"/>
-      <min value="1"/>
-      <max value="1"/>
-	  </element>
+    <element id="Organization.type:sector.coding">
+      <path value="Organization.type.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
     <element id="Organization.type:sector.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
@@ -116,7 +125,7 @@
     <element id="Organization.type:sector.coding.code">
       <path value="Organization.type.coding.code" />
       <min value="1" />
-    </element>     
+    </element>
     <element id="Organization.type:sector.coding.display">
       <path value="Organization.type.coding.display" />
       <min value="1" />
@@ -140,11 +149,11 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationDomain" />
       </binding>
     </element>
-	  <element id="Organization.type:domain.coding">
-      <path value="Organization.type.coding"/>
-      <min value="1"/>
-      <max value="1"/>
-	  </element>
+    <element id="Organization.type:domain.coding">
+      <path value="Organization.type.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
     <element id="Organization.type:domain.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
@@ -177,11 +186,11 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationClassification" />
       </binding>
     </element>
-	  <element id="Organization.type:classification.coding">
-      <path value="Organization.type.coding"/>
-      <min value="1"/>
-      <max value="1"/>
-	  </element>
+    <element id="Organization.type:classification.coding">
+      <path value="Organization.type.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
     <element id="Organization.type:classification.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />
@@ -214,11 +223,11 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationSubclassification" />
       </binding>
     </element>
-	  <element id="Organization.type:subclassification.coding">
-      <path value="Organization.type.coding"/>
-      <min value="1"/>
-      <max value="1"/>
-	  </element>
+    <element id="Organization.type:subclassification.coding">
+      <path value="Organization.type.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
     <element id="Organization.type:subclassification.coding.system">
       <path value="Organization.type.coding.system" />
       <min value="1" />

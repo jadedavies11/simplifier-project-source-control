@@ -2,12 +2,21 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Consent" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Consent" />
-  <version value="0.0.2" />
+  <version value="0.0.3" />
   <name value="DataStandardsWalesConsent" />
   <title value="Data Standards Wales Consent" />
   <status value="draft" />
-  <date value="2025-04-03" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
