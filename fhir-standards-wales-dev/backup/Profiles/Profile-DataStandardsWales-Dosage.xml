@@ -2,14 +2,23 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Dosage" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
-  <version value="0.1.0" />
+  <version value="0.1.1" />
   <name value="DataStandardsWalesDosage" />
   <title value="Data Standards Wales Dosage" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2023-05-24" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
-  <copyright value="2024 NHS Wales." />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <copyright value="2026 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

@@ -2,13 +2,22 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Practitioner" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
-  <version value="1.1.4" />
+  <version value="1.2.0" />
   <name value="DataStandardsWalesPractitioner" />
   <title value="Data Standards Wales Practitioner" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-07-03" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <copyright value="2026 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
@@ -36,6 +45,17 @@
     <element id="Practitioner.identifier:nadexIdentifier.system">
       <path value="Practitioner.identifier.system" />
       <fixedUri value="https://fhir.nhs.wales/Id/nadex-identifier" />
+    </element>
+    <element id="Practitioner.identifier:upnIdentifier">
+      <path value="Practitioner.identifier" />
+      <sliceName value="upnIdentifier" />
+      <short value="User Principal Name (UPN)" />
+      <definition value="A User Principal Name (UPN) is the unique identifier assigned to a user in Microsoft Active Directory and Microsoft 365 environments." />
+      <max value="1" />
+    </element>
+    <element id="Practitioner.identifier:upnIdentifier.system">
+      <path value="Practitioner.identifier.system" />
+      <fixedUri value="https://fhir.nhs.wales/Id/upn-identifier" />
     </element>
     <element id="Practitioner.identifier:gdcNumber">
       <path value="Practitioner.identifier" />

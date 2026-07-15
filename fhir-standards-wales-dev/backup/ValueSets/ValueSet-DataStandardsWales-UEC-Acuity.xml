@@ -1,23 +1,23 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-UEC-Acuity" />
     <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-Acuity" />
-    <version value="1.0.0" />
+    <version value="1.0.1" />
     <name value="DataStandardsWalesUECAcuity" />
     <title value="Data Standards Wales ValueSet UEC Acuity" />
     <status value="active" />
-    <date value="2025-09-16" />
+    <date value="2026-07-13" />
     <publisher value="NHS Wales" />
     <contact>
-        <name value="Data Standards" />
+        <name value="FHIR Standards" />
         <telecom>
             <system value="email" />
-            <value value="data.standards@wales.nhs.uk" />
+            <value value="fhir.standards@wales.nhs.uk" />
             <use value="work" />
             <rank value="1" />
         </telecom>
     </contact>
     <description value="This ValueSet captures the acuity for the patient's attendance in Emergency Care." />
-    <copyright value="2025 NHS Wales" />
+    <copyright value="2026 NHS Wales" />
     <compose>
         <include>
             <system value="http://snomed.info/sct" />

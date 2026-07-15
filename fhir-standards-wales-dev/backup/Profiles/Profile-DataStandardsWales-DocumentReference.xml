@@ -2,13 +2,22 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-DocumentReference" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
-  <version value="1.1.0" />
+  <version value="1.1.1" />
   <name value="DataStandardsWalesDocumentReference" />
   <title value="Data Standards Wales Document Reference" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-06-30" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
@@ -53,7 +62,7 @@
     </element>
     <element id="DocumentReference.extension:versionR5.value[x]">
       <path value="DocumentReference.extension.value[x]" />
-      <definition value="An explicitly assigned identifer of a variation of the content in the DocumentReference.  This is a business version identifier, not a resource version id." />
+      <definition value="An explicitly assigned identifier of a variation of the content in the DocumentReference.  This is a business version identifier, not a resource version id." />
     </element>
     <element id="DocumentReference.extension:attesterR5">
       <path value="DocumentReference.extension" />
