@@ -1,14 +1,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-BMI" />
     <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BMI" />
-    <version value="1.0.1" />
+    <version value="1.0.0" />
     <name value="DataStandardsWalesBMI" />
     <title value="Data Standards Wales ValueSet BMI" />
     <status value="active" />
-    <date value="2026-07-13" />
+    <date value="2025-01-01" />
     <publisher value="NHS Wales" />
     <contact>
-        <name value="FHIR Standards" />
+        <name value="NHS Wales" />
         <telecom>
             <system value="email" />
             <value value="fhir.standards@wales.nhs.uk" />
@@ -17,7 +17,7 @@
         </telecom>
     </contact>
     <description value="Resource structure is based on UKCore-BMI v1.0.1 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A set of codes that define a patients level of consciousness. Selected from the SNOMED CT UK coding system: \n - DescendantOrSelfOf 60621009 | Body mass index (observable entity) \n - DescendantOrSelfOf 446974000 |Body mass index centile (observable entity \n - MINUS  &amp;nbsp;\n - 846931000000101 | Baseline body mass index (observable entity) &amp;nbsp;\n - 852451000000103 | Maximum body mass index (observable entity) &amp;nbsp;\n - 852461000000100 | Minimum body mass index (observable entity) &amp;nbsp;\n - 715456008 | Percentage median body mass index for age and sex (observable entity) &amp;nbsp;\n - 846911000000109 | Baseline body mass index centile (observable entity) &amp;nbsp;\n - 1153596006 | Body mass index for age z-score (observable entity) &amp;nbsp;\n - 248358009 | Weight for height (observable entity)" />
-    <copyright value="2026 NHS Wales" />
+    <copyright value="2025 NHS Wales" />
     <compose>
         <include>
             <system value="http://snomed.info/sct" />

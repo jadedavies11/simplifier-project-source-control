@@ -2,17 +2,17 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-Speciality" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Speciality" />
-  <version value="1.0.1" />
+  <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesSpeciality" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-07-13" />
+  <date value="2026-03-09" />
   <publisher value="NHS Wales" />
   <contact>
-    <name value="FHIR Standards" />
+    <name value="Data Standards" />
     <telecom>
       <system value="email" />
-      <value value="fhir.standards@wales.nhs.uk" />
+      <value value="data.standards@wales.nhs.uk" />
       <use value="work" />
       <rank value="1" />
     </telecom>

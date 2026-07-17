@@ -1,14 +1,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-OrganizationTypeExtended" />
     <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OrganizationTypeExtended" />
-    <version value="0.1.1" />
+    <version value="0.1.0" />
     <name value="DataStandardsWalesOrganizationTypeExtended" />
     <title value="Data Standards Wales Organization Type Extended" />
     <status value="draft" />
-    <date value="2026-07-13" />
+    <date value="2026-05-06" />
     <publisher value="NHS Wales" />
     <contact>
-        <name value="FHIR Standards" />
+        <name value="NHS Wales" />
         <telecom>
             <system value="email" />
             <value value="fhir.standards@wales.nhs.uk" />

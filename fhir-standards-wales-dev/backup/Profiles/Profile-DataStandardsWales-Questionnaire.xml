@@ -1,14 +1,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Questionnaire" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire" />
-  <version value="1.0.1" />
+  <version value="1.0.0" />
   <name value="DataStandardsWalesQuestionnaire" />
   <title value="Data Standards Wales Questionnaire" />
   <status value="active" />
-  <date value="2026-07-13" />
-  <publisher value="NHS Wales" />
+  <date value="2026-02-26" />
+  <publisher value="Data Standards Wales" />
   <contact>
-    <name value="FHIR Standards" />
+    <name value="Data Standards Wales" />
     <telecom>
       <system value="email" />
       <value value="fhir.standards@wales.nhs.uk" />
