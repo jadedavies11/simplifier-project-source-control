@@ -3,6 +3,8 @@
 ### Overview
 This scenario addresses the use of FHIR resources to fulfil the metadata requirements for a document that is based on an event represented as an Encounter resource. An example might be an outpatient clinic attendance.
 
+_This is the preferred approach for the submission of documents to the NHS Wales Care Documents Service._
+
 ### Implementation Guidance
 In this case, the document metadata specific to the documented event belong to the Encounter resource, so the recommendation would be to avoid storing them within the Document Reference resource instance as this would be data duplication:
 - Event Date and Time
@@ -20,6 +22,8 @@ The diagram below shows how the FHIR resources work together to provide the even
 ## Event-based Document
 ### Overview
 This scenario addresses the use of FHIR resources to fulfil the metadata requirements for a document based on an event that is not represented as an Encounter resource. 
+
+_This scenario is not supported for the submission of documents to the NHS Wales Care Documents Service._
 
 ### Implementation Guidance
 In this case, the document metadata specific to the documented event must be explicit within the DocumentReference resource instance. The recommendation is to use the relevant sub-elements of the `DocumentReference.context` backbone element to capture the following event metadata:

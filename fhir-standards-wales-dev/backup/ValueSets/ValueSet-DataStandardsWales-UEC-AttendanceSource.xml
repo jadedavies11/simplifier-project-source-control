@@ -1,23 +1,23 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-UEC-AttendanceSource" />
     <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-AttendanceSource" />
-    <version value="1.0.1" />
+    <version value="1.0.0" />
     <name value="DataStandardsWalesUECAttendanceSource" />
     <title value="Data Standards Wales ValueSet UEC Attendance Source" />
     <status value="active" />
-    <date value="2026-07-13" />
+    <date value="2025-09-16" />
     <publisher value="NHS Wales" />
     <contact>
-        <name value="FHIR Standards" />
+        <name value="Data Standards" />
         <telecom>
             <system value="email" />
-            <value value="fhir.standards@wales.nhs.uk" />
+            <value value="data.standards@wales.nhs.uk" />
             <use value="work" />
             <rank value="1" />
         </telecom>
     </contact>
     <description value="This ValueSet captures the arrival source for the patient's attendance in Emergency Care." />
-    <copyright value="2026 NHS Wales" />
+    <copyright value="2025 NHS Wales" />
     <compose>
         <include>
             <system value="http://snomed.info/sct" />

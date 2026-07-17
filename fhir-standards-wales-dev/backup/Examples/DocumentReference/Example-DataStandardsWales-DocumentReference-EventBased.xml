@@ -51,17 +51,13 @@
     </extension>
   </extension>
   <identifier>
-    <system value="https://fhir.nhs.wales/Id/document-identifier" />
+    <system value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />
     <value value="FF849C81-9917-47D9-B929-4AF1BDD94670" />
   </identifier>
   <identifier>
-    <system value="https://fhir.nhs.wales/Id/supersession-set-identifier" />
+    <system value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier" />
     <value value="6DB699D2-AD58-43DD-AEA5-341AE3DBFF93" />
   </identifier>
-	<identifier>
-		<system value="https://fhir.nhs.wales/Id/external-supersession-set-identifier" />
-		<value value="193~11111111" />
-	</identifier>
   <status value="current" />
   <docStatus value="amended" />
   <type>
@@ -116,9 +112,9 @@
     </period>
     <practiceSetting>
       <coding>
-        <system value="http://snomed.info/sct"/>
-        <code value="963151000000104"/>
-        <display value="Diabetic medicine service"/>
+        <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+        <code value="302"/>
+        <display value="Endocrinology and Diabetes"/>
       </coding>
     </practiceSetting>
     <related>

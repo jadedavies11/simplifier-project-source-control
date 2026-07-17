@@ -4,23 +4,23 @@
 		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20200622-DSCN%202020%2006-Core%20Reference%20Data-d2-2.pdf"/>
 	</extension>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-Religion"/>
-	<version value="1.1.1" />
+	<version value="1.1.0" />
 	<name value="DataStandardsWalesReligion"/>
 	<title value="Data Standards Wales Religion"/>
   <status value="active" />
    <experimental value="false" />
-    <date value="2026-07-13" />
+    <date value="2025-11-19" />
     <publisher value="NHS Wales" />
 	<contact>
-		<name value="FHIR Standards"/>
+		<name value="Data Standards"/>
 		<telecom>
 			<system value="email"/>
-			<value value="fhir.standards@wales.nhs.uk"/>
+			<value value="data.standards@wales.nhs.uk"/>
 			<use value="work"/>
 		</telecom>
 	</contact>
 	<description value="A SNOMED code used to describe a patient's religion. Only a sample of the value set has been shown. To obtain the full list, please contact the Welsh Reference and Terminology Service"/>
-	<copyright value="2026 NHS Wales." />
+	<copyright value="2025 NHS Wales." />
 	<compose>
 		<include>
 			<system value="http://snomed.info/sct"/>

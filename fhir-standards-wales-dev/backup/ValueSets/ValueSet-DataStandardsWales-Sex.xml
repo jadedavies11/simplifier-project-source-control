@@ -4,23 +4,23 @@
 		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20200622-DSCN%202020%2006-Core%20Reference%20Data-d2-2.pdf"/>
 	</extension>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-Sex"/>
-	 <version value="1.1.1" />
+	 <version value="1.1.0" />
     <name value="DataStandardsWalesSex"/>											   
 	<title value="Data Standards Wales Sex"/>
   <status value="active" />
    <experimental value="false" />
-    <date value="2026-07-13" />
+    <date value="2023-11-10" />
     <publisher value="NHS Wales" />
 	<contact>
-		<name value="FHIR Standards"/>
+		<name value="Data Standards"/>
 		<telecom>
 			<system value="email"/>
-			<value value="fhir.standards@wales.nhs.uk"/>
+			<value value="data.standards@wales.nhs.uk"/>
 			<use value="work"/>
 		</telecom>
 	</contact>
 	<description value="Sex"/>
-	  <copyright value="2026 NHS Wales." />								   
+	  <copyright value="2024 NHS Wales." />								   
 	<compose>
 		<include>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Sex"/>
