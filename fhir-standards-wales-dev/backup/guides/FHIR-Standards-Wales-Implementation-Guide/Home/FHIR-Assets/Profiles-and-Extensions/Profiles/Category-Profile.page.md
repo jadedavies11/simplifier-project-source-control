@@ -53,7 +53,7 @@ All Profiles in this Implementation Guide grouped by Resource Index category.
     <li>{{pagelink:DataStandardsWales-MedicationAdministration}}</li>
     <li>{{pagelink:DataStandardsWales-MedicationDispense}}</li>
     <li>{{pagelink:DataStandardsWales-MedicationList}}</li>
-<   li>{{pagelink:DataStandardsWales-MedicationRequest}}</li>
+    <li>{{pagelink:DataStandardsWales-MedicationRequest}}</li>
     <li>{{pagelink:DataStandardsWales-MedicationStatement}}</li>
 </ul>
 

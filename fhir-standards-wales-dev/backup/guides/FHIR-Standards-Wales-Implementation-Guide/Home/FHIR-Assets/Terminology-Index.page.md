@@ -28,7 +28,7 @@
     <li class="tablink" onclick="openLocalTab(this,'exception1')" data-target="exception1">
     CodeSystem Exceptions
     </li>
-    <li class="tablink" onclick="openLocalTab(this,'exception2')" data-target="exception1">
+    <li class="tablink" onclick="openLocalTab(this,'exception2')" data-target="exception2">
     ValueSet Exceptions
     </li>
      

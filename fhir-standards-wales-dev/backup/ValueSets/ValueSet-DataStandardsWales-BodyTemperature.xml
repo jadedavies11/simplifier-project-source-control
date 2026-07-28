@@ -1,14 +1,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-BodyTemperature" />
     <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyTemperature" />
-    <version value="1.0.0" />
+    <version value="1.0.1" />
     <name value="DataStandardsWalesBodyTemperature" />
     <title value="Data Standards Wales ValueSet Body Temperature" />
     <status value="active" />
-    <date value="2025-01-01" />
+    <date value="2026-07-13" />
     <publisher value="NHS Wales" />
     <contact>
-        <name value="NHS Wales" />
+        <name value="FHIR Standards" />
         <telecom>
             <system value="email" />
             <value value="fhir.standards@wales.nhs.uk" />
@@ -17,7 +17,7 @@
         </telecom>
     </contact>
     <description value="Resource structure is based on UKCore-BodyTemperature v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A set of codes regarding laboratory medicine test requests and results intended for use by pathology services and their users. Selected from the SNOMED CT UK coding system: \n \n - DescendantOrSelfOf 386725007 | Body temperature  \n - MINUS \n - DescendantOrSelfOf 248458005 | Comparative temperature in limbs  \n - DescendantOrSelfOf 852591000000107 | Maximum body temperature  &amp;nbsp;\n - DescendantOrSelfOf 852601000000101 | Minimum body temperature  &amp;nbsp;\n - DescendantOrSelfOf 852581000000105 | Target body temperature  &amp;nbsp;\n - DescendantOrSelfOf 364419004 | Temperature of cervical spine  &amp;nbsp;\n - DescendantOrSelfOf 364424001 | Temperature of thoracic spine  &amp;nbsp;\n - DescendantOrSelfOf 364429006 | Temperature of lumbar spine &amp;nbsp;\n - DescendantOrSelfOf 248835004 | Temperature of breast  &amp;nbsp;\n - DescendantOrSelfOf 250124002 | Temperature of joint  &amp;nbsp;\n - DescendantOrSelfOf 431197002 | Temperature of digit  &amp;nbsp;\n - DescendantOrSelfOf 364518005 | Temperature of foot  &amp;nbsp;\n - DescendantOrSelfOf 363997004 | Temperature of pinna  &amp;nbsp;\n - DescendantOrSelfOf 364537001 | Temperature of skin  &amp;nbsp;\n - DescendantOrSelfOf 364246006 | Temperature of vagina  &amp;nbsp;\n - DescendantOrSelfOf 431598003 | Temperature of oesophagus)" />
-    <copyright value="2025 NHS Wales" />
+    <copyright value="2026 NHS Wales" />
     <compose>
         <include>
             <system value="http://snomed.info/sct" />
