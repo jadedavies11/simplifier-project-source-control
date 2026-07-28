@@ -16,9 +16,17 @@
     <valueCode value="scanned-paper-document"/>
   </extension>
   <identifier>
-    <system value="www.localnamespace"/>
-    <value value="CONF-A123-10"/>
+    <system value="https://fhir.nhs.wales/Id/document-identifier" />
+    <value value="b86e9c4b-331e-4067-a05b-dc7bcbe2a680" />
   </identifier>
+  <identifier>
+    <system value="https://fhir.nhs.wales/Id/supersession-set-identifier" />
+    <value value="3cc23695-0972-4a89-b568-b95b45e275b0" />
+  </identifier>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/external-supersession-set-identifier" />
+		<value value="193~00011111" />
+	</identifier>
   <status value="current"/>
   <docStatus value="final"/>
   <type>

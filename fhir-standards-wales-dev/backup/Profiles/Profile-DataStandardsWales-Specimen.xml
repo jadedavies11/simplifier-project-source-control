@@ -2,13 +2,22 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Specimen" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Specimen" />
-  <version value="0.2.0" />
+  <version value="0.2.1" />
   <name value="DataStandardsWalesSpecimen" />
   <title value="Data Standards Wales Specimen" />
   <status value="draft" />
   <experimental value="false" />
-  <date value="2026-02-26" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
   <copyright value="2026 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />

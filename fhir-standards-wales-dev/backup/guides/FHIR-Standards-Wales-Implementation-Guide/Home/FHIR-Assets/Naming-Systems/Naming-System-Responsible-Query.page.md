@@ -9,5 +9,5 @@
     Purpose: usage,
     Details: description
   order by
-    usage
+    Purpose
 </fql>

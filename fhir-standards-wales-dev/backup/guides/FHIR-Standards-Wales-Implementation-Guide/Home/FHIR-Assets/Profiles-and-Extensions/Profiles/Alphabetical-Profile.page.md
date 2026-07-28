@@ -1,5 +1,5 @@
-The following Profiles have been defined for this Implementation Guide and listed alphabetically.
-All derivations whether HL7 FHIR International, HL7 FHIR UK Core or Data Standards Wales are based on the R4 release. 
+<p>The following Profiles have been defined for this Implementation Guide and listed alphabetically.</p>
+<p>All derivations whether HL7 FHIR International, HL7 FHIR UK Core or Data Standards Wales are based on the R4 release.</p>
 
 <style>
   th, td {

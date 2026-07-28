@@ -1,14 +1,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-ObservationVitalSignsType" />
     <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-ObservationVitalSignsType" />
-    <version value="1.1.0" />
+    <version value="1.1.1" />
     <name value="DataStandardsWalesObservationVitalSignsType" />
     <title value="Data Standards Wales ValueSet Observation Vital Signs Type" />
     <status value="active" />
-    <date value="2026-02-25" />
+    <date value="2026-07-17" />
     <publisher value="NHS Wales" />
     <contact>
-        <name value="NHS Wales" />
+        <name value="FHIR Standards" />
         <telecom>
             <system value="email" />
             <value value="fhir.standards@wales.nhs.uk" />

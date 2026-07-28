@@ -1,18 +1,18 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-Occupation"/>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-Occupation"/>
-	<version value="1.0.0"/>
+	<version value="1.0.1"/>
 	<name value="DataStandardsWalesOccupation"/>
 	<title value="Data Standards Wales Occupation"/>
 	<status value="active"/>
 	<experimental value="false"/>
-	<date value="2026-02-26"/>
+	<date value="2026-07-13"/>
 	<publisher value="NHS Wales"/>
 	<contact>
-		<name value="Data Standards"/>
+		<name value="FHIR Standards"/>
 		<telecom>
 			<system value="email"/>
-			<value value="data.standards@wales.nhs.uk"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
 			<use value="work"/>
 		</telecom>
 	</contact>

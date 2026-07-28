@@ -19,3 +19,4 @@ The NHS Wales FHIR Standards and Implementation team engage with multiple regula
 |HL7 UK FHIR Subgroup - Research|Regular Attendees|
 
 If you would like more information regarding these boards or groups, or require representation from the NHS Wales FHIR Standards and Implementation team, please contact us via <a href="mailto:fhir.standards@wales.nhs.uk?subject=Regular%20Meetings">fhir.standards@wales.nhs.uk</a>
+

@@ -12,21 +12,21 @@
 		</div>
 	</text>
 	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-Title"/>
-    <version value="1.0.1" />
+    <version value="1.0.2" />
 	<name value="DataStandardsWalesTitle"/>
 	<title value="Data Standards Wales Title"/>
     <status value="active" />
     <experimental value="false" />	
-    <date value="2023-11-10" />
+    <date value="2026-07-13" />
     <publisher value="NHS Wales" />
 	<contact>
-		<name value="Data Standards"/>
+		<name value="FHIR Standards"/>
 		<telecom>
 			<system value="email"/>
-			<value value="data.standards@wales.nhs.uk"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
 		</telecom>
 	</contact>
-    <copyright value="2024 NHS Wales." />
+    <copyright value="2026 NHS Wales." />
 	<caseSensitive value="true"/>
 	<hierarchyMeaning value="is-a"/>
 	<compositional value="false"/>
