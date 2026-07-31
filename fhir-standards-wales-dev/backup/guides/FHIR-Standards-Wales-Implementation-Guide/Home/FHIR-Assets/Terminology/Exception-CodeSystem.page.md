@@ -1,0 +1,36 @@
+These CodeSystems have other uses which are highlighted below.
+
+
+<div style="display:flex; gap:30px; align-items:flex-start;">
+
+  <div style="flex:1;">
+
+<h4>Unassigned CodeSystems</h4>
+<p><b>Not bound to a profile</b></p>
+<ul>
+    <li>{{pagelink:CodeSystem-DataStandardsWales-MainSpecialty}}</li>
+</ul>
+
+<p><b>CDR use only</b></p>
+<ul>
+    <li>{{pagelink:CodeSystem-DataStandardsWales-PatientRecordType}}</li>
+    <li>{{pagelink:CodeSystem-WPASAdmitSource}}</li>
+    <li>{{pagelink:CodeSystem-WPASEventType}}</li>
+    <li>{{pagelink:CodeSystem-WPASReferralSource}}</li>
+    <li>{{pagelink:CodeSystem-WPASSourceAdmission}}</li>
+</ul>
+</div>
+
+  <div style="flex:1;">
+
+
+<h4>For mapping</h4>
+<p><b>DataStandardsWales-Patient</b></p>
+<ul>
+    <li>{{pagelink:CodeSystem-DataStandardsWales-GenderIdentity}}</li>
+    <li>{{pagelink:CodeSystem-DataStandardsWales-MaritalStatus}}</li>
+    <li>{{pagelink:CodeSystem-DataStandardsWales-Sex}}</li>
+</ul>
+</div>
+
+</div>

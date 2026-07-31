@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-ProvenanceActivity" />
   <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-ProvenanceActivity" />
-  <version value="1.0.2" />
+  <version value="1.0.1" />
   <name value="DataStandardsWalesProvenanceActivity" />
   <title value="Data Standards Wales Provenance Activity" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-07-28" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -24,8 +24,8 @@
 	</include> 
   </compose>
   <expansion>
-        <timestamp value="2026-07-28T12:00:00+01:00" />
-        <total value="27" />
+        <timestamp value="2024-05-08T14:49:00+01:00" />
+        <total value="7" />
         <offset value="0" />
         <parameter>
             <name value="version" />
@@ -33,138 +33,38 @@
         </parameter>
 		<contains>
 			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="access"/>
-			<display value="Access/View Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="hold"/>
-			<display value="Add Legal Hold Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
 			<code value="amend"/>
 			<display value="Amend (Update) Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="archive"/>
-			<display value="Archive Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="attest"/>
-			<display value="Attest Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="decrypt"/>
-			<display value="Decrypt Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="deidentify"/>
-			<display value="De-Identify (Anononymize) Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="deprecate"/>
-			<display value="Deprecate Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="destroy"/>
-			<display value="Destroy/Delete Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="disclose"/>
-			<display value="Disclose Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="encrypt"/>
-			<display value="Encrypt Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="extract"/>
-			<display value="Extract Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="link"/>
-			<display value="Link Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="merge"/>
-			<display value="Merge Record Lifecycle Event"/>
-		</contains>
+		</contains>	
 		<contains>
 			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
 			<code value="originate"/>
 			<display value="Originate/Retain Record Lifecycle Event"/>
-		</contains>
+		</contains>	
 		<contains>
 			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="pseudonymize"/>
-			<display value="Pseudonymize Record Lifecycle Event"/>
-		</contains>
+			<code value="merge"/>
+			<display value="Merge Record Lifecycle Event"/>
+		</contains>	
 		<contains>
 			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="reactivate"/>
-			<display value="Re-activate Record Lifecycle Event"/>
-		</contains>
+			<code value="deidentify"/>
+			<display value="De-Identify (Anononymize) Record Lifecycle Event"/>
+		</contains>	
 		<contains>
 			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
 			<code value="receive"/>
 			<display value="Receive/Retain Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="reidentify"/>
-			<display value="Re-identify Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="unhold"/>
-			<display value="Remove Legal Hold Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="report"/>
-			<display value="Report (Output) Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="restore"/>
-			<display value="Restore Record Lifecycle Event"/>
-		</contains>
+		</contains>	
 		<contains>
 			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
 			<code value="transform"/>
 			<display value="Transform/Translate Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="transmit"/>
-			<display value="Transmit Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="unlink"/>
-			<display value="Unlink Record Lifecycle Event"/>
-		</contains>
-		<contains>
-			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
-			<code value="unmerge"/>
-			<display value="Unmerge Record Lifecycle Event"/>
-		</contains>
+		</contains>	
 		<contains>
 			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
 			<code value="verify"/>
 			<display value="Verify Record Lifecycle Event"/>
-		</contains>
+		</contains>	
 	</expansion>
 </ValueSet>

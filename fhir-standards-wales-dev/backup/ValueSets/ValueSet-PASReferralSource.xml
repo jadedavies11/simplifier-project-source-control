@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="PASReferralSource"/>
 	<url value="https://fhir.nhs.wales/ValueSet/PASReferralSource"/>
-	<version value="1.0.1"/>
+	<version value="1.0.0"/>
 	<name value="PASReferralSource"/>
 	<title value="PAS Referral Source"/>
 	<status value="active"/>
 	<experimental value="false"/>
-	<date value="2026-07-29"/>
+	<date value="2026-02-26"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -35,7 +35,7 @@
 			<filter>
 				<property value="constraint"/>
 				<op value="="/>
-				<value value="descendantOf 309013001 OR descendantOf 307834000"/>
+				<value value="descendantOf 309013001 OR descendantOf 306098008"/>
 			</filter>
 		</include>
 	</compose>
@@ -45,7 +45,7 @@
 		</extension>
 		<identifier value="0ca3ae33-ba5f-4ee2-873c-f73f349d3e70"/>
 		<timestamp value="2022-02-23T08:33:53+00:00"/>
-		<total value="262"/>
+		<total value="57"/>
 		<offset value="0"/>
 		<parameter>
 			<name value="version"/>
