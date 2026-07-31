@@ -6,19 +6,18 @@ This page describes the published versions of this implementation guide and diff
 
 Package: 
 * Updated structure definition meta data elements for contact information and copyright for various Profiles, Extensions, Code Systems and Value Sets to reflect current information.
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* {{pagelink:Home/FHIR-Assets/Profile-Index.page.md,text:Profiles}}:
     * New Profiles
-    * New Message Definitions
-    * New Extensions
     * Removed Profiles
-    * Removed Message Definitions
-    * Removed Extensions
     * Changes to Profiles
         * DataStandardsWales-Practitioner
             * Updated version from 1.1.4 to 1.2.0
             * .identifier. Added User Principal Name (UPN) slice
-    * Changes to Message Definitions
+* {{pagelink:Home/FHIR-Assets/Extension-Index.page.md,text:Extensions}}:
+    * New Extensions
+    * Removed Extensions
     * Changes to Extensions
+* {{pagelink:Home/FHIR-Assets/Backport-Extensions.page.md,text:Backport Extensions}}:
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
     * New Value Sets
@@ -27,19 +26,18 @@ Package:
     * Removed Value Sets
     * Changes to Code Systems
     * Changes to Value Sets
-        * DataStandardsWales-ProvenanceActivity
-            * Updated version from 1.0.1 to 1.0.2
-            * Updated expansion
-        * PASReferralSource
-            * Updated version from 1.0.0 to 1.0.1
-            * Updated SNOMED CT constraint to match ValueSet-UKCore-SourceOfServiceRequest amendments
-* Naming Systems:
+* {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
     * New Naming Systems
         * Namespace for User Principal Name (UPN) identifier
     * Changes to Naming Systems
         * ApplicationInstanceIdentifier. Updated purpose to "Issuing authority"
         * DataStandardsWalesLIMSIdentifier. Updated purpose to "Patient identity"
         * NADEXIdentifier purpose. Updated purpose to "Practitioner identity"
+* {{pagelink:Home/FHIR-Assets/ConceptMap-Index.page.md,text:Concept Maps}}:
+* {{pagelink:Home/FHIR-Assets/Message-Definition-Index.page.md,text:Message-Definition}}:
+    * New Message Definitions
+    * Removed Message Definitions
+    * Changes to Message Definitions
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
     * Changes to Examples
@@ -55,6 +53,7 @@ Guide:
 * Updated DataStandardsWales-Observation-VitalSigns-BodyHeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Practitioner profile page with new slice
+* Updated FHIR Assets menu with new pages
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
 * Restored 2.6.0 release details to Version History page
 
