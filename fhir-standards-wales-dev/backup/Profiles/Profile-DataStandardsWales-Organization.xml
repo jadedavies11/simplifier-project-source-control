@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Organization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-  <version value="1.3.0" />
+  <version value="1.2.1" />
   <name value="DataStandardsWalesOrganization" />
   <title value="Data Standards Wales Organization" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-07-30" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -46,20 +46,8 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Organization" />
   <derivation value="constraint" />
   <differential>
-    <element id="Organization.extension:successorOrganization">
-      <path value="Organization.extension" />
-      <sliceName value="successorOrganization" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SuccessorOrganization" />
-      </type>
-      <isModifier value="false" />
-    </element>
     <element id="Organization.identifier">
       <path value="Organization.identifier" />
-      <slicing>
-        <rules value="open" />
-      </slicing>
       <comment value="Identifiers for the organization SHOULD be populated if the data exists" />
     </element>
     <element id="Organization.identifier:odsOrganisationCode">
@@ -72,22 +60,11 @@
       <sliceName value="odsSiteCode" />
       <max value="0" />
     </element>
-    <element id="Organization.identifier:wrtsOrganizationIdentifier">
-      <path value="Organization.identifier" />
-      <sliceName value="wrtsOrganizationIdentifier" />
-      <short value="The WRTS identifier for the organisation" />
-      <definition value="The identifier issued or recognised by the Welsh Reference and Terminology Services (WRTS) as the unique identifier for the organisation within Wales.  The value may have been issued by another standards authority such as the Organisation Data Service and adopted by WRTS as the unique identifier." />
-      <max value="1" />
-    </element>
-    <element id="Organization.identifier:wrtsOrganizationIdentifier.system">
-      <path value="Organization.identifier.system" />
-      <fixedUri value="https://fhir.nhs.wales/Id/wrts-organization-identifier" />
-    </element>
     <element id="Organization.identifier:gpClusterCode">
       <path value="Organization.identifier" />
       <sliceName value="gpClusterCode" />
-      <short value="WITHDRAWN. Identifies a Wales GP Cluster organization across multiple systems" />
-      <definition value="WITHDRAWN. This slice was deprecated in release 2.6.0 and withdrawn in release 2.7.0. It SHALL NOT be used. Use a generic identifier with the namespace for WRTS clusters instead.  Identifier for a Wales GP Cluster organization that is used to identify the organization across multiple disparate systems. It applied to a small number of organization resources that are more accurately named WRTS clusters." />
+      <short value="Deprecated. Identifies a Wales GP Cluster organization across multiple systems" />
+      <definition value="Deprecated. Identifier for a Wales GP Cluster organization that is used to identify the organization across multiple disparate systems. This slice will be removed at a future version of this profile. It applies to a small number of organization resources that are more accurately named primary care clusters.  It can be stored as a generic identifier using the applicable naming system." />
       <requirements value="This identifier is shown as Must Support, only because it is an inherited property of the identifier element in the base definition.  The flag cannot be cleared because it is, through inheritance, applicable to all slices added by the profile.  Given that this identifier slice is deprecated, it should not be considered as Must Support by implementers." />
     </element>
     <element id="Organization.identifier:gpClusterCode.system">
