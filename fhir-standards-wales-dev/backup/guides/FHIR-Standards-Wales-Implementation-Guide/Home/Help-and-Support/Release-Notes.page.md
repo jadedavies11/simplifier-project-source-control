@@ -8,7 +8,6 @@ Package:
 * Updated structure definition meta data elements for contact information and copyright for various Profiles, Extensions, Code Systems and Value Sets to reflect current information.
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
-        * DataStandardsWales-OrganizationAffiliation
     * New Message Definitions
     * New Extensions
     * Removed Profiles
@@ -37,7 +36,6 @@ Package:
 * Naming Systems:
     * New Naming Systems
         * Namespace for User Principal Name (UPN) identifier
-        * Namespace for a composite identifier for an OrganizationAffiliation
     * Changes to Naming Systems
         * ApplicationInstanceIdentifier. Updated purpose to "Issuing authority"
         * DataStandardsWalesLIMSIdentifier. Updated purpose to "Patient identity"
@@ -50,7 +48,6 @@ Package:
 Guide:
 
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
-* Added a new page to outline the DataStandardsWales-OrganizationAffiliation profile
 * Corrected spelling error for DataStandardsWales-OrganizationSubclassification in 2.6.0 Release Notes and ValueSet yaml toc file
 * Updated Change Notices page in the [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/)
 * Updated DataStandardsWales-Observation-VitalSigns profile page with further guidance on dependencies
@@ -59,6 +56,7 @@ Guide:
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Practitioner profile page with new slice
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
+* Updated Naming Convention page with a Standard Resource Definitions section, introducing a tabulated view for some resource conventions 
 * Restored 2.6.0 release details to Version History page
 
 ### v2.6.1 STU2 - Urgent Correction Release
