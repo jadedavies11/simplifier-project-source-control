@@ -30,6 +30,8 @@
   filename: Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated.page.md
 - name: Extension-DataStandardsWales-Speciality
   filename: Extension-DataStandardsWales-Speciality.page.md
+- name: Extension-DataStandardsWales-SuccessorOrganization
+  filename: Extension-DataStandardsWales-SuccessorOrganization.page.md
 - name: Extension-DataStandardsWales-UECAttendanceCategory
   filename: Extension-DataStandardsWales-UECAttendanceCategory.page.md
 - name: Extension-DataStandardsWales-UECDischargeInformationGiven
