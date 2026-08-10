@@ -59,9 +59,7 @@ Each Organisation must have:
 Each Organisation must support:
 * An identifier*
   * The `Organization.identifier` field **SHOULD** contain all available identifiers. In particular:
-    * The [Organisation Data Service](https://digital.nhs.uk/services/organisation-data-service) (ODS) issues and manages unique identification codes and accompanying reference data for organisations that interact with any area of the NHS. The ODS code for organisations managed by this service **SHOULD** be populated (this includes ANANA format codes). 
-    * The Welsh Reference and Terminology Service (WRTS) ensures that each organisation in the Welsh reference data has a unique code that **SHOULD** be populated. Where appropriate the codes issued by ODS or other national bodies are adopted. 
-    * The identifier for a WRTS cluster can be recorded as a generic identifier using the WRTS cluster code namespace. <br /><br />
+    * The [Organisation Data Service](https://digital.nhs.uk/services/organisation-data-service) (ODS) issues and manages unique identification codes and accompanying reference data for organisations that interact with any area of the NHS. The ODS code for organisations managed by this service **SHOULD** be populated (this includes ANANA format codes).  <br /><br />
 
 * The active status of the organisation
   * The `Organization.active` field **SHOULD** be populated to indicate whether the organisation is still active.  <br /><br />
@@ -91,16 +89,13 @@ The following extensions are defined for use within this profile:
 * The HL7 common extension [organization-period](http://hl7.org/fhir/R4/extension-organization-period.html) describes the date range that the organisation should be considered available.
 
 * {{pagelink:Extension-DataStandardsWales-AliasType}} is used to specify the nature of each alias.
-
-* {{pagelink:Extension-DataStandardsWales-SuccessorOrganization}} is used to identify the successor organisation that continues the delivery of services after the end date recorded for the organisation.
   
 ### Slices
 
 Slices apply to the following elements:
 * `Organization.identifier` 
-  * `Organization.identifier:wrtsOrganizationIdentifier`. See the description of Welsh Reference and Terminology Service (WRTS) identifiers under Mandatory and Must Support Data Elements above.
   * `Organization.identifier:odsOrganisationCode`. The ODS Organisation Code is further described here: [UK Core Naming System](https://simplifier.net/guide/UKNamingSystems/Home?version=current)
-  * `Organization.identifier:gpClusterCode`. This slice was DEPRECATED at 2.6.0 and is marked as WITHDRAWN at 2.7.0. It applied to only a small proportion of organisations and was misnamed for its intended use. The identifier for a WRTS cluster can be recorded as a generic identifier using the WRTS cluster code namespace. It will also be represented in the wrtsOrganizationIdentifier slice.  <br /><br />
+  * `Organization.identifier:gpClusterCode`. This slice is marked as deprecated because it applies to only a small proportion of organisations and is misnamed for its current use. The identifier for a primary care cluster can be recorded as a generic identifier distinguished by its system value. It is further described under the GP Cluster Code entry in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm).  <br /><br />
 
 * `Organization.type` includes a slice for each of the four organisation type variants described above under Mandatory and Must Support Data Elements: 
   * `Organization.type:sector`

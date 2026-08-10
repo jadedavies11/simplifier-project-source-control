@@ -1,4 +1,3 @@
-### {{page-title}}
 The following naming convention applies to the message event code as used by `MessageDefinition.eventCoding` and `MessageHeader.eventCoding`.
 
 The **event** code should be lower case and follow the [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) naming convention e.g.  
