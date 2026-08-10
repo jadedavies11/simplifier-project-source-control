@@ -462,6 +462,29 @@ span.url {
   color: black
 }
 
+.properties-table {
+    font-size: 0.85em;
+}
+
+.properties-table th {
+    background-color: #FBF9F9;
+    width: 150px;
+    text-align: left;
+    vertical-align: top;
+    padding: 0px 0px;
+    border:1px solid #a9a9b3;
+    border-left: none
+}
+
+.properties-table td {
+    background-color: white;
+    text-align: left;
+    vertical-align: top;
+    padding: 0px 0px;
+    border:1px solid #a9a9b3;
+    border-right: none
+}
+
  /* Equal width table cell */
 table#resourceIndex {
   width: 100%;
