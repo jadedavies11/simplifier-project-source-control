@@ -66,6 +66,8 @@
   filename: DataStandardsWales-Observation-VitalSigns-BodyWeight.page.md
 - name: DataStandardsWales-Organization
   filename: DataStandardsWales-Organization.page.md
+- name: DataStandardsWales-OrganizationAffiliation
+  filename: DataStandardsWales-OrganizationAffiliation.page.md
 - name: DataStandardsWales-Patient
   filename: DataStandardsWales-Patient.page.md
 - name: DataStandardsWales-Practitioner
@@ -84,6 +86,8 @@
   filename: DataStandardsWales-ServiceRequest.page.md
 - name: DataStandardsWales-Specimen
   filename: DataStandardsWales-Specimen.page.md
+- name: DataStandardsWales-Task
+  filename: DataStandardsWales-Task.page.md
 
 
 

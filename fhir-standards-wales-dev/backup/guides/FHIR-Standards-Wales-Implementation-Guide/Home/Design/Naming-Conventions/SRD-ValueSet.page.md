@@ -1,7 +1,7 @@
 <b>Filename structure:</b> <span style="color:#0070c0;">ValueSet-</span>DataStandardsWales-<span style="color:#c00000;">[Descriptor]</span><br />
 <b>id structure:</b> DataStandardsWales-<span style="color:#c00000;">[Descriptor]</span><br /><br />
 
-<i>Note that in line with UK and international practice the “ValueSet” discriminator is omitted from id and name and from uses derived from those elements.​</i><br /><br />
+<i><span style="font-size: 0.9em;">Note that in line with UK and international practice the “ValueSet” discriminator is omitted from id and name and from uses derived from those elements.​</span></i><br /><br />
 ​
 <b><i>Worked example​</i></b><br />
 <span style="font-size: 0.9em;">A value set to specify the code systems that can be used to describe the digital status of a document in the DocumentReference resource.</span> 

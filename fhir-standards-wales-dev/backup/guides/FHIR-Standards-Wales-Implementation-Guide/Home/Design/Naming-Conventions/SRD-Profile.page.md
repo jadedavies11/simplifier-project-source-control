@@ -40,7 +40,7 @@
 </table>
 
 <b><i>Worked example 2 (sub-profile)​</i></b><br />
-<span style="font-size: 0.9em;">A profile to specialize the DataStandardsWales-Observation profile for the capture of vital signs observations.</span>
+<span style="font-size: 0.9em;">A profile to specialise the DataStandardsWales-Observation profile for the capture of vital signs observations.</span>
 
 <table class="table properties-table">
 	<tbody>
@@ -76,7 +76,7 @@
 </table>	
 
 <b><i>Worked example 3 (sub-profile)​</i></b><br />
-<span style="font-size: 0.9em;">A profile to specialize the DataStandardsWales-Observation-VitalSigns profile for the capture of BMI.</span>
+<span style="font-size: 0.9em;">A profile to specialise the DataStandardsWales-Observation-VitalSigns profile for the capture of BMI.</span>
 
 <table class="table properties-table">
 	<tbody>
