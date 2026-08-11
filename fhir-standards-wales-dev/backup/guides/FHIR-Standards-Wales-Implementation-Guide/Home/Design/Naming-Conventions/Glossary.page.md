@@ -10,7 +10,7 @@
 	<tbody>
 		<tr>
 			<td scope="row"><b>baseUrl</b></td>
-			<td>This fixed value of <b>https://fhir.nhs.wales</b> applies to all resource definitions in the Wales FHIR Implementation Guide.</td>
+			<td>A fixed value of <b>https://fhir.nhs.wales</b> applies to all resource definitions in the Wales FHIR Implementation Guide.</td>
 		</tr>	
 		<tr>
 		<tr>
@@ -29,7 +29,7 @@
 			<td>This is used to distinguish one FHIR asset type from another. It is typically the Level 2 HL7 resource type such as CodeSystem, but it is also used to distinguish Profile from Extension as both are instances of the StructureDefinition resource type.</td>
 		</tr>
 		<tr>
-			<td scope="row"><b><span style="color:#CF1B9C;">L2ResourceType</span></b></td>
+			<td scope="row"><b><span style="color:#914829;">L2ResourceType</span></b></td>
 			<td><a href="https://hl7.org/fhir/R4/" target="_blank">The Level 2 FHIR resource type.</a> The resource definitions covered by this section are of the following types: StructureDefinition, MessageDefinition, CodeSystem and ValueSet. ConceptMap and NamingSystem definitions are covered separately in the “Additional naming conventions” section  below.</td>
 		</tr>	
 		<tr>

@@ -52,7 +52,7 @@ The formal convention is for Descriptor to be consistent between id, name and un
 	</tbody>
 </table>
 
-<b><i>Worked example 2 - Identifiers used by PAS​</i></b><br />
+<b><i>Worked example 2 - Identifiers issued by local PAS​</i></b><br />
 <span style="font-size: 0.9em;">PAS Practitioner Identifier (CAVUHB)</span>
 
 <table class="table properties-table">

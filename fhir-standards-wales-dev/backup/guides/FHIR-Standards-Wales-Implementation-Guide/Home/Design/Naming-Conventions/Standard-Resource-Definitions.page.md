@@ -2,7 +2,7 @@
 
 See the [Glossary](#Glossary) section below for definitions of the components used throughout the naming standards.
 
-The naming conventions for resource definitions in the Wales FHIR Implementation Guide are drawn up to be consistent across resource types.  The foundation of the naming convention is the filename, which is transformed to provide the related elements in the resource definition and the filename. In order to closely follow existing practice in UK and international implementation guides, there is some conditional treatment of the discriminator element.
+The naming conventions for resource definitions in the Wales FHIR Implementation Guide are drawn up to be consistent across resource types.  The foundation of the naming convention is the filename, which is transformed to provide the related elements in the resource definition and the page filename. In order to closely follow existing practice in UK and international implementation guides, there is some conditional treatment of the discriminator component.
 
 <table class="table table">
 	<thead>
@@ -35,17 +35,17 @@ The naming conventions for resource definitions in the Wales FHIR Implementation
 		</tr>	
         <tr>
 			<td scope="row">title</td>
-			<td><span style="color:#0070c0;">{[Discriminator]}</span> Data Standards Wales<span style="color:#c00000;"> [BusinessName]</span></td>
+			<td><span style="color:#0070c0;">{[Discriminator]}</span> Data Standards Wales <span style="color:#c00000;">[Business Name]</span></td>
 			<td>Based on id, with spaces between all words.</td>
         </tr>		
         <tr>
 			<td scope="row">url</td>
-			<td>[baseUrl]/<span style="color:#CF1B9C;">[L2ResourceType]/</span>[id]</td>
+			<td>[baseUrl]/<span style="color:#914829;">[L2ResourceType]/</span>[id]</td>
 			<td>The id is referenced without amendment.</td>
         </tr>	
         <tr>
 			<td scope="row"><i>reference</i></td>
-			<td><span style="color:#CF1B9C;">[L2ResourceType]/</span>[id]</td>
+			<td><span style="color:#914829;">[L2ResourceType]/</span>[id]</td>
 			<td>The resource definition can be uniquely referenced within the implementation guide omitting the base url.</td>
         </tr>	
     </tbody>
@@ -57,7 +57,7 @@ The conventions for asset types that diverge from this approach are described in
 
 <div class="tab-wrap">
   <ul class="tab-head">
-    <li class="tablink" onclick="openLocalTab(this,'tabsrdprofile')" data-target="tabsrdprofile">
+    <li class="tablink tab-active" onclick="openLocalTab(this,'tabsrdprofile')" data-target="tabsrdprofile">
       Profile
     </li>
     <li class="tablink" onclick="openLocalTab(this,'tabsrdextension')" data-target="tabsrdextension">

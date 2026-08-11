@@ -6,7 +6,7 @@ The conventions in the tabs below supplement the standard conventions described 
 
 <div class="tab-wrap">
   <ul class="tab-head">
-    <li class="tablink" onclick="openLocalTab(this,'tabsaddconvconceptmap')" data-target="tabsaddconvconceptmap">
+    <li class="tablink tab-active" onclick="openLocalTab(this,'tabsaddconvconceptmap')" data-target="tabsaddconvconceptmap">
       Concept Map
     </li>
     <li class="tablink" onclick="openLocalTab(this,'tabsaddconvnamingsys')" data-target="tabsaddconvnamingsys">
