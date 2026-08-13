@@ -111,8 +111,6 @@ These pages contain guidance on the following areas:
 	  <td class="status"> <a href="/ui/workflow/overview?id=1"></a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-Endpoint}}  </td>
 	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
-	  <td class="resource">{{pagelink:DataStandardsWales-HealthcareService}}  </td> 
-	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
 	</tr>
 		<tr>
 	  <td class="resource"></td> 

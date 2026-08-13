@@ -21,16 +21,16 @@ A summary of the Change Notices used within this Guide are listed in the table b
   </thead>
   <tbody>
     <tr>
+      <td scope="row">23/06/2026</td>
+      <td>DSCN 2026/20</td>	 
+      <td>This DSCN includes changes for the Data Item Outcome of Attendance. Codes within this Data Item are used by Value Sets within the Wales FHIR Implementation Guide.</td>
+      <td>Codes within this standard are used in the DataStandardsWales-Encounter and DataStandardsWales-Encounter-UEC Profiles</td>
+    </tr>
+    <tr>
       <td scope="row">06/03/2026</td>
       <td>DSCN 2026/06</td>	 
       <td>This DSCN includes Data Items for Discharge Destination, Legal Status and Source of Admission. Codes within these Data Items are used by Value Sets within the Wales FHIR Implementation Guide.</td>
       <td>Codes within this standard are used in the DataStandardsWales-Encounter Profile</td>
-    </tr>
-    <tr>
-      <td scope="row">19/02/2026</td>
-      <td>DSCN 2026/05</td>	 
-      <td>This DSCN includes the Data Item Outcome of Attendance. Codes within that Data Item are used by Value Sets within the Wales FHIR Implementation Guide.</td>
-      <td>Codes within this standard are used in the DataStandardsWales-Encounter and DataStandardsWales-Encounter-UEC Profiles</td>
     </tr>
     <tr>
       <td scope="row">22/05/2025</td>

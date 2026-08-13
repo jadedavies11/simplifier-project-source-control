@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Location" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-  <version value="1.1.2" />
+  <version value="1.2.0" />
   <name value="DataStandardsWalesLocation" />
   <title value="Data Standards Wales Location" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-07-13" />
+  <date value="2026-08-13" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -62,6 +62,15 @@
       <path value="Location.name" />
       <comment value="Location name SHALL be populated. If the name of a location changes, consider putting the old name in the alias column so that it can still be located through searches." />
       <min value="1" />
+    </element>
+    <element id="Location.alias.extension:aliasType">
+      <path value="Location.alias.extension" />
+      <sliceName value="aliasType" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
+      </type>
+      <isModifier value="false" />
     </element>
     <element id="Location.managingOrganization">
       <path value="Location.managingOrganization" />

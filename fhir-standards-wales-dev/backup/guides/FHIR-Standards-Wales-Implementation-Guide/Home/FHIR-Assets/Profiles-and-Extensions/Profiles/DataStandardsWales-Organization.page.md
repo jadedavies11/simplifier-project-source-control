@@ -2,7 +2,7 @@
 
 ### Overview
 
-The [Organization](https://www.hl7.org/fhir/r4/organization.html) resource contains information about health and care organisations. Examples include Health Boards and NHS Trusts, Hospitals, Dental practices GP practices and GP clusters.  The {{page-title}} profile is derived from the [UK Core Organization Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Organization resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
+The [Organization](https://www.hl7.org/fhir/R4/organization.html) resource contains information about health and care organisations. Examples include Health Boards and NHS Trusts, Hospitals, Dental practices GP practices and GP clusters.  The {{page-title}} profile is derived from the [UK Core Organization Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Organization resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization}}
 
@@ -60,8 +60,7 @@ Each Organisation must support:
 * An identifier*
   * The `Organization.identifier` field **SHOULD** contain all available identifiers. In particular:
     * The [Organisation Data Service](https://digital.nhs.uk/services/organisation-data-service) (ODS) issues and manages unique identification codes and accompanying reference data for organisations that interact with any area of the NHS. The ODS code for organisations managed by this service **SHOULD** be populated (this includes ANANA format codes). 
-    * The Welsh Reference and Terminology Service (WRTS) ensures that each organisation in the Welsh reference data has a unique code that **SHOULD** be populated. Where appropriate the codes issued by ODS or other national bodies are adopted. 
-    * The identifier for a WRTS cluster can be recorded as a generic identifier using the WRTS cluster code namespace. <br /><br />
+    * The Welsh Reference and Terminology Service (WRTS) ensures that each organisation in the Welsh reference data has a unique code that **SHOULD** be populated. Where appropriate the codes issued by ODS or other national bodies are adopted. <br /><br />
 
 * The active status of the organisation
   * The `Organization.active` field **SHOULD** be populated to indicate whether the organisation is still active.  <br /><br />

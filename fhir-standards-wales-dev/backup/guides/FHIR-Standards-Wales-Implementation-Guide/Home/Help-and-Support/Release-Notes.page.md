@@ -4,27 +4,23 @@ This page describes the published versions of this implementation guide and diff
 
 ### v2.7.0 STU2
 
-Withdrawn Resources: <br>
-The following resources have been marked as withdrawn in this release and have a lifecycle status of retired. These will no longer be maintained within the Wales FHIR Implementation Guide or Wales FHIR package and SHALL NOT be used for new or revised content.
+WITHDRAWN Assets: <br>
+The following assets have been marked as withdrawn in this release and have a lifecycle status of retired. These will no longer be maintained within the Wales FHIR Implementation Guide or Wales FHIR package and SHALL NOT be used for new or revised content.
 They will be removed from the next release of the Wales FHIR Implementation Guide and fhir.r4.wales 2.8.0 package
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
-    * DataStandardsWales-Organization
-        * .identifier slice gpClusterCode.
+* .identifier slice gpClusterCode (DataStandardsWales-Organization)
 
-Deprecated Resources:<br>
-The following resources have been marked as deprecated in this release. 
-Deprecated resources are expected to be withdrawn in a future release unless otherwise stated. They remain available within the Wales FHIR Implementation Guide and fhir.r4.wales 2.8.0 package but SHOULD NOT be used for new or revised content. Instead, implementers should consider the identified alternatives, where provided.
+DEPRECATED Assets:<br>
+The following assets have been marked as deprecated in this release.
+Deprecated assets are expected to be withdrawn in a future release unless otherwise stated. They remain available within the Wales FHIR Implementation Guide and fhir.r4.wales 2.8.0 package but SHOULD NOT be used for new or revised content. Instead, implementers should consider the identified alternatives, where provided.
 
-* {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
-    * GPClusterCode. Use WRTSClusterCode instead.
+* GPClusterCode naming system. Use WRTSClusterCode naming system instead.
 
 
 Package: 
 * Updated structure definition meta data elements for contact information and copyright for various Profiles, Extensions, Code Systems and Value Sets to reflect current information.
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
-        * DataStandardsWales-HealthcareService
         * DataStandardsWales-OrganizationAffiliation
         * DataStandardsWales-Task
     * New Message Definitions
@@ -37,6 +33,9 @@ Package:
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.2.1 to 0.3.0
             * .basedOn. Updated reference from HL7 Task to Data Standards Wales Task
+        * DataStandardsWales-Location
+            * Updated version from 1.1.2 to 1.2.0    
+            * .alias. Added Extension-DataStandardsWales-AliasType
         * DataStandardsWales-Organization
             * Updated version from 1.2.1 to 1.3.0
             * Added Extension-DataStandardsWales-SuccessorOrganization
@@ -47,6 +46,9 @@ Package:
             * .identifier. Added User Principal Name (UPN) slice
     * Changes to Message Definitions
     * Changes to Extensions
+        * Extension-DataStandardsWales-AliasType
+            * Updated version from 0.1.0 to 0.2.0
+            * .context. Additional entry added for Location.alias element
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
     * New Value Sets
@@ -75,13 +77,14 @@ Package:
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
     * Changes to Examples
+        * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
+            * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
     * Removed Examples
 
 Guide:
 
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
 * Added new pages to outline the Extensions created in this release
-* Added a new page to outline the DataStandardsWales-HealthcareService profile
 * Added a new page to outline the DataStandardsWales-OrganizationAffiliation profile
 * Added a new page to outline the DataStandardsWales-OrganizationTypeExtended value set which was created in 2.6.0
 * Added a new page to outline the DataStandardsWales-Task profile
@@ -94,8 +97,9 @@ Guide:
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Practitioner profile page with new slice
+* Updated Extension-DataStandardsWales-AliasType page with additional use context of location.alias
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
-
+* Updated Design-Naming Conventions page with additional guidance and glossary. Introduced tabulated views where appropriate 
 
 ### v2.6.1 STU2 - Urgent Correction Release
 Summary: This release contains urgent corrections to DocumentReference and related resources, discovered during early use by the NHS Wales Care Documents Service of the newly activated DataStandardsWales-DocumentReference profile in the Wales FHIR Implementation Guide v2.6.0. It also contains a correction of a misleading Practitioner identifier slice name for registered pharmacists.
