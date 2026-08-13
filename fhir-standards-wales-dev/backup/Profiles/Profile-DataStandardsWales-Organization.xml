@@ -81,6 +81,7 @@
     </element>
     <element id="Organization.identifier:wrtsOrganizationIdentifier.system">
       <path value="Organization.identifier.system" />
+      <min value="1" />
       <fixedUri value="https://fhir.nhs.wales/Id/wrts-organization-identifier" />
     </element>
     <element id="Organization.identifier:gpClusterCode">
@@ -89,6 +90,7 @@
       <short value="WITHDRAWN. This slice was withdrawn in release 2.7.0. It SHALL NOT be used. Identifies a Wales GP Cluster organization across multiple systems" />
       <definition value="WITHDRAWN. This slice was deprecated in release 2.6.0 and withdrawn in release 2.7.0. It SHALL NOT be used. Use a generic identifier with the namespace for WRTS clusters instead.  Identifier for a Wales GP Cluster organization that is used to identify the organization across multiple disparate systems. It applied to a small number of organization resources that are more accurately named WRTS clusters." />
       <requirements value="This identifier is shown as Must Support, only because it is an inherited property of the identifier element in the base definition.  The flag cannot be cleared because it is, through inheritance, applicable to all slices added by the profile.  Given that this identifier slice is deprecated, it should not be considered as Must Support by implementers." />
+      <max value="0" />
     </element>
     <element id="Organization.identifier:gpClusterCode.system">
       <path value="Organization.identifier.system" />

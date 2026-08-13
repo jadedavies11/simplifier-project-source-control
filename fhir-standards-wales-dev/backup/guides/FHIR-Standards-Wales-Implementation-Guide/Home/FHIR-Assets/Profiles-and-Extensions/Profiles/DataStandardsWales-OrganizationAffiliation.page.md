@@ -4,6 +4,8 @@
 
 The [OrganizationAffiliation](https://www.hl7.org/fhir/R4/organizationaffiliation.html) resource supports formal and enduring one-to-many and many-to-many relationships between organisations, that fall outside of the strict organisation hierarchy. Each OrganizationAffiliation resource links a pair of organisations. One organisation can be considered to own the arrangement, while the other is a participating organisation. The relationship can optionally include details of the involved locations and healthcare services of the participating organisation.
 
+The DataStandardsWales-OrganizationAffiliation profile is derived from the [HL7 R4 OrganizationAffiliation](https://www.hl7.org/fhir/R4/organizationaffiliation.html) resource. It defines additional rules for use within health and care organisations in Wales.
+
 For example, within NHS Wales a "region" organisation represents a set of health board organisations that collaborate to provide certain services for their joint populations. This arrangement can be instantiated as a series of OrganizationAffiliation resources, each associating the owning region with a participating health board.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-OrganizationAffiliation}}
