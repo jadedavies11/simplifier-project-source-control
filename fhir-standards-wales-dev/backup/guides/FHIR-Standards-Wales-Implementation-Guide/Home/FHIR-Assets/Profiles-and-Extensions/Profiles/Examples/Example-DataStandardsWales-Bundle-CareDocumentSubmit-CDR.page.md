@@ -7,8 +7,6 @@ To clarify use, the DocumentReference resource entry contains both `content.atta
 * If the bundle carries the actual PDF content prior to storage by the Care Document Service, use `content.attachment.data` to carry the PDF content as a base 64 binary.
 * If the document is already in the applicable document store, use `content.attachment.url` to point to the document location.
 
-The bundle does not cover external supersession identifier, as the construction of the `DocumentReference.identifier` element in this case has not been finalised at the time of publication.
-
 <div class="tab-wrap">
   <ul class="tab-head">
     <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">

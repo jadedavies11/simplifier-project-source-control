@@ -26,16 +26,36 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Location" />
   <derivation value="constraint" />
   <differential>
+    <element id="Location.extension:extensionDataStandardsWalesLocationPeriod">
+      <path value="Location.extension" />
+      <sliceName value="extensionDataStandardsWalesLocationPeriod" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-LocationPeriod" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Location.extension:extensionDataStandardsWalesGridReference">
+      <path value="Location.extension" />
+      <sliceName value="extensionDataStandardsWalesGridReference" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Location.extension:extensionDataStandardsWalesGridReference.extension">
+      <path value="Location.extension.extension" />
+      <min value="2" />
+    </element>
     <element id="Location.identifier">
       <path value="Location.identifier" />
+      <slicing>
+        <rules value="open" />
+      </slicing>
       <comment value="Identifiers for the location SHOULD be populated if the data exists" />
       <requirements value="Different location identities will apply which are managed by different registries" />
       <mustSupport value="true" />
-    </element>
-    <element id="Location.identifier:odsSiteCode">
-      <path value="Location.identifier" />
-      <sliceName value="odsSiteCode" />
-      <max value="0" />
     </element>
     <element id="Location.identifier:wrtsLocationIdentifier">
       <path value="Location.identifier" />
@@ -43,6 +63,7 @@
       <short value="The WRTS identifier for the location" />
       <definition value="The Welsh Reference Data Servcie identifier for the location" />
       <max value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Location.identifier:wrtsLocationIdentifier.system">
       <path value="Location.identifier.system" />
@@ -54,6 +75,90 @@
       <path value="Location.identifier.value" />
       <min value="1" />
     </element>
+    <element id="Location.identifier:glnCode">
+      <path value="Location.identifier" />
+      <sliceName value="glnCode" />
+      <short value="The Global Location Number (GLN) assigned to the location." />
+      <definition value="The Global Location Number (GLN) assigned to the location by the responsible organisation." />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.identifier:glnCode.system">
+      <path value="Location.identifier.system" />
+      <min value="1" />
+      <fixedUri value="http://terminology.hl7.org/NamingSystem/GLN" />
+    </element>
+    <element id="Location.identifier:glnCode.value">
+      <path value="Location.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Location.identifier:gphcPremisesNumber">
+      <path value="Location.identifier" />
+      <sliceName value="gphcPremisesNumber" />
+      <short value="The General Pharmaceutical Council (GPhC) Premise Number." />
+      <definition value="The General Pharmaceutical Council (GPhC) number assigned to the premise." />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.identifier:gphcPremisesNumber.system">
+      <path value="Location.identifier.system" />
+      <min value="1" />
+    </element>
+    <element id="Location.identifier:gphcPremisesNumber.value">
+      <path value="Location.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Location.identifier:nwsspPharmacyAccountNumber">
+      <path value="Location.identifier" />
+      <sliceName value="nwsspPharmacyAccountNumber" />
+      <short value="NHS Wales Shared Services Partnership (NWSSP)  Pharmacy Account Number." />
+      <definition value="NHS Wales Shared Services Partnership (NWSSP)  Pharmacy Account Number." />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.identifier:nwsspPharmacyAccountNumber.system">
+      <path value="Location.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.nwssp.nhs.wales/Id/pharmacy-account-number" />
+    </element>
+    <element id="Location.identifier:nwsspPharmacyAccountNumber.value">
+      <path value="Location.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Location.identifier:nhsbsaOpticianContractNumber">
+      <path value="Location.identifier" />
+      <sliceName value="nhsbsaOpticianContractNumber" />
+      <short value="NHS Business Services Authority (NHSBSA) Optician Contract Number." />
+      <definition value="NHS Business Services Authority (NHSBSA) Optician Contract Number." />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.identifier:nhsbsaOpticianContractNumber.system">
+      <path value="Location.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.hl7.org.uk/Id/nhsbsa-optician-contract-number" />
+    </element>
+    <element id="Location.identifier:nhsbsaOpticianContractNumber.value">
+      <path value="Location.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Location.identifier:nhsbsaDentalLocationIdentifier">
+      <path value="Location.identifier" />
+      <sliceName value="nhsbsaDentalLocationIdentifier" />
+      <short value="NHS Business Services Authority (NHSBSA) Dental Location Identifier." />
+      <definition value="NHS Business Services Authority (NHSBSA) Dental Location Identifier." />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.identifier:nhsbsaDentalLocationIdentifier.system">
+      <path value="Location.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://fhir.hl7.org.uk/Id/nhsbsa-dental-location-identifier" />
+    </element>
+    <element id="Location.identifier:nhsbsaDentalLocationIdentifier.value">
+      <path value="Location.identifier.value" />
+      <min value="1" />
+    </element>
     <element id="Location.status">
       <path value="Location.status" />
       <comment value="The status of the location (i.e., whether it is active, suspended or inactive) SHOULD be populated if the data exists." />
@@ -61,16 +166,120 @@
     <element id="Location.name">
       <path value="Location.name" />
       <comment value="Location name SHALL be populated. If the name of a location changes, consider putting the old name in the alias column so that it can still be located through searches." />
-      <min value="1" />
     </element>
-    <element id="Location.alias.extension:aliasType">
-      <path value="Location.alias.extension" />
-      <sliceName value="aliasType" />
+    <element id="Location.name.extension">
+      <path value="Location.name.extension" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/languages" />
+      </binding>
+    </element>
+    <element id="Location.name.extension:welshPreferredName">
+      <path value="Location.name.extension" />
+      <sliceName value="welshPreferredName" />
+      <short value="For Welsh Named locations." />
+      <definition value="For Welsh Named locations." />
+      <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/translation" />
+      </type>
+      <mustSupport value="true" />
+      <isModifier value="false" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/languages" />
+      </binding>
+    </element>
+    <element id="Location.name.extension:welshPreferredName.extension">
+      <path value="Location.name.extension.extension" />
+      <min value="2" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/languages" />
+      </binding>
+    </element>
+    <element id="Location.name.extension:welshPreferredName.extension:lang">
+      <path value="Location.name.extension.extension" />
+      <sliceName value="lang" />
+      <definition value="Within NHS Wales, the three character ISO 639-3 code should be used e.g. cym for Welsh." />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/all-languages" />
+      </binding>
+    </element>
+    <element id="Location.name.extension:welshPreferredName.extension:lang.value[x]">
+      <path value="Location.name.extension.extension.value[x]" />
+      <fixedCode value="cym" />
+    </element>
+    <element id="Location.name.extension:welshPreferredName.value[x]">
+      <path value="Location.name.extension.value[x]" />
+      <type>
+        <code value="markdown" />
+      </type>
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="Location.type">
+      <path value="Location.type" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="coding.system" />
+        </discriminator>
+        <description value="Slices to support a structured location type, including values from a hierarchical organization type code system, with appropriately filtered value sets." />
+        <rules value="open" />
+      </slicing>
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationTypeExtended" />
+      </binding>
+    </element>
+    <element id="Location.type:locationCategory">
+      <path value="Location.type" />
+      <sliceName value="locationCategory" />
+      <short value="The broad category of use of the location" />
+      <definition value="A high level classification of the location type according to the broad category of use e.g. Clinical area." />
+      <max value="1" />
+      <binding>
+        <strength value="extensible" />
+        <description value="Categories for location type." />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationCategory" />
+      </binding>
+    </element>
+    <element id="Location.type:locationType">
+      <path value="Location.type" />
+      <sliceName value="locationType" />
+      <short value="The functional type of the location" />
+      <definition value="A high level classification of the location type according to the functionality it provides, without straying into the details of the specific services available at the location." />
+      <max value="1" />
+      <binding>
+        <strength value="extensible" />
+        <description value="A high level classification of the location type e.g. Hospital, Ward, GP surgery &#xD;&#xA;Describing the FUNCTION of the location type." />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationType" />
+      </binding>
+    </element>
+    <element id="Location.address.extension:addressKey">
+      <path value="Location.address.extension" />
+      <sliceName value="addressKey" />
+      <short value="An extension carrying the address key and type." />
+      <definition value="An extension carrying the address key and type.  Extends the Address datatype to support the storage of address identifiers such as the Unique Property Reference Number (UPRN)." />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey" />
       </type>
       <isModifier value="false" />
+    </element>
+    <element id="Location.physicalType">
+      <path value="Location.physicalType" />
+      <short value="The physical (or virtual) form of the location space" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <description value="The physical (or virtual) form of the location space, treating physicalType as locationForm which replaces this element at R5." />
+        <valueSet value="http://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationForm" />
+      </binding>
     </element>
     <element id="Location.managingOrganization">
       <path value="Location.managingOrganization" />

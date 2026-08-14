@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-LocationForm"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationForm"/>
+	<version value="0.1.0"/>
+	<name value="DataStandardsWalesLocationForm"/>
+	<title value="Data Standards Wales Location Form"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2026-08-14"/>
+	<publisher value="NHS Wales"/>
+	<contact>
+		<name value="FHIR Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="Value set to classify the physical (or virtual) form of the location space."/>
+	<copyright value="2026 NHS Wales."/>
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+		</include>
+	</compose>
+</ValueSet>

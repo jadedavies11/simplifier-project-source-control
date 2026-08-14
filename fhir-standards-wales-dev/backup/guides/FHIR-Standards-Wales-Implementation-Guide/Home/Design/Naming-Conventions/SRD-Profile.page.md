@@ -1,6 +1,6 @@
 <b>Filename structure:</b> <span style="color:#0070c0;">Profile-</span>DataStandardsWales-<span style="color:#914829;">[L3L4ResourceType]</span><span style="color:#7030a0;">{-[Qualifier]}{-[Qualifier]}​</span><br />
 <b>id structure:</b> DataStandardsWales-<span style="color:#914829;">[L3L4ResourceType]</span><span style="color:#7030a0;">{-[Qualifier]}{-[Qualifier]}​</span><br />​
-<i><span style="font-size: 0.9em;">Note that in line with UK and international practice the “Profile” discriminator is omitted from id and name and from uses derived from those elements.</span>​</i><br /><br />
+<i><span style="font-size: 0.9em;">Note that in line with UK and international practice the “Profile” discriminator is omitted from id and name and from uses derived from those elements. It is also omitted from the page filename in the implementation guide.</span>​</i><br /><br />
 ​
 <b><i>Worked example 1 (profile)​</i></b><br />
 <span style="font-size: 0.9em;">A profile to apply Wales-specific standards to the UKCore-Observation profile.  The optional qualifier component is not applicable in this case.</span>
@@ -13,7 +13,7 @@
 		</tr>
 		<tr>
 			<th scope="row">Page filename</th>
-			<td>Profile-DataStandardsWales-Observation.page.md</td>
+			<td>DataStandardsWales-Observation.page.md</td>
 		</tr>
 		<tr>
 			<th scope="row">id</th>
@@ -49,7 +49,7 @@
 		</tr>
 		<tr>
 			<th scope="row">Page filename</th>
-			<td>Profile-DataStandardsWales-Observation-VitalSigns.page.md</td>
+			<td>DataStandardsWales-Observation-VitalSigns.page.md</td>
 		</tr>
 		<tr>
 			<th scope="row">id</th>
@@ -85,7 +85,7 @@
 		</tr>
 		<tr>
 			<th scope="row">Page filename</th>
-			<td>Profile-DataStandardsWales-Observation-VitalSigns-BMI.page.md</td>
+			<td>DataStandardsWales-Observation-VitalSigns-BMI.page.md</td>
 		</tr>
 		<tr>
 			<th scope="row">id</th>

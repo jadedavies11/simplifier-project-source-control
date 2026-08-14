@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-LocationTypeCategory"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationTypeCategory"/>	
+    <version value="0.1.0"/>
+    <name value="DataStandardsWalesLocationTypeCategory"/>
+	<title value="Data Standards Wales Location Type Category"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2026-08-14"/>
+    <publisher value="NHS Wales"/>
+    <contact>
+		<name value="FHIR Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+    </contact>
+    <description value="Code system to classify locations by categories."/>
+    <copyright value="2026 NHS Wales."/>
+	<concept>
+		<code value="non-patient"/>
+		<display value="Non-patient areas"/>
+		<definition value="For staff members only."/>
+	</concept>
+	<concept>
+		<code value="clinical-areas"/>
+		<display value="Clinical areas"/>
+		<definition value="Clinical spaces where clinical activities are undertaken to the patient."/>
+	</concept>
+	<concept>
+		<code value="common-hospital-locations"/>
+		<display value="Common hospital locations"/>
+		<definition value="Open public spaces outside clinical and non-clinical patient areas."/>
+	</concept>
+	<concept>
+		<code value="patient-areas"/>
+		<display value="Patient areas"/>
+		<definition value="Areas for patients (and family) for non-clinical use."/>
+	</concept>
+	<concept>
+		<code value="diagnostics-and-research"/>
+		<display value="Diagnostics and research"/>
+		<definition value="Areas where patient investigations are undertaken without patient presence."/>
+	</concept>
+		<concept>
+		<code value="primary-care"/>
+		<display value="Primary care"/>
+		<definition value="Locations where primary care services are provided."/>
+	</concept>
+</CodeSystem>

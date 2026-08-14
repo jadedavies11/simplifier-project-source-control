@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-AliasType" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
-  <version value="0.2.0" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesAliasType" />
   <title value="Extension Data Standards Wales Alias Type" />
   <status value="draft" />
   <experimental value="false" />
-  <date value="2026-08-13" />
+  <date value="2026-05-06" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -24,10 +24,6 @@
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
-  <context>
-    <type value="element" />
-    <expression value="Location.alias" />
-  </context>
   <context>
     <type value="element" />
     <expression value="Organization.alias" />

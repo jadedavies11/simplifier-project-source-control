@@ -20,8 +20,8 @@ The naming conventions for resource definitions in the Wales FHIR Implementation
     </tr>
     <tr>
 			<td scope="row">Page filename</td>
-			<td><span style="color:#0070c0;">[Discriminator]-</span>DataStandardsWales-<span style="color:#c00000;">[BusinessName]</span>.page.md</td>
-			<td>Same as xml asset filename.</td>
+			<td><span style="color:#0070c0;">{[Discriminator]-}</span>DataStandardsWales-<span style="color:#c00000;">[BusinessName]</span>.page.md</td>
+			<td>Same as xml asset filename, but discriminator omitted if it is “Profile”.</td>
     </tr>  
 		<tr>
 			<td scope="row">id</td>
