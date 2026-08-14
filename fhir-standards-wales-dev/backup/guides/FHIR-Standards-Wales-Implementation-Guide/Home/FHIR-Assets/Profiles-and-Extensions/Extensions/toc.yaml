@@ -14,6 +14,10 @@
   filename: Extension-DataStandardsWales-DocumentDigitalStatus.page.md
 - name: Extension-DataStandardsWales-ForecastCreationSource
   filename: Extension-DataStandardsWales-ForecastCreationSource.page.md
+- name: Extension-DataStandardsWales-GridReference
+  filename: Extension-DataStandardsWales-GridReference.page.md
+- name: Extension-DataStandardsWales-LocationPeriod
+  filename: Extension-DataStandardsWales-LocationPeriod.page.md
 - name: Extension-DataStandardsWales-MedicationCourseOfTherapyType
   filename: Extension-DataStandardsWales-MedicationCourseOfTherapyType.page.md
 - name: Extension-DataStandardsWales-Occupation

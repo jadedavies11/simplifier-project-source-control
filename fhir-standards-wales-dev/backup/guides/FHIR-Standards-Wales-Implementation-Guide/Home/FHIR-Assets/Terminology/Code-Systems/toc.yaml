@@ -12,6 +12,12 @@
   filename: CodeSystem-DataStandardsWales-MaritalStatus.page.md
 - name: CodeSystem-DataStandardsWales-MessageEvent
   filename: CodeSystem-DataStandardsWales-MessageEvent.page.md
+- name: CodeSystem-DataStandardsWales-LocationForm
+  filename: CodeSystem-DataStandardsWales-LocationForm.page.md
+- name: CodeSystem-DataStandardsWales-LocationType
+  filename: CodeSystem-DataStandardsWales-LocationType.page.md
+- name: CodeSystem-DataStandardsWales-LocationTypeCategory
+  filename: CodeSystem-DataStandardsWales-LocationTypeCategory.page.md
 - name: CodeSystem-DataStandardsWales-OrganizationClassification
   filename: CodeSystem-DataStandardsWales-OrganizationClassification.page.md
 - name: CodeSystem-DataStandardsWales-OrganizationDomain

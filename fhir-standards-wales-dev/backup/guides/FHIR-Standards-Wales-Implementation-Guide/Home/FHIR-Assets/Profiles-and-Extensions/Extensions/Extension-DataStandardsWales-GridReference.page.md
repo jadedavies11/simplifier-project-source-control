@@ -1,12 +1,12 @@
 ## {{page-title}}
-This extension captures the nature of a recorded alias.
+An extension to capture the national grid reference applicable to the location.
 
 ### Purpose
-This extension extends the alias element of a resource, such as Organization, to facilitate retrieval of specific types of alias that have a common use, for example short acronyms to be presented on charts.
+This extension shows tha national grid reference applicable to the location.  The grid reference resolves to a location on a map, which is found using the northing and easting numbered lines.
 
 ### Context of Use
-This extension may be used on the following elements:
-- `Organization.alias`
+This extension may be used on the following profile(s):
+* Location
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -20,11 +20,11 @@ This extension may be used on the following elements:
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
-         <li>See examples for {{pagelink:DataStandardsWales-Organization}} profile.</li>
+         <li>Currently under development</li>
       </list>
     </div>
   </div>
