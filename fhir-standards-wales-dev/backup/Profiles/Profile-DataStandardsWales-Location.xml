@@ -26,25 +26,25 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Location" />
   <derivation value="constraint" />
   <differential>
-    <element id="Location.extension:extensionDataStandardsWalesLocationPeriod">
+    <element id="Location.extension:locationPeriod">
       <path value="Location.extension" />
-      <sliceName value="extensionDataStandardsWalesLocationPeriod" />
+      <sliceName value="locationPeriod" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-LocationPeriod" />
       </type>
       <isModifier value="false" />
     </element>
-    <element id="Location.extension:extensionDataStandardsWalesGridReference">
+    <element id="Location.extension:gridReference">
       <path value="Location.extension" />
-      <sliceName value="extensionDataStandardsWalesGridReference" />
+      <sliceName value="gridReference" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference" />
       </type>
       <isModifier value="false" />
     </element>
-    <element id="Location.extension:extensionDataStandardsWalesGridReference.extension">
+    <element id="Location.extension:gridReference.extension">
       <path value="Location.extension.extension" />
       <min value="2" />
     </element>
@@ -103,6 +103,7 @@
     <element id="Location.identifier:gphcPremisesNumber.system">
       <path value="Location.identifier.system" />
       <min value="1" />
+      <fixedUri value="https://fhir.hl7.org.uk/Id/gphc-premises-number" />
     </element>
     <element id="Location.identifier:gphcPremisesNumber.value">
       <path value="Location.identifier.value" />
@@ -245,7 +246,15 @@
       <binding>
         <strength value="extensible" />
         <description value="Categories for location type." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationCategory" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationTypeCategory" />
+      </binding>
+    </element>
+    <element id="Location.type:locationCategory.coding.system">
+      <path value="Location.type.coding.system" />
+      <fixedUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationTypeCategory" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationTypeCategory" />
       </binding>
     </element>
     <element id="Location.type:locationType">
@@ -256,7 +265,15 @@
       <max value="1" />
       <binding>
         <strength value="extensible" />
-        <description value="A high level classification of the location type e.g. Hospital, Ward, GP surgery &#xD;&#xA;Describing the FUNCTION of the location type." />
+        <description value="A high level classification of the location type and function e.g. Hospital, Ward, GP surgery" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationType" />
+      </binding>
+    </element>
+    <element id="Location.type:locationType.coding.system">
+      <path value="Location.type.coding.system" />
+      <fixedUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationType" />
+      <binding>
+        <strength value="extensible" />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationType" />
       </binding>
     </element>
@@ -280,6 +297,15 @@
         <description value="The physical (or virtual) form of the location space, treating physicalType as locationForm which replaces this element at R5." />
         <valueSet value="http://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationForm" />
       </binding>
+    </element>
+    <element id="Location.alias.extension:aliasType">
+      <path value="Location.alias.extension" />
+      <sliceName value="aliasType" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
+      </type>
+      <isModifier value="false" />
     </element>
     <element id="Location.managingOrganization">
       <path value="Location.managingOrganization" />

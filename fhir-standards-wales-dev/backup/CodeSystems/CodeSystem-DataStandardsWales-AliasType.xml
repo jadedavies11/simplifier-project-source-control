@@ -2,12 +2,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-AliasType"/>
     <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>	
-    <version value="0.1.0"/>
+    <version value="0.1.1"/>
     <name value="DataStandardsWalesAliasType"/>
 	<title value="Data Standards Wales Alias Type"/>
     <status value="draft"/>
     <experimental value="false"/>
-    <date value="2026-05-06"/>
+    <date value="2026-08-13"/>
     <publisher value="NHS Wales"/>
     <contact>
 		<name value="FHIR Standards"/>
@@ -27,9 +27,19 @@
 		<definition value="An alias that represents the official name of the entity.  Used where this is different from the preferred name stored against the name element for operational purposes."/>
 	</concept>
 	<concept>
+		<code value="official-name-welsh"/>
+		<display value="Official name (Welsh)"/>
+		<definition value="An alias that represents the official name of the entity in the Welsh language.  Used where this is different from the preferred name stored against the name element for operational purposes."/>
+	</concept>
+	<concept>
 		<code value="preferred-name"/>
 		<display value="Preferred name"/>
 		<definition value="An alias that represents the preferred (usual) name of the entity.  Used where this is different from the official name stored against the name element."/>
+	</concept>
+	<concept>
+		<code value="preferred-name-welsh"/>
+		<display value="Preferred name (Welsh)"/>
+		<definition value="An alias that represents the preferred (usual) name of the entity in the Welsh language.  Used where this is different from the official name stored against the name element."/>
 	</concept>
 	<concept>
 		<code value="short-name"/>
@@ -37,13 +47,38 @@
 		<definition value="An alias that represents a recognised abbreviated name in common use for the entity."/>
 	</concept>
 	<concept>
+		<code value="short-name-welsh"/>
+		<display value="Short name (Welsh)"/>
+		<definition value="An alias that represents a recognised abbreviation of the Welsh language name in common use for the entity."/>
+	</concept>
+	<concept>
 		<code value="standard-acronym"/>
 		<display value="Standard acronym"/>
 		<definition value="An alias that represents the usual recognised acronym for the entity."/>
 	</concept>
 	<concept>
-		<code value="short-acronym "/>
+		<code value="standard-acronym-welsh"/>
+		<display value="Standard acronym (Welsh)"/>
+		<definition value="An alias that represents the usual recognised Welsh language acronym for the entity."/>
+	</concept>
+	<concept>
+		<code value="short-acronym"/>
 		<display value="Short acronym"/>
 		<definition value="An alias that represents a short recognised acronym for the entity.  Such abbreviations are generally shorter than the standard acronym and typically used for readability in charts and tables."/>
+	</concept>
+	<concept>
+		<code value="short-acronym-welsh "/>
+		<display value="Short acronym (Welsh)"/>
+		<definition value="An alias that represents a short recognised Welsh language acronym for the entity.  Such abbreviations are generally shorter than the standard acronym and typically used for readability in charts and tables."/>
+	</concept>
+	<concept>
+		<code value="trading-as"/>
+		<display value="Trading as"/>
+		<definition value="An alias that represents the local name used by a larger organisation trading at a specific location."/>
+	</concept>
+	<concept>
+		<code value="trading-as-welsh"/>
+		<display value="Trading as (Welsh)"/>
+		<definition value="An alias that represents the Welsh language local name used by a larger organisation trading at a specific location."/>
 	</concept>
 </CodeSystem>

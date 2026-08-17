@@ -38,7 +38,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>Currently under development</li>
+      <li>{{pagelink:Example-DSW-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation Amman Gwendraeth - Amman Tawe Partnership}}</li>
     </list>
   </div>
 </div>

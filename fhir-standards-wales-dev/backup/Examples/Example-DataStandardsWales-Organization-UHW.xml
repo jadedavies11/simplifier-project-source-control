@@ -16,6 +16,10 @@
         <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
         <value value="7A4BV"/>
     </identifier>
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
+        <value value="7A4BV"/>
+    </identifier>
     <active value="true"/>
 	<type>
 		<coding>
@@ -69,10 +73,6 @@
     </address>
     <partOf>
         <reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB"/>
-		<identifier>
-			<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-			<value value="7A4"/>
-		</identifier>
         <display value="Cardiff and Vale University Local Health Board"/>
     </partOf>
 </Organization>

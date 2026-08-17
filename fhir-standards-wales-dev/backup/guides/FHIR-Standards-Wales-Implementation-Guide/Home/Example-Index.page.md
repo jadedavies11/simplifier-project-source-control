@@ -77,9 +77,12 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-ObservationResult-FBCWBC, text: Example Observation Result - Pathology White Blood Cell (WBC) Count}}
 
 ### Location Examples
+* {{pagelink:Example-DataStandardsWales-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}
+* {{pagelink:Example-DataStandardsWales-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}
 * {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Cadog Ward (GGH)}}
 * {{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}
-* {{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Outpatients Department (GGH)}}
+* {{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}
+* {{pagelink:Example-DataStandardsWales-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}
 * {{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Ward E (NPT)}}
 
 ### Medication Examples
@@ -166,6 +169,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Organization-NCMC, text:Example Organization - North Cardiff Medical Centre}}
 * {{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}
 * {{pagelink:Example-DataStandardsWales-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}
+
+### OrganizationAffiliation Examples
+* {{pagelink:Example-DSW-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation Amman Gwendraeth - Amman Tawe Partnership}}
 
 ### Patient Examples
 * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}

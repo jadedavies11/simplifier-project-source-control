@@ -2,7 +2,7 @@
 An extension to capture the date range that this location is available.
 
 ### Purpose
-This extension shows date range that this location is available.
+This extension shows the date range that this location is available.
 
 ### Context of Use
 This extension may be used on the following profile(s):

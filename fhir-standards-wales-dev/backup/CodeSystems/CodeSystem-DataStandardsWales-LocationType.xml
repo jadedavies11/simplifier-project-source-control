@@ -28,7 +28,7 @@
 		<display value="Chemotherapy Suite"/>
 	</concept>
 	<concept>
-		<code value="chemotherapy-suite"/>
+		<code value="chemotherapy-unit"/>
 		<display value="Chemotherapy Unit"/>
 	</concept>
 		<concept>

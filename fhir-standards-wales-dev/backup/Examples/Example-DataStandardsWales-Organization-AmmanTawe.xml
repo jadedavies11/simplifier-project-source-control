@@ -11,9 +11,13 @@
 		<valuePeriod>
 			<start value="2012-05-11"/>
 		</valuePeriod>
-	</extension>	
-    <identifier>
+	</extension>
+	<identifier>
         <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="W00142"/>
+    </identifier>	
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
         <value value="W00142"/>
     </identifier>
     <active value="true"/>    
@@ -58,11 +62,7 @@
         <postalCode value="SA18 1EG"/>        
     </address>    
     <partOf>
-        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth"/>
-		<identifier>
-			<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-			<value value="CC201"/>
-		</identifier>
-        <display value="Amman Gwendraeth"/>
+        <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
+		<display value="Hywel Dda University Local Health Board"/>
     </partOf>
 </Organization>
