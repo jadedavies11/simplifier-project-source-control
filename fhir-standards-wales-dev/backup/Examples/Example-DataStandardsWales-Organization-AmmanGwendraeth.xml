@@ -11,10 +11,13 @@
 		<valuePeriod>
 			<start value="2018-01-01"/>
 		</valuePeriod>
-	</extension>	
+	</extension>
+	<identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
+        <value value="CC201"/>
+    </identifier>	
     <identifier>
-        <use value="official"/>
-        <system value="https://fhir.nhs.wales/Id/gpcluster-code"/>
+        <system value="https://fhir.nhs.wales/Id/wrts-cluster-code"/>
         <value value="CC201"/>
     </identifier>
     <active value="true"/>    
@@ -49,10 +52,6 @@
     <name value="Amman Gwendraeth"/>
     <partOf>
         <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
-        <identifier>
-			<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-			<value value="7A2"/>
-		</identifier>
-        <display value="Hywel Dda University Local Health Board"/>
+		<display value="Hywel Dda University Local Health Board"/>
     </partOf>
 </Organization>

@@ -48,6 +48,7 @@ Package:
             * .identifier slice. Added nhsbsaOpticianContractNumber
             * .identifier slice. Added bsaDentalLocationIdentifier
             * .name. Changed cardinality to match UKCore
+            * .alias. Added Extension-DataStandardsWales-AliasType
             * Added Extension HL7 Translation
             * .type slice. Added locationCategory
             * .type slice. Added locationType
@@ -63,6 +64,9 @@ Package:
             * .identifier. Added User Principal Name (UPN) slice
     * Changes to Message Definitions
     * Changes to Extensions
+        * Extension-DataStandardsWales-AliasType
+            * Updated version from 0.1.0 to 0.2.0
+            * .context. Additional entry added for Location.alias element
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
         * DataStandardsWales-LocationForm
@@ -77,7 +81,14 @@ Package:
     * Removed Code Systems
     * Removed Value Sets
     * Changes to Code Systems
+        * Data StandardsWales-AliasType
+            * Updated version from 0.1.0 to 0.1.1
+            * Added new code for trading-as
+            * Added Welsh language equivalents for all codes
     * Changes to Value Sets
+        * Data StandardsWales-AliasType
+            * Updated version from 0.1.0 to 0.1.1
+            * .description updated to indicate availability of English and Welsh language alias types
         * DataStandardsWales-ProvenanceActivity
             * Updated version from 1.0.1 to 1.0.2
             * Updated expansion
@@ -86,7 +97,7 @@ Package:
             * Updated SNOMED CT constraint to match ValueSet-UKCore-SourceOfServiceRequest amendments
 * Naming Systems:
     * New Naming Systems
-        * Namespace for NHS Wales Shared Services Partnership (NWSSP)  Pharmacy Account Number
+        * Namespace for NHS Wales Shared Services Partnership (NWSSP) Pharmacy Account Number
         * Namespace for a composite identifier for an OrganizationAffiliation
         * Namespace for User Principal Name (UPN) identifier
         * Namespace for WRTS Cluster Code identifier
@@ -98,9 +109,48 @@ Package:
         * Deprecated GPClusterCode. Use WRTSClusterCode instead.
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
+        * Example-DataStandardsWales-Location-AmmanTawePartnership
+        * Example-DataStandardsWales-Location-BrynammanCommunity
+        * Example-DataStandardsWales-Location-MeddygfaCwmamman
+        * Example-DSW-OrganizationAffiliation-CC201-W00142
     * Changes to Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
+        * Example-DataStandardsWales-Organization-AmmanGwendraeth
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
+            * .partOf.identifier. Removed
+        * Example-DataStandardsWales-Organization-AmmanTawe
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .partOf. Replaced Reference to Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth (cluster)
+                * .partOf.reference. Updated to Organization/Example-DataStandardsWales-Organization-HDUHB
+                * .partOf.display. Updated to Hywel Dda University Local Health Board
+                * .partOf.identifier. Removed
+        * Example-DataStandardsWales-Organization-CardiffNorth
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
+            * .partOf.identifier. Removed
+        * Example-DataStandardsWales-Organization-CAVUHB
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+        * Example-DataStandardsWales-Organization-GGH
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .partOf.identifier. Removed
+        * Example-DataStandardsWales-Organization-HDUHB
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+        * Example-DataStandardsWales-Organization-NCMC
+            * identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .partOf. Replaced Reference to Organization/Example-DataStandardsWales-Organization-CardiffNorth (cluster)
+                * .partOf.reference. Updated to Example-DataStandardsWales-Organization-CAVUHB
+                * .partOf.display. Updated to Cardiff and Vale University Local Health Board
+                * .partOf.identifier. Removed
+        * Example-DataStandardsWales-Organization-NPT
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .partOf.identifier. Removed
+        * Example-DataStandardsWales-Organization-SBUHB
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+        * Example-DataStandardsWales-Organization-UHW
+            * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .partOf.identifier. Removed
     * Removed Examples
 
 Guide:
@@ -116,13 +166,16 @@ Guide:
 * Corrected spelling error for DataStandardsWales-OrganizationSubclassification in 2.6.0 Release Notes and ValueSet yaml toc file
 * Restored 2.6.0 release details to Version History page
 * Updated Change Notices page in the [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/)
+* Updated DataStandardsWales-Location profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Observation-VitalSigns profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BMI profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyHeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Practitioner profile page with new slice
+* Updated Example Index with new examples
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
+* Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
 * Updated Design-Naming Conventions page with additional guidance and glossary. Introduced tabulated views where appropriate 
 * Updated Guidance-Care Documents page with advice regarding error management workflows

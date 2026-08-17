@@ -1,0 +1,49 @@
+<OrganizationAffiliation xmlns="http://hl7.org/fhir">
+    <id value="Example-DSW-OrganizationAffiliation-CC201-W00142"/>
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-OrganizationAffiliation"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">Cluster Affiliation Amman Gwendraeth - Amman Tawe Partnership</div>
+    </text>    
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-affiliation-identifier"/>
+        <value value="CC201-W00142"/>
+    </identifier>
+    <active value="true"/>
+	<organization>
+        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth" />
+        <display value="Amman Gwendraeth Cluster" />
+    </organization>
+	<participatingOrganization>
+        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe" />
+        <display value="Amman Tawe Partnership" />
+    </participatingOrganization>
+	<code>
+		<coding>
+			<system value="http://hl7.org/fhir/organization-role"/>
+			<code value="member"/>
+			<display value="Member"/>
+		</coding>
+    </code>
+	<specialty>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="408443003"/>
+			<display value="General medical practice"/>
+		</coding>
+	</specialty>
+	<location>
+        <reference value="Location/Example-DataStandardsWales-Location-MeddygfaCwmamman" />
+        <display value="Meddygfa Cwmamman" />
+    </location>
+	<location>
+        <reference value="Location/Example-DataStandardsWales-Location-BrynammanCommunity" />
+        <display value="Brynamman Community" />
+    </location>
+	<location>
+        <reference value="Location/Example-DataStandardsWales-Location-AmmanTawePartnership" />
+        <display value="Amman Tawe Partnership" />
+    </location>
+</OrganizationAffiliation>

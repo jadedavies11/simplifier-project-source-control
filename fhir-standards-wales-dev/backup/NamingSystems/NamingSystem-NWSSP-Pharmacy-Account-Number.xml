@@ -14,7 +14,7 @@
           <rank value="1" />
       </telecom>
       </contact>
-    <responsible value="NHS Wales Shared Services Partnership"/>
+    <responsible value="Digital Health and Care Wales"/>
     <description value="This namespace indicates a NHS Wales Shared Services Partnership (NWSSP)  Pharmacy Account Number." />
     <usage value="Location identity"/>
     <uniqueId>

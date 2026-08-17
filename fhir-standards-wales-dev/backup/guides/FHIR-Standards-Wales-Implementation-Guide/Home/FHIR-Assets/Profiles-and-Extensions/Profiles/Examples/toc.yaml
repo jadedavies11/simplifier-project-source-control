@@ -32,12 +32,18 @@
   filename: Example-DataStandardsWales-Encounter-EmergencyAdmission.page.md
 - name: Example-DataStandardsWales-Encounter-InProgressEmergencyAdmission
   filename: Example-DataStandardsWales-Encounter-InProgressEmergencyAdmission.page.md
+- name: Example-DataStandardsWales-Location-AmmanTawePartnership
+  filename: Example-DataStandardsWales-Location-AmmanTawePartnership.page.md  
+- name: Example-DataStandardsWales-Location-BrynammanCommunity
+  filename: Example-DataStandardsWales-Location-BrynammanCommunity.page.md 
 - name: Example-DataStandardsWales-Location-CadogWard
   filename: Example-DataStandardsWales-Location-CadogWard.page.md
 - name: Example-DataStandardsWales-Location-GGH
   filename: Example-DataStandardsWales-Location-GGH.page.md
 - name: Example-DataStandardsWales-Location-GGH-OPD
   filename: Example-DataStandardsWales-Location-GGH-OPD.page.md
+- name: Example-DataStandardsWales-Location-MeddygfaCwmamman
+  filename: Example-DataStandardsWales-Location-MeddygfaCwmamman.page.md
 - name: Example-DataStandardsWales-Location-WardE
   filename: Example-DataStandardsWales-Location-WardE.page.md
 - name: Example-DataStandardsWales-MessageDefinition-SubmitClinician
@@ -76,7 +82,9 @@
   filename: Example-DataStandardsWales-Organization-SBUHB.page.md
 - name: Example-DataStandardsWales-Organization-UHW
   filename: Example-DataStandardsWales-Organization-UHW.page.md
-- name: Example-DataStandardsWales-Patient-AliceJones
+- name: Example-DataStandardsWales-Organization-UHW
+  filename: Example-DSW-OrganizationAffiliation-CC201-W00142.page.md
+- name: Example-DSW-OrganizationAffiliation-CC201-W00142
   filename: Example-DataStandardsWales-Patient-AliceJones.page.md
 - name: Example-DataStandardsWales-Patient-HaroldJames
   filename: Example-DataStandardsWales-Patient-HaroldJames.page.md

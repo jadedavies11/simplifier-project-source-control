@@ -17,7 +17,7 @@
 			<use value="work"/>
 		</telecom>
     </contact>
-    <description value="Code system to classify the physical (or virtual) forms of the location space."/>
+    <description value="Code system to classify the physical (or virtual) form of the location space."/>
     <copyright value="2026 NHS Wales."/>
 	<concept>
 		<code value="bd"/>
@@ -30,5 +30,9 @@
 	<concept>
 		<code value="si"/>
 		<display value="Site"/>
+	</concept>
+		<concept>
+		<code value="vi"/>
+		<display value="Virtual"/>
 	</concept>
 </CodeSystem>

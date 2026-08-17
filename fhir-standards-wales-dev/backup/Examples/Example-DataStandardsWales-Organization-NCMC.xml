@@ -11,9 +11,13 @@
 		<valuePeriod>
 			<start value="2012-05-11"/>
 		</valuePeriod>
-	</extension>	
+	</extension>
     <identifier>
         <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="W97015"/>
+    </identifier>	
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
         <value value="W97015"/>
     </identifier>
     <active value="true"/>    
@@ -68,11 +72,7 @@
         <postalCode value="CF14 9BB"/>        
     </address>    
     <partOf>
-        <reference value="Organization/Example-DataStandardsWales-Organization-CardiffNorth"/>
-		<identifier>
-			<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-			<value value="CC421"/>
-		</identifier>
-        <display value="Cardiff North"/>
+        <reference value="Example-DataStandardsWales-Organization-CAVUHB"/>
+        <display value="Cardiff and Vale University Local Health Board"/>
     </partOf>
 </Organization>

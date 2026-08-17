@@ -16,6 +16,10 @@
         <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
         <value value="7A3CJ"/>
     </identifier>
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
+        <value value="7A3CJ"/>
+    </identifier>
     <active value="true"/>
 	<type>
 		<coding>
@@ -69,10 +73,6 @@
     </address>
     <partOf>
         <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB"/>
-		<identifier>
-			<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-			<value value="7A3"/>
-		</identifier>
         <display value="Swansea Bay University Local Health Board"/>
     </partOf>
 </Organization>

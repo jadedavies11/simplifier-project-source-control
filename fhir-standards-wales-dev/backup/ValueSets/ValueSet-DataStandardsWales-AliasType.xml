@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-AliasType"/>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-AliasType"/>
-	<version value="0.1.0"/>
+	<version value="0.1.1"/>
 	<name value="DataStandardsWalesAliasType"/>
 	<title value="Data Standards Wales Alias Type"/>
 	<status value="draft"/>
 	<experimental value="false"/>
-	<date value="2026-05-06"/>
+	<date value="2026-08-13"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -16,7 +16,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="Value set to classify alias by type."/>
+	<description value="Value set to classify alias by type for both Welsh and English languages."/>
 	<copyright value="2026 NHS Wales."/>
 	<compose>
 		<include>
