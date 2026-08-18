@@ -16,7 +16,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="Value set to classify locations by categories."/>
+	<description value="Value set to classify location types by categories."/>
 	<copyright value="2026 NHS Wales."/>
 	<compose>
 		<include>

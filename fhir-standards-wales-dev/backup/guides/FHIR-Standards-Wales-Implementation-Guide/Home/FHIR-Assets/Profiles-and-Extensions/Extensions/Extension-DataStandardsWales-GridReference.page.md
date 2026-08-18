@@ -1,8 +1,8 @@
 ## {{page-title}}
-An extension to capture the national grid reference applicable to the location.
+An extension to capture the British National Grid (BNG) reference applicable to the location.
 
 ### Purpose
-This extension shows tha national grid reference applicable to the location.  The grid reference resolves to a location on a map, which is found using the northing and easting numbered lines.
+This extension shows the British National Grid (BNG) reference applicable to the location.  The grid reference resolves to a location on a map, which is found using the northing and easting numbered lines.
 
 ### Context of Use
 This extension may be used on the following profile(s):

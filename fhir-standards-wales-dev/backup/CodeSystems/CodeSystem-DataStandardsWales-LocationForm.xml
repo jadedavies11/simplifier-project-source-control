@@ -7,7 +7,7 @@
 	<title value="Data Standards Wales Location Form"/>
     <status value="draft"/>
     <experimental value="false"/>
-    <date value="2026-08-17"/>
+    <date value="2026-08-18"/>
     <publisher value="NHS Wales"/>
     <contact>
 		<name value="FHIR Standards"/>
@@ -20,19 +20,8 @@
     <description value="Code system to classify the physical (or virtual) form of the location space."/>
     <copyright value="2026 NHS Wales."/>
 	<concept>
-		<code value="bd"/>
-		<display value="Bed"/>
-	</concept>
-	<concept>
-		<code value="bu"/>
-		<display value="Building"/>
-	</concept>
-	<concept>
-		<code value="si"/>
-		<display value="Site"/>
-	</concept>
-		<concept>
-		<code value="vi"/>
-		<display value="Virtual"/>
+		<code value="clinical-area"/>
+		<display value="Clinical area"/>
+		<definition value="A defined physical boundary for a specific clinical function."/>
 	</concept>
 </CodeSystem>

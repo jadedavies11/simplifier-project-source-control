@@ -40,7 +40,7 @@ Package:
             * Updated version from 1.1.2 to 1.2.0
             * Added Extension-DataStandardsWales-GridReference
             * Added Extension-DataStandardsWales-LocationPeriod
-            * .identifier:odsSiteCode. Renabled slice
+            * .identifier:odsSiteCode. Re-enabled slice
             * .identifier:wrtsLocationIdentifier. Added Must Support
             * .identifier slice. Added glnCode
             * .identifier slice. Added gphcPremisesNumber
