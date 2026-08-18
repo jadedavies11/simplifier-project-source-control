@@ -17,7 +17,7 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <description value="The national grid reference applicable to the location.  The grid reference resolves to a location on a map, which is found using the northing and easting numbered lines." />
+  <description value="The British National Grid (BNG) standard applicable to the location. The grid reference resolves to a location on a map, which is found using the northing and easting numbered lines." />
   <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />

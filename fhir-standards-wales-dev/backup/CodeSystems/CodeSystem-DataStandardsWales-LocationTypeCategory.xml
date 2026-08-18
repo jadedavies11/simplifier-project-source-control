@@ -20,11 +20,6 @@
     <description value="Code system to classify locations by categories."/>
     <copyright value="2026 NHS Wales."/>
 	<concept>
-		<code value="staff-areas"/>
-		<display value="Staff areas"/>
-		<definition value="For staff members only."/>
-	</concept>
-	<concept>
 		<code value="clinical-areas"/>
 		<display value="Clinical areas"/>
 		<definition value="Clinical spaces where clinical activities are undertaken to the patient."/>
@@ -35,18 +30,23 @@
 		<definition value="Open public spaces outside clinical and non-clinical patient areas."/>
 	</concept>
 	<concept>
+		<code value="diagnostics-and-research"/>
+		<display value="Diagnostics and research"/>
+		<definition value="Areas where patient investigations are undertaken without patient presence."/>
+	</concept>
+	<concept>
 		<code value="patient-areas"/>
 		<display value="Patient areas"/>
 		<definition value="Areas for patients (and family) for non-clinical use."/>
 	</concept>
 	<concept>
-		<code value="diagnostics-and-research"/>
-		<display value="Diagnostics and research"/>
-		<definition value="Areas where patient investigations are undertaken without patient presence."/>
-	</concept>
-		<concept>
 		<code value="primary-care"/>
 		<display value="Primary care"/>
 		<definition value="Locations where primary care services are provided."/>
+	</concept>
+	<concept>
+		<code value="staff-areas"/>
+		<display value="Staff areas"/>
+		<definition value="For staff members only."/>
 	</concept>
 </CodeSystem>

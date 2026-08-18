@@ -17,7 +17,7 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <description value="The date range that this location SHOULD be considered available" />
+  <description value="The date range that this location should be considered available" />
   <copyright value="2026 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
@@ -32,8 +32,8 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
-      <short value="The date range that this location SHOULD be considered available." />
-      <definition value="The date range that this location SHOULD be considered available." />
+      <short value="The date range that this location should be considered available." />
+      <definition value="The date range that this location should be considered available." />
       <max value="1" />
     </element>
     <element id="Extension.extension">

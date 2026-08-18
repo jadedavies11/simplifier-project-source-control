@@ -61,7 +61,7 @@
       <path value="Location.identifier" />
       <sliceName value="wrtsLocationIdentifier" />
       <short value="The WRTS identifier for the location" />
-      <definition value="The Welsh Reference Data Servcie identifier for the location" />
+      <definition value="The identifier issued or recognised by the Welsh Reference and Terminology Services (WRTS) as the unique identifier for the location within Wales. The value may have been issued by another standards authority such as the Organisation Data Service (ODS) and adopted by WRTS as the unique identifier." />
       <max value="1" />
       <mustSupport value="true" />
     </element>
@@ -79,7 +79,7 @@
       <path value="Location.identifier" />
       <sliceName value="glnCode" />
       <short value="The Global Location Number (GLN) assigned to the location." />
-      <definition value="The Global Location Number (GLN) assigned to the location by the responsible organisation." />
+      <definition value="The Global Location Number (GLN) assigned to the location by the responsible organisation. For more information regarding the GLN standard and how GLNs are used in healthcare please refer to the GS1 UK website" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
@@ -95,8 +95,8 @@
     <element id="Location.identifier:gphcPremisesNumber">
       <path value="Location.identifier" />
       <sliceName value="gphcPremisesNumber" />
-      <short value="The General Pharmaceutical Council (GPhC) Premise Number." />
-      <definition value="The General Pharmaceutical Council (GPhC) number assigned to the premise." />
+      <short value="The General Pharmaceutical Council (GPhC) premises number." />
+      <definition value="The General Pharmaceutical Council (GPhC) number assigned to the premises." />
       <max value="1" />
       <mustSupport value="true" />
     </element>
@@ -183,7 +183,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/translation" />
+        <profile value="https://www.hl7.org/fhir/R4/extension-translation.html" />
       </type>
       <mustSupport value="true" />
       <isModifier value="false" />
@@ -194,7 +194,6 @@
     </element>
     <element id="Location.name.extension:welshPreferredName.extension">
       <path value="Location.name.extension.extension" />
-      <min value="2" />
       <binding>
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/ValueSet/languages" />
@@ -209,18 +208,32 @@
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages" />
       </binding>
     </element>
+    <element id="Location.name.extension:welshPreferredName.extension:lang.url">
+      <path value="Location.name.extension.extension.url" />
+      <fixedUri value="lang" />
+    </element>
     <element id="Location.name.extension:welshPreferredName.extension:lang.value[x]">
       <path value="Location.name.extension.extension.value[x]" />
       <fixedCode value="cym" />
     </element>
+    <element id="Location.name.extension:welshPreferredName.url">
+      <path value="Location.name.extension.url" />
+      <fixedUri value="https://www.hl7.org/fhir/R4/extension-translation.html" />
+    </element>
     <element id="Location.name.extension:welshPreferredName.value[x]">
       <path value="Location.name.extension.value[x]" />
       <type>
-        <code value="markdown" />
-      </type>
-      <type>
         <code value="string" />
       </type>
+    </element>
+    <element id="Location.alias.extension:aliasType">
+      <path value="Location.alias.extension" />
+      <sliceName value="aliasType" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
+      </type>
+      <isModifier value="false" />
     </element>
     <element id="Location.type">
       <path value="Location.type" />
@@ -297,15 +310,6 @@
         <description value="The physical (or virtual) form of the location space, treating physicalType as locationForm which replaces this element at R5." />
         <valueSet value="http://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationForm" />
       </binding>
-    </element>
-    <element id="Location.alias.extension:aliasType">
-      <path value="Location.alias.extension" />
-      <sliceName value="aliasType" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType" />
-      </type>
-      <isModifier value="false" />
     </element>
     <element id="Location.managingOrganization">
       <path value="Location.managingOrganization" />
