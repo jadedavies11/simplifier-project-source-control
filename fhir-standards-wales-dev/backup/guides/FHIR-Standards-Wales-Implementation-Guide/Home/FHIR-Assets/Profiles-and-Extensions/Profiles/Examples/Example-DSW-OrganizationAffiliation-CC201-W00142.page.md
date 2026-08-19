@@ -1,4 +1,6 @@
-## Example OrganizationAffiliation - Cluster Affiliation Amman Gwendraeth - Amman Tawe Partnership
+## Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership
+
+This example Organization Affiliation resource represents the participation of the Amman Tawe Partnership main surgery and two branch surgeries in the Amman Gwendraeth primary care cluster.
 
 <div class="tab-wrap">
   <ul class="tab-head">

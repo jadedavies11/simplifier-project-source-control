@@ -23,7 +23,7 @@
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/ValueSet/location-form"/>
+			<system value="https://fhir.ee/ValueSet/ee-location-form"/>
 		</include>
 	</compose>
 </ValueSet>

@@ -79,11 +79,11 @@ The following examples are published with this guide and all available as a down
 ### Location Examples
 * {{pagelink:Example-DataStandardsWales-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}
 * {{pagelink:Example-DataStandardsWales-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}
-* {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Cadog Ward (GGH)}}
+* {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}
 * {{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}
-* {{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}
+* {{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Example Location - Glangwili General Hospital Outpatients Department}}
 * {{pagelink:Example-DataStandardsWales-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}
-* {{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Ward E (NPT)}}
+* {{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}
 
 ### Medication Examples
 * {{pagelink:Example-DataStandardsWales-Medication-Amoxicillin-Infusion, text:Example Medication - Amoxicillin infusion}}
@@ -171,7 +171,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}
 
 ### OrganizationAffiliation Examples
-* {{pagelink:Example-DSW-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation Amman Gwendraeth - Amman Tawe Partnership}}
+* {{pagelink:Example-DSW-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}
 
 ### Patient Examples
 * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
