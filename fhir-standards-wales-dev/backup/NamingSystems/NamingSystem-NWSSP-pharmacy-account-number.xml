@@ -15,7 +15,7 @@
 		</telecom>
 	</contact>
 	<responsible value="Digital Health and Care Wales"/>
-	<description value="This namespace indicates an NHS Wales Shared Services Partnership (NWSSP)  Pharmacy Account Number."/>
+	<description value="This namespace indicates an NHS Wales Shared Services Partnership (NWSSP) pharmacy account number."/>
 	<usage value="Location identity"/>
 	<uniqueId>
 		<type value="uri"/>

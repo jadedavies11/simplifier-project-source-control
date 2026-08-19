@@ -27,7 +27,7 @@
     </alias>
 	<type>
 		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationCategory"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationTypeCategory"/>
 			<code value="primary-care"/>
 			<display value="Primary care"/>
 		</coding>
@@ -65,8 +65,4 @@
         <reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe" />
         <display value="Amman Tawe Partnership" />
     </managingOrganization>
-    <partOf>
-        <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
-        <display value="Hywel Dda University Local Health Board" />
-    </partOf>
 </Location>
