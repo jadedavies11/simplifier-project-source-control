@@ -21,9 +21,76 @@
 	<compose>
 		<include>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+			<concept>
+				<code value="clinical-area"/>
+				<display value="Clinical area"/>
+				<definition value="A defined physical boundary for a specific clinical function."/>
+			</concept>
 		</include>
 		<include>
-			<system value="https://fhir.ee/ValueSet/ee-location-form"/>
+			<valueSet value="http://hl7.org/fhir/uv/xver/ValueSet/R5-location-form-for-R4"/>
 		</include>
+		<expansion>
+		<value>
+			<code value="area"/>
+			<display value="Area"/>
+		</value>
+		<value>
+			<code value="bd"/>
+			<display value="Bed"/>
+		</value>
+		<value>
+			<code value="bu"/>
+			<display value="Building"/>
+		</value>
+		<value>
+			<code value="ca"/>
+			<display value="cabinet"/>
+		</value>
+		<value>
+			<code value="co"/>
+			<display value="Corridor"/>
+		</value>
+		<value>
+			<code value="ho"/>
+			<display value="House"/>
+		</value>
+		<value>
+			<code value="jdn"/>
+			<display value="Jurisdiction"/>
+		</value>
+		<value>
+			<code value="lvl"/>
+			<display value="Level"/>
+		</value>
+		<value>
+			<code value="rd"/>
+			<display value="Road"/>
+		</value>
+		<value>
+			<code value="ro"/>
+			<display value="Room"/>
+		</value>
+		<value>
+			<code value="si"/>
+			<display value="Site"/>
+		</value>
+		<value>
+			<code value="ve"/>
+			<display value="Vehicle"/>
+		</value>
+		<value>
+			<code value="vi"/>
+			<display value="Virtual"/>
+		</value>
+		<value>
+			<code value="wa"/>
+			<display value="Ward"/>
+		</value>
+		<value>
+			<code value="wi"/>
+			<display value="Wing"/>
+		</value>
+		</expansion>
 	</compose>
 </ValueSet>
