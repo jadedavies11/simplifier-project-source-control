@@ -260,10 +260,6 @@
       <path value="Location.type.coding.display" />
       <min value="1" />
     </element>
-    <element id="Location.type:locationCategory.text">
-      <path value="Location.type.text" />
-      <max value="0" />
-    </element>
     <element id="Location.type:locationType">
       <path value="Location.type" />
       <sliceName value="locationType" />
@@ -293,10 +289,6 @@
     <element id="Location.type:locationType.coding.display">
       <path value="Location.type.coding.display" />
       <min value="1" />
-    </element>
-    <element id="Location.type:locationType.text">
-      <path value="Location.type.text" />
-      <max value="0" />
     </element>
     <element id="Location.address.extension:addressKey">
       <path value="Location.address.extension" />

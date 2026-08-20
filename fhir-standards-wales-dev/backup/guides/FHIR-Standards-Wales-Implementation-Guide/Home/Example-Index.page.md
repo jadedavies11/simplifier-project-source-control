@@ -79,9 +79,9 @@ The following examples are published with this guide and all available as a down
 ### Location Examples
 * {{pagelink:Example-DataStandardsWales-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}
 * {{pagelink:Example-DataStandardsWales-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}
-* {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}
 * {{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}
-* {{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Example Location - Glangwili General Hospital Outpatients Department}}
+* {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}
+* {{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}
 * {{pagelink:Example-DataStandardsWales-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}
 * {{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}
 

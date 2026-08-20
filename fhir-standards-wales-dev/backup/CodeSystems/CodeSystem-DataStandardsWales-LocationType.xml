@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="DataStandardsWales-LocationType"/>
-    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationType"/>	
-    <version value="0.1.0"/>
-    <name value="DataStandardsWalesLocationType"/>
+	<id value="DataStandardsWales-LocationType"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationType"/>
+	<version value="0.1.0"/>
+	<name value="DataStandardsWalesLocationType"/>
 	<title value="Data Standards Wales Location Type"/>
-    <status value="draft"/>
-    <experimental value="false"/>
-    <date value="2026-08-17"/>
-    <publisher value="NHS Wales"/>
-    <contact>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2026-08-17"/>
+	<publisher value="NHS Wales"/>
+	<contact>
 		<name value="FHIR Standards"/>
 		<telecom>
 			<system value="email"/>
 			<value value="fhir.standards@wales.nhs.uk"/>
 			<use value="work"/>
 		</telecom>
-    </contact>
-    <description value="Code system to classify locations by type."/>
-    <copyright value="2026 NHS Wales."/>
+	</contact>
+	<description value="Code system to classify locations by type."/>
+	<copyright value="2026 NHS Wales."/>
 	<concept>
 		<code value="administrative-area"/>
 		<display value="Administrative area"/>
@@ -26,47 +26,47 @@
 	<concept>
 		<code value="ambulatory-care"/>
 		<display value="Ambulatory care"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="anaesthetic-room"/>
 		<display value="Anaesthetic room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="assessment-room"/>
 		<display value="Assessment room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="assessment-unit"/>
 		<display value="Assessment unit"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="audiology-room"/>
 		<display value="Audiology room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="bathroom"/>
 		<display value="Bathroom"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="bedroom"/>
 		<display value="Bedroom"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="bereavement-room"/>
 		<display value="Bereavement room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="blood-bank"/>
 		<display value="Blood bank"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="blood-test-room"/>
 		<display value="Blood test room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="canteen"/>
 		<display value="Canteen"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="car-park"/>
 		<display value="Car park"/>
@@ -86,35 +86,35 @@
 	<concept>
 		<code value="childrens-hospital"/>
 		<display value="Children's hospital"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="clinical-room"/>
 		<display value="Clinical room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="concourse"/>
 		<display value="Concourse"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="consultation-room"/>
 		<display value="Consultation room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="consulting-room"/>
 		<display value="Consulting room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="corridor"/>
 		<display value="Corridor"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="counselling-room"/>
 		<display value="Counselling room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="ct-room"/>
 		<display value="CT room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="day-room"/>
 		<display value="Day room"/>
@@ -122,51 +122,51 @@
 	<concept>
 		<code value="dental-clinic"/>
 		<display value="Dental clinic"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="dental-hospital"/>
 		<display value="Dental hospital"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="dental-surgery"/>
 		<display value="Dental surgery"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="dialysis-unit"/>
 		<display value="Dialysis unit"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="dining-room"/>
 		<display value="Dining room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="discharge-lounge"/>
 		<display value="Discharge lounge"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="ecg-room"/>
 		<display value="ECG room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="emergency-room"/>
 		<display value="Emergency room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="emergency-unit"/>
 		<display value="Emergency unit"/>
-	</concept>		
+	</concept>
 	<concept>
 		<code value="emergency-waiting-area"/>
 		<display value="Emergency waiting area"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="examination-room"/>
 		<display value="Examination room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="family-room"/>
 		<display value="Family room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="gp-surgery"/>
 		<display value="GP surgery"/>
@@ -174,107 +174,107 @@
 	<concept>
 		<code value="hospital"/>
 		<display value="Hospital"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="icu"/>
 		<display value="ICU"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="isolation-room"/>
 		<display value="Isolation room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="itu"/>
 		<display value="ITU"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="kitchen"/>
 		<display value="Kitchen"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="laboratory"/>
 		<display value="Laboratory"/>
 	</concept>
-		<concept>
+	<concept>
 		<code value="laundry"/>
 		<display value="Laundry"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="lift"/>
 		<display value="Lift"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="living-room"/>
 		<display value="Living room"/>
-	</concept>		
+	</concept>
 	<concept>
 		<code value="lobby"/>
 		<display value="Lobby"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="medical-records"/>
 		<display value="Medical records"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="meeting-room"/>
 		<display value="Meeting room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="mental-health-unit"/>
 		<display value="Mental health unit"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="mri-room"/>
 		<display value="MRI room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="nurse-station"/>
-		<display value="Nurse station"/>
-	</concept>	
+		<display value="Nurses station"/>
+	</concept>
 	<concept>
 		<code value="office"/>
 		<display value="Office"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="oncology-centre"/>
 		<display value="Oncology centre"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="operating-theatre"/>
 		<display value="Operating theatre"/>
 	</concept>
-		<concept>
+	<concept>
 		<code value="opticians"/>
 		<display value="Opticians"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="outpatients-clinic"/>
 		<display value="Outpatients clinic"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="patient-bay"/>
 		<display value="Patient bay"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="patient-lounge"/>
 		<display value="Patient lounge"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="patient-toilets"/>
 		<display value="Patient toilets"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="pharmacy"/>
 		<display value="Pharmacy"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="phlebotomy-room"/>
 		<display value="Phlebotomy room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="physiotherapy-room"/>
 		<display value="Physiotherapy room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="physiotherapy-unit"/>
 		<display value="Physiotherapy unit"/>
@@ -282,71 +282,71 @@
 	<concept>
 		<code value="plant-room"/>
 		<display value="Plant room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="post-room"/>
 		<display value="Post room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="prayer-room"/>
 		<display value="Prayer room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="procedure-room"/>
 		<display value="Procedure room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="quiet-room"/>
 		<display value="Quiet room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="reception-area"/>
 		<display value="Reception area"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="recovery-area"/>
 		<display value="Recovery area"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="recovery-unit"/>
 		<display value="Recovery unit"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="relatives-room"/>
 		<display value="Relatives room"/>
 	</concept>
-		<concept>
+	<concept>
 		<code value="renal-centre"/>
 		<display value="Renal centre"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="screening-room"/>
 		<display value="Screening room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="seating-area"/>
 		<display value="Seating area"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="server-room-it"/>
 		<display value="Server room - IT"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="staff-lounge"/>
 		<display value="Staff lounge"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="staff-room"/>
 		<display value="Staff room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="staff-wc"/>
 		<display value="Staff WC"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="staircase"/>
 		<display value="Staircase"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="storage-room"/>
 		<display value="Storage room"/>
@@ -354,23 +354,23 @@
 	<concept>
 		<code value="store"/>
 		<display value="Store"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="theatre"/>
 		<display value="Theatre"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="therapy-room"/>
 		<display value="Therapy room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="therapy-unit"/>
 		<display value="Therapy unit"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="toilets"/>
 		<display value="Toilets"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="trauma-centre"/>
 		<display value="Trauma centre"/>
@@ -378,23 +378,23 @@
 	<concept>
 		<code value="treatment-area"/>
 		<display value="Treatment area"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="ultrasound-room"/>
 		<display value="Ultrasound room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="visitors-room"/>
 		<display value="Visitors room"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="waiting-area"/>
 		<display value="Waiting area"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="ward"/>
 		<display value="Ward"/>
-	</concept>	
+	</concept>
 	<concept>
 		<code value="workshop"/>
 		<display value="Workshop"/>
@@ -402,5 +402,5 @@
 	<concept>
 		<code value="xray-room"/>
 		<display value="X-ray room"/>
-	</concept>	
+	</concept>
 </CodeSystem>

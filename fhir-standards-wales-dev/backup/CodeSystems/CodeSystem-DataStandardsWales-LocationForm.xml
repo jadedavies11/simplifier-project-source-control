@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="DataStandardsWales-LocationForm"/>
-    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>	
-    <version value="0.1.0"/>
-    <name value="DataStandardsWalesLocationForm"/>
+	<id value="DataStandardsWales-LocationForm"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+	<version value="0.1.0"/>
+	<name value="DataStandardsWalesLocationForm"/>
 	<title value="Data Standards Wales Location Form"/>
-    <status value="draft"/>
-    <experimental value="false"/>
-    <date value="2026-08-18"/>
-    <publisher value="NHS Wales"/>
-    <contact>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2026-08-18"/>
+	<publisher value="NHS Wales"/>
+	<contact>
 		<name value="FHIR Standards"/>
 		<telecom>
 			<system value="email"/>
 			<value value="fhir.standards@wales.nhs.uk"/>
 			<use value="work"/>
 		</telecom>
-    </contact>
-    <description value="Code system to classify the physical (or virtual) form of the location space."/>
-    <copyright value="2026 NHS Wales."/>
+	</contact>
+	<description value="Code system to classify the physical (or virtual) form of the location space."/>
+	<copyright value="2026 NHS Wales."/>
 	<concept>
 		<code value="clinical-area"/>
 		<display value="Clinical area"/>

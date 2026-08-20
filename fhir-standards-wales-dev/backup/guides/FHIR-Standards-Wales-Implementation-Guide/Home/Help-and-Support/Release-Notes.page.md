@@ -47,9 +47,9 @@ Package:
             * .identifier slice. Added nwsspPharmacyAccountNumber
             * .identifier slice. Added nhsbsaOpticianContractNumber
             * .identifier slice. Added bsaDentalLocationIdentifier
-            * .name. Changed cardinality to match UKCore
+            * .name. Reverted cardinality to match UKCore
+            * .name. Added Extension HL7 Translation
             * .alias. Added Extension-DataStandardsWales-AliasType
-            * Added Extension HL7 Translation
             * .type slice. Added locationCategory
             * .type slice. Added locationType
             * .address. Added Extension-UKCore-AddressKey
@@ -116,6 +116,12 @@ Package:
     * Changes to Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
+        * Example Location - Outpatients Department (GGH)
+            * Renamed to Example Location - Glangwili General Hospital Outpatients Department
+        * Example Location - Cadog Ward (GGH)
+            * Renamed to Example Location - Glangwili General Hospital Cadog Ward
+        * Example Location - Ward E (NPT)
+            * Renamed to Example Location - Neath Port Talbot Hospital Ward E
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
