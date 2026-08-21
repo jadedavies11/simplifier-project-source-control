@@ -85,6 +85,7 @@ Package:
             * Updated version from 0.1.0 to 0.1.1
             * Added new code for trading-as
             * Added Welsh language equivalents for all codes
+            * Updated definitions for Official name and Preferred name
     * Changes to Value Sets
         * Data StandardsWales-AliasType
             * Updated version from 0.1.0 to 0.1.1
@@ -102,11 +103,20 @@ Package:
         * Namespace for User Principal Name (UPN) identifier
         * Namespace for WRTS Cluster Code identifier
     * Changes to Naming Systems
-        * ApplicationInstanceIdentifier. Updated purpose to "Issuing authority"
-        * DataStandardsWalesLIMSIdentifier. Updated purpose to "Patient identity"
-        * NADEXIdentifier purpose. Updated purpose to "Practitioner identity"
-        * Reactivated WRTSOrganizationIdentifier. Updated purpose to "Organization identity"
-        * Deprecated GPClusterCode. Use WRTSClusterCode instead.
+        * All Naming Systems reformatted to 'pretty print' for readability and consistency.
+        * DataStandardsWales-Application-Instance-Identifier
+            * .usage. Updated from Patient Identity to Issuing authority
+        * DataStandardsWales-CAVUHB-PAS-LocationIdentifier
+            * .responsible. Updated from NHS Wales to Cardiff and Vale University Health Board
+        * DataStandardsWales-GPCluster-Code
+            * Deprecated Naming System. Use DataStandardsWales-WRTS-Cluster-Code instead.
+        * DataStandardsWales-LIMS-identifier  
+            * .usage. Updated from LIMS identity to Patient identity   
+        * DataStandardsWales-NADEX-identifier  
+            * .usage. Updated from Organization identity to Practitioner identity 
+        * DataStandardsWales-WRTS-Organization-identifier    
+            * Re-enabled Naming System
+            * .usage. Updated from Do not use to Organization identity               
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Example-DataStandardsWales-Location-AmmanTawePartnership
@@ -116,12 +126,12 @@ Package:
     * Changes to Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
-        * Example Location - Outpatients Department (GGH)
-            * Renamed to Example Location - Glangwili General Hospital Outpatients Department
-        * Example Location - Cadog Ward (GGH)
-            * Renamed to Example Location - Glangwili General Hospital Cadog Ward
-        * Example Location - Ward E (NPT)
-            * Renamed to Example Location - Neath Port Talbot Hospital Ward E
+        * Example-DataStandardsWales-Location-CadogWard
+            * Renamed display from Example Location - Cadog Ward (GGH) to Example Location - Glangwili General Hospital Cadog Ward
+        * Example-DataStandardsWales-Location-GGH
+            * Renamed display from Example Location - Outpatients Department (GGH) to Example Location - Glangwili General Hospital Outpatients Department
+        * Example-DataStandardsWales-Location-WardE
+            * Renamed display from Example Location - Ward E (NPT) to Example Location - Neath Port Talbot Hospital Ward E
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode

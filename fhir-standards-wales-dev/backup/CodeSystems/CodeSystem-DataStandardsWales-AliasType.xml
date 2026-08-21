@@ -24,22 +24,22 @@
 	<concept>
 		<code value="official-name"/>
 		<display value="Official name"/>
-		<definition value="An alias that represents the official name of the entity.  Used where this is different from the preferred name stored against the name element for operational purposes."/>
+		<definition value="An alias that represents the official name of the entity."/>
 	</concept>
 	<concept>
 		<code value="official-name-welsh"/>
 		<display value="Official name (Welsh)"/>
-		<definition value="An alias that represents the official name of the entity in the Welsh language.  Used where this is different from the preferred name stored against the name element for operational purposes."/>
+		<definition value="An alias that represents the official name of the entity in the Welsh language."/>
 	</concept>
 	<concept>
 		<code value="preferred-name"/>
 		<display value="Preferred name"/>
-		<definition value="An alias that represents the preferred (usual) name of the entity.  Used where this is different from the official name stored against the name element."/>
+		<definition value="An alias that represents the preferred (usual) name of the entity."/>
 	</concept>
 	<concept>
 		<code value="preferred-name-welsh"/>
 		<display value="Preferred name (Welsh)"/>
-		<definition value="An alias that represents the preferred (usual) name of the entity in the Welsh language.  Used where this is different from the official name stored against the name element."/>
+		<definition value="An alias that represents the preferred (usual) name of the entity in the Welsh language."/>
 	</concept>
 	<concept>
 		<code value="short-name"/>
