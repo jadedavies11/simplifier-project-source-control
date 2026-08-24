@@ -190,6 +190,7 @@ Guide:
 * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Practitioner profile page with new slice
 * Updated Example Index with new examples
+* Updated Resource Index
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
 * Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
