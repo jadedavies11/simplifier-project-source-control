@@ -52,10 +52,6 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Mandatory-and-Must-Support-Data-Elements,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
-Each Organisation must have:
-* A name
-  * The `Organization.name` field **SHALL** be populated.
-
 Each Organisation must support:
 * An identifier*
   * The `Organization.identifier` field **SHOULD** contain all available identifiers. In particular:
@@ -71,11 +67,12 @@ Each Organisation must support:
   * `classification` **SHOULD** be provided as a high level classification of the organisation type within the applicable domain.
   * `subclassification` **SHOULD** be provided as a lower level classification of the organisation type within the applicable domain.  <br /><br />
 
+* `Organization.name` **SHOULD** be populated.
 * For each `Organization.alias`, an `aliasType` extension **SHOULD** specify the nature of the alias.
 
 * Where applicable:
   * the `Organization.partOf` field **SHOULD** contain a reference to the parent Organization
-  * the `Organization.telecon` field **SHOULD** contain at least one contact point (e.g. telephone number)
+  * the `Organization.telecom` field **SHOULD** contain at least one contact point (e.g. telephone number)
   * the `Organization.address` field **SHOULD** contain at least one address for the organisation
 
 _*See implementation guidance for the identifier element in the Slices section below_
@@ -83,15 +80,15 @@ _*See implementation guidance for the identifier element in the Slices section b
 ### Extensions
 
 The following extensions are defined for use within this profile: 
-* The UK Core extension [Extension-UKCore-MainLocation](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-MainLocation?version=2.0.1) extends the Organization resource to support the exchange of information on the organisation's main location, as a reference to a Location resource, which is currently not supported by the FHIR standard.
-
-* The UK Core extension [Extension-UKCore-AddressKey](https://simplifier.net/resolve?scope=package:fhir.r4.ukcore.stu2@2.0.1&filepath=package/Extension-UKCore-AddressKey.json) extends the Address datatype to support the storage of address identifiers such as the Unique Property Reference Number (UPRN).
-
-* The HL7 common extension [organization-period](http://hl7.org/fhir/R4/extension-organization-period.html) describes the date range that the organisation should be considered available.
-
-* {{pagelink:Extension-DataStandardsWales-AliasType}} is used to specify the nature of each alias.
-
-* {{pagelink:Extension-DataStandardsWales-SuccessorOrganization}} is used to identify the successor organisation that continues the delivery of services after the end date recorded for the organisation.
+* Data Standards Wales Extensions:
+    * {{pagelink:Extension-DataStandardsWales-AliasType}} is used to specify the nature of each alias.
+    * {{pagelink:Extension-DataStandardsWales-SuccessorOrganization}} is used to identify the successor organisation that continues the delivery of services after the end date recorded for the organisation.
+* UK Core Extensions:
+    * [Extension-UKCore-AddressKey](https://simplifier.net/resolve?scope=package:fhir.r4.ukcore.stu2@2.0.1&filepath=package/Extension-UKCore-AddressKey.json) extends the Address datatype to support the storage of address identifiers such as the Unique Property Reference Number (UPRN).
+    * [Extension-UKCore-MainLocation](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-MainLocation?version=2.0.1) extends the Organization resource to support the exchange of information on the organisation's main location, as a reference to a Location resource.
+* HL7 International Extensions:
+    * [Organization-Period](http://hl7.org/fhir/R4/extension-organization-period.html) describes the date range that the organisation should be considered available.
+    * [Translation](https://www.hl7.org/fhir/R4/extension-translation.html) supports Welsh named organisations.
   
 ### Slices
 

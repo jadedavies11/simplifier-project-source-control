@@ -39,6 +39,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}</li>
       <li>{{pagelink:Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation, text:Example Encounter - Documented Event (Diabetes Consultation)}}</li>
       <li>{{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}</li>
     </list>
   </div>  
 </div>

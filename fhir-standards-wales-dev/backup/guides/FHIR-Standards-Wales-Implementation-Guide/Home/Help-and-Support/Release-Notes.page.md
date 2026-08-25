@@ -59,6 +59,8 @@ Package:
             * Added Extension-DataStandardsWales-SuccessorOrganization
             * .identifier slice. Added wrtsOrganizationIdentifier
             * .identifier slice gpClusterCode. To be withdrawn and updated definition
+            * .name. Reverted cardinality to match UKCore
+            * .name. Added Extension HL7 Translation
         * DataStandardsWales-Practitioner
             * Updated version from 1.1.4 to 1.2.0
             * .identifier. Added User Principal Name (UPN) slice
@@ -119,13 +121,26 @@ Package:
             * .usage. Updated from Do not use to Organization identity               
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
+        * Example-DataStandardsWales-DocumentReference-Misfiled
+        * Example-DataStandardsWales-DocumentReference-MisfileRejected
+        * Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled
         * Example-DataStandardsWales-Location-AmmanTawePartnership
         * Example-DataStandardsWales-Location-BrynammanCommunity
         * Example-DataStandardsWales-Location-MeddygfaCwmamman
+        * Example-DataStandardsWales-Task-MisfileAccepted
+        * Example-DataStandardsWales-Task-MisfileRejected
+        * Example-DataStandardsWales-Task-MisfileRequested
         * Example-DSW-OrganizationAffiliation-CC201-W00142
     * Changes to Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
+            * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+        * Example-DataStandardsWales-DocumentReference-EncounterBased
+            * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+        * Example-DataStandardsWales-DocumentReference-EventBased
+            * .versionId. Added element
+            * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+            * .docStatus. Updated to final
         * Example-DataStandardsWales-Location-CadogWard
             * Renamed display from Example Location - Cadog Ward (GGH) to Example Location - Glangwili General Hospital Cadog Ward
         * Example-DataStandardsWales-Location-GGH
@@ -175,6 +190,7 @@ Guide:
 * Added new pages to outline the Code Systems created in this release
 * Added new pages to outline the Extensions created in this release
 * Added new pages to outline the Value Sets created in this release
+* Added new pages to outline Examples created in this release, and updated example links on relevant profile pages
 * Added a new page to outline the DataStandardsWales-HealthcareService profile
 * Added a new page to outline the DataStandardsWales-OrganizationAffiliation profile
 * Added a new page to outline the DataStandardsWales-OrganizationTypeExtended value set which was created in 2.6.0
@@ -190,7 +206,6 @@ Guide:
 * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Practitioner profile page with new slice
 * Updated Example Index with new examples
-* Updated Resource Index
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
 * Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards

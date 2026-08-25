@@ -48,7 +48,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}
-* {{pagelink:Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation, text:Example Encounter - Documented Event (Diabetes Consultation)}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}
 
 ### Encounter Examples
 * {{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Example Encounter - Emergency Admission}}
@@ -204,7 +206,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics, text: Example Provenance - Demographics as recorded with care document}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provenance - Health Care Assistant Practitioner and PractitionerRole}}
 * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text: Example Provenance - Record with multiple targets e.g. for growth chart observations}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance-related HL7v2 message}}
 
 ### Questionnaire Examples
 * {{pagelink:Example-DataStandardsWales-Questionnaire-GrowthChartCondition, text: Example Questionnaire - Growth Chart Condition}}
@@ -223,4 +224,8 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Specimen-Blood, text: Example Specimen - Blood}}
 * {{pagelink:Example-DataStandardsWales-Specimen-Urine, text: Example Specimen - Urine}}
 
+### Task Examples
+* {{pagelink:Example-DataStandardsWales-Task-MisfileAccepted, text: Example Task - Misfile Accepted}}
+* {{pagelink:Example-DataStandardsWales-Task-MisfileRejected, text: Example Task - Misfile Rejected}}
+* {{pagelink:Example-DataStandardsWales-Task-MisfileRequested, text: Example Task - Misfile Requested}}
 
