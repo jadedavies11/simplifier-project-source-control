@@ -7,7 +7,7 @@
   <title value="Data Standards Wales Organization" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-07-30" />
+  <date value="2026-08-24" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -274,7 +274,47 @@
       <path value="Organization.name" />
       <definition value="A name associated with the organization (e.g. ODS name)." />
       <comment value="Organization name SHALL be populated. If the name of an organization changes, consider putting the old name in the alias column so that it can still be located through searches." />
-      <min value="1" />
+    </element>
+    <element id="Organization.name.extension">
+      <path value="Organization.name.extension" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/languages" />
+      </binding>
+    </element>
+    <element id="Organization.name.extension:welshPreferredName">
+      <path value="Organization.name.extension" />
+      <sliceName value="welshPreferredName" />
+      <short value="The Welsh translation of the organization name." />
+      <definition value="A recognised Welsh translation of the English name for the organization." />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/translation" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Organization.name.extension:welshPreferredName.extension">
+      <path value="Organization.name.extension.extension" />
+      <min value="2" />
+    </element>
+    <element id="Organization.name.extension:welshPreferredName.extension:lang">
+      <path value="Organization.name.extension.extension" />
+      <sliceName value="lang" />
+      <definition value="Within NHS Wales, the three character ISO 639-3 code should be used e.g. cym for Welsh." />
+    </element>
+    <element id="Organization.name.extension:welshPreferredName.extension:lang.value[x]">
+      <path value="Organization.name.extension.extension.value[x]" />
+      <fixedCode value="cym" />
+    </element>
+    <element id="Organization.name.extension:welshPreferredName.extension:content">
+      <path value="Organization.name.extension.extension" />
+      <sliceName value="content" />
+    </element>
+    <element id="Organization.name.extension:welshPreferredName.extension:content.value[x]">
+      <path value="Organization.name.extension.extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
     </element>
     <element id="Organization.alias.extension:aliasType">
       <path value="Organization.alias.extension" />

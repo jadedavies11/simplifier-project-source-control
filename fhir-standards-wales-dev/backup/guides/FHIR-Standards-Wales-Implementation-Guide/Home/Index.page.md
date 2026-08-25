@@ -93,7 +93,7 @@ These pages contain guidance on the following areas:
 	<tr>
 		<td class="resource"></td> 
 		<td class="status"> <a href="/ui/workflow/overview?id=1"></a></td>
-		<td class="resource">{{pagelink:DataStandardsWales-HealthcareService}}  </td> 
+		<td class="resource">{{pagelink:DataStandardsWales-Condition}}  </td> 
 		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
 		<td class="resource">{{pagelink:DataStandardsWales-ServiceRequest}}  </td> 
 	    <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
@@ -111,8 +111,10 @@ These pages contain guidance on the following areas:
 	  <td class="status"> <a href="/ui/workflow/overview?id=1"></a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-Endpoint}}  </td>
 	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+	  <td class="resource">{{pagelink:DataStandardsWales-HealthcareService}}  </td> 
+	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
 	</tr>
-	<tr>
+		<tr>
 	  <td class="resource"></td> 
 	  <td class="status"> <a href="/ui/workflow/overview?id=1"></a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-OrganizationAffiliation}}  </td>
@@ -190,8 +192,6 @@ These pages contain guidance on the following areas:
 	  <td class="resource">{{pagelink:DataStandardsWales-ImagingStudy}}  </td>
 	  <td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
 	</tr>
-		<td class="resource">{{pagelink:DataStandardsWales-Condition}}  </td> 
-		<td class="status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
   </tbody>
 </table>
 
