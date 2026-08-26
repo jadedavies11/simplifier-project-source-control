@@ -1,42 +1,43 @@
 <Location xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Location-AmmanTawePartnership" />
-    <meta>
-        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-    </meta>
-    <text>
-        <status value="generated" />
-        <div xmlns="http://www.w3.org/1999/xhtml">Amman Tawe Partnership</div>
-    </text>
+	<id value="Example-DataStandardsWales-Location-AmmanTawePartnership"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location"/>
+	</meta>
 	<identifier>
-        <system value="https://fhir.nhs.uk/Id/ods-site-code" />
-        <value value="W00142" />
-    </identifier>
-    <identifier>
-        <system value="https://fhir.nhs.wales/Id/wrts-location-identifier" />
-        <value value="W00142" />
-    </identifier>
-    <status value="active" />
-	<name value="Amman Tawe Partnership" >
-        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+		<system value="https://fhir.nhs.uk/Id/ods-site-code"/>
+		<value value="W00142"/>
+	</identifier>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/wrts-location-identifier"/>
+		<value value="W00142"/>
+	</identifier>
+	<status value="active"/>
+	<name value="Amman Tawe Partnership">
+		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-                <valueCode value="cym"/>  
+				<valueCode value="cym"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Partneriaeth Amman Tawe"/>
 			</extension>
-        </extension>
-    </name>
-	<alias value="Graig Road Surgery">
-        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-            <valueCodeableConcept>
-                <coding>
-                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
-                    <code value="preferred-name"/>
-                    <display value="Preferred name"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
-    </alias>
+		</extension>
+	</name>
+	<alias value="Amman Tawe Partnership">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name"/>
+		</extension>
+	</alias>
+	<alias value="Partneriaeth Amman Tawe">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name-welsh"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name-welsh"/>
+		</extension>
+	</alias>
 	<type>
 		<coding>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationTypeCategory"/>
@@ -52,29 +53,36 @@
 		</coding>
 	</type>
 	<address>
-        <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey">
-            <valueCodeableConcept>
-                <coding> 
-                    <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-AddressKeyType"/>
-                    <code value="UPRN"/>
-                    <display value="10009186269"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
+		<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey">
+			<extension url="type">
+				<valueCodeableConcept>
+					<coding>
+						<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-AddressKeyType"/>
+						<code value="UPRN"/>
+						<display value="Unique Property Reference Number"/>
+					</coding>
+				</valueCodeableConcept>
+			</extension>
+			<extension url="value">
+				<valueString value="10009186269"/>
+			</extension>
+		</extension>		
 		<line value="Graig Road Surgery"/>
 		<line value="Gwaun Cae Gurwen"/>
-        <city value="Ammanford"/>
-        <postalCode value="SA18 1EG"/>
-	</address>		
+		<city value="Ammanford"/>
+		<district value="Carmarthenshire"/>
+		<postalCode value="SA18 1EG"/>
+		<country value="Wales"/>
+	</address>
 	<physicalType>
 		<coding>
-			<system value="http://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
 			<code value="si"/>
 			<display value="Site"/>
 		</coding>
 	</physicalType>
-    <managingOrganization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe" />
-        <display value="Amman Tawe Partnership" />
-    </managingOrganization>
+	<managingOrganization>
+		<reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe"/>
+		<display value="Amman Tawe Partnership"/>
+	</managingOrganization>
 </Location>

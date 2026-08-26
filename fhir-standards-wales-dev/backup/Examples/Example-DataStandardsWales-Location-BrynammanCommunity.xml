@@ -1,28 +1,34 @@
 <Location xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Location-BrynammanCommunity" />
-    <meta>
-        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-    </meta>
-    <text>
-        <status value="generated" />
-        <div xmlns="http://www.w3.org/1999/xhtml">Brynamman Community</div>
-    </text>
-    <identifier>
-        <use value="official" />
-        <system value="https://fhir.nhs.wales/Id/wrts-location-identifier" />
-        <value value="W00142b" />
-    </identifier>
-    <status value="active" />
-	<name value="Brynamman Community" >
-        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+	<id value="Example-DataStandardsWales-Location-BrynammanCommunity"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location"/>
+	</meta>
+	<identifier>
+		<use value="official"/>
+		<system value="https://fhir.nhs.wales/Id/wrts-location-identifier"/>
+		<value value="W00142b"/>
+	</identifier>
+	<status value="active"/>
+	<name value="Brynamman Community">
+		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-                <valueCode value="cym"/>  
+				<valueCode value="cym"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Partneriaeth Aman Tawe - Meddygfa Brynaman"/>
 			</extension>
-        </extension>
-    </name>
+		</extension>
+	</name>
+	<alias value="Brynamman Community">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name"/>
+		</extension>
+	</alias>
+	<alias value="Partneriaeth Aman Tawe - Meddygfa Brynaman">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name-welsh"/>
+		</extension>
+	</alias>
 	<type>
 		<coding>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationTypeCategory"/>
@@ -38,29 +44,36 @@
 		</coding>
 	</type>
 	<address>
-        <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey">
-            <valueCodeableConcept>
-                <coding> 
-                    <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-AddressKeyType"/>
-                    <code value="UPRN"/>
-                    <display value="10090701275"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
+		<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey">
+			<extension url="type">
+				<valueCodeableConcept>
+					<coding>
+						<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-AddressKeyType"/>
+						<code value="UPRN"/>
+						<display value="Unique Property Reference Number"/>
+					</coding>
+				</valueCodeableConcept>
+			</extension>
+			<extension url="value">
+				<valueString value="10090701275"/>
+			</extension>
+		</extension>				
 		<line value="Cwmgarw Road"/>
 		<line value="Bynamman"/>
-        <city value="Ammanford"/>
-        <postalCode value="SA18 1BU"/>
-	</address>		
+		<city value="Ammanford"/>
+		<district value="Carmarthenshire"/>		
+		<postalCode value="SA18 1BU"/>
+		<country value="Wales"/>
+	</address>
 	<physicalType>
 		<coding>
-			<system value="http://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
 			<code value="si"/>
 			<display value="Site"/>
 		</coding>
 	</physicalType>
-    <managingOrganization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe" />
-        <display value="Amman Tawe Partnership" />
-    </managingOrganization>
+	<managingOrganization>
+		<reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe"/>
+		<display value="Amman Tawe Partnership"/>
+	</managingOrganization>
 </Location>

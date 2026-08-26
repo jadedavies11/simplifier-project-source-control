@@ -1,25 +1,69 @@
 <Location xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Location-GGH" />
-    <meta>
-        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-    </meta>
-    <text>
-        <status value="generated" />
-        <div xmlns="http://www.w3.org/1999/xhtml">Glangwili General Hospital</div>
-    </text>      
-    <identifier>
-        <system value="https://fhir.nhs.wales/Id/wrts-location-identifier" />
-        <value value="7A2AG" />
-    </identifier>
-    <name value="Glangwili General Hospital" />
+	<id value="Example-DataStandardsWales-Location-GGH"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location"/>
+	</meta>
+	<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference">
+		<extension url="northings">
+			<valueCode value="221240"/>
+		</extension>
+		<extension url="eastings">
+			<valueCode value="242791"/>
+		</extension>
+	</extension>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/wrts-location-identifier"/>
+		<value value="7A2AG"/>
+	</identifier>
+	<status value="active"/>
+	<name value="Glangwili General Hospital"/>
+		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+			<extension url="lang">
+				<valueCode value="cym"/>
+			</extension>
+			<extension url="content">
+				<valueString value="Ysbyty Glangwili"/>
+			</extension>
+		</extension>
+	<alias value="Glangwili General Hospital">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">	
+			<valueCode value="official-name"/>	
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name"/>
+		</extension>
+	</alias>	
+	<alias value="Ysbyty Glangwili">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name-welsh"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name-welsh"/>
+		</extension>
+	</alias>
+	<type>
+		<coding>
+			<system value="http://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationType"/>
+			<code value="hospital"/>
+			<display value="Hospital"/>
+		</coding>
+	</type>
 	<address>
 		<line value="Dolgwili Road"/>
 		<city value="Carmarthen"/>
-		<district value="Dyfed"/>
+		<district value="Carmarthenshire"/>		
 		<postalCode value="SA31 2AF"/>
+		<country value="Wales"/>
 	</address>
-    <managingOrganization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-GGH" />
-        <display value="Glangwili General Hospital" />
-    </managingOrganization>
+	<physicalType>
+		<coding>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="si"/>
+			<display value="Site"/>
+		</coding>
+	</physicalType>
+	<managingOrganization>
+		<reference value="Organization/Example-DataStandardsWales-Organization-GGH"/>
+		<display value="Glangwili General Hospital"/>
+	</managingOrganization>
 </Location>
