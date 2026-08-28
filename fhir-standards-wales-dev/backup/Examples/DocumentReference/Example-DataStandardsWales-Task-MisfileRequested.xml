@@ -1,8 +1,9 @@
 <Task xmlns="http://hl7.org/fhir">
     <id value="Example-DataStandardsWales-Task-MisfileRequested"/>
     <meta>
-		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Task"/>
-	</meta>
+        <versionId value="1" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Task"/>
+    </meta>
     <status value="requested"/>
     <intent value="proposal"/>
     <code>

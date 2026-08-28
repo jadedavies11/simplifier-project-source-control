@@ -1,6 +1,4 @@
-## Example Location - Meddygfa Cwmamman GP Surgery
-
-This example represents a Location resource for one of the branch surgeries of the Amman Tawe Partnership GP Practice.
+## Example Organization - South Central Wales Region
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,19 +20,19 @@ This example represents a Location resource for one of the branch surgeries of t
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Location-MeddygfaCwmamman}}
+      {{tree:Example-DataStandardsWales-Organization-Region-SouthCentral}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Location-MeddygfaCwmamman}}
+      {{table:Example-DataStandardsWales-Organization-Region-SouthCentral}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Location-MeddygfaCwmamman}}
+      {{xml:Example-DataStandardsWales-Organization-Region-SouthCentral}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Location-MeddygfaCwmamman}}
+      {{json:Example-DataStandardsWales-Organization-Region-SouthCentral}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Location-MeddygfaCwmamman}}
+      {{narrative:Example-DataStandardsWales-Organization-Region-SouthCentral}}
     </div>  
   </div>
 </div>

@@ -48,7 +48,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}
-* {{pagelink:Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation, text:Example Encounter - Documented Event (Diabetes Consultation)}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}
 
 ### Encounter Examples
 * {{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Example Encounter - Emergency Admission}}
@@ -158,20 +160,22 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-Weight, text: Example Observation - Vital Signs - Weight}}
 
 ### Organization Examples
+* {{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text:Example Organization - Amman Gwendraeth Cluster}}
+* {{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}
 * {{pagelink:Example-DataStandardsWales-Organization-CAVUHB, text: Example Organization - Cardiff and Vale University Local Health Board}}
+* {{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text:Example Organization - Cardiff North Cluster}}
+* {{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
 * {{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}
+* {{pagelink:Example-DataStandardsWales-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}
+* {{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}
+* {{pagelink:Example-DataStandardsWales-Organization-NCMC, text:Example Organization - North Cardiff Medical Centre}}
+* {{pagelink:Example-DataStandardsWales-Organization-Region-SouthCentral, text:Example Organization - South Central Wales Region}}
 * {{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}
 * {{pagelink:Example-DataStandardsWales-Organization-UHW, text: Example Organization - University Hospital of Wales}}
-* {{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
-* {{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}
-* {{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text:Example Organization - Cardiff North Cluster}}
-* {{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text:Example Organization - Amman Gwendraeth Cluster}}
-* {{pagelink:Example-DataStandardsWales-Organization-NCMC, text:Example Organization - North Cardiff Medical Centre}}
-* {{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}
-* {{pagelink:Example-DataStandardsWales-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}
 
 ### OrganizationAffiliation Examples
 * {{pagelink:Example-DSW-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}
+* {{pagelink:Example-DSW-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}
 
 ### Patient Examples
 * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
@@ -204,7 +208,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics, text: Example Provenance - Demographics as recorded with care document}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provenance - Health Care Assistant Practitioner and PractitionerRole}}
 * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text: Example Provenance - Record with multiple targets e.g. for growth chart observations}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-Provenance, text: Example Document Reference - Provenance-related HL7v2 message}}
 
 ### Questionnaire Examples
 * {{pagelink:Example-DataStandardsWales-Questionnaire-GrowthChartCondition, text: Example Questionnaire - Growth Chart Condition}}
@@ -223,4 +226,8 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Specimen-Blood, text: Example Specimen - Blood}}
 * {{pagelink:Example-DataStandardsWales-Specimen-Urine, text: Example Specimen - Urine}}
 
+### Task Examples
+* {{pagelink:Example-DataStandardsWales-Task-MisfileAccepted, text: Example Task - Misfile Accepted}}
+* {{pagelink:Example-DataStandardsWales-Task-MisfileRejected, text: Example Task - Misfile Rejected}}
+* {{pagelink:Example-DataStandardsWales-Task-MisfileRequested, text: Example Task - Misfile Requested}}
 

@@ -16,7 +16,7 @@
 		<value value="7A2AG"/>
 	</identifier>
 	<status value="active"/>
-	<name value="Glangwili General Hospital"/>
+	<name value="Glangwili General Hospital">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
 				<valueCode value="cym"/>
@@ -25,6 +25,7 @@
 				<valueString value="Ysbyty Glangwili"/>
 			</extension>
 		</extension>
+	</name>	
 	<alias value="Glangwili General Hospital">
 		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">	
 			<valueCode value="official-name"/>	
