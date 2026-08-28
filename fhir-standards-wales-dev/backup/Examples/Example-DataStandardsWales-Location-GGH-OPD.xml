@@ -28,7 +28,7 @@
 	<physicalType>
 		<coding>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
-			<code value="clinical-area                         "/>
+			<code value="clinical-area"/>
 			<display value="Clinical area"/>
 		</coding>
 	</physicalType>

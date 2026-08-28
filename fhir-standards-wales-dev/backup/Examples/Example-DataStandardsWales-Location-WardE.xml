@@ -33,11 +33,11 @@
 		</coding>
 	</physicalType>
 	<managingOrganization>
+		<reference value="Organization/Example-DataStandardsWales-Organization-NPT"/>
 		<identifier>
 			<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier"/>
 			<value value="6013-example"/>
-		</identifier>
-		<reference value="Organization/Example-DataStandardsWales-Organization-NPT"/>
+		</identifier>		
 		<display value="Neath Port Talbot Hospital"/>
 	</managingOrganization>
 </Location>

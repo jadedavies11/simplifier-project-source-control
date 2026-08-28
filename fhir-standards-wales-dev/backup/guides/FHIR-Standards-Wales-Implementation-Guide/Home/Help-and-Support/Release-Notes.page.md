@@ -33,9 +33,12 @@ Package:
     * Removed Message Definitions
     * Removed Extensions
     * Changes to Profiles
+        * DataStandardsWales-Appointment
+            * Updated version from 1.2.1 to 1.2.2
+            * .participant.actor. Updated reference from HL7 HealthcareService to DataStandardsWales-HealthcareService
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.2.1 to 0.3.0
-            * .basedOn. Updated reference from HL7 Task to Data Standards Wales Task
+            * .basedOn. Updated reference from HL7 Task to DataStandardsWales-Task
         * DataStandardsWales-Location
             * Updated version from 1.1.2 to 1.2.0
             * Added Extension-DataStandardsWales-GridReference
@@ -61,13 +64,22 @@ Package:
             * .identifier slice gpClusterCode. To be withdrawn and updated definition
             * .name. Reverted cardinality to match UKCore
             * .name. Added Extension HL7 Translation
+            * .address. Added Extension HL7 Language
         * DataStandardsWales-Practitioner
             * Updated version from 1.1.4 to 1.2.0
             * .identifier. Added User Principal Name (UPN) slice
+        * DataStandardsWales-PractitionerRole
+            * Updated version from 1.1.3 to 1.1.4
+            * .healthcareService. Updated reference from HL7 HealthcareService to DataStandardsWales-HealthcareService
+        * DataStandardsWales-ServiceRequest
+            * Updated version from 1.1.1 to 1.1.2
+            * .performer. Updated reference from UKCore-HealthcareService to DataStandardsWales-HealthcareService
     * Changes to Message Definitions
     * Changes to Extensions
         * Extension-DataStandardsWales-AliasType
             * Updated version from 0.1.0 to 0.2.0
+            * Updated DataType from CodeableConcept to Code
+            * Updated Binding Strength from Preferred to Extensible
             * .context. Additional entry added for Location.alias element
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Code Systems
@@ -108,32 +120,102 @@ Package:
         * All Naming Systems reformatted to 'pretty print' for readability and consistency.
         * DataStandardsWales-Application-Instance-Identifier
             * .usage. Updated from Patient Identity to Issuing authority
+        * DataStandardsWales-ABUHB-PAS-Sub-Specialty-Identifier
+            * .name. Updated to ABUHBPASSubSpecialtyIdentifier
+        * DataStandardsWales-BCUHB-PAS-Identifier
+            * filename. Renamed to NamingSystem-BCUHB-pas-identifier
+            * .id. Updated to DataStandardsWales-BCUHB-PAS-PatientIdentifier
+            * .name. Updated to BCUHBPASPatientIdentifier
+        * DataStandardsWales-BCUHB-PAS-PractitionerIdentifier	
+            * filename. Renamed to NamingSystem-BCUHB-pas-practitioner-identifier
+        * DataStandardsWales-BCUHB-PAS-Sub-Specialty-Identifier
+            * .name. Updated to BCUHBPASSubSpecialtyIdentifier
+        * DataStandardsWales-CAVUHB-PAS-Identifier
+            * .id. Updated to DataStandardsWales-CAVUHB-PAS-PatientIdentifier
+            * .name. Updated to CAVUHBPASPatientIdentifier
         * DataStandardsWales-CAVUHB-PAS-LocationIdentifier
             * .responsible. Updated from NHS Wales to Cardiff and Vale University Health Board
+        * DataStandardsWales-CAVUHB-PAS-Sub-Specialty-Identifier
+            * .name. Updated to CAVUHBPASSubSpecialtyIdentifier
+        * DataStandardsWales-CTMUHB-PAS-Identifier
+            * .id. Updated to DataStandardsWales-CTMUHB-PAS-PatientIdentifier
+            * .name. Updated to CTMUHBPASPatientIdentifier
+        * DataStandardsWales-CTMUHB-PAS-Sub-Specialty-Identifier
+            * .name. Updated to CTMUHBPASSubSpecialtyIdentifier
         * DataStandardsWales-GPCluster-Code
             * Deprecated Naming System. Use DataStandardsWales-WRTS-Cluster-Code instead.
+        * DataStandardsWales-HDUHB-PAS-Identifier
+            * .id. Updated to DataStandardsWales-HDUHB-PAS-PatientIdentifier
+            * .name. Updated to HDUHBPASPatientIdentifier
+        * DataStandardsWales-HDUHB-PAS-Sub-Specialty-Identifier
+            * .name. Updated to HDUHBPASSubSpecialtyIdentifier
         * DataStandardsWales-LIMS-identifier  
-            * .usage. Updated from LIMS identity to Patient identity   
+            * .usage. Updated from LIMS identity to Patient identity
+        * NHSWales-LIMS-TCL-Report
+            * filename. Renamed to NamingSystem-LIMS-TCL-report-identifier
+        * NHSWales-LIMS-TCL-Report-Code
+            * filename. Renamed to NamingSystem-LIMS-TCL-report-code-identifier
+        * NHSWales-LIMS-TCLe-Report
+            * filename. Renamed to NamingSystem-LIMS-TCLe-report-identifier
+        * NHSWales-LIMS-TCLe-Report-Code
+            * filename. Renamed to NamingSystem-LIMS-TCLe-report-code-identifier
         * DataStandardsWales-NADEX-identifier  
             * .usage. Updated from Organization identity to Practitioner identity 
-        * DataStandardsWales-WRTS-Organization-identifier    
+        * DataStandardsWales-PTHB-PAS-Identifier
+            * .id. Updated to DataStandardsWales-PTHB-PAS-PatientIdentifier
+            * .name. Updated to PTHBPASPatientIdentifier
+        * DataStandardsWales-PTHB-PAS-Sub-Specialty-Identifier
+            * .name. Updated to PTHBPASSubSpecialtyIdentifier
+        * DataStandardsWales-SBUHB-PAS-Identifier
+            * .id. Updated to DataStandardsWales-SBUHB-PAS-PatientIdentifier
+            * .name. Updated to SBUHBPASPatientIdentifier
+        * DataStandardsWales-SBUHB-PAS-Sub-Specialty-Identifier
+            * .name. Updated to SBUHBPASSubSpecialtyIdentifier
+        * DataStandardsWales-VUNHST-Canisc-Identifier
+            * .id. Updated to DataStandardsWales-VUNHST-Canisc-PatientIdentifier
+            * .name. Updated to VUNHSTCaniscPatientIdentifier
+        * DataStandardsWales-VUNHST-PAS-Identifier
+            * .id. Updated to DataStandardsWales-VUNHST-PAS-PatientIdentifier
+            * .name. Updated to VUNHSTPASPatientIdentifier
+        * DataStandardsWales-VUNHST-PAS-Sub-Specialty-Identifier
+            * .name. Updated to VUNHSTPASSubSpecialtyIdentifier
+        * DataStandardsWales-WRTS-Cluster-Code
+            * Removed UTF Encoding statement
+        * DataStandardsWales-WRTS-Organization-identifier
             * Re-enabled Naming System
-            * .usage. Updated from Do not use to Organization identity               
+            * .usage. Updated from Do not use to Organization identity
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
+        * Example-DataStandardsWales-DocumentReference-Misfiled
+        * Example-DataStandardsWales-DocumentReference-MisfileRejected
+        * Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled
         * Example-DataStandardsWales-Location-AmmanTawePartnership
         * Example-DataStandardsWales-Location-BrynammanCommunity
         * Example-DataStandardsWales-Location-MeddygfaCwmamman
+        * Example-DataStandardsWales-Task-MisfileAccepted
+        * Example-DataStandardsWales-Task-MisfileRejected
+        * Example-DataStandardsWales-Task-MisfileRequested
+        * Example-DataStandardsWales-Organization-Region-SouthCentral
         * Example-DSW-OrganizationAffiliation-CC201-W00142
+        * Example-DSW-OrganizationAffiliation-R3D8C-7A3
     * Changes to Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
-        * Example-DataStandardsWales-Location-CadogWard
-            * Example Index. Renamed display from Example Location - Cadog Ward (GGH) to Example Location - Glangwili General Hospital Cadog Ward
+            * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+        * Example-DataStandardsWales-DocumentReference-EncounterBased
+            * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+        * Example-DataStandardsWales-DocumentReference-EventBased
+            * .versionId. Added element
+            * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+            * .docStatus. Updated to final
+        * Example-DataStandardsWales-Location-CadogWard            
+            * .text. Removed
             * .status. Updated to Active
             * .type. Added content for Clinical areas and Ward
             * .physicalType. Added content for Ward
+            * .managingOrganization.reference. Updated to Organization/Example-DataStandardsWales-Organization-GGH
         * Example-DataStandardsWales-Location-GGH
+            * .text. Removed
             * .extension.gridReference. Added extension
             * .status. Updated to Active 
             * .extension.welshPreferredName. Added extension
@@ -141,21 +223,27 @@ Package:
             * .type. Added content for Hospital
             * .address.city. Added content for Carmarthenshire
             * .address.country. Added content for Wales
-            * .physicalType. Added content for Site
-        * Example-DataStandardsWales-Location-GGH-OPD
-            * Example Index. Renamed display from Example Location - Outpatients Department (GGH) to Example Location - Glangwili General Hospital Outpatients Department
+            * .physicalType. Added content for Site            
+        * Example-DataStandardsWales-Location-GGH-OPD 
+            * .text. Removed
             * .type. Added content for Clinical areas and Outpatients clinic
             * .physicalType. Added content for Clinical area
-        * Example-DataStandardsWales-Location-WardE
-            * Example Index. Renamed display from Example Location - Ward E (NPT) to Example Location - Neath Port Talbot Hospital Ward E
+        * Example-DataStandardsWales-Location-WardE 
+            * .text. Removed
             * .type. Added content for Clinical areas and Ward
             * .physicalType. Added content for Ward
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
+            * .text. Removed
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-AmmanTawe
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .text. Removed
+            * .name. Added HL7 Translation extension
+            * .alias. Added Welsh aliases
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf. Replaced Reference to Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth (cluster)
                 * .partOf.reference. Updated to Organization/Example-DataStandardsWales-Organization-HDUHB
                 * .partOf.display. Updated to Hywel Dda University Local Health Board
@@ -163,27 +251,66 @@ Package:
         * Example-DataStandardsWales-Organization-CardiffNorth
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
+            * .text. Removed
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-CAVUHB
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .text. Removed
+            * .name. Added HL7 Translation extension
+            * .alias. Added Welsh aliases
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
         * Example-DataStandardsWales-Organization-GGH
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .text. Removed
+            * .name. Added HL7 Translation extension
+            * .alias. Added Welsh aliases
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-HDUHB
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .text. Removed
+            * .name. Added HL7 Translation extension
+            * .alias. Added Welsh aliases
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
+        * Example-DataStandardsWales-Organization-MedicalInsurer
+            *.text. Removed
         * Example-DataStandardsWales-Organization-NCMC
             * identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .text. Removed
+            * .name. Added HL7 Translation extension
+            * .alias. Added Welsh aliases
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf. Replaced Reference to Organization/Example-DataStandardsWales-Organization-CardiffNorth (cluster)
-                * .partOf.reference. Updated to Example-DataStandardsWales-Organization-CAVUHB
+                * .partOf.reference. Updated to Organization/Example-DataStandardsWales-Organization-CAVUHB
                 * .partOf.display. Updated to Cardiff and Vale University Local Health Board
                 * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-NPT
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .text. Removed
+            * .name. Added HL7 Translation extension
+            * .alias. Added Welsh aliases
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-SBUHB
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .text. Removed
+            * .name. Added HL7 Translation extension
+            * .alias. Added Welsh aliases
+            * .alias. Removed display
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
         * Example-DataStandardsWales-Organization-UHW
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
+            * .text. Removed
+            * .name. Added HL7 Translation extension
+            * .alias. Added Welsh aliases
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf.identifier. Removed
     * Removed Examples
 
@@ -191,8 +318,10 @@ Guide:
 
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
 * Added new pages to outline the Code Systems created in this release
+* Added new pages to outline the Examples created in this release
 * Added new pages to outline the Extensions created in this release
 * Added new pages to outline the Value Sets created in this release
+* Added new pages to outline Examples created in this release, and updated example links on relevant profile pages
 * Added a new page to outline the DataStandardsWales-HealthcareService profile
 * Added a new page to outline the DataStandardsWales-OrganizationAffiliation profile
 * Added a new page to outline the DataStandardsWales-OrganizationTypeExtended value set which was created in 2.6.0
@@ -207,7 +336,11 @@ Guide:
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Practitioner profile page with new slice
-* Updated Example Index with new examples
+* Updated Example Index:
+    * With new examples
+    * Renamed display from Example Location - Cadog Ward (GGH) to Example Location - Glangwili General Hospital Cadog WardUpdated 
+    * Renamed display from Example Location - Outpatients Department (GGH) to Example Location - Glangwili General Hospital Outpatients Department
+    * Renamed display from Example Location - Ward E (NPT) to Example Location - Neath Port Talbot Hospital Ward E
 * Updated Resource Index by relocating DataStandardWales-Condition from Entities to Diagnostics
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
 * Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias
