@@ -8,10 +8,10 @@
   filename: Example-DataStandardsWales-AuditEvent-CreateObservations.page.md
 - name: Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR
   filename: Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR.page.md
-- name: Example-DataStandardsWales-Bundle-SubmitClinician-Literal
-  filename: Example-DataStandardsWales-Bundle-SubmitClinician-Literal.page.md
-- name: Example-DataStandardsWales-Bundle-SubmitClinician-Logical
-  filename: Example-DataStandardsWales-Bundle-SubmitClinician-Logical.page.md
+- name: Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
+  filename: Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal.page.md
+- name: Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical
+  filename: Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
@@ -30,6 +30,8 @@
   filename: Example-DataStandardsWales-DocumentReference-NotEventBased.page.md
 - name: Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled
   filename: Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled.page.md
+- name: Example-DataStandardsWales-DocumentReference-Revoked
+  filename: Example-DataStandardsWales-DocumentReference-Revoked.page.md
 - name: Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation
   filename: Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation.page.md
 - name: Example-DataStandardsWales-Encounter-EmergencyAdmission
@@ -50,8 +52,8 @@
   filename: Example-DataStandardsWales-Location-MeddygfaCwmamman.page.md
 - name: Example-DataStandardsWales-Location-WardE
   filename: Example-DataStandardsWales-Location-WardE.page.md
-- name: Example-DataStandardsWales-MessageDefinition-SubmitClinician
-  filename: Example-DataStandardsWales-MessageDefinition-SubmitClinician.page.md
+- name: Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
+  filename: Example-DataStandardsWales-MessageDefinition-ClinicianSubmit.page.md
 - name: Example-DataStandardsWales-Observation-ACVPU
   filename: Example-DataStandardsWales-Observation-ACVPU.page.md
 - name: Example-DataStandardsWales-Observation-BloodPressure
@@ -90,10 +92,10 @@
   filename: Example-DataStandardsWales-Organization-UHW.page.md
 - name: Example-DataStandardsWales-Organization-UHW
   filename: Example-DataStandardsWales-Organization-UHW.page.md
-- name: Example-DSW-OrganizationAffiliation-R3D8C-7A3
-  filename: Example-DSW-OrganizationAffiliation-R3D8C-7A3.page.md
-- name: Example-DSW-OrganizationAffiliation-CC201-W00142
-  filename: Example-DSW-OrganizationAffiliation-CC201-W00142.page.md
+- name: Example-DataStandardsWales-OrganizationAffiliation-R3D8C-7A3
+  filename: Example-DataStandardsWales-OrganizationAffiliation-R3D8C-7A3.page.md
+- name: Example-DataStandardsWales-OrganizationAffiliation-CC201-W00142
+  filename: Example-DataStandardsWales-OrganizationAffiliation-CC201-W00142.page.md
 - name: Example-DataStandardsWales-Patient-AliceJones
   filename: Example-DataStandardsWales-Patient-AliceJones.page.md
 - name: Example-DataStandardsWales-Patient-HaroldJames

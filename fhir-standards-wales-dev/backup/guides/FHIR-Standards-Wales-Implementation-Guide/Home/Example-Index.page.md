@@ -51,6 +51,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}
 * {{pagelink:Example-DataStandardsWales-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}
+* {{pagelink:Example-DataStandardsWales-DocumentReference-Revoked, text: Example Document Reference - Revoked}}
 
 ### Encounter Examples
 * {{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Example Encounter - Emergency Admission}}
@@ -136,14 +137,14 @@ The following examples are published with this guide and all available as a down
 
 ### Message Bundle Examples
 * {{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Literal, text:Example Message Bundle - Submit Clinician (with Literal Referencing)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-SubmitClinician-Logical, text:Example Message Bundle - Submit Clinician (with Logical Referencing)}}
+* {{pagelink:Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal, text:Example Message Bundle - Clinician Submit (with Literal Referencing)}}
+* {{pagelink:Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical, text:Example Message Bundle - Clinician Submit (with Logical Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI, text: Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI, text: Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)}}
 
 ### Message Definition Examples
-* {{pagelink:Example-DataStandardsWales-MessageDefinition-SubmitClinician, text:Example Message Definition - Submit Clinician (PractitionerRole)}}
+* {{pagelink:Example-DataStandardsWales-MessageDefinition-ClinicianSubmit, text:Example Message Definition - Clinician Submit (PractitionerRole)}}
 
 ### Observation Examples
 * {{pagelink:Example-DataStandardsWales-Observation-ACVPU, text: Example Observation - ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
@@ -174,8 +175,8 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Organization-UHW, text: Example Organization - University Hospital of Wales}}
 
 ### OrganizationAffiliation Examples
-* {{pagelink:Example-DSW-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}
-* {{pagelink:Example-DSW-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}
+* {{pagelink:Example-DataStandardsWales-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}
+* {{pagelink:Example-DataStandardsWales-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}
 
 ### Patient Examples
 * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}

@@ -3,10 +3,6 @@
     <meta>
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-OrganizationAffiliation"/>
     </meta>
-    <text>
-        <status value="generated"/>
-        <div xmlns="http://www.w3.org/1999/xhtml">Cluster Affiliation Amman Gwendraeth - Amman Tawe Partnership</div>
-    </text>    
     <identifier>
         <system value="https://fhir.nhs.wales/Id/wrts-affiliation-identifier"/>
         <value value="CC201-W00142"/>

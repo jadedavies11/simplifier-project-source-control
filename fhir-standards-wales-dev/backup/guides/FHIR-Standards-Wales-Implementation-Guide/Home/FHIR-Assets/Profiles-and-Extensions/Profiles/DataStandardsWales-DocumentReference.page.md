@@ -42,6 +42,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}</li>
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}</li>
       <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Revoked, text: Example Document Reference - Revoked}}</li>
     </list>
   </div>  
 </div>

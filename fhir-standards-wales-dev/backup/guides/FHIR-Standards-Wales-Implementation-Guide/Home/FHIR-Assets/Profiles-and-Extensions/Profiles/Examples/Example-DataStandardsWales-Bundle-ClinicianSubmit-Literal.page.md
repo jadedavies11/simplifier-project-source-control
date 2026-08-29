@@ -1,6 +1,6 @@
 <div class="warning"><span class="DevWarn"></span></div>
 
-## Example Message Bundle - Submit Clinician (with Logical Referencing)
+## Example Message Bundle - Clinician Submit (with Literal Referencing)
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,16 +22,16 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Bundle-SubmitClinician-Logical}}
+      {{tree:Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Bundle-SubmitClinician-Logical}}
+      {{table:Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Bundle-SubmitClinician-Logical}}
+      {{xml:Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Bundle-SubmitClinician-Logical}}
+      {{json:Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal}}
     </div>
   </div>
 </div>
