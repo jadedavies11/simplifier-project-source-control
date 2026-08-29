@@ -340,11 +340,11 @@
       <sliceName value="addressLanguage" />
       <short value="The language used for the organization address" />
       <definition value="The language used for the organization address. Supports recording of the organization address in multiple languages. Within NHS Wales, the three character ISO 639-3 code should be used where possible e.g. &quot;eng&quot; for English, &quot;cym&quot; for Welsh." />
+      <min value="0"/>
+      <max value="1"/>
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/language|5.2.0" />
-        <min value="0"/>
-        <max value="1"/>
       </type>
       <isModifier value="false" />
     </element>

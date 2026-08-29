@@ -189,19 +189,30 @@ Package:
         * Example-DataStandardsWales-DocumentReference-Misfiled
         * Example-DataStandardsWales-DocumentReference-MisfileRejected
         * Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled
+        * Example-DataStandardsWales-DocumentReference-Revoked
         * Example-DataStandardsWales-Location-AmmanTawePartnership
         * Example-DataStandardsWales-Location-BrynammanCommunity
         * Example-DataStandardsWales-Location-MeddygfaCwmamman
+        * Example-DataStandardsWales-Organization-Region-SouthCentral
         * Example-DataStandardsWales-Task-MisfileAccepted
         * Example-DataStandardsWales-Task-MisfileRejected
         * Example-DataStandardsWales-Task-MisfileRequested
-        * Example-DataStandardsWales-Organization-Region-SouthCentral
         * Example-DSW-OrganizationAffiliation-CC201-W00142
         * Example-DSW-OrganizationAffiliation-R3D8C-7A3
     * Changes to Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+        * Example-DataStandardsWales-Bundle-SubmitClinician-Literal
+            * Renamed to Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
+            * .focus.definition. Updated to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
+            * eventCoding.code. Updated to clinician-submit from submit-clinician
+            * eventCoding.display. Updated to Clinician submit from Submit clinician
+        * Example-DataStandardsWales-Bundle-SubmitClinician-Logical
+            * Renamed to Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical
+            * .focus.definition. Updated to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
+            * eventCoding.code. Updated to clinician-submit from submit-clinician
+            * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-DocumentReference-EncounterBased
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
         * Example-DataStandardsWales-DocumentReference-EventBased
@@ -232,6 +243,10 @@ Package:
             * .text. Removed
             * .type. Added content for Clinical areas and Ward
             * .physicalType. Added content for Ward
+        * Example-DataStandardsWales-MessageDefinition-SubmitClinician
+            * Renamed to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
+            * eventCoding.code. Updated to clinician-submit from submit-clinician
+            * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
@@ -261,6 +276,7 @@ Package:
             * .address. Added HL7 Language extension
             * .address. Added Welsh address
         * Example-DataStandardsWales-Organization-GGH
+            * Added mainLocation extension content referencing Location/Example-DataStandardsWales-Location-GGH
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
             * .name. Added HL7 Translation extension
@@ -318,10 +334,9 @@ Guide:
 
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
 * Added new pages to outline the Code Systems created in this release
-* Added new pages to outline the Examples created in this release
+* Added new pages to outline the Examples created in this release, and updated example links on relevant profile pages
 * Added new pages to outline the Extensions created in this release
 * Added new pages to outline the Value Sets created in this release
-* Added new pages to outline Examples created in this release, and updated example links on relevant profile pages
 * Added a new page to outline the DataStandardsWales-HealthcareService profile
 * Added a new page to outline the DataStandardsWales-OrganizationAffiliation profile
 * Added a new page to outline the DataStandardsWales-OrganizationTypeExtended value set which was created in 2.6.0
@@ -336,11 +351,16 @@ Guide:
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Practitioner profile page with new slice
-* Updated Example Index:
-    * With new examples
-    * Renamed display from Example Location - Cadog Ward (GGH) to Example Location - Glangwili General Hospital Cadog WardUpdated 
-    * Renamed display from Example Location - Outpatients Department (GGH) to Example Location - Glangwili General Hospital Outpatients Department
-    * Renamed display from Example Location - Ward E (NPT) to Example Location - Neath Port Talbot Hospital Ward E
+* Updated Example Index with new examples
+* Updated Example Index. Example Location - Cadog Ward (GGH) renamed as Example Location - Glangwili General Hospital Cadog Ward
+* Updated Example Index. Example Location - Outpatients Department (GGH) renamed as Example Location - Glangwili General Hospital Outpatients Department
+* Updated Example Index. Example Location - Ward E (NPT) renamed as Example Location - Neath Port Talbot Hospital Ward E
+* Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Literal renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
+* Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Literal renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
+*  Example-DataStandardsWales-Bundle-SubmitClinician-Logical renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical   
+* Updated Example Index. Example-DataStandardsWales-MessageDefinition-SubmitClinician renamed as Example-DataStandardsWales-MessageDefinition-ClinicianSubmit 
+* Updated FHIR Messaging page with amended example links
+* Updated FHIR Messaging page with amended diagram links
 * Updated Resource Index by relocating DataStandardWales-Condition from Entities to Diagnostics
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
 * Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias

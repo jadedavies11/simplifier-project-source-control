@@ -38,8 +38,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DSW-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}</li>
-      <li>{{pagelink:Example-DSW-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}</li>
     </list>
   </div>
 </div>

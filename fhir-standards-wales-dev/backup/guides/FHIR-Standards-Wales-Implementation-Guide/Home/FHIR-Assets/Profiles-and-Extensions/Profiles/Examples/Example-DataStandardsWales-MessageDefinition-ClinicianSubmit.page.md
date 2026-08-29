@@ -1,6 +1,6 @@
 <div class="warning"><span class="DevWarn"></span></div>
 
-## Example Message Bundle - Submit Clinician (with Literal Referencing)
+## Example Message Definition - Clinician Submit (Practitioner Role)
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,16 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Bundle-SubmitClinician-Literal}}
+      {{tree:MessageDefinition/Example-DataStandardsWales-MessageDefinition-ClinicianSubmit}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Bundle-SubmitClinician-Literal}}
+      {{table:MessageDefinition/Example-DataStandardsWales-MessageDefinition-ClinicianSubmit}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Bundle-SubmitClinician-Literal}}
+      {{xml:MessageDefinition/Example-DataStandardsWales-MessageDefinition-ClinicianSubmit}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Bundle-SubmitClinician-Literal}}
-    </div>
+      {{json:MessageDefinition/Example-DataStandardsWales-MessageDefinition-ClinicianSubmit}}
+    </div>       
+    <div id="tabnarrative" class="tabcontent">
+      {{narrative:MessageDefinition/Example-DataStandardsWales-MessageDefinition-ClinicianSubmit}}
+    </div>  
   </div>
 </div>
