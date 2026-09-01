@@ -6,7 +6,6 @@
   <name value="DataStandardsWalesOrganizationAffiliation" />
   <title value="Data Standards Wales Organization Affiliation" />
   <status value="draft" />
-  <date value="2026-08-26" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -85,7 +84,7 @@
       <path value="OrganizationAffiliation.healthcareService" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-HealthcareService" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-HealthcareService" />
       </type>
     </element>
   </differential>

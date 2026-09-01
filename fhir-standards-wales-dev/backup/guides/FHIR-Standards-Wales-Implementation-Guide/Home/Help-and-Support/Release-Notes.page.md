@@ -14,24 +14,20 @@ DEPRECATED Assets:<br>
 The following assets have been marked as deprecated in this release.
 Deprecated assets are expected to be withdrawn in a future release unless otherwise stated. They remain available within the Wales FHIR Implementation Guide and fhir.r4.wales 2.8.0 package but SHOULD NOT be used for new or revised content. Instead, implementers should consider the identified alternatives, where provided.
 
+* DataStandardsWales-UEC-MessageEvent code system. Any valid code system agreed with the receiving system can be used instead.
 * GPClusterCode naming system. Use WRTSClusterCode naming system instead.
-
+* MessageDefinition-DataStandardsWales-UEC-Arrival. Any valid message definition agreed with the receiving system can be used instead.
+* MessageDefinition-DataStandardsWales-UEC-Discharge. Any valid message definition agreed with the receiving system can be used instead.
+* MessageDefinition-DataStandardsWales-UEC-Triage. Any valid message definition agreed with the receiving system can be used instead.
 
 Package: 
 * Updated structure definition meta data elements for contact information and copyright for various Profiles, Extensions, Code Systems and Value Sets to reflect current information.
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* {{pagelink:Home/FHIR-Assets/Profile-Index.page.md,text:Profiles}}:
     * New Profiles
         * DataStandardsWales-HealthcareService
         * DataStandardsWales-OrganizationAffiliation
         * DataStandardsWales-Task
-    * New Message Definitions
-    * New Extensions
-        * Extension-DataStandardsWales-GridReference
-        * Extension-DataStandardsWales-LocationPeriod
-        * Extension-DataStandardsWales-SuccessorOrganization
     * Removed Profiles
-    * Removed Message Definitions
-    * Removed Extensions
     * Changes to Profiles
         * DataStandardsWales-Appointment
             * Updated version from 1.2.1 to 1.2.2
@@ -73,33 +69,45 @@ Package:
             * .healthcareService. Updated reference from HL7 HealthcareService to DataStandardsWales-HealthcareService
         * DataStandardsWales-ServiceRequest
             * Updated version from 1.1.1 to 1.1.2
-            * .performer. Updated reference from UKCore-HealthcareService to DataStandardsWales-HealthcareService
-    * Changes to Message Definitions
+            * .performer. Updated reference from UKCore-HealthcareService to DataStandardsWales-HealthcareService  
+* {{pagelink:Home/FHIR-Assets/Extension-Index.page.md,text:Extensions}}:
+    * New Extensions
+        * Extension-DataStandardsWales-GridReference
+        * Extension-DataStandardsWales-LocationPeriod
+        * Extension-DataStandardsWales-SuccessorOrganization
+    * Removed Extensions
     * Changes to Extensions
         * Extension-DataStandardsWales-AliasType
             * Updated version from 0.1.0 to 0.2.0
             * Updated DataType from CodeableConcept to Code
             * Updated Binding Strength from Preferred to Extensible
             * .context. Additional entry added for Location.alias element
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+* {{pagelink:Home/FHIR-Assets/Backport-Extensions.page.md,text:Backport Extensions}}:
+* {{pagelink:Home/FHIR-Assets/CodeSystem-Index.page.md,text:CodeSystems}}:
     * New Code Systems
         * DataStandardsWales-LocationForm
         * DataStandardsWales-LocationType
         * DataStandardsWales-LocationTypeCategory
-    * New Value Sets
-        * DataStandardsWales-LocationForm
-        * DataStandardsWales-LocationType
-        * DataStandardsWales-LocationTypeCategory
-        * DataStandardsWales-LocationTypeExtended
-        * UKCore-SourceOfServiceRequest - v1.3.0 added pending UK Core STU3 release
     * Removed Code Systems
-    * Removed Value Sets
+        * DataStandardsWales-UEC-MessageEvent
     * Changes to Code Systems
         * Data StandardsWales-AliasType
             * Updated version from 0.1.0 to 0.1.1
             * Added new code for trading-as
             * Added Welsh language equivalents for all codes
             * Updated definitions for Official name and Preferred name
+        * DataStandardsWales-UEC-MessageEvent
+            * Updated version from 0.0.1 to 0.1.0
+            * Added HL7 extension structuredefinition-standards-status with value deprecated
+            * .description. Updated to indicate that the resource is DEPRECATED      
+* {{pagelink:Home/FHIR-Assets/ValueSet-Index.page.md,text:ValueSets}}:
+    * New Value Sets
+        * DataStandardsWales-LocationForm
+        * DataStandardsWales-LocationType
+        * DataStandardsWales-LocationTypeCategory
+        * DataStandardsWales-LocationTypeExtended
+        * UKCore-SourceOfServiceRequest - v1.3.0 added pending UK Core STU3 release
+    * Removed Value Sets
     * Changes to Value Sets
         * Data StandardsWales-AliasType
             * Updated version from 0.1.0 to 0.1.1
@@ -107,15 +115,19 @@ Package:
         * DataStandardsWales-ProvenanceActivity
             * Updated version from 1.0.1 to 1.0.2
             * Updated expansion
+        * DataStandardsWales-ObservationVitalSignsType
+            * Updated version from 1.0.1 to 1.2.0
+            * Added ValueSet-DataStandardsWales-BloodPressure-AverageSystolic
         * PASReferralSource
             * Updated version from 1.0.0 to 1.0.1
-            * Updated SNOMED CT constraint to match ValueSet-UKCore-SourceOfServiceRequest amendments
-* Naming Systems:
+            * Updated SNOMED CT constraint to match ValueSet-UKCore-SourceOfServiceRequest amendments    
+* {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
     * New Naming Systems
         * Namespace for NHS Wales Shared Services Partnership (NWSSP) Pharmacy Account Number
         * Namespace for a composite identifier for an OrganizationAffiliation
         * Namespace for User Principal Name (UPN) identifier
         * Namespace for WRTS Cluster Code identifier
+    * Removed Naming Systems
     * Changes to Naming Systems
         * All Naming Systems reformatted to 'pretty print' for readability and consistency.
         * DataStandardsWales-Application-Instance-Identifier
@@ -142,7 +154,7 @@ Package:
             * .name. Updated to CTMUHBPASPatientIdentifier
         * DataStandardsWales-CTMUHB-PAS-Sub-Specialty-Identifier
             * .name. Updated to CTMUHBPASSubSpecialtyIdentifier
-        * DataStandardsWales-GPCluster-Code
+         * DataStandardsWales-GPCluster-Code
             * Deprecated Naming System. Use DataStandardsWales-WRTS-Cluster-Code instead.
         * DataStandardsWales-HDUHB-PAS-Identifier
             * .id. Updated to DataStandardsWales-HDUHB-PAS-PatientIdentifier
@@ -178,12 +190,32 @@ Package:
             * .id. Updated to DataStandardsWales-VUNHST-PAS-PatientIdentifier
             * .name. Updated to VUNHSTPASPatientIdentifier
         * DataStandardsWales-VUNHST-PAS-Sub-Specialty-Identifier
-            * .name. Updated to VUNHSTPASSubSpecialtyIdentifier
+            * .name. Updated to VUNHSTPASSubSpecialtyIdentifier 
         * DataStandardsWales-WRTS-Cluster-Code
             * Removed UTF Encoding statement
         * DataStandardsWales-WRTS-Organization-identifier
             * Re-enabled Naming System
             * .usage. Updated from Do not use to Organization identity
+* {{pagelink:Home/FHIR-Assets/ConceptMap-Index.page.md,text:Concept Maps}}:
+* {{pagelink:Home/FHIR-Assets/Message-Definition-Index.page.md,text:Message-Definition}}:
+    * New Message Definitions
+    * Removed Message Definitions
+        * MessageDefinition-DataStandardsWales-UEC-Arrival
+        * MessageDefinition-DataStandardsWales-UEC-Discharge
+        * MessageDefinition-DataStandardsWales-UEC-Triage 
+    * Changes to Message Definitions
+        * MessageDefinition-DataStandardsWales-UEC-Arrival
+            * Updated version from 0.1.0 to 0.2.0
+            * Added HL7 extension structuredefinition-standards-status with value deprecated
+            * .description. Updated to indicate that the resource is DEPRECATED
+        * MessageDefinition-DataStandardsWales-UEC-Discharge
+            * Updated version from 0.1.0 to 0.2.0
+            * Added HL7 extension structuredefinition-standards-status with value deprecated
+            * .description. Updated to indicate that the resource is DEPRECATED 
+        * MessageDefinition-DataStandardsWales-UEC-Triage
+            * Updated version from 0.1.0 to 0.2.0
+            * Added HL7 extension structuredefinition-standards-status with value deprecated
+            * .description. Updated to indicate that the resource is DEPRECATED          
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Example-DataStandardsWales-DocumentReference-Misfiled
@@ -203,16 +235,6 @@ Package:
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
-        * Example-DataStandardsWales-Bundle-SubmitClinician-Literal
-            * Renamed to Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
-            * .focus.definition. Updated to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
-            * eventCoding.code. Updated to clinician-submit from submit-clinician
-            * eventCoding.display. Updated to Clinician submit from Submit clinician
-        * Example-DataStandardsWales-Bundle-SubmitClinician-Logical
-            * Renamed to Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical
-            * .focus.definition. Updated to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
-            * eventCoding.code. Updated to clinician-submit from submit-clinician
-            * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-DocumentReference-EncounterBased
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
         * Example-DataStandardsWales-DocumentReference-EventBased
@@ -243,10 +265,6 @@ Package:
             * .text. Removed
             * .type. Added content for Clinical areas and Ward
             * .physicalType. Added content for Ward
-        * Example-DataStandardsWales-MessageDefinition-SubmitClinician
-            * Renamed to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
-            * eventCoding.code. Updated to clinician-submit from submit-clinician
-            * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
@@ -334,7 +352,7 @@ Guide:
 
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
 * Added new pages to outline the Code Systems created in this release
-* Added new pages to outline the Examples created in this release, and updated example links on relevant profile pages
+* Added new pages to outline Examples created in this release, and updated example links on relevant profile pages
 * Added new pages to outline the Extensions created in this release
 * Added new pages to outline the Value Sets created in this release
 * Added a new page to outline the DataStandardsWales-HealthcareService profile
@@ -342,31 +360,33 @@ Guide:
 * Added a new page to outline the DataStandardsWales-OrganizationTypeExtended value set which was created in 2.6.0
 * Added a new page to outline the DataStandardsWales-Task profile
 * Corrected spelling error for DataStandardsWales-OrganizationSubclassification in 2.6.0 Release Notes and ValueSet yaml toc file
+* Removed the Urgent and Emergency Care guidance page
 * Restored 2.6.0 release details to Version History page
 * Updated Change Notices page in the [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/)
 * Updated DataStandardsWales-Location profile page to align narrative content with profile changes
+* Updated MessageDefinition-DataStandardsWales-UEC-Arrival page to clarify that the resource is deprecated
+* Updated MessageDefinition-DataStandardsWales-UEC-Discharge page to clarify that the resource is deprecated
+* Updated MessageDefinition-DataStandardsWales-UEC-Triage page to clarify that the resource is deprecated
 * Updated DataStandardsWales-Observation-VitalSigns profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BMI profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyHeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Practitioner profile page with new slice
+* Updated Design-Naming Conventions page with additional guidance and glossary. Introduced tabulated views where appropriate 
 * Updated Example Index with new examples
 * Updated Example Index. Example Location - Cadog Ward (GGH) renamed as Example Location - Glangwili General Hospital Cadog Ward
 * Updated Example Index. Example Location - Outpatients Department (GGH) renamed as Example Location - Glangwili General Hospital Outpatients Department
 * Updated Example Index. Example Location - Ward E (NPT) renamed as Example Location - Neath Port Talbot Hospital Ward E
-* Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Literal renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
-* Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Literal renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
-*  Example-DataStandardsWales-Bundle-SubmitClinician-Logical renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical   
-* Updated Example Index. Example-DataStandardsWales-MessageDefinition-SubmitClinician renamed as Example-DataStandardsWales-MessageDefinition-ClinicianSubmit 
-* Updated FHIR Messaging page with amended example links
-* Updated FHIR Messaging page with amended diagram links
 * Updated Resource Index by relocating DataStandardWales-Condition from Entities to Diagnostics
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
 * Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias
-* Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
-* Updated Design-Naming Conventions page with additional guidance and glossary. Introduced tabulated views where appropriate 
 * Updated Guidance-Care Documents page with advice regarding error management workflows
+* Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
+* Updated MessageDefinition-DataStandardsWales-UEC-Arrival page to clarify that the resource is deprecated
+* Updated MessageDefinition-DataStandardsWales-UEC-Discharge page to clarify that the resource is deprecated
+* Updated MessageDefinition-DataStandardsWales-UEC-Triage page to clarify that the resource is deprecated
+* Updated Resource Index by relocating DataStandardWales-Condition from Entities to Diagnostics
 
 ### v2.6.1 STU2 - Urgent Correction Release
 Summary: This release contains urgent corrections to DocumentReference and related resources, discovered during early use by the NHS Wales Care Documents Service of the newly activated DataStandardsWales-DocumentReference profile in the Wales FHIR Implementation Guide v2.6.0. It also contains a correction of a misleading Practitioner identifier slice name for registered pharmacists.

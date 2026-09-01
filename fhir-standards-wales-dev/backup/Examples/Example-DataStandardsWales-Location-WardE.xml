@@ -1,43 +1,26 @@
 <Location xmlns="http://hl7.org/fhir">
-	<id value="Example-DataStandardsWales-Location-WardE"/>
-	<meta>
-		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location"/>
-	</meta>
-	<identifier>
-		<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier"/>
-		<value value="60138-example"/>
-	</identifier>
-	<name value="Ward E"/>
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationTypeCategory"/>
-			<code value="clinical-areas"/>
-			<display value="Clinical areas"/>
-		</coding>
-	</type>
-	<type>
-		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationTypeCategory"/>
-			<code value="ward"/>
-			<display value="Ward"/>
-		</coding>
-	</type>
+    <id value="Example-DataStandardsWales-Location-WardE" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+    </meta>
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">Ward E (Neath Port Talbot Hospital)</div>
+    </text>      
+    <identifier>
+        <system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier" />
+        <value value="60138-example" />
+    </identifier>
+    <name value="Ward E" />
 	<address>
-		<postalCode value="SA12 7BX"/>
+		<postalCode value="SA12 7BX" />
 	</address>
-	<physicalType>
-		<coding>
-			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-			<code value="wa"/>
-			<display value="Ward"/>
-		</coding>
-	</physicalType>
-	<managingOrganization>
-		<reference value="Organization/Example-DataStandardsWales-Organization-NPT"/>
+    <managingOrganization>
 		<identifier>
-			<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier"/>
-			<value value="6013-example"/>
-		</identifier>		
-		<display value="Neath Port Talbot Hospital"/>
-	</managingOrganization>
+			<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier" />
+			<value value="6013-example" />
+		</identifier>
+        <reference value="Organization/Example-DataStandardsWales-Organization-NPTH" />
+        <display value="Neath Port Talbot Hospital" />
+    </managingOrganization>
 </Location>

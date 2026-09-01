@@ -1,22 +1,26 @@
 <Organization xmlns="http://hl7.org/fhir">
-	<id value="Example-DataStandardsWales-Organization-CardiffNorth"/>
-	<meta>
-		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-	</meta>
-	<extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+    <id value="Example-DataStandardsWales-Organization-CardiffNorth"/>
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">Cardiff North Cluster</div>
+    </text>       
+    <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
 		<valuePeriod>
 			<start value="2018-01-01"/>
 		</valuePeriod>
 	</extension>
 	<identifier>
-		<system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
-		<value value="CC421"/>
-	</identifier>
-	<identifier>
-		<system value="https://fhir.nhs.wales/Id/wrts-cluster-code"/>
-		<value value="CC421"/>
-	</identifier>
-	<active value="true"/>
+        <system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
+        <value value="CC421"/>
+    </identifier>	
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-cluster-code"/>
+        <value value="CC421"/>
+    </identifier>
+    <active value="true"/>    
 	<type>
 		<coding>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
@@ -45,9 +49,9 @@
 			<display value="Cluster"/>
 		</coding>
 	</type>
-	<name value="Cardiff North"/>
-	<partOf>
-		<reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB"/>
+    <name value="Cardiff North"/>
+    <partOf>
+        <reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB"/>
 		<display value="Cardiff and Vale University Local Health Board"/>
-	</partOf>
+    </partOf>
 </Organization>

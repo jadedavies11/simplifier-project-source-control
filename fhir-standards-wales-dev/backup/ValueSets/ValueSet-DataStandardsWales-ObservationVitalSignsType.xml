@@ -1,11 +1,11 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-ObservationVitalSignsType" />
     <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-ObservationVitalSignsType" />
-    <version value="1.1.1" />
+    <version value="1.2.0" />
     <name value="DataStandardsWalesObservationVitalSignsType" />
     <title value="Data Standards Wales ValueSet Observation Vital Signs Type" />
     <status value="active" />
-    <date value="2026-07-17" />
+    <date value="2026-09-01" />
     <publisher value="NHS Wales" />
     <contact>
         <name value="FHIR Standards" />
@@ -21,6 +21,9 @@
     <compose>
         <include>
             <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BloodPressure" />
+        </include>
+        <include>
+            <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BloodPressure-AverageSystolic" />
         </include>
         <include>
             <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BloodPressure-Diastolic" />

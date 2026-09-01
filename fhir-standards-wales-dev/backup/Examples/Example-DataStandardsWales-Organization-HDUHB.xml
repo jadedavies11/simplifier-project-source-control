@@ -1,22 +1,26 @@
 <Organization xmlns="http://hl7.org/fhir">
-	<id value="Example-DataStandardsWales-Organization-HDUHB"/>
-	<meta>
-		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
-	</meta>
-	<extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
-		<valuePeriod>
-			<start value="2009-10-01"/>
-		</valuePeriod>
-	</extension>
-	<identifier>
-		<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-		<value value="7A2"/>
-	</identifier>
-	<identifier>
-		<system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
-		<value value="7A2"/>
-	</identifier>
-	<active value="true"/>
+    <id value="Example-DataStandardsWales-Organization-HDUHB"/>
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+    </meta>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">Hywel Dda University Local Health Board</div>
+    </text>    
+    <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+        <valuePeriod>
+            <start value="2009-10-01"/>
+        </valuePeriod>
+    </extension>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="7A2"/>
+    </identifier>
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
+        <value value="7A2"/>
+    </identifier>
+    <active value="true"/>
 	<type>
 		<coding>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
@@ -45,65 +49,61 @@
 			<display value="Health board"/>
 		</coding>
 	</type>
-	<name value="Hywel Dda University Local Health Board">
-		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
-			<extension url="lang">
-				<valueCode value="cym"/>
-			</extension>
-			<extension url="content">
-				<valueString value="Bwrdd Iechyd Prifysgol Hywel Dda"/>
-			</extension>
-		</extension>
-	</name>
-	<alias value="Hywel Dda University Local Health Board">
-		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-			<valueCode value="official-name"/>
-		</extension>
-		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-			<valueCode value="preferred-name"/>
-		</extension>
-	</alias>
-	<alias value="Bwrdd Iechyd Prifysgol Hywel Dda">
-		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-			<valueCode value="preferred-name-welsh"/>
-		</extension>
-	</alias>
-	<alias value="HDUHB">
-		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-			<valueCode value="standard-acronym"/>
-		</extension>
-	</alias>
-	<alias value="HDU">
-		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-			<valueCode value="short-acronym"/>
-		</extension>
-	</alias>
-	<telecom>
-		<system value="phone"/>
-		<value value="01437 771220"/>
-	</telecom>
-	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="eng"/>
-		</extension>
-		<line value="Ystwyth Building, Hafan Derwen"/>
-		<line value="St Davids Park"/>
-		<line value="Jobswell Road"/>
-		<city value="Carmarthen"/>
-		<district value="Carmarthenshire"/>		
-		<postalCode value="SA31 3BB"/>
-		<country value="Wales"/>
-	</address>
-	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cym"/>
-		</extension>
-		<line value="Bwrdd Iechyd Prifysgol Hywel Dda"/>
-		<line value="Parc Dewi Sant"/>
-		<line value="Ffordd Jobswell"/>
-		<city value="Caerfyrddin"/>
-		<district value="Sir Gaerfyrddin"/>		
-		<postalCode value="SA31 3BB"/>
-		<country value="Cymru"/>
-	</address>
+    <name value="Hywel Dda University Local Health Board"/>
+    <alias value="Hywel Dda University Health Board">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="preferred-name"/>
+                    <display value="Preferred name"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="Hywel Dda">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="short-name"/>
+                    <display value="Short name"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="HDUHB">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="standard-acronym"/>
+                    <display value="Standard acronym"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <alias value="HDU">
+        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="short-acronym"/>
+                    <display value="Short acronym"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </alias>
+    <telecom>
+        <system value="phone"/>
+        <value value="01437 771220"/>
+    </telecom>
+    <address>
+        <line value="Ystwyth Building"/>
+        <line value="Hafan Derwen"/>
+        <line value="St Davids Park"/>
+        <line value="Jobswell Road"/>
+        <city value="Carmarthen"/>
+        <postalCode value="SA31 3BB"/>        
+    </address>
 </Organization>

@@ -38,8 +38,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}</li>
+      <li>{{pagelink:Example-DSW-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}</li>
     </list>
   </div>
 </div>
@@ -52,10 +51,10 @@ Each OrganisationAffiliation must have:
   * The `OrganizationAffiliation.organization` field **SHALL** be populated.
 
 Each Organisation must support:
-* An identifier: `OrganizationAffiliation.wrtsAffiliationIdentifier` field **SHOULD** be populated
-* A participating organisation: `OrganizationAffiliation.participatingOrganization` field **SHOULD** be populated
-* An affiliation type: `OrganizationAffiliation.code` field **SHOULD** be populated  
-* One or more locations, if applicable: `OrganizationAffiliation.location`  field **SHOULD** be populated where applicable to the relationship <br /><br />
+* An identifier: `OrganizationAffiliation.wrtsAffiliationIdentifier` field SHOULD be populated
+* A participating organisation: `OrganizationAffiliation.participatingOrganization` field SHOULD be populated
+* An affiliation type: `OrganizationAffiliation.code` field SHOULD be populated  
+* One or more locations, if applicable: `OrganizationAffiliation.location`  field SHOULD be populated where applicable to the relationship <br /><br />
 
   
 ### Slices
