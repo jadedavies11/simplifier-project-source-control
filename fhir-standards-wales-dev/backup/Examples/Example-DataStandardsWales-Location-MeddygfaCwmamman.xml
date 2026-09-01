@@ -3,6 +3,10 @@
     <meta>
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
     </meta>
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">Meddygfa Cwmamman</div>
+    </text>
     <identifier>
         <use value="official" />
         <system value="https://fhir.nhs.wales/Id/wrts-location-identifier" />
@@ -10,14 +14,15 @@
     </identifier>
     <status value="active" />
 	<name value="Meddygfa Cwmamman"/>
-	<alias value="Meddygfa Cwmamman">
+	<alias value="Partneriaeth Aman Tawe - Meddygfa Garnant">
         <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-            <valueCode value="official-name"/>
-        </extension>
-    </alias>
-    <alias value="Partneriaeth Aman Tawe - Meddygfa Garnant">
-        <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-            <valueCode value="preferred-name-welsh"/>
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType"/>
+                    <code value="official-name-welsh"/>
+                    <display value="Official name (Welsh)"/>
+                </coding>
+            </valueCodeableConcept>
         </extension>
     </alias>
 	<type>
@@ -35,30 +40,23 @@
 		</coding>
 	</type>
 	<address>
-		<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey">
-			<extension url="type">
-				<valueCodeableConcept>
-					<coding>
-						<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-AddressKeyType"/>
-						<code value="UPRN"/>
-						<display value="Unique Property Reference Number"/>
-					</coding>
-				</valueCodeableConcept>
-			</extension>
-			<extension url="value">
-				<valueString value="10024324204"/>
-			</extension>        
+        <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AddressKey">
+            <valueCodeableConcept>
+                <coding> 
+                    <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-AddressKeyType"/>
+                    <code value="UPRN"/>
+                    <display value="10024324204"/>
+                </coding>
+            </valueCodeableConcept>
         </extension>
 		<line value="Cwmamman Road"/>
 		<line value="Garnant"/>
         <city value="Ammanford"/>
-        <district value="Carmarthenshire"/>        
         <postalCode value="SA18 1NB"/>
-		<country value="Wales"/>
-	</address>			
+	</address>		
 	<physicalType>
 		<coding>
-			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<system value="http://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
 			<code value="si"/>
 			<display value="Site"/>
 		</coding>

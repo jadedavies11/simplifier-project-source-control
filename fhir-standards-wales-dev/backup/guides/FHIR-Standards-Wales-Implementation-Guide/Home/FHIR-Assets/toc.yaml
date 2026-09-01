@@ -1,8 +1,16 @@
-- name: Profiles and Extensions
-  filename: Profiles-and-Extensions
+- name: Profiles
+  filename: Profile-Index.page.md
+- name: Extensions
+  filename: Extension-Index.page.md
 - name: Backport Extensions
-  filename: Backport-Extensions.page.md  
-- name: Terminology
-  filename: Terminology
+  filename: Backport-Extensions.page.md
+- name: CodeSystems
+  filename: CodeSystem-Index.page.md
+- name: ValueSets
+  filename: ValueSet-Index.page.md
 - name: Naming Systems
   filename: Naming-Systems
+- name: Concept Maps
+  filename: ConceptMap-Index.page.md
+- name: Message Definitions
+  filename: Message-Definition-Index.page.md

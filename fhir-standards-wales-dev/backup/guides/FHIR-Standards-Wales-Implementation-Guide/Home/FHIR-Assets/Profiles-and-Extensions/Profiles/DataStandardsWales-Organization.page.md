@@ -2,7 +2,7 @@
 
 ### Overview
 
-The [Organization](https://www.hl7.org/fhir/R4/organization.html) resource contains information about health and care organisations. Examples include Health Boards and NHS Trusts, Hospitals, Dental practices, GP practices and GP clusters.  The {{page-title}} profile is derived from the [UK Core Organization Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Organization resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
+The [Organization](https://www.hl7.org/fhir/R4/organization.html) resource contains information about health and care organisations. Examples include Health Boards and NHS Trusts, Hospitals, Dental practices GP practices and GP clusters.  The {{page-title}} profile is derived from the [UK Core Organization Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Organization resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization}}
 
@@ -34,18 +34,17 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text: Example Organization - Amman Gwendraeth Cluster}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text: Example Organization - Amman Tawe Partnership}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-CAVUHB, text: Example Organization - Cardiff and Vale University Local Health Board}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text: Example Organization - Cardiff North Cluster}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-CAVUHB, text: Cardiff and Vale University Local Health Board}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Hywel Dda University Local Health Board}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Swansea Bay University Local Health Board}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-UHW, text: University Hospital of Wales}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-GGH, text: Glangwili General Hospital}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-NPT, text: Neath Port Talbot Hospital}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text: Cardiff North Cluster}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text: Amman Gwendraeth Cluster}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-NCMC, text: North Cardiff Medical Centre}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text: Amman Tawe Partnership}}</li>
       <li>{{pagelink:Example-DataStandardsWales-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-NCMC, text: Example Organization - North Cardiff Medical Centre}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-Region-SouthCentral, text:Example Organization - South Central Wales Region}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-UHW, text: Example Organization - University Hospital of Wales}}</li>  
     </list>
   </div>
 </div>
@@ -88,7 +87,6 @@ The following extensions are defined for use within this profile:
     * [Extension-UKCore-AddressKey](https://simplifier.net/resolve?scope=package:fhir.r4.ukcore.stu2@2.0.1&filepath=package/Extension-UKCore-AddressKey.json) extends the Address datatype to support the storage of address identifiers such as the Unique Property Reference Number (UPRN).
     * [Extension-UKCore-MainLocation](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-MainLocation?version=2.0.1) extends the Organization resource to support the exchange of information on the organisation's main location, as a reference to a Location resource.
 * HL7 International Extensions:
-    * [Language](https://www.hl7.org/fhir/R4/extension-language.html) supports Organization address in multiple languages.
     * [Organization-Period](http://hl7.org/fhir/R4/extension-organization-period.html) describes the date range that the organisation should be considered available.
     * [Translation](https://www.hl7.org/fhir/R4/extension-translation.html) supports Welsh named organisations.
   

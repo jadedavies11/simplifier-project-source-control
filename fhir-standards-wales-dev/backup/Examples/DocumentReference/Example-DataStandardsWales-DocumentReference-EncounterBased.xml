@@ -34,7 +34,7 @@
     <extension url="mode">
       <valueCodeableConcept>
         <coding>
-          <system value="https://hl7.org/fhir/composition-attestation-mode"/>
+          <system value="https://hl7.org/fhir/valueset-composition-attestation-mode.html"/>
           <code value="professional"/>
           <display value="Professional"/>
         </coding>

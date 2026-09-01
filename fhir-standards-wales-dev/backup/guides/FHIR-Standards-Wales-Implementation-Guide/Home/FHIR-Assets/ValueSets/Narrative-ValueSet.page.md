@@ -1,0 +1,532 @@
+The following Value Sets have been defined for this Implementation Guide and are listed along with additional narrative.
+
+<style>
+  th, td {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+</style>
+
+<table class="table table-striped" style="table-layout: fixed;">
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th scope="col">ValueSet</th>
+      <th scope="col">CodeSystem</th>
+      <th scope="col">Bound to Profile</th>
+      <th scope="col">Bound to element</th>
+      <th scope="col">Additional information</th>
+    </tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-AliasType}}</td>
+		<td>{{pagelink:Codesystem-DataStandardsWales-AliasType}}</td>
+		<td>{{pagelink:DataStandardsWales-Location}}</td>
+		<td style="font-size: 90%;">Location.alias.extension:aliasType</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-AliasType}}</td>
+		<td>{{pagelink:Codesystem-DataStandardsWales-AliasType}}</td>
+		<td>{{pagelink:DataStandardsWales-Organization}}</td>
+		<td style="font-size: 90%;">Organization.alias.extension:aliasType</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BloodPressure-AverageSystolic}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BloodPressure-Diastolic}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BloodPressure-Systolic}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BloodPressure}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BMI}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
+		<td style="font-size: 90%;">Observation.code.coding:snomedCT</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyHeightMeasurements}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
+		<td style="font-size: 90%;">Observation.code.coding:snomedCT</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
+		<td style="font-size: 90%;">Observation.extension:bodyPosition</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
+		<td style="font-size: 90%;">Observation.extension:bodyPosition</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
+		<td style="font-size: 90%;">Observation.extension:bodyPosition</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyPosition}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
+		<td style="font-size: 90%;">Observation.extension:bodyPosition</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyTemperature}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+		<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
+		<td style="font-size: 90%;">Observation.code.coding:snomedCT</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-DocumentCategory}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+		<td style="font-size: 90%;">DocumentReference.category</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-DocumentDigitalStatus}}</td>
+		<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+		<td style="font-size: 90%;">DocumentReference.extension:digitalStatus</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-DocumentType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-DocumentReference}}</td>
+		<td style="font-size: 90%;">DocumentReference.type</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-EncounterType}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism}}<br>
+		{{pagelink:CodeSystem-DataStandardsWales-UEC-ActivityType}}<br>&<br>
+		&nbsp;<span style="font-size: 80%;">SNOMED CT</span>
+		</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td style="font-size: 90%;">Encounter.type</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-GenderIdentity}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-GenderIdentity}}</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td style="font-size: 90%;">Patient.gender</td>
+		<td style="font-size: 90%;">Used for mapping</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-HeartRate}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-LocationForm}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-LocationForm}}<br>
+		<a href="https://simplifier.net/feeds/feed-19088/packages/hl7.fhir.uv.xver-r5.r4/0.1.0/files/3387894">R5LocationFormForR4</a>
+		</td>
+		<td>{{pagelink:DataStandardsWales-Location}}</td>
+		<td style="font-size: 90%;">Location.physicalType</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-LocationType}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-LocationType}}</td>
+		<td>{{pagelink:DataStandardsWales-Location}}</td>
+		<td style="font-size: 90%;">Location.type:locationType</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-LocationTypeExtended}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-LocationTypeCategory}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-LocationTypeCategory}}</td>
+		<td>{{pagelink:DataStandardsWales-Location}}</td>
+		<td style="font-size: 90%;">Location.type:locationCategory</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-LocationTypeExtended}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-LocationTypeExtended}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-LocationType}}<br>
+		{{pagelink:CodeSystem-DataStandardsWales-LocationTypeCategory}}<br>
+			<a href="https://simplifier.net/feeds/feed-19088/packages/hl7.terminology.r4/7.1.0/files/3343379">HL7 ServiceDeliveryLocationRoleType</a>
+		</td>
+		</td>
+		<td>{{pagelink:DataStandardsWales-Location}}</td>
+		<td style="font-size: 90%;">Location.type</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-MainSpecialty}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-MainSpecialty}}</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Not bound to profile</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-MaritalStatus}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-MaritalStatus}}</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td style="font-size: 90%;">Patient.maritalStatus</td>
+		<td style="font-size: 90%;">Used for mapping</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent}}<br>
+		{{pagelink:CodeSystem-MessageEvents}}<br>
+		<a href="https://simplifier.net/packages/fhir.r4.wales/2.6.1/files/3677140">MessageEvents</a>
+		</td>
+		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
+		<td style="font-size: 90%;">MessageDefinition.event</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-UEC-MessageEvent}}<br>
+		{{pagelink:CodeSystem-MessageEvents}}<br>
+		<a href="https://simplifier.net/packages/fhir.r4.wales/2.6.1/files/3677140">MessageEvents</a>
+		</td>
+		<td>{{pagelink:DataStandardsWales-MessageHeader}}</td>
+		<td style="font-size: 90%;">MessageHeader.event</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
+		<td style="font-size: 90%;">Observation.code.coding:snomedCT</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
+		<td style="font-size: 90%;">Observation.component.code</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
+		<td style="font-size: 90%;">Observation.component.code.coding:snomedCT</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
+		<td style="font-size: 90%;">Observation.component.code</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
+		<td style="font-size: 90%;">Observation.component.code.coding:snomedCT</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
+		<td style="font-size: 90%;">Observation.component.code</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
+		<td style="font-size: 90%;">Observation.component.code.coding:snomedCT</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
+		<td style="font-size: 90%;">Observation.component.code</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
+		<td style="font-size: 90%;">Observation.component.code.coding:snomedCT</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-Occupation}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td style="font-size: 90%;">Patient.extension:occupation</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-OrganizationClassification}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-OrganizationClassification}}</td>
+		<td>{{pagelink:DataStandardsWales-Organization}}</td>
+		<td style="font-size: 90%;">Organization.type:classification</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-OrganizationTypeExtended}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-OrganizationDomain}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-OrganizationDomain}}</td>
+		<td>{{pagelink:DataStandardsWales-Organization}}</td>
+		<td style="font-size: 90%;">Organization.type:domain</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-OrganizationTypeExtended}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-OrganizationSector}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-OrganizationSector}}</td>
+		<td>{{pagelink:DataStandardsWales-Organization}}</td>
+		<td style="font-size: 90%;">Organization.type:sector</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-OrganizationTypeExtended}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-OrganizationSubclassification}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-OrganizationSubclassification}}</td>
+		<td>{{pagelink:DataStandardsWales-Organization}}</td>
+		<td style="font-size: 90%;">Organization.type:subclassification</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-OrganizationTypeExtended}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-OrganizationTypeExtended}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-OrganizationClassification}}<br>
+		{{pagelink:CodeSystem-DataStandardsWales-OrganizationDomain}}<br>{{pagelink:CodeSystem-DataStandardsWales-OrganizationSector}}<br>{{pagelink:CodeSystem-DataStandardsWales-OrganizationSubclassification}}<br>
+		<a href="https://simplifier.net/feeds/feed-19088/packages/hl7.terminology.r4/7.1.0/files/3331496">HL7 OrganizationType</a><br>
+		<a href="https://simplifier.net/feeds/feed-19088/packages/fhir.r4.ukcore.stu2/2.0.1/files/2483911">CodeSystem-UKCore-OrganizationTypeGenomics</a>
+		</td>
+		<td>{{pagelink:DataStandardsWales-Organization}}</td>
+		<td style="font-size: 90%;">Organization.type:subclassification</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-OxygenSaturation}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-PatientRecordType}}</td>
+		<td></td>
+		<td>{{pagelink:DataStandardsWales-Provenance}}</td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">For CDR use only and not bound to a profile in the IG</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity}}</td>
+		<td>
+			<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/2999499">ISO 21089-2017 Health Record Lifecycle Events</a>
+		</td>
+		<td></td>
+		<td style="font-size: 90%;">Provenance.activity</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns}}</td>
+		<td style="font-size: 90%;">Observation.extension:recordingSetting</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}</td>
+		<td style="font-size: 90%;">Observation.extension:recordingSetting</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}</td>
+		<td style="font-size: 90%;">Observation.extension:recordingSetting</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</td>
+		<td>{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}</td>
+		<td style="font-size: 90%;">Observation.extension:recordingSetting</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RespirationRate}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-Religion}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td style="font-size: 90%;">Patient.extension:religion</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-Sex}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-Sex}}</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td style="font-size: 90%;">Patient.extension:birthSex</td>
+		<td style="font-size: 90%;">Used for mapping</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-Title}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-Title}}</td>
+		<td>{{pagelink:DataStandardsWales-Patient}}</td>
+		<td style="font-size: 90%;">Patient.name.prefix</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-Acuity}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td style="font-size: 90%;">Encounter.priority</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-ArrivalMode}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td style="font-size: 90%;">Encounter.extension:modeOfArrival</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td style="font-size: 90%;">Encounter.extension:uecAttendanceCategory</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceSource}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td style="font-size: 90%;">Encounter.hospitalization.admitSource</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-DischargeDestination}}</td>
+		<td style="font-size: 80%;">SNOMED CT</td>
+		<td>{{pagelink:DataStandardsWales-Encounter-UEC}}</td>
+		<td style="font-size: 90%;">Encounter.hospitalization.dischargeDisposition</td>
+		<td style="font-size: 90%;"></td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-MessageEvent}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-UEC-MessageEvent}}</td>
+		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
+		<td style="font-size: 90%;">MessageDefinition.event</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-MessageEvent}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-UEC-MessageEvent}}</td>
+		<td>{{pagelink:DataStandardsWales-MessageHeader}}</td>
+		<td style="font-size: 90%;">MessageHeader.event</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-MessageEvents}}</td>
+		<td>{{pagelink:CodeSystem-MessageEvents}}</td>
+		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
+		<td style="font-size: 90%;">MessageDefinition.event</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-MessageEvents}}</td>
+		<td>{{pagelink:CodeSystem-MessageEvents}}</td>
+		<td>{{pagelink:DataStandardsWales-MessageHeader}}</td>
+		<td style="font-size: 90%;">MessageHeader.event</td>
+		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-PASAdmitSource}}</td>
+		<td>{{pagelink:CodeSystem-WPASAdmitSource}}</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">For CDR/ NHS App use only and not bound to a profile in the IG</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-PASEventType}}</td>
+		<td>{{pagelink:CodeSystem-WPASEventType}}</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">For CDR/ NHS App use only and not bound to a profile in the IG</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-PASReferralSource}}</td>
+		<td>{{pagelink:CodeSystem-WPASReferralSource}}<br>&<br>
+		&nbsp;<span style="font-size: 80%;">SNOMED CT</span>
+		</td>
+		<td></td>
+		<td></td>
+		<td style="font-size: 90%;">For CDR/ NHS App use only and not bound to a profile in the IG.<br>The SCT codes are
+<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu3.currentbuild/0.28.0-pre-release/files/3319330">UKCoreSourceOfServiceRequest version 1.2.1</a> ValueSet</td>
+	</tr>
+	<tr>
+		<td scope="row">{{pagelink:ValueSet-PASSourceAdmission}}</td>
+		<td>{{pagelink:CodeSystem-WPASSourceAdmission}}</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">For CDR/ NHS App use only and not bound to a profile in the IG</td>
+	</tr>
+	</tbody>
+</table>
