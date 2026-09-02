@@ -7,7 +7,7 @@
   <title value="Extension Data Standards Wales Alias Type" />
   <status value="draft" />
   <experimental value="false" />
-  <date value="2026-08-13" />
+  <date value="2026-08-25" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -40,7 +40,6 @@
       <path value="Extension" />
       <short value="Alias type" />
       <definition value="An extension to facilitate identification of aliases of the same type." />
-      <max value="1" />
     </element>
     <element id="Extension.extension">
       <path value="Extension.extension" />
@@ -56,16 +55,12 @@
       <definition value="Specifies the nature of the alias e.g. Standard acronym. Used to facilitate identification of a specific set of aliases across entities of the same type" />
       <min value="1" />
       <type>
-        <code value="CodeableConcept" />
+        <code value="code" />
       </type>
       <binding>
-        <strength value="preferred" />
+        <strength value="extensible" />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-AliasType" />
       </binding>
-    </element>
-    <element id="Extension.value[x].coding.system">
-      <path value="Extension.value[x].coding.system" />
-      <fixedUri value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType" />
     </element>
   </differential>
 </StructureDefinition>

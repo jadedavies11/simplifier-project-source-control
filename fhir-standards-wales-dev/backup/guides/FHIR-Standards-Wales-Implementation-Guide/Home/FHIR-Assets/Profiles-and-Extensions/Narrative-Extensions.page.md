@@ -61,7 +61,7 @@ The Extensions created for this Implementation Guide are listed with the Profile
 		<td>{{pagelink:DataStandardsWales-Provenance}}</td>
 		<td style="font-size: 90%;">Provenance.extension:extensionDataStandardsWalesDemographicsAsRecorded</td>
 		<td>
-			<a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/3001742">AdministrativeGender</a>
+			<a href="https://simplifier.net/feeds/feed-19088/packages/hl7.fhir.r4.core/4.0.1/files/3694741">AdministrativeGender</a>
 		</td>
 	</tr>
 	<tr>

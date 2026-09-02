@@ -1,5 +1,7 @@
 ## Example Location - Amman Tawe Partnership GP Surgery
 
+This example represents a Location resource for the main surgery of the Amman Tawe Partnership GP Practice.
+
 <div class="tab-wrap">
   <ul class="tab-head">
     <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">

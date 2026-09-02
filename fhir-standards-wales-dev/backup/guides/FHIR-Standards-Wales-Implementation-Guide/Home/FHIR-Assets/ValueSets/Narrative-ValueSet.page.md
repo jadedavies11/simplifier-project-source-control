@@ -470,20 +470,6 @@ The following Value Sets have been defined for this Implementation Guide and are
 		<td style="font-size: 90%;"></td>
 	</tr>
 	<tr>
-		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-MessageEvent}}</td>
-		<td>{{pagelink:ValueSet-DataStandardsWales-UEC-MessageEvent}}</td>
-		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
-		<td style="font-size: 90%;">MessageDefinition.event</td>
-		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
-	</tr>
-	<tr>
-		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-UEC-MessageEvent}}</td>
-		<td>{{pagelink:ValueSet-DataStandardsWales-UEC-MessageEvent}}</td>
-		<td>{{pagelink:DataStandardsWales-MessageHeader}}</td>
-		<td style="font-size: 90%;">MessageHeader.event</td>
-		<td style="font-size: 90%;">Embedded in<br>{{pagelink:ValueSet-DataStandardsWales-MessageEvent}}</td>
-	</tr>
-	<tr>
 		<td scope="row">{{pagelink:ValueSet-MessageEvents}}</td>
 		<td>{{pagelink:CodeSystem-MessageEvents}}</td>
 		<td>{{pagelink:DataStandardsWales-MessageDefinition}}</td>
@@ -519,7 +505,7 @@ The following Value Sets have been defined for this Implementation Guide and are
 		<td></td>
 		<td></td>
 		<td style="font-size: 90%;">For CDR/ NHS App use only and not bound to a profile in the IG.<br>The SCT codes are
-<a href="https://simplifier.net/packages/fhir.r4.ukcore.stu3.currentbuild/0.28.0-pre-release/files/3319330">UKCoreSourceOfServiceRequest version 1.2.1</a> ValueSet</td>
+<a href="https://simplifier.net/HL7FHIRUKCoreR4/ValueSet-UKCore-SourceOfServiceRequest/~xml">UKCoreSourceOfServiceRequest version 1.3.0</a> ValueSet</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:ValueSet-PASSourceAdmission}}</td>

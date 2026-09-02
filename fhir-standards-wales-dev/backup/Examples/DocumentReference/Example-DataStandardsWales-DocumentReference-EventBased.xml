@@ -1,6 +1,7 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-DocumentReference-EventBased" />
   <meta>
+    <versionId value="1" />
     <source value="urn:oid:2.16.840.1.113883.2.1.8.1.5.210"/>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
     <tag>
@@ -34,7 +35,7 @@
     <extension url="mode">
       <valueCodeableConcept>
         <coding>
-          <system value="https://hl7.org/fhir/valueset-composition-attestation-mode.html" />
+          <system value="https://hl7.org/fhir/composition-attestation-mode" />
           <code value="professional" />
           <display value="Professional" />
         </coding>
@@ -63,7 +64,7 @@
 		<value value="193~11111111" />
 	</identifier>
   <status value="current" />
-  <docStatus value="amended" />
+  <docStatus value="final" />
   <type>
     <coding>
       <system value="http://snomed.info/sct" />

@@ -1,5 +1,7 @@
 ## Example Location - Meddygfa Cwmamman GP Surgery
 
+This example represents a Location resource for one of the branch surgeries of the Amman Tawe Partnership GP Practice.
+
 <div class="tab-wrap">
   <ul class="tab-head">
     <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">

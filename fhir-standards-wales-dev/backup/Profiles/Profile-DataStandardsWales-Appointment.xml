@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Appointment" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Appointment" />
-  <version value="1.2.1" />
+  <version value="1.2.2" />
   <name value="DataStandardsWalesAppointment" />
   <title value="Data Standards Wales Appointment" />
   <status value="active" />
-  <date value="2026-07-13" />
+  <date value="2026-08-26" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -55,13 +55,13 @@
       <path value="Appointment.participant.actor" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/HealthcareService" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-HealthcareService" />
       </type>
     </element>
   </differential>

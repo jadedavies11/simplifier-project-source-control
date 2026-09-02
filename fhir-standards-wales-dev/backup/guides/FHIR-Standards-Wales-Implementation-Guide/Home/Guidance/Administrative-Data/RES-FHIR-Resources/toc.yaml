@@ -1,0 +1,12 @@
+- name: Organization
+  filename: RES-Organization.page.md
+- name: Location
+  filename: RES-Location.page.md
+- name: Healthcare Service
+  filename: RES-Healthcare-Service.page.md
+- name: OrganizationAffiliation
+  filename: RES-OrganizationAffiliation.page.md
+- name: Practitioner
+  filename: RES-Practitioner.page.md
+- name: PractitionerRole
+  filename: RES-PractitionerRole.page.md

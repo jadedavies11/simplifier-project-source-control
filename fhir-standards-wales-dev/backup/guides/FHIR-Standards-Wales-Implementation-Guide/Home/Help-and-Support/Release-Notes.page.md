@@ -4,6 +4,12 @@ This page describes the published versions of this implementation guide and diff
 
 ### v2.7.0 STU2
 
+In addition to general maintenance, this release includes changes which in the main will support:
+
+* The Choose Pharmacy service
+* Complexities around organisation data (e.g. regions and clusters)
+* Error workflows for Care Documents
+
 WITHDRAWN Assets: <br>
 The following assets have been marked as withdrawn in this release and have a lifecycle status of retired. These will no longer be maintained within the Wales FHIR Implementation Guide or Wales FHIR package and SHALL NOT be used for new or revised content.
 They will be removed from the next release of the Wales FHIR Implementation Guide and fhir.r4.wales 2.8.0 package
@@ -27,7 +33,6 @@ Package:
         * DataStandardsWales-HealthcareService
         * DataStandardsWales-OrganizationAffiliation
         * DataStandardsWales-Task
-    * Removed Profiles
     * Changes to Profiles
         * DataStandardsWales-Appointment
             * Updated version from 1.2.1 to 1.2.2
@@ -58,7 +63,6 @@ Package:
             * Added Extension-DataStandardsWales-SuccessorOrganization
             * .identifier slice. Added wrtsOrganizationIdentifier
             * .identifier slice gpClusterCode. To be withdrawn and updated definition
-            * .name. Reverted cardinality to match UKCore
             * .name. Added Extension HL7 Translation
             * .address. Added Extension HL7 Language
         * DataStandardsWales-Practitioner
@@ -69,29 +73,25 @@ Package:
             * .healthcareService. Updated reference from HL7 HealthcareService to DataStandardsWales-HealthcareService
         * DataStandardsWales-ServiceRequest
             * Updated version from 1.1.1 to 1.1.2
-            * .performer. Updated reference from UKCore-HealthcareService to DataStandardsWales-HealthcareService  
+            * .performer. Updated reference from UKCore-HealthcareService to DataStandardsWales-HealthcareService
 * {{pagelink:Home/FHIR-Assets/Extension-Index.page.md,text:Extensions}}:
     * New Extensions
         * Extension-DataStandardsWales-GridReference
         * Extension-DataStandardsWales-LocationPeriod
         * Extension-DataStandardsWales-SuccessorOrganization
-    * Removed Extensions
     * Changes to Extensions
         * Extension-DataStandardsWales-AliasType
             * Updated version from 0.1.0 to 0.2.0
             * Updated DataType from CodeableConcept to Code
             * Updated Binding Strength from Preferred to Extensible
             * .context. Additional entry added for Location.alias element
-* {{pagelink:Home/FHIR-Assets/Backport-Extensions.page.md,text:Backport Extensions}}:
 * {{pagelink:Home/FHIR-Assets/CodeSystem-Index.page.md,text:CodeSystems}}:
     * New Code Systems
         * DataStandardsWales-LocationForm
         * DataStandardsWales-LocationType
         * DataStandardsWales-LocationTypeCategory
-    * Removed Code Systems
-        * DataStandardsWales-UEC-MessageEvent
     * Changes to Code Systems
-        * Data StandardsWales-AliasType
+        * DataStandardsWales-AliasType
             * Updated version from 0.1.0 to 0.1.1
             * Added new code for trading-as
             * Added Welsh language equivalents for all codes
@@ -99,7 +99,7 @@ Package:
         * DataStandardsWales-UEC-MessageEvent
             * Updated version from 0.0.1 to 0.1.0
             * Added HL7 extension structuredefinition-standards-status with value deprecated
-            * .description. Updated to indicate that the resource is DEPRECATED      
+            * .description. Updated to indicate that the resource is DEPRECATED
 * {{pagelink:Home/FHIR-Assets/ValueSet-Index.page.md,text:ValueSets}}:
     * New Value Sets
         * DataStandardsWales-LocationForm
@@ -107,27 +107,25 @@ Package:
         * DataStandardsWales-LocationTypeCategory
         * DataStandardsWales-LocationTypeExtended
         * UKCore-SourceOfServiceRequest - v1.3.0 added pending UK Core STU3 release
-    * Removed Value Sets
     * Changes to Value Sets
-        * Data StandardsWales-AliasType
+        * DataStandardsWales-AliasType
             * Updated version from 0.1.0 to 0.1.1
             * .description updated to indicate availability of English and Welsh language alias types
         * DataStandardsWales-ProvenanceActivity
             * Updated version from 1.0.1 to 1.0.2
             * Updated expansion
         * DataStandardsWales-ObservationVitalSignsType
-            * Updated version from 1.0.1 to 1.2.0
+            * Updated version from 1.0.1 to 1.1.0
             * Added ValueSet-DataStandardsWales-BloodPressure-AverageSystolic
         * PASReferralSource
             * Updated version from 1.0.0 to 1.0.1
-            * Updated SNOMED CT constraint to match ValueSet-UKCore-SourceOfServiceRequest amendments    
+            * Updated SNOMED CT constraint to match ValueSet-UKCore-SourceOfServiceRequest amendments  
 * {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
     * New Naming Systems
         * Namespace for NHS Wales Shared Services Partnership (NWSSP) Pharmacy Account Number
         * Namespace for a composite identifier for an OrganizationAffiliation
         * Namespace for User Principal Name (UPN) identifier
         * Namespace for WRTS Cluster Code identifier
-    * Removed Naming Systems
     * Changes to Naming Systems
         * All Naming Systems reformatted to 'pretty print' for readability and consistency.
         * DataStandardsWales-Application-Instance-Identifier
@@ -154,7 +152,7 @@ Package:
             * .name. Updated to CTMUHBPASPatientIdentifier
         * DataStandardsWales-CTMUHB-PAS-Sub-Specialty-Identifier
             * .name. Updated to CTMUHBPASSubSpecialtyIdentifier
-         * DataStandardsWales-GPCluster-Code
+        * DataStandardsWales-GPCluster-Code
             * Deprecated Naming System. Use DataStandardsWales-WRTS-Cluster-Code instead.
         * DataStandardsWales-HDUHB-PAS-Identifier
             * .id. Updated to DataStandardsWales-HDUHB-PAS-PatientIdentifier
@@ -190,19 +188,13 @@ Package:
             * .id. Updated to DataStandardsWales-VUNHST-PAS-PatientIdentifier
             * .name. Updated to VUNHSTPASPatientIdentifier
         * DataStandardsWales-VUNHST-PAS-Sub-Specialty-Identifier
-            * .name. Updated to VUNHSTPASSubSpecialtyIdentifier 
+            * .name. Updated to VUNHSTPASSubSpecialtyIdentifier
         * DataStandardsWales-WRTS-Cluster-Code
             * Removed UTF Encoding statement
         * DataStandardsWales-WRTS-Organization-identifier
             * Re-enabled Naming System
             * .usage. Updated from Do not use to Organization identity
-* {{pagelink:Home/FHIR-Assets/ConceptMap-Index.page.md,text:Concept Maps}}:
-* {{pagelink:Home/FHIR-Assets/Message-Definition-Index.page.md,text:Message-Definition}}:
-    * New Message Definitions
-    * Removed Message Definitions
-        * MessageDefinition-DataStandardsWales-UEC-Arrival
-        * MessageDefinition-DataStandardsWales-UEC-Discharge
-        * MessageDefinition-DataStandardsWales-UEC-Triage 
+* {{pagelink:Home/FHIR-Assets/Message-Definition-Index.page.md,text:Message Definitions}}   
     * Changes to Message Definitions
         * MessageDefinition-DataStandardsWales-UEC-Arrival
             * Updated version from 0.1.0 to 0.2.0
@@ -215,7 +207,7 @@ Package:
         * MessageDefinition-DataStandardsWales-UEC-Triage
             * Updated version from 0.1.0 to 0.2.0
             * Added HL7 extension structuredefinition-standards-status with value deprecated
-            * .description. Updated to indicate that the resource is DEPRECATED          
+            * .description. Updated to indicate that the resource is DEPRECATED  
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Example-DataStandardsWales-DocumentReference-Misfiled
@@ -235,6 +227,16 @@ Package:
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+        * Example-DataStandardsWales-Bundle-SubmitClinician-Literal
+            * Renamed to Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
+            * .focus.definition. Updated to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
+            * eventCoding.code. Updated to clinician-submit from submit-clinician
+            * eventCoding.display. Updated to Clinician submit from Submit clinician
+        * Example-DataStandardsWales-Bundle-SubmitClinician-Logical
+            * Renamed to Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical
+            * .focus.definition. Updated to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
+            * eventCoding.code. Updated to clinician-submit from submit-clinician
+            * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-DocumentReference-EncounterBased
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
         * Example-DataStandardsWales-DocumentReference-EventBased
@@ -265,6 +267,10 @@ Package:
             * .text. Removed
             * .type. Added content for Clinical areas and Ward
             * .physicalType. Added content for Ward
+        * Example-DataStandardsWales-MessageDefinition-SubmitClinician
+            * Renamed to Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
+            * eventCoding.code. Updated to clinician-submit from submit-clinician
+            * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
@@ -310,7 +316,7 @@ Package:
             * .address. Added HL7 Language extension
             * .address. Added Welsh address
         * Example-DataStandardsWales-Organization-MedicalInsurer
-            *.text. Removed
+            * .text. Removed
         * Example-DataStandardsWales-Organization-NCMC
             * identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
@@ -347,12 +353,16 @@ Package:
             * .address. Added Welsh address
             * .partOf.identifier. Removed
     * Removed Examples
+        * Urgent and Emergency Care
+            * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
+            * Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)
+            * Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)     
 
 Guide:
 
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
 * Added new pages to outline the Code Systems created in this release
-* Added new pages to outline Examples created in this release, and updated example links on relevant profile pages
+* Added new pages to outline the Examples created in this release, and updated example links on relevant profile pages
 * Added new pages to outline the Extensions created in this release
 * Added new pages to outline the Value Sets created in this release
 * Added a new page to outline the DataStandardsWales-HealthcareService profile
@@ -360,33 +370,37 @@ Guide:
 * Added a new page to outline the DataStandardsWales-OrganizationTypeExtended value set which was created in 2.6.0
 * Added a new page to outline the DataStandardsWales-Task profile
 * Corrected spelling error for DataStandardsWales-OrganizationSubclassification in 2.6.0 Release Notes and ValueSet yaml toc file
+* Reformatted Release Notes to match upgraded FHIR Assets pages
 * Removed the Urgent and Emergency Care guidance page
 * Restored 2.6.0 release details to Version History page
 * Updated Change Notices page in the [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/)
+* Updated CodeSystem-DataStandardsWales-UEC-MessageEvent page to clarify that the resource is deprecated
 * Updated DataStandardsWales-Location profile page to align narrative content with profile changes
-* Updated MessageDefinition-DataStandardsWales-UEC-Arrival page to clarify that the resource is deprecated
-* Updated MessageDefinition-DataStandardsWales-UEC-Discharge page to clarify that the resource is deprecated
-* Updated MessageDefinition-DataStandardsWales-UEC-Triage page to clarify that the resource is deprecated
 * Updated DataStandardsWales-Observation-VitalSigns profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BMI profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyHeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Observation-VitalSigns-BodyWeight profile page with further guidance on dependencies
 * Updated DataStandardsWales-Organization profile page to align narrative content with profile changes
 * Updated DataStandardsWales-Practitioner profile page with new slice
-* Updated Design-Naming Conventions page with additional guidance and glossary. Introduced tabulated views where appropriate 
 * Updated Example Index with new examples
 * Updated Example Index. Example Location - Cadog Ward (GGH) renamed as Example Location - Glangwili General Hospital Cadog Ward
 * Updated Example Index. Example Location - Outpatients Department (GGH) renamed as Example Location - Glangwili General Hospital Outpatients Department
 * Updated Example Index. Example Location - Ward E (NPT) renamed as Example Location - Neath Port Talbot Hospital Ward E
-* Updated Resource Index by relocating DataStandardWales-Condition from Entities to Diagnostics
+* Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Literal renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
+* Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Logical renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical   
+* Updated Example Index. Example-DataStandardsWales-MessageDefinition-SubmitClinician renamed as Example-DataStandardsWales-MessageDefinition-ClinicianSubmit 
+* Updated FHIR Messaging page with amended example links and amended diagram links
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
 * Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias
-* Updated Guidance-Care Documents page with advice regarding error management workflows
+* Updated Guidance page for Administrative Data to cover additional resources and up-to-date advice on modelling structural relationships
+* Updated Guidance page for Care Documents with advice regarding error management workflows
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
 * Updated MessageDefinition-DataStandardsWales-UEC-Arrival page to clarify that the resource is deprecated
 * Updated MessageDefinition-DataStandardsWales-UEC-Discharge page to clarify that the resource is deprecated
 * Updated MessageDefinition-DataStandardsWales-UEC-Triage page to clarify that the resource is deprecated
 * Updated Resource Index by relocating DataStandardWales-Condition from Entities to Diagnostics
+* Upgraded FHIR Assets pages, providing a greater level of detail on dedicated tabs for Profiles, Extensions, Code Systems and Value Sets
+
 
 ### v2.6.1 STU2 - Urgent Correction Release
 Summary: This release contains urgent corrections to DocumentReference and related resources, discovered during early use by the NHS Wales Care Documents Service of the newly activated DataStandardsWales-DocumentReference profile in the Wales FHIR Implementation Guide v2.6.0. It also contains a correction of a misleading Practitioner identifier slice name for registered pharmacists.
@@ -443,10 +457,10 @@ Guide:
 ### v2.6.0 STU2
 
 Package: 
-* {{pagelink:Home/Help-and-Support/Deployment.page.md,text:Dependencies}}:
+* Dependencies:
     * New Dependencies
         * hl7.fhir.uv.xver-r5.r4: 0.1.0
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* Profiles and Extensions:
     * New Message Definitions
         * DataStandardsWales-CareDocumentSubmit
     * New Extensions
@@ -491,7 +505,7 @@ Package:
         * Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated
             * Updated version from 1.0.0 to 1.0.1
             * .status. Updated from draft to active
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+* Terminology:
     * New Code Systems
         * DataStandardsWales-AliasType
         * DataStandardsWales-MessageEvent
@@ -531,14 +545,14 @@ Package:
         * DataStandardsWales-MessageEvent
             * Updated version from 0.1.0 to 0.2.0
             * Added DataStandardsWales-MessageEvent as a CodeSystem
-* {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
+* Naming Systems:
     * New Naming Systems
         * Namespace for LIMS1 TCL encounter identifier
         * Namespace for LIMS2 TCLe encounter identifier
         * Namespaces for PAS location identifiers
     * Changes to Naming Systems
         * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions   
-* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Examples:
     * New Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR
         * Example-DataStandardsWales-Location-GGH
@@ -627,7 +641,7 @@ Package:
             * Replaced by Example-DataStandardsWales-Organization-AmmanGwendraeth
         * Example-DataStandardsWales-Organization-GPPractice
             * Replaced by Example-DataStandardsWales-Organization-AmmanTawe
-* {{pagelink:Home/Design/Naming-Conventions, text:Naming Conventions}}:
+* Naming Conventions:
     * Added Naming Conventions for Message Definition Resources section
 
 Guide:
@@ -669,7 +683,7 @@ Guide:
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
 
 Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* Profiles and Extensions:
     * New Profiles
         * DataStandardsWales-MessageDefinition
         * DataStandardsWales-MessageHeader
@@ -844,7 +858,7 @@ Package:
         * Extension-DataStandardsWales-UECDischargeInformationGiven
             * Updated version from 0.0.2 to 0.1.0
             * .experimental. Updated from true to false       
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+* Terminology:
     * New Code Systems
         * DataStandardsWales-DocumentAttribute
         * DataStandardsWales-DocumentErrorAction
@@ -980,7 +994,7 @@ Package:
         * Updated Naming Systems
             * Corrected Sub-Specialty id from Speciality to Specialty
             * Corrected element descriptors for DataStandardsWales-SBUHB-PAS-LinkIdentifier and DataStandardsWales-VUNHST-PAS-LinkIdentifier
-* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Examples:
     * New Examples
         * FHIR Messaging guidance
             * Example Message Bundle - Submit Clinician (Logical Referencing)
@@ -1094,7 +1108,7 @@ Guide:
 
 ### v2.4.0 STU2
 Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* Profiles and Extensions:
     * New Extensions
         * DataStandardsWales-ClinicCode
     * Changes to Profiles
@@ -1152,7 +1166,7 @@ Package:
         * DataStandardsWales-UEC-DischargeInformationGiven
             * Updated version from 0.0.1 to 0.0.2
             * dischargeInformation.value. Added reference to DataStandardsWales-DocumentReference
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+* Terminology:
     * New Code Systems
         * DataStandardsWales-MainSpecialty
         * MessageEvents
@@ -1225,7 +1239,7 @@ Guide:
 
 ### v2.3.0 STU2
 Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* Profiles and Extensions:
     * New Profiles
         * DataStandardsWales-Composition
         * DataStandardsWales-Condition        
@@ -1297,7 +1311,7 @@ Package:
         * DataStandardsWales-PractitionerRole
             * Updated version from 1.1.1 to 1.1.2
             * .specialty. Changed valueset binding from required to extensible to align with UK Core
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+* Terminology:
     * New Value Sets 
         * Data Standards Wales Document Category
         * Data Standards Wales Document Digital Status
@@ -1335,7 +1349,7 @@ Package:
             * Namespaces for PAS upi identifiers. These additional identifiers are for referrals and appointments and encounters so CDR can identify when an appointment has come from a referral and when a patient has e.g arrived at their appointment.  CDR would store this value as an additional identifier against each referral, appointment and encounter in the existing identifier FHIR array.
             * Namespace for WCRS DocumentId values
             * Namespace for WCRS DocumentSupersessionSetId values
-* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Examples:
     * New Examples
         * Document Reference
             * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text:Encounter-based}}
@@ -1366,7 +1380,7 @@ Guide:
 
 ### v2.2.0 STU2
 Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* Profiles and Extensions:
     * New Profiles
         * DataStandardsWales-Appointment        
     * Changes to Profiles
@@ -1399,7 +1413,7 @@ Package:
     * New Naming Systems
         * Namespaces for PAS Appointment ids
         * Namespaces for PAS Sub-speciality codes
-* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Examples:
     * New Examples
         * Observation Vital Signs 
             * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-BMI,text: BMI}}
@@ -1428,7 +1442,7 @@ Guide:
 
 ### v2.1.0 STU2
 Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* Profiles and Extensions:
     * New Profiles
         * DataStandardsWales-Observation-VitalSigns
         * DataStandardsWales-Observation-VitalSigns-BMI
@@ -1567,7 +1581,7 @@ Package:
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
     * New Extensions
         * DataStandardsWales-RecordingSetting
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+* Terminology:
     * New Value Sets
         * DataStandardsWales-BloodPressure
         * DataStandardsWales-BloodPressureDiastolic
@@ -1589,7 +1603,7 @@ Package:
 * Naming Systems
     * New Naming Systems
         * NADEX-Identifier
-* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Examples:
     * New Examples
         * Provenance
             * Example-DataStandardsWales-Provenance-Growth-Charts (Note: Example subsequently removed in v2.2.0 STU2)
@@ -1603,7 +1617,7 @@ As part of our commitment to quality assurance and interoperability, we undertoo
 In addition to the removal of replicate content, the following changes were made: 
 
 Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+* Profiles and Extensions:
     * Changes to Profiles
         * DataStandardsWales-AllergyIntolerance
             * Updated version number from 1.0.0 to 1.1.0
@@ -1839,7 +1853,7 @@ Guide:
                 
 ### v1.2.1 STU1
 Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+* Profiles and Extensions:
     * Changes to Profiles    
         * DataStandardsWales-AllergiesList
             * Added Extensions for:
@@ -1858,7 +1872,7 @@ Package:
 * Naming Systems:
     * Changes to Identifiers
         * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and BCUHBWestPASIdentifier to BCUHBPASIdentifier
-* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Examples:
     * New examples
         * Immunization
             * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}  
@@ -1880,11 +1894,11 @@ Guide:
 
 ### v1.1.1 STU1
 Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
+* Profiles:
     * Changes to Profiles
         * DataStandardsWales-Provenance   
             * Updated references to use Data Standards Wales profiles     
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+* Extensions:
     * Changes to Extensions
         * DataStandardsWales-DemographicsAsRecorded
             * Renamed the DOB extension to birtDate 
@@ -1903,7 +1917,7 @@ Guide:
 ### v1.1.0 STU1
 
 Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
+* Profiles:
     * New Profiles
         * DataStandardsWales-Device
         * DataStandardsWales-Provenance        
@@ -1912,13 +1926,13 @@ Package:
             * Added Extensions for:
                 * DataStandardsWales-CDRPatientRecordType
                 * DataStandardsWales-CDRSourceTimestamp
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+* Extensions:
     * New Extensions
         * DataStandardsWales-CDRPatientRecordType
         * DataStandardsWales-CDRSourceTimestamp
         * DataStandardsWales-DemographicsAsRecorded
 
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Value Sets}}:
+* Value Sets:
     * New Value Sets
         * DataStandardsWales-ProvenanceActivity
         * DataStandardsWales-PatientRecordType
@@ -1970,7 +1984,7 @@ Package:
         * Trailing space removed from display value
     * DataStandardsWales-Sex
         * Trailing space removed from display value
-* Value Set: 
+* Value Sets: 
     * DataStandardsWales-GenderIdentity
         * Trailing space removed from display value
     * DataStandardsWales-Sex
@@ -1986,7 +2000,7 @@ Package:
     * DataStandardsWales-MaritalStatus-UKCorePersonMaritalStatusCode Resource
         * Changed the targetURI to correct valueset
         * Leading space removed from target value
-* Extension:
+* Extensions:
     * DataStandardsWales-MedicationCourseOfTherapyType
         * Change to correct valueset
 * Naming Systems:
