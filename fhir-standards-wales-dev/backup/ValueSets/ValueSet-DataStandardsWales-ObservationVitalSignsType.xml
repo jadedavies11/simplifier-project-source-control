@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-ObservationVitalSignsType" />
     <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-ObservationVitalSignsType" />
-    <version value="1.2.0" />
+    <version value="1.1.0" />
     <name value="DataStandardsWalesObservationVitalSignsType" />
     <title value="Data Standards Wales ValueSet Observation Vital Signs Type" />
     <status value="active" />

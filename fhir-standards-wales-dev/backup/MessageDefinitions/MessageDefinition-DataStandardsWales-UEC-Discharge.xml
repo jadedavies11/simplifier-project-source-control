@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MessageDefinition xmlns="http://hl7.org/fhir">
 	<id value="MessageDefinition-DataStandardsWales-UEC-Discharge"/>
+    <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="deprecated"/>
+    </extension>
 	<url value="https://fhir.nhs.wales/MessageDefinition/DataStandardsWales-UEC-Discharge"/>
-	<version value="0.1.0" />
+	<version value="0.2.0" />
 	<name value="MessageDefinitionDataStandardsWalesUECDischarge"/>
 	<title value="Message Definition Data Standards Wales UEC Discharge"/>
 	<status value="draft"/>
-	<date value="2025-12-19"/>
+	<date value="2026-08-28"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -16,8 +19,8 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="Message to record patient discharge from a UEC facility."/>
-	<copyright value="2025 NHS Wales." />		
+	<description value="DEPRECATED. This message definition will be withdrawn in a future release and SHOULD NOT be used. Any valid message definition agreed with the receiving system can be used instead. This message definition is used to record patient discharge from a UEC facility."/>
+	<copyright value="2026 NHS Wales." />		
 	<eventCoding>
 		<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>
 		<code value="uec-discharge"/>

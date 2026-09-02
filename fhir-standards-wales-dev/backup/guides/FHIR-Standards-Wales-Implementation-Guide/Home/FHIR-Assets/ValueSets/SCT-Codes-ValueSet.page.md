@@ -233,7 +233,7 @@ The following Data Standard Wales Value Sets are composed of Code System `http:/
 		<td scope="row">{{pagelink:ValueSet-PASReferralSource}}</td>
 		<td></td>
 		<td></td>
-		<td style="font-size: 90%;">Not bound to profile. Contains <br><a href="https://simplifier.net/packages/fhir.r4.ukcore.stu3.currentbuild/0.28.0-pre-release/files/3319330">UKCore-SourceOfServiceRequest ValueSet version 1.2.1</a><br>which are SNOMED CT codes</td>
+		<td style="font-size: 90%;">Not bound to profile. Contains <br><a href="https://simplifier.net/HL7FHIRUKCoreR4/ValueSet-UKCore-SourceOfServiceRequest/~xml">UKCore-SourceOfServiceRequest ValueSet version 1.3.0</a><br>which are SNOMED CT codes</td>
 	</tr>
 	</tbody>
 </table>

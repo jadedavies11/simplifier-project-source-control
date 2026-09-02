@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-UEC-MessageEvent"/>
+    <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="deprecated"/>
+    </extension>
     <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-MessageEvent"/>	
-    <version value="0.0.1" />
+    <version value="0.1.0" />
     <name value="DataStandardsWales-UEC-MessageEvent"/>
 	<title value="Data Standards Wales UEC Message Event"/>
     <status value="draft" />
     <experimental value="false" />
-    <date value="2025-12-12" />
+    <date value="2026-08-28" />
     <publisher value="NHS Wales" />
 	<contact>
 		<name value="FHIR Standards"/>	
@@ -17,8 +20,8 @@
 			<use value="work"/>
 		</telecom>
 	</contact>	
-    <description value="This CodeSystem indicates the valid message events for use within a message bundle submitting data related to an attendance at an urgent and emergency care facility."/>
-    <copyright value="2025 NHS Wales." />
+    <description value="DEPRECATED. This code system will be withdrawn in a future release and SHOULD NOT be used. Any valid code system agreed with the receiving system can be used instead. This code system is used to indicate the valid message events for use within a message bundle submitting data related to an attendance at an urgent and emergency care facility."/>
+    <copyright value="2026 NHS Wales." />
     <caseSensitive value="true"/>
     <content value="complete"/>
     <concept>

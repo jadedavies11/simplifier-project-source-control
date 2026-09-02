@@ -1,6 +1,11 @@
 <div class="warning"><span class="DevWarn"></span></div>
 
 ## {{page-title}}
+<fql output="inline">
+from MessageDefinition
+where name = 'MessageDefinitionDataStandardsWalesUECArrival'
+select description
+</fql>
 
 <div class="tab-wrap">
   <ul class="tab-head">

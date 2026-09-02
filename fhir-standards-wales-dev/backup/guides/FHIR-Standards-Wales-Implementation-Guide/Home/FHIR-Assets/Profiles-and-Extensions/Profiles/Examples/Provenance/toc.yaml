@@ -1,3 +1,5 @@
+- name: Example-DataStandardsWales-DocumentReference-Provenance
+  filename: Example-DataStandardsWales-DocumentReference-Provenance.page.md
 - name: Example-DataStandardsWales-Provenance-DemographicsAsRecorded
   filename: Example-DataStandardsWales-Provenance-DemographicsAsRecorded.page.md
 - name: Example-DataStandardsWales-Provenance-DemographicUpdate
