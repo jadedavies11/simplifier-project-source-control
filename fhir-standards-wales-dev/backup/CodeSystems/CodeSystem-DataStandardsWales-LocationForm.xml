@@ -19,6 +19,7 @@
 	</contact>
 	<description value="Code system to supplement the HL7 R5 LocationForm value set with additional values to be used by health and care organisations in Wales to classify the physical form of a location space."/>
 	<copyright value="2026 NHS Wales."/>
+	<content value="complete"/>
 	<concept>
 		<code value="clinical-area"/>
 		<display value="Clinical area"/>

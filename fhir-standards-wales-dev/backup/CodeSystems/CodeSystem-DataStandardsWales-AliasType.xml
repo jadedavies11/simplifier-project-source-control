@@ -67,7 +67,7 @@
 		<definition value="An alias that represents a short recognised acronym for the entity.  Such abbreviations are generally shorter than the standard acronym and typically used for readability in charts and tables."/>
 	</concept>
 	<concept>
-		<code value="short-acronym-welsh "/>
+		<code value="short-acronym-welsh"/>
 		<display value="Short acronym (Welsh)"/>
 		<definition value="An alias that represents a short recognised Welsh language acronym for the entity.  Such abbreviations are generally shorter than the standard acronym and typically used for readability in charts and tables."/>
 	</concept>

@@ -1,4 +1,4 @@
-<span style="font-size: 0.95em;">The generic structural hierarchy for general practice is illustrated below.  In this case the `mainLocation` extension link distinguishes the main surgery from any other locations such as branch surgeries or mobile surgeries.  In the worked example, the Amman Tawe Partnership practice has a main sugery plus two branch surgeries.</span>
+<span style="font-size: 0.95em;">The generic structural hierarchy for general practice organisations and locations is illustrated below.  In this case the `mainLocation` extension link distinguishes the main surgery from any other locations such as branch surgeries or mobile surgeries.  In the worked example, the Amman Tawe Partnership practice has a main surgery plus two branch surgeries.</span>
 
 <br />
 {{render:Diagrams-Admin-general-practice-hierarchies}}

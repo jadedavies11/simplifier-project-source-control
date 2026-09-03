@@ -17,7 +17,7 @@
 	</type>
 	<type>
 		<coding>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationTypeCategory"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationType"/>
 			<code value="outpatients-clinic"/>
 			<display value="Outpatients clinic"/>
 		</coding>

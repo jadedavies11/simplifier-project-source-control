@@ -5,10 +5,10 @@
 	</meta>
 	<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference">
 		<extension url="northings">
-			<valueCode value="221240"/>
+			<valueInteger value="221240"/>
 		</extension>
 		<extension url="eastings">
-			<valueCode value="242791"/>
+			<valueInteger value="242791"/>
 		</extension>
 	</extension>
 	<identifier>

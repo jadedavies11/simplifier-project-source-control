@@ -27,85 +27,84 @@
 		</include>
 	</compose>
 	<expansion>
-		<timestamp value="2026-08-20T16:15:00:00+00:00"/>
+		<timestamp value="2026-08-20T16:15:00+00:00"/>
 		<contains>
-			<code value="clinical-area"/>
 			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+			<code value="clinical-area"/>
 			<display value="Clinical area"/>
 		</contains>
 		<contains>
-			<code value="area"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="area"/>
 			<display value="Area"/>
 		</contains>
 		<contains>
-			<code value="bd"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="bd"/>
 			<display value="Bed"/>
 		</contains>
 		<contains>
-			<code value="bu"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="bu"/>
 			<display value="Building"/>
 		</contains>
 		<contains>
-			<code value="ca"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="ca"/>
 			<display value="Cabinet"/>
 		</contains>
 		<contains>
-			<code value="co"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="co"/>
 			<display value="Corridor"/>
 		</contains>
 		<contains>
-			<code value="ho"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="ho"/>
 			<display value="House"/>
 		</contains>
 		<contains>
-			<code value="jdn"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
-			<display value="Jurisdiction"/>
+			<code value="jdn"/>			<display value="Jurisdiction"/>
 		</contains>
 		<contains>
-			<code value="lvl"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="lvl"/>
 			<display value="Level"/>
 		</contains>
 		<contains>
-			<code value="rd"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="rd"/>
 			<display value="Road"/>
 		</contains>
 		<contains>
-			<code value="ro"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="ro"/>
 			<display value="Room"/>
 		</contains>
 		<contains>
-			<code value="si"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="si"/>
 			<display value="Site"/>
 		</contains>
 		<contains>
-			<code value="ve"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="ve"/>
 			<display value="Vehicle"/>
 		</contains>
 		<contains>
-			<code value="vi"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="vi"/>
 			<display value="Virtual"/>
 		</contains>
 		<contains>
-			<code value="wa"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="wa"/>
 			<display value="Ward"/>
 		</contains>
 		<contains>
-			<code value="wi"/>
 			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="wi"/>
 			<display value="Wing"/>
 		</contains>
 	</expansion>

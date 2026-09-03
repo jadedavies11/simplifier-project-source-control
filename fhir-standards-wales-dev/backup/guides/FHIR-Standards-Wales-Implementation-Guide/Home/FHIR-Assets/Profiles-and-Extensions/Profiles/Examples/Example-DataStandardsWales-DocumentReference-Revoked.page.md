@@ -1,5 +1,5 @@
 ## Example DocumentReference - Revoked
-This DocumentReference example illustrates the {{pagelink:Care-Document?#Document-Error-Workflow, text:document revoked workflow}}. It shows the effect on the DocumentReference resource of a reviewer marking a document as revoked.
+This DocumentReference example illustrates the revocation of a document as described in the {{pagelink:Document-Error-Workflow, text:document error workflow}} guidance. It shows the effect on the DocumentReference resource of an individual marking a document as revoked.
 
 <div class="tab-wrap">
   <ul class="tab-head">

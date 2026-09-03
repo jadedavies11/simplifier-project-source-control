@@ -139,9 +139,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal, text:Example Message Bundle - Clinician Submit (with Literal Referencing)}}
 * {{pagelink:Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical, text:Example Message Bundle - Clinician Submit (with Logical Referencing)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Arrival-UHWEUMI, text: Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Discharge-UHWEUMI, text: Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-UEC-Triage-UHWEUMI, text: Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)}}
 
 ### Message Definition Examples
 * {{pagelink:Example-DataStandardsWales-MessageDefinition-ClinicianSubmit, text:Example Message Definition - Clinician Submit (PractitionerRole)}}
