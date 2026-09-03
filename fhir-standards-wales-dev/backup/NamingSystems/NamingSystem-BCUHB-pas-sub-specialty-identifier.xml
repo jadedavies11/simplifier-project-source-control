@@ -19,7 +19,7 @@
 	<usage value="Appointment identity"/>
 	<uniqueId>
 		<type value="uri"/>
-		<value value=" https://fhir.bcuhb.nhs.wales/Id/pas-sub-specialty-code"/>
+		<value value="https://fhir.bcuhb.nhs.wales/Id/pas-sub-specialty-code"/>
 		<preferred value="true"/>
 	</uniqueId>
 </NamingSystem>

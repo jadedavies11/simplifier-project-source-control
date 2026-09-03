@@ -3,7 +3,7 @@
 	<meta>
 		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
 	</meta>
-	<extension url="“https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MainLocation">
+	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MainLocation">
 		<valueReference>
 			<reference value="Location/Example-DataStandardsWales-Location-GGH"/>
 			<display value="Glangwili General Hospital"/>

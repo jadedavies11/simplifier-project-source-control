@@ -6,7 +6,7 @@
 
 <span style="font-size: 0.95em;">As illustrated, a separate OrganizationAffiliation resource is used for each member organization.  Every cluster is managed as part of a specific health board.</span>
 
-<span style="font-size: 0.95em;">In the worked example below for the Amman Gwendraeth cluster, the solid lines represent the instantiation of the cluster and the membership participation of the Amman Tawe Partnership GP practice.  The dotted line represent pre-existing links that define the formal organization hierarchy.</span>
+<span style="font-size: 0.95em;">In the worked example below for the Amman Gwendraeth cluster, the solid lines represent the instantiation of the cluster and the membership participation of the Amman Tawe Partnership GP practice.  The dotted lines represent pre-existing links that define the formal organization hierarchy.</span>
 
 <br />
 {{render:Diagrams-Admin-cluster-membership-atp}}

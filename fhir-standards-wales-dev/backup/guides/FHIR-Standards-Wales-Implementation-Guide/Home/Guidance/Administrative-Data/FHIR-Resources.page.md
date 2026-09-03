@@ -12,7 +12,7 @@ The involved FHIR resources are described in the tabs below. For each, the relat
     <li class="tablink" onclick="openLocalTab(this,'tabresservice')" data-target="tabresservice">
       HealthcareService
     </li>  
-    <li class="tablink" onclick="openLocalTab(this,'tabresafflliation')" data-target="tabresaffiliation">
+    <li class="tablink" onclick="openLocalTab(this,'tabresaffiliation')" data-target="tabresaffiliation">
       OrganizationAffiliation
     </li>
 	  <li class="tablink" onclick="openLocalTab(this,'tabrespractitioner')" data-target="tabrespractitioner">

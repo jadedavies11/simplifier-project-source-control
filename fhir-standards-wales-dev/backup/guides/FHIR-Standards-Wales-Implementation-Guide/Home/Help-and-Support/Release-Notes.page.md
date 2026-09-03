@@ -7,8 +7,8 @@ This page describes the published versions of this implementation guide and diff
 In addition to general maintenance, this release includes changes which in the main will support:
 
 * The Choose Pharmacy service
-* Complexities around organisation data (e.g. regions and clusters)
-* Error workflows for Care Documents
+* Complexities around organisation and location data (e.g. type classification, regions and clusters)
+* Error workflows for care documents
 
 WITHDRAWN Assets: <br>
 The following assets have been marked as withdrawn in this release and have a lifecycle status of retired. These will no longer be maintained within the Wales FHIR Implementation Guide or Wales FHIR package and SHALL NOT be used for new or revised content.
@@ -28,6 +28,10 @@ Deprecated assets are expected to be withdrawn in a future release unless otherw
 
 Package: 
 * Updated structure definition meta data elements for contact information and copyright for various Profiles, Extensions, Code Systems and Value Sets to reflect current information.
+* Dependencies:
+    * Changes to Dependencies
+        * fhir.r4.ukcore.stu2
+            * Version updated from 2.0.1 to 2.0.2
 * {{pagelink:Home/FHIR-Assets/Profile-Index.page.md,text:Profiles}}:
     * New Profiles
         * DataStandardsWales-HealthcareService
@@ -272,6 +276,7 @@ Package:
             * eventCoding.code. Updated to clinician-submit from submit-clinician
             * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
+            * Added mainLocation extension content referencing Location/Example-DataStandardsWales-Location-AmmanTawePartnership
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
             * .text. Removed

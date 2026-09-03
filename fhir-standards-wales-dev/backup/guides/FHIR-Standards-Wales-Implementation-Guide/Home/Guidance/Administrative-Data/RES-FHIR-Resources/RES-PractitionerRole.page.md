@@ -1,4 +1,4 @@
-<span style="font-size: 0.95em;">The {{pagelink:DataStandardsWales-PractitionerRole, text: PractitionerRole}} resource defines the role of a clinical professional within a specific health and care system context. This would typically represent an employment contract with a specified health and care organisation.  The resource contains information about the clinician’s role within the organisation such as grade or specialty.</span>
+<span style="font-size: 0.95em;">The {{pagelink:DataStandardsWales-PractitionerRole, text: PractitionerRole}} resource defines the role of a clinical or non-clinical professional within a specific health and care system context. This would typically represent an employment contract with a specified health and care organisation.  The resource contains information about the staff member’s role within the organisation such as grade or specialty.</span>
 
 <br />
 {{render:Diagrams-Admin-links-practitioner-role}}

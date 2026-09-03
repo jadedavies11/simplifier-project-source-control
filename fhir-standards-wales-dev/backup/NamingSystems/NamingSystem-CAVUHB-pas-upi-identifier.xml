@@ -19,7 +19,7 @@
 	<usage value="Appointment identity, Encounter identity, ServiceRequest identity"/>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="	https://fhir.cavuhb.nhs.wales/Id/pas-upi-identifier"/>
+		<value value="https://fhir.cavuhb.nhs.wales/Id/pas-upi-identifier"/>
 		<preferred value="true"/>
 	</uniqueId>
 </NamingSystem> 

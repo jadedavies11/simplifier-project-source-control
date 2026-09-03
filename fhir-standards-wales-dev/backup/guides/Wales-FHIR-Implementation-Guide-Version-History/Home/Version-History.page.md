@@ -12,11 +12,25 @@ Implementation Guide version history is provided in the table below.
 			<th scope="col">UK Core Version</th>
 			<th scope="col">Description</th>
 			<th scope="col">Guide</th>
-			<th scope="col">Release Note</th>
+			<th scope="col">Release Notes</th>
 			<th scope="col">Package</th>
 		</tr>
 	</thead>
 	<tbody>
+		<tr>
+			<td scope="row">03/09/2026</td>
+			<td>2.7.0-ballot STU2</td>
+			<td>4.0.1</td>
+			<td>2.0.2</td>
+			<td>In addition to general maintenance, this release includes changes which in the main will support: the Choose Pharmacy service, error workflows for care documents and complexities around organisation and location data (e.g. type classification, regions and clusters)</td>
+			<td>
+				<a href="https://simplifier.net/guide/fhir-standards-wales-test?version=2.7.0-ballot">Home Page</a>
+			</td>
+			<td><a href="https://simplifier.net/guide/fhir-standards-wales-test/Home/Help-and-Support/Release-Notes?version=2.7.0-ballot">Release Notes</a></td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.wales.test/2.7.0-ballot">fhir.r4.wales.test 2.7.0-ballot</a>
+			</td>
+		</tr>
 		<tr>
 			<td scope="row">10/07/2026</td>
 			<td>2.6.1 STU2</td>
