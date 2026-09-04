@@ -276,12 +276,12 @@ Package:
             * eventCoding.code. Updated to clinician-submit from submit-clinician
             * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-Organization-AmmanGwendraeth
-            * Added mainLocation extension content referencing Location/Example-DataStandardsWales-Location-AmmanTawePartnership
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .identifier. Updated Naming System from GPClusterCode to WRTSClusterCode
             * .text. Removed
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-AmmanTawe
+            * Added mainLocation extension content referencing Location/Example-DataStandardsWales-Location-AmmanTawePartnership
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
             * .name. Added HL7 Translation extension
@@ -376,8 +376,11 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Task profile
 * Corrected spelling error for DataStandardsWales-OrganizationSubclassification in 2.6.0 Release Notes and ValueSet yaml toc file
 * Reformatted Release Notes to match upgraded FHIR Assets pages
+* Removed all pages related to example resources removed at this release
 * Removed the Urgent and Emergency Care guidance page
 * Restored 2.6.0 release details to Version History page
+* Restructured and extended scope of FHIR Assets pages
+* Restructured and extended scope of Naming Conventions page
 * Updated Change Notices page in the [Version History IG](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History/)
 * Updated CodeSystem-DataStandardsWales-UEC-MessageEvent page to clarify that the resource is deprecated
 * Updated DataStandardsWales-Location profile page to align narrative content with profile changes
@@ -404,7 +407,6 @@ Guide:
 * Updated MessageDefinition-DataStandardsWales-UEC-Discharge page to clarify that the resource is deprecated
 * Updated MessageDefinition-DataStandardsWales-UEC-Triage page to clarify that the resource is deprecated
 * Updated Resource Index by relocating DataStandardWales-Condition from Entities to Diagnostics
-* Upgraded FHIR Assets pages, providing a greater level of detail on dedicated tabs for Profiles, Extensions, Code Systems and Value Sets
 
 
 ### v2.6.1 STU2 - Urgent Correction Release

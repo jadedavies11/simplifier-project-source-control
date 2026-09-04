@@ -13,9 +13,9 @@ Dependency history for the Data Standards Wales FHIR package is provided in the 
 	</thead>
 	<tbody>
 		<tr>
-			<td scope="row">03/09/2026</td>
+			<td scope="row">04/09/2026</td>
 			<td>
-				<a href="https://simplifier.net/packages/fhir.r4.wales/2.7.0">fhir.r4.wales 2.6.0</a>
+				<a href="https://simplifier.net/packages/fhir.r4.wales.test/2.7.0-ballot.1">fhir.r4.wales.test 2.7.0-ballot.1</a>
             <td>
                 <p><a href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1">hl7.fhir.r4.core 4.0.1</a><p>
                 <p><a href="https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.2">fhir.r4.ukcore.stu2 2.0.2</a></p>  
