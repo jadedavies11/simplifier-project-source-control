@@ -3,6 +3,12 @@
 	<meta>
 		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
 	</meta>
+	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MainLocation">
+		<valueReference>
+			<reference value="Location/Example-DataStandardsWales-Location-AmmanTawePartnership"/>
+			<display value="Amman Tawe Partnership"/>
+		</valueReference>
+	</extension>
 	<extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
 		<valuePeriod>
 			<start value="2012-05-11"/>
