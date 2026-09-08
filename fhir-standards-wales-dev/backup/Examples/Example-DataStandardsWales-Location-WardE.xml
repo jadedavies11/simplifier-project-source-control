@@ -40,4 +40,8 @@
 		</identifier>		
 		<display value="Neath Port Talbot Hospital"/>
 	</managingOrganization>
+    <partOf>
+        <reference value="Location/Example-DataStandardsWales-Location-NPT" />
+        <display value="Neath Port Talbot Hospital" />
+	</partOf>
 </Location>

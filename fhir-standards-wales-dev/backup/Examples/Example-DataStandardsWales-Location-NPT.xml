@@ -1,0 +1,70 @@
+<Location xmlns="http://hl7.org/fhir">
+	<id value="Example-DataStandardsWales-Location-NPT"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location"/>
+	</meta>
+	<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-GridReference">
+		<extension url="northings">
+			<valueInteger value="190466"/>
+		</extension>
+		<extension url="eastings">
+			<valueInteger value="275402"/>
+		</extension>
+	</extension>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/wrts-location-identifier"/>
+		<value value="7A3CJ"/>
+	</identifier>
+	<status value="active"/>
+	<name value="Neath Port Talbot Hospital">
+		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+			<extension url="lang">
+				<valueCode value="cym"/>
+			</extension>
+			<extension url="content">
+				<valueString value="Ysbyty Castell Nedd Port Talbot"/>
+			</extension>
+		</extension>
+	</name>	
+	<alias value="Neath Port Talbot Hospital">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">	
+			<valueCode value="official-name"/>	
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name"/>
+		</extension>
+	</alias>	
+	<alias value="Ysbyty Castell Nedd Port Talbot">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name-welsh"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name-welsh"/>
+		</extension>
+	</alias>
+	<type>
+		<coding>
+			<system value="http://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationType"/>
+			<code value="hospital"/>
+			<display value="Hospital"/>
+		</coding>
+	</type>
+	<address>
+		<line value="Baglan Way"/>
+		<city value="Port Talbot"/>
+		<district value="Neath Port Talbot"/>		
+		<postalCode value="SA12 7BX"/>
+		<country value="Wales"/>
+	</address>
+	<physicalType>
+		<coding>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="si"/>
+			<display value="Site"/>
+		</coding>
+	</physicalType>
+	<managingOrganization>
+		<reference value="Organization/Example-DataStandardsWales-Organization-NPT"/>
+		<display value="Neath Port Talbot Hospital"/>
+	</managingOrganization>
+</Location>

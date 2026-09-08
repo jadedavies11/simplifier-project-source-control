@@ -86,6 +86,7 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}
 * {{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}
 * {{pagelink:Example-DataStandardsWales-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}
+* {{pagelink:Example-DataStandardsWales-Location-NPT, text:Example Location - Neath Port Talbot Hospital}}
 * {{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}
 
 ### Medication Examples

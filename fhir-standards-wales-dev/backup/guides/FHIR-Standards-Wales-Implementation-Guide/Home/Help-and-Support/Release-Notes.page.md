@@ -2,6 +2,52 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.8.0 STU2
+
+Package:
+* {{pagelink:Home/FHIR-Assets/Profile-Index.page.md,text:Profiles}}:
+    * New Profiles
+    * Changes to Profiles
+    * Removed Profiles
+* {{pagelink:Home/FHIR-Assets/Extension-Index.page.md,text:Extensions}}:
+    * New Extensions
+    * Changes to Extensions  
+    * Removed Extensions  
+* {{pagelink:Home/FHIR-Assets/CodeSystem-Index.page.md,text:CodeSystems}}:
+    * New Code Systems
+    * Changes to Code Systems
+    * Removed Code Systems
+* {{pagelink:Home/FHIR-Assets/ValueSet-Index.page.md,text:ValueSets}}:
+    * New Value Sets
+    * Changes to Value Sets
+    * Removed Value Sets
+* {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
+    * New Naming Systems
+    * Changes to Naming Systems
+    * Removed Naming Systems
+* {{pagelink:Home/FHIR-Assets/Message-Definition-Index.page.md,text:Message Definitions}}   
+    * New Message Definitions
+    * Changes to Message Definitions
+    * Removed Message Definitions
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+        * Example-DataStandardsWales-Location-NPT
+    * Changes to Examples
+        * Example-DataStandardsWales-Location-WardE
+            * .partOf. Added Example-DataStandardsWales-Location-NPT
+    * Removed Examples
+
+Guide:
+
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+* Added new pages to outline the Code Systems created in this release
+* Added new pages to outline the Examples created in this release, and updated example links on relevant profile pages
+* Added new pages to outline the Extensions created in this release
+* Added new pages to outline the Value Sets created in this release
+* Updated Example Index with new examples
+
+
+
 ### v2.7.0 STU2
 
 In addition to general maintenance, this release includes changes which in the main will support:
