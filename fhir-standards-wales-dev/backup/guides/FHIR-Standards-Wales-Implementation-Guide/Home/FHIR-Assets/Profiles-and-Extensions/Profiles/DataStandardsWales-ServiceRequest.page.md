@@ -33,7 +33,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-ServiceRequest-PathologyOrder, text:Example ServiceRequest}}</li>
+      <li>{{pagelink:Example-ServiceRequest-PathologyOrder, text:Example ServiceRequest}}</li>
     </list>
   </div>    
 </div>

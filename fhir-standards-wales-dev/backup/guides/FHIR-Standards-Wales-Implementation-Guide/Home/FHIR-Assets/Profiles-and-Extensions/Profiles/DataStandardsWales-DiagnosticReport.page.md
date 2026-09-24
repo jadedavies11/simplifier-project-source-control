@@ -33,9 +33,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: Radiology - CT Abdomen}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Cardiology - ECG}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Cardiology - Stress Test}}</li>
+      <li>{{pagelink:Example-DiagnosticReport-CTAbdomen, text: Radiology - CT Abdomen}}</li>
+      <li>{{pagelink:Example-DiagnosticReport-ECG, text: Cardiology - ECG}}</li>
+      <li>{{pagelink:Example-DiagnosticReport-StressTest, text: Cardiology - Stress Test}}</li>
       
     </list>
   </div>    

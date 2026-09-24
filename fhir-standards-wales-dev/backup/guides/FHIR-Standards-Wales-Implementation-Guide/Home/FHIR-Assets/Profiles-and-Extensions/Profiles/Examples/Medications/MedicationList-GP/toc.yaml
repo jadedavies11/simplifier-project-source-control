@@ -1,23 +1,23 @@
-- name: Example-DataStandardsWales-List-Medications-GP
-  filename: Example-DataStandardsWales-List-Medications-GP.page.md
-- name: Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP
-  filename: Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP.page.md
-- name: Example-DataStandardsWales-MedicationStatement-Atorvastatin-GP
-  filename: Example-DataStandardsWales-MedicationStatement-Atorvastatin-GP.page.md
-- name: Example-DataStandardsWales-MedicationStatement-Bendro.-GP
-  filename: Example-DataStandardsWales-MedicationStatement-Bendro.-GP.page.md
-- name: Example-DataStandardsWales-MedicationStatement-Bisoprolol-GP
-  filename: Example-DataStandardsWales-MedicationStatement-Bisoprolol-GP.page.md
-- name: Example-DataStandardsWales-MedicationStatement-DurogesicDTrans-GP
-  filename: Example-DataStandardsWales-MedicationStatement-DurogesicDTrans-GP.page.md
-- name: Example-DataStandardsWales-MedicationStatement-Hydrocortisone-GP
-  filename: Example-DataStandardsWales-MedicationStatement-Hydrocortisone-GP.page.md
-- name: Example-DataStandardsWales-MedicationStatement-Latanoprost-GP
-  filename: Example-DataStandardsWales-MedicationStatement-Latanoprost-GP.page.md 
-- name: Example-DataStandardsWales-MedicationStatement-Nifedipress-GP
-  filename: Example-DataStandardsWales-MedicationStatement-Nifedipress-GP.page.md
-- name: Example-DataStandardsWales-MedicationStatement-Ramipril-GP
-  filename: Example-DataStandardsWales-MedicationStatement-Ramipril-GP.page.md
+- name: Example-List-Medications-GP
+  filename: Example-List-Medications-GP.page.md
+- name: Example-MedicationStatement-Amoxicillin-GP
+  filename: Example-MedicationStatement-Amoxicillin-GP.page.md
+- name: Example-MedicationStatement-Atorvastatin-GP
+  filename: Example-MedicationStatement-Atorvastatin-GP.page.md
+- name: Example-MedicationStatement-Bendro.-GP
+  filename: Example-MedicationStatement-Bendro.-GP.page.md
+- name: Example-MedicationStatement-Bisoprolol-GP
+  filename: Example-MedicationStatement-Bisoprolol-GP.page.md
+- name: Example-MedicationStatement-DurogesicDTrans-GP
+  filename: Example-MedicationStatement-DurogesicDTrans-GP.page.md
+- name: Example-MedicationStatement-Hydrocortisone-GP
+  filename: Example-MedicationStatement-Hydrocortisone-GP.page.md
+- name: Example-MedicationStatement-Latanoprost-GP
+  filename: Example-MedicationStatement-Latanoprost-GP.page.md 
+- name: Example-MedicationStatement-Nifedipress-GP
+  filename: Example-MedicationStatement-Nifedipress-GP.page.md
+- name: Example-MedicationStatement-Ramipril-GP
+  filename: Example-MedicationStatement-Ramipril-GP.page.md
 
 
 

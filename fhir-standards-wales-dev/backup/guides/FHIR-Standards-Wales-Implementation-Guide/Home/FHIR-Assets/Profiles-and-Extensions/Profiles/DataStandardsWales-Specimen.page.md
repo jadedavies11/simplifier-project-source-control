@@ -33,8 +33,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Specimen-Blood, text:Example Specimen - Blood}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Specimen-Urine, text:Example Specimen - Urine}}</li>
+      <li>{{pagelink:Example-Specimen-Blood, text:Example Specimen - Blood}}</li>
+      <li>{{pagelink:Example-Specimen-Urine, text:Example Specimen - Urine}}</li>
     </list>
   </div>    
 </div>

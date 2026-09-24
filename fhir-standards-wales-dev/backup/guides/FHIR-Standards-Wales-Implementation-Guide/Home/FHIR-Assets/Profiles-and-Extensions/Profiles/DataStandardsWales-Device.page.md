@@ -33,8 +33,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
       <list>
-      <li>{{pagelink:Example-DataStandardsWales-Device-CDRcomponent, text:CDR Component}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Device-WPAS, text:Device - WPAS}}</li>
+      <li>{{pagelink:Example-Device-CDRcomponent, text:CDR Component}}</li>
+      <li>{{pagelink:Example-Device-WPAS, text:Device - WPAS}}</li>
     </list>
   </div>
 </div>

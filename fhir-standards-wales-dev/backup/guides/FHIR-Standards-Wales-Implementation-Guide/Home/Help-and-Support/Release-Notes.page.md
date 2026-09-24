@@ -30,11 +30,12 @@ Package:
     * Changes to Message Definitions
     * Removed Message Definitions
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Removed DataStandardWales from id, name and page links from all examples
     * New Examples
-        * Example-DataStandardsWales-Location-NPT
+        * Example-Location-NPT
     * Changes to Examples
-        * Example-DataStandardsWales-Location-WardE
-            * .partOf. Added Example-DataStandardsWales-Location-NPT
+        * Example-Location-WardE
+            * .partOf. Added Example-Location-NPT
     * Removed Examples
 
 Guide:
@@ -45,6 +46,7 @@ Guide:
 * Added new pages to outline the Extensions created in this release
 * Added new pages to outline the Value Sets created in this release
 * Updated Example Index with new examples
+* Updated Profile pages with amended Example links
 
 
 
