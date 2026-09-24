@@ -34,18 +34,18 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text: Example Organization - Amman Gwendraeth Cluster}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text: Example Organization - Amman Tawe Partnership}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-CAVUHB, text: Example Organization - Cardiff and Vale University Local Health Board}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text: Example Organization - Cardiff North Cluster}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-NCMC, text: Example Organization - North Cardiff Medical Centre}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-Region-SouthCentral, text:Example Organization - South Central Wales Region}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Organization-UHW, text: Example Organization - University Hospital of Wales}}</li>  
+      <li>{{pagelink:Example-Organization-AmmanGwendraeth, text: Example Organization - Amman Gwendraeth Cluster}}</li>
+      <li>{{pagelink:Example-Organization-AmmanTawe, text: Example Organization - Amman Tawe Partnership}}</li>
+      <li>{{pagelink:Example-Organization-CAVUHB, text: Example Organization - Cardiff and Vale University Local Health Board}}</li>
+      <li>{{pagelink:Example-Organization-CardiffNorth, text: Example Organization - Cardiff North Cluster}}</li>
+      <li>{{pagelink:Example-Organization-GGH, text: Example Organization - Glangwili General Hospital}}</li>
+      <li>{{pagelink:Example-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</li>
+      <li>{{pagelink:Example-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}</li>
+      <li>{{pagelink:Example-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}</li>
+      <li>{{pagelink:Example-Organization-NCMC, text: Example Organization - North Cardiff Medical Centre}}</li>
+      <li>{{pagelink:Example-Organization-Region-SouthCentral, text:Example Organization - South Central Wales Region}}</li>
+      <li>{{pagelink:Example-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}</li>
+      <li>{{pagelink:Example-Organization-UHW, text: Example Organization - University Hospital of Wales}}</li>  
     </list>
   </div>
 </div>

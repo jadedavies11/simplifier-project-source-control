@@ -40,11 +40,11 @@ The diagram below shows the typical structure of a Laboratory Result Report.
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Pathology - Full Blood Count}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Multiple Panel: ACE (Angiotensin Converting Enzyme), LFT (Liver Function Test)}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: Radiology - CT Abdomen}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Cardiology - ECG}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Cardiology - Stress Test}}</li>
+      <li>{{pagelink:Example-DiagnosticReport-FBC, text: Pathology - Full Blood Count}}</li>
+      <li>{{pagelink:Example-DiagnosticReport-MultiplePanel, text: Multiple Panel: ACE (Angiotensin Converting Enzyme), LFT (Liver Function Test)}}</li>
+      <li>{{pagelink:Example-DiagnosticReport-CTAbdomen, text: Radiology - CT Abdomen}}</li>
+      <li>{{pagelink:Example-DiagnosticReport-ECG, text: Cardiology - ECG}}</li>
+      <li>{{pagelink:Example-DiagnosticReport-StressTest, text: Cardiology - Stress Test}}</li>
       
     </list>
   </div>    

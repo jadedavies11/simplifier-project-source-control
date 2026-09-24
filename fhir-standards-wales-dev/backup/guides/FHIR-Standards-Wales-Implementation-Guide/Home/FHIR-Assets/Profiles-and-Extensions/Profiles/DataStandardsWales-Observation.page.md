@@ -35,12 +35,12 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-ACVPU, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-BloodPressure, text:Blood pressure}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-BodyHeight, text:Body height}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-BodyTemperature, text:Body temperature}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-BodyWeight, text:Body weight}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-RespiratoryRate, text:Respiratory rate}}</li>
+      <li>{{pagelink:Example-Observation-ACVPU, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}</li>
+      <li>{{pagelink:Example-Observation-BloodPressure, text:Blood pressure}}</li>
+      <li>{{pagelink:Example-Observation-BodyHeight, text:Body height}}</li>
+      <li>{{pagelink:Example-Observation-BodyTemperature, text:Body temperature}}</li>
+      <li>{{pagelink:Example-Observation-BodyWeight, text:Body weight}}</li>
+      <li>{{pagelink:Example-Observation-RespiratoryRate, text:Respiratory rate}}</li>
     </list>
   </div>    
 </div>

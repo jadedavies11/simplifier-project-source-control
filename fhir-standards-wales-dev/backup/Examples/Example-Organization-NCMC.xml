@@ -1,0 +1,104 @@
+<Organization xmlns="http://hl7.org/fhir">
+	<id value="Example-Organization-NCMC"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+	</meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+		<valuePeriod>
+			<start value="2012-05-11"/>
+		</valuePeriod>
+	</extension>
+	<identifier>
+		<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+		<value value="W97015"/>
+	</identifier>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
+		<value value="W97015"/>
+	</identifier>
+	<active value="true"/>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
+			<code value="private"/>
+			<display value="Private"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
+			<code value="health"/>
+			<display value="Health"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
+			<code value="primary-care"/>
+			<display value="Primary care"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>
+			<code value="gp-practice"/>
+			<display value="GP practice"/>
+		</coding>
+	</type>
+	<name value="North Cardiff Medical Centre">
+		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+			<extension url="lang">
+				<valueCode value="cym"/>
+			</extension>
+			<extension url="content">
+				<valueString value="Canolfan Feddygol Gogledd Caerdydd"/>
+			</extension>
+		</extension>
+	</name>
+	<alias value="North Cardiff Medical Centre">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name"/>
+		</extension>
+	</alias>
+	<alias value="Canolfan Feddygol Gogledd Caerdydd">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name-welsh"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name-welsh"/>
+		</extension>
+	</alias>
+	<telecom>
+		<system value="phone"/>
+		<value value="029 2076 4444"/>
+	</telecom>
+	<address>
+		<extension url="http://hl7.org/fhir/StructureDefinition/language">
+			<valueCode value="eng"/>
+		</extension>
+		<line value="Excalibur Drive"/>
+		<line value="Thornhill"/>
+		<city value="Cardiff"/>
+		<district value="Cardiff"/>		
+		<postalCode value="CF14 9BB"/>
+		<country value="Wales"/>
+	</address>
+	<address>
+		<extension url="http://hl7.org/fhir/StructureDefinition/language">
+			<valueCode value="cym"/>
+		</extension>
+		<line value="Gyriant Excalibur"/>
+		<line value="Thornhill"/>
+		<city value="Caerdydd"/>
+		<district value="Caerdydd"/>		
+		<postalCode value="CF14 9BB"/>
+		<country value="Cymru"/>
+	</address>
+	<partOf>
+		<reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB"/>
+		<display value="Cardiff and Vale University Local Health Board"/>
+	</partOf>
+</Organization>

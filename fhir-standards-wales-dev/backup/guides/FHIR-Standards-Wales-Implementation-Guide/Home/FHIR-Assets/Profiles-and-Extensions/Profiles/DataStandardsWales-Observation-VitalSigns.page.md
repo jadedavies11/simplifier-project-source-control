@@ -36,7 +36,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference, text:Example Observation Vital Signs - Head Circumference}}</li>
+      <li>{{pagelink:Example-Observation-VitalSigns-HeadCircumference, text:Example Observation Vital Signs - Head Circumference}}</li>
     </list>
   </div>   
 </div>

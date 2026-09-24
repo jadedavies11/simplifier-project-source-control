@@ -35,14 +35,14 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-NPT, text:Example Location - Neath Port Talbot Hospital}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}</li>
+      <li>{{pagelink:Example-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}</li>
+      <li>{{pagelink:Example-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}</li>
+      <li>{{pagelink:Example-Location-GGH, text:Example Location - Glangwili General Hospital}}</li>
+      <li>{{pagelink:Example-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}</li>
+      <li>{{pagelink:Example-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}</li>
+      <li>{{pagelink:Example-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}</li>
+      <li>{{pagelink:Example-Location-NPT, text:Example Location - Neath Port Talbot Hospital}}</li>
+      <li>{{pagelink:Example-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}</li>
     </list>
   </div>    
 </div>

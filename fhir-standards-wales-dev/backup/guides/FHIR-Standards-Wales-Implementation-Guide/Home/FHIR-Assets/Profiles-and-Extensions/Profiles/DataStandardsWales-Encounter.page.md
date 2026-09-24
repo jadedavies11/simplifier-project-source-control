@@ -41,8 +41,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Emergency Admission}}</li>     
-      <li>{{pagelink:Example-DataStandardsWales-Encounter-InProgressEmergencyAdmission, text:In-Progress Emergency Admission}}</li>               
+      <li>{{pagelink:Example-Encounter-EmergencyAdmission, text:Emergency Admission}}</li>     
+      <li>{{pagelink:Example-Encounter-InProgressEmergencyAdmission, text:In-Progress Emergency Admission}}</li>               
     </list>
   </div>    
 </div>

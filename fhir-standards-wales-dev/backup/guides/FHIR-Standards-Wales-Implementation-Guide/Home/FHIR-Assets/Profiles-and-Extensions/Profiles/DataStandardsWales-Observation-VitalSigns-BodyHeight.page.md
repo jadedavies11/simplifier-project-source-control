@@ -36,7 +36,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight, text: Example Observation Vital Signs - Maternal Height}}</li>
+      <li>{{pagelink:Example-Observation-VitalSigns-MaternalHeight, text: Example Observation Vital Signs - Maternal Height}}</li>
     </list>
   </div>   
 </div>

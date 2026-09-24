@@ -38,13 +38,13 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Consultant, text:Example PractitionerRole - Consultant (Geriatric Medicine) }}</li>
-      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}</li>
-      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}</li>
-      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant }}</li>
-      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay-HDUHB, text:Example PractitionerRole - Emily May (Nurse for HDUHB)}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs-HDUHB, text:Example PractitionerRole - Joe Bloggs (Consultant Diabetologist for HDUHB)}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Dietitian-JudeFrancis-HDUHB, text:Example PractitionerRole - Jude Francis (Diabetes Dietitian for HDUHB)}}</li>
+      <li>{{pagelink:Example-PractitionerRole-Consultant, text:Example PractitionerRole - Consultant (Geriatric Medicine) }}</li>
+      <li>{{pagelink:Example-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}</li>
+      <li>{{pagelink:Example-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}</li>
+      <li>{{pagelink:Example-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant }}</li>
+      <li>{{pagelink:Example-PractitionerRole-Nurse-EmilyMay-HDUHB, text:Example PractitionerRole - Emily May (Nurse for HDUHB)}}</li>
+      <li>{{pagelink:Example-PractitionerRole-Consultant-JoeBloggs-HDUHB, text:Example PractitionerRole - Joe Bloggs (Consultant Diabetologist for HDUHB)}}</li>
+      <li>{{pagelink:Example-PractitionerRole-Dietitian-JudeFrancis-HDUHB, text:Example PractitionerRole - Jude Francis (Diabetes Dietitian for HDUHB)}}</li>
     </list>
   </div>   
 </div>
