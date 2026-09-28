@@ -1,0 +1,56 @@
+<Provenance xmlns="http://hl7.org/fhir">
+	<id value="Example-DataStandardsWales-Provenance-DocumentReferenceCreation"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance"/>
+	</meta>
+	<target>
+		<reference value="DocumentReference/Example-DataStandardsWales-DocumentReference/_history/1"/>
+	</target>
+	<recorded value="2025-07-22T11:20:17+00:00" />
+	<activity>
+		<coding>
+			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"/>
+			<code value="originate"/>
+			<display value="Originate/Retain Record Lifecycle Event"/>
+		</coding>
+	</activity>
+	<agent>
+		<type>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+				<code value="enterer"/>
+				<display value="Enterer"/>
+			</coding>
+		</type>
+		<who>
+			<reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-MedicalSecretary-LesleyWebb" />
+			<display value="WEBB Lesley, Ms (NADEX:Le123456)" />
+		</who>
+	</agent>
+	<agent>
+		<type>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+				<code value="composer"/>
+				<display value="Composer"/>
+			</coding>
+		</type>
+		<who>
+			<reference value="Device/Example-DataStandardsWales-Device-WCP"/>
+			<display value="Welsh Clinical Portal"/>
+		</who>
+	</agent>
+	<agent>
+		<type>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+				<code value="assembler"/>
+				<display value="Assembler"/>
+			</coding>
+		</type>
+		<who>
+			<reference value="Device/Example-DataStandardsWales-Device-CDRcomponentDocs"/>
+			<display value="DocumentReference FHIR engine (CDR)"/>
+		</who>
+	</agent>
+</Provenance>

@@ -1,0 +1,28 @@
+<DocumentReference xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-DocumentReference-Provenance" />
+    <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
+        <valueCode value="born-digital-document" />
+    </extension>
+    <status value="current" />
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="886731000000109" />
+            <display value="Patient demographics" />
+        </coding>
+    </type>
+    <category>
+        <coding>
+            <system value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentCategory" />
+            <code value="826501000000100" />
+            <display value="Miscellaneous record" />
+        </coding>
+    </category>
+    <date value="2024-08-08T08:06:07.046012Z" />
+    <description value="Link to HL7v2 message for data provenance" />
+    <content>
+        <attachment>
+            <url value="https://example.base.link.id/to/HL7v2/message" />
+        </attachment>
+    </content>
+</DocumentReference>

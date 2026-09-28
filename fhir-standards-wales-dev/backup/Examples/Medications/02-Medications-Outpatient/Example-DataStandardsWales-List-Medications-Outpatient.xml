@@ -1,0 +1,31 @@
+<List xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-MedicationList-Outpatient" />
+    <status value="current" />
+    <mode value="snapshot" />
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="933361000000108"/>
+            <display value="Medications and medical devices"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper" />
+        <display value="PIPER, Peter (NHS: 1192335566)" />
+    </subject>
+    <encounter>
+        <reference value="Encounter/Example-Outpatient" />
+        <display value="..." />
+    </encounter>
+    <date value="2022-02-20T15:00:00Z" />
+    <source>
+        <reference value="Practitioner/Rheumatology-Doctor" />
+        <display value="..." />
+    </source>   
+    <entry>
+        <item>
+            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Enbrel-Outpatient" />
+            <display value="Enbrel 50mg/1ml solution for injection pre-filled syringes (Pfizer Ltd) - Inject 50mg subcutaneously once a week" />
+        </item>
+    </entry>
+</List>
