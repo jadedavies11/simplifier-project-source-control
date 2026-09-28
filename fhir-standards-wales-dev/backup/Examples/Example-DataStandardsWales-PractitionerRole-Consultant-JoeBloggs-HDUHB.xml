@@ -1,0 +1,26 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+    <id value="Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+    </meta>
+    <practitioner>
+        <reference value="Practitioner/Example-DSW-Practitioner-Consultant-JoeBloggs" />
+    </practitioner>
+    <organization>
+        <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+    </organization>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="768839008" />
+            <display value="Consultant" />
+        </coding>
+    </code>
+    <specialty>
+        <coding>
+            <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode"/>
+            <code value="302"/>
+            <display value="Endocrinology and Diabetes"/>
+        </coding>
+    </specialty>    
+</PractitionerRole>
