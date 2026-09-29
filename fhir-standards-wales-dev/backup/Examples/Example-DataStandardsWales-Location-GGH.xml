@@ -19,7 +19,7 @@
 	<name value="Glangwili General Hospital">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-				<valueCode value="cym"/>
+				<valueCode value="cy"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Ysbyty Glangwili"/>

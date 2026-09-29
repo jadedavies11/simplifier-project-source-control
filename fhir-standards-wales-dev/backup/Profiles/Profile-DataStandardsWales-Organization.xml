@@ -7,7 +7,7 @@
   <title value="Data Standards Wales Organization" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-08-25" />
+  <date value="2026-09-25" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -285,7 +285,7 @@
       <sliceName value="welshPreferredName" />
       <short value="The Welsh translation of the organization name." />
       <definition value="A recognised Welsh translation of the English name for the organization." />
-      <max value="1"/>
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/translation" />
@@ -295,16 +295,15 @@
     <element id="Organization.name.extension:welshPreferredName.extension">
       <path value="Organization.name.extension.extension" />
       <min value="2" />
-      <max value="2"/>
+      <max value="2" />
     </element>
     <element id="Organization.name.extension:welshPreferredName.extension:lang">
       <path value="Organization.name.extension.extension" />
       <sliceName value="lang" />
-      <definition value="Within NHS Wales, the three character ISO 639-3 code should be used i.e. cym for Welsh." />
     </element>
     <element id="Organization.name.extension:welshPreferredName.extension:lang.value[x]">
       <path value="Organization.name.extension.extension.value[x]" />
-      <fixedCode value="cym" />
+      <fixedCode value="cy" />
     </element>
     <element id="Organization.name.extension:welshPreferredName.extension:content">
       <path value="Organization.name.extension.extension" />

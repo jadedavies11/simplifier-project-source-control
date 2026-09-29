@@ -12,6 +12,10 @@
 		<value value="sa234567" />
 	</identifier>
 	<identifier>
+		<system value="https://fhir.nhs.wales/Id/upn-identifier" />
+		<value value="sandra.huggins@wales.nhs.uk" />
+	</identifier>
+	<identifier>
 		<system value="https://fhir.hl7.org.uk/Id/nmc-number" />
 		<value value="99D1234E" />
 	</identifier>

@@ -54,7 +54,7 @@
 	<name value="Amman Tawe Partnership">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-				<valueCode value="cym"/>
+				<valueCode value="cy"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Partneriaeth Amman Tawe"/>
@@ -83,7 +83,7 @@
 	</telecom>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="eng"/>
+			<valueCode value="en"/>
 		</extension>
 		<line value="Graig Road"/>
 		<line value="Gwaun Cea Gurwen"/>
@@ -94,7 +94,7 @@
 	</address>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cym"/>
+			<valueCode value="cy"/>
 		</extension>
 		<line value="Ffordd y Graig"/>
 		<line value="Gwaun Cae Gurwen"/>

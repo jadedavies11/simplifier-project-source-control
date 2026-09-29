@@ -2,7 +2,7 @@
   <id value="Example-DataStandardsWales-DocumentReference-Revoked" />
   <meta>
     <versionId value="2" />
-    <lastUpdated value="2026-07-12T12:00:10+00:00"/>
+    <lastUpdated value="2026-08-26T13:12:10+00:00"/>
     <source value="urn:oid:2.16.840.1.113883.2.1.8.1.5.210"/>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference"/>
     <tag>
@@ -22,9 +22,8 @@
       <display value="false"/>
     </tag>
     <tag>
-      <system value="errorstatus"/>
+      <system value="watermark"/>
       <code value="revoked"/>
-      <display value="Revoked"/>
     </tag>
   </meta>
   <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
@@ -41,7 +40,7 @@
     <system value="https://fhir.nhs.wales/Id/supersession-set-identifier" />
     <value value="E08B8E00-8CBB-4DDB-BCF7-67E1972A2E60" />
   </identifier>
-  <status value="entered-in-error" />
+  <status value="current" />
   <docStatus value="final" />
   <type>
     <coding>
@@ -81,13 +80,14 @@
   <content>
     <attachment>
       <contentType value="application/pdf" />
-      <language value="eng" />
+      <language value="en" />
       <url value="https://www.example.com/documentref9876" />
     </attachment>
   </content>
   <context>
     <period>
-      <start value="2025-08-26" />
+      <start value="2025-07-12" />
+      <end value="2025-08-26" />
     </period>
     <practiceSetting>
       <coding>

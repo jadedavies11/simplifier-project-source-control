@@ -41,6 +41,9 @@ Package:
         * DataStandardsWales-Appointment
             * Updated version from 1.2.1 to 1.2.2
             * .participant.actor. Updated reference from HL7 HealthcareService to DataStandardsWales-HealthcareService
+        * DataStandardsWales-DocumentReference
+            * Updated version from 1.1.0 to 1.1.1
+            * .content.attachment.language. Removed references to ISO 639-3
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.2.1 to 0.3.0
             * .basedOn. Updated reference from HL7 Task to DataStandardsWales-Task
@@ -243,10 +246,16 @@ Package:
             * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-DocumentReference-EncounterBased
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+            * .content.attachment.language. Updated code to en
         * Example-DataStandardsWales-DocumentReference-EventBased
             * .versionId. Added element
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
             * .docStatus. Updated to final
+            * .content.attachment.language. Updated code to en
+        * Example-DataStandards-Wales-DocumentReference-ExpiredInsurance
+            * .content.attachment.language. Updated code to en
+        * Example-DataStandards-Wales-DocumentReference-NotEventBased
+            * .content.attachment.language. Updated code to en
         * Example-DataStandardsWales-Location-CadogWard            
             * .text. Removed
             * .status. Updated to Active
@@ -357,6 +366,22 @@ Package:
             * .address. Added HL7 Language extension
             * .address. Added Welsh address
             * .partOf.identifier. Removed
+        * Example-DataStandardsWales-Practitioner-Consultant
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Consultant-JoeBloggs
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Dietitian-JudeFrancis
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Doctor
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-NonClinical
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Nurse-EmilyMay
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Physiotherapist
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-PrescribingNurse
+            * .identifier. Added UPN identifier
     * Removed Examples
         * Urgent and Emergency Care
             * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
@@ -406,7 +431,6 @@ Guide:
 * Updated MessageDefinition-DataStandardsWales-UEC-Arrival page to clarify that the resource is deprecated
 * Updated MessageDefinition-DataStandardsWales-UEC-Discharge page to clarify that the resource is deprecated
 * Updated MessageDefinition-DataStandardsWales-UEC-Triage page to clarify that the resource is deprecated
-* Updated Related Page by amending NHS Wales Simplifier Asset - Lastest Package link to recent FHIR package
 * Updated Resource Index by relocating DataStandardWales-Condition from Entities to Diagnostics
 
 

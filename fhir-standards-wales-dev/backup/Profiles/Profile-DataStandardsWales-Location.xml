@@ -7,7 +7,7 @@
   <title value="Data Standards Wales Location" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-08-13" />
+  <date value="2026-09-25" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -190,11 +190,10 @@
     <element id="Location.name.extension:welshPreferredName.extension:lang">
       <path value="Location.name.extension.extension" />
       <sliceName value="lang" />
-      <definition value="Within NHS Wales, the three character ISO 639-3 code should be used e.g. cym for Welsh." />
     </element>
     <element id="Location.name.extension:welshPreferredName.extension:lang.value[x]">
       <path value="Location.name.extension.extension.value[x]" />
-      <fixedCode value="cym" />
+      <fixedCode value="cy" />
     </element>
     <element id="Location.name.extension:welshPreferredName.extension:content">
       <path value="Location.name.extension.extension" />

@@ -48,7 +48,7 @@
 	<name value="University Hospital of Wales">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-				<valueCode value="cym"/>
+				<valueCode value="cy"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Ysbyty Athrofaol Cymru"/>
@@ -77,7 +77,7 @@
 	</telecom>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="eng"/>
+			<valueCode value="en"/>
 		</extension>
 		<line value="Heath Park"/>
 		<city value="Cardiff"/>
@@ -87,7 +87,7 @@
 	</address>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cym"/>
+			<valueCode value="cy"/>
 		</extension>
 		<line value="Parc y Mynydd Bychan"/>
 		<city value="Caerdydd"/>

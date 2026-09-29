@@ -106,7 +106,7 @@
   <content>
     <attachment>
       <contentType value="application/pdf"/>
-      <language value="eng"/>
+      <language value="en"/>
       <url value="https://www.example.com/documentref1234"/>
     </attachment>
   </content>

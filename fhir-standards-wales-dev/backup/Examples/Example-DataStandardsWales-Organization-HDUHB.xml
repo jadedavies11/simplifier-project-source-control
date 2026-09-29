@@ -48,7 +48,7 @@
 	<name value="Hywel Dda University Local Health Board">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-				<valueCode value="cym"/>
+				<valueCode value="cy"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Bwrdd Iechyd Prifysgol Hywel Dda"/>
@@ -84,7 +84,7 @@
 	</telecom>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="eng"/>
+			<valueCode value="en"/>
 		</extension>
 		<line value="Ystwyth Building, Hafan Derwen"/>
 		<line value="St Davids Park"/>
@@ -96,7 +96,7 @@
 	</address>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cym"/>
+			<valueCode value="cy"/>
 		</extension>
 		<line value="Bwrdd Iechyd Prifysgol Hywel Dda"/>
 		<line value="Parc Dewi Sant"/>
