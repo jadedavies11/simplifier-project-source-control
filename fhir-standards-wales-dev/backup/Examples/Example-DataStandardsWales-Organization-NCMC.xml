@@ -48,7 +48,7 @@
 	<name value="North Cardiff Medical Centre">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-				<valueCode value="cym"/>
+				<valueCode value="cy"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Canolfan Feddygol Gogledd Caerdydd"/>
@@ -77,7 +77,7 @@
 	</telecom>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="eng"/>
+			<valueCode value="en"/>
 		</extension>
 		<line value="Excalibur Drive"/>
 		<line value="Thornhill"/>
@@ -88,7 +88,7 @@
 	</address>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cym"/>
+			<valueCode value="cy"/>
 		</extension>
 		<line value="Gyriant Excalibur"/>
 		<line value="Thornhill"/>

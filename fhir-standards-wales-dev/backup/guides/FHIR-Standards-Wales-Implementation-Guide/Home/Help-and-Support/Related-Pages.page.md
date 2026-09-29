@@ -17,7 +17,7 @@ A list of sites that are used by NHS Wales to assist in the development and publ
             <p>This is the main Simplifier project for NHS Wales FHIR development. All of the latest FHIR assets, packages, and guides can be found here.</p>
         </div>
         <div class="col-md-7 card">
-            <h4><b><a href="https://simplifier.net/packages/fhir.r4.wales" alt="NHS Wales Simplifier FHIR Asset - Latest Package" target="_blank">NHS Wales Simplifier FHIR Asset - Latest Package</a></b></h4>
+            <h4><b><a href="https://simplifier.net/packages/fhir.r4.wales.stu1/1.0.0" alt="NHS Wales Simplifier FHIR Asset - Latest Package" target="_blank">NHS Wales Simplifier FHIR Asset - Latest Package</a></b></h4>
             <p>This is the latest published Simplifier package that contains all FHIR assets to be used for implementation.</p>
         </div>
         <div class="col-md-7 card">

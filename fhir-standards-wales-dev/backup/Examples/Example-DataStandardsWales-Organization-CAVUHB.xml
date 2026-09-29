@@ -48,7 +48,7 @@
 	<name value="Cardiff and Vale University Local Health Board">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-				<valueCode value="cym"/>
+				<valueCode value="cy"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Bwrdd Iechyd Prifysgol Caerdydd a'r Fro"/>
@@ -81,7 +81,7 @@
 	</telecom>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="eng"/>
+			<valueCode value="en"/>
 		</extension>
 		<line value="Corporate Headquarters"/>
 		<line value="Woodland House"/>
@@ -93,7 +93,7 @@
 	</address>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cym"/>
+			<valueCode value="cy"/>
 		</extension>
 		<line value="Pencadlys Corfforaethol"/>
 		<line value="Ty Woodland"/>

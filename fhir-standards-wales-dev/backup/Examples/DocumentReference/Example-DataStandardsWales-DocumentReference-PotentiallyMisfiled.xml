@@ -26,9 +26,8 @@
       <display value="True"/>
     </tag>
     <tag>
-      <system value="errorstatus"/>
+      <system value="watermark"/>
       <code value="potentially-misfiled"/>
-      <display value="Potentially misfiled"/>
     </tag>
   </meta>
   <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
@@ -113,7 +112,7 @@
   <content>
     <attachment>
       <contentType value="application/pdf" />
-      <language value="eng" />
+      <language value="en" />
       <url value="https://www.example.com/documentref1234" />
     </attachment>
   </content>

@@ -54,7 +54,7 @@
 	<name value="Glangwili General Hospital">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-				<valueCode value="cym"/>
+				<valueCode value="cy"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Ysbyty Glangwili"/>
@@ -80,7 +80,7 @@
 	</telecom>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="eng"/>
+			<valueCode value="en"/>
 		</extension>
 		<line value="Dolgwili Road"/>
 		<city value="Carmarthen"/>
@@ -90,7 +90,7 @@
 	</address>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cym"/>
+			<valueCode value="cy"/>
 		</extension>
 		<line value="Heol Dolgwili"/>
 		<city value="Caerfyrddin"/>

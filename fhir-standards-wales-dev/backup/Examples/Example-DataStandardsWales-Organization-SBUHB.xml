@@ -48,7 +48,7 @@
 	<name value="Swansea Bay University Local Health Board">
 		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
 			<extension url="lang">
-				<valueCode value="cym"/>
+				<valueCode value="cy"/>
 			</extension>
 			<extension url="content">
 				<valueString value="Bwrdd Iechyd Prifysgol Bae Abertawe"/>
@@ -84,7 +84,7 @@
 	</telecom>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="eng"/>
+			<valueCode value="en"/>
 		</extension>
 		<line value="One Talbot Gateway"/>
 		<line value="Baglan Energy Park"/>
@@ -96,7 +96,7 @@
 	</address>
 	<address>
 		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cym"/>
+			<valueCode value="cy"/>
 		</extension>
 		<line value="1 Porth Talbot"/>
 		<line value="Parc Ynni Baglan"/>

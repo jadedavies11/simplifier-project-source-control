@@ -17,9 +17,9 @@ The key metadata associated with misfiling are **who** (the user), **when** (the
 - `authoredOn` is the timestamp applicable to the misfile request submission
 - `note` contains the free text misfile reason (with user and timestamp)
 
-The current document version is untrustworthy at this stage, so it carries a new meta tag of “errorstatus” with the display value “Potentially misfiled”.  This tag can be used for marking of untrustworthy documents in accordance with applicable policy.
+The current document version is untrustworthy at this stage, so it carries a new meta tag of “watermark” with the code value “potentially-misfiled”.  This tag can be used for marking of untrustworthy documents in accordance with applicable policy.
 
-**At Step 2** a reviewer decides whether to accept or reject the misfile request.  In either case the task is updated as follows:
+**At Step 2** a reviewer decides whether to accept or reject the misfile request.  In either case the Task is updated as follows:
 - `status` is set as “completed”
 - `lastModified` is the timestamp applicable to the misfile review submission
 - `owner` is the user that reviewed the misfile
@@ -28,13 +28,13 @@ The current document version is untrustworthy at this stage, so it carries a new
 In the case that the misfile is accepted
 - the `output.value` is set to “accepted”
 - an additional `note` instance contains the free text misfile accepted reason (with user and timestamp)
-- the “errorstatus” meta tag on the DocumentReference is updated to a display value of “Misfiled”
+- the “watermark” meta tag on the DocumentReference is updated to a code value of “misfiled”
 - the `status` of the DocumentReference is updated to “entered-in-error”
 
 In the case that the misfile is rejected
 - the `output.value` is set to “rejected”
 - an additional `note` instance contains the free text misfile rejected reason (with user and timestamp)
-- the “errorstatus” meta tag is removed from the DocumentReference
+- the “watermark” meta tag is removed from the DocumentReference
 
 The FHIR model changes resulting from the workflow steps are illustrated below:
 
@@ -47,6 +47,6 @@ Revocation is a single step process to flag the document as revoked. A document 
 
 {{render:Diagrams-Document-revocation}}
 
-In the case of revocation, there is no workflow to manage via a Task resource. The act of revocation results in an update of the DocumentReference `status` to “entered-in-error” and the population of the meta tag “errorstatus” with the display value “Revoked”.  In this case the who, when and why metadata are available in the related {{pagelink:DataStandardsWales-Provenance,text:Provenance}} record, which has an `activity` code of “deprecate” to indicate that the record has become invalid or untrustworthy. A free text reason for revocation can be stored in the `reason.text` element of the Provenance record. The use of Provenance for typical revocation use cases is illustrated in the figure below:
+In the case of revocation, there is no workflow to manage via a Task resource. The act of revocation results in an update of the DocumentReference with the addition of `context.period.end` to indicate when the document ceased to be valid, and the population of the meta tag “watermark" with the code value "revoked". In this case the who, when and why metadata are available in the related {{pagelink:DataStandardsWales-Provenance,text:Provenance}} record, which has an `activity` code of “deprecate” to indicate that the record has become invalid or untrustworthy. A free text reason for revocation can be stored in the `reason.text` element of the Provenance record. The use of Provenance for typical revocation use cases is illustrated in the figure below:
 
 {{render:Diagrams-Document-revocation-fhir}}
