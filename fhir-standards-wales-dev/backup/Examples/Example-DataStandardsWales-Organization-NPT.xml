@@ -76,24 +76,47 @@
 		<value value="01639 862000"/>
 	</telecom>
 	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="en"/>
-		</extension>
-		<line value="Baglan Way"/>
-		<city value="Port Talbot"/>
-		<district value="Neath Port Talbot"/>		
+		<line value="Baglan Way">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Ffordd Baglan"/>
+				</extension>
+			</extension>
+		</line>
+		<city value="Port Talbot">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Porthladd Talbot"/>
+				</extension>
+			</extension>
+		</city>
+		<district value="Neath Port Talbot">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Castell-nedd Porthladd Talbot"/>
+				</extension>
+			</extension>
+		</district>
 		<postalCode value="SA12 7BX"/>
-		<country value="Wales"/>
-	</address>
-	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cy"/>
-		</extension>
-		<line value="Ffordd Baglan"/>
-		<city value="Porthladd Talbot"/>
-		<district value="Castell-nedd Porthladd Talbot"/>		
-		<postalCode value="SA12 7BX"/>
-		<country value="Cymru"/>
+		<country value="Wales">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Cymru"/>
+				</extension>
+			</extension>
+		</country>
 	</address>
 	<partOf>
 		<reference value="Organization/Example-DataStandardsWales-Organization-SBUHB"/>

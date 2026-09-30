@@ -76,26 +76,48 @@
 		<value value="029 2076 4444"/>
 	</telecom>
 	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="en"/>
-		</extension>
-		<line value="Excalibur Drive"/>
+		<line value="Excalibur Drive">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Gyriant Excalibur"/>
+				</extension>
+			</extension>
+		</line>
 		<line value="Thornhill"/>
-		<city value="Cardiff"/>
-		<district value="Cardiff"/>		
+		<city value="Cardiff">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Caerdydd"/>
+				</extension>
+			</extension>
+		</city>
+		<district value="Cardiff">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Caerdydd"/>
+				</extension>
+			</extension>
+		</district>
 		<postalCode value="CF14 9BB"/>
-		<country value="Wales"/>
-	</address>
-	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cy"/>
-		</extension>
-		<line value="Gyriant Excalibur"/>
-		<line value="Thornhill"/>
-		<city value="Caerdydd"/>
-		<district value="Caerdydd"/>		
-		<postalCode value="CF14 9BB"/>
-		<country value="Cymru"/>
+		<country value="Wales">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Cymru"/>
+				</extension>
+			</extension>
+		</country>
 	</address>
 	<partOf>
 		<reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB"/>

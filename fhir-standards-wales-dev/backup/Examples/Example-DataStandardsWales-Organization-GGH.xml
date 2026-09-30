@@ -79,24 +79,47 @@
 		<value value="01267 235151"/>
 	</telecom>
 	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="en"/>
-		</extension>
-		<line value="Dolgwili Road"/>
-		<city value="Carmarthen"/>
-		<district value="Carmarthenshire"/>		
+		<line value="Dolgwili Road">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Heol Dolgwili"/>
+				</extension>
+			</extension>
+		</line>
+		<city value="Carmarthen">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Caerfyrddin"/>
+				</extension>
+			</extension>
+		</city>
+		<district value="Carmarthenshire">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Sir Gaerfyrddin"/>
+				</extension>
+			</extension>
+		</district>
 		<postalCode value="SA31 2AF"/>
-		<country value="Wales"/>
-	</address>
-	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/language">
-			<valueCode value="cy"/>
-		</extension>
-		<line value="Heol Dolgwili"/>
-		<city value="Caerfyrddin"/>
-		<district value="Sir Gaerfyrddin"/>		
-		<postalCode value="SA31 2AF"/>
-		<country value="Cymru"/>
+		<country value="Wales">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Cymru"/>
+				</extension>
+			</extension>
+		</country>
 	</address>
 	<partOf>
 		<reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>

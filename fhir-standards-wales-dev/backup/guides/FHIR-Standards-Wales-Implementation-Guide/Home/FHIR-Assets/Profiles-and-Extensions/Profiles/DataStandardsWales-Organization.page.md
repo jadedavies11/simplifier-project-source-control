@@ -88,9 +88,10 @@ The following extensions are defined for use within this profile:
     * [Extension-UKCore-AddressKey](https://simplifier.net/resolve?scope=package:fhir.r4.ukcore.stu2@2.0.1&filepath=package/Extension-UKCore-AddressKey.json) extends the Address datatype to support the storage of address identifiers such as the Unique Property Reference Number (UPRN).
     * [Extension-UKCore-MainLocation](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-MainLocation?version=2.0.1) extends the Organization resource to support the exchange of information on the organisation's main location, as a reference to a Location resource.
 * HL7 International Extensions:
-    * [Language](https://www.hl7.org/fhir/R4/extension-language.html) supports Organization address in multiple languages.
     * [Organization-Period](http://hl7.org/fhir/R4/extension-organization-period.html) describes the date range that the organisation should be considered available.
-    * [Translation](https://www.hl7.org/fhir/R4/extension-translation.html) supports Welsh named organisations.
+    * [Translation](https://www.hl7.org/fhir/R4/extension-translation.html) supports Welsh named organisations and addresses derived from Welsh Reference and Terminology Services (WRTS) databases. Please contact <a href="mailto:DHCW.ReferenceDataTeam@wales.nhs.uk?subject=Data%20Standards%20Wales%20FHIR%20implementation%20guide">DHCW.ReferenceDataTeam@wales.nhs.uk</a> for more information.
+      * This extension to be used for each element string that has a translated value for example, would not be applicable for `Organization.address.postalCode`. For more detail, see Examples.
+
   
 ### Slices
 
