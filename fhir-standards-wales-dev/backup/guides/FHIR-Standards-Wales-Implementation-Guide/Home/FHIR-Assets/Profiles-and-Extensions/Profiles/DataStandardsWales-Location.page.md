@@ -90,4 +90,7 @@ The extensions listed below allow a number of the data elements listed above to 
 * UK Core Extensions:
     * [Extension-UKCore-AddressKey](https://simplifier.net/resolve?scope=package:fhir.r4.ukcore.stu2@2.0.1&filepath=package/Extension-UKCore-AddressKey.json) extends the Address datatype to support the storage of address identifiers such as the Unique Property Reference Number (UPRN).
 * HL7 International Extensions:
-    * [Translation](https://www.hl7.org/fhir/R4/extension-translation.html) supports Welsh named locations.
+    * [Translation](https://www.hl7.org/fhir/R4/extension-translation.html) supports Welsh named locations and addresses derived from Welsh Reference and Terminology Services (WRTS) databases. Please contact 
+    <a href="mailto:DHCW.ReferenceDataTeam@wales.nhs.uk?subject=Data%20Standards%20Wales%20FHIR%20implementation%20guide">DHCW.ReferenceDataTeam@wales.nhs.uk</a>  for more information.
+      * This extension to be used for each element string that has a translated value for example, would not be applicable for `Location.address.postalCode`. For more detail, see Examples.
+

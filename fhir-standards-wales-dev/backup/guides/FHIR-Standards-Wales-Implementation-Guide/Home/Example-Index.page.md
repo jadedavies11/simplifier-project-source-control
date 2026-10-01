@@ -2,7 +2,7 @@
 
 ## {{page-title}}
 
-The following examples are published with this guide and all available as a downloadable as zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
+The following examples are published with this guide and all available as a downloadable zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
 
 ### Appointment Examples
 * {{pagelink:Example-DataStandardsWales-Appointment-GenSurgery, text:Example Appointment - General Surgery}}

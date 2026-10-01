@@ -1,6 +1,8 @@
 ## Example Location - Amman Tawe Partnership GP Surgery
 
 This example represents a Location resource for the main surgery of the Amman Tawe Partnership GP Practice.
+The Welsh translation for location name and address is derived from Welsh Reference and Terminology Services (WRTS) databases. Please contact <a href="mailto:DHCW.ReferenceDataTeam@wales.nhs.uk?subject=Data%20Standards%20Wales%20FHIR%20implementation%20guide">DHCW.ReferenceDataTeam@wales.nhs.uk</a> for more information.
+
 
 <div class="tab-wrap">
   <ul class="tab-head">

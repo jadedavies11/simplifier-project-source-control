@@ -25,15 +25,15 @@
 				<valueString value="Ysbyty Glangwili"/>
 			</extension>
 		</extension>
-	</name>	
+	</name>
 	<alias value="Glangwili General Hospital">
-		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">	
-			<valueCode value="official-name"/>	
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name"/>
 		</extension>
 		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
 			<valueCode value="preferred-name"/>
 		</extension>
-	</alias>	
+	</alias>
 	<alias value="Ysbyty Glangwili">
 		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
 			<valueCode value="official-name-welsh"/>
@@ -50,11 +50,47 @@
 		</coding>
 	</type>
 	<address>
-		<line value="Dolgwili Road"/>
-		<city value="Carmarthen"/>
-		<district value="Carmarthenshire"/>		
+		<line value="Dolgwili Road">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Heol Dolgwili"/>
+				</extension>
+			</extension>
+		</line>
+		<city value="Carmarthen">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Caerfyrddin"/>
+				</extension>
+			</extension>
+		</city>
+		<district value="Carmarthenshire">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Sir Gaerfyrddin"/>
+				</extension>
+			</extension>
+		</district>
 		<postalCode value="SA31 2AF"/>
-		<country value="Wales"/>
+		<country value="Wales">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Cymru"/>
+				</extension>
+			</extension>
+		</country>
 	</address>
 	<physicalType>
 		<coding>
