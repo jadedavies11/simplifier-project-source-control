@@ -46,6 +46,9 @@ Package:
         * DataStandardsWales-DocumentReference
             * Updated version from 1.1.0 to 1.1.1
             * .content.attachment.language. Removed references to ISO 639-3
+        * DataStandardsWales-Encounter
+            * Updated version from 1.0.3 to 1.0.4
+            * .extension:Speciality. Updated element name to .extension:speciality
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.2.1 to 0.3.0
             * .basedOn. Updated reference from HL7 Task to DataStandardsWales-Task
@@ -93,6 +96,9 @@ Package:
             * Updated DataType from CodeableConcept to Code
             * Updated Binding Strength from Preferred to Extensible
             * .context. Additional entry added for Location.alias element
+        * Extension-DataStandardsWales-Speciality
+            * Updated version from 1.0.1 to 1.1.0
+            * Updated Binding Strength from Extensible to Preferred
 * {{pagelink:Home/FHIR-Assets/CodeSystem-Index.page.md,text:CodeSystems}}:
     * New Code Systems
         * DataStandardsWales-LocationForm
@@ -270,8 +276,12 @@ Package:
             * .extension.welshPreferredName. Added extension
             * .alias.extension. Added content for official-name. official-name-welsh, preferred-name and preferred-name-welsh   
             * .type. Added content for Hospital
+            * .address.line. Added Translation extension and Welsh translation
             * .address.city. Added content for Carmarthenshire
+            * .address.city. Added Translation extension and Welsh translation
+            * .address.district. Added Translation extension and Welsh translation
             * .address.country. Added content for Wales
+            * .address.country. Added Translation extension and Welsh translation
             * .physicalType. Added content for Site            
         * Example-DataStandardsWales-Location-GGH-OPD 
             * .text. Removed
@@ -441,6 +451,10 @@ Guide:
 * Updated Example Index. Example-DataStandardsWales-MessageDefinition-SubmitClinician renamed as Example-DataStandardsWales-MessageDefinition-ClinicianSubmit 
 * Updated FHIR Messaging page with amended example links and amended diagram links
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
+* Updated Example-DataStandardsWales-Location-AmmanTawePartnership page with additional context for translated values.
+* Updated Example-DataStandardsWales-Location-BrynammanCommunity page with additional context for translated values.
+* Updated Example-DataStandardsWales-Location-GGH page with additional context for translated values.
+* Updated Example-DataStandardsWales-Location-MeddygfaCwmamman page with additional context for translated values.
 * Updated Example-DataStandardsWales-Organization-AmmanTawe page with additional context for translated values.
 * Updated Example-DataStandardsWales-Organization-CAVUHB page with additional context for translated values.
 * Updated Example-DataStandardsWales-Organization-GGH page with additional context for translated values.

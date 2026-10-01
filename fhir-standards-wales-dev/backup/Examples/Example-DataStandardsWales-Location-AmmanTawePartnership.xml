@@ -66,13 +66,49 @@
 			<extension url="value">
 				<valueString value="10009186269"/>
 			</extension>
-		</extension>		
-		<line value="Graig Road Surgery"/>
+		</extension>
+		<line value="Graig Road Surgery">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Ffordd y Graig"/>
+				</extension>
+			</extension>
+		</line>
 		<line value="Gwaun Cae Gurwen"/>
-		<city value="Ammanford"/>
-		<district value="Carmarthenshire"/>
+		<city value="Ammanford">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Rhydaman"/>
+				</extension>
+			</extension>
+		</city>
+		<district value="Carmarthenshire">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Sir Gaerfyrddin"/>
+				</extension>
+			</extension>
+		</district>
 		<postalCode value="SA18 1EG"/>
-		<country value="Wales"/>
+		<country value="Wales">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Cymru"/>
+				</extension>
+			</extension>
+		</country>
 	</address>
 	<physicalType>
 		<coding>
