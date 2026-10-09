@@ -13,8 +13,12 @@ The table below gives guidance about the structure of the guide and an indicatio
 ||Allergy|Overview of the allergy profiles and examples of how they can be used|
 ||Care Documents|Overview of the use of document reference and associated resources for care document metadata
 ||Diagnostic Reports|Overview of the diagnostic report profiles and examples of how they can be used|
+||FHIR Messaging|Overview of messaging paradigms in use in Wales|
+||Growth Charts|Overview of the use and format of Growth Chart messages|
 ||Medications|Overview of the medication profiles and examples of how they can be used|
+||Provenance|Overview of the provenance profile and examples of how it can be used|
 ||Sensitive Data |Overview of how sensitive data can be treated in FHIR profiles|
+||Urgent and Emergency Care|Overview of the UEC profiles and examples of how they can be used|
 |FHIR Assets||This section contains the formal definitions for the FHIR assets defined within this guide.|
 ||Profiles and Extensions|Provides the formal definition of the FHIR profiles and extensions defined within this guide. The Profile Descriptions section describes the views and notation provided here.|
 ||Terminology|Provides the value sets and code systems defined in this guide. It also provides mapping details where these are required to map from an external value set to a Wales value set.|

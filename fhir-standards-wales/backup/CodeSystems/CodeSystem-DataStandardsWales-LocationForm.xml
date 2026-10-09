@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-LocationForm"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+	<version value="0.1.0"/>
+	<name value="DataStandardsWalesLocationForm"/>
+	<title value="Data Standards Wales Location Form"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2026-08-18"/>
+	<publisher value="NHS Wales"/>
+	<contact>
+		<name value="FHIR Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="Code system to supplement the HL7 R5 LocationForm value set with additional values to be used by health and care organisations in Wales to classify the physical form of a location space."/>
+	<copyright value="2026 NHS Wales."/>
+	<content value="complete"/>
+	<concept>
+		<code value="clinical-area"/>
+		<display value="Clinical area"/>
+		<definition value="A defined physical boundary for a specific clinical function."/>
+	</concept>
+</CodeSystem>

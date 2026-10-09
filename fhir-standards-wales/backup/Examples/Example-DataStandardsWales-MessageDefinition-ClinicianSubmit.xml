@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MessageDefinition xmlns="http://hl7.org/fhir">
+	<id value="Example-DataStandardsWales-MessageDefinition-ClinicianSubmit"/>
+	<url value="https://fhir.nhs.wales/MessageDefinition/Example-DataStandardsWales-MessageDefinition-ClinicianSubmit"/>
+	<name value="ExampleDataStandardsWalesMessageDefinitionClinicianSubmit"/>
+	<title value="Example Data Standards Wales Message Definition Clinician Submit"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2026-08-28"/>
+	<publisher value="NHS Wales"/>
+	<contact>
+		<name value="FHIR Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="FHIR example message definition to add clinician and role to the CDR"/>
+	<eventCoding>
+		<system value="https://fhir.nhs.wales/CodeSystem/Example-DataStandardsWales-MessageEvent"/>
+		<code value="clinician-submit"/>
+		<display value="Clinician submit"/>
+	</eventCoding>
+	<focus>
+		<code value="Practitioner"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"/>
+		<min value="1"/>
+		<max value="1"/>
+	</focus>
+	<focus>
+		<code value="PractitionerRole"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"/>
+		<min value="1"/>
+		<max value="1"/>
+	</focus>
+	<focus>
+		<code value="Organization"/>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+		<min value="1"/>
+		<max value="1"/>
+	</focus>
+</MessageDefinition>

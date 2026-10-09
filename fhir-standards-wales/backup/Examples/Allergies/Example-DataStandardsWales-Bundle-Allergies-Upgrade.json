@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "Example-DataStandardsWales-Bundle-Allergies-Upgrade",
+  "id":"Example-DataStandardsWales-Bundle-Allergies-Upgrade",
   "type": "transaction",
   "entry": [
     {
@@ -41,6 +41,7 @@
         },
         "reaction": [
           {
+            
             "manifestation": [
               {
                 "coding": [
@@ -59,14 +60,15 @@
           "display": "JONES, Alice"
         },
         "recordedDate": "2001-01-01T23:59:00+00:00"
+       
       },
       "request": {
-        "method": "PUT",
-        "url": "AllergyIntolerance"
+          "method": "PUT",
+          "url": "AllergyIntolerance"
       }
     },
     {
-      "resource": {
+      "resource":{
         "resourceType": "AllergyIntolerance",
         "id": "Example-DataStandardsWales-AllergyIntolerance-Aspirin",
         "meta": {
@@ -133,8 +135,8 @@
         ]
       },
       "request": {
-        "method": "PUT",
-        "url": "AllergyIntolerance"
+          "method": "PUT",
+          "url": "AllergyIntolerance"
       }
     },
     {
@@ -165,18 +167,15 @@
           ]
         },
         "type": "allergy",
-        "category": [
-          "food"
-        ],
+        "category": ["food"],
         "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "735053000",
-              "display": "Potato"
-            }
-          ]
-        },
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "735053000",
+            "display": "Potato"
+          }
+        ]},
         "patient": {
           "reference": "Patient/Example-DataStandardsWales-Patient-AliceJones",
           "display": "JONES, Alice"
@@ -214,8 +213,8 @@
         ]
       },
       "request": {
-        "method": "PUT",
-        "url": "AllergyIntolerance"
+          "method": "PUT",
+          "url": "AllergyIntolerance"
       }
     },
     {
@@ -256,6 +255,7 @@
         },
         "reaction": [
           {
+            
             "substance": {
               "coding": [
                 {
@@ -295,17 +295,16 @@
               }
             ],
             "severity": "mild"
+          }]
+          ,
+          "patient": {
+            "reference": "Patient/Example-DataStandardsWales-Patient-AliceJones",
+            "display": "JONES, Alice"
+          }},
+          "request": {
+              "method": "PUT",
+              "url": "AllergyIntolerance"
           }
-        ],
-        "patient": {
-          "reference": "Patient/Example-DataStandardsWales-Patient-AliceJones",
-          "display": "JONES, Alice"
-        }
-      },
-      "request": {
-        "method": "PUT",
-        "url": "AllergyIntolerance"
-      }
     },
     {
       "resource": {
@@ -342,9 +341,11 @@
               "display": "Wasp"
             }
           ]
-        },
+        }
+        ,
         "reaction": [
           {
+            
             "substance": {
               "coding": [
                 {
@@ -366,8 +367,7 @@
               }
             ],
             "severity": "severe"
-          }
-        ],
+          }],
         "patient": {
           "reference": "Patient/Example-DataStandardsWales-Patient-AliceJones",
           "display": "JONES, Alice"
@@ -375,8 +375,8 @@
         "recordedDate": "2001-01-01T23:59:00+00:00"
       },
       "request": {
-        "method": "PUT",
-        "url": "AllergyIntolerance"
+          "method": "PUT",
+          "url": "AllergyIntolerance"
       }
     }
   ]

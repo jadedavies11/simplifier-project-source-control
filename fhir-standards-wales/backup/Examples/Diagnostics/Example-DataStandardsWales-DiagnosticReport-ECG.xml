@@ -1,4 +1,5 @@
-<DiagnosticReport xmlns="http://hl7.org/fhir">
+<DiagnosticReport 
+  xmlns="http://hl7.org/fhir">
   <id value="Example-DataStandardsWales-DiagnosticReport-ECG" />
   <meta>
     <versionId value="1" />
@@ -11,7 +12,8 @@
   </meta>
   <text>
     <status value="additional" />
-    <div xmlns="http://www.w3.org/1999/xhtml">12 Lead ECG[A]
+    <div 
+      xmlns="http://www.w3.org/1999/xhtml">12 Lead ECG[A]
     </div>
   </text>
   <identifier>
@@ -40,11 +42,11 @@
     <text value="Cardiology" />
   </code>
   <subject>
-    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-    <display value="JONES, Alice (NHS: 9912003444)" />
+		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <encounter>
-    <reference value="Encounter/Example-DataStandardsWales-Encounter-EmergencyAdmission" />
+    <reference value="Encounter/Example-DataStandardsWales-Encounter-EmergencyAdmission"/>
   </encounter>
   <issued value="2018-04-01T11:11:11+01:00" />
   <performer>
@@ -55,7 +57,7 @@
     <contentType value="application/pdf" />
     <language value="en" />
     <data value="eW91J3ZlIGZvdW5kIGFuIGVhc3RlciBlZ2csIHdlbGwgZG9uZSE=" />
-    <!--We have skipped the base64 string data value for better readability of the resource-->
+	<!--We have skipped the base64 string data value for better readability of the resource-->
     <title value="12 Lead ECG[A]; JONES, Alice; Performed: 02 12 2021 12:57" />
   </presentedForm>
 </DiagnosticReport>

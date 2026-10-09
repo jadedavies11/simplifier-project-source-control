@@ -1,7 +1,7 @@
 # Clinical Scenarios / Examples
 ## Encounter-based Document
 ### Overview
-This scenario addresses the use of FHIR resources to fulfil the metadata requirements for a document that is based on an event represented as an Encounter resource. An example might be an outpatient clinic attendance.
+This scenario addresses the use of FHIR resources to fulfil the metadata requirements for a document that is based on an event for which the clinical data are already represented as a FHIR Encounter resource. An example might be an outpatient clinic attendance.
 
 ### Implementation Guidance
 In this case, the document metadata specific to the documented event belong to the Encounter resource, so the recommendation would be to avoid storing them within the Document Reference resource instance as this would be data duplication:

@@ -1,78 +1,125 @@
 <Organization xmlns="http://hl7.org/fhir">
-  <id value="Example-DataStandardsWales-Organization-UHW" />
-  <meta>
-    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-  </meta>
-  <text>
-    <status value="generated" />
-    <div xmlns="http://www.w3.org/1999/xhtml">University Hospital of Wales</div>
-  </text>
-  <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
-    <valuePeriod>
-      <start value="2009-10-01" />
-    </valuePeriod>
-  </extension>
-  <identifier>
-    <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-    <value value="7A4BV" />
-  </identifier>
-  <active value="true" />
-  <type>
-    <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector" />
-      <code value="public" />
-      <display value="Public" />
-    </coding>
-  </type>
-  <type>
-    <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain" />
-      <code value="health" />
-      <display value="Health" />
-    </coding>
-  </type>
-  <type>
-    <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification" />
-      <code value="secondary-care" />
-      <display value="Secondary care" />
-    </coding>
-  </type>
-  <type>
-    <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification" />
-      <code value="hospital" />
-      <display value="Hospital" />
-    </coding>
-  </type>
-  <name value="University Hospital of Wales" />
-  <alias value="UHW">
-    <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-      <valueCodeableConcept>
-        <coding>
-          <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType" />
-          <code value="standard-acronym" />
-          <display value="Standard acronym" />
-        </coding>
-      </valueCodeableConcept>
-    </extension>
-  </alias>
-  <telecom>
-    <system value="phone" />
-    <value value="029 2074 7747" />
-  </telecom>
-  <address>
-    <line value="Heath Park" />
-    <city value="Cardiff" />
-    <district value="South Glamorgan" />
-    <postalCode value="CF14 4XW" />
-  </address>
-  <partOf>
-    <reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB" />
-    <identifier>
-      <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-      <value value="7A4" />
-    </identifier>
-    <display value="Cardiff and Vale University Local Health Board" />
-  </partOf>
+	<id value="Example-DataStandardsWales-Organization-UHW"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+	</meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+		<valuePeriod>
+			<start value="2009-10-01"/>
+		</valuePeriod>
+	</extension>
+	<identifier>
+		<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+		<value value="7A4BV"/>
+	</identifier>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
+		<value value="7A4BV"/>
+	</identifier>
+	<active value="true"/>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
+			<code value="public"/>
+			<display value="Public"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
+			<code value="health"/>
+			<display value="Health"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
+			<code value="secondary-care"/>
+			<display value="Secondary care"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>
+			<code value="hospital"/>
+			<display value="Hospital"/>
+		</coding>
+	</type>
+	<name value="University Hospital of Wales">
+		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+			<extension url="lang">
+				<valueCode value="cy"/>
+			</extension>
+			<extension url="content">
+				<valueString value="Ysbyty Athrofaol Cymru"/>
+			</extension>
+		</extension>
+	</name>
+	<alias value="University Hospital of Wales">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name"/>
+		</extension>
+	</alias>
+	<alias value="Ysbyty Athrofaol Cymru">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name-welsh"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name-welsh"/>
+		</extension>
+	</alias>
+	<telecom>
+		<system value="phone"/>
+		<value value="029 2074 7747"/>
+	</telecom>
+	<address>
+		<line value="Heath Park">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Parc y Mynydd Bychan"/>
+				</extension>
+			</extension>
+		</line>
+		<city value="Cardiff">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Caerdydd"/>
+				</extension>
+			</extension>
+		</city>
+		<district value="Cardiff">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Caerdydd"/>
+				</extension>
+			</extension>
+		</district>
+		<postalCode value="CF14 4XW"/>
+		<country value="Wales">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Cymru"/>
+				</extension>
+			</extension>
+		</country>
+	</address>
+	<partOf>
+		<reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB"/>
+		<display value="Cardiff and Vale University Local Health Board"/>
+	</partOf>
 </Organization>

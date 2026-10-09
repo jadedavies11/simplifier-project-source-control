@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-DataStandardsWales-SuccessorOrganization" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SuccessorOrganization" />
+  <version value="0.1.0" />
+  <name value="ExtensionDataStandardsWalesSuccessorOrganization" />
+  <title value="Extension Data Standards Wales Successor Organization" />
+  <status value="draft" />
+  <date value="2026-07-30" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <description value="This extension identifies the successor organisation that continues the delivery of services after the end date recorded for the organisation." />
+  <purpose value="To track the transfer of responsibilities when an organisation formally ends." />
+  <copyright value="2026 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Organization" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Identifies the successor organisation" />
+      <definition value="Identifies the successor organisation that continues the delivery of services after the end date recorded for the organisation." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SuccessorOrganization" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <short value="Identifies the successor organisation" />
+      <definition value="Identifies the successor organisation that continues the delivery of services after the end date recorded for the organisation." />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
