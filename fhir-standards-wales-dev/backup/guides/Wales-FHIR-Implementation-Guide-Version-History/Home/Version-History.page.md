@@ -18,17 +18,17 @@ Implementation Guide version history is provided in the table below.
 	</thead>
 	<tbody>
 		<tr>
-			<td scope="row">04/09/2026</td>
-			<td>2.7.0-ballot.1 STU2</td>
+			<td scope="row">09/10/2026</td>
+			<td>2.7.0 STU2</td>
 			<td>4.0.1</td>
 			<td>2.0.2</td>
-			<td>In addition to general maintenance, this release includes changes which in the main will support: the Choose Pharmacy service, error workflows for care documents and complexities around organisation and location data (e.g. type classification, regions and clusters)</td>
+			<td>In addition to general maintenance, this release includes enhancements to support: The Choose Pharmacy service, Complex organisation and location structures (including type classifications, regions and clusters, and Error workflows for care documents). The release also introduces the HL7 FHIR Translation Extension to the Data Standards Wales - Organization and Data Standards Wales - Location profiles, enabling the representation of Welsh-language translation of address fields sourced from Welsh Reference and Terminology Services (WRTS) databases</td>
 			<td>
-				<a href="https://simplifier.net/guide/fhir-standards-wales-test?version=2.7.0-ballot.1">Home Page</a>
+				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=2.7.0">Home Page</a>
 			</td>
-			<td><a href="https://simplifier.net/guide/fhir-standards-wales-test/Home/Help-and-Support/Release-Notes?version=2.7.0-ballot.1">Release Notes</a></td>
+			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=2.7.0">Release Notes</a></td>
 			<td>
-				<a href="https://simplifier.net/packages/fhir.r4.wales.test/2.7.0-ballot.1">fhir.r4.wales.test 2.7.0-ballot.1</a>
+				<a href="https://simplifier.net/packages/fhir.r4.wales/2.7.0">fhir.r4.wales 2.7.0</a>
 			</td>
 		</tr>
 		<tr>
