@@ -11,7 +11,7 @@ igversion: 2.7.0
 <div class="container-fluid">
 <div class="row">
 	<div class="col">
-This Implementation Guide contains the HL7 FHIR R4 standards for use by Health and Care organisations in Wales. The Data Standard Wales profiles have been developed with NHS Wales systems in mind and are derived from the UK Core STU2 v2.0.1 release. All relevant NHS Wales Data Standards have been implemented as appropriate.
+This Implementation Guide contains the HL7 FHIR R4 standards for use by Health and Care organisations in Wales. The Data Standard Wales profiles have been developed with NHS Wales systems in mind and are derived from the UK Core STU2 v2.0.2 release. All relevant NHS Wales Data Standards have been implemented as appropriate.
 <br></br>
 These pages contain guidance on the following areas:
 <br></br>
