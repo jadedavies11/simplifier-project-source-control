@@ -12,11 +12,25 @@ Implementation Guide version history is provided in the table below.
 			<th scope="col">UK Core Version</th>
 			<th scope="col">Description</th>
 			<th scope="col">Guide</th>
-			<th scope="col">Release Note</th>
+			<th scope="col">Release Notes</th>
 			<th scope="col">Package</th>
 		</tr>
 	</thead>
 	<tbody>
+		<tr>
+			<td scope="row">09/10/2026</td>
+			<td>2.7.0 STU2</td>
+			<td>4.0.1</td>
+			<td>2.0.2</td>
+			<td>In addition to general maintenance, this release includes enhancements to support: The Choose Pharmacy service, Complex organisation and location structures (including type classifications, regions and clusters, and Error workflows for care documents). The release also introduces the HL7 FHIR Translation Extension to the Data Standards Wales - Organization and Data Standards Wales - Location profiles, enabling the representation of Welsh-language translation of address fields sourced from Welsh Reference and Terminology Services (WRTS) databases</td>
+			<td>
+				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=2.7.0">Home Page</a>
+			</td>
+			<td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=2.7.0">Release Notes</a></td>
+			<td>
+				<a href="https://simplifier.net/packages/fhir.r4.wales/2.7.0">fhir.r4.wales 2.7.0</a>
+			</td>
+		</tr>
 		<tr>
 			<td scope="row">10/07/2026</td>
 			<td>2.6.1 STU2</td>
@@ -31,6 +45,20 @@ Implementation Guide version history is provided in the table below.
 				<a href="https://simplifier.net/packages/fhir.r4.wales/2.6.1">fhir.r4.wales 2.6.1</a>
 			</td>
 		</tr>
+		 <tr>
+            <td scope="row">29/05/2026</td>
+            <td>2.6.0 STU2</td>
+            <td>4.0.1</td>
+            <td>2.0.1</td>
+            <td>Minor release that contains resources to support Document Reference. This was following a lengthy period of review to allow us to make the profile active. New example bundles have also been provided. Additionally, organization type slices have been added to further support the identification of different entities. Many additional quality of life changes made to the guide. Also added in support for R5 backports with a new package dependency that contains these resources.</td>
+            <td>
+                <a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=2.6.0">Home Page</a>
+            </td>
+            <td><a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide/Home/Help-and-Support/Release-Notes?version=2.6.0">Release Notes</a></td>
+            <td>
+                <a href="https://simplifier.net/packages/fhir.r4.wales/2.6.0">fhir.r4.wales 2.6.0</a>
+            </td>
+        </tr>
 		<tr>
 			<td scope="row">26/03/2026</td>
 			<td>2.5.0 STU2</td>

@@ -1,14 +1,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation-VitalSigns-BodyHeight" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyHeight" />
-  <version value="1.2.0" />
+  <version value="1.2.1" />
   <name value="DataStandardsWalesObservationVitalSignsBodyHeight" />
   <title value="Data Standards Wales Observation Vital Signs Body Height" />
   <status value="active" />
-  <date value="2026-02-26" />
+  <date value="2026-07-13" />
   <publisher value="NHS Wales" />
   <contact>
-    <name value="NHS Wales" />
+    <name value="FHIR Standards" />
     <telecom>
       <system value="email" />
       <value value="fhir.standards@wales.nhs.uk" />

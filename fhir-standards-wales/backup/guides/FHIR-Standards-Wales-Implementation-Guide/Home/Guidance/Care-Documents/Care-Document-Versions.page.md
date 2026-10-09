@@ -29,3 +29,6 @@ For new FHIR-compliant applications submitting and retrieving care documents, th
 * The `externalSupersessionSetId` slice uses a similar approach to the WCRS `ExternalSupersessionId`, but substitutes the pipe separator beween issuing authority and identifier with a tilde, because pipe is a reserved character for FHIR processing.
 * SetSequenceNumber is supported by a meta tag with `.system` = "seqno".
 * The business version to supplement the `externalSupersessionSetId` can be captured using extension `versionR5`.
+
+
+<br />

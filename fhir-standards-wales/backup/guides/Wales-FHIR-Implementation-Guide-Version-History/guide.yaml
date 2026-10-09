@@ -1,6 +1,6 @@
 title: Wales FHIR Implementation Guide Version History
-description: Version History of Wales FHIR Implementation Guide - FHIR profiles and guidance for implementers in Wales
-version: 1.10.0
+description: FHIR profiles and guidance for implementers in Wales
+version: 1.11.0
 style-root: project
 style-name: NHSWalesStyle
 numbered-headings: false

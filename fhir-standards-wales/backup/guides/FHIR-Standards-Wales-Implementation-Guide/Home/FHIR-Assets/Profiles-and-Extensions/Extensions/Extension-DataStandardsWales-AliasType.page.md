@@ -6,6 +6,7 @@ This extension extends the alias element of a resource, such as Organization, to
 
 ### Context of Use
 This extension may be used on the following elements:
+- `Location.alias`
 - `Organization.alias`
 
 ### Formal Views of Extension Content

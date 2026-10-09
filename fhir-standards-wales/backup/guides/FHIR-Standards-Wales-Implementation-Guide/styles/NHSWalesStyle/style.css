@@ -458,8 +458,31 @@ span.url {
 
 
 .ExtLinkWarn:after {
-  content: "Some of the links provided on this page are resources external to NHS Wales. While every effort has been made to ensure the information provided is appropriate at the time of publication we cannot guarantee the veracity of the content. The content contained on these sites are the responsibility of the owner and may change without warning. Links may also cease to work if the creator has decided to withdraw the page and we would ask you to inform the data standards team via the help and support page if you come across this.";
+  content: "Some of the links provided on this page are resources external to NHS Wales. While every effort has been made to ensure the information provided is appropriate at the time of publication we cannot guarantee the veracity of the content. The content contained on these sites are the responsibility of the owner and may change without warning. Links may also cease to work if the creator has decided to withdraw the page and we would ask you to inform the Wales FHIR Data Standards team via the help and support page if you come across this.";
   color: black
+}
+
+.properties-table {
+    font-size: 0.85em;
+}
+
+.properties-table th {
+    background-color: #FBF9F9;
+    width: 150px;
+    text-align: left;
+    vertical-align: top;
+    padding: 0px 0px;
+    border:1px solid #a9a9b3;
+    border-left: none
+}
+
+.properties-table td {
+    background-color: white;
+    text-align: left;
+    vertical-align: top;
+    padding: 0px 0px;
+    border:1px solid #a9a9b3;
+    border-right: none
 }
 
  /* Equal width table cell */

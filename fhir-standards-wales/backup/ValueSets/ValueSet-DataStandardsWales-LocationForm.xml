@@ -1,0 +1,111 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-LocationForm"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-LocationForm"/>
+	<version value="0.1.0"/>
+	<name value="DataStandardsWalesLocationForm"/>
+	<title value="Data Standards Wales Location Form"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2026-08-20"/>
+	<publisher value="NHS Wales"/>
+	<contact>
+		<name value="FHIR Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="Value set to classify the physical (or virtual) form of the location space."/>
+	<copyright value="2026 NHS Wales."/>
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+		</include>
+		<include>
+			<valueSet value="http://hl7.org/fhir/uv/xver/ValueSet/R5-location-form-for-R4"/>
+		</include>
+	</compose>
+	<expansion>
+		<timestamp value="2026-08-20T16:15:00+00:00"/>
+		<contains>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationForm"/>
+			<code value="clinical-area"/>
+			<display value="Clinical area"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="area"/>
+			<display value="Area"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="bd"/>
+			<display value="Bed"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="bu"/>
+			<display value="Building"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="ca"/>
+			<display value="Cabinet"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="co"/>
+			<display value="Corridor"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="ho"/>
+			<display value="House"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="jdn"/>			<display value="Jurisdiction"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="lvl"/>
+			<display value="Level"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="rd"/>
+			<display value="Road"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="ro"/>
+			<display value="Room"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="si"/>
+			<display value="Site"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="ve"/>
+			<display value="Vehicle"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="vi"/>
+			<display value="Virtual"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="wa"/>
+			<display value="Ward"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+			<code value="wi"/>
+			<display value="Wing"/>
+		</contains>
+	</expansion>
+</ValueSet>

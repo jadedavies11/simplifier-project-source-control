@@ -1,78 +1,126 @@
 <Organization xmlns="http://hl7.org/fhir">
-  <id value="Example-DataStandardsWales-Organization-NCMC" />
-  <meta>
-    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-  </meta>
-  <text>
-    <status value="generated" />
-    <div xmlns="http://www.w3.org/1999/xhtml">Amman Tawe Partnership</div>
-  </text>
-  <extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
-    <valuePeriod>
-      <start value="2012-05-11" />
-    </valuePeriod>
-  </extension>
-  <identifier>
-    <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-    <value value="W97015" />
-  </identifier>
-  <active value="true" />
-  <type>
-    <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector" />
-      <code value="private" />
-      <display value="Private" />
-    </coding>
-  </type>
-  <type>
-    <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain" />
-      <code value="health" />
-      <display value="Health" />
-    </coding>
-  </type>
-  <type>
-    <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification" />
-      <code value="primary-care" />
-      <display value="Primary care" />
-    </coding>
-  </type>
-  <type>
-    <coding>
-      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification" />
-      <code value="gp-practice" />
-      <display value="GP practice" />
-    </coding>
-  </type>
-  <name value="North Cardiff Medical Centre" />
-  <alias value="NCMC">
-    <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
-      <valueCodeableConcept>
-        <coding>
-          <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-AliasType" />
-          <code value="standard-acronym" />
-          <display value="Standard acronym" />
-        </coding>
-      </valueCodeableConcept>
-    </extension>
-  </alias>
-  <telecom>
-    <system value="phone" />
-    <value value="029 2076 4444" />
-  </telecom>
-  <address>
-    <line value="Excalibur Drive" />
-    <line value="Thornhill" />
-    <city value="Cardiff" />
-    <postalCode value="CF14 9BB" />
-  </address>
-  <partOf>
-    <reference value="Organization/Example-DataStandardsWales-Organization-CardiffNorth" />
-    <identifier>
-      <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
-      <value value="CC421" />
-    </identifier>
-    <display value="Cardiff North" />
-  </partOf>
+	<id value="Example-DataStandardsWales-Organization-NCMC"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization"/>
+	</meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/organization-period">
+		<valuePeriod>
+			<start value="2012-05-11"/>
+		</valuePeriod>
+	</extension>
+	<identifier>
+		<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+		<value value="W97015"/>
+	</identifier>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/wrts-organization-identifier"/>
+		<value value="W97015"/>
+	</identifier>
+	<active value="true"/>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSector"/>
+			<code value="private"/>
+			<display value="Private"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationDomain"/>
+			<code value="health"/>
+			<display value="Health"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationClassification"/>
+			<code value="primary-care"/>
+			<display value="Primary care"/>
+		</coding>
+	</type>
+	<type>
+		<coding>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-OrganizationSubclassification"/>
+			<code value="gp-practice"/>
+			<display value="GP practice"/>
+		</coding>
+	</type>
+	<name value="North Cardiff Medical Centre">
+		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+			<extension url="lang">
+				<valueCode value="cy"/>
+			</extension>
+			<extension url="content">
+				<valueString value="Canolfan Feddygol Gogledd Caerdydd"/>
+			</extension>
+		</extension>
+	</name>
+	<alias value="North Cardiff Medical Centre">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name"/>
+		</extension>
+	</alias>
+	<alias value="Canolfan Feddygol Gogledd Caerdydd">
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="official-name-welsh"/>
+		</extension>
+		<extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AliasType">
+			<valueCode value="preferred-name-welsh"/>
+		</extension>
+	</alias>
+	<telecom>
+		<system value="phone"/>
+		<value value="029 2076 4444"/>
+	</telecom>
+	<address>
+		<line value="Excalibur Drive">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Gyriant Excalibur"/>
+				</extension>
+			</extension>
+		</line>
+		<line value="Thornhill"/>
+		<city value="Cardiff">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Caerdydd"/>
+				</extension>
+			</extension>
+		</city>
+		<district value="Cardiff">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Caerdydd"/>
+				</extension>
+			</extension>
+		</district>
+		<postalCode value="CF14 9BB"/>
+		<country value="Wales">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="cy"/>
+				</extension>
+				<extension url="content">
+					<valueString value="Cymru"/>
+				</extension>
+			</extension>
+		</country>
+	</address>
+	<partOf>
+		<reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB"/>
+		<display value="Cardiff and Vale University Local Health Board"/>
+	</partOf>
 </Organization>
