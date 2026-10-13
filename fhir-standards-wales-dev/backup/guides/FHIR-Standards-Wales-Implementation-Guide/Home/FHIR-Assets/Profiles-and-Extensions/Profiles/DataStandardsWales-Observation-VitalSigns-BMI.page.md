@@ -37,7 +37,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   <div id="tabeg" class="tabcontent">
   </div> 
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-VitalSigns-BMI, text: Example Observation Vital Signs - BMI}}</li>
+      <li>{{pagelink:Example-Observation-VitalSigns-BMI, text: Example Observation Vital Signs - BMI}}</li>
     </list>  
 </div>
 

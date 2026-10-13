@@ -1,0 +1,43 @@
+## Example MedicationStatement - Amoxicillin infusion
+This shows an example medication statement, which references the following example resources:
+* Subject, source and context:
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Doctor, text:Practitioner - Dr Sally Foster}}
+* Medication:
+  * {{pagelink:Example-DataStandardsWales-Medication-Amoxicillin-Infusion, text:Amoxicillin (infusion)}}
+<div class="tab-wrap">
+  <ul class="tab-head">
+    <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">
+      Overview
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtable')" data-target="tabtable">
+      Table
+    </li>
+    <li class="tablink tab-active" onclick="openCity(this,'tabxml')" data-target="tabxml">
+      XML
+    </li>    
+    <li class="tablink" onclick="openCity(this,'tabjson')" data-target="tabjson">
+      JSON
+    </li>    
+    <li class="tablink" onclick="openCity(this,'tabnarrative')" data-target="tabnarrative">
+      Narrative
+    </li>
+  </ul>
+  <div class="tab-main">
+    <div id="tabtree" class="tabcontent">
+      {{tree:MedicationStatement/Example-MedicationStatement-Amoxicillin-Infusion}}
+    </div>
+    <div id="tabtable" class="tabcontent">
+      {{table:MedicationStatement/Example-MedicationStatement-Amoxicillin-Infusion}}
+    </div>       
+    <div id="tabxml" class="tabcontent active">      
+      {{xml:MedicationStatement/Example-MedicationStatement-Amoxicillin-Infusion}}
+    </div>
+    <div id="tabjson" class="tabcontent">
+      {{json:MedicationStatement/Example-MedicationStatement-Amoxicillin-Infusion}}
+    </div>       
+    <div id="tabnarrative" class="tabcontent">
+      {{narrative:MedicationStatement/Example-MedicationStatement-Amoxicillin-Infusion}}
+    </div>  
+  </div>
+</div>

@@ -2,15 +2,87 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.8.0 STU2
+
+Package:
+* {{pagelink:Home/FHIR-Assets/Profile-Index.page.md,text:Profiles}}:
+    * New Profiles
+    * Changes to Profiles
+    * Removed Profiles
+* {{pagelink:Home/FHIR-Assets/Extension-Index.page.md,text:Extensions}}:
+    * New Extensions
+    * Changes to Extensions
+    * Removed Extensions
+* {{pagelink:Home/FHIR-Assets/CodeSystem-Index.page.md,text:CodeSystems}}:
+    * New Code Systems
+        * DataStandardsWales-RecordStatus
+    * Changes to Code Systems
+    * Removed Code Systems
+* {{pagelink:Home/FHIR-Assets/ValueSet-Index.page.md,text:ValueSets}}:
+    * New Value Sets
+        * DataStandardsWales-RecordStatus
+    * Changes to Value Sets
+    * Removed Value Sets
+* {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
+    * New Naming Systems
+        * Namespace for LIMS1 TCL episode number identifier
+        * Namespace for LIMS2 TCLe episode number identifier
+    * Changes to Naming Systems
+    * Removed Naming Systems
+* {{pagelink:Home/FHIR-Assets/Message-Definition-Index.page.md,text:Message Definitions}}
+    * New Message Definitions
+    * Changes to Message Definitions
+    * Removed Message Definitions
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+* Removed DataStandardWales from id, name and page links from all examples
+    * New Examples
+        * Example-Location-NPT
+    * Changes to Examples
+        * Example-Appointment-GenSurgery
+            * .start. Updated time to instant
+            * .end. Updated time to instant
+        * Example-Location-WardE
+            * .partOf. Added Example-Location-NPT
+        * Example-Practitioner-Consultant-JoeBloggs
+            * .gender. Corrected code from male to Male
+        * Example-Practitioner-Consultant
+            * .gender. Corrected code from male to Male
+        * Example-Practitioner-Dietitian-JudeFrancis
+            * .gender. Corrected code from female to Female
+        * Example-Practitioner-Nurse-EmilyMay
+            * .gender. Corrected code from female to Female
+        * Example-Practitioner-Physiotherapist
+            * .gender. Corrected code male to Male
+        * Example-Practitioner-PrescribingNurse
+            * .gender. Corrected code female to Female
+        * Example-Questionnaire-GrowthChartCondition
+            * .type. Corrected value
+        * Example-QuestionnaireResponse-GrowthChartCondition
+            * .authored. Corrected value
+        * Example-WelshClinicalPortal-growth-chart-bundle
+            * Bundle entries re-ordered to meet profile standards
+    * Removed Examples
+
+Guide:
+
+* General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks
+* Added new pages to outline the Code Systems created in this release
+* Added new pages to outline the Examples created in this release, and updated example links on relevant profile pages
+* Added new pages to outline the Extensions created in this release
+* Added new pages to outline the Value Sets created in this release
+* Updated Example Index with amended example links
+* Updated Example Index with new examples
+* Updated Profile pages with amended example links
+
+
+
 ### v2.7.0 STU2
 
-In addition to general maintenance, this release includes enhancements to support:
+In addition to general maintenance, this release includes changes which in the main will support:
 
 * The Choose Pharmacy service
-* Complex organisation and location structures, including type classifications, regions and clusters
+* Complexities around organisation and location data (e.g. type classification, regions and clusters)
 * Error workflows for care documents
-
-The release also introduces the [HL7 FHIR Translation Extension](http://hl7.org/fhir/StructureDefinition/translation) to the Data Standards Wales - Organization and Data Standards Wales - Location profiles, enabling the representation of Welsh-language translation of address fields sourced from Welsh Reference and Terminology Services (WRTS) databases
 
 WITHDRAWN Assets: <br>
 The following assets have been marked as withdrawn in this release and have a lifecycle status of retired. These will no longer be maintained within the Wales FHIR Implementation Guide or Wales FHIR package and SHALL NOT be used for new or revised content.
@@ -28,7 +100,7 @@ Deprecated assets are expected to be withdrawn in a future release unless otherw
 * MessageDefinition-DataStandardsWales-UEC-Discharge. Any valid message definition agreed with the receiving system can be used instead.
 * MessageDefinition-DataStandardsWales-UEC-Triage. Any valid message definition agreed with the receiving system can be used instead.
 
-Package: 
+Package:
 * Updated structure definition meta data elements for contact information and copyright for various Profiles, Extensions, Code Systems and Value Sets to reflect current information.
 * Dependencies:
     * Changes to Dependencies
@@ -43,12 +115,6 @@ Package:
         * DataStandardsWales-Appointment
             * Updated version from 1.2.1 to 1.2.2
             * .participant.actor. Updated reference from HL7 HealthcareService to DataStandardsWales-HealthcareService
-        * DataStandardsWales-DocumentReference
-            * Updated version from 1.1.0 to 1.1.1
-            * .content.attachment.language. Removed references to ISO 639-3
-        * DataStandardsWales-Encounter
-            * Updated version from 1.0.3 to 1.0.4
-            * .extension:Speciality. Updated element name to .extension:speciality
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.2.1 to 0.3.0
             * .basedOn. Updated reference from HL7 Task to DataStandardsWales-Task
@@ -76,6 +142,7 @@ Package:
             * .identifier slice. Added wrtsOrganizationIdentifier
             * .identifier slice gpClusterCode. To be withdrawn and updated definition
             * .name. Added Extension HL7 Translation
+            * .address. Added Extension HL7 Language
         * DataStandardsWales-Practitioner
             * Updated version from 1.1.4 to 1.2.0
             * .identifier. Added User Principal Name (UPN) slice
@@ -96,9 +163,6 @@ Package:
             * Updated DataType from CodeableConcept to Code
             * Updated Binding Strength from Preferred to Extensible
             * .context. Additional entry added for Location.alias element
-        * Extension-DataStandardsWales-Speciality
-            * Updated version from 1.0.1 to 1.1.0
-            * Updated Binding Strength from Extensible to Preferred
 * {{pagelink:Home/FHIR-Assets/CodeSystem-Index.page.md,text:CodeSystems}}:
     * New Code Systems
         * DataStandardsWales-LocationForm
@@ -133,7 +197,7 @@ Package:
             * Added ValueSet-DataStandardsWales-BloodPressure-AverageSystolic
         * PASReferralSource
             * Updated version from 1.0.0 to 1.0.1
-            * Updated SNOMED CT constraint to match ValueSet-UKCore-SourceOfServiceRequest amendments  
+            * Updated SNOMED CT constraint to match ValueSet-UKCore-SourceOfServiceRequest amendments
 * {{pagelink:Home/FHIR-Assets/Naming-Systems,text:Naming Systems}}:
     * New Naming Systems
         * Namespace for NHS Wales Shared Services Partnership (NWSSP) Pharmacy Account Number
@@ -150,7 +214,7 @@ Package:
             * filename. Renamed to NamingSystem-BCUHB-pas-identifier
             * .id. Updated to DataStandardsWales-BCUHB-PAS-PatientIdentifier
             * .name. Updated to BCUHBPASPatientIdentifier
-        * DataStandardsWales-BCUHB-PAS-PractitionerIdentifier	
+        * DataStandardsWales-BCUHB-PAS-PractitionerIdentifier
             * filename. Renamed to NamingSystem-BCUHB-pas-practitioner-identifier
         * DataStandardsWales-BCUHB-PAS-Sub-Specialty-Identifier
             * .name. Updated to BCUHBPASSubSpecialtyIdentifier
@@ -173,7 +237,7 @@ Package:
             * .name. Updated to HDUHBPASPatientIdentifier
         * DataStandardsWales-HDUHB-PAS-Sub-Specialty-Identifier
             * .name. Updated to HDUHBPASSubSpecialtyIdentifier
-        * DataStandardsWales-LIMS-identifier  
+        * DataStandardsWales-LIMS-identifier
             * .usage. Updated from LIMS identity to Patient identity
         * NHSWales-LIMS-TCL-Report
             * filename. Renamed to NamingSystem-LIMS-TCL-report-identifier
@@ -183,8 +247,8 @@ Package:
             * filename. Renamed to NamingSystem-LIMS-TCLe-report-identifier
         * NHSWales-LIMS-TCLe-Report-Code
             * filename. Renamed to NamingSystem-LIMS-TCLe-report-code-identifier
-        * DataStandardsWales-NADEX-identifier  
-            * .usage. Updated from Organization identity to Practitioner identity 
+        * DataStandardsWales-NADEX-identifier
+            * .usage. Updated from Organization identity to Practitioner identity
         * DataStandardsWales-PTHB-PAS-Identifier
             * .id. Updated to DataStandardsWales-PTHB-PAS-PatientIdentifier
             * .name. Updated to PTHBPASPatientIdentifier
@@ -208,7 +272,7 @@ Package:
         * DataStandardsWales-WRTS-Organization-identifier
             * Re-enabled Naming System
             * .usage. Updated from Do not use to Organization identity
-* {{pagelink:Home/FHIR-Assets/Message-Definition-Index.page.md,text:Message Definitions}}   
+* {{pagelink:Home/FHIR-Assets/Message-Definition-Index.page.md,text:Message Definitions}}
     * Changes to Message Definitions
         * MessageDefinition-DataStandardsWales-UEC-Arrival
             * Updated version from 0.1.0 to 0.2.0
@@ -217,11 +281,11 @@ Package:
         * MessageDefinition-DataStandardsWales-UEC-Discharge
             * Updated version from 0.1.0 to 0.2.0
             * Added HL7 extension structuredefinition-standards-status with value deprecated
-            * .description. Updated to indicate that the resource is DEPRECATED 
+            * .description. Updated to indicate that the resource is DEPRECATED
         * MessageDefinition-DataStandardsWales-UEC-Triage
             * Updated version from 0.1.0 to 0.2.0
             * Added HL7 extension structuredefinition-standards-status with value deprecated
-            * .description. Updated to indicate that the resource is DEPRECATED  
+            * .description. Updated to indicate that the resource is DEPRECATED
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
         * Example-DataStandardsWales-DocumentReference-Misfiled
@@ -238,7 +302,7 @@ Package:
         * Example-DSW-OrganizationAffiliation-CC201-W00142
         * Example-DSW-OrganizationAffiliation-R3D8C-7A3
     * Changes to Examples
-        * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR. 
+        * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR.
             * Removed Encounter elements and moved these to DocumentReference.context to reflect operational patterns
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
         * Example-DataStandardsWales-Bundle-SubmitClinician-Literal
@@ -253,17 +317,11 @@ Package:
             * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-DocumentReference-EncounterBased
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
-            * .content.attachment.language. Updated code to en
         * Example-DataStandardsWales-DocumentReference-EventBased
             * .versionId. Added element
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
             * .docStatus. Updated to final
-            * .content.attachment.language. Updated code to en
-        * Example-DataStandards-Wales-DocumentReference-ExpiredInsurance
-            * .content.attachment.language. Updated code to en
-        * Example-DataStandards-Wales-DocumentReference-NotEventBased
-            * .content.attachment.language. Updated code to en
-        * Example-DataStandardsWales-Location-CadogWard            
+        * Example-DataStandardsWales-Location-CadogWard
             * .text. Removed
             * .status. Updated to Active
             * .type. Added content for Clinical areas and Ward
@@ -272,22 +330,18 @@ Package:
         * Example-DataStandardsWales-Location-GGH
             * .text. Removed
             * .extension.gridReference. Added extension
-            * .status. Updated to Active 
+            * .status. Updated to Active
             * .extension.welshPreferredName. Added extension
-            * .alias.extension. Added content for official-name. official-name-welsh, preferred-name and preferred-name-welsh   
+            * .alias.extension. Added content for official-name. official-name-welsh, preferred-name and preferred-name-welsh
             * .type. Added content for Hospital
-            * .address.line. Added Translation extension and Welsh translation
             * .address.city. Added content for Carmarthenshire
-            * .address.city. Added Translation extension and Welsh translation
-            * .address.district. Added Translation extension and Welsh translation
             * .address.country. Added content for Wales
-            * .address.country. Added Translation extension and Welsh translation
-            * .physicalType. Added content for Site            
-        * Example-DataStandardsWales-Location-GGH-OPD 
+            * .physicalType. Added content for Site
+        * Example-DataStandardsWales-Location-GGH-OPD
             * .text. Removed
             * .type. Added content for Clinical areas and Outpatients clinic
             * .physicalType. Added content for Clinical area
-        * Example-DataStandardsWales-Location-WardE 
+        * Example-DataStandardsWales-Location-WardE
             * .text. Removed
             * .type. Added content for Clinical areas and Ward
             * .physicalType. Added content for Ward
@@ -306,10 +360,8 @@ Package:
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address.line. Added HL7 Language extension and Welsh translation
-            * .address.city. Added HL7 Language extension and Welsh translation
-            * .address.district. Added HL7 Language extension and Welsh translation
-            * .address.country. Added HL7 Language extension and Welsh translation
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf. Replaced Reference to Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth (cluster)
                 * .partOf.reference. Updated to Organization/Example-DataStandardsWales-Organization-HDUHB
                 * .partOf.display. Updated to Hywel Dda University Local Health Board
@@ -324,30 +376,24 @@ Package:
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address.line. Added HL7 Language extension and Welsh translation
-            * .address.city. Added HL7 Language extension and Welsh translation
-            * .address.district. Added HL7 Language extension and Welsh translation
-            * .address.country. Added HL7 Language extension and Welsh translation
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
         * Example-DataStandardsWales-Organization-GGH
             * Added mainLocation extension content referencing Location/Example-DataStandardsWales-Location-GGH
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address.line. Added HL7 Language extension and Welsh translation
-            * .address.city. Added HL7 Language extension and Welsh translation
-            * .address.district. Added HL7 Language extension and Welsh translation
-            * .address.country. Added HL7 Language extension and Welsh translation
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-HDUHB
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address.line. Added HL7 Language extension and Welsh translation
-            * .address.city. Added HL7 Language extension and Welsh translation
-            * .address.district. Added HL7 Language extension and Welsh translation
-            * .address.country. Added HL7 Language extension and Welsh translation
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
         * Example-DataStandardsWales-Organization-MedicalInsurer
             * .text. Removed
         * Example-DataStandardsWales-Organization-NCMC
@@ -355,10 +401,8 @@ Package:
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address.line. Added HL7 Language extension and Welsh translation
-            * .address.city. Added HL7 Language extension and Welsh translation
-            * .address.district. Added HL7 Language extension and Welsh translation
-            * .address.country. Added HL7 Language extension and Welsh translation
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf. Replaced Reference to Organization/Example-DataStandardsWales-Organization-CardiffNorth (cluster)
                 * .partOf.reference. Updated to Organization/Example-DataStandardsWales-Organization-CAVUHB
                 * .partOf.display. Updated to Cardiff and Vale University Local Health Board
@@ -368,10 +412,8 @@ Package:
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address.line. Added HL7 Language extension and Welsh translation
-            * .address.city. Added HL7 Language extension and Welsh translation
-            * .address.district. Added HL7 Language extension and Welsh translation
-            * .address.country. Added HL7 Language extension and Welsh translation
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-SBUHB
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
@@ -379,41 +421,21 @@ Package:
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
             * .alias. Removed display
-            * .address.line. Added HL7 Language extension and Welsh translation
-            * .address.city. Added HL7 Language extension and Welsh translation
-            * .address.district. Added HL7 Language extension and Welsh translation
-            * .address.country. Added HL7 Language extension and Welsh translation
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
         * Example-DataStandardsWales-Organization-UHW
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address.line. Added HL7 Language extension and Welsh translation
-            * .address.city. Added HL7 Language extension and Welsh translation
-            * .address.district. Added HL7 Language extension and Welsh translation
-            * .address.country. Added HL7 Language extension and Welsh translation
+            * .address. Added HL7 Language extension
+            * .address. Added Welsh address
             * .partOf.identifier. Removed
-        * Example-DataStandardsWales-Practitioner-Consultant
-            * .identifier. Added UPN identifier
-        * Example-DataStandardsWales-Practitioner-Consultant-JoeBloggs
-            * .identifier. Added UPN identifier
-        * Example-DataStandardsWales-Practitioner-Dietitian-JudeFrancis
-            * .identifier. Added UPN identifier
-        * Example-DataStandardsWales-Practitioner-Doctor
-            * .identifier. Added UPN identifier
-        * Example-DataStandardsWales-Practitioner-NonClinical
-            * .identifier. Added UPN identifier
-        * Example-DataStandardsWales-Practitioner-Nurse-EmilyMay
-            * .identifier. Added UPN identifier
-        * Example-DataStandardsWales-Practitioner-Physiotherapist
-            * .identifier. Added UPN identifier
-        * Example-DataStandardsWales-Practitioner-PrescribingNurse
-            * .identifier. Added UPN identifier
     * Removed Examples
         * Urgent and Emergency Care
             * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
             * Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)
-            * Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)     
+            * Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)
 
 Guide:
 
@@ -447,25 +469,13 @@ Guide:
 * Updated Example Index. Example Location - Outpatients Department (GGH) renamed as Example Location - Glangwili General Hospital Outpatients Department
 * Updated Example Index. Example Location - Ward E (NPT) renamed as Example Location - Neath Port Talbot Hospital Ward E
 * Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Literal renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal
-* Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Logical renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical   
-* Updated Example Index. Example-DataStandardsWales-MessageDefinition-SubmitClinician renamed as Example-DataStandardsWales-MessageDefinition-ClinicianSubmit 
+* Updated Example Index. Example-DataStandardsWales-Bundle-SubmitClinician-Logical renamed as Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical
+* Updated Example Index. Example-DataStandardsWales-MessageDefinition-SubmitClinician renamed as Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
 * Updated FHIR Messaging page with amended example links and amended diagram links
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
-* Updated Example-DataStandardsWales-Location-AmmanTawePartnership page with additional context for translated values.
-* Updated Example-DataStandardsWales-Location-BrynammanCommunity page with additional context for translated values.
-* Updated Example-DataStandardsWales-Location-GGH page with additional context for translated values.
-* Updated Example-DataStandardsWales-Location-MeddygfaCwmamman page with additional context for translated values.
-* Updated Example-DataStandardsWales-Organization-AmmanTawe page with additional context for translated values.
-* Updated Example-DataStandardsWales-Organization-CAVUHB page with additional context for translated values.
-* Updated Example-DataStandardsWales-Organization-GGH page with additional context for translated values.
-* Updated Example-DataStandardsWales-Organization-HDUHB page with additional context for translated values.
-* Updated Example-DataStandardsWales-Organization-NCMC page with additional context for translated values.
-* Updated Example-DataStandardsWales-Organization-NPT page with additional context for translated values.
-* Updated Example-DataStandardsWales-Organization-SBUHB page with additional context for translated values.
-* Updated Example-DataStandardsWales-Organization-UHW page with additional context for translated values.
 * Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias
 * Updated Guidance page for Administrative Data to cover additional resources and up-to-date advice on modelling structural relationships
-* Updated Guidance page for Care Documents to cover error workflows and to clarify the data model scope and use of Encounter
+* Updated Guidance page for Care Documents with advice regarding error management workflows
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
 * Updated MessageDefinition-DataStandardsWales-UEC-Arrival page to clarify that the resource is deprecated
 * Updated MessageDefinition-DataStandardsWales-UEC-Discharge page to clarify that the resource is deprecated
@@ -478,22 +488,22 @@ Summary: This release contains urgent corrections to DocumentReference and relat
 
 Impact: No breaking changes: NOTE that the correction of the required value set binding for DocumentReference.practiceSetting would be a breaking change for any system applying the incorrect binding which was inadvertently introduced in version 2.6.0. However the Care Documents Service is expected to be the first user of the new Wales FHIR standard for care documents, and will use the corrected resource definition when they start processing documents into the Care Data Repository.
 
-Package: 
+Package:
 * Profiles and Extensions:
     * Changes to Profiles
         * DataStandardsWales-DocumentReference
-            * Updated version from 1.0.0 to 1.1.0            
+            * Updated version from 1.0.0 to 1.1.0
             * .context.practiceSetting. ValueSet binding amended from UKCore-PracticeSettingCode to UKCore-CareSettingType
             * .extension:versionR5. SetSequenceNumber statement removed from definition
             * .extension:versionR5.value. SetSequenceNumber statement removed from definition
             * .identifier.slicing.description. Updated to refer to Care Documents Service instead of WCRS
             * .identifier:wcrsDocumentId. Slice renamed as documentId; fixedUrl and definition adjusted accordingly
-            * .identifier:wcrsSupersessionSetId. Slice renamed as supersessionSetId; fixedUrl and definition adjusted accordingly 
+            * .identifier:wcrsSupersessionSetId. Slice renamed as supersessionSetId; fixedUrl and definition adjusted accordingly
             * .identifier:externalSupersessionSetId. Slice added
             * .identifier.system. min value set to 1 for all slices; examples added with realistic content for slice
-            * .identifier.value. min value set to 1 for all slices; comments and examples added with realistic content for slice        
+            * .identifier.value. min value set to 1 for all slices; comments and examples added with realistic content for slice
         * DataStandardsWales-Practitioner
-            * Updated version from 1.1.3 to 1.1.4 
+            * Updated version from 1.1.3 to 1.1.4
             * .identfiier:gphcCode. Slice renamed as :gphcNumber
 * Naming Systems:
     * New Naming Systems
@@ -505,7 +515,7 @@ Package:
         * DataStandardsWales-wcrs-supersession-set-identifier (replaced by DataStandardsWales-supersession-set-identifier)
 * Examples:
     * Changes to Examples
-        * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR 
+        * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR
             * .identifier. Entries adjusted to match latest slice definitions
             * .context.practiceSetting. Updated to use SNOMED CT binding
         * Example-DataStandardsWales-DocumentReference-EncounterBased
@@ -515,10 +525,10 @@ Package:
             * .identifier. Entries adjusted to match latest slice definitions
             * .context.practiceSetting. Updated to use SNOMED CT binding
         * Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover
-            * .identifier. Entries adjusted to match latest slice definitions   
+            * .identifier. Entries adjusted to match latest slice definitions
         * Example-DataStandardsWales-DocumentReference-NotEventBased
-            * .identifier. Entries adjusted to match latest slice definitions            
-    
+            * .identifier. Entries adjusted to match latest slice definitions
+
 Guide:
 
 * Updated Care Documents guidance to clarify the role of Welsh Care Records Service as legacy and remove inappropriate references
@@ -527,7 +537,7 @@ Guide:
 
 ### v2.6.0 STU2
 
-Package: 
+Package:
 * Dependencies:
     * New Dependencies
         * hl7.fhir.uv.xver-r5.r4: 0.1.0
@@ -546,7 +556,7 @@ Package:
         * Extension-DataStandardsWales-SourceSystem
     * Changes to Profiles
         * DataStandardsWales-DocumentReference
-            * Updated version from 0.1.0 to 1.0.0            
+            * Updated version from 0.1.0 to 1.0.0
             * .status. Updated from draft to active
             * extension:attesterR5. Removed Extension-DataStandardsWales-DocumentAttester
             * extension:attesterR5. Added http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester to reflect formal R5 to R4 backport. Updated target profiles and descriptive elements (e.g. short, definition, comment)
@@ -601,17 +611,17 @@ Package:
         * DataStandardsWales-DocumentErrorStatus
     * Changes to Code Systems
         * DataStandardsWales-DocumentDigitalStatus
-            * Updated version from 0.1.0 to 1.0.0             
+            * Updated version from 0.1.0 to 1.0.0
             * .status. Updated from draft to active
     * Changes to Value Sets
         * DataStandardsWales-DocumentCategory
-            * Updated version from 0.1.0 to 1.0.0             
+            * Updated version from 0.1.0 to 1.0.0
             * .status. Updated from draft to active
         * DataStandardsWales-DocumentDigitalStatus
-            * Updated version from 0.1.0 to 1.0.0             
+            * Updated version from 0.1.0 to 1.0.0
             * .status. Updated from draft to active
         * DataStandardsWales-DocumentType
-            * Updated version from 0.1.0 to 1.0.0             
+            * Updated version from 0.1.0 to 1.0.0
             * .status. Updated from draft to active
         * DataStandardsWales-MessageEvent
             * Updated version from 0.1.0 to 0.2.0
@@ -622,7 +632,7 @@ Package:
         * Namespace for LIMS2 TCLe encounter identifier
         * Namespaces for PAS location identifiers
     * Changes to Naming Systems
-        * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions   
+        * Changes to .publisher, .responsible, .description, and .usage values for all Naming Systems to align published naming conventions
 * Examples:
     * New Examples
         * Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR
@@ -640,7 +650,7 @@ Package:
         * Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB
         * Example-DSW-PractitionerRole-Dietitian-JudeFrancis-HDUHB
         * Example-DSW-PractitionerRole-Nurse-EmilyMay-HDUHB
-        * Example-DSW-Practitioner-Consultant-JoeBloggs   
+        * Example-DSW-Practitioner-Consultant-JoeBloggs
         * Example-DSW-Practitioner-Dietitian-JudeFrancis
         * Example-DSW-Practitioner-Nurse-EmilyMay
     * Changes to Examples
@@ -704,7 +714,7 @@ Package:
         * Example-DataStandardsWales-PractitionerRole-PrescribingNurse
             * Corrected .organization reference
         * Example-WelshClinicalPortal-growth-chart-bundle
-            * Bundle.meta.profile. Removed element.       
+            * Bundle.meta.profile. Removed element.
     * Removed Examples
         * Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased
             * Removed pending decisions on error workflow handling
@@ -730,7 +740,7 @@ Guide:
 * Updated Care Documents guidance page to indicate the use of meta tags to store legacy document attributes
 * Updated Care Documents guidance page to replace Document Error Workflow section content with placeholder statements pending new guidance
 * Updated Care Documents guidance page with a new section to outline care document versions handling differences between WCRS and FHIR
-* Updated Care Documents guidance page with added examples 
+* Updated Care Documents guidance page with added examples
 * Updated DataStandardsWales-DocumentReference profile page to reflect the revised set of extensions
 * Updated DataStandardsWales-DocumentReference profile page with added examples
 * Updated DataStandardsWales-DocumentReference profile page to remove Provenance-related example
@@ -753,7 +763,7 @@ Guide:
 ### v2.5.0 STU2
 The proposed removal of DataStandardsWales-Dosage, a profile of the Dosage DataType, has been postponed following feedback to further investigate potential impacts.
 
-Package: 
+Package:
 * Profiles and Extensions:
     * New Profiles
         * DataStandardsWales-MessageDefinition
@@ -765,28 +775,28 @@ Package:
     * Changes to Profiles
         * DataStandardsWales-Appointment
             * Updated version from 1.1.0 to 1.2.0
-            * .id and .title added  
+            * .id and .title added
         * DataStandardsWales-Composition
             * Updated version from 0.1.0 to 0.2.0
-            * .experimental. Updated from true to false  
+            * .experimental. Updated from true to false
         * DataStandardsWales-Condition
             * Updated version from 0.0.1 to 0.1.0
-            * .experimental. Updated from true to false  
+            * .experimental. Updated from true to false
         * DataStandardsWales-Device
-            * Updated version from 0.0.2 to 1.0.0             
+            * Updated version from 0.0.2 to 1.0.0
             * .status. Updated from draft to active
             * .experimental. Updated from true to false
             * Must Support flag added to .identifier:applicationInstanceId
         * DataStandardsWales-DiagnosticReport
             * Updated version from 0.1.3 to 0.2.0
-            * .experimental. Updated from true to false    
+            * .experimental. Updated from true to false
         * DataStandardsWales-DiagnosticReport-Lab
             * Updated version from 0.1.2 to 0.2.0
-            * .experimental. Updated from true to false   
+            * .experimental. Updated from true to false
         * DataStandardsWales-DocumentReference
             * Updated version from 0.0.1 to 0.1.0
             * .experimental. Updated from true to false
-            * extension:versionR5 url changed to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version 
+            * extension:versionR5 url changed to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.version
             * extension:attesterR5 url changed to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentReference.attester
             * .content.attachment.language. Updated description and Requirements
             * .content.format. Updated description
@@ -795,14 +805,14 @@ Package:
             * .category. Increased minimum cardinality to 1
         * DataStandardsWales-Encounter-UEC
             * Updated version from 0.0.2 to 0.1.0
-            * .experimental. Updated from true to false   
+            * .experimental. Updated from true to false
         * DataStandardsWales-Endpoint
-            * Updated version from 0.0.5 to 1.0.0             
+            * Updated version from 0.0.5 to 1.0.0
             * .status. Updated from draft to active
-            * .experimental. Updated from true to false  
+            * .experimental. Updated from true to false
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.1.0 to 0.2.0
-            * .experimental. Updated from true to false 
+            * .experimental. Updated from true to false
         * DataStandardsWales-Immunization
             * Updated version from 1.1.0 to 1.2.0
             * extension:DataStandardsWalesImmunizationBasedOn url changed to https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Immunization.basedOn
@@ -810,65 +820,65 @@ Package:
                 * From Immunization.extension:DataStandardsWalesImmunizationBasedOn to Immunization.extension:immunizationBasedOnR5
                 * From Immunization.extension:DataStandardsWalesAdministeredProduct to Immunization.extension:administeredProduct
                 * From Immunization.extension:DataStandardsWalesForecastCreationSource to Immunization.extension:forecastCreationSource
-                * From Immunization.extension:DataStandardsWalesDateProcedureLastUpdated to Immunization.extension:dateProcedureLastUpdated 
+                * From Immunization.extension:DataStandardsWalesDateProcedureLastUpdated to Immunization.extension:dateProcedureLastUpdated
         * DataStandardsWales-ImmunizationRecommendation
-            * Updated version from 0.0.2 to 1.0.0             
-            * .status. Updated from draft to active                    
+            * Updated version from 0.0.2 to 1.0.0
+            * .status. Updated from draft to active
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.2.0 to 1.3.0
             * .requestor. Cardinality changed from 1..1 to 0..1 to align with UKCore.
         * DataStandardsWales-Observation
-            * Updated version from 0.1.3 to 1.0.0             
+            * Updated version from 0.1.3 to 1.0.0
             * .status. Updated from draft to active
-            * .experimental. Updated from true to false 
+            * .experimental. Updated from true to false
         * DataStandardsWales-Observation-Lab
             * Updated version from 0.1.2 to 0.2.0
-            * .experimental. Updated from true to false  
+            * .experimental. Updated from true to false
         * DataStandardsWales-Observation-VitalSigns
-            * Updated version from 1.1.0 to 1.2.0             
-            * .status. Updated from draft to active 
-            * .description. Updated to reflect correct derivation              
+            * Updated version from 1.1.0 to 1.2.0
+            * .status. Updated from draft to active
+            * .description. Updated to reflect correct derivation
             * .subject. Removed references to HL7 Group, DataStandardsWales-Location and DataStandardsWales-Device
         * DataStandardsWales-Observation-VitalSigns-BMI
         	* Updated version from 1.1.1 to 1.2.0
             * .status. Updated from draft to active
-            * .description. Updated to reflect correct derivation  
+            * .description. Updated to reflect correct derivation
         	* .code.coding. Valueset binding URL corrected
             * .subject. Removed differential to reflect the constraint in base profile
         * DataStandardsWales-Observation-VitalSigns-BodyHeight
         	* Updated version from 1.1.0 to 1.2.0
-            * .status. Updated from draft to active   
-            * .description. Updated to reflect correct derivation  
+            * .status. Updated from draft to active
+            * .description. Updated to reflect correct derivation
             * .code.coding:snomedCT. Removed description from the binding
             * .subject. Removed differential to reflect the constraint in base profile
         * DataStandardsWales-Observation-VitalSigns-BodyWeight
         	* Updated version from 1.1.0 to 1.2.0
             * .status. Updated from draft to active
-            * .description. Updated to reflect correct derivation  
+            * .description. Updated to reflect correct derivation
             * .code.coding:snomedCT. Removed description from the binding
             * .subject. Removed differential to reflect the constraint in base profile
         * DataStandardsWales-Provenance
-            * Updated version from 0.0.2 to 1.0.0             
+            * Updated version from 0.0.2 to 1.0.0
             * .status. Updated from draft to active
-            * .experimental. Updated from true to false  
+            * .experimental. Updated from true to false
         * DataStandardsWales-Questionnaire
         	* Updated version from 0.1.0 to 1.0.0
-            * .status. Updated from draft to active  
-            * Added Must Support for .name, .title, .description and .purpose 
+            * .status. Updated from draft to active
+            * Added Must Support for .name, .title, .description and .purpose
          * DataStandardsWales-QuestionnaireResponse
         	* Updated version from 0.1.0 to 1.0.0
-            * .status. Updated from draft to active               
+            * .status. Updated from draft to active
         * DataStandardsWales-ServiceRequest
         	* Updated version from 1.0.1 to 1.1.0
-            * .experimental. Updated from true to false  
+            * .experimental. Updated from true to false
 	        * .reasonReference. Updated reference from UKCoreCondition to DataStandardsWalesCondition
         * DataStandardsWales-Specimen
             * Updated version from 0.1.1 to 0.2.0
-            * .experimental. Updated from true to false      
-    * Changes to Message Definitions      
-        * DataStandardsWales-UEC-Arrival re-ordered metadata elements  
-        * DataStandardsWales-UEC-Discharge re-ordered metadata elements 
-        * DataStandardsWales-UEC-Triage re-ordered metadata elements 
+            * .experimental. Updated from true to false
+    * Changes to Message Definitions
+        * DataStandardsWales-UEC-Arrival re-ordered metadata elements
+        * DataStandardsWales-UEC-Discharge re-ordered metadata elements
+        * DataStandardsWales-UEC-Triage re-ordered metadata elements
     * Changes to Extensions
         * Extension-DataStandardsWales-AdministeredProduct
             * Updated version from 0.1.0 to 1.0.0
@@ -928,7 +938,7 @@ Package:
             * Added status to active
         * Extension-DataStandardsWales-UECDischargeInformationGiven
             * Updated version from 0.0.2 to 0.1.0
-            * .experimental. Updated from true to false       
+            * .experimental. Updated from true to false
 * Terminology:
     * New Code Systems
         * DataStandardsWales-DocumentAttribute
@@ -945,12 +955,12 @@ Package:
         * FHIRStandardsWales-DocumentErrorAction
             * Replaced by value set DataStandardsWales-DocumentErrorAction
         * FHIRStandardsWales-DocumentErrorStatus
-            * Replaced by value set DataStandardsWales-DocumentErrorStatus        
+            * Replaced by value set DataStandardsWales-DocumentErrorStatus
     * Changes to Code Systems
         * DataStandardsWales-DocumentDigitalStatus
             * Updated version from 0.0.1 to 0.1.0
             * .experimental. Updated from true to false
-            * Removed 'unknown' code 
+            * Removed 'unknown' code
         * DataStandardsWales-PatientRecordType
             * Updated version from 0.0.1 to 1.0.0
             * .experimental. Updated from true to false
@@ -980,18 +990,18 @@ Package:
         * DataStandardsWales-DocumentAttribute
         * DataStandardsWales-DocumentErrorAction
         * DataStandardsWales-DocumentErrorStatus
-        * DataStandardsWales-MessageEvent   
+        * DataStandardsWales-MessageEvent
     * Removed Value Sets
         * DataStandardsWales-QuestionnaireQuestionCodes
             * Initially introduced as an optional ValueSet but not implemented. Removed to prevent inappropriate use
         * DataStandardsWales-WRRSTaskType
-            * Initially introduced as an optional ValueSet but not implemented. Removed to prevent inappropriate use  
+            * Initially introduced as an optional ValueSet but not implemented. Removed to prevent inappropriate use
         * FHIRStandardsWales-DocumentAttribute
             * Replaced by value set DataStandardsWales-DocumentAttribute
         * FHIRStandardsWales-DocumentErrorAction
             * Replaced by value set DataStandardsWales-DocumentErrorAction
         * FHIRStandardsWales-DocumentErrorStatus
-            * Replaced by value set DataStandardsWales-DocumentErrorStatus           
+            * Replaced by value set DataStandardsWales-DocumentErrorStatus
     * Changes to Value Sets
         * DataStandardsWales-BloodPressure
             * Updated version from 1.0.0 to 1.1.0
@@ -1011,8 +1021,8 @@ Package:
             * Added 'Record composition type' simple reference set to description.
         * DataStandardsWales-EncounterType
             * Updated version from 1.0.0 to 1.1.0
-            * Updated SNOMED CT 20250409 version 
-            * Expanded SNOMED CT codes to show 50 concepts as sample   
+            * Updated SNOMED CT 20250409 version
+            * Expanded SNOMED CT codes to show 50 concepts as sample
         * DataStandardsWales-Observation-VitalSigns
             * Updated version from 1.0.0 to 1.1.0
             * Corrected all canonical references to constituent value sets
@@ -1021,7 +1031,7 @@ Package:
             * Updated version from 0.0.5 to 1.0.0
             * .experimental. Updated from true to false
             * status. Updated from draft to active
-            * Updated SNOMED CT 20250409 version 
+            * Updated SNOMED CT 20250409 version
             * Expanded SNOMED CT codes to show 50 concepts as sample
         * DataStandardsWales-PatientRecordType
             * Updated version from 0.0.1 to 1.1.0
@@ -1034,7 +1044,7 @@ Package:
 		* DataStandardsWales-RecordingSetting
 			* Updated version from 1.0.0 to 1.0.1
 			* Valueset binding url corrected
-        * DataStandardsWales-Religion 'contains' tags corrected     
+        * DataStandardsWales-Religion 'contains' tags corrected
 		* MessageEvents
             * Updated version from 0.0.1 to 1.0.0
             * .status. Updated from draft to active
@@ -1045,7 +1055,7 @@ Package:
 			* Updated version from 0.0.1 to 1.0.0
             * .experimental. Updated from true to false
             * .status. Updated from draft to active
-			* Valueset binding url corrected   
+			* Valueset binding url corrected
         * PASEventType
            * Updated version from 0.0.1 to 1.0.0
            * .experimental. Updated from true to false
@@ -1057,7 +1067,7 @@ Package:
         * PASSourceAdmission
             * Updated version from 0.0.1 to 1.0.0
             * .experimental. Updated from true to false
-            * .status. Updated from draft to active         
+            * .status. Updated from draft to active
 * Naming Systems:
     * Changes to Naming Systems
         * New Naming Systems
@@ -1074,16 +1084,16 @@ Package:
         * Urgent and Emergency Care
             * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
             * Example Message Bundle - UEC Triage UHWEUMI (UHW Emergency Unit Minor Injuries)
-            * Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)    
+            * Example Message Bundle - UEC Discharge UHWEUMI (UHW Emergency Unit Minor Injuries)
     * Changes to Examples
         * Allergy Degraded
             * Bundle-Degraded allergies
-                * Updated full url  
-                * Updated url for extension:ethnicCategory from https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory to https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory 
-                * Changed code for extension:religion               
+                * Updated full url
+                * Updated url for extension:ethnicCategory from https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory to https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory
+                * Changed code for extension:religion
         * Appointment
             * Renamed example from Example-DataStandardsWales-Appointment-GenSurgery-FollowUp to Example-DataStandardsWales-Appointment-GenSurgery
-        * Document Reference    
+        * Document Reference
             * DocumentReference-EncounterBased
                 * Changes to align with updates to the DocumentReference profile and associated value sets
                 * Extension urls updated for R5 backports
@@ -1097,40 +1107,40 @@ Package:
             * DocumentReference-Provenance
                 * Changes to align with updates to the DocumentReference profile and associated value sets
                 * Updated url for .content.attachment
-        * Endpoint 
+        * Endpoint
             * Endpoint - Dicom Ima added HL7 namespace
-        * Immunization 
-            * Immunization - Not Given added Z suffix to .occurrenceDateTime      
-        * Observation        
+        * Immunization
+            * Immunization - Not Given added Z suffix to .occurrenceDateTime
+        * Observation
             * Observation - ACVPU added HL7 namespace
             * Observation - Blood pressure added HL7 namespace
             * Observation - Body temperature added HL7 namespace
             * Observation - Respiratory rate added HL7 namespace
-        * Observation Vital Signs 
+        * Observation Vital Signs
             * Observation Vital Signs - Head Circumference changed id from Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference to Example-DSW-Observation-VitalSigns-HeadCircumference
-        * Observation Vital Signs BMI 
+        * Observation Vital Signs BMI
             * Observation Vital Signs BMI added HL7 namespace
         * Observation Vital Signs Body Height
             * Observation Vital Signs - Maternal Height added HL7 namespace
         * Observation Vital Signs Weight
             * Observation Vital Signs - Weight added HL7 namespace
         * Patient
-            * Patient - Alice Jones        
+            * Patient - Alice Jones
                 * Changed code structure for extension:birthSex
-                * Updated url for extension:ethnicCategory from https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory to https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory 
+                * Updated url for extension:ethnicCategory from https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory to https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory
                 * Changed code for extension:religion
             * Patient - Harold James
-                * Updated url for extension:ethnicCategory from https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory to https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory   
+                * Updated url for extension:ethnicCategory from https://fhir.nhs.uk/StructureDefinition/Extension-UKCore-EthnicCategory to https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-EthnicCategory
         * Provenance
             * Provenance - Demographics as recorded within care document changed id from Example-DataStandardsWales-Provenance-DocumentReferenceDemographics to  Example-DSW-Provenance-DocumentReferenceDemographics
         * Questionnaire Response
             * Questionnaire Response - Growth Chart Condition
                 * Changed id from Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition to Example-DSW-QuestionnaireResponse-GrowthChartCondition
                 * Added HL7 namespace
-        * Related Person  
-            * Related Person - Natural Mother added HL7 namespace  
+        * Related Person
+            * Related Person - Natural Mother added HL7 namespace
     * Removed Examples
-        * DataStandardsWales-Encounter-Outpatient          
+        * DataStandardsWales-Encounter-Outpatient
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes, correcting grammatical errors and formatting, and correcting hyperlinks.
@@ -1170,7 +1180,7 @@ Guide:
 * Replaced HL7 R5 AuditEvent link with HL7 R4 AuditEvent link in DataStandardsWales-AuditEvent IG page
 * Replaced unknown with UNK in DataStandardsWales-DocumentReference IG page
 * Updated Draft/Active status and removed Experimental flag on the Home page to mirror changes to the profiles
-* Updated left sided navigation panes and asset indexes for easier discovery 
+* Updated left sided navigation panes and asset indexes for easier discovery
 * Updated wording on DataStandardsWales-Observation-VitalSigns Profile pages to clarify derivation.
 * Updated narrative content to reflect revised understanding of experimental as exploratory e.g. for prototyping
 * Updated Purpose narrative for DataStandardsWales-DocumentAttester and DataStandardsWales-DocumentVersion pages
@@ -1178,25 +1188,25 @@ Guide:
 * Updated page link in FHIR Assets Naming System from Naming System to Naming Systems Design
 
 ### v2.4.0 STU2
-Package: 
+Package:
 * Profiles and Extensions:
     * New Extensions
         * DataStandardsWales-ClinicCode
     * Changes to Profiles
         * DataStandardsWales-Appointment
             * Updated version from 1.0.1 to 1.1.0
-            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation   
+            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation
             * New extension added:
                 * DataStandardsWales-ClinicCode
-            * .reasonReference. Added reference to DataStandardsWales-Condition    
+            * .reasonReference. Added reference to DataStandardsWales-Condition
         * DataStandardsWales-Consent
             * Updated version from 0.0.1 to 0.0.2
             * .source. Added reference to DataStandardsWales-DocumentReference
         * DataStandardsWales-DiagnosticReport
-            * Updated version from 0.1.2 to 0.1.3            
+            * Updated version from 0.1.2 to 0.1.3
             * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-DiagnosticReport-Lab
-            * Updated version from 0.1.1 to 0.1.2            
+            * Updated version from 0.1.1 to 0.1.2
             * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-Encounter
             * Updated version from 1.0.1 to 1.0.2
@@ -1209,14 +1219,14 @@ Package:
             * .reasonReference. Added reference to DataStandardsWales-Condition
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.0.7 to 0.1.0
-            * .reasonReference. 
+            * .reasonReference.
                 * Added reference to DataStandardsWales-Condition
                 * Added reference to DataStandardsWales-DocumentReference
             * .series.specimen. Added reference to DataStandardsWales-Specimen
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.1.2 to 1.2.0
-            * .performer. Added reference to DataStandardsWales-RelatedPerson     
-            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation         
+            * .performer. Added reference to DataStandardsWales-RelatedPerson
+            * .basedOn. Updated reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-Observation
             * Updated version from 0.1.2 to 0.1.3
             * .derivedFrom. Added reference to DataStandardsWales-DocumentReference
@@ -1253,10 +1263,10 @@ Package:
         * PASReferralSource
         * PASAdmitSource
         * PASSourceAdmission
-    * Removed Value Sets 
+    * Removed Value Sets
         * DataStandardsWales-UEC-ActivityType
         * DataStandardsWales-UEC-CareConsultationMechanism
-    * Changes to Value Sets 
+    * Changes to Value Sets
         * DataStandardsWales-DocumentType
             * Updated version from 0.0.1 to 0.0.2
             * Expanded SNOMED CT codes to show 50 concepts as sample
@@ -1309,18 +1319,18 @@ Guide:
 * Updated page.md pagelinks to shortened pagelinks throughout implementation guide
 
 ### v2.3.0 STU2
-Package: 
+Package:
 * Profiles and Extensions:
     * New Profiles
         * DataStandardsWales-Composition
-        * DataStandardsWales-Condition        
+        * DataStandardsWales-Condition
         * DataStandardsWales-Consent
         * DataStandardsWales-DocumentReference
         * DataStandardsWales-Encounter-UEC
         * DataStandardsWales-ImmunizationRecommendation
     * New Extensions
         * DataStandardsWales-AdministeredProduct
-        * DataStandardsWales-DateProcedureLastUpdated        
+        * DataStandardsWales-DateProcedureLastUpdated
         * DataStandardsWales-DocumentAttribute
         * DataStandardsWales-DocumentDigitalStatus
         * DataStandardsWales-DocumentErrorAction
@@ -1330,7 +1340,7 @@ Package:
         * DataStandardsWales-UECAttendanceCategory
         * DataStandardsWales-UECDischargeInformationGiven
         * DataStandardsWales-UECExpectedTimeOfTreatment
-    * New R5 backport Extensions:      
+    * New R5 backport Extensions:
         * DataStandardsWales-DocumentAttester
         * DataStandardsWales-DocumentVersion
         * DataStandardsWales-Immunization.basedOn
@@ -1378,16 +1388,16 @@ Package:
         * DataStandardsWales-Practitioner
             * Updated version from 1.1.2 to 1.1.3
             * Cardinality changes:
-                * identifier:nadexIdentifier. From 0..1 to 0..* 
+                * identifier:nadexIdentifier. From 0..1 to 0..*
         * DataStandardsWales-PractitionerRole
             * Updated version from 1.1.1 to 1.1.2
             * .specialty. Changed valueset binding from required to extensible to align with UK Core
 * Terminology:
-    * New Value Sets 
+    * New Value Sets
         * Data Standards Wales Document Category
         * Data Standards Wales Document Digital Status
         * Data Standards Wales Document Type
-        * Data Standards Wales Encounter Type 
+        * Data Standards Wales Encounter Type
         * Data Standards Wales UEC Activity Type
         * Data Standards Wales UEC Acuity
         * Data Standards Wales UEC Arrival Mode
@@ -1450,15 +1460,15 @@ Guide:
 + Added namespaces for WCRS DocumentId and WCRS DocumentSupersessionSetId values in Naming Systems table
 
 ### v2.2.0 STU2
-Package: 
+Package:
 * Profiles and Extensions:
     * New Profiles
-        * DataStandardsWales-Appointment        
+        * DataStandardsWales-Appointment
     * Changes to Profiles
         * DataStandardsWales-Encounter
             * Updated version from 0.1.1 to 1.0.0
             * Updated status from draft to active
-            * Added .extension:Speciality 
+            * Added .extension:Speciality
         * DataStandardsWales-Practitioner
             * Updated nadexIdentifier slice to include a fixed system url
         * DataStandardsWales-ServiceRequest
@@ -1479,14 +1489,14 @@ Package:
             * Updated version from 1.0.0 to 1.1.0
             * Status fixed value removed
     * New Extensions
-        * DataStandardsWales-Speciality 
+        * DataStandardsWales-Speciality
 * Naming Systems:
     * New Naming Systems
         * Namespaces for PAS Appointment ids
         * Namespaces for PAS Sub-speciality codes
 * Examples:
     * New Examples
-        * Observation Vital Signs 
+        * Observation Vital Signs
             * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-BMI,text: BMI}}
             * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference,text: Head Circumference}}
             * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight,text: Maternal Height}}
@@ -1503,8 +1513,8 @@ Package:
         * Provenance
             * Example Provenance - Amend Device and Document Reference
             * Example Provenance - Amend where Device is unavailable
-            * Example Provenance - Growth Charts 
-Guide: 
+            * Example Provenance - Growth Charts
+Guide:
 * Added a new page to outline the DataStandardsWales-Appointment profile
 * Updates to the DataStandardsWales-Provenance profile page, along with updated examples
 * Added a new page to outline the DataStandardsWales-Speciality extension
@@ -1559,16 +1569,16 @@ Package:
         * DataStandardsWales-MedicationAdministration
             * Updated version from 1.1.0 to 1.1.1
             * .note.author. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
-            * .performer.actor. 
+            * .performer.actor.
                 * Removed reference to UKCore-Device. Added reference to DataStandardsWales-Device
                 * Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-MedicationDispense
             * Updated version from 1.1.0 to 1.1.1
             * .performer.actor. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
-            * .note.author. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson 
+            * .note.author. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-MedicationList
             * Updated version from 1.1.0 to 1.1.1
-            * .note.author. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson 
+            * .note.author. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.1.0 to 1.1.1
             * .reported. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
@@ -1578,7 +1588,7 @@ Package:
         * DataStandardsWales-MedicationStatement
             * Updated version from 1.1.0 to 1.1.1
             * .informationSource. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
-            * note.author. 
+            * note.author.
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
                 * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
@@ -1684,8 +1694,8 @@ Guide:
 * General improvements including removing of duplicate sections, spelling mistakes and capitalisation of abbreviations (i.e. DM+D)
 
 ### v2.0.0 STU2
-As part of our commitment to quality assurance and interoperability, we undertook an exercise to review and align the existing FHIR Standards Wales Package with UK Core STU2 (fhir.r4.ukcore.stu2 2.0.1). This resulted in us rationalising the FHIR Standards Wales Package where possible, removing detail that can already be derived from UK Core STU2, whilst still adhering to the principles of FHIR and supporting Wales specific content where required. 
-In addition to the removal of replicate content, the following changes were made: 
+As part of our commitment to quality assurance and interoperability, we undertook an exercise to review and align the existing FHIR Standards Wales Package with UK Core STU2 (fhir.r4.ukcore.stu2 2.0.1). This resulted in us rationalising the FHIR Standards Wales Package where possible, removing detail that can already be derived from UK Core STU2, whilst still adhering to the principles of FHIR and supporting Wales specific content where required.
+In addition to the removal of replicate content, the following changes were made:
 
 Package:
 * Profiles and Extensions:
@@ -1716,22 +1726,22 @@ Package:
             * .conclusionCode.Removed Slice
             * Reference changes:
                 *  .basedOn. Removed reference to HL7 ServiceRequest. Added reference to UKCore-ServiceRequest
-        * DataStandardsWales-Dosage   
+        * DataStandardsWales-Dosage
             * Updated version number from 0.0.5 to 0.1.0
-            * All Must Support flags removed 
+            * All Must Support flags removed
             * Binding strength changes:
                 * .asNeeded[]. From example to preferred
             * Binding terminology changes:
                 * .site. Removed binding to value set SNOMEDCTAnatomicalStructureForAdministrationSiteCodes. Added binding to value set UKCoreBodySite. Binding strength set as preferred
                 * .route. Removed binding to value set SNOMEDCTAdministrationMethodCodes. Added binding to value set UKCoreSubstanceOrProductAdministrationRoute. Binding strength set as preferred
-                * .method. Removed binding to value set SNOMEDCTAdministrationMethodCodes. Added binding to value set UKCoreUKCoreMedicationDosageMethod. Binding strength set as preferred 
+                * .method. Removed binding to value set SNOMEDCTAdministrationMethodCodes. Added binding to value set UKCoreUKCoreMedicationDosageMethod. Binding strength set as preferred
          * DataStandardsWales-Encounter
             * Updated version number from 0.0.5 to 0.1.0
             * Must Support changes:
                 * .reasonCode. Added must support
 	            * .reasonReference. Added must support
 	        * Extension changes:
-	            * .hospitalization. Added .extension:admissionMethod 
+	            * .hospitalization. Added .extension:admissionMethod
             * Reference changes:
                 * .reasonReference. Removed reference to UKCore-Observation. Added reference to DataStandardsWales-Observation.
                 * .reasonReference. Removed reference to HL7 Condition. Added reference to UKCore-Condition.
@@ -1778,7 +1788,7 @@ Package:
                 * .dosageInstruction.route. From extensible to preferred
                 * .dosageInstruction.method. From extensible to preferred
             * Binding terminology changes:
-                * .dosageInstruction.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodes. Binding strength set as preferred     
+                * .dosageInstruction.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodes. Binding strength set as preferred
             * Reference changes:
                 * .context. Removed reference to UKCore-Encounter. Added reference for DataStandardsWales-Encounter
                 * .performer.actor. Removed reference to UKCore-Device. Added reference for DataStandardsWales-Device
@@ -1787,8 +1797,8 @@ Package:
         * DataStandardsWales-MedicationList
             * Updated version number from 1.0.0 to 1.1.0
             * .source. Removed reference to UKCore-Device.Added reference for DataStandardsWales-Device
-        * DataStandardsWales-MedicationRequest 
-            * Updated version number from 1.0.0 to 1.1.0  
+        * DataStandardsWales-MedicationRequest
+            * Updated version number from 1.0.0 to 1.1.0
             * Must Support changes:
                 * .dosageInstruction. Added must support
                 * .dosageInstruction.text. Added must support
@@ -1801,7 +1811,7 @@ Package:
                 * .dosageInstruction.route. From extensible to preferred
                 * .dosageInstruction.method. From extensible to preferred
             * Binding terminology changes:
-                * .dosageInstruction.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodes. Binding strength set as preferred     
+                * .dosageInstruction.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodes. Binding strength set as preferred
             * Reference changes:
                 * .requester. Removed reference to Device. Added reference to DataStandardsWales-Device
                 * .reasonReference. Removed Reference to UK Core Observation. Added Reference to DataStandardsWales-Observation
@@ -1847,7 +1857,7 @@ Package:
                 * .code.coding:loinc
                 * .bodySite.coding
                 * .bodySite.coding:snomedCT
-                * .component.code.coding 
+                * .component.code.coding
                 * .component.code.coding:snomedCT
         * DataStandardsWales-Organization
             * Updated version from 1.0.0 to 1.1.0
@@ -1858,7 +1868,7 @@ Package:
             * Slices removed:
                 * .identifier. Removed slices for bcuhbEastPasIdentifier and bcuhbWestPasIdentifier
         * DataStandardsWales-Practitioner
-            * Updated version number from 1.0.1 to 1.1.1 
+            * Updated version number from 1.0.1 to 1.1.1
             * Must Support changes:
                 * .identifier.system. Added must support
                 * .identifier.value. Added must support
@@ -1901,31 +1911,31 @@ Package:
             * Slices removed:
                 * .type.coding
                 * .type.coding:snomedCT
-                * .collection.bodySite.coding 
+                * .collection.bodySite.coding
                 * .collection.bodySite.coding:snomedCT
             * Reference changes:
                 * .subject. Removed reference to Device. Added reference to DataStandardsWales-Device
             * Extension changes:
                 * Added extension for sampleCategory
-                * .collection. Added extension for specialHandling 
+                * .collection. Added extension for specialHandling
                 * .collection.collector. Added extension for collectionCollectorR5
                 * .collection.bodySite. Added extension for bodySiteReference
 
 Examples:
 * Removed Dosage Examples
 * Fixed render issues in Immunizations:
-    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}  
-    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}    
-    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}  
-        
+    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}
+    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}
+    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}
+
 Guide:
 * Created a new section for {{pagelink:Home/Guidance/provenance}} guidance
 
-                
+
 ### v1.2.1 STU1
 Package:
 * Profiles and Extensions:
-    * Changes to Profiles    
+    * Changes to Profiles
         * DataStandardsWales-AllergiesList
             * Added Extensions for:
                 * DataStandardsWales-SingleRecord-AllergiesListUpdated
@@ -1946,14 +1956,14 @@ Package:
 * Examples:
     * New examples
         * Immunization
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}  
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}    
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}  
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}
         * Dosage
             * Drops
             * Inhaler
-            * Oral Solution PRN                 
-        
+            * Oral Solution PRN
+
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
 * Added a section for Change Requests to {{pagelink:Home/Help-and-Support/Help-and-Support.page.md,text:Help and Support}}.
@@ -1967,12 +1977,12 @@ Guide:
 Package:
 * Profiles:
     * Changes to Profiles
-        * DataStandardsWales-Provenance   
-            * Updated references to use Data Standards Wales profiles     
+        * DataStandardsWales-Provenance
+            * Updated references to use Data Standards Wales profiles
 * Extensions:
     * Changes to Extensions
         * DataStandardsWales-DemographicsAsRecorded
-            * Renamed the DOB extension to birtDate 
+            * Renamed the DOB extension to birtDate
             * Updated the extension URL
             * Updated the items within the extension URLs
         * DataStandardsWales-CDRPatientRecordType
@@ -1984,15 +1994,15 @@ Guide:
 * Updated the contact email address on the {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
 
 
-            
+
 ### v1.1.0 STU1
 
-Package: 
+Package:
 * Profiles:
     * New Profiles
         * DataStandardsWales-Device
-        * DataStandardsWales-Provenance        
-    * Changes to Profiles    
+        * DataStandardsWales-Provenance
+    * Changes to Profiles
         * DataStandardsWales-Patient
             * Added Extensions for:
                 * DataStandardsWales-CDRPatientRecordType
@@ -2009,12 +2019,12 @@ Package:
         * DataStandardsWales-PatientRecordType
 
  * Naming Systems:
-    * Corrected oid references. Changed from 2.16.840.1.113883.2.1.8.1.5.nnn to 2.16.840.1.113883.2.1.8.1.3.nnn    
+    * Corrected oid references. Changed from 2.16.840.1.113883.2.1.8.1.5.nnn to 2.16.840.1.113883.2.1.8.1.3.nnn
 
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
 * Updated {{pagelink:Home/Help-and-Support/Glossary.page.md,text:Glossary}}.
-  
+
 * Added definitions for Active, Draft and Experimental to {{pagelink:Home/Introduction/Profile-Descriptions,text:Introduction-Profile Descriptions}}
 * Added a link for FHIR PSOM Wales Project Page to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Help and Support-Related Pages}}
 * Updated [Wales FHIR Implementation Guide Version History](https://simplifier.net/guide/Wales-FHIR-Implementation-Guide-Version-History-v1.1.0/Home/Version-History.page.md?version=1.1.0) to include links to respective Release Notes.
@@ -2022,7 +2032,7 @@ Guide:
 
 ### v1.0.1 STU1
 
-Package: 
+Package:
 * Profiles:
     * DataStandardsWales-Practitioner
         * Quotes removed from sdsuserid
@@ -2044,7 +2054,7 @@ Package:
         * Must support added to:
             * .location
             * .receiver
-            * .context              
+            * .context
     * DataStandardsWales-Observation
         * Cardinality changed from 1..1 to 0..1:
             * .partOf.identifier
@@ -2055,7 +2065,7 @@ Package:
         * Trailing space removed from display value
     * DataStandardsWales-Sex
         * Trailing space removed from display value
-* Value Sets: 
+* Value Sets:
     * DataStandardsWales-GenderIdentity
         * Trailing space removed from display value
     * DataStandardsWales-Sex
@@ -2078,9 +2088,9 @@ Package:
     * Velindre PAS namespace OID corrected
     * BCUHB Central PAS Identifier corrected inconsistency
 * Examples:
-    * Organization - Glangwili General Hospital 
+    * Organization - Glangwili General Hospital
         * Removed hospital classification extension
-    * Organization - Neath - Port Talbot Hospital 
+    * Organization - Neath - Port Talbot Hospital
         * Removed hospital classification extension
 * Fixed render issues in ConceptsMaps, CodeSystem, NamingSystem & ValueSet by using HL7 FHIR XML element order
 * Spaces removed in NamingSystems name to conform to HL7 as name can be used as id
@@ -2089,7 +2099,7 @@ Guide:
 * DataStandardsWales-MedicationDispense
     * Mandatory and Must Support Data Elements list updated to reflect changes made to the profile and correct previously omitted information:
         * Updated the must have list as per current profile settings
-        * Updated the must support list as per current profile settings   
+        * Updated the must support list as per current profile settings
 
 ### v1.0.0 STU1
 

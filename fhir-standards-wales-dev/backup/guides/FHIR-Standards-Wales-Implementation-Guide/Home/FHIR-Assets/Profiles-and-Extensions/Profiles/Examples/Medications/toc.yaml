@@ -1,7 +1,7 @@
-- name: Example-DataStandardsWales-Medication-Amoxicillin-Infusion
-  filename: Example-DataStandardsWales-Medication-Amoxicillin-Infusion.page.md
-- name: Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion
-  filename: Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion.page.md
+- name: Example-Medication-Amoxicillin-Infusion
+  filename: Example-Medication-Amoxicillin-Infusion.page.md
+- name: Example-MedicationStatement-Amoxi.-Infusion
+  filename: Example-MedicationStatement-Amoxi.-Infusion.page.md
 - name: MedicationList-Admission
   filename: MedicationList-Admission
 - name: MedicationList-Discharge

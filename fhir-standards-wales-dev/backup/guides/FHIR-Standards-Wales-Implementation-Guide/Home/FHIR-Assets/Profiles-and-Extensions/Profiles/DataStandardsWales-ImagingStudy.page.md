@@ -33,7 +33,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-ImagingStudy-CTAbdomen, text:Example ImagingStudy - CT Abdomen}}</li>
+      <li>{{pagelink:Example-ImagingStudy-CTAbdomen, text:Example ImagingStudy - CT Abdomen}}</li>
     </list>
   </div>    
 </div>

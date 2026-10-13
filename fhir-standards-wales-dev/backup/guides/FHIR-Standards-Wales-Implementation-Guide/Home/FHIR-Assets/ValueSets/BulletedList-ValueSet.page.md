@@ -45,6 +45,7 @@ The following list of Value Sets have been defined for this Implementation Guide
 <li>{{pagelink:ValueSet-DataStandardsWales-PatientRecordType}}</li>
 <li>{{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity}}</li>
 <li>{{pagelink:ValueSet-DataStandardsWales-RecordingSetting}}</li>
+<li>{{pagelink:ValueSet-DataStandardsWales-RecordStatus}}</li>
 <li>{{pagelink:ValueSet-DataStandardsWales-Religion}}</li>
 <li>{{pagelink:ValueSet-DataStandardsWales-RespirationRate}}</li>
 <li>{{pagelink:ValueSet-DataStandardsWales-Sex}}</li>

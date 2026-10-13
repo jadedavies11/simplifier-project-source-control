@@ -36,7 +36,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Observation-VitalSigns-Weight, text: Example Observation Vital Signs - Weight}}</li>
+      <li>{{pagelink:Example-Observation-VitalSigns-Weight, text: Example Observation Vital Signs - Weight}}</li>
     </list>
   </div>   
 </div>

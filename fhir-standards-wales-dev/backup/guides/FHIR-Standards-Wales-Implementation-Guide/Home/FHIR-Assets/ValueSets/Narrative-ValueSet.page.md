@@ -407,6 +407,13 @@ The following Value Sets have been defined for this Implementation Guide and are
 		<td style="font-size: 90%;"></td>
 	</tr>
 	<tr>
+		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RecordStatus}}</td>
+		<td>{{pagelink:CodeSystem-DataStandardsWales-RecordStatus}}</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">For CDR use only and not bound to a profile in the IG</td>
+	</tr>
+	<tr>
 		<td scope="row">{{pagelink:ValueSet-DataStandardsWales-RespirationRate}}</td>
 		<td style="font-size: 80%;">SNOMED CT</td>
 		<td></td>

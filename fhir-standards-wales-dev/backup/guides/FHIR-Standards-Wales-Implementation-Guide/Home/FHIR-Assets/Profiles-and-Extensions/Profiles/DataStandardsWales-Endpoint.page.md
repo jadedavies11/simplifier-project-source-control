@@ -33,7 +33,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Endpoint-Dicom, text:Example Endpoint - DICOM Endpoint}}</li>
+      <li>{{pagelink:Example-Endpoint-Dicom, text:Example Endpoint - DICOM Endpoint}}</li>
     </list>
   </div>    
 </div>

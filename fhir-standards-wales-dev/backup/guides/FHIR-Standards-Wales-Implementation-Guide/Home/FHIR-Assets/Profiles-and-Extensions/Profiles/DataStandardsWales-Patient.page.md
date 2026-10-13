@@ -36,8 +36,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Patient-HaroldJames, text:Example Patient - Harold James}}</li>
+      <li>{{pagelink:Example-Patient-AliceJones, text:Example Patient - Alice Jones}}</li>
+      <li>{{pagelink:Example-Patient-HaroldJames, text:Example Patient - Harold James}}</li>
     </list>
   </div>   
 </div>
