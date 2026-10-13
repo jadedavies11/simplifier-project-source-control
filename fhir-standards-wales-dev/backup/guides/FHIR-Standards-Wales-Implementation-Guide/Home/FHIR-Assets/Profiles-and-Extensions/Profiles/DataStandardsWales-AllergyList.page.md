@@ -35,9 +35,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-List-Allergies, text:Example List - With allergies}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-List-Allergies-notRecorded, text:Example List - Empty list}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-List-Allergies-NoKnownAllergy, text:Example List - No known allergies}}</li>
+      <li>{{pagelink:Example-List-Allergies, text:Example List - With allergies}}</li>
+      <li>{{pagelink:Example-List-Allergies-notRecorded, text:Example List - Empty list}}</li>
+      <li>{{pagelink:Example-List-Allergies-NoKnownAllergy, text:Example List - No known allergies}}</li>
     </list>
   </div>    
 </div>

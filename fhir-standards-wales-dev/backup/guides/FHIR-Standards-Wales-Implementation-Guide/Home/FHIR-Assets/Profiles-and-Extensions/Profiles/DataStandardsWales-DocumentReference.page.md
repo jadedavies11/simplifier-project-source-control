@@ -33,16 +33,16 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Encounter-DocumentedEvent-DiabetesConsultation, text:Example Encounter - Documented Event (Diabetes Consultation)}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-Revoked, text: Example Document Reference - Revoked}}</li>
+      <li>{{pagelink:Example-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}</li>
+      <li>{{pagelink:Example-DocumentReference-EventBased, text: Example Document Reference - Event-based}}</li>
+      <li>{{pagelink:Example-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}</li>
+      <li>{{pagelink:Example-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}</li>
+      <li>{{pagelink:Example-Encounter-DocumentedEvent-DiabetesConsultation, text:Example Encounter - Documented Event (Diabetes Consultation)}}</li>
+      <li>{{pagelink:Example-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}</li>
+      <li>{{pagelink:Example-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}</li>
+      <li>{{pagelink:Example-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}</li>
+      <li>{{pagelink:Example-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}</li>
+      <li>{{pagelink:Example-DocumentReference-Revoked, text: Example Document Reference - Revoked}}</li>
     </list>
   </div>  
 </div>

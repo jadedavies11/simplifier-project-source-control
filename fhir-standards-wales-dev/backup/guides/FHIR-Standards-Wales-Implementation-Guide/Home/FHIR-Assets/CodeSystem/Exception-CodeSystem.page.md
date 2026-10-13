@@ -13,6 +13,7 @@ These Code Systems have other uses which are highlighted below.
 <p><b>CDR use only</b></p>
 <ul>
     <li>{{pagelink:CodeSystem-DataStandardsWales-PatientRecordType}}</li>
+    <li>{{pagelink:CodeSystem-RecordStatus}}</li>
     <li>{{pagelink:CodeSystem-WPASAdmitSource}}</li>
     <li>{{pagelink:CodeSystem-WPASEventType}}</li>
     <li>{{pagelink:CodeSystem-WPASReferralSource}}</li>

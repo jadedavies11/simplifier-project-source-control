@@ -168,6 +168,13 @@ The following Code Systems have been defined for this Implementation Guide and a
 		<td style="font-size: 90%;"></td>
 	</tr>
 	<tr>
+		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-RecordStatus}}</td>
+		<td>{{pagelink:ValueSet-DataStandardsWales-RecordStatus}}</td>
+		<td></td>
+		<td style="font-size: 90%;"></td>
+		<td style="font-size: 90%;">For CDR use only and not bound to a profile in the IG</td>
+	</tr>
+	<tr>
 		<td scope="row">{{pagelink:CodeSystem-DataStandardsWales-Sex}}</td>
 		<td>{{pagelink:ValueSet-DataStandardsWales-Sex}}</td>
 		<td>{{pagelink:DataStandardsWales-Patient}}</td>

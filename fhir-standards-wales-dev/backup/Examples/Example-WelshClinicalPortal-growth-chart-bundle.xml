@@ -1,9 +1,9 @@
 <!--
 This FHIR bundle represents a Growth chart
-  
-You can validate this FHIR bundle here:  
 
-https://simplifier.net/validate 
+You can validate this FHIR bundle here:
+
+https://simplifier.net/validate
 
 Validated against: fhir.r4.wales.stu1 1.2.1
 
@@ -23,7 +23,7 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
 
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="GROWTCH-CHART-BUNDLE-GUID"/>
+  <id value="GROWTH-CHART-BUNDLE-GUID"/>
   <meta>
     <source value="https://wcp.nhs.wales" />
   </meta>
@@ -86,7 +86,7 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
 
   <!-- Practioner (enterer of the data/current user) -->
   <!-- No need to create this resource as there will be a Practitioner available.  Use the existing practitioner.id in any resources that need to reference the practitioner -->
-  
+
   <!-- This is here so that the bundle can be validated -->
   <entry>
     <fullUrl value="PRACTITIONER-GUID"/>
@@ -95,23 +95,24 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <!-- requesting practioner guid -->
         <id value="PRACTITIONER-GUID" />
         <meta>
-          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
           <source value="https://wcp.nhs.wales" />
+          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         </meta>
         <identifier>
+          <use value="official" />
           <system value="https://fhir.hl7.org.uk/Id/gmc-number" />
           <!-- Practioner GMC -->
           <value value="4233420" />
-          <use value="official" />
         </identifier>
         <identifier>
+          <use value="official" />
           <system value="https://fhir.nhs.wales/Id/nadex-identifier" />
           <!-- Practioner nadex -->
           <value value="lo004826" />
-          <use value="official" />
         </identifier>
         <active value="true" />
         <name>
+          <use value="official" />
           <!-- Text name -->
           <text value="SMITH, John, DR (GMC:12345), Senior Software Developer" />
           <!-- Practioner surname -->
@@ -120,7 +121,6 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
           <given value="John" />
           <!-- practitioner title -->
           <prefix value="Mr" />
-          <use value="official" />
         </name>
       </Practitioner>
     </resource>
@@ -155,14 +155,14 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <subject>
           <reference value="PATIENT-GUID"/>
         </subject>
-        <performer>
-          <reference value="PRACTITIONER-GUID"/>
-          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
-        </performer>
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
         <effectiveDateTime value="2024-08-07T12:00:00Z"/>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
         <valueQuantity>
           <!-- Paternal height TEXTBOX -->
           <value value="180"/>
@@ -201,14 +201,14 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <subject>
           <reference value="PATIENT-GUID"/>
         </subject>
-        <performer>
-          <reference value="PRACTITIONER-GUID"/>
-          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
-        </performer>
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
         <effectiveDateTime value="2024-08-07T12:00:00Z"/>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
         <valueQuantity>
           <!-- Maternal height TEXTBOX -->
           <value value="165"/>
@@ -230,14 +230,13 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
           <source value="https://wcp.nhs.wales" />
         </meta>
         <status value="final" />
-        <effectiveDateTime value="2024-07-25"/>
         <category>
           <coding>
             <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
             <code value="vital-signs"/>
             <display value="Vital Signs"/>
           </coding>
-        </category>       
+        </category>
         <code>
           <coding>
             <system value="http://snomed.info/sct" />
@@ -252,6 +251,7 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25"/>
 
         <!-- links to comments -->
         <hasMember>
@@ -337,11 +337,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <!-- Parent / Carer measurement CHECKBOX -->
         <valueBoolean value="false" />
       </Observation>
@@ -380,11 +380,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <!-- Location / Comments TEXTBOX -->
         <valueString value="Growth chart comment goes in here"/>
       </Observation>
@@ -423,11 +423,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <!-- Bone age assessment comment TEXTBOX -->
         <valueString value="Bone age comment goes in here"/>
       </Observation>
@@ -466,11 +466,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <valueQuantity>
           <!-- Height TEXTBOX -->
           <value value="110.12"/>
@@ -479,9 +479,9 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
       </Observation>
     </resource>
   </entry>
-  
 
-  
+
+
   <!-- Height calculation RCPCH JSON -->
   <entry>
     <fullUrl value="HEIGHT-OBSERVATION-RCPCH-GUID"/>
@@ -512,11 +512,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <!-- Height calculation RCPCH JSON (base64 encoded JSON) -->
         <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ=="/>
         <method>
@@ -566,11 +566,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <valueQuantity>
           <!-- Weight TEXTBOX -->
           <value value="18.23"/>
@@ -612,11 +612,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <!-- Weight calculation RCPCH JSON (base64 encoded JSON) -->
         <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ==" />
         <method>
@@ -631,9 +631,9 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
       </Observation>
     </resource>
   </entry>
-  
 
-  
+
+
   <!-- Head circumference -->
   <entry>
     <fullUrl value="HEAD-CIRCUMFERENCE-OBSERVATION-GUID"/>
@@ -642,7 +642,7 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <id value="HEAD-CIRCUMFERENCE-OBSERVATION-GUID"/>
         <meta>
           <source value="https://wcp.nhs.wales" />
-        </meta>        
+        </meta>
         <status value="final"/>
         <category>
           <coding>
@@ -664,11 +664,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2015-03-20T12:00:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2015-03-20T12:00:00Z"/>
         <valueQuantity>
           <!-- Head circumference TEXTBOX -->
           <value value="35.4"/>
@@ -710,11 +710,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2015-03-20T12:00:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2015-03-20T12:00:00Z"/>
         <!-- Head circumference RCPCH JSON (base64 encoded JSON) -->
         <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ=="/>
         <method>
@@ -729,7 +729,7 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
       </Observation>
     </resource>
   </entry>
-  
+
 
 
   <!-- BMI oberservation derived calculation -->
@@ -762,11 +762,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <valueQuantity>
           <!-- BMI TEXTBOX -->
           <value value="14.88"/>
@@ -814,19 +814,13 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <!-- BMI calculation RCPCH JSON (base64 encoded JSON) -->
         <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ=="/>
-        <derivedFrom>
-          <reference value="HEIGHT-OBSERVATION-GUID"/>
-        </derivedFrom>
-        <derivedFrom>
-          <reference value="WEIGHT-OBSERVATION-GUID"/>
-        </derivedFrom>
         <method>
           <coding>
             <system value="https://wcp.nhs.wales/fhir/growth-chart/observation-method"/>
@@ -836,6 +830,12 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
             <display value="UK WHO"/>
           </coding>
         </method>
+        <derivedFrom>
+          <reference value="HEIGHT-OBSERVATION-GUID"/>
+        </derivedFrom>
+        <derivedFrom>
+          <reference value="WEIGHT-OBSERVATION-GUID"/>
+        </derivedFrom>
       </Observation>
     </resource>
   </entry>
@@ -879,11 +879,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
         <!-- Mid parental height RCPH (base64 encoded JSON) -->
         <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ=="/>
         <derivedFrom>
@@ -895,7 +895,7 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
       </Observation>
     </resource>
   </entry>
-  
+
 
 
   <!-- Bone age years observation -->
@@ -928,11 +928,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
         <valueQuantity>
           <!-- Bone age years TEXTBOX -->
           <value value="8"/>
@@ -983,11 +983,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
         <valueQuantity>
           <!-- Bone age assement standard deviation TEXTBOX -->
           <value value="1.5"/>
@@ -1038,11 +1038,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
         <valueQuantity>
 
           <!-- Bone age centile % TEXTBOX -->
@@ -1094,11 +1094,11 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <encounter>
           <reference value="ENCOUNTER-GUID"/>
         </encounter>
+        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
         <performer>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </performer>
-        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
         <valueQuantity>
           <!-- Gestation age days -->
           <value value="120"/>
@@ -1107,7 +1107,7 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
       </Observation>
     </resource>
   </entry>
-  
+
 
 
   <!-- Encounter Resource -->
@@ -1119,7 +1119,7 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
         <meta>
           <source value="https://wcp.nhs.wales" />
         </meta>
-        <status value="finished"/>
+        <status value="completed"/>
         <class>
           <system value="http://snomed.info/sct" />
           <code value="373864002" />
@@ -1190,13 +1190,13 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
           <!-- Link to patient -->
           <reference value="PATIENT-GUID"/>
         </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
         <recorder>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </recorder>
-        <encounter>
-          <reference value="ENCOUNTER-GUID"/>
-        </encounter>
       </Condition>
     </resource>
   </entry>
@@ -1246,16 +1246,16 @@ https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1
           <!-- Link to patient -->
           <reference value="PATIENT-GUID"/>
         </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
         <recorder>
           <reference value="PRACTITIONER-GUID"/>
           <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
         </recorder>
-        <encounter>
-          <reference value="ENCOUNTER-GUID"/>
-        </encounter>
       </Condition>
     </resource>
   </entry>
- 
+
 
 </Bundle>

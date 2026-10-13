@@ -2,66 +2,66 @@
 
 ## {{page-title}}
 
-The following examples are published with this guide and all available as a downloadable zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
+The following examples are published with this guide and all available as a downloadable as zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
 
 ### Appointment Examples
-* {{pagelink:Example-DataStandardsWales-Appointment-GenSurgery, text:Example Appointment - General Surgery}}
+* {{pagelink:Example-Appointment-GenSurgery, text:Example Appointment - General Surgery}}
 
 ### Allergy Bundle Examples
-* {{pagelink:Example-DataStandardsWales-Bundle-Allergies-Upgrade, text:Example Allergy Bundle - Upgraded allergies}}
-* {{pagelink:Example-DataStandardsWales-Bundle-Allergies-Degraded, text:Example Allergy Bundle - Degraded allergies}}
+* {{pagelink:Example-Bundle-Allergies-Upgrade, text:Example Allergy Bundle - Upgraded allergies}}
+* {{pagelink:Example-Bundle-Allergies-Degraded, text:Example Allergy Bundle - Degraded allergies}}
 
 ### Allergy List Examples
-* {{pagelink:Example-DataStandardsWales-List-Allergies, text:Example Allergy List - With allergy}}
-* {{pagelink:Example-DataStandardsWales-List-Allergies-Generate, text:Example Allergy List - Generate}}
-* {{pagelink:Example-DataStandardsWales-List-Allergies-notRecorded, text:Example Allergy List - Empty list}}
-* {{pagelink:Example-DataStandardsWales-List-Allergies-NoKnownAllergy, text:Example Allergy List - No known allergies}}
+* {{pagelink:Example-List-Allergies, text:Example Allergy List - With allergy}}
+* {{pagelink:Example-List-Allergies-Generate, text:Example Allergy List - Generate}}
+* {{pagelink:Example-List-Allergies-notRecorded, text:Example Allergy List - Empty list}}
+* {{pagelink:Example-List-Allergies-NoKnownAllergy, text:Example Allergy List - No known allergies}}
 
 ### Allergy Examples
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Aspirin, text:Example AllergyIntolerance - Medication (aspirin)}}
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Ibuprofen, text:Example AllergyIntolerance - Medication (ibuprofen)}}
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Morphine, text:Example AllergyIntolerance - Medication (morphine)}}
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Wasps, text:Example AllergyIntolerance - Wasps}}
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:Example AllergyIntolerance - No known allergies}}
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete, text:Example AllergyIntolerance - Deleted allergy (potato)}}
+* {{pagelink:Example-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
+* {{pagelink:Example-AllergyIntolerance-Aspirin, text:Example AllergyIntolerance - Medication (aspirin)}}
+* {{pagelink:Example-AllergyIntolerance-Ibuprofen, text:Example AllergyIntolerance - Medication (ibuprofen)}}
+* {{pagelink:Example-AllergyIntolerance-Morphine, text:Example AllergyIntolerance - Medication (morphine)}}
+* {{pagelink:Example-AllergyIntolerance-Wasps, text:Example AllergyIntolerance - Wasps}}
+* {{pagelink:Example-AllergyIntolerance-NoKnownAllergy, text:Example AllergyIntolerance - No known allergies}}
+* {{pagelink:Example-AllergyIntolerance-Potato-SoftDelete, text:Example AllergyIntolerance - Deleted allergy (potato)}}
 
 ### Allergy Degraded Examples
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Example AllergyIntolerance - Transfer degraded allergy (wasps)}}
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Example AllergyIntolerance - Transfer degraded allergy (morphine)}}
-* {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Example AllergyIntolerance - Transfer degraded allergy (aspirin and ibuprofen)}}
+* {{pagelink:Example-AllergyIntolerance-DegradedWasps, text:Example AllergyIntolerance - Transfer degraded allergy (wasps)}}
+* {{pagelink:Example-AllergyIntolerance-DegradedMorphine, text:Example AllergyIntolerance - Transfer degraded allergy (morphine)}}
+* {{pagelink:Example-AllergyIntolerance-DegradedAspirin, text:Example AllergyIntolerance - Transfer degraded allergy (aspirin and ibuprofen)}}
 
 ### Audit Event Examples
-* {{pagelink:Example-DataStandardsWales-AuditEvent-CreateObservations, text: Example Audit Event - Create Observations}}
+* {{pagelink:Example-AuditEvent-CreateObservations, text: Example Audit Event - Create Observations}}
 
 ### Device Examples
-* {{pagelink:Example-DataStandardsWales-Device-CDRcomponent, text:Example Device - CDR Component}}
-* {{pagelink:Example-DataStandardsWales-Device-WPAS, text:Example Device - WPAS}}
+* {{pagelink:Example-Device-CDRcomponent, text:Example Device - CDR Component}}
+* {{pagelink:Example-Device-WPAS, text:Example Device - WPAS}}
 
 ### Diagnostic Report Examples
-* {{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: Example Diagnostic Report - Radiology CT Abdomen}}
-* {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Example Diagnostic Report - Cardiology Stress Test}}
-* {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Example Diagnostic Report - Cardiology ECG}}
+* {{pagelink:Example-DiagnosticReport-CTAbdomen, text: Example Diagnostic Report - Radiology CT Abdomen}}
+* {{pagelink:Example-DiagnosticReport-StressTest, text: Example Diagnostic Report - Cardiology Stress Test}}
+* {{pagelink:Example-DiagnosticReport-ECG, text: Example Diagnostic Report - Cardiology ECG}}
 
 ### Document Reference Examples
-* {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}
-* {{pagelink:Example-DataStandardsWales-DocumentReference-Revoked, text: Example Document Reference - Revoked}}
+* {{pagelink:Example-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}
+* {{pagelink:Example-DocumentReference-EventBased, text: Example Document Reference - Event-based}}
+* {{pagelink:Example-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}
+* {{pagelink:Example-DocumentReference-ExpiredInsuranceCover, text:Example Document Reference - Expired Insurance Cover}}
+* {{pagelink:Example-DocumentReference-PotentiallyMisfiled, text: Example Document Reference - Potentially Misfiled}}
+* {{pagelink:Example-DocumentReference-MisfileRejected, text: Example Document Reference - Misfile Rejected}}
+* {{pagelink:Example-DocumentReference-Misfiled, text: Example Document Reference - Misfiled}}
+* {{pagelink:Example-DocumentReference-Revoked, text: Example Document Reference - Revoked}}
 
 ### Encounter Examples
-* {{pagelink:Example-DataStandardsWales-Encounter-EmergencyAdmission, text:Example Encounter - Emergency Admission}}
-* {{pagelink:Example-DataStandardsWales-Encounter-InProgressEmergencyAdmission, text:Example Encounter - In-Progress Emergency Admission}}
+* {{pagelink:Example-Encounter-EmergencyAdmission, text:Example Encounter - Emergency Admission}}
+* {{pagelink:Example-Encounter-InProgressEmergencyAdmission, text:Example Encounter - In-Progress Emergency Admission}}
 
 ### Endpoint Examples
-* {{pagelink:Example-DataStandardsWales-Endpoint-Dicom, text: Example Endpoint - Radiology DICOM endpoint}}
+* {{pagelink:Example-Endpoint-Dicom, text: Example Endpoint - Radiology DICOM endpoint}}
 
 ### Imaging Study Examples
-* {{pagelink:Example-DataStandardsWales-ImagingStudy-CTAbdomen, text: Example Imaging Study - Radiology CT Abdomen}}
+* {{pagelink:Example-ImagingStudy-CTAbdomen, text: Example Imaging Study - Radiology CT Abdomen}}
 
 ### Immunization Examples
 * {{pagelink:ImmunizationFluVaccine, text: Example Immunization - Flu Vaccine}}
@@ -69,163 +69,164 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:ImmunizationParentPresent, text: Example Immunization - Parent Present}}
 
 ### Laboratory Examples
-* {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Pathology Full Blood Count}}
-* {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Pathology Blood Sciences - Multiple Panel}}
+* {{pagelink:Example-DiagnosticReport-FBC, text: Example Diagnostic Report - Pathology Full Blood Count}}
+* {{pagelink:Example-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Pathology Blood Sciences - Multiple Panel}}
 
 ### Laboratory Group Examples
-* {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Pathology Full Blood Count}}
-* {{pagelink:Example-DataStandardsWales-ObservationGroup-LFT, text: Example Observation Group - Pathology Liver Function Test}}
+* {{pagelink:Example-ObservationGroup-FBC, text: Example Observation Group - Pathology Full Blood Count}}
+* {{pagelink:Example-ObservationGroup-LFT, text: Example Observation Group - Pathology Liver Function Test}}
 
 ### Laboratory Result Examples
-* {{pagelink:Example-DataStandardsWales-ObservationResult-FBCWBC, text: Example Observation Result - Pathology White Blood Cell (WBC) Count}}
+* {{pagelink:Example-ObservationResult-FBCWBC, text: Example Observation Result - Pathology White Blood Cell (WBC) Count}}
 
 ### Location Examples
-* {{pagelink:Example-DataStandardsWales-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}
-* {{pagelink:Example-DataStandardsWales-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}
-* {{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}
-* {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}
-* {{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}
-* {{pagelink:Example-DataStandardsWales-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}
-* {{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}
+* {{pagelink:Example-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}
+* {{pagelink:Example-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}
+* {{pagelink:Example-Location-GGH, text:Example Location - Glangwili General Hospital}}
+* {{pagelink:Example-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}
+* {{pagelink:Example-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}
+* {{pagelink:Example-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}
+* {{pagelink:Example-Location-NPT, text:Example Location - Neath Port Talbot Hospital}}
+* {{pagelink:Example-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}
 
 ### Medication Examples
-* {{pagelink:Example-DataStandardsWales-Medication-Amoxicillin-Infusion, text:Example Medication - Amoxicillin infusion}}
+* {{pagelink:Example-Medication-Amoxicillin-Infusion, text:Example Medication - Amoxicillin infusion}}
 
 ### Medication List Examples
-* {{pagelink:Example-DataStandardsWales-List-Medications-GP, text: Example medication list - GP record}}
-* {{pagelink:Example-DataStandardsWales-List-Medications-Outpatient, text: Example Medications List - Rheumatology clinic}}
-* {{pagelink:Example-DataStandardsWales-List-Medications-Admission, text: Example Medications List - Medicines on admission}}
-* {{pagelink:Example-DataStandardsWales-List-Medications-Inpatient, text: Example Medications List - Inpatient medication}}
-* {{pagelink:Example-DataStandardsWales-List-Medications-Discharge, text: Example Medications List - Discharge medication}}
+* {{pagelink:Example-List-Medications-GP, text: Example medication list - GP record}}
+* {{pagelink:Example-List-Medications-Outpatient, text: Example Medications List - Rheumatology clinic}}
+* {{pagelink:Example-List-Medications-Admission, text: Example Medications List - Medicines on admission}}
+* {{pagelink:Example-List-Medications-Inpatient, text: Example Medications List - Inpatient medication}}
+* {{pagelink:Example-List-Medications-Discharge, text: Example Medications List - Discharge medication}}
 
 ### MedicationStatement Examples
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion, text:Example MedicationStatement - Amoxicillin infusion }}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorva.-Discharge, text:Example MedicationStatement - Discharge - Atorvastatin}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-Discharge, text:Example MedicationStatement - Discharge - Bendroflumethiazide}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisop.-Discharge, text:Example MedicationStatement - Discharge - Bisoprolol}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Duroge.-Discharge, text:Example MedicationStatement - Discharge - Durogesic DTrans}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Enbrel-Discharge, text:Example MedicationStatement - Discharge - Enbrel}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydroc.-Discharge, text:Example MedicationStatement - Discharge - Hydrocortisone}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Discharge, text:Example MedicationStatement - Discharge - Ibuprofen (stopped)}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Latano.-Discharge, text:Example MedicationStatement - Discharge - Latanoprost}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedi.-Discharge, text:Example MedicationStatement - Discharge - Nifedipress}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Discharge, text:Example MedicationStatement - Discharge - Paracetamol}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipr.-Discharge, text:Example MedicationStatement - Discharge - Ramipril}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP, text:Example MedicationStatement - GP - Amoxicilin}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorvastatin-GP, text:Example MedicationStatement - GP - Atorvastatin}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-GP, text:Example MedicationStatement - GP - Bendroflumethiazide}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisoprolol-GP, text:Example MedicationStatement - GP - Bisoprolol}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-DurogesicDTrans-GP, text:Example MedicationStatement - GP - Durogesic DTrans}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydrocortisone-GP, text:Example MedicationStatement - GP - Hydrocortisone}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Latanoprost-GP, text:Example MedicationStatement - GP - Latanoprost}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedipress-GP, text:Example MedicationStatement - GP - Nifedipress}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipril-GP, text:Example MedicationStatement - GP - Ramipril}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorva.-Inpatient, text:Example MedicationStatement - Inpatient - Atorvastatin}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-Inpatient, text:Example MedicationStatement - Inpatient - Bendroflumethiazide}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisop.-Inpatient, text:Example MedicationStatement - Inpatient - Bisoprolol}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Duroge.-Inpatient, text:Example MedicationStatement - Inpatient - Durogesic DTrans}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Enbrel-Inpatient, text:Example MedicationStatement - Inpatient - Enbrel}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydroc.-Inpatient, text:Example MedicationStatement - Inpatient - Hydrocortisone}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Inpatient, text:Example MedicationStatement - Inpatient - Ibuprofen}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Latano.-Inpatient, text:Example MedicationStatement - Inpatient - Latanoprost}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedi.-Inpatient, text:Example MedicationStatement - Inpatient - Nifedipress}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Inpatient, text:Example MedicationStatement - Inpatient - Paracetamol}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipr.-Inpatient, text:Example MedicationStatement - Inpatient - Ramipril}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Enbrel-Outpatient, text:Example MedicationStatement - Outpatient - Enbrel}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Admission, text:Example MedicationStatement - Patient reported - Ibuprofen}}
-* {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Admission, text:Example MedicationStatement - Patient reported - Paracetamol}}
+* {{pagelink:Example-MedicationStatement-Amoxi.-Infusion, text:Example MedicationStatement - Amoxicillin infusion }}
+* {{pagelink:Example-MedicationStatement-Atorva.-Discharge, text:Example MedicationStatement - Discharge - Atorvastatin}}
+* {{pagelink:Example-MedicationStatement-Bendro.-Discharge, text:Example MedicationStatement - Discharge - Bendroflumethiazide}}
+* {{pagelink:Example-MedicationStatement-Bisop.-Discharge, text:Example MedicationStatement - Discharge - Bisoprolol}}
+* {{pagelink:Example-MedicationStatement-Duroge.-Discharge, text:Example MedicationStatement - Discharge - Durogesic DTrans}}
+* {{pagelink:Example-MedicationStatement-Enbrel-Discharge, text:Example MedicationStatement - Discharge - Enbrel}}
+* {{pagelink:Example-MedicationStatement-Hydroc.-Discharge, text:Example MedicationStatement - Discharge - Hydrocortisone}}
+* {{pagelink:Example-MedicationStatement-Ibupro.-Discharge, text:Example MedicationStatement - Discharge - Ibuprofen (stopped)}}
+* {{pagelink:Example-MedicationStatement-Latano.-Discharge, text:Example MedicationStatement - Discharge - Latanoprost}}
+* {{pagelink:Example-MedicationStatement-Nifedi.-Discharge, text:Example MedicationStatement - Discharge - Nifedipress}}
+* {{pagelink:Example-MedicationStatement-Parace.-Discharge, text:Example MedicationStatement - Discharge - Paracetamol}}
+* {{pagelink:Example-MedicationStatement-Ramipr.-Discharge, text:Example MedicationStatement - Discharge - Ramipril}}
+* {{pagelink:Example-MedicationStatement-Amoxicillin-GP, text:Example MedicationStatement - GP - Amoxicilin}}
+* {{pagelink:Example-MedicationStatement-Atorvastatin-GP, text:Example MedicationStatement - GP - Atorvastatin}}
+* {{pagelink:Example-MedicationStatement-Bendro.-GP, text:Example MedicationStatement - GP - Bendroflumethiazide}}
+* {{pagelink:Example-MedicationStatement-Bisoprolol-GP, text:Example MedicationStatement - GP - Bisoprolol}}
+* {{pagelink:Example-MedicationStatement-DurogesicDTrans-GP, text:Example MedicationStatement - GP - Durogesic DTrans}}
+* {{pagelink:Example-MedicationStatement-Hydrocortisone-GP, text:Example MedicationStatement - GP - Hydrocortisone}}
+* {{pagelink:Example-MedicationStatement-Latanoprost-GP, text:Example MedicationStatement - GP - Latanoprost}}
+* {{pagelink:Example-MedicationStatement-Nifedipress-GP, text:Example MedicationStatement - GP - Nifedipress}}
+* {{pagelink:Example-MedicationStatement-Ramipril-GP, text:Example MedicationStatement - GP - Ramipril}}
+* {{pagelink:Example-MedicationStatement-Atorva.-Inpatient, text:Example MedicationStatement - Inpatient - Atorvastatin}}
+* {{pagelink:Example-MedicationStatement-Bendro.-Inpatient, text:Example MedicationStatement - Inpatient - Bendroflumethiazide}}
+* {{pagelink:Example-MedicationStatement-Bisop.-Inpatient, text:Example MedicationStatement - Inpatient - Bisoprolol}}
+* {{pagelink:Example-MedicationStatement-Duroge.-Inpatient, text:Example MedicationStatement - Inpatient - Durogesic DTrans}}
+* {{pagelink:Example-MedicationStatement-Enbrel-Inpatient, text:Example MedicationStatement - Inpatient - Enbrel}}
+* {{pagelink:Example-MedicationStatement-Hydroc.-Inpatient, text:Example MedicationStatement - Inpatient - Hydrocortisone}}
+* {{pagelink:Example-MedicationStatement-Ibupro.-Inpatient, text:Example MedicationStatement - Inpatient - Ibuprofen}}
+* {{pagelink:Example-MedicationStatement-Latano.-Inpatient, text:Example MedicationStatement - Inpatient - Latanoprost}}
+* {{pagelink:Example-MedicationStatement-Nifedi.-Inpatient, text:Example MedicationStatement - Inpatient - Nifedipress}}
+* {{pagelink:Example-MedicationStatement-Parace.-Inpatient, text:Example MedicationStatement - Inpatient - Paracetamol}}
+* {{pagelink:Example-MedicationStatement-Ramipr.-Inpatient, text:Example MedicationStatement - Inpatient - Ramipril}}
+* {{pagelink:Example-MedicationStatement-Enbrel-Outpatient, text:Example MedicationStatement - Outpatient - Enbrel}}
+* {{pagelink:Example-MedicationStatement-Ibupro.-Admission, text:Example MedicationStatement - Patient reported - Ibuprofen}}
+* {{pagelink:Example-MedicationStatement-Parace.-Admission, text:Example MedicationStatement - Patient reported - Paracetamol}}
 
 ### Message Bundle Examples
-* {{pagelink:Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal, text:Example Message Bundle - Clinician Submit (with Literal Referencing)}}
-* {{pagelink:Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical, text:Example Message Bundle - Clinician Submit (with Logical Referencing)}}
+* {{pagelink:Example-Bundle-CareDocumentSubmit-CDR, text:Example Message Bundle - Care Document Submit (Minimal Required CDR Data)}}
+* {{pagelink:Example-Bundle-ClinicianSubmit-Literal, text:Example Message Bundle - Clinician Submit (with Literal Referencing)}}
+* {{pagelink:Example-Bundle-ClinicianSubmit-Logical, text:Example Message Bundle - Clinician Submit (with Logical Referencing)}}
 
 ### Message Definition Examples
-* {{pagelink:Example-DataStandardsWales-MessageDefinition-ClinicianSubmit, text:Example Message Definition - Clinician Submit (PractitionerRole)}}
+* {{pagelink:Example-MessageDefinition-ClinicianSubmit, text:Example Message Definition - Clinician Submit (PractitionerRole)}}
 
 ### Observation Examples
-* {{pagelink:Example-DataStandardsWales-Observation-ACVPU, text: Example Observation - ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
-* {{pagelink:Example-DataStandardsWales-Observation-BloodPressure, text: Example Observation - Blood Pressure}}
-* {{pagelink:Example-DataStandardsWales-Observation-BodyHeight, text: Example Observation - Body Height}}
-* {{pagelink:Example-DataStandardsWales-Observation-BodyTemperature, text: Example Observation - Body Temperature}}
-* {{pagelink:Example-DataStandardsWales-Observation-BodyWeight, text: Example Observation - Body Weight}}
-* {{pagelink:Example-DataStandardsWales-Observation-RespiratoryRate, text: Example Observation - Respiratory Rate}}
+* {{pagelink:Example-Observation-ACVPU, text: Example Observation - ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
+* {{pagelink:Example-Observation-BloodPressure, text: Example Observation - Blood Pressure}}
+* {{pagelink:Example-Observation-BodyHeight, text: Example Observation - Body Height}}
+* {{pagelink:Example-Observation-BodyTemperature, text: Example Observation - Body Temperature}}
+* {{pagelink:Example-Observation-BodyWeight, text: Example Observation - Body Weight}}
+* {{pagelink:Example-Observation-RespiratoryRate, text: Example Observation - Respiratory Rate}}
 
 ### Observation Vital Signs Examples
-* {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-BMI, text: Example Observation - Vital Signs - BMI}}
-* {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference, text:Example Observation - Vital Signs - Head Circumference}}
-* {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight, text: Example Observation - Vital Signs - Maternal Height}}
-* {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-Weight, text: Example Observation - Vital Signs - Weight}}
+* {{pagelink:Example-Observation-VitalSigns-BMI, text: Example Observation - Vital Signs - BMI}}
+* {{pagelink:Example-Observation-VitalSigns-HeadCircumference, text:Example Observation - Vital Signs - Head Circumference}}
+* {{pagelink:Example-Observation-VitalSigns-MaternalHeight, text: Example Observation - Vital Signs - Maternal Height}}
+* {{pagelink:Example-Observation-VitalSigns-Weight, text: Example Observation - Vital Signs - Weight}}
 
 ### Organization Examples
-* {{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text:Example Organization - Amman Gwendraeth Cluster}}
-* {{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}
-* {{pagelink:Example-DataStandardsWales-Organization-CAVUHB, text: Example Organization - Cardiff and Vale University Local Health Board}}
-* {{pagelink:Example-DataStandardsWales-Organization-CardiffNorth, text:Example Organization - Cardiff North Cluster}}
-* {{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
-* {{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}
-* {{pagelink:Example-DataStandardsWales-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}
-* {{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}
-* {{pagelink:Example-DataStandardsWales-Organization-NCMC, text:Example Organization - North Cardiff Medical Centre}}
-* {{pagelink:Example-DataStandardsWales-Organization-Region-SouthCentral, text:Example Organization - South Central Wales Region}}
-* {{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}
-* {{pagelink:Example-DataStandardsWales-Organization-UHW, text: Example Organization - University Hospital of Wales}}
+* {{pagelink:Example-Organization-AmmanGwendraeth, text:Example Organization - Amman Gwendraeth Cluster}}
+* {{pagelink:Example-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}
+* {{pagelink:Example-Organization-CAVUHB, text: Example Organization - Cardiff and Vale University Local Health Board}}
+* {{pagelink:Example-Organization-CardiffNorth, text:Example Organization - Cardiff North Cluster}}
+* {{pagelink:Example-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
+* {{pagelink:Example-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}
+* {{pagelink:Example-Organization-MedicalInsurer, text:Example Organization - Medical Insurer}}
+* {{pagelink:Example-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}
+* {{pagelink:Example-Organization-NCMC, text:Example Organization - North Cardiff Medical Centre}}
+* {{pagelink:Example-Organization-Region-SouthCentral, text:Example Organization - South Central Wales Region}}
+* {{pagelink:Example-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}
+* {{pagelink:Example-Organization-UHW, text: Example Organization - University Hospital of Wales}}
 
 ### OrganizationAffiliation Examples
-* {{pagelink:Example-DataStandardsWales-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}
-* {{pagelink:Example-DataStandardsWales-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}
+* {{pagelink:Example-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}
+* {{pagelink:Example-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}
 
 ### Patient Examples
-* {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
-* {{pagelink:Example-DataStandardsWales-Patient-HaroldJames, text:Example Patient - Harold James}}  
-* {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
+* {{pagelink:Example-Patient-AliceJones, text:Example Patient - Alice Jones}}
+* {{pagelink:Example-Patient-HaroldJames, text:Example Patient - Harold James}}  
+* {{pagelink:Example-Patient-PeterPiper, text:Example Patient - Peter Piper}}
 
 ### Practitioner Examples
-* {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}
-* {{pagelink:Example-DataStandardsWales-Practitioner-Consultant-JoeBloggs, text:Example Practitioner - Joe Bloggs (Consultant)}}
-* {{pagelink:Example-DataStandardsWales-Practitioner-Doctor, text:Example Practitioner - Dr Sally Foster }}
-* {{pagelink:Example-DataStandardsWales-Practitioner-Dietitian-JudeFrancis, text:Example Practitioner - Jude Francis (Dietitian)}}
-* {{pagelink:Example-DataStandardsWales-Practitioner-Physiotherapist, text:Example Practitioner - Philip Wickins (Physiotherapist) }}
-* {{pagelink:Example-DataStandardsWales-Practitioner-PrescribingNurse, text:Example Practitioner - Sandra Huggins (Prescribing Nurse) }}
-* {{pagelink:Example-DataStandardsWales-Practitioner-Nurse-EmilyMay, text:Example Practitioner - Emily May (Nurse)}}
-* {{pagelink:Example-DataStandardsWales-Practitioner-NonClinical, text:Example Practitioner - Mark Smith (HCA)}}
+* {{pagelink:Example-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}
+* {{pagelink:Example-Practitioner-Consultant-JoeBloggs, text:Example Practitioner - Joe Bloggs (Consultant)}}
+* {{pagelink:Example-Practitioner-Doctor, text:Example Practitioner - Dr Sally Foster }}
+* {{pagelink:Example-Practitioner-Dietitian-JudeFrancis, text:Example Practitioner - Jude Francis (Dietitian)}}
+* {{pagelink:Example-Practitioner-Physiotherapist, text:Example Practitioner - Philip Wickins (Physiotherapist) }}
+* {{pagelink:Example-Practitioner-PrescribingNurse, text:Example Practitioner - Sandra Huggins (Prescribing Nurse) }}
+* {{pagelink:Example-Practitioner-Nurse-EmilyMay, text:Example Practitioner - Emily May (Nurse)}}
+* {{pagelink:Example-Practitioner-NonClinical, text:Example Practitioner - Mark Smith (HCA)}}
 
 ### PractitionerRole Examples
-* {{pagelink:Example-DataStandardsWales-PractitionerRole-Consultant, text:Example PractitionerRole - Consultant (Geriatric Medicine) }}
-* {{pagelink:Example-DataStandardsWales-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}
-* {{pagelink:Example-DataStandardsWales-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}
-* {{pagelink:Example-DataStandardsWales-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant}}
-* {{pagelink:Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay-HDUHB, text:Example PractitionerRole - Emily May (Nurse for HDUHB)}}
-* {{pagelink:Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs-HDUHB, text:Example PractitionerRole - Joe Bloggs (Consultant Diabetologist for HDUHB)}}
-* {{pagelink:Example-DataStandardsWales-PractitionerRole-Dietitian-JudeFrancis-HDUHB, text:Example PractitionerRole - Jude Francis (Diabetes Dietitian for HDUHB)}}
+* {{pagelink:Example-PractitionerRole-Consultant, text:Example PractitionerRole - Consultant (Geriatric Medicine) }}
+* {{pagelink:Example-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}
+* {{pagelink:Example-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}
+* {{pagelink:Example-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant}}
+* {{pagelink:Example-PractitionerRole-Nurse-EmilyMay-HDUHB, text:Example PractitionerRole - Emily May (Nurse for HDUHB)}}
+* {{pagelink:Example-PractitionerRole-Consultant-JoeBloggs-HDUHB, text:Example PractitionerRole - Joe Bloggs (Consultant Diabetologist for HDUHB)}}
+* {{pagelink:Example-PractitionerRole-Dietitian-JudeFrancis-HDUHB, text:Example PractitionerRole - Jude Francis (Diabetes Dietitian for HDUHB)}}
 
 ### Provenance Examples
-* {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text: Example Provenance - Demographics as Recorded extension usage}}
-* {{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text: Example Provenance - Demographics update as result of an HL7v2 patient demographic update }}
-* {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceCreation, text: Example Provenance - DocumentReference creation}}
-* {{pagelink:Example-DataStandardsWales-Provenance-DocumentReferenceDemographics, text: Example Provenance - Demographics as recorded with care document}}
-* {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provenance - Health Care Assistant Practitioner and PractitionerRole}}
-* {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text: Example Provenance - Record with multiple targets e.g. for growth chart observations}}
+* {{pagelink:Example-Provenance-DemographicsAsRecorded, text: Example Provenance - Demographics as Recorded extension usage}}
+* {{pagelink:Example-Provenance-DemographicUpdate, text: Example Provenance - Demographics update as result of an HL7v2 patient demographic update }}
+* {{pagelink:Example-Provenance-DocumentReferenceCreation, text: Example Provenance - DocumentReference creation}}
+* {{pagelink:Example-Provenance-DocumentReferenceDemographics, text: Example Provenance - Demographics as recorded with care document}}
+* {{pagelink:Example-Provenance-HCA-PractitionerAndRole, text: Example Provenance - Health Care Assistant Practitioner and PractitionerRole}}
+* {{pagelink:Example-Provenance-MultipleTargets, text: Example Provenance - Record with multiple targets e.g. for growth chart observations}}
 
 ### Questionnaire Examples
-* {{pagelink:Example-DataStandardsWales-Questionnaire-GrowthChartCondition, text: Example Questionnaire - Growth Chart Condition}}
+* {{pagelink:Example-Questionnaire-GrowthChartCondition, text: Example Questionnaire - Growth Chart Condition}}
 
 ### Questionnaire Response Examples
-* {{pagelink:Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition, text: Example Questionnaire Response - Growth Chart Condition}}
+* {{pagelink:Example-QuestionnaireResponse-GrowthChartCondition, text: Example Questionnaire Response - Growth Chart Condition}}
 
 ### Related Person Examples
-*  {{pagelink:Example-DataStandardsWales-RelatedPerson-NaturalMother, text:Example Related Person - Natural Mother}}
+*  {{pagelink:Example-RelatedPerson-NaturalMother, text:Example Related Person - Natural Mother}}
 
 ### ServiceRequest Examples
-* {{pagelink:Example-DataStandardsWales-ServiceRequest-PathologyOrder, text: Example Service Request - Pathology Full Blood Count}}
-* {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}
+* {{pagelink:Example-ServiceRequest-PathologyOrder, text: Example Service Request - Pathology Full Blood Count}}
+* {{pagelink:Example-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}
 
 ### Specimen Examples
-* {{pagelink:Example-DataStandardsWales-Specimen-Blood, text: Example Specimen - Blood}}
-* {{pagelink:Example-DataStandardsWales-Specimen-Urine, text: Example Specimen - Urine}}
+* {{pagelink:Example-Specimen-Blood, text: Example Specimen - Blood}}
+* {{pagelink:Example-Specimen-Urine, text: Example Specimen - Urine}}
 
 ### Task Examples
-* {{pagelink:Example-DataStandardsWales-Task-MisfileAccepted, text: Example Task - Misfile Accepted}}
-* {{pagelink:Example-DataStandardsWales-Task-MisfileRejected, text: Example Task - Misfile Rejected}}
-* {{pagelink:Example-DataStandardsWales-Task-MisfileRequested, text: Example Task - Misfile Requested}}
+* {{pagelink:Example-Task-MisfileAccepted, text: Example Task - Misfile Accepted}}
+* {{pagelink:Example-Task-MisfileRejected, text: Example Task - Misfile Rejected}}
+* {{pagelink:Example-Task-MisfileRequested, text: Example Task - Misfile Requested}}
 

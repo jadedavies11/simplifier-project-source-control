@@ -35,9 +35,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxi.-Infusion, text:Amoxicillin (infusion)}}</li> 
-      <li>{{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipr.-Inpatient, text:Ramipril}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Admission, text:Ibuprofen}}</li>                
+      <li>{{pagelink:Example-MedicationStatement-Amoxi.-Infusion, text:Amoxicillin (infusion)}}</li> 
+      <li>{{pagelink:Example-MedicationStatement-Ramipr.-Inpatient, text:Ramipril}}</li>
+      <li>{{pagelink:Example-MedicationStatement-Ibupro.-Admission, text:Ibuprofen}}</li>                
     </list>
   </div>    
 </div>

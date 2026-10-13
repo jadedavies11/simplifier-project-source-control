@@ -35,11 +35,11 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-GP, text: GP medications list}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-Outpatient, text: Outpatient medications list}}</li>      
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-Admission, text: Medications on admission}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-Inpatient, text: Inpatient medications list}}</li>      
-      <li>{{pagelink:Example-DataStandardsWales-List-Medications-Discharge, text: Medications on discharge}}</li>      
+      <li>{{pagelink:Example-List-Medications-GP, text: GP medications list}}</li>
+      <li>{{pagelink:Example-List-Medications-Outpatient, text: Outpatient medications list}}</li>      
+      <li>{{pagelink:Example-List-Medications-Admission, text: Medications on admission}}</li>
+      <li>{{pagelink:Example-List-Medications-Inpatient, text: Inpatient medications list}}</li>      
+      <li>{{pagelink:Example-List-Medications-Discharge, text: Medications on discharge}}</li>      
     </list>
   </div>    
 </div>

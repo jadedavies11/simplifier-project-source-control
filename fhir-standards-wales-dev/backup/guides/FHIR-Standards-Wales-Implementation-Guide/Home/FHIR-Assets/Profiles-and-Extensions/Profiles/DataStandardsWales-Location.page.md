@@ -35,13 +35,14 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}</li>
+      <li>{{pagelink:Example-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}</li>
+      <li>{{pagelink:Example-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}</li>
+      <li>{{pagelink:Example-Location-GGH, text:Example Location - Glangwili General Hospital}}</li>
+      <li>{{pagelink:Example-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}</li>
+      <li>{{pagelink:Example-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}</li>
+      <li>{{pagelink:Example-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}</li>
+      <li>{{pagelink:Example-Location-NPT, text:Example Location - Neath Port Talbot Hospital}}</li>
+      <li>{{pagelink:Example-Location-WardE, text:Example Location - Neath Port Talbot Hospital Ward E}}</li>
     </list>
   </div>    
 </div>
@@ -90,7 +91,4 @@ The extensions listed below allow a number of the data elements listed above to 
 * UK Core Extensions:
     * [Extension-UKCore-AddressKey](https://simplifier.net/resolve?scope=package:fhir.r4.ukcore.stu2@2.0.1&filepath=package/Extension-UKCore-AddressKey.json) extends the Address datatype to support the storage of address identifiers such as the Unique Property Reference Number (UPRN).
 * HL7 International Extensions:
-    * [Translation](https://www.hl7.org/fhir/R4/extension-translation.html) supports Welsh named locations and addresses derived from Welsh Reference and Terminology Services (WRTS) databases. Please contact 
-    <a href="mailto:DHCW.ReferenceDataTeam@wales.nhs.uk?subject=Data%20Standards%20Wales%20FHIR%20implementation%20guide">DHCW.ReferenceDataTeam@wales.nhs.uk</a>  for more information.
-      * This extension to be used for each element string that has a translated value for example, would not be applicable for `Location.address.postalCode`. For more detail, see Examples.
-
+    * [Translation](https://www.hl7.org/fhir/R4/extension-translation.html) supports Welsh named locations.

@@ -1,0 +1,43 @@
+## Example Bundle - Degraded Allergies
+
+This example references the following example resources:
+* Allergies:
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Example AllergyIntolerance - Transfer degraded allergy (morphine)}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Example AllergyIntolerance - Transfer degraded allergy (aspirin and ibuprofen)}}
+  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Example AllergyIntolerance - Transfer degraded allergy (wasps)}}
+* Subject, source and context:
+  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}
+
+
+<div class="tab-wrap">
+  <ul class="tab-head">
+    <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">
+      Overview
+    </li>
+    <li class="tablink" onclick="openCity(this,'tabtable')" data-target="tabtable">
+      Table
+    </li>
+    <li class="tablink tab-active" onclick="openCity(this,'tabxml')" data-target="tabxml">
+      XML
+    </li>    
+    <li class="tablink" onclick="openCity(this,'tabjson')" data-target="tabjson">
+      JSON
+    </li>    
+  </ul>
+  <div class="tab-main">
+    <div id="tabtree" class="tabcontent">
+      {{tree:Bundle/Example-Bundle-Allergies-Degraded}}
+    </div>
+    <div id="tabtable" class="tabcontent">
+      {{table:Bundle/Example-Bundle-Allergies-Degraded}}
+    </div>       
+    <div id="tabxml" class="tabcontent active">      
+      {{xml:Bundle/Example-Bundle-Allergies-Degraded}}
+    </div>
+    <div id="tabjson" class="tabcontent">
+      {{json:Bundle/Example-Bundle-Allergies-Degraded}}
+    </div>       
+  </div>
+</div>

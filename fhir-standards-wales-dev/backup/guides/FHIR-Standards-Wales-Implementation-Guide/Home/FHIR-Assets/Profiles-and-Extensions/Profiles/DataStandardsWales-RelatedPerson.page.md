@@ -36,7 +36,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-RelatedPerson-NaturalMother, text:Example Related Person - Natural Mother}}</li>
+      <li>{{pagelink:Example-RelatedPerson-NaturalMother, text:Example Related Person - Natural Mother}}</li>
     </list>
   </div>   
 </div>

@@ -1,16 +1,16 @@
-- name: Example-DataStandardsWales-DocumentReference-Provenance
-  filename: Example-DataStandardsWales-DocumentReference-Provenance.page.md
-- name: Example-DataStandardsWales-Provenance-DemographicsAsRecorded
-  filename: Example-DataStandardsWales-Provenance-DemographicsAsRecorded.page.md
-- name: Example-DataStandardsWales-Provenance-DemographicUpdate
-  filename: Example-DataStandardsWales-Provenance-DemographicUpdate.page.md
-- name: Example-DataStandardsWales-Provenance-DocumentReferenceCreation
-  filename: Example-DataStandardsWales-Provenance-DocumentReferenceCreation.page.md
-- name: Example-DataStandardsWales-Provenance-DocumentReferenceDemographics
-  filename: Example-DataStandardsWales-Provenance-DocumentReferenceDemographics.page.md
-- name: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole
-  filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md
-- name: Example-DataStandardsWales-Provenance-MultipleTargets
-  filename: Example-DataStandardsWales-Provenance-MultipleTargets.page.md
+- name: Example-DocumentReference-Provenance
+  filename: Example-DocumentReference-Provenance.page.md
+- name: Example-Provenance-DemographicsAsRecorded
+  filename: Example-Provenance-DemographicsAsRecorded.page.md
+- name: Example-Provenance-DemographicUpdate
+  filename: Example-Provenance-DemographicUpdate.page.md
+- name: Example-Provenance-DocumentReferenceCreation
+  filename: Example-Provenance-DocumentReferenceCreation.page.md
+- name: Example-Provenance-DocumentReferenceDemographics
+  filename: Example-Provenance-DocumentReferenceDemographics.page.md
+- name: Example-Provenance-HCA-PractitionerAndRole
+  filename: Example-Provenance-HCA-PractitionerAndRole.page.md
+- name: Example-Provenance-MultipleTargets
+  filename: Example-Provenance-MultipleTargets.page.md
 
 

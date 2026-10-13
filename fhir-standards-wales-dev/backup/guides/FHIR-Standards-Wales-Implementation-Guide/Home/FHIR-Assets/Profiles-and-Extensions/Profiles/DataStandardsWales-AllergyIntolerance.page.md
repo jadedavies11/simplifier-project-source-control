@@ -35,10 +35,10 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example food allergy - Potato}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato-SoftDelete, text:Example deleted allergy - Potato}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:Example exclusion - No known allergy}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-AllergyIntolerance-Aspirin, text:Example medication allergy - Aspirin}}</li>
+      <li>{{pagelink:Example-AllergyIntolerance-Potato, text:Example food allergy - Potato}}</li>
+      <li>{{pagelink:Example-AllergyIntolerance-Potato-SoftDelete, text:Example deleted allergy - Potato}}</li>
+      <li>{{pagelink:Example-AllergyIntolerance-NoKnownAllergy, text:Example exclusion - No known allergy}}</li>
+      <li>{{pagelink:Example-AllergyIntolerance-Aspirin, text:Example medication allergy - Aspirin}}</li>
     </list>
   </div>    
 </div>

@@ -22,6 +22,7 @@ The following Code Systems have been created for this Implementation Guide and l
 <li>{{pagelink:CodeSystem-DataStandardsWales-OrganizationSubclassification}}</li>
 <li>{{pagelink:CodeSystem-DataStandardsWales-PatientRecordType}}</li>
 <li>{{pagelink:CodeSystem-DataStandardsWales-RecordingSetting}}</li>
+<li>{{pagelink:CodeSystem-DataStandardsWales-RecordStatus}}</li>
 <li>{{pagelink:CodeSystem-DataStandardsWales-Sex}}</li>
 <li>{{pagelink:CodeSystem-DataStandardsWales-Title}}</li>
 <li>{{pagelink:CodeSystem-DataStandardsWales-UEC-ActivityType}}</li>

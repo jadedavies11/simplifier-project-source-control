@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-RecordStatus"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-RecordStatus"/>
+    <version value="0.1.0" />
+    <name value="DataStandardsWalesRecordStatus"/>
+	<title value="Data Standards Wales Record Status"/>
+    <status value="draft" />
+    <experimental value="false" />
+	<date value="2026-10-09" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="FHIR Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="This ValueSet is for meta.tag use only to represent the status of a record in the CDR."/>
+	<copyright value="2026 NHS Wales." />
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-RecordStatus"/>
+		</include>
+	</compose>
+</ValueSet>

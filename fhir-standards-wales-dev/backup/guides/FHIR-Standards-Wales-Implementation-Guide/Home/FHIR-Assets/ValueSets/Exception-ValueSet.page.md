@@ -22,6 +22,7 @@ These Value Sets have other uses which are highlighted below.
 <p><b>CDR use only</b></p>
 <ul>
     <li>{{pagelink:ValueSet-DataStandardsWales-PatientRecordType}}</li>
+    <li>{{pagelink:ValueSet-DataStandardsWales-RecordStatus}}</li>
     <li>{{pagelink:ValueSet-PASAdmitSource}}</li>
     <li>{{pagelink:ValueSet-PASEventType}}</li>
     <li>{{pagelink:ValueSet-PASReferralSource}}</li>

@@ -33,9 +33,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Example-DataStandardsWales-Task-MisfileRequested, text:Example Task - Misfile Requested}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Task-MisfileAccepted, text:Example Task - Misfile Accepted}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Task-MisfileRejected, text:Example Task - Misfile Rejected}}</li>
+      <li>{{pagelink:Example-Task-MisfileRequested, text:Example Task - Misfile Requested}}</li>
+      <li>{{pagelink:Example-Task-MisfileAccepted, text:Example Task - Misfile Accepted}}</li>
+      <li>{{pagelink:Example-Task-MisfileRejected, text:Example Task - Misfile Rejected}}</li>
     </list>
   </div>    
 </div>
