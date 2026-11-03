@@ -2,9 +2,9 @@
 
 This example medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
+  * {{pagelink:Example-Patient-PeterPiper, text:Example Patient - Peter Piper}}
 * Medication statements:
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Enbrel-Outpatient, text:Example MedicationStatement - Outpatient - Enbrel}}
+  * {{pagelink:Example-MedicationStatement-Enbrel-Outpatient, text:Example MedicationStatement - Outpatient - Enbrel}}
 
 Below is an example of the above medication statements combined into a medication list:
 
@@ -31,16 +31,16 @@ Below is an example of the above medication statements combined into a medicatio
       {{tree:List/Example-MedicationList-Outpatient}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:MedicationList/Example-MedicationList-Outpatient}}
+      {{table:List/Example-MedicationList-Outpatient}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:MedicationList/Example-MedicationList-Outpatient}}
+      {{xml:List/Example-MedicationList-Outpatient}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:MedicationList/Example-MedicationList-Outpatient}}
+      {{json:List/Example-MedicationList-Outpatient}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:MedicationList/Example-MedicationList-Outpatient}}
+      {{narrative:List/Example-MedicationList-Outpatient}}
     </div>  
   </div>
 </div>

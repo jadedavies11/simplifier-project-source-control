@@ -119,7 +119,7 @@
 			<a href="https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Encounter?version=2.0.1">UKCore-Encounter</a>
 		</td>
 		<td><a class="tagactive" target="_blank">Active</a></td>
-		<td>1.0.3</td>
+		<td>1.0.4</td>
 	</tr>
 	<tr>
 		<td scope="row">{{pagelink:DataStandardsWales-Encounter-UEC}}</td>

@@ -7,7 +7,7 @@
   <title value="Data Standards Wales Healthcare Service" />
   <status value="draft" />
   <experimental value="false" />
-  <date value="2026-08-10" />
+  <date value="2026-09-29" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -54,7 +54,6 @@
     </element>
     <element id="HealthcareService.communication">
       <path value="HealthcareService.communication" />
-      <definition value="The language the service is offered in. Within NHS Wales, the three character ISO 639-3 code should be used where possible e.g. &quot;eng&quot; for English, &quot;cym&quot; for Welsh." />
       <binding>
         <strength value="preferred" />
         <valueSet value="http://hl7.org/fhir/ValueSet/all-languages" />

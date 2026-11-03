@@ -1,10 +1,13 @@
 ## Example MedicationStatement - Amoxicillin infusion
 This shows an example medication statement, which references the following example resources:
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Doctor, text:Practitioner - Dr Sally Foster}}
+  * {{pagelink:Example-Patient-AliceJones, text:Patient - Alice Jones}}
+  * {{pagelink:Example-Practitioner-Doctor, text:Practitioner - Dr Sally Foster}}
+
 * Medication:
-  * {{pagelink:Example-DataStandardsWales-Medication-Amoxicillin-Infusion, text:Amoxicillin (infusion)}}
+  * {{pagelink:Example-Medication-Amoxicillin-Infusion, text:Amoxicillin (infusion)}}
+
+
 <div class="tab-wrap">
   <ul class="tab-head">
     <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">

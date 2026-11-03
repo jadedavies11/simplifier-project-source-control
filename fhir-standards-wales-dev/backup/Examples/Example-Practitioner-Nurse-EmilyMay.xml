@@ -12,6 +12,10 @@
 		<value value="em112233" />
 	</identifier>
 	<identifier>
+		<system value="https://fhir.nhs.wales/Id/upn-identifier" />
+		<value value="emily.may@wales.nhs.uk" />
+	</identifier>
+	<identifier>
 		<system value="https://fhir.hl7.org.uk/Id/nmc-number" />
 		<value value="AB12345X" />
 	</identifier>

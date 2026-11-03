@@ -7,7 +7,7 @@
   <title value="Data Standards Wales Document Reference" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2026-07-13" />
+  <date value="2026-09-29" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -293,8 +293,7 @@
     <element id="DocumentReference.content.attachment.language">
       <path value="DocumentReference.content.attachment.language" />
       <short value="Human language of the content" />
-      <definition value="The human language of the content. Within NHS Wales, the three character ISO 639-3 code should be used where possible e.g. &quot;eng&quot; for English, &quot;cym&quot; for Welsh." />
-      <requirements value="Users need to be able to choose between the languages in a set of attachments. ISO 639-3 is a subset of the BCP 47 standard." />
+      <definition value="The human language of the content. The value can be any valid value according to BCP 47." />
     </element>
     <element id="DocumentReference.content.format">
       <path value="DocumentReference.content.format" />

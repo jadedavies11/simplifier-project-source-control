@@ -29,11 +29,11 @@
 		}
 	]},
 	"patient": {
-		"reference": "Patient/Example-DataStandardsWales-Patient-AliceJones",
+		"reference": "Patient/Example-Patient-AliceJones",
 		"display": "JONES, Alice"
 	},
 	"recorder": {
-		"reference": "Practitioner/Example-DataStandardsWales-Practitioner-Consultant",
+		"reference": "Practitioner/Example-Practitioner-Consultant",
 		"display": "PATEL, Dhiren (GMC:9630333), consultant, Geriatric Medicine"
 	},
 	"lastOccurrence": "2001-01-01T23:59:00+00:00",

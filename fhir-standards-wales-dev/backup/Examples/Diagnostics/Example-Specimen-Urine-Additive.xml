@@ -21,11 +21,11 @@
     </coding>
   </type>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <request>
-    <reference value="ServiceRequest/Example-DataStandardsWales-Specimen-Urine-GreenTop" />
+    <reference value="ServiceRequest/Example-Specimen-Urine-GreenTop" />
   </request>
   <collection>
     <collectedDateTime value="2021-11-10T09:47:00+00:00" />

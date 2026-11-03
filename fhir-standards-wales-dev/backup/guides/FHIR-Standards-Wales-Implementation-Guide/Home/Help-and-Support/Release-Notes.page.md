@@ -17,6 +17,10 @@ Package:
     * New Code Systems
         * DataStandardsWales-RecordStatus
     * Changes to Code Systems
+        * DataStandardsWales-LocationType
+            * Updated version from 0.1.0 to 0.2.0
+            * Removed code for GP surgery
+            * Added codes for GP surgery main and GP surgery branch
     * Removed Code Systems
 * {{pagelink:Home/FHIR-Assets/ValueSet-Index.page.md,text:ValueSets}}:
     * New Value Sets
@@ -34,7 +38,7 @@ Package:
     * Changes to Message Definitions
     * Removed Message Definitions
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
-* Removed DataStandardWales from id, name and page links from all examples
+* Removed DataStandardWales from id, name, references and page links from all examples
     * New Examples
         * Example-Location-NPT
     * Changes to Examples
@@ -43,6 +47,18 @@ Package:
             * .end. Updated time to instant
         * Example-Location-WardE
             * .partOf. Added Example-Location-NPT
+        * Example-Observation-ACVPU
+            * id. Added Example-Observation-ACVPU
+        * Example-Observation-BloodPressure
+            * id. Added Example-Observation-BloodPressure
+        * Example-Observation-BodyTemperature
+            * id. Added Example-Observation-BodyTemperature
+        * Example-Observation-Height
+            * id. Added Example-Observation-Height
+        * Example-Observation-RespiratoryRate
+            * id. Added Example-Observation-RespiratoryRate
+        * Example-Observation-Weight
+            * id. Added Example-Observation-Weight
         * Example-Practitioner-Consultant-JoeBloggs
             * .gender. Corrected code from male to Male
         * Example-Practitioner-Consultant
@@ -72,17 +88,20 @@ Guide:
 * Added new pages to outline the Value Sets created in this release
 * Updated Example Index with amended example links
 * Updated Example Index with new examples
+* Update Guide pages with amended example links
 * Updated Profile pages with amended example links
 
 
 
 ### v2.7.0 STU2
 
-In addition to general maintenance, this release includes changes which in the main will support:
+In addition to general maintenance, this release includes enhancements to support:
 
 * The Choose Pharmacy service
-* Complexities around organisation and location data (e.g. type classification, regions and clusters)
+* Complex organisation and location structures, including type classifications, regions and clusters
 * Error workflows for care documents
+
+The release also introduces the [HL7 FHIR Translation Extension](http://hl7.org/fhir/StructureDefinition/translation) to the Data Standards Wales - Organization and Data Standards Wales - Location profiles, enabling the representation of Welsh-language translation of address fields sourced from Welsh Reference and Terminology Services (WRTS) databases
 
 WITHDRAWN Assets: <br>
 The following assets have been marked as withdrawn in this release and have a lifecycle status of retired. These will no longer be maintained within the Wales FHIR Implementation Guide or Wales FHIR package and SHALL NOT be used for new or revised content.
@@ -115,6 +134,12 @@ Package:
         * DataStandardsWales-Appointment
             * Updated version from 1.2.1 to 1.2.2
             * .participant.actor. Updated reference from HL7 HealthcareService to DataStandardsWales-HealthcareService
+        * DataStandardsWales-DocumentReference
+            * Updated version from 1.1.0 to 1.1.1
+            * .content.attachment.language. Removed references to ISO 639-3
+        * DataStandardsWales-Encounter
+            * Updated version from 1.0.3 to 1.0.4
+            * .extension:Speciality. Updated element name to .extension:speciality
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.2.1 to 0.3.0
             * .basedOn. Updated reference from HL7 Task to DataStandardsWales-Task
@@ -142,7 +167,6 @@ Package:
             * .identifier slice. Added wrtsOrganizationIdentifier
             * .identifier slice gpClusterCode. To be withdrawn and updated definition
             * .name. Added Extension HL7 Translation
-            * .address. Added Extension HL7 Language
         * DataStandardsWales-Practitioner
             * Updated version from 1.1.4 to 1.2.0
             * .identifier. Added User Principal Name (UPN) slice
@@ -163,6 +187,9 @@ Package:
             * Updated DataType from CodeableConcept to Code
             * Updated Binding Strength from Preferred to Extensible
             * .context. Additional entry added for Location.alias element
+        * Extension-DataStandardsWales-Speciality
+            * Updated version from 1.0.1 to 1.1.0
+            * Updated Binding Strength from Extensible to Preferred
 * {{pagelink:Home/FHIR-Assets/CodeSystem-Index.page.md,text:CodeSystems}}:
     * New Code Systems
         * DataStandardsWales-LocationForm
@@ -317,10 +344,16 @@ Package:
             * eventCoding.display. Updated to Clinician submit from Submit clinician
         * Example-DataStandardsWales-DocumentReference-EncounterBased
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
+            * .content.attachment.language. Updated code to en
         * Example-DataStandardsWales-DocumentReference-EventBased
             * .versionId. Added element
             * .extension:attesterR5.extension:mode.valueCode. Updated binding to HL7 CodeSystem
             * .docStatus. Updated to final
+            * .content.attachment.language. Updated code to en
+        * Example-DataStandards-Wales-DocumentReference-ExpiredInsurance
+            * .content.attachment.language. Updated code to en
+        * Example-DataStandards-Wales-DocumentReference-NotEventBased
+            * .content.attachment.language. Updated code to en
         * Example-DataStandardsWales-Location-CadogWard
             * .text. Removed
             * .status. Updated to Active
@@ -334,8 +367,12 @@ Package:
             * .extension.welshPreferredName. Added extension
             * .alias.extension. Added content for official-name. official-name-welsh, preferred-name and preferred-name-welsh
             * .type. Added content for Hospital
+            * .address.line. Added Translation extension and Welsh translation
             * .address.city. Added content for Carmarthenshire
+            * .address.city. Added Translation extension and Welsh translation
+            * .address.district. Added Translation extension and Welsh translation
             * .address.country. Added content for Wales
+            * .address.country. Added Translation extension and Welsh translation
             * .physicalType. Added content for Site
         * Example-DataStandardsWales-Location-GGH-OPD
             * .text. Removed
@@ -360,8 +397,10 @@ Package:
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address. Added HL7 Language extension
-            * .address. Added Welsh address
+            * .address.line. Added HL7 Language extension and Welsh translation
+            * .address.city. Added HL7 Language extension and Welsh translation
+            * .address.district. Added HL7 Language extension and Welsh translation
+            * .address.country. Added HL7 Language extension and Welsh translation
             * .partOf. Replaced Reference to Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth (cluster)
                 * .partOf.reference. Updated to Organization/Example-DataStandardsWales-Organization-HDUHB
                 * .partOf.display. Updated to Hywel Dda University Local Health Board
@@ -376,24 +415,30 @@ Package:
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address. Added HL7 Language extension
-            * .address. Added Welsh address
+            * .address.line. Added HL7 Language extension and Welsh translation
+            * .address.city. Added HL7 Language extension and Welsh translation
+            * .address.district. Added HL7 Language extension and Welsh translation
+            * .address.country. Added HL7 Language extension and Welsh translation
         * Example-DataStandardsWales-Organization-GGH
             * Added mainLocation extension content referencing Location/Example-DataStandardsWales-Location-GGH
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address. Added HL7 Language extension
-            * .address. Added Welsh address
+            * .address.line. Added HL7 Language extension and Welsh translation
+            * .address.city. Added HL7 Language extension and Welsh translation
+            * .address.district. Added HL7 Language extension and Welsh translation
+            * .address.country. Added HL7 Language extension and Welsh translation
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-HDUHB
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address. Added HL7 Language extension
-            * .address. Added Welsh address
+            * .address.line. Added HL7 Language extension and Welsh translation
+            * .address.city. Added HL7 Language extension and Welsh translation
+            * .address.district. Added HL7 Language extension and Welsh translation
+            * .address.country. Added HL7 Language extension and Welsh translation
         * Example-DataStandardsWales-Organization-MedicalInsurer
             * .text. Removed
         * Example-DataStandardsWales-Organization-NCMC
@@ -401,8 +446,10 @@ Package:
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address. Added HL7 Language extension
-            * .address. Added Welsh address
+            * .address.line. Added HL7 Language extension and Welsh translation
+            * .address.city. Added HL7 Language extension and Welsh translation
+            * .address.district. Added HL7 Language extension and Welsh translation
+            * .address.country. Added HL7 Language extension and Welsh translation
             * .partOf. Replaced Reference to Organization/Example-DataStandardsWales-Organization-CardiffNorth (cluster)
                 * .partOf.reference. Updated to Organization/Example-DataStandardsWales-Organization-CAVUHB
                 * .partOf.display. Updated to Cardiff and Vale University Local Health Board
@@ -412,8 +459,10 @@ Package:
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address. Added HL7 Language extension
-            * .address. Added Welsh address
+            * .address.line. Added HL7 Language extension and Welsh translation
+            * .address.city. Added HL7 Language extension and Welsh translation
+            * .address.district. Added HL7 Language extension and Welsh translation
+            * .address.country. Added HL7 Language extension and Welsh translation
             * .partOf.identifier. Removed
         * Example-DataStandardsWales-Organization-SBUHB
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
@@ -421,16 +470,36 @@ Package:
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
             * .alias. Removed display
-            * .address. Added HL7 Language extension
-            * .address. Added Welsh address
+            * .address.line. Added HL7 Language extension and Welsh translation
+            * .address.city. Added HL7 Language extension and Welsh translation
+            * .address.district. Added HL7 Language extension and Welsh translation
+            * .address.country. Added HL7 Language extension and Welsh translation
         * Example-DataStandardsWales-Organization-UHW
             * .identifier. Added an additional identifier using WRTSOrganizationIdentifier Naming System
             * .text. Removed
             * .name. Added HL7 Translation extension
             * .alias. Added Welsh aliases
-            * .address. Added HL7 Language extension
-            * .address. Added Welsh address
+            * .address.line. Added HL7 Language extension and Welsh translation
+            * .address.city. Added HL7 Language extension and Welsh translation
+            * .address.district. Added HL7 Language extension and Welsh translation
+            * .address.country. Added HL7 Language extension and Welsh translation
             * .partOf.identifier. Removed
+        * Example-DataStandardsWales-Practitioner-Consultant
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Consultant-JoeBloggs
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Dietitian-JudeFrancis
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Doctor
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-NonClinical
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Nurse-EmilyMay
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-Physiotherapist
+            * .identifier. Added UPN identifier
+        * Example-DataStandardsWales-Practitioner-PrescribingNurse
+            * .identifier. Added UPN identifier
     * Removed Examples
         * Urgent and Emergency Care
             * Example Message Bundle - UEC Arrival UHWEUMI (UHW Emergency Unit Minor Injuries)
@@ -473,9 +542,21 @@ Guide:
 * Updated Example Index. Example-DataStandardsWales-MessageDefinition-SubmitClinician renamed as Example-DataStandardsWales-MessageDefinition-ClinicianSubmit
 * Updated FHIR Messaging page with amended example links and amended diagram links
 * Updated Example-DataStandardsWales-Bundle-CareDocumentSubmit-CDR page to remove placeholder text regarding external supersession identifiers
+* Updated Example-DataStandardsWales-Location-AmmanTawePartnership page with additional context for translated values.
+* Updated Example-DataStandardsWales-Location-BrynammanCommunity page with additional context for translated values.
+* Updated Example-DataStandardsWales-Location-GGH page with additional context for translated values.
+* Updated Example-DataStandardsWales-Location-MeddygfaCwmamman page with additional context for translated values.
+* Updated Example-DataStandardsWales-Organization-AmmanTawe page with additional context for translated values.
+* Updated Example-DataStandardsWales-Organization-CAVUHB page with additional context for translated values.
+* Updated Example-DataStandardsWales-Organization-GGH page with additional context for translated values.
+* Updated Example-DataStandardsWales-Organization-HDUHB page with additional context for translated values.
+* Updated Example-DataStandardsWales-Organization-NCMC page with additional context for translated values.
+* Updated Example-DataStandardsWales-Organization-NPT page with additional context for translated values.
+* Updated Example-DataStandardsWales-Organization-SBUHB page with additional context for translated values.
+* Updated Example-DataStandardsWales-Organization-UHW page with additional context for translated values.
 * Updated Extension-DataStandardsWales-AliasType page with additional use context of Location.alias
 * Updated Guidance page for Administrative Data to cover additional resources and up-to-date advice on modelling structural relationships
-* Updated Guidance page for Care Documents with advice regarding error management workflows
+* Updated Guidance page for Care Documents to cover error workflows and to clarify the data model scope and use of Encounter
 * Updated Introduction-How to use this Implementation Guide page to indicate how to identify the HL7 FHIR release number used by these standards
 * Updated MessageDefinition-DataStandardsWales-UEC-Arrival page to clarify that the resource is deprecated
 * Updated MessageDefinition-DataStandardsWales-UEC-Discharge page to clarify that the resource is deprecated

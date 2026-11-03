@@ -1,5 +1,6 @@
 ## Example Location - Glangwili General Hospital
 This Location example directly supports the set of examples provided for DocumentReference.  It represents the hospital site at which the diabetes consultation occurred.
+The Welsh translation for location name and address is derived from Welsh Reference and Terminology Services (WRTS) databases. Please contact <a href="mailto:DHCW.ReferenceDataTeam@wales.nhs.uk?subject=Data%20Standards%20Wales%20FHIR%20implementation%20guide">DHCW.ReferenceDataTeam@wales.nhs.uk</a> for more information.
 
 <div class="tab-wrap">
   <ul class="tab-head">

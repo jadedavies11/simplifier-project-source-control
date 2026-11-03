@@ -58,43 +58,43 @@
         <text value="Full blood count" />
     </code>
     <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
     </subject>
     <effectiveDateTime value="2018-01-25T13:31:00+00:00" />
     <specimen>
-        <reference value="Specimen/Example-DataStandardsWales-Specimen-Blood" />
+        <reference value="Specimen/Example-Specimen-Blood" />
     </specimen>
     <hasMember>
-        <reference value="Observation/Example-DataStandardsWales-ObservationResult-FBC_HB" />
+        <reference value="Observation/Example-ObservationResult-FBC_HB" />
         <display value="Haemoglobin (Hb) 115 g/L" />
       </hasMember>
       <hasMember>
-        <reference value="Observation/Example-DataStandardsWales-ObservationResult-FBC_HCT" />
+        <reference value="Observation/Example-ObservationResult-FBC_HCT" />
         <display value="Haematocrit (Hct) 0.37 L/L" />
       </hasMember>
       <hasMember>
-        <reference value="Observation/Example-DataStandardsWales-ObservationResult-FBC_MCH" />
+        <reference value="Observation/Example-ObservationResult-FBC_MCH" />
         <display value="Mean cell haemoglobin (MCH) 32.0 pg" />
       </hasMember>
       <hasMember>
-        <reference value="Observation/Example-DataStandardsWales-ObservationResult-FBC_MCV" />
+        <reference value="Observation/Example-ObservationResult-FBC_MCV" />
         <display value="Mean cell volume (MCV) 90 fL" />
       </hasMember>
       <hasMember>
-        <reference value="Observation/Example-DataStandardsWales-ObservationResult-FBC_PLTS" />
+        <reference value="Observation/Example-ObservationResult-FBC_PLTS" />
         <display value="Platelet (PLT) count 150 x10^9/L" />
       </hasMember>
       <hasMember>
-        <reference value="Observation/Example-DataStandardsWales-ObservationResult-FBC_RBC" />
+        <reference value="Observation/Example-ObservationResult-FBC_RBC" />
         <display value="Red blood cell (RBC) count 3.80 x10^12/L" />
       </hasMember>
       <hasMember>
-        <reference value="Observation/Example-DataStandardsWales-ObservationResult-FBC_RDW-CV" />
+        <reference value="Observation/Example-ObservationResult-FBC_RDW-CV" />
         <display value="Red cell distribution width (RDW) 13.0 %" />
       </hasMember>
       <hasMember>
-        <reference value="Observation/Example-DataStandardsWales-ObservationResult-FBC_WBC" />
+        <reference value="Observation/Example-ObservationResult-FBC_WBC" />
         <display value="White blood cell (WBC) count 10.0 x10^9/L" />
       </hasMember>
 </Observation>

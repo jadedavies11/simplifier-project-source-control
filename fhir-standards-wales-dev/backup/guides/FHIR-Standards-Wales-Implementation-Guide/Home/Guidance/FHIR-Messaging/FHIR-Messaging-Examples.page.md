@@ -20,7 +20,7 @@ The bundle construction is illustrated below:
 {{render:Diagrams-FHIR-example-cliniciansubmit-logical}}
 <br />
 
-Example message bundle: {{pagelink:Example-DataStandardsWales-Bundle-ClinicianSubmit-Logical, text: Example Message Bundle - Clinician Submit (Logical referencing)}}
+Example message bundle: {{pagelink:Example-Bundle-ClinicianSubmit-Logical, text: Example Message Bundle - Clinician Submit (Logical referencing)}}
 
 Prior to creating the new PractitionerRole, the applicable message handler would resolve the logical identifiers for Organization and Practitioner and references and replace the practitioner and organization references within the PractitionerRole resource with literal references to FHIR resources.
 
@@ -32,6 +32,6 @@ The bundle construction is illustrated below:
 {{render:Diagrams-FHIR-example-cliniciansubmit-literal}}
 <br />
 
-Example message bundle: {{pagelink:Example-DataStandardsWales-Bundle-ClinicianSubmit-Literal, text: Example Message Bundle - Clinician Submit (Literal FHIR referencing)}}
+Example message bundle: {{pagelink:Example-Bundle-ClinicianSubmit-Literal, text: Example Message Bundle - Clinician Submit (Literal FHIR referencing)}}
 
 In this case the message handler would need to validate the FHIR practitioner and organization resource references before creating the PractitionerRole.

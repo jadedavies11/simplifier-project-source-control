@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Observation/Example-Observation-Height}}
+      {{tree:Example-Observation-Height}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-Observation-Height}}
+      {{table:Example-Observation-Height}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-Observation-Height}}
+      {{xml:Example-Observation-Height}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-Observation-Height}}
+      {{json:Example-Observation-Height}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-Observation-Height}}
+      {{narrative:Example-Observation-Height}}
     </div>  
   </div>
 </div>

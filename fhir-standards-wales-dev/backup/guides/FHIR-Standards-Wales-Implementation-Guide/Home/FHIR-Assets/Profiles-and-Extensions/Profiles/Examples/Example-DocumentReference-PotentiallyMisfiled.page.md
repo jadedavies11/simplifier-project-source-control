@@ -1,5 +1,5 @@
 ## Example DocumentReference - Potentially Misfiled
-This DocumentReference example illustrates the first step of the {{pagelink:Document-Error-Workflow, text:document misfile workflow}}. It shows the effect on the DocumentReference resource of a user proposing that the document represented by {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text:Example DocumentReference - Event-based}} has been misfiled i.e. added to the wrong patient. The details of the proposal can be found in the corresponding Task resource {{pagelink:Example-DataStandardsWales-Task-MisfileRequested, text:Example Task - Misfile Rejected}}.
+This DocumentReference example illustrates the first step of the {{pagelink:Document-Error-Workflow, text:document misfile workflow}}. It shows the effect on the DocumentReference resource of a user proposing that the document represented by {{pagelink:Example-DocumentReference-EventBased, text:Example DocumentReference - Event-based}} has been misfiled i.e. added to the wrong patient. The details of the proposal can be found in the corresponding Task resource {{pagelink:Example-Task-MisfileRequested, text:Example Task - Misfile Rejected}}.
 
 <div class="tab-wrap">
   <ul class="tab-head">

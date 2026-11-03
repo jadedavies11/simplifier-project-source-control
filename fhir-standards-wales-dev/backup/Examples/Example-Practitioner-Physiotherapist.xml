@@ -12,6 +12,10 @@
 		<value value="ph234567" />
 	</identifier>
 	<identifier>
+		<system value="https://fhir.nhs.wales/Id/upn-identifier" />
+		<value value="philip.wickins@wales.nhs.uk" />
+	</identifier>
+	<identifier>
 		<system value="https://fhir.hl7.org.uk/Id/hcpc-number" />
 		<value value="PH12345" />
 	</identifier>

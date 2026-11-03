@@ -43,7 +43,7 @@ The diagram below shows the typical relationship between NHS Wales DiagnosticRep
 <br />
 
 ### Example Result
-Click {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: here}} for an Example of a Diagnostic Report returning a Cardiology ECG report as presentedForm.
+Click {{pagelink:Example-DiagnosticReport-ECG, text: here}} for an Example of a Diagnostic Report returning a Cardiology ECG report as presentedForm.
 
 ## Scenario 2
 - Status: Final
@@ -52,4 +52,4 @@ Click {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: here}} f
 - Result: Stress Test
 
 ### Example Result
-Click {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: here}} for an Example of a Diagnostic Report returning a Cardiology Stress Test report as presentedForm.
+Click {{pagelink:Example-DiagnosticReport-StressTest, text: here}} for an Example of a Diagnostic Report returning a Cardiology Stress Test report as presentedForm.

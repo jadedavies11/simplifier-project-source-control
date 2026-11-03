@@ -60,7 +60,7 @@
     <text value="Liver function test" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <effectiveDateTime value="2022-05-10T10:29:00+00:00" />
@@ -68,30 +68,30 @@
     <text value="&lt;OBR.C&gt;&lt;OBR.C.1&gt;Test performed using Roche Cobas method&lt;/OBR.C.1&gt;&lt;OBR.C.1&gt;Please note change in AFP reference range from 24/11/14.&lt;/OBR.C.1&gt;&lt;/OBR.C&gt;" />
   </note>
   <specimen>
-    <reference value="Specimen/Example-DataStandardsWales-Specimen-Blood" />
+    <reference value="Specimen/Example-Specimen-Blood" />
   </specimen>
   <hasMember>
-    <reference value="Observation/Example-DataStandardsWales-ObservationResult-LFT_ALB" />
+    <reference value="Observation/Example-ObservationResult-LFT_ALB" />
     <display value="Albumin 35 g/L" />
   </hasMember>
   <hasMember>
-    <reference value="Observation/Example-DataStandardsWales-ObservationResult-LFT_ALP" />
+    <reference value="Observation/Example-ObservationResult-LFT_ALP" />
     <display value="Alkaline phosphatase 30 U/L" />
   </hasMember>
   <hasMember>
-    <reference value="Observation/Example-DataStandardsWales-ObservationResult-LFT_ALT" />
+    <reference value="Observation/Example-ObservationResult-LFT_ALT" />
     <display value="Alanine transaminase 34 U/L" />
   </hasMember>
   <hasMember>
-    <reference value="Observation/Example-DataStandardsWales-ObservationResult-LFT_BILI" />
+    <reference value="Observation/Example-ObservationResult-LFT_BILI" />
     <display value="Bilirubin 20 umol/L" />
   </hasMember>
   <hasMember>
-    <reference value="Observation/Example-DataStandardsWales-ObservationResult-LFT_GLOB" />
+    <reference value="Observation/Example-ObservationResult-LFT_GLOB" />
     <display value="Globulin 46 g/L" />
   </hasMember>
   <hasMember>
-    <reference value="Observation/Example-DataStandardsWales-ObservationResult-LFT_TP" />
+    <reference value="Observation/Example-ObservationResult-LFT_TP" />
     <display value="Protein 81 g/L" />
   </hasMember>
 </Observation>

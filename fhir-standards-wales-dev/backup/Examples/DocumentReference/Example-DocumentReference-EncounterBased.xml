@@ -45,7 +45,7 @@
     </extension>
     <extension url="party">
       <valueReference>
-        <reference value="PractitionerRole/Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
+        <reference value="PractitionerRole/Example-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
         <display value="BLOGGS, Joe A, Dr (GMC:1234567), Consultant Diabetologist for HDUHB"/>
       </valueReference>
     </extension>
@@ -79,20 +79,20 @@
     </coding>
   </category>
   <subject>
-    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames"/>
+    <reference value="Patient/Example-Patient-HaroldJames"/>
     <display value="JAMES, Harold A, Mr"/>
   </subject>
   <date value="2025-07-22T11:20:17+00:00"/>
   <author>
-    <reference value="PractitionerRole/Example-DSW-PractitionerRole-Nurse-EmilyMay-HDUHB"/>
+    <reference value="PractitionerRole/Example-PractitionerRole-Nurse-EmilyMay-HDUHB"/>
     <display value="MAY, Emily B, Ms (NMC:AB12345X), Nurse for HDUHB"/>
   </author>
   <author>
-    <reference value="PractitionerRole/Example-DSW-PractitionerRole-Dietitian-JudeFrancis-HDUHB"/>
+    <reference value="PractitionerRole/Example-PractitionerRole-Dietitian-JudeFrancis-HDUHB"/>
     <display value="FRANCIS Jude, Miss (HCPC:DT123456), Dietitian for HDUHB"/>
   </author>
   <custodian>
-    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
+    <reference value="Organization/Example-Organization-HDUHB"/>
     <display value="Hywel Dda University Health Board"/>
   </custodian>
   <description value="Diabetes Consultation Note"/>
@@ -106,13 +106,13 @@
   <content>
     <attachment>
       <contentType value="application/pdf"/>
-      <language value="eng"/>
+      <language value="en"/>
       <url value="https://www.example.com/documentref1234"/>
     </attachment>
   </content>
   <context>
     <encounter>
-      <reference value="Encounter/Example-DSW-Encounter-DocumentedEvent-DiabetesConsultation"/>
+      <reference value="Encounter/Example-Encounter-DocumentedEvent-DiabetesConsultation"/>
     </encounter>
     <practiceSetting>
       <coding>

@@ -12,6 +12,10 @@
 		<value value="jo001234" />
 	</identifier>
 	<identifier>
+		<system value="https://fhir.nhs.wales/Id/upn-identifier" />
+		<value value="joe.bloggs@wales.nhs.uk" />
+	</identifier>
+	<identifier>
 		<system value="https://fhir.hl7.org.uk/Id/gmc-number" />
 		<value value="1234567" />
 	</identifier>

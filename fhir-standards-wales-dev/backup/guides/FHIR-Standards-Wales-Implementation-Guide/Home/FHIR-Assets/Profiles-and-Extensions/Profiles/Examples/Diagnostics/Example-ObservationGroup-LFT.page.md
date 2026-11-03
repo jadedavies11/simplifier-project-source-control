@@ -26,13 +26,13 @@
       {{table:Example-ObservationGroup-LFT}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:ObservationGroup/Example-ObservationGroup-LFT}}
+      {{xml:Example-ObservationGroup-LFT}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:ObservationGroup/Example-ObservationGroup-LFT}}
+      {{json:Example-ObservationGroup-LFT}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:ObservationGroup/Example-ObservationGroup-LFT}}
+      {{narrative:Example-ObservationGroup-LFT}}
     </div>  
   </div>
 </div>

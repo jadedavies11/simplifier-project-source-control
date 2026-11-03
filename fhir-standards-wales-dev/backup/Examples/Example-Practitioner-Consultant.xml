@@ -12,6 +12,10 @@
 		<value value="dh000567" />
 	</identifier>
 	<identifier>
+		<system value="https://fhir.nhs.wales/Id/upn-identifier" />
+		<value value="dhiren.patel@wales.nhs.uk" />
+	</identifier>
+	<identifier>
 		<system value="https://fhir.hl7.org.uk/Id/gmc-number" />
 		<value value="9630333" />
 	</identifier>

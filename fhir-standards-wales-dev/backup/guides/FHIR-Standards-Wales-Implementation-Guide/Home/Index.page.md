@@ -4,9 +4,6 @@ igversion: 2.7.0
 
 # Wales FHIR Implementation Guide v{{variable: igversion}} STU2
 
-
-{{variable: igversionTEST}}
-
 <div class="warning"><b>Important:</b> This is the v{{variable: igversion}} Standard for Trial use (STU2) release of the Wales FHIR Implementation Guide. Please be aware that these pages refer to a mixture of active and draft assets as well as clinical examples that are illustrative only of of the correct use of the standards.  The example content will always need tailoring by implementers for specifical clinical use cases and scenarios.</div>
 
 ## Project Description and Scope
@@ -14,7 +11,7 @@ igversion: 2.7.0
 <div class="container-fluid">
 <div class="row">
 	<div class="col">
-This Implementation Guide contains the HL7 FHIR R4 standards for use by Health and Care organisations in Wales. The Data Standard Wales profiles have been developed with NHS Wales systems in mind and are derived from the UK Core STU2 v2.0.1 release. All relevant NHS Wales Data Standards have been implemented as appropriate.
+This Implementation Guide contains the HL7 FHIR R4 standards for use by Health and Care organisations in Wales. The Data Standard Wales profiles have been developed with NHS Wales systems in mind and are derived from the UK Core STU2 v2.0.2 release. All relevant NHS Wales Data Standards have been implemented as appropriate.
 <br></br>
 These pages contain guidance on the following areas:
 <br></br>

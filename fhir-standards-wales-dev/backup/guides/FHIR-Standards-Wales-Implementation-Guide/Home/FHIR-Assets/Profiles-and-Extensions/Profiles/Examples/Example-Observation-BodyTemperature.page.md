@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Observation/Example-Observation-BodyTemperature}}
+      {{tree:Example-Observation-BodyTemperature}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-Observation-BodyTemperature}}
+      {{table:Example-Observation-BodyTemperature}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-Observation-BodyTemperature}}
+      {{xml:Example-Observation-BodyTemperature}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-Observation-BodyTemperature}}
+      {{json:Example-Observation-BodyTemperature}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-Observation-BodyTemperature}}
+      {{narrative:Example-Observation-BodyTemperature}}
     </div>  
   </div>
 </div>

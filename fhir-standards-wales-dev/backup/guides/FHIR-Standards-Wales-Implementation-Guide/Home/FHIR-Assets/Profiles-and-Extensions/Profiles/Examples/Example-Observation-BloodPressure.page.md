@@ -23,16 +23,16 @@
       {{tree:Example-Observation-BloodPressure}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-Observation-BloodPressure}}
+      {{table:Example-Observation-BloodPressure}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-Observation-BloodPressure}}
+      {{xml:Example-Observation-BloodPressure}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-Observation-BloodPressure}}
+      {{json:Example-Observation-BloodPressure}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-Observation-BloodPressure}}
+      {{narrative:Example-Observation-BloodPressure}}
     </div>  
   </div>
 </div>

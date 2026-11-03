@@ -2,13 +2,15 @@
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Morphine, text: Example AllergyIntolerance - Medication (morphine)}} - following modification from degraded to be coded correctly
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Ibuprofen, text: Example AllergyIntolerance - Medication (ibuprofen)}} - following modification from degraded to be coded correctly
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Wasps, text:Example AllergyIntolerance - Wasps}} - following modification from degraded to be coded correctly
+  * {{pagelink:Example-AllergyIntolerance-Aspirin, text:Example AllergyIntolerance - Medication (aspirin)}}
+  * {{pagelink:Example-AllergyIntolerance-Morphine, text:Example AllergyIntolerance - Medication (morphine)}} - following modification from degraded to be coded correctly
+  * {{pagelink:Example-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
+  * {{pagelink:Example-AllergyIntolerance-Ibuprofen, text:Example AllergyIntolerance - Medication (ibuprofen)}} - following modification from degraded to be coded correctly
+  * {{pagelink:Example-AllergyIntolerance-Wasps, text:Example AllergyIntolerance - Wasps}} - following modification from degraded to be coded correctly
+  
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
+  * {{pagelink:Example-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
 
 
 <div class="tab-wrap">

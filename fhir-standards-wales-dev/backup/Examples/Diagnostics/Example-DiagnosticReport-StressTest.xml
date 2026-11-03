@@ -20,7 +20,7 @@
     <value value="1000012" />
   </identifier>
   <basedOn>
-    <reference value="ServiceRequest/Example-DataStandardsWales-ServiceRequest-StressTest" />
+    <reference value="ServiceRequest/Example-ServiceRequest-StressTest" />
     <display value="Stress Test" />
   </basedOn>
   <status value="final" />
@@ -41,12 +41,12 @@
     <text value="Stress Test" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <issued value="2021-08-31T10:52:14.13+00:00" />
   <performer>
-    <reference value="Organization/Example-DataStandardsWales-Organization-Cardiology" />
+    <reference value="Organization/Example-Organization-Cardiology" />
     <identifier>
       <system value="https://fhir.nhs.wales/Id/wrrs-provider-department-identifier" />
       <value value="CARD" />
