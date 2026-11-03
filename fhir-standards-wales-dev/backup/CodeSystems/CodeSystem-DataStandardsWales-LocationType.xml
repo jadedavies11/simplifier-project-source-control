@@ -2,12 +2,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-LocationType"/>
 	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-LocationType"/>
-	<version value="0.1.0"/>
+	<version value="0.2.0"/>
 	<name value="DataStandardsWalesLocationType"/>
 	<title value="Data Standards Wales Location Type"/>
 	<status value="draft"/>
 	<experimental value="false"/>
-	<date value="2026-08-17"/>
+	<date value="2026-10-28"/>
 	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="FHIR Standards"/>
@@ -169,8 +169,12 @@
 		<display value="Family room"/>
 	</concept>
 	<concept>
-		<code value="gp-surgery"/>
-		<display value="GP surgery"/>
+		<code value="gp-surgery-main"/>
+		<display value="GP surgery main"/>
+	</concept>
+	<concept>
+		<code value="gp-surgery-branch"/>
+		<display value="GP surgery branch"/>
 	</concept>
 	<concept>
 		<code value="hospital"/>

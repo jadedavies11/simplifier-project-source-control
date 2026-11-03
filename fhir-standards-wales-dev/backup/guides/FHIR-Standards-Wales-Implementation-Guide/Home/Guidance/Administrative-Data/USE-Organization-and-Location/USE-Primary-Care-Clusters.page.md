@@ -13,11 +13,11 @@
 <br />
 
 <span style="font-size: 0.95em;">Example resources to illustrate this use case:</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Organization-AmmanGwendraeth, text:Example Organization - Amman Gwendraeth Cluster}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-OrganizationAffiliation-CC201-W00142, text:Example Cluster Affiliation - Amman Gwendraeth and Amman Tawe Partnership}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Organization-AmmanGwendraeth, text:Example Organization - Amman Gwendraeth Cluster}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Organization-AmmanTawe, text:Example Organization - Amman Tawe Partnership}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Location-AmmanTawePartnership, text:Example Location - Amman Tawe Partnership GP Surgery}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Location-BrynammanCommunity, text:Example Location - Brynamman Community GP Surgery}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Location-MeddygfaCwmamman, text:Example Location - Meddygfa Cwmamman GP Surgery}}</span>
 

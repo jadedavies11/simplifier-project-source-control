@@ -1,5 +1,5 @@
 ## Example Task - Misfile Accepted
-This Task example illustrates the second step of the {{pagelink:Document-Error-Workflow, text:document misfile workflow}} in the case that the misfile review outcome was "accepted". It builds on the misfile requested example {{pagelink:Example-DataStandardsWales-Task-MisfileRequested, text:Example Task - Misfile Requested}} to add details of when (`lastModified`), why (`note.text`) and by whom (`owner`) the proposed document misfile was accepted.
+This Task example illustrates the second step of the {{pagelink:Document-Error-Workflow, text:document misfile workflow}} in the case that the misfile review outcome was "accepted". It builds on the misfile requested example {{pagelink:Example-Task-MisfileRequested, text:Example Task - Misfile Requested}} to add details of when (`lastModified`), why (`note.text`) and by whom (`owner`) the proposed document misfile was accepted.
 
 <div class="tab-wrap">
   <ul class="tab-head">

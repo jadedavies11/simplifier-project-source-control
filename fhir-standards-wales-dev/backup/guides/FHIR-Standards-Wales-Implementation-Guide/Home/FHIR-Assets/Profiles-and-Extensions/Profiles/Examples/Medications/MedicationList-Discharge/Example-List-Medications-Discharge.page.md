@@ -2,19 +2,19 @@
 
 This example medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
+  * {{pagelink:Example-Patient-PeterPiper, text:Example Patient - Peter Piper}}
 * Medication statements:
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorva.-Discharge, text:Example MedicationStatement - Discharge - Atorvastatin}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-Discharge, text:Example MedicationStatement - Discharge - Bendroflumethiazide}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisop.-Discharge, text:Example MedicationStatement - Discharge - Bisoprolol}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Duroge.-Discharge, text:Example MedicationStatement - Discharge - Durogesic DTrans}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Enbrel-Discharge, text:Example MedicationStatement - Discharge - Enbrel}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydroc.-Discharge, text:Example MedicationStatement - Discharge - Hydrocortisone}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Latano.-Discharge, text:Example MedicationStatement - Discharge - Latanoprost}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedi.-Discharge, text:Example MedicationStatement - Discharge - Nifedipress}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Parace.-Discharge, text:Example MedicationStatement - Discharge - Paracetamol}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipr.-Discharge, text:Example MedicationStatement - Discharge - Ramipril}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ibupro.-Discharge, text:Example MedicationStatement - Discharge - Ibuprofen (stopped)}}
+  * {{pagelink:Example-MedicationStatement-Atorva.-Discharge, text:Example MedicationStatement - Discharge - Atorvastatin}}
+  * {{pagelink:Example-MedicationStatement-Bendro.-Discharge, text:Example MedicationStatement - Discharge - Bendroflumethiazide}}
+  * {{pagelink:Example-MedicationStatement-Bisop.-Discharge, text:Example MedicationStatement - Discharge - Bisoprolol}}
+  * {{pagelink:Example-MedicationStatement-Duroge.-Discharge, text:Example MedicationStatement - Discharge - Durogesic DTrans}}
+  * {{pagelink:Example-MedicationStatement-Enbrel-Discharge, text:Example MedicationStatement - Discharge - Enbrel}}
+  * {{pagelink:Example-MedicationStatement-Hydroc.-Discharge, text:Example MedicationStatement - Discharge - Hydrocortisone}}
+  * {{pagelink:Example-MedicationStatement-Latano.-Discharge, text:Example MedicationStatement - Discharge - Latanoprost}}
+  * {{pagelink:Example-MedicationStatement-Nifedi.-Discharge, text:Example MedicationStatement - Discharge - Nifedipress}}
+  * {{pagelink:Example-MedicationStatement-Parace.-Discharge, text:Example MedicationStatement - Discharge - Paracetamol}}
+  * {{pagelink:Example-MedicationStatement-Ramipr.-Discharge, text:Example MedicationStatement - Discharge - Ramipril}}
+  * {{pagelink:Example-MedicationStatement-Ibupro.-Discharge, text:Example MedicationStatement - Discharge - Ibuprofen (stopped)}}
 
 Below is an example of the above medication statements combined into a medication list:
   
@@ -44,13 +44,13 @@ Below is an example of the above medication statements combined into a medicatio
       {{table:List/Example-MedicationList-Discharge}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:MedicationList/Example-MedicationList-Discharge}}
+      {{xml:List/Example-MedicationList-Discharge}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:MedicationList/Example-MedicationList-Discharge}}
+      {{json:List/Example-MedicationList-Discharge}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:MedicationList/Example-MedicationList-Discharge}}
+      {{narrative:List/Example-MedicationList-Discharge}}
     </div>  
   </div>
 </div>

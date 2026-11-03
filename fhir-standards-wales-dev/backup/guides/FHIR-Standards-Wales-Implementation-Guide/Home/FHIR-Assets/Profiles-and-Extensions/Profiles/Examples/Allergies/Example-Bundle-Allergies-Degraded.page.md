@@ -2,13 +2,13 @@
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedMorphine, text:Example AllergyIntolerance - Transfer degraded allergy (morphine)}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedAspirin, text:Example AllergyIntolerance - Transfer degraded allergy (aspirin and ibuprofen)}}
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-DegradedWasps, text:Example AllergyIntolerance - Transfer degraded allergy (wasps)}}
+  * {{pagelink:Example-AllergyIntolerance-DegradedMorphine, text:Example AllergyIntolerance - Transfer degraded allergy (morphine)}}
+  * {{pagelink:Example-AllergyIntolerance-Potato, text:Example AllergyIntolerance - Food (potato)}}
+  * {{pagelink:Example-AllergyIntolerance-DegradedAspirin, text:Example AllergyIntolerance - Transfer degraded allergy (aspirin and ibuprofen)}}
+  * {{pagelink:Example-AllergyIntolerance-DegradedWasps, text:Example AllergyIntolerance - Transfer degraded allergy (wasps)}}
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}
+  * {{pagelink:Example-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}
 
 
 <div class="tab-wrap">

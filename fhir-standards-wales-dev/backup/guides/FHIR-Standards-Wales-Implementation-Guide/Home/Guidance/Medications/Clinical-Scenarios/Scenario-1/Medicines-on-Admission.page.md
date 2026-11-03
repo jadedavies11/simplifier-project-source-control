@@ -1,5 +1,5 @@
 ### 3) Medicines on admission 
-{{pagelink:Example-DataStandardsWales-List-Medications-Admission, text: Example list of medications based on the following medications as recorded on the patient's admission to hospital}}
+{{pagelink:Example-List-Medications-Admission, text: Example list of medications based on the following medications as recorded on the patient's admission to hospital}}
 
 #### From GP data
 

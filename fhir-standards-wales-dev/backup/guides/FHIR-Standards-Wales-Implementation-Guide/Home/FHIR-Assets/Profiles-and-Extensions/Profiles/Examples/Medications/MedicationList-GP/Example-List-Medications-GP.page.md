@@ -2,17 +2,17 @@
 
 This example medication list is provided as part of a patient journey scenario, which is described {{pagelink:Home/Guidance/Medications/Index.page.md, text:here}}. The list references the following example resources:
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-PeterPiper, text:Example Patient - Peter Piper}}
+  * {{pagelink:Example-Patient-PeterPiper, text:Example Patient - Peter Piper}}
 * Medication statements:
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP, text:Example MedicationStatement - GP - Amoxicilin}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Atorvastatin-GP, text:Example MedicationStatement - GP - Atorvastatin}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bendro.-GP, text:Example MedicationStatement - GP - Bendroflumethiazide}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Bisoprolol-GP, text:Example MedicationStatement - GP - Bisoprolol}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-DurogesicDTrans-GP, text:Example MedicationStatement - GP - Durogesic DTrans}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Hydrocortisone-GP, text:Example MedicationStatement - GP - Hydrocortisone}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Latanoprost-GP, text:Example MedicationStatement - GP - Latanoprost}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Nifedipress-GP, text:Example MedicationStatement - GP - Nifedipress}}
-  * {{pagelink:Example-DataStandardsWales-MedicationStatement-Ramipril-GP, text:Example MedicationStatement - GP - Ramipril}}
+  * {{pagelink:Example-MedicationStatement-Amoxicillin-GP, text:Example MedicationStatement - GP - Amoxicilin}}
+  * {{pagelink:Example-MedicationStatement-Atorvastatin-GP, text:Example MedicationStatement - GP - Atorvastatin}}
+  * {{pagelink:Example-MedicationStatement-Bendro.-GP, text:Example MedicationStatement - GP - Bendroflumethiazide}}
+  * {{pagelink:Example-MedicationStatement-Bisoprolol-GP, text:Example MedicationStatement - GP - Bisoprolol}}
+  * {{pagelink:Example-MedicationStatement-DurogesicDTrans-GP, text:Example MedicationStatement - GP - Durogesic DTrans}}
+  * {{pagelink:Example-MedicationStatement-Hydrocortisone-GP, text:Example MedicationStatement - GP - Hydrocortisone}}
+  * {{pagelink:Example-MedicationStatement-Latanoprost-GP, text:Example MedicationStatement - GP - Latanoprost}}
+  * {{pagelink:Example-MedicationStatement-Nifedipress-GP, text:Example MedicationStatement - GP - Nifedipress}}
+  * {{pagelink:Example-MedicationStatement-Ramipril-GP, text:Example MedicationStatement - GP - Ramipril}}
 
 Below is an example of the above medication statements combined into a medication list:
 

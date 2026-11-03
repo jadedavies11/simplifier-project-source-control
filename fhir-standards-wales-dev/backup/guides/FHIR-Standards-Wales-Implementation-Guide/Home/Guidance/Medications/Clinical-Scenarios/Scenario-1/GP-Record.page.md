@@ -1,6 +1,6 @@
 ### 1) GP Record 
 
-{{pagelink:Example-DataStandardsWales-List-Medications-GP, text: Example list of medications as recorded in a GP system based on the repeat and acute medications below}}.
+{{pagelink:Example-List-Medications-GP, text: Example list of medications as recorded in a GP system based on the repeat and acute medications below}}.
 
 #### Repeat
 

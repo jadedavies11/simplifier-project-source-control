@@ -5,8 +5,8 @@
 <br />
 
 <span style="font-size: 0.95em;">Example resources to illustrate this use case:</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Location-GGH, text:Example Location - Glangwili General Hospital}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Organization-GGH, text: Example Organization - Glangwili General Hospital}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Location-GGH, text:Example Location - Glangwili General Hospital}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Location-CadogWard, text:Example Location - Glangwili General Hospital Cadog Ward}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Location-GGH-OPD, text:Example Location - Glangwili General Hospital Outpatients Department}}</span>

@@ -11,6 +11,10 @@
     <system value="https://fhir.nhs.wales/Id/nadex-identifier" />
     <value value="ma000199" />
   </identifier>
+  <identifier>
+		<system value="https://fhir.nhs.wales/Id/upn-identifier" />
+		<value value="mark.smith@wales.nhs.uk" />
+	</identifier>
   <name>
     <family value="Smith" />
     <given value="Mark" />

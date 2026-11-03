@@ -1,5 +1,7 @@
 ## Example Organization - University Hospital of Wales
 
+The Welsh translation for organisation name and address is derived from Welsh Reference and Terminology Services (WRTS) databases. Please contact <a href="mailto:DHCW.ReferenceDataTeam@wales.nhs.uk?subject=Data%20Standards%20Wales%20FHIR%20implementation%20guide">DHCW.ReferenceDataTeam@wales.nhs.uk</a> for more information
+
 <div class="tab-wrap">
   <ul class="tab-head">
     <li class="tablink" onclick="openCity(this,'tabtree')" data-target="tabtree">

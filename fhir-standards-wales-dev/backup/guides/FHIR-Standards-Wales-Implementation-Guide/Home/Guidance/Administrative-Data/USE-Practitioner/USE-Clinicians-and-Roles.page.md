@@ -7,6 +7,6 @@
 <br />
 
 <span style="font-size: 0.95em;">Example resources to illustrate this use case:</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-PractitionerRole-Dietitian-JudeFrancis-HDUHB, text:Example PractitionerRole - Jude Francis (Diabetes Dietitian for HDUHB)}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Practitioner-Dietitian-JudeFrancis, text:Example Practitioner - Jude Francis (Dietitian)}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-PractitionerRole-Dietitian-JudeFrancis-HDUHB, text:Example PractitionerRole - Jude Francis (Diabetes Dietitian for HDUHB)}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Practitioner-Dietitian-JudeFrancis, text:Example Practitioner - Jude Francis (Dietitian)}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Organization-HDUHB, text: Example Organization - Hywel Dda University Local Health Board}}</span>

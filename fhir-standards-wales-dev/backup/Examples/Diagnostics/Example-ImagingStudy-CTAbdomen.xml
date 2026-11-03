@@ -14,18 +14,18 @@
   </identifier>
   <status value="available" />
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <referrer>
-    <reference value="Practitioner/Example-DataStandardsWales-Practitioner-Consultant" />
+    <reference value="Practitioner/Example-Practitioner-Consultant" />
     <display value="..." />
   </referrer>
   <interpreter>
     <display value="MR EXAMPLE INTERPRETER (nadex)" />
   </interpreter>
   <endpoint>
-    <reference value="Endpoint/Example-DataStandardsWales-Endpoint-Dicom"/>
+    <reference value="Endpoint/Example-Endpoint-Dicom"/>
     <display value="https://example-datastandardswales.cymru.nhs.uk/launch?DicomRepository=DicomExample&amp;amp;AccessionNumber={}"/>
   </endpoint>
   <note>

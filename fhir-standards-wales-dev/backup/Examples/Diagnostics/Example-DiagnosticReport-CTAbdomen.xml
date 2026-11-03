@@ -19,7 +19,7 @@
     <value value="1000136" />
   </identifier>
   <basedOn>
-    <reference value="ServiceRequest/Example-DataStandardsWales-ServiceRequest-CTAbdomen" />
+    <reference value="ServiceRequest/Example-ServiceRequest-CTAbdomen" />
     <display value="CT Abdomen" />
   </basedOn>
   <status value="final" />
@@ -40,12 +40,12 @@
     <text value="CT Abdomen" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <issued value="2021-05-19T11:25:38+00:00" />
   <performer>
-    <reference value="Organization/Example-DataStandardsWales-Organization-Radiology" />
+    <reference value="Organization/Example-Organization-Radiology" />
     <identifier>
       <system value="https://fhir.nhs.wales/Id/wrrs-provider-department-identifier" />
       <value value="RAD" />
@@ -53,11 +53,11 @@
     <display value="Radiology" />
   </performer>
   <resultsInterpreter>
-    <reference value="Organization/Example-DataStandardsWales-Organization-HywelDda" />
+    <reference value="Organization/Example-Organization-HywelDda" />
     <display value="Hywel Dda Local Health Board" />
   </resultsInterpreter>
 	<imagingStudy> 
-		<reference value="ImagingStudy/Example-DataStandardsWales-ImagingStudy-CTAbdomen" />
+		<reference value="ImagingStudy/Example-ImagingStudy-CTAbdomen" />
 		<display value="CT Abdomen[A]  [Reported, signed by radiology]; JONES, Alice (NHS: 9912003444); Accession: HDD633125; Performed: 19 05 2021" />
 	</imagingStudy> 
 </DiagnosticReport>

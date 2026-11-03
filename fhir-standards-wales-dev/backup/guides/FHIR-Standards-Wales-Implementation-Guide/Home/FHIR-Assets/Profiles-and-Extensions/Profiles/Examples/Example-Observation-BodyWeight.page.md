@@ -23,16 +23,16 @@
       {{tree:Example-Observation-Weight}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-Observation-Weight}}
+      {{table:Example-Observation-Weight}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-Observation-Weight}}
+      {{xml:Example-Observation-Weight}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-Observation-Weight}}
+      {{json:Example-Observation-Weight}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-Observation-Weight}}
+      {{narrative:Example-Observation-Weight}}
     </div>  
   </div>
 </div>

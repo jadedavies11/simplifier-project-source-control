@@ -1,5 +1,5 @@
 ## Example DocumentReference - Misfiled
-This DocumentReference example illustrates the second step of the {{pagelink:Document-Error-Workflow, text:document misfile workflow}}. It shows the effect on the DocumentReference resource of a reviewer accepting the proposed misfile of {{pagelink:Example-DataStandardsWales-DocumentReference-PotentiallyMisfiled, text:Example DocumentReference - Potentially Misfiled}}. The details of the acceptance can be found in the corresponding Task resource {{pagelink:Example-DataStandardsWales-Task-MisfileAccepted, text:Example Task - Misfile Accepted}}.
+This DocumentReference example illustrates the second step of the {{pagelink:Document-Error-Workflow, text:document misfile workflow}}. It shows the effect on the DocumentReference resource of a reviewer accepting the proposed misfile of {{pagelink:Example-DocumentReference-PotentiallyMisfiled, text:Example DocumentReference - Potentially Misfiled}}. The details of the acceptance can be found in the corresponding Task resource {{pagelink:Example-Task-MisfileAccepted, text:Example Task - Misfile Accepted}}.
 
 <div class="tab-wrap">
   <ul class="tab-head">

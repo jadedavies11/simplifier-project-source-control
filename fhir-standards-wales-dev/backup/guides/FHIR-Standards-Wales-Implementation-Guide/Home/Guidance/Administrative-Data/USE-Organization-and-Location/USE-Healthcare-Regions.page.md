@@ -5,6 +5,6 @@
 <br />
 
 <span style="font-size: 0.95em;">Example resources to illustrate this use case:</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Organization-Region-SouthCentral, text:Example Organization - South Central Wales Region}}</span>
-* <span style="font-size: 0.95em;">{{pagelink:Example-DataStandardsWales-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-OrganizationAffiliation-R3D8C-7A3, text:Example Region Affiliation - South Central Wales Region and SBUHB}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Organization-Region-SouthCentral, text:Example Organization - South Central Wales Region}}</span>
+* <span style="font-size: 0.95em;">{{pagelink:Example-Organization-SBUHB, text: Example Organization - Swansea Bay University Local Health Board}}</span>

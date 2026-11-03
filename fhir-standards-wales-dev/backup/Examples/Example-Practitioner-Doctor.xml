@@ -6,7 +6,11 @@
     <text>
         <status value="generated" />
         <div xmlns="http://www.w3.org/1999/xhtml">Dr Sally Foster (GMC: 9830222)</div>
-    </text> 	
+    </text>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/upn-identifier" />
+		<value value="sally.foster@wales.nhs.uk" />
+	</identifier> 	
 	<identifier>
 		<system value="https://fhir.hl7.org.uk/Id/gmc-number" />
 		<value value="9830222" />

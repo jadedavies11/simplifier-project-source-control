@@ -23,16 +23,16 @@
       {{tree:Example-ObservationResult-FBCWBC}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:ObservationResult/Example-ObservationResult-FBCWBC}}
+      {{table:Example-ObservationResult-FBCWBC}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:ObservationResult/Example-ObservationResult-FBCWBC}}
+      {{xml:Example-ObservationResult-FBCWBC}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:ObservationResult/Example-ObservationResult-FBCWBC}}
+      {{json:Example-ObservationResult-FBCWBC}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:ObservationResult/Example-ObservationResult-FBCWBC}}
+      {{narrative:Example-ObservationResult-FBCWBC}}
     </div>  
   </div>
 </div>

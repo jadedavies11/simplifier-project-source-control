@@ -44,16 +44,16 @@
     </coding>
   </category>
   <subject>
-    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames"/>
+    <reference value="Patient/Example-Patient-HaroldJames"/>
     <display value="JAMES, Harold A, Mr"/>
   </subject>
   <date value="2025-07-22T11:20:17+00:00"/>
   <author>
-    <reference value="Organization/Example-DataStandardsWales-Organization-MedicalInsurer"/>
+    <reference value="Organization/Example-Organization-MedicalInsurer"/>
     <display value="Star Value Medical Insurance Ltd"/>
   </author>
   <custodian>
-    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
+    <reference value="Organization/Example-Organization-HDUHB"/>
     <display value="Hywel Dda University Health Board"/>
   </custodian>
   <description value="Insurance certificate covering surgical treatment"/>
@@ -67,7 +67,7 @@
   <content>
     <attachment>
       <contentType value="application/pdf"/>
-      <language value="eng"/>
+      <language value="en"/>
       <url value="https://www.example.com/documentref1234"/>
     </attachment>
   </content>

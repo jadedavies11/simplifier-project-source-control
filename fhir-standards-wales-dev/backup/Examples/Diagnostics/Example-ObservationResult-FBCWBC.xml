@@ -59,7 +59,7 @@
     <text value="White blood cell (WBC) count" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <valueQuantity>

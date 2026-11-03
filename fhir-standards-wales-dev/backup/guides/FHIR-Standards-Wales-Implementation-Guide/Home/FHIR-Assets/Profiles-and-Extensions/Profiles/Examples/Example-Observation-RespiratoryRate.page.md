@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Observation/Example-Observation-RespiratoryRate}}
+      {{tree:Example-Observation-RespiratoryRate}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-Observation-RespiratoryRate}}
+      {{table:Example-Observation-RespiratoryRate}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-Observation-RespiratoryRate}}
+      {{xml:Example-Observation-RespiratoryRate}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-Observation-RespiratoryRate}}
+      {{json:Example-Observation-RespiratoryRate}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-Observation-RespiratoryRate}}
+      {{narrative:Example-Observation-RespiratoryRate}}
     </div>  
   </div>
 </div>

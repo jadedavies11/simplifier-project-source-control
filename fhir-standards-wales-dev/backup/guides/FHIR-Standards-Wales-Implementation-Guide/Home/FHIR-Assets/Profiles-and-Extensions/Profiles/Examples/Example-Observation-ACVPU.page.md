@@ -26,13 +26,13 @@
       {{table:Example-Observation-ACVPU}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-Observation-ACVPU}}
+      {{xml:Example-Observation-ACVPU}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-Observation-ACVPU}}
+      {{json:Example-Observation-ACVPU}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-Observation-ACVPU}}
+      {{narrative:Example-Observation-ACVPU}}
     </div>  
   </div>
 </div>

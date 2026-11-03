@@ -2,11 +2,11 @@
 
 This example references the following example resources:
 * Allergies:
-  * {{pagelink:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy, text:Example AllergyIntolerance - No known allergies}}
+  * {{pagelink:Example-AllergyIntolerance-NoKnownAllergy, text:Example AllergyIntolerance - No known allergies}}
 
 * Subject, source and context:
-  * {{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}
-  * {{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
+  * {{pagelink:Example-Patient-AliceJones, text:Example Patient - Alice Jones}}
+  * {{pagelink:Example-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant)}}
 
 
 <div class="tab-wrap">

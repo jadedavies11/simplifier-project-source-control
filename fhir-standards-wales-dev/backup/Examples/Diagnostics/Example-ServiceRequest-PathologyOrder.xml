@@ -42,24 +42,24 @@
     <text value="Pathology order" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <authoredOn value="2021-11-10T09:47:09.283+00:00" />
   <requester>
-    <reference value="Practitioner/Example-DataStandardsWales-Practitioner-Consultant" />
+    <reference value="Practitioner/Example-Practitioner-Consultant" />
     <display value="..." />
   </requester>
   <specimen>
-    <reference value="Specimen/Example-DataStandardsWales-Specimen-Urine" />
+    <reference value="Specimen/Example-Specimen-Urine" />
     <display value="Plasma" />
   </specimen>
   <specimen>
-    <reference value="Specimen/Example-DataStandardsWales-Specimen-Blood" />
+    <reference value="Specimen/Example-Specimen-Blood" />
     <display value="Serum" />
   </specimen>
   <specimen>
-    <reference value="Specimen/Example-DataStandardsWales-Specimen-PlueralFluid" />
+    <reference value="Specimen/Example-Specimen-PlueralFluid" />
     <display value="Pleural fluid" />
   </specimen>
   <note>

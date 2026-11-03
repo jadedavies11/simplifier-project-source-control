@@ -19,7 +19,7 @@
     <value value="1000122" />
   </identifier>
   <basedOn>
-    <reference value="ServiceRequest/Example-DataStandardsWales-ServiceRequest-PathologyOrder-FBC" />
+    <reference value="ServiceRequest/Example-ServiceRequest-PathologyOrder-FBC" />
     <display value="Full blood count" />
   </basedOn>
   <status value="final" />
@@ -40,12 +40,12 @@
     <text value="Full blood count" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <issued value="2018-01-25T13:31:57+00:00" />
   <performer>
-    <reference value="Organization/Example-DataStandardsWales-Organization-BloodSciences" />
+    <reference value="Organization/Example-Organization-BloodSciences" />
     <identifier>
       <system value="https://fhir.nhs.wales/Id/wrrs-provider-department-identifier" />
       <value value="BSC" />
@@ -53,7 +53,7 @@
     <display value="Blood Sciences" />
   </performer>
   <performer>
-    <reference value="Organization/Example-DataStandardsWales-Organization-YsbytyGlangwili" />
+    <reference value="Organization/Example-Organization-YsbytyGlangwili" />
     <identifier>
       <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
       <value value="7A2AG" />
@@ -61,14 +61,14 @@
     <display value="Ysbyty Glangwili" />
   </performer>
   <resultsInterpreter>
-    <reference value="Organization/Example-DataStandardsWales-Organization-HywelDda" />
+    <reference value="Organization/Example-Organization-HywelDda" />
     <display value="Hywel Dda" />
   </resultsInterpreter>
   <specimen>
-    <reference value="Specimen/Example-DataStandardsWales-Specimen-Blood" />
+    <reference value="Specimen/Example-Specimen-Blood" />
   </specimen>
   <result>
-    <reference value="Observation/Example-DataStandardsWales-ObservationGroup-FBC" />
+    <reference value="Observation/Example-ObservationGroup-FBC" />
     <display value="Full blood count" />
   </result>
 </DiagnosticReport>

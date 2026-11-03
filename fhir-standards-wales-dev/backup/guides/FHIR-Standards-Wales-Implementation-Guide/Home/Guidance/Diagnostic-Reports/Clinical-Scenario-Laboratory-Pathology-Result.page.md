@@ -43,7 +43,7 @@ The diagram below shows the typical relationship between NHS Wales DiagnosticRep
 <div class="warning"><b>Important:</b> Single panel approach for Laboratory DiagnosticReports needs review and approval.</div>
 
 ### Example Result
-Click {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: here}} for an Example of a Diagnostic Report returning Pathology single panel Full Blood Count Blood Sciences result.
+Click {{pagelink:Example-DiagnosticReport-FBC, text: here}} for an Example of a Diagnostic Report returning Pathology single panel Full Blood Count Blood Sciences result.
 
 ## Scenario 2: Multiple Panel
 - Status: Final
@@ -59,4 +59,4 @@ The diagram below shows the typical relationship between NHS Wales DiagnosticRep
 {{render:d-logicalmodel-diagnosticreport-multiplepanel-ureaelectrolytes.drawio}}
 
 <br />
-Click {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: here}} for an Example of a Diagnostic Report returning Pathology multiple panel Blood Sciences result.
+Click {{pagelink:Example-DiagnosticReport-MultiplePanel, text: here}} for an Example of a Diagnostic Report returning Pathology multiple panel Blood Sciences result.

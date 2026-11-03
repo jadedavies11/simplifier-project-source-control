@@ -33,6 +33,6 @@ The diagram below shows the typical relationship between NHS Wales DiagnosticRep
 <br />
 
 ### Example Results
- - Click {{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: here}} for an example of a Diagnostic Report returning a CT Abdomen ImagingStudy reference.
- - Click {{pagelink:Example-DataStandardsWales-ImagingStudy-CTAbdomen, text: here}} for an example of the referenced ImagingStudy.
- - Click {{pagelink:Example-DataStandardsWales-Endpoint-Dicom, text: here}} for an example of the referenced FHIR Endpoint.
+ - Click {{pagelink:Example-DiagnosticReport-CTAbdomen, text: here}} for an example of a Diagnostic Report returning a CT Abdomen ImagingStudy reference.
+ - Click {{pagelink:Example-ImagingStudy-CTAbdomen, text: here}} for an example of the referenced ImagingStudy.
+ - Click {{pagelink:Example-Endpoint-Dicom, text: here}} for an example of the referenced FHIR Endpoint.

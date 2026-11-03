@@ -21,7 +21,7 @@
     <value value="1000182" />
   </identifier>
   <basedOn>
-    <reference value="ServiceRequest/Example-DataStandardsWales-ServiceRequest-ECG" />
+    <reference value="ServiceRequest/Example-ServiceRequest-ECG" />
     <display value="12 Lead ECG" />
   </basedOn>
   <status value="unknown" />
@@ -42,15 +42,15 @@
     <text value="Cardiology" />
   </code>
   <subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<reference value="Patient/Example-Patient-AliceJones" />
 		<display value="JONES, Alice (NHS: 9912003444)" />
   </subject>
   <encounter>
-    <reference value="Encounter/Example-DataStandardsWales-Encounter-EmergencyAdmission"/>
+    <reference value="Encounter/Example-Encounter-EmergencyAdmission"/>
   </encounter>
   <issued value="2018-04-01T11:11:11+01:00" />
   <performer>
-    <reference value="Organization/Example-DataStandardsWales-Organization-Cardiology" />
+    <reference value="Organization/Example-Organization-Cardiology" />
     <display value="Cardiology" />
   </performer>
   <presentedForm>
