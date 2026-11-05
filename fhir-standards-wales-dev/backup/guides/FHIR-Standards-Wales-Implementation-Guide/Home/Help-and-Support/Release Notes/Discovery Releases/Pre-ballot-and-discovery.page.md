@@ -46,12 +46,3 @@ Various profile drafts and fixes have been added.
 The initial draft of the Data Standards Wales FHIR Implementation Guide, and should be considered 'under construction'. It contains only the base FHIR 'people and places' administrative resources.
 
 This version is not intended for use, but is published for early comment and feedback.
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-7 card">
-            <h4><b><a href="https://simplifier.net/guide/wales-fhir-implementation-guide-version-history" alt="Wales FHIR Implementation GUide Version History" target="_blank">Wales FHIR Implementation Guide Version History</a></b></h4>
-            <p>Detailed description of the implementation guide changes</p>
-        </div>
-    </div>
-</div>
