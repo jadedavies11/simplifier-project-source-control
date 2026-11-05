@@ -1,22 +1,21 @@
+<div class="warning"><span class="ImplementWarn"></span></div>
 
 ### {{page-title}}
 
-This page describes the published versions of this implementation guide and differences between versions:
 
 <div class="tab-wrap">
   <ul class="tab-head">
-    <li class="tablink tab-active" data-tab="list2">2.0.0 Release Notes</li> 
+    <li class="tablink tab-active" data-tab="list2">2.0.0 Release Notes</li>
     <li class="tablink" data-tab="list1">1.0.0 Release Notes</li>
     <li class="tablink" data-tab="discovery">Discovery and Pre-ballot</li>
-  
-  
-  
+    <li class="tablink" data-tab="full">Release Notes</li>
   </ul>
   <div class="tab-main">
     <div id="list2" class="tabcontent active">{{page:Release-List-2.0.0}}</div>
     <div id="list1" class="tabcontent">{{page:Release-List-1.0.0}}</div>
     <div id="discovery" class="tabcontent">{{page:Release-List-0.0.1}}</div>
- </div>
+    <div id="full" class="tabcontent">{{page:List-of-all-Release-Notes}}</div>
+  </div>
 </div>
 
 <script>
