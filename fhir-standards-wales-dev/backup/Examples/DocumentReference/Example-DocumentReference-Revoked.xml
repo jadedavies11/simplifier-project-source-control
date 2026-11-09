@@ -57,16 +57,16 @@
     </coding>
   </category>
   <subject>
-    <reference value="Patient/Example-Patient-HaroldJames" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames" />
     <display value="JAMES, Harold A, Mr" />
   </subject>
   <date value="2025-08-26T12:14:59+00:00" />
   <author>
-    <reference value="Practitioner/Example-Practitioner-Nurse-EmilyMay"/>
+    <reference value="Practitioner/Example-DSW-Practitioner-Nurse-EmilyMay"/>
     <display value="MAY, Emily B, Ms (NMC:AB12345X)"/>
   </author>
   <custodian>
-    <reference value="Organization/Example-Organization-HDUHB" />
+    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
     <display value="Hywel Dda University Health Board" />
   </custodian>
   <description value="Future Care Planning Record of Agreed Best Interests Decisions" />
@@ -97,15 +97,15 @@
       </coding>
     </practiceSetting>
     <related>
-      <reference value="Organization/Example-Organization-HDUHB" />
+      <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
       <display value="Hywel Dda University Health Board" />
     </related>
     <related>
-      <reference value="Location/Example-Location-GGH" />
+      <reference value="Location/Example-DataStandardsWales-Location-GGH" />
       <display value="Glangwili General Hospital" />
     </related>
     <related>
-        <reference value="Practitioner/Example-Practitioner-Consultant-JoeBloggs"/>
+        <reference value="Practitioner/Example-DSW-Practitioner-Consultant-JoeBloggs"/>
         <display value="BLOGGS, Joe A, Dr (GMC:1234567)"/>
     </related>
   </context>
