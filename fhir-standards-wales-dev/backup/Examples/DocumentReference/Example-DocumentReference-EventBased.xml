@@ -46,7 +46,7 @@
     </extension>
     <extension url="party">
       <valueReference>
-        <reference value="PractitionerRole/Example-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
+        <reference value="PractitionerRole/Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
         <display value="BLOGGS, Joe A, Dr (GMC:1234567), Consultant Diabetologist for HDUHB"/>
       </valueReference>
     </extension>
@@ -80,20 +80,20 @@
     </coding>
   </category>
   <subject>
-    <reference value="Patient/Example-Patient-HaroldJames" />
+    <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames" />
     <display value="JAMES, Harold A, Mr" />
   </subject>
   <date value="2025-07-22T11:20:17+00:00" />
   <author>
-    <reference value="PractitionerRole/Example-PractitionerRole-Nurse-EmilyMay-HDUHB"/>
+    <reference value="PractitionerRole/Example-DSW-PractitionerRole-Nurse-EmilyMay-HDUHB"/>
     <display value="MAY, Emily B, Ms (NMC:AB12345X), Nurse for HDUHB"/>
   </author>
   <author>
-    <reference value="PractitionerRole/Example-PractitionerRole-Dietitian-JudeFrancis-HDUHB"/>
+    <reference value="PractitionerRole/Example-DSW-PractitionerRole-Dietitian-JudeFrancis-HDUHB"/>
     <display value="FRANCIS, Jude, Miss (HCPC:DT123456), Dietitian for HDUHB"/>
   </author>
   <custodian>
-    <reference value="Organization/Example-Organization-HDUHB" />
+    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
     <display value="Hywel Dda University Health Board" />
   </custodian>
   <description value="Diabetes Consultation Note" />
@@ -123,19 +123,19 @@
       </coding>
     </practiceSetting>
     <related>
-      <reference value="Organization/Example-Organization-HDUHB" />
+      <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
       <display value="Hywel Dda University Health Board" />
     </related>
     <related>
-      <reference value="Location/Example-Location-GGH" />
+      <reference value="Location/Example-DataStandardsWales-Location-GGH" />
       <display value="Glangwili General Hospital" />
     </related>
     <related>
-      <reference value="Location/Example-Location-GGH-OPD" />
+      <reference value="Location/Example-DataStandardsWales-Location-GGH-OPD" />
       <display value="Glangwili General Hospital Outpatients Department" />
     </related>
     <related>
-        <reference value="PractitionerRole/Example-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
+        <reference value="PractitionerRole/Example-DSW-PractitionerRole-Consultant-JoeBloggs-HDUHB"/>
         <display value="BLOGGS, Joe A, Dr (GMC:1234567), Consultant Diabetologist for HDUHB"/>
     </related>
   </context>
