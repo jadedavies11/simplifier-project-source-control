@@ -19,18 +19,18 @@
 		  </coding>
 		</code>
 		<subject>
-		  <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		  <reference value="Patient/Example-Patient-AliceJones" />
 		  <display value="JONES, Alice (NHS:9912003444)" />
 		</subject>
 		<focus>
-		  <reference value="RelatedPerson/Example-DataStandardsWales-RelatedPerson-Mother" />
+		  <reference value="RelatedPerson/Example-RelatedPerson-Mother" />
 		</focus>
 		<encounter>
-		  <reference value="Encounter/Example-DataStandardsWales-Encounter-OutpatientClinic"/>
+		  <reference value="Encounter/Example-Encounter-OutpatientClinic"/>
 		</encounter>
 		<effectiveDateTime value="2024-08-07T12:10:11Z"/>
 		<performer>
-		  <reference value="Practitioner/Example-DataStandardsWales-Practitioner-PaediatricNurse" />
+		  <reference value="Practitioner/Example-Practitioner-PaediatricNurse" />
 		  <display value="SMITH, John (NMC:14H8558P), Registered Nurse"/>
 		</performer>
 		<!-- Observation effective date -->

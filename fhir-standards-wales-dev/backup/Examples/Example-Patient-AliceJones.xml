@@ -40,7 +40,7 @@
 				<coding>
 					<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatusWales"/>
 					<code value="01"/>
-					<display value="Number present and traced"/>
+					<display value="Number present &amp; traced"/>
 				</coding>
 			</valueCodeableConcept>
 		</extension>
@@ -76,7 +76,7 @@
 		<system value="phone"/>
 		<value value="01446231234"/>
 	</telecom>
-	<gender value="female"/>
+	<gender value="Female"/>
 	<birthDate value="1980-09-13"/>
 	<address>
 		<line value="14 Western Way"/>
@@ -93,7 +93,7 @@
 	<communication>
 		<language>
 			<coding>
-				<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-HumanLanguage"/>
+				<system value="urn:ietf:bcp:47"/>
 				<code value="cy"/>
 				<display value="Welsh"/>
 			</coding>
@@ -103,7 +103,7 @@
 	<communication>
 		<language>
 			<coding>
-				<system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-HumanLanguage"/>
+				<system value="urn:ietf:bcp:47"/>
 				<code value="en"/>
 				<display value="English"/>
 			</coding>

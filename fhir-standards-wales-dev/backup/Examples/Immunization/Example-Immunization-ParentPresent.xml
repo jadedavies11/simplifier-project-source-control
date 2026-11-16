@@ -24,11 +24,11 @@
 		</coding>
 	</vaccineCode>
 	<patient>
-		<reference value="Patient/Example-DataStandardsWales-BabyPatient" />
+		<reference value="Patient/Example-BabyPatient" />
 		<display value="BABY, Jake (NHS:9912003448)" />
 	</patient>
 	<encounter>
-		<reference value="Encounter/Example-DataStandardsWales-GPAppointment" />
+		<reference value="Encounter/Example-GPAppointment" />
 	</encounter>
 	<occurrenceDateTime value="2024-07-29" />
 	<lotNumber value="ABXB40AA" />

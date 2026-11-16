@@ -19,16 +19,16 @@
 		</coding>
 	</code>
     <subject>
-        <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper" />
+        <reference value="Patient/Example-Patient-PeterPiper" />
         <display value="PIPER, Peter (NHS: 1192335566)" />
     </subject>
 	<effectiveDateTime value="2018-10-04T14:17:59+01:00" />
 	<performer>
-		<reference value="Performer/Example-DataStandardsWales-Practitioner-Doctor" />
+		<reference value="Performer/Example-Practitioner-Doctor" />
 		<display value="Dr Sally Foster (GMC: 9830222)" />
 	</performer>
 	<performer>
-		<reference value="Organization/Example-DataStandardsWales-Organization-GGH" />
+		<reference value="Organization/Example-Organization-GGH" />
 		<display value="Glangwili General Hospital" />		
 	</performer>
 	<valueCodeableConcept>

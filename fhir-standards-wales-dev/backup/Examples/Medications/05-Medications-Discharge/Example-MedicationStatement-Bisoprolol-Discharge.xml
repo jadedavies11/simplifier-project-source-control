@@ -24,7 +24,7 @@
         <text value="Bisoprolol 1.25mg tablets"/>
     </medicationCodeableConcept>
     <subject>
-        <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper"/>
+        <reference value="Patient/Example-Patient-PeterPiper"/>
         <display value="PIPER, Peter (NHS: 1192335566)"/>
     </subject>
     <context>

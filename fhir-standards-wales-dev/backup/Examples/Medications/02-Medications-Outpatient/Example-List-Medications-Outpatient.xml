@@ -10,7 +10,7 @@
         </coding>
     </code>
     <subject>
-        <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper" />
+        <reference value="Patient/Example-Patient-PeterPiper" />
         <display value="PIPER, Peter (NHS: 1192335566)" />
     </subject>
     <encounter>
@@ -24,7 +24,7 @@
     </source>   
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Enbrel-Outpatient" />
+            <reference value="MedicationStatement/Example-MedicationStatement-Enbrel-Outpatient" />
             <display value="Enbrel 50mg/1ml solution for injection pre-filled syringes (Pfizer Ltd) - Inject 50mg subcutaneously once a week" />
         </item>
     </entry>

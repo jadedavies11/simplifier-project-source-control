@@ -52,7 +52,7 @@
         <system value="phone" />
         <value value="01446231234" />
     </telecom>
-    <gender value="male" />
+    <gender value="Male" />
     <birthDate value="1965-10-10" />
     <address>
         <line value="36 Ely Street"/>
@@ -64,7 +64,7 @@
     <communication>
         <language>
             <coding>
-                <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-HumanLanguage" />
+                <system value="urn:ietf:bcp:47" />
                 <code value="en" />
                 <display value="English" />
             </coding>

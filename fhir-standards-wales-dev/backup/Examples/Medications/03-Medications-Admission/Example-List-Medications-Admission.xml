@@ -12,7 +12,7 @@
         </coding>
     </code>
     <subject>
-        <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper"/>
+        <reference value="Patient/Example-Patient-PeterPiper"/>
         <display value="PIPER, Peter (NHS: 1192335566)"/>
     </subject>
     <encounter>
@@ -28,75 +28,75 @@
     <!-- From GP meds list -->
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Bendroflumethiazide-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Bendroflumethiazide-GP"/>
             <display value="Bendroflumethiazide 2.5mg tablets - 1 tablet every morning"/>
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Bisoprolol-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Bisoprolol-GP"/>
             <display value="Bisoprolol 1.25mg tablets - 1 tablet every morning"/>
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Nifedipress-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Nifedipress-GP"/>
             <display value="Nifedipress MR 20mg tablet 1 tablet twice a day"/>
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Ramipril-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Ramipril-GP"/>
             <display value="Ramipril 2.5mg tablet - 1 tablet in the morning"/>
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Atorvastatin-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Atorvastatin-GP"/>
             <display value="Atorvastatin 20mg tablet - 1 tablet at night"/>
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-DurogesicDTrans-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-DurogesicDTrans-GP"/>
             <display value="Durogesic DTrans 25 micrograms/hour transdermal patches - Apply one patch every 72 hours"/>
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Hydrocortisone-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Hydrocortisone-GP"/>
             <display value="Hydrocortisone 1% Cream - Apply to the affected area twice a day"/>
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Latanoprost-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Latanoprost-GP"/>
             <display value="Latanoprost 50micrograms/ml eye drops 0.2ml unit dose preservative free - Instil one drop into the left eye at night"/>
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Amoxicillin-GP"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Amoxicillin-GP"/>
             <display value="Amoxicillin 500mg capsules, one capsule three times a day for 7 days"/>
         </item>
     </entry>
     <!-- From Outpatient meds list -->
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Enbrel-Outpatient" />
+            <reference value="MedicationStatement/Example-MedicationStatement-Enbrel-Outpatient" />
             <display value="Enbrel 50mg/1ml solution for injection pre-filled syringes (Pfizer Ltd) - Inject 50mg subcutaneously once a week" />
         </item>
     </entry>
     <!-- Recorded on admission from information provided by patient -->
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Ibuprofen-Patient"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Ibuprofen-Patient"/>
             <display value="Ibuprofen 200mg tablets, 2-3 tablets three times a day" />
         </item>
     </entry>
     <entry>
         <item>
-            <reference value="MedicationStatement/Example-DataStandardsWales-MedicationStatement-Paracetamol-Patient"/>
+            <reference value="MedicationStatement/Example-MedicationStatement-Paracetamol-Patient"/>
             <display value="Paracetamol 500mg tablets 2 tablets four times a day"/>
         </item>
     </entry>

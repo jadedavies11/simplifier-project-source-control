@@ -21,12 +21,12 @@
     </coding>
   </vaccineCode>
   <patient>
-    <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+    <reference value="Patient/Example-Patient-AliceJones" />
     <display value="JONES, Alice (NHS:9912003444)" />
   </patient>
   <occurrenceDateTime value="2024-07-10" />
   <location>
-    <reference value="Location/Example-DataStandardsWales-Location-CadogWard" />
+    <reference value="Location/Example-Location-CadogWard" />
     <display value="Cadog Ward (Glangwili General Hospital)" />
   </location>
   <site>
@@ -58,7 +58,7 @@
       </coding>
     </function>
     <actor>
-      <reference value="Practitioner/Example-DataStandardsWales-Practitioner-PrescribingNurse" />
+      <reference value="Practitioner/Example-Practitioner-PrescribingNurse" />
 	  <type value="Practitioner" />
     </actor>
   </performer>
