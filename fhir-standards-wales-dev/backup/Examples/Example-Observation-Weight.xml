@@ -24,12 +24,12 @@
 		</coding>
 	</code>
     <subject>
-        <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper" />
+        <reference value="Patient/Example-Patient-PeterPiper" />
         <display value="PIPER, Peter (NHS: 1192335566)" />
     </subject>
 	<effectiveDateTime value="2022-10-11T14:17:59+01:00" />
 	<performer>
-		<reference value="Performer/Example-DataStandardsWales-Practitioner-PrescribingNurse" />
+		<reference value="Performer/Example-Practitioner-PrescribingNurse" />
 	</performer>
 	<valueQuantity>
 		<value value="65" />

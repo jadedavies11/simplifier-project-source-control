@@ -13,7 +13,7 @@
                 <coding>
                     <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatusWales"/>
                     <code value="01"/>
-                    <display value="Number present and traced"/>
+                    <display value="Number present &amp; traced"/>
                 </coding>
             </valueCodeableConcept>
         </extension>
@@ -24,7 +24,7 @@
         <family value="Piper" />
         <given value="Peter" />
     </name>
-    <gender value="male" />
+    <gender value="Male" />
     <birthDate value="1981-07-03" />
     <address>
         <line value="14 Semore View" />
