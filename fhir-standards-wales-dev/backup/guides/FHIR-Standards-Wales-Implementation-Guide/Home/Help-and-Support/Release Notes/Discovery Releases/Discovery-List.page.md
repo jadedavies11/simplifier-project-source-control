@@ -4,4 +4,3 @@
 <ul>
 <li>{{pagelink:Pre-ballot-and-discovery, text: Pre-ballot and discovery}}</li>
 </ul>
-</div>
