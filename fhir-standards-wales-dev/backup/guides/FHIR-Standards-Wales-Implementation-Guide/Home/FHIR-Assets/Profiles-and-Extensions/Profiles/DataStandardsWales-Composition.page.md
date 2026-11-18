@@ -33,7 +33,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
       <list>
-      <li> Currently under development</li>
+      <li>{{pagelink:Example-Composition-LabReport-Final, text: Composition Final Laboratory Report}}</li>
     </list>
   </div>
 </div>

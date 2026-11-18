@@ -2,7 +2,15 @@
 
 ## {{page-title}}
 
-The following examples are published with this guide and all available as a downloadable zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
+The following examples are published with this guide and all are available as a downloadable zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
+
+Each of these examples illustrate a valid payload of data within the structure of a single Data Standards Wales FHIR Profile. They are intended to provide a point of comparison to your own testing data, or for use within testing, either to quickly fill out a submission to a FHIR Server, or as contents for a server to be queried.
+
+Please note that these examples are for illustrative purposes only and will not be suitable for every use case without additional tailoring. Each FHIR server has specific features, made explicit within its CapabilityStatement, which these examples may not support. In particular, whilst these examples feature all mandatory and must support data elements, data is not supplied for every other possible element of a profile. Both validations and operations may fail in target FHIR servers without supporting data in the submission.
+
+Additionally, these examples are illustrative content for individual resources. In order to interact with a FHIR server, including the national Care Data Repository or the NHS Wales Ontology Server, it is necessary to send these resources in a valid transaction paradigm. Options include RESTful API calls, FHIR messaging, or Document or Service based approaches. The following examples - and this guide as a whole - make no provision for the specific transaction paradigms of a particular FHIR Server. 
+
+For modifications to these examples, or support with additional examples and test scenarios, please contact {{pagelink:Help-and-Support, text:the FHIR Standards Development Team}} directly.
 
 ### Appointment Examples
 * {{pagelink:Example-Appointment-GenSurgery, text:Example Appointment - General Surgery}}
@@ -33,6 +41,9 @@ The following examples are published with this guide and all available as a down
 
 ### Audit Event Examples
 * {{pagelink:Example-AuditEvent-CreateObservations, text: Example Audit Event - Create Observations}}
+
+### Composition Examples
+* {{pagelink:Example-Composition-LabReport-Final, text: Composition Final Laboratory Report}}
 
 ### Device Examples
 * {{pagelink:Example-Device-CDRcomponent, text:Example Device - CDR Component}}

@@ -11,6 +11,8 @@ Misfiling is a two-step process followed when a user identifies that a document 
 
 The key metadata associated with misfiling are **who** (the user), **when** (the timestamp) and **why** (reason text at each step of the workflow). These details are stored in a {{pagelink:DataStandardsWales-Task,text:Task}} resource with a `code` of “review-document-misfile” and an `intent` of “proposal”.  The `code` and `intent` elements are fixed values throughout the misfile workflow.
 
+It is not expected that systems will necessarily submit all the following FHIR profiles directly. Task and Provenance resources, for example, may be created as artefacts within a FHIR server following submission of certain data items. They are included below as they may be queried by the sending system following successful completion of an operation. Please ensure that you have queried the Capability Statement of your target FHIR Server or Client for a statement of actual server functionality or a statement of required or desired server implementation.
+
 **At Step 1** the new Task has a `status` of “requested “ and the other metadata are captured in the Task as follows:
 - `focus` is the applicable DocumentReference
 - `requester` is the user that requested the misfile

@@ -424,7 +424,7 @@ span.url {
 }
 
 .ClinicalWarn:after {
-  content: "Clinical examples are provided for illustrative purposes only.  Implementers should use the examples as a starting point only, referring to the resource definition to adapt the examples for their specific scenarios.";
+  content: "Clinical examples are provided for illustrative purposes only. All examples should be used in conjunction with the relevant use case information provided. Implementers should use the examples as a starting point only, referring to the resource definition to adapt the examples for their specific scenarios.";
   color: black
 }
 
