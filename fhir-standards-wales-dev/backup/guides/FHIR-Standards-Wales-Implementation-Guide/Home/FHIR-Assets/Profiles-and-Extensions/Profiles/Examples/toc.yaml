@@ -12,6 +12,8 @@
   filename: Example-Bundle-ClinicianSubmit-Literal.page.md
 - name: Example-Bundle-ClinicianSubmit-Logical
   filename: Example-Bundle-ClinicianSubmit-Logical.page.md
+- name: Example-Composition-LabReport-Final
+  filename: Example-Composition-LabReport-Final.page.md  
 - name: Example-Device-CDRcomponent
   filename: Example-Device-CDRcomponent.page.md
 - name: Example-Device-WPAS

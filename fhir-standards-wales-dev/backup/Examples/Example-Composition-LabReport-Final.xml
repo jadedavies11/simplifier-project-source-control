@@ -1,0 +1,71 @@
+<Observation xmlns="http://hl7.org/fhir">
+	<id value="Example-Composition-LabReport-Final"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Composition"/>
+		<security>
+			<system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
+			<code value="N"/>
+			<display value="Normal"/>
+		</security>
+	</meta>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">Final Laboratory Report</div>
+	</text>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/lims-tcle-identifier"/>
+		<value value="5200208053-S-Surgical Histology"/>
+	</identifier>
+	<status value="final"/>
+  <type>
+    	<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="4241000179101"/>
+			<display value="Laboratory report"/>
+		</coding>
+  </type>
+	<category>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="371525003"/>
+			<display value="Clinical procedure report"/>
+		</coding>
+	</category>
+	<subject>
+		<reference value="Patient/Example-Patient-BerianWang"/>
+	</subject>
+	<encounter>
+		<reference value="Encounter/Example-Encounter-HeartFailureTeam"/>
+	</encounter>
+	<date value="2026-10-28T14:51:28.275615Z"/>
+	<author>
+    <reference value='Device/Example-Device-CDR-DiagnosticProcessor'/>
+	</author>
+	<title value="Laboratory Report"/>
+	<section>
+		<entry>
+			<reference value="Observation/Example-Observation-SurgicalHistology"/>
+		</entry>
+		<entry>
+			<reference value="ServiceRequest/Example-ServiceRequest-SurgicalHistology"/>
+		</entry>
+		<entry>
+			<reference value="Observation/Example-Observation-Macroscopy"/>
+		</entry>
+		<entry>
+			<reference value="Observation/Example-Observation-Microscopy"/>
+		</entry>
+		<entry>
+			<reference value="PractitionerRole/Example-PractitionerRole-Pathologist"/>
+		</entry>
+		<entry>
+			<reference value="Observation/Example-Observation-TestInterpretation"/>
+		</entry>
+		<entry>
+			<reference value="DiagnosticReport/Example-DiagnosticReport-CellularPathology"/>
+		</entry>
+		<entry>
+			<reference value="Specimen/Example-Specimen-BreastBiopsy"/>
+		</entry>
+	</section>
+</Observation>

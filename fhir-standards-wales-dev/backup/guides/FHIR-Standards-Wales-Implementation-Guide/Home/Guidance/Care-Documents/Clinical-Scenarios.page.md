@@ -54,6 +54,8 @@ The diagram below shows how the FHIR resources work together to provide the meta
 <br />
 
 ## Examples
+These examples make no assumptions about the behaviours of a given FHIR Server or Client in response to a given operation, including sending or querying. Whilst they feature all mandatory and must support data elements, data is not supplied for every other possible element of a profile. Not all operations will require the use of all of the example FHIR profiles and data items provided.
+
 ### DocumentReference
 The following examples represent DocumentReference resources for the three scenarios outlined in the preceding sections including an earlier document referenced from the third example:
 * {{pagelink:Example-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}

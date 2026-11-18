@@ -29,6 +29,13 @@
 
 *The scope of this guidance is the storage of metadata for documents related to the care of individual patients as part of their individual health care records.*
 
+## Context of Use
+These examples represent a logical data model of Care Documents within the national architecture. They are NOT a physical data model, and make no assumptions about the behaviours of a given FHIR Server or Client in response to a given operation, including sending or querying. Please ensure that you have queried the Capability Statement of your target FHIR Server or Client for a statement of actual server functionality or a statement of required or desired server implementation.
+
+The elements of this logical data model which are illustrated by examples include valid payloads of data within Data Standards Wales FHIR Profiles. They are intended to provide a point of comparison to your own testing data, or for use within testing, either to quickly fill out a submission to a FHIR Server, or as contents for a server to be queried. Whilst these examples feature all mandatory and must support data elements, data is not supplied for every other possible element of a profile. Both validations and operations may fail in target FHIR servers without supporting data in the submission.
+
+Not all operations will require the use of all of the example FHIR profiles and data items provided. For modifications to these examples, or support with additional examples and test scenarios, please contact {{pagelink:Help-and-Support, text:the FHIR Standards Development Team}} directly.
+
 ## Data Model Overview
 This section of the guidance illustrates how a currently valid care document may be represented by resources within a FHIR datastore, including any Provenance resources generated for the document submission at the point of insertion. It does not cover any additional resource instances associated with documents considered to be invalid or untrustworthy.  See the [Document Error Workflow](#document-error-workflow) section below for details.
 
