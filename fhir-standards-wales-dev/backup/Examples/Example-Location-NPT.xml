@@ -64,7 +64,7 @@
 		</coding>
 	</physicalType>
 	<managingOrganization>
-		<reference value="Organization/Example-DataStandardsWales-Organization-NPT"/>
+		<reference value="Organization/Example-Organization-NPT"/>
 		<display value="Neath Port Talbot Hospital"/>
 	</managingOrganization>
 </Location>

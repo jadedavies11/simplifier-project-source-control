@@ -23,12 +23,12 @@
           <endpoint value="https://example-admin-endpoint.com" />
         </source>
         <responsible>
-          <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB" />
+          <reference value="Organization/Example-Organization-SBUHB" />
           <type value="Organization" />
           <display value="Swansea Bay University Health Board" />
         </responsible>
         <focus>
-          <reference value="Practitioner/Example-DataStandardsWales-Practitioner-Consultant" />
+          <reference value="Practitioner/Example-Practitioner-Consultant" />
           <type value="Practitioner" />
           <display value="Dr Dhiren Patel (GMC: 9630333)" />
         </focus>
@@ -38,7 +38,7 @@
           <display value="SBUHB - Dr Dhiren Patel (GMC: 9630333)" />
         </focus>
         <focus>
-          <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB" />
+          <reference value="Organization/Example-Organization-SBUHB" />
           <type value="Organization" />
           <display value="Swansea Bay University Health Board" />
         </focus>
@@ -54,11 +54,11 @@
           <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
         </meta>
         <practitioner>
-          <reference value="Practitioner/Example-DataStandardsWales-Practitioner-Consultant" />
+          <reference value="Practitioner/Example-Practitioner-Consultant" />
           <display value="Dr Dhiren Patel (GMC: 9630333)" />
         </practitioner>
         <organization>
-          <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB" />
+          <reference value="Organization/Example-Organization-SBUHB" />
           <display value="Swansea Bay University Health Board" />
         </organization>
         <code>

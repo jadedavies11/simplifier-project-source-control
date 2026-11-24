@@ -119,7 +119,7 @@
 		</country>
 	</address>
 	<partOf>
-		<reference value="Organization/Example-DataStandardsWales-Organization-SBUHB"/>
+		<reference value="Organization/Example-Organization-SBUHB"/>
 		<display value="Swansea Bay University Local Health Board"/>
 	</partOf>
 </Organization>

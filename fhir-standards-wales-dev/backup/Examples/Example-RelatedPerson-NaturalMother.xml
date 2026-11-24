@@ -5,7 +5,7 @@
 		</meta>
 	<active value="true"/> 
 	<patient>
-		<reference value="Patient/Example-DataStandardsWales-Patient-PaediatricPatient" />
+		<reference value="Patient/Example-Patient-PaediatricPatient" />
 	</patient>
 	<relationship> 
 		<coding> 

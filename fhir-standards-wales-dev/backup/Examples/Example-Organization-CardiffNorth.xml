@@ -47,7 +47,7 @@
 	</type>
 	<name value="Cardiff North"/>
 	<partOf>
-		<reference value="Organization/Example-DataStandardsWales-Organization-CAVUHB"/>
+		<reference value="Organization/Example-Organization-CAVUHB"/>
 		<display value="Cardiff and Vale University Local Health Board"/>
 	</partOf>
 </Organization>

@@ -33,7 +33,7 @@
 		</coding>
 	</physicalType>
 	<managingOrganization>
-		<reference value="Organization/Example-DataStandardsWales-Organization-NPT"/>
+		<reference value="Organization/Example-Organization-NPT"/>
 		<identifier>
 			<system value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier"/>
 			<value value="6013-example"/>
@@ -41,7 +41,7 @@
 		<display value="Neath Port Talbot Hospital"/>
 	</managingOrganization>
     <partOf>
-        <reference value="Location/Example-DataStandardsWales-Location-NPT" />
+        <reference value="Location/Example-Location-NPT" />
         <display value="Neath Port Talbot Hospital" />
 	</partOf>
 </Location>

@@ -3,17 +3,17 @@
 		<meta>
 			<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse"/>
 		</meta>
-	<questionnaire value="Example-DataStandardsWales-Questionnaire-GrowthChartCondition"/>
+	<questionnaire value="Example-Questionnaire-GrowthChartCondition"/>
 	<status value="completed" />
 	<subject>
-		<reference value="Patient/Example-DataStandardsWales-Patient-PaediatricPatient"/>
+		<reference value="Patient/Example-Patient-PaediatricPatient"/>
 	</subject>
 	<encounter>
-		<reference value="Encounter/Example-DataStandardsWales-Encounter-OutpatientClinic"/>
+		<reference value="Encounter/Example-Encounter-OutpatientClinic"/>
 	</encounter>
 	<authored value="2024-08-07T12:10:11Z"/>
 	<author>
-		<reference value="Practitioner/Example-DataStandardsWales-Practitioner-PaediatricNurse"/>
+		<reference value="Practitioner/Example-Practitioner-PaediatricNurse"/>
 		<display value="SMITH, John (NMC:14H8558P), Registered Nurse"/>
 	</author>
 	<item>

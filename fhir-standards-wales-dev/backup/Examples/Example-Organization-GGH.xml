@@ -5,7 +5,7 @@
 	</meta>
 	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MainLocation">
 		<valueReference>
-			<reference value="Location/Example-DataStandardsWales-Location-GGH"/>
+			<reference value="Location/Example-Location-GGH"/>
 			<display value="Glangwili General Hospital"/>
 		</valueReference>
 	</extension>
@@ -122,7 +122,7 @@
 		</country>
 	</address>
 	<partOf>
-		<reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
+		<reference value="Organization/Example-Organization-HDUHB"/>
 		<display value="Hywel Dda University Local Health Board"/>
 	</partOf>
 </Organization>

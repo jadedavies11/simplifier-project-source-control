@@ -30,7 +30,7 @@
     </agent>
     <source>
 		<observer>
-			<reference value="Device/Example-DataStandardsWales-Device-WPAS"/>
+			<reference value="Device/Example-Device-WPAS"/>
 		</observer>
 		<type>
 			    <system value="http://terminology.hl7.org/CodeSystem/security-source-type"/>

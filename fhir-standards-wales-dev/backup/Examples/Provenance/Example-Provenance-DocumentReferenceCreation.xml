@@ -4,7 +4,7 @@
 		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance"/>
 	</meta>
 	<target>
-		<reference value="DocumentReference/Example-DataStandardsWales-DocumentReference/_history/1"/>
+		<reference value="DocumentReference/Example-DocumentReference/_history/1"/>
 	</target>
 	<recorded value="2025-07-22T11:20:17+00:00" />
 	<activity>
@@ -23,7 +23,7 @@
 			</coding>
 		</type>
 		<who>
-			<reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-MedicalSecretary-LesleyWebb" />
+			<reference value="PractitionerRole/Example-PractitionerRole-MedicalSecretary-LesleyWebb" />
 			<display value="WEBB Lesley, Ms (NADEX:Le123456)" />
 		</who>
 	</agent>
@@ -36,7 +36,7 @@
 			</coding>
 		</type>
 		<who>
-			<reference value="Device/Example-DataStandardsWales-Device-WCP"/>
+			<reference value="Device/Example-Device-WCP"/>
 			<display value="Welsh Clinical Portal"/>
 		</who>
 	</agent>
@@ -49,7 +49,7 @@
 			</coding>
 		</type>
 		<who>
-			<reference value="Device/Example-DataStandardsWales-Device-CDRcomponentDocs"/>
+			<reference value="Device/Example-Device-CDRcomponentDocs"/>
 			<display value="DocumentReference FHIR engine (CDR)"/>
 		</who>
 	</agent>
