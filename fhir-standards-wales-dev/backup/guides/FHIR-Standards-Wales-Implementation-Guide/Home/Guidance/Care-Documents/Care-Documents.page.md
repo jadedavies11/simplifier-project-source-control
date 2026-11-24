@@ -1,6 +1,7 @@
 # Care Documents
 <div style="float:right;border:1px;border-style:solid;padding:10px;margin:10px;width:300px;">
 
+  - [Context of Use](#context-of-use)
   - [Data Model Overview](#data-model-overview)
   - [FHIR Resources](#fhir-resources)
     * [Device](#device)
@@ -30,7 +31,7 @@
 *The scope of this guidance is the storage of metadata for documents related to the care of individual patients as part of their individual health care records.*
 
 ## Context of Use
-These examples represent a logical data model of Care Documents within the national architecture. They are NOT a physical data model, and make no assumptions about the behaviours of a given FHIR Server or Client in response to a given operation, including sending or querying. Please ensure that you have queried the Capability Statement of your target FHIR Server or Client for a statement of actual server functionality or a statement of required or desired server implementation.
+This guidance covers the logical representation of care documents within the national architecture. It makes no assumptions about the behaviours of a given FHIR Server or Client in response to a given operation, including sending or querying. Please ensure that you have queried the Capability Statement of your target FHIR Server or Client for a statement of actual server functionality or a statement of required or desired server implementation.
 
 The elements of this logical data model which are illustrated by examples include valid payloads of data within Data Standards Wales FHIR Profiles. They are intended to provide a point of comparison to your own testing data, or for use within testing, either to quickly fill out a submission to a FHIR Server, or as contents for a server to be queried. Whilst these examples feature all mandatory and must support data elements, data is not supplied for every other possible element of a profile. Both validations and operations may fail in target FHIR servers without supporting data in the submission.
 
@@ -54,6 +55,7 @@ The FHIR data model consists of the following resources:
 * {{pagelink:DataStandardsWales-PractitionerRole,text:PractitionerRole}}
 * {{pagelink:DataStandardsWales-Provenance,text:Provenance}}
 * {{pagelink:DataStandardsWales-RelatedPerson,text:RelatedPerson}}
+* {{pagelink:DataStandardsWales-Task,text:Task}}
 <br />
 {{render:Diagrams-Document-metadata-maximal-logical-model}}
 <br />
@@ -88,11 +90,14 @@ The Practitioner resource carries details of the individual staff member, irresp
 Ideally the staff involved with the document as author, authenticator, committer or senior responsible clinician can be referenced via a PractitionerRole resource instance. This facilitates access to richer contextual data than if the Practitioner resource is directly referenced.
 
 ### Provenance
-The Provenance resource provides an audit trail of when a specific document version was committed and by whom. If patient demographics are also submitted, these are captured in an additional Provenance instance that specifically captures demographics as recorded, to support retrospective analysis. See the dedicated guidance page for clarification of the purpose and use of the Provenance resource:
+The Provenance resource provides an audit trail of when a specific document version was committed or deprecated and by whom. If patient demographics are also submitted, these are captured in an additional Provenance instance that specifically captures demographics as recorded, to support retrospective analysis. See the dedicated guidance page for clarification of the purpose and use of the Provenance resource:
 * {{pagelink:Home/Guidance/Provenance/Index.page.md, text: Provenance Guidance}}
 
 ### RelatedPerson
 A RelatedPerson resource may be referenced in the role of document committer or author. 
+
+### Task
+The Task resource is used to support the workflow for requesting a document misfile and reviewing (accepting or rejecting) a potential misfile. The circumstances of Task creation and update and the resulting relationships are described in the [Document Error Workflow](#document-error-workflow) section.
 
 ## Supporting Legacy Metadata
 Legacy care documents may have associated metadata that are not explicitly covered by the formal content of the DocumentReference or its related resources. In order to avoid data loss on migration, and to support continued acces to the data in the transition phase, these document attributes will be stored as `meta.tag` elements.  Each will have a `.system` value that uniquely identifies the `.display` value within the tag.  For reasons of continuity, the system value will be constructed using the same approach as the SOLR software that continues to contribute to the transition architecture. For example:

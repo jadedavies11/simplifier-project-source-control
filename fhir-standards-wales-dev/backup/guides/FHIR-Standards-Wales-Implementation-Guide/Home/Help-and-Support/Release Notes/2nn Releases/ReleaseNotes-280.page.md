@@ -83,8 +83,9 @@ Guide:
 * Added new pages to outline the Extensions created in this release
 * Added new pages to outline the Value Sets created in this release
 * Restructured and extended scope of Release Notes
+* Updated Care Documents guidance to clarify use cases
 * Updated Example Index with amended example links, new examples, and additional warnings regarding use.
 * Update Guide pages with amended example links
 * Updated Profile pages with amended example links
-* Updated Care Documents guidance to clarify use cases.
+* Updated Naming Convention Guidance page to reflect the changes to Example names
 * Updated Version Control and Ballot Process page with current status definitions

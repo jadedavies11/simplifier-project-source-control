@@ -109,7 +109,7 @@
 		</coding>
 	</physicalType>
 	<managingOrganization>
-		<reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe"/>
+		<reference value="Organization/Example-Organization-AmmanTawe"/>
 		<display value="Amman Tawe Partnership"/>
 	</managingOrganization>
 </Location>

@@ -9,11 +9,11 @@
     </identifier>
     <active value="true"/>
 	<organization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanGwendraeth" />
+        <reference value="Organization/Example-Organization-AmmanGwendraeth" />
         <display value="Amman Gwendraeth Cluster" />
     </organization>
 	<participatingOrganization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-AmmanTawe" />
+        <reference value="Organization/Example-Organization-AmmanTawe" />
         <display value="Amman Tawe Partnership" />
     </participatingOrganization>
 	<code>
@@ -24,15 +24,15 @@
 		</coding>
     </code>
 	<location>
-        <reference value="Location/Example-DataStandardsWales-Location-MeddygfaCwmamman" />
+        <reference value="Location/Example-Location-MeddygfaCwmamman" />
         <display value="Meddygfa Cwmamman" />
     </location>
 	<location>
-        <reference value="Location/Example-DataStandardsWales-Location-BrynammanCommunity" />
+        <reference value="Location/Example-Location-BrynammanCommunity" />
         <display value="Brynamman Community" />
     </location>
 	<location>
-        <reference value="Location/Example-DataStandardsWales-Location-AmmanTawePartnership" />
+        <reference value="Location/Example-Location-AmmanTawePartnership" />
         <display value="Amman Tawe Partnership" />
     </location>
 </OrganizationAffiliation>

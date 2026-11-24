@@ -9,11 +9,11 @@
     </identifier>
     <active value="true"/>
 	<organization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-Region-SouthCentral" />
+        <reference value="Organization/Example-Organization-Region-SouthCentral" />
         <display value="South Central Wales Region" />
     </organization>
 	<participatingOrganization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB" />
+        <reference value="Organization/Example-Organization-SBUHB" />
         <display value="Swansea Bay University Local Health Board" />
     </participatingOrganization>
 	<code>

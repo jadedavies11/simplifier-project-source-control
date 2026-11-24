@@ -100,7 +100,7 @@
 		</coding>
 	</physicalType>
 	<managingOrganization>
-		<reference value="Organization/Example-DataStandardsWales-Organization-GGH"/>
+		<reference value="Organization/Example-Organization-GGH"/>
 		<display value="Glangwili General Hospital"/>
 	</managingOrganization>
 </Location>

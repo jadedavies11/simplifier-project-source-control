@@ -38,7 +38,7 @@
 		</coding>
 	</physicalType>
 	<managingOrganization>
-		<reference value="Organization/Example-DataStandardsWales-Organization-GGH"/>
+		<reference value="Organization/Example-Organization-GGH"/>
 		<identifier>
 			<system value="https://fhir.hduhb.nhs.wales/Id/pas-location-identifier"/>
 			<value value="2105-example"/>
@@ -46,7 +46,7 @@
 		<display value="Glangwili General Hospital"/>
 	</managingOrganization>
 	<partOf>
-		<reference value="Location/Example-DataStandardsWales-Location-GGH"/>
+		<reference value="Location/Example-Location-GGH"/>
 		<display value="Glangwili General Hospital"/>
 	</partOf>
 </Location>

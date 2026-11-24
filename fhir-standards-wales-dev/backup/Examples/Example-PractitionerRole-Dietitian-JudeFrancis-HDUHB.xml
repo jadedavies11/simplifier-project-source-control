@@ -4,10 +4,10 @@
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-PractitionerRole" />
     </meta>
     <practitioner>
-        <reference value="Practitioner/Example-DSW-Practitioner-Dietitian-JudeFrancis" />
+        <reference value="Practitioner/Example-Practitioner-Dietitian-JudeFrancis" />
     </practitioner>
     <organization>
-        <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+        <reference value="Organization/Example-Organization-HDUHB" />
     </organization>
     <code>
         <coding>

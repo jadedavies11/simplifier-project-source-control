@@ -23,7 +23,7 @@
             </coding>
         </type>
         <who>
-            <reference value="Device/Example-DataStandardsWales-Device-WPAS" />
+            <reference value="Device/Example-Device-WPAS" />
             <display value="ABUHB WPAS" />
         </who>
     </agent>
@@ -36,14 +36,14 @@
             </coding>
         </type>
         <who>
-            <reference value="Device/Example-DataStandardsWales-Device-CDRcomponent" />
+            <reference value="Device/Example-Device-CDRcomponent" />
             <display value="HL7 to FHIR conversion engine (CDR)" />
         </who>
     </agent>
     <entity>
         <role value="source" />
         <what>
-            <reference value="DocumentReference/Example-DataStandardsWales-DocumentReference-Provenance" />
+            <reference value="DocumentReference/Example-DocumentReference-Provenance" />
         </what>
     </entity>
 </Provenance>

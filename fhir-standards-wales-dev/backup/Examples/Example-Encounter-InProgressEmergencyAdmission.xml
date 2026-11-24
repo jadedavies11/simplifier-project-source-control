@@ -26,7 +26,7 @@
         </coding>
     </type>
     <subject>
-        <reference value="Patient/Example-DataStandardsWales-Patient-PeterPiper" />
+        <reference value="Patient/Example-Patient-PeterPiper" />
         <display value="PIPER, Peter (NHS: 1192335566)" />
     </subject>
     <participant>
@@ -38,7 +38,7 @@
             </coding>
         </type>
         <individual>
-            <reference value="Practitioner/Example-DataStandardsWales-Practitioner-Doctor" />
+            <reference value="Practitioner/Example-Practitioner-Doctor" />
             <display value="Dr Sally Foster (GMC: 9830222)" />
         </individual>
     </participant>
@@ -56,12 +56,12 @@
     </hospitalization>
     <location>
         <location>
-            <reference value="Location/Example-DataStandardsWales-Location-WardE" />
+            <reference value="Location/Example-Location-WardE" />
             <display value="Ward E (Neath Port Talbot Hospital)" />
         </location>
     </location>
     <serviceProvider>
-        <reference value="Organization/Example-DataStandardsWales-Organization-SBUHB" />
-        <display value="Example-DataStandardsWales-Organization-SBUHB" />
+        <reference value="Organization/Example-Organization-SBUHB" />
+        <display value="Example-Organization-SBUHB" />
     </serviceProvider>
 </Encounter>

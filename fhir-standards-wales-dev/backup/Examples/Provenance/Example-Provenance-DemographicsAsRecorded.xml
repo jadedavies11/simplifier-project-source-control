@@ -52,7 +52,7 @@
             </coding>
         </type>
         <who>
-            <reference value="Device/Example-DataStandardsWales-Device-WPAS" />
+            <reference value="Device/Example-Device-WPAS" />
             <display value="ABUHB WPAS" />
         </who>
     </agent>

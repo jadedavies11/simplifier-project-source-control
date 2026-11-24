@@ -47,7 +47,7 @@
 	</type>
 	<name value="Amman Gwendraeth"/>
 	<partOf>
-		<reference value="Organization/Example-DataStandardsWales-Organization-HDUHB"/>
+		<reference value="Organization/Example-Organization-HDUHB"/>
 		<display value="Hywel Dda University Local Health Board"/>
 	</partOf>
 </Organization>
