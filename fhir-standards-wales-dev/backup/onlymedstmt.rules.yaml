@@ -1,0 +1,5 @@
+# Specify what you want to validate
+
+- action: validate
+  files: 
+    - Examples/Medications/Other/*.xml
