@@ -87,5 +87,5 @@ Guide:
 * Updated Example Index with amended example links, new examples, and additional warnings regarding use.
 * Update Guide pages with amended example links
 * Updated Profile pages with amended example links
-* Updated Naming Convention Guidance page to reflect the changes to Example names
+* Updated Naming Convention Guidance page to reflect Example changes
 * Updated Version Control and Ballot Process page with current status definitions

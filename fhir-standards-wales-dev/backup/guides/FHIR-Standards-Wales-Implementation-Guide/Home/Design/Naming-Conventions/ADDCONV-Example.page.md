@@ -1,8 +1,5 @@
 <b>Filename structure:</b> <span style="color:#0070c0;">[Example]-</span><span style="color:#914829;">[L3L4ResourceType]-</span><span style="color:#c00000;">[Descriptor]</span><span style="color:#7030a0;">{-[Qualifier]}</span><br />
-<b>id structure:</b> <span style="color:#0070c0;">[Example]-</span><span style="color:#914829;">[L3L4ResourceType]-</span><span style="color:#c00000;">[Descriptor]</span><span style="color:#7030a0;">{-[Qualifier]}</span><br />
-<b>reduced length id*:</b> <span style="color:#0070c0;">[Example]-</span><span style="color:#914829;">[L3L4ResourceType]-</span><span style="color:#c00000;">[Descriptor]</span><span style="color:#7030a0;">{-[Qualifier]}</span><br />
-
-<span style="font-size: 0.9em;">*See the [Character Restrictions](#Character-Restrictions) section</span><br /><br />
+<b>id structure:</b> <span style="color:#0070c0;">[Example]-</span><span style="color:#914829;">[L3L4ResourceType]-</span><span style="color:#c00000;">[Descriptor]</span><span style="color:#7030a0;">{-[Qualifier]}</span><br /><br />
 ​
 <b><i>Worked example 1​</i></b><br />
 <span style="font-size: 0.9em;">An example Organization resource for Neath Port Talbot Hospital.</span>
@@ -20,7 +17,7 @@
 		<tr>
 			<th scope="row">id</th>
 			<td>Example-Organization-NPT</td>
-		</tr>	
+		</tr>
 		<tr>
 			<th scope="row">reference</th>
 			<td>Organization/Example-Organization-NPT</td>
@@ -44,10 +41,10 @@
 		<tr>
 			<th scope="row">id</th>
 			<td>Example-MedicationStatement-Bendroflumethiazide-Discharge</td>
-		</tr>	
+		</tr>
 		<tr>
 			<th scope="row">reference</th>
 			<td>MedicationStatement/Example-MedicationStatement-Bendroflumethiazide-Discharge</td>
-		</tr>	
+		</tr>
     </tbody>
 </table>
